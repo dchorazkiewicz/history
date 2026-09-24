@@ -46,6 +46,56 @@
 
   const fmtLife = p => `${fmtYear(p.born.year)} – ${fmtYear(p.died.year)}`;
 
+  const fieldLabels = {
+    philosophy: 'filozofia',
+    ethics: 'etyka',
+    epistemology: 'epistemologia',
+    metaphysics: 'metafizyka',
+    political_philosophy: 'filozofia polityki',
+    logic: 'logika',
+    natural_philosophy: 'filozofia przyrody',
+    biology: 'biologia',
+    politics: 'polityka',
+    rhetoric: 'retoryka',
+    astronomy: 'astronomia',
+    mathematics: 'matematyka',
+    geography: 'geografia',
+    optics: 'optyka',
+    astrology: 'astrologia',
+    physics: 'fizyka',
+    mechanics: 'mechanika',
+    engineering: 'inżynieria',
+    economics: 'ekonomia',
+    canon_law: 'prawo kanoniczne',
+    medicine: 'medycyna',
+    history: 'historia',
+    geometry: 'geometria',
+    theology: 'teologia',
+    law: 'prawo',
+    diplomacy: 'dyplomacja',
+    literature: 'literatura',
+    public_intellectual: 'działalność publiczna'
+  };
+
+  const typeLabels = {
+    dialogue: 'dialog filozoficzny',
+    treatise: 'traktat',
+    mathematical_treatise: 'traktat matematyczny',
+    scientific_treatise: 'traktat naukowy',
+    astronomical_treatise: 'traktat astronomiczny',
+    geography: 'dzieło geograficzne',
+    manuscript: 'rękopis',
+    economic_treatise: 'traktat ekonomiczny',
+    book: 'książka',
+    mathematical_essay: 'esej matematyczny',
+    essay: 'esej',
+    philosophical_tale: 'powiastka filozoficzna',
+    reference_work: 'dzieło encyklopedyczne'
+  };
+
+  const fieldLabel = x => fieldLabels[x] || String(x).replaceAll('_',' ');
+  const typeLabel = x => typeLabels[x] || x || 'dzieło';
+
   async function loadPeople() {
     const manifest = await fetch('./people/index.json').then(r => r.json());
     people = await Promise.all(manifest.people.map(async filename => {
@@ -194,17 +244,22 @@
     els.detailTitle.textContent = p.display_name;
     els.detailDates.textContent = fmtLife(p);
     els.detailSummary.textContent = p.summary || '';
-    els.detailTags.innerHTML = (p.fields || []).map(x => `<span class="tag">${String(x).replaceAll('_',' ')}</span>`).join('');
+    els.detailTags.innerHTML = (p.fields || []).map(x => `<span class="tag">${fieldLabel(x)}</span>`).join('');
     els.detailWorks.innerHTML = (p.works || []).length ? p.works.map(w => `
       <div class="detail-item">
         <strong>${w.title}</strong>
-        <span>${fmtYear(w.year)} · ${w.type || 'dzieło'}${w.posthumous ? ' · pośmiertnie' : ''}</span>
+        ${w.original_title && w.original_title !== w.title ? `<span class="original-title">oryg. ${w.original_title}</span>` : ''}
+        <span>${fmtYear(w.year)} · ${typeLabel(w.type)}${w.posthumous ? ' · wydane pośmiertnie' : ''}</span>
         ${w.dating_note ? `<p>${w.dating_note}</p>` : ''}
         ${w.publication_note ? `<p>${w.publication_note}</p>` : ''}
       </div>
     `).join('') : '<div class="detail-item"><span>Brak zachowanych dzieł własnych w tym rekordzie.</span></div>';
     els.detailIdeas.innerHTML = (p.ideas || []).map(i => `
-      <div class="detail-item"><strong>${i.name}</strong><p>${i.summary || ''}</p></div>
+      <div class="detail-item">
+        <strong>${i.name}</strong>
+        ${i.original_name && i.original_name !== i.name ? `<span class="original-title">oryg. ${i.original_name}</span>` : ''}
+        <p>${i.summary || ''}</p>
+      </div>
     `).join('');
     els.detailSources.innerHTML = (p.sources || []).map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.title}</a>`).join('');
     els.detailPanel.classList.remove('hidden');
@@ -217,6 +272,9 @@
     els.detailTitle.textContent = item.title;
     els.detailDates.textContent = fmtYear(item.year);
     els.detailSummary.textContent = item.summary || item.dating_note || item.publication_note || `Związane z: ${p.display_name}`;
+    if (item.original_title && item.original_title !== item.title) {
+      els.detailTags.innerHTML = `<span class="tag">oryg. ${item.original_title}</span>` + els.detailTags.innerHTML;
+    }
   }
 
   function render(animate = false) {
