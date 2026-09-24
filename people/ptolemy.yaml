@@ -1,0 +1,45 @@
+id: ptolemy
+name: "Claudius Ptolemy"
+display_name: "Klaudiusz Ptolemeusz"
+born:
+  year: 100
+  precision: approximate
+  note: "Life dates are uncertain; commonly given as c. 100–c. 170 CE."
+died:
+  year: 170
+  precision: approximate
+place_association: "Alexandria, Roman Egypt"
+fields: [astronomy, mathematics, geography, optics, astrology]
+image: null
+summary: "Greco-Roman scholar active in Alexandria whose astronomical and geographical syntheses shaped later science for centuries."
+works:
+  - title: "Almagest"
+    year: 150
+    precision: approximate
+    dating_note: "Completed after the Canopic Inscription of 147/148; conventionally placed around 150 CE."
+    type: astronomical_treatise
+  - title: "Tetrabiblos"
+    year: 150
+    precision: approximate
+    type: treatise
+  - title: "Geography"
+    year: 150
+    precision: approximate
+    dating_note: "Usually dated to the mid-2nd century CE."
+    type: geography
+  - title: "Optics"
+    year: 160
+    precision: approximate
+    type: scientific_treatise
+ideas:
+  - name: "Ptolemaic astronomical model"
+    summary: "A mathematically developed geocentric framework using deferents, epicycles and the equant to model planetary motions."
+  - name: "Mathematical cartography"
+    summary: "Systematic use of coordinates and map projections in the Geography."
+sources:
+  - title: "Wikipedia — Almagest"
+    url: "https://en.wikipedia.org/wiki/Almagest"
+  - title: "Wikipedia — Geography (Ptolemy)"
+    url: "https://en.wikipedia.org/wiki/Geography_(Ptolemy)"
+  - title: "Wikipedia — Ptolemy"
+    url: "https://en.wikipedia.org/wiki/Ptolemy"
