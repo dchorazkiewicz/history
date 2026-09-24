@@ -1,12 +1,14 @@
-# People data schema
+# Schemat danych osób
 
-Each person is stored in one YAML file so the future timeline can load people independently.
+Każda osoba ma jeden plik YAML. **Polski jest językiem podstawowym interfejsu**, a wersje oryginalne są przechowywane jako materiał kontrolny.
 
-Conventions:
-- BCE years are negative integers (e.g. 470 BCE = -470).
-- Approximate/uncertain dates use `precision: approximate` and a note.
-- `works[].year` is the publication/composition year when reasonably known; uncertainty is stated explicitly.
-- `events` are timeline-ready biographical or intellectual milestones.
-- `ideas` are concise descriptions for hover/detail panels.
-- `sources` are provenance links used to verify the record.
-- Images are intentionally deferred; `image` is left null until licensing/provenance is handled consistently.
+## Zasady
+- Lata p.n.e. zapisujemy jako liczby ujemne, np. 470 p.n.e. = `-470`.
+- Daty niepewne mają `precision: approximate` oraz polskie objaśnienie w `note`.
+- `summary`, `works[].title`, `ideas[].name`, `ideas[].summary`, `events[].title` i `events[].summary` są po polsku.
+- Tekst źródłowy zachowujemy odpowiednio jako `summary_original`, `original_title`, `original_name`, `summary_original`, `dating_note_original` lub `publication_note_original`.
+- `works[].year` oznacza rok publikacji, napisania lub przybliżonego powstania — zależnie od tego, co historycznie można ustalić. Niepewność opisujemy jawnie.
+- `ideas` zawiera krótkie, edukacyjne objaśnienia idei i koncepcji związanych z daną osobą.
+- `events` zawiera wydarzenia biograficzne i intelektualne nadające się bezpośrednio do osi czasu.
+- `sources` przechowuje źródła używane do kontroli danych.
+- Obrazy są na razie opcjonalne (`image: null`), dopóki nie ustalimy jednolitego sposobu obsługi licencji i pochodzenia.
