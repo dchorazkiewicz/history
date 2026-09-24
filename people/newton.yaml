@@ -21,11 +21,13 @@ summary_original: "English mathematician and natural philosopher whose Principia
 works:
   - title: "Matematyczne zasady filozofii przyrody"
     original_title: "Philosophiæ Naturalis Principia Mathematica"
+    wikipedia: "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica"
     year: 1687
     precision: year
     type: book
   - title: "Optyka"
     original_title: "Opticks"
+    wikipedia: "https://en.wikipedia.org/wiki/Opticks"
     year: 1704
     precision: year
     type: book
@@ -37,10 +39,12 @@ works:
 ideas:
   - name: "Trzy zasady dynamiki"
     original_name: "Three laws of motion"
+    wikipedia: "https://pl.wikipedia.org/wiki/Zasady_dynamiki_Newtona"
     summary: "Systematyczna podstawa mechaniki klasycznej opisująca związek między ruchem, siłą i bezwładnością."
     summary_original: "A systematic foundation for classical mechanics."
   - name: "Prawo powszechnego ciążenia"
     original_name: "Universal gravitation"
+    wikipedia: "https://pl.wikipedia.org/wiki/Prawo_powszechnego_ci%C4%85%C5%BCenia"
     summary: "Ta sama siła grawitacji o zależności odwrotnej do kwadratu odległości opisuje zjawiska na Ziemi i ruchy ciał niebieskich."
     summary_original: "The same inverse-square gravitational interaction accounts for terrestrial and celestial motions."
   - name: "Rachunek różniczkowy i całkowy / fluksje"
