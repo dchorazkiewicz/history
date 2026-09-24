@@ -4,38 +4,50 @@ display_name: "Klaudiusz Ptolemeusz"
 born:
   year: 100
   precision: approximate
-  note: "Life dates are uncertain; commonly given as c. 100–c. 170 CE."
+  note: "Daty życia są niepewne; zwykle podaje się ok. 100–ok. 170 r. n.e."
+  note_original: "Life dates are uncertain; commonly given as c. 100–c. 170 CE."
 died:
   year: 170
   precision: approximate
-place_association: "Alexandria, Roman Egypt"
+place_association: "Aleksandria, Egipt rzymski"
 fields: [astronomy, mathematics, geography, optics, astrology]
 image: null
-summary: "Greco-Roman scholar active in Alexandria whose astronomical and geographical syntheses shaped later science for centuries."
+summary: "Grecko-rzymski uczony działający w Aleksandrii. Jego syntezy astronomii i geografii przez wiele stuleci silnie wpływały na rozwój nauki."
+summary_original: "Greco-Roman scholar active in Alexandria whose astronomical and geographical syntheses shaped later science for centuries."
 works:
   - title: "Almagest"
+    original_title: "Almagest"
     year: 150
     precision: approximate
-    dating_note: "Completed after the Canopic Inscription of 147/148; conventionally placed around 150 CE."
+    dating_note: "Dzieło ukończono po inskrypcji kanopskiej z 147/148 r.; umownie datuje się je na około 150 r."
+    dating_note_original: "Completed after the Canopic Inscription of 147/148; conventionally placed around 150 CE."
     type: astronomical_treatise
   - title: "Tetrabiblos"
+    original_title: "Tetrabiblos"
     year: 150
     precision: approximate
     type: treatise
-  - title: "Geography"
+  - title: "Geografia"
+    original_title: "Geography"
     year: 150
     precision: approximate
-    dating_note: "Usually dated to the mid-2nd century CE."
+    dating_note: "Zwykle datowana na połowę II wieku n.e."
+    dating_note_original: "Usually dated to the mid-2nd century CE."
     type: geography
-  - title: "Optics"
+  - title: "Optyka"
+    original_title: "Optics"
     year: 160
     precision: approximate
     type: scientific_treatise
 ideas:
-  - name: "Ptolemaic astronomical model"
-    summary: "A mathematically developed geocentric framework using deferents, epicycles and the equant to model planetary motions."
-  - name: "Mathematical cartography"
-    summary: "Systematic use of coordinates and map projections in the Geography."
+  - name: "Ptolemejski model astronomiczny"
+    original_name: "Ptolemaic astronomical model"
+    summary: "Rozbudowany matematyczny model geocentryczny wykorzystujący deferenty, epicykle i ekwant do opisu ruchów planet."
+    summary_original: "A mathematically developed geocentric framework using deferents, epicycles and the equant to model planetary motions."
+  - name: "Kartografia matematyczna"
+    original_name: "Mathematical cartography"
+    summary: "Systematyczne użycie współrzędnych i projekcji kartograficznych w Geografii."
+    summary_original: "Systematic use of coordinates and map projections in the Geography."
 sources:
   - title: "Wikipedia — Almagest"
     url: "https://en.wikipedia.org/wiki/Almagest"
