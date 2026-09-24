@@ -1,0 +1,59 @@
+id: descartes
+name: "René Descartes"
+display_name: "René Descartes (Kartezjusz)"
+born:
+  date: "1596-03-31"
+  year: 1596
+  precision: day
+died:
+  date: "1650-02-11"
+  year: 1650
+  precision: day
+place_association: "France; Dutch Republic; Sweden"
+fields: [philosophy, mathematics, natural_philosophy, optics]
+image: null
+summary: "French philosopher and mathematician central to early modern rationalism, analytic geometry and mechanistic natural philosophy."
+works:
+  - title: "Discourse on the Method"
+    year: 1637
+    precision: year
+    type: book
+  - title: "La Géométrie"
+    year: 1637
+    precision: year
+    type: mathematical_essay
+  - title: "Meditations on First Philosophy"
+    year: 1641
+    precision: year
+    type: book
+  - title: "Principles of Philosophy"
+    year: 1644
+    precision: year
+    type: book
+  - title: "Passions of the Soul"
+    year: 1649
+    precision: year
+    type: book
+  - title: "The World / Treatise on Light"
+    year: 1664
+    precision: year
+    posthumous: true
+    type: book
+ideas:
+  - name: "Methodic doubt"
+    summary: "A strategy of withholding assent from beliefs that can be doubted in order to seek secure foundations."
+  - name: "Cogito"
+    summary: "The thinking subject's existence is presented as indubitable in the act of thinking."
+  - name: "Mind–body dualism"
+    summary: "Mind is characterized by thought and body by extension, creating a central early-modern mind–body problem."
+  - name: "Mechanistic physics"
+    summary: "Natural phenomena are explained through matter, motion and geometrical-mechanical principles."
+events:
+  - year: 1633
+    title: "Withheld The World"
+    summary: "After learning of Galileo's condemnation, Descartes postponed publication of his cosmological treatise."
+sources:
+  - title: "Stanford Encyclopedia of Philosophy — René Descartes"
+    url: "https://plato.stanford.edu/entries/descartes/"
+  - title: "Stanford Encyclopedia of Philosophy — Descartes' Life and Works"
+    url: "https://plato.stanford.edu/entries/descartes-works/"
