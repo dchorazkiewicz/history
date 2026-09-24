@@ -1,0 +1,54 @@
+id: newton
+name: "Isaac Newton"
+display_name: "Isaac Newton"
+born:
+  date: "1643-01-04"
+  year: 1643
+  precision: day
+  note: "Gregorian/New Style date; 25 Dec 1642 in the Julian calendar then used in England."
+died:
+  date: "1727-03-31"
+  year: 1727
+  precision: day
+  note: "Gregorian/New Style date; 20 Mar 1726/27 Old Style."
+place_association: "England"
+fields: [mathematics, physics, astronomy, optics, theology]
+image: null
+summary: "English mathematician and natural philosopher whose Principia unified terrestrial and celestial mechanics and whose work transformed optics and mathematics."
+works:
+  - title: "Philosophiæ Naturalis Principia Mathematica"
+    year: 1687
+    precision: year
+    type: book
+  - title: "Opticks"
+    year: 1704
+    precision: year
+    type: book
+  - title: "Arithmetica Universalis"
+    year: 1707
+    precision: year
+    type: book
+ideas:
+  - name: "Three laws of motion"
+    summary: "A systematic foundation for classical mechanics."
+  - name: "Universal gravitation"
+    summary: "The same inverse-square gravitational interaction accounts for terrestrial and celestial motions."
+  - name: "Calculus / fluxions"
+    summary: "Developed methods of infinitesimal calculation independently of Leibniz, using his own fluxional notation."
+  - name: "Optical theory"
+    summary: "Prism experiments supported the claim that white light is composed of rays with different refrangibility."
+events:
+  - year: 1665
+    precision: approximate
+    title: "Early work on calculus, optics and gravitation"
+    summary: "During the plague years away from Cambridge, Newton developed several foundational lines of research."
+  - year: 1687
+    title: "Publication of Principia"
+    summary: "First edition published with support and encouragement from Edmond Halley."
+sources:
+  - title: "Wikipedia — Isaac Newton"
+    url: "https://en.wikipedia.org/wiki/Isaac_Newton"
+  - title: "Wikipedia — Principia Mathematica"
+    url: "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica"
+  - title: "Wikipedia — Opticks"
+    url: "https://en.wikipedia.org/wiki/Opticks"
