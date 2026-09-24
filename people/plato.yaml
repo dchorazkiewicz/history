@@ -1,0 +1,51 @@
+id: plato
+name: Plato
+display_name: Platon
+born:
+  year: -428
+  precision: approximate
+  note: "Commonly dated 428/427 BCE."
+died:
+  year: -348
+  precision: approximate
+  note: "Commonly dated 348/347 BCE."
+place_association: "Athens"
+fields: [philosophy, ethics, metaphysics, epistemology, political_philosophy]
+image: null
+summary: "Athenian philosopher, student of Socrates and founder of the Academy; his works are mostly philosophical dialogues."
+works:
+  - title: "Apology"
+    year: -399
+    precision: approximate
+    dating_note: "Exact composition date uncertain; written after Socrates' trial."
+    type: dialogue
+  - title: "Republic"
+    year: -375
+    precision: approximate
+    dating_note: "Usually placed in Plato's middle period; exact year uncertain."
+    type: dialogue
+  - title: "Symposium"
+    year: -385
+    precision: approximate
+    dating_note: "Approximate conventional dating."
+    type: dialogue
+  - title: "Timaeus"
+    year: -360
+    precision: approximate
+    dating_note: "Approximate conventional dating."
+    type: dialogue
+ideas:
+  - name: "Theory of Forms"
+    summary: "The intelligible Forms provide stable objects of knowledge beyond changing sensible particulars."
+  - name: "Philosopher-ruler"
+    summary: "In the Republic, political order is connected with philosophical knowledge and education."
+events:
+  - year: -387
+    precision: approximate
+    title: "Foundation of the Academy"
+    summary: "Plato established the Academy at Athens; the exact founding year is approximate."
+sources:
+  - title: "Routledge Encyclopedia of Philosophy — Plato"
+    url: "https://www.rep.routledge.com/articles/biographical/plato-427-347-bc/v-1"
+  - title: "Wikipedia — Plato"
+    url: "https://en.wikipedia.org/wiki/Plato"
