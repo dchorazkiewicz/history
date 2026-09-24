@@ -123,7 +123,11 @@
     els.peopleList.innerHTML = people.map(p => `
       <label class="person-option">
         <input type="checkbox" value="${p.id}">
-        <span><strong>${p.display_name}</strong><small>${fmtLife(p)}</small></span>
+        <span>
+          <strong>${p.display_name}</strong>
+          <small>${fmtLife(p)}</small>
+          <small class="person-stats">${(p.works || []).length} ${(p.works || []).length === 1 ? 'dzieło' : 'dzieł'} · ${(p.ideas || []).length} ${(p.ideas || []).length === 1 ? 'idea' : 'idee'}</small>
+        </span>
       </label>
     `).join('');
     els.peopleList.addEventListener('change', e => {
