@@ -1,0 +1,57 @@
+id: aristotle
+name: Aristotle
+display_name: Arystoteles
+born:
+  year: -384
+  precision: year
+died:
+  year: -322
+  precision: year
+place_association: "Stagira; Athens"
+fields: [philosophy, logic, natural_philosophy, biology, ethics, politics, rhetoric]
+image: null
+summary: "Greek philosopher and polymath, student of Plato and founder of the Peripatetic school at the Lyceum."
+works:
+  - title: "Physics"
+    year: -350
+    precision: approximate
+    dating_note: "Surviving Aristotelian treatises are difficult to date precisely."
+    type: treatise
+  - title: "Metaphysics"
+    year: -340
+    precision: approximate
+    dating_note: "Composite work; exact chronology uncertain."
+    type: treatise
+  - title: "Nicomachean Ethics"
+    year: -340
+    precision: approximate
+    type: treatise
+  - title: "Politics"
+    year: -335
+    precision: approximate
+    type: treatise
+  - title: "Poetics"
+    year: -335
+    precision: approximate
+    type: treatise
+ideas:
+  - name: "Syllogistic logic"
+    summary: "A systematic theory of deductive inference developed in works later grouped as the Organon."
+  - name: "Four causes"
+    summary: "Explanation in terms of material, formal, efficient and final causes."
+  - name: "Hylomorphism"
+    summary: "Physical substances are understood through the inseparable principles of matter and form."
+events:
+  - year: -367
+    precision: approximate
+    title: "Entered Plato's Academy"
+    summary: "Joined the Academy in Athens as a young man."
+  - year: -335
+    precision: approximate
+    title: "Founded the Lyceum"
+    summary: "Established his school in Athens after returning from Macedonia."
+sources:
+  - title: "Wikipedia — Aristotle"
+    url: "https://en.wikipedia.org/wiki/Aristotle"
+  - title: "Stanford Encyclopedia of Philosophy — Aristotle"
+    url: "https://plato.stanford.edu/entries/aristotle/"
