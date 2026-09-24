@@ -26,9 +26,8 @@
   <main>
     <section class="toolbar panel">
       <div class="toolbar-left">
-        <button class="btn primary" id="selectAllBtn">Wybierz wszystkich</button>
-        <button class="btn" id="clearBtn">Wyczyść</button>
-        <button class="btn" id="fitBtn">Dopasuj zaznaczonych</button>
+        <button class="btn" id="clearBtn">Wyczyść wybór</button>
+        <button class="btn primary" id="fitBtn">Dopasuj zaznaczonych</button>
       </div>
       <div class="toolbar-right">
         <button class="icon-btn" id="zoomOutBtn" aria-label="Oddal">−</button>
@@ -46,7 +45,31 @@
           </div>
           <span id="selectedCount" class="count-pill">0</span>
         </div>
-        <div id="peopleList" class="people-list"></div>
+        <div class="people-search-wrap">
+          <label class="search-label" for="peopleSearch">Dodaj osobę</label>
+          <div class="search-box">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <input id="peopleSearch" type="search" autocomplete="off" placeholder="Nazwisko, dzieło, idea…" />
+            <button id="clearSearch" class="search-clear" aria-label="Wyczyść wyszukiwanie">×</button>
+          </div>
+          <div class="search-hint">Lista jest tworzona automatycznie z plików <code>people/*.yaml</code>.</div>
+        </div>
+
+        <div class="selector-section">
+          <div class="selector-title">
+            <span>Wybrane</span>
+            <span id="selectedMiniCount">0</span>
+          </div>
+          <div id="selectedPeople" class="selected-people"></div>
+        </div>
+
+        <div class="selector-section results-section">
+          <div class="selector-title">
+            <span id="resultsLabel">Osoby</span>
+            <span id="resultsCount"></span>
+          </div>
+          <div id="peopleResults" class="people-results"></div>
+        </div>
       </aside>
 
       <section class="timeline-panel panel">
