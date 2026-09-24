@@ -4,24 +4,32 @@ display_name: Sokrates
 born:
   year: -470
   precision: approximate
-  note: "Often dated c. 470/469 BCE."
+  note: "Najczęściej datowany na ok. 470/469 r. p.n.e."
+  note_original: "Often dated c. 470/469 BCE."
 died:
   year: -399
   precision: year
-place_association: "Athens"
+place_association: "Ateny"
 fields: [philosophy, ethics, epistemology]
 image: null
-summary: "Athenian philosopher known primarily through Plato, Xenophon and other ancient witnesses; he left no writings of his own."
+summary: "Ateński filozof znany przede wszystkim z pism Platona, Ksenofonta i innych starożytnych świadków. Sam nie pozostawił po sobie żadnych pism."
+summary_original: "Athenian philosopher known primarily through Plato, Xenophon and other ancient witnesses; he left no writings of his own."
 works: []
 ideas:
-  - name: "Socratic method"
-    summary: "Inquiry through disciplined questioning, testing definitions and exposing contradictions."
-  - name: "Ethical intellectualism"
-    summary: "A strong connection between knowledge, virtue and right action in many Socratic sources."
+  - name: "Metoda sokratejska"
+    original_name: "Socratic method"
+    summary: "Sposób dociekania oparty na uporządkowanym zadawaniu pytań, sprawdzaniu definicji i ujawnianiu sprzeczności."
+    summary_original: "Inquiry through disciplined questioning, testing definitions and exposing contradictions."
+  - name: "Intelektualizm etyczny"
+    original_name: "Ethical intellectualism"
+    summary: "W wielu źródłach sokratejskich wiedza, cnota i właściwe działanie są ze sobą ściśle powiązane."
+    summary_original: "A strong connection between knowledge, virtue and right action in many Socratic sources."
 events:
   - year: -399
-    title: "Trial and death"
-    summary: "Tried in Athens on charges including impiety and corrupting the youth; condemned to death."
+    title: "Proces i śmierć"
+    original_title: "Trial and death"
+    summary: "Sokrates został osądzony w Atenach m.in. za bezbożność i psucie młodzieży, a następnie skazany na śmierć."
+    summary_original: "Tried in Athens on charges including impiety and corrupting the youth; condemned to death."
 sources:
   - title: "Stanford Encyclopedia of Philosophy — Socrates"
     url: "https://plato.stanford.edu/entries/socrates/"
