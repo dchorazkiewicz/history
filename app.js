@@ -363,30 +363,136 @@
   }
   const hideTooltip = () => tooltip.classList.remove('show');
 
+  const wikiCache = new Map();
+
+  function wikipediaSearchUrl(lang, query) {
+    return `https://${lang}.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(query)}`;
+  }
+
+  async function resolveWikipedia(plQuery, enQuery, explicitUrl = null) {
+    if (explicitUrl) {
+      const lang = explicitUrl.includes('pl.wikipedia.org') ? 'PL'
+        : explicitUrl.includes('en.wikipedia.org') ? 'EN' : '';
+      return { url: explicitUrl, lang };
+    }
+
+    const key = `${plQuery}||${enQuery}`;
+    if (wikiCache.has(key)) return wikiCache.get(key);
+
+    const promise = (async () => {
+      for (const [lang, query] of [['pl', plQuery], ['en', enQuery || plQuery]]) {
+        if (!query) continue;
+        try {
+          const api = `https://${lang}.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query)}&srlimit=1&format=json&origin=*`;
+          const response = await fetch(api);
+          if (!response.ok) continue;
+          const data = await response.json();
+          const hit = data?.query?.search?.[0];
+          if (hit?.title) {
+            return {
+              url: `https://${lang}.wikipedia.org/wiki/${encodeURIComponent(hit.title.replaceAll(' ', '_'))}`,
+              lang: lang.toUpperCase()
+            };
+          }
+        } catch (err) {
+          console.warn('Wikipedia lookup failed', lang, query, err);
+        }
+      }
+      return {
+        url: wikipediaSearchUrl('pl', plQuery || enQuery || ''),
+        lang: 'PL'
+      };
+    })();
+
+    wikiCache.set(key, promise);
+    return promise;
+  }
+
+  function wikiAnchor(plQuery, enQuery, explicitUrl = null, label = 'Wikipedia') {
+    const attrs = [
+      `data-wiki-pl="${encodeURIComponent(plQuery || '')}"`,
+      `data-wiki-en="${encodeURIComponent(enQuery || plQuery || '')}"`
+    ];
+    if (explicitUrl) attrs.push(`data-wiki-url="${encodeURIComponent(explicitUrl)}"`);
+
+    return `<a class="resource-link wiki-resolve" href="${wikipediaSearchUrl('pl', plQuery || enQuery || '')}" target="_blank" rel="noopener" ${attrs.join(' ')}>${label}…</a>`;
+  }
+
+  async function hydrateWikiLinks(root) {
+    const scope = root || document;
+    const links = [...scope.querySelectorAll('.wiki-resolve')];
+    await Promise.all(links.map(async link => {
+      const plQuery = decodeURIComponent(link.dataset.wikiPl || '');
+      const enQuery = decodeURIComponent(link.dataset.wikiEn || plQuery);
+      const explicitUrl = link.dataset.wikiUrl ? decodeURIComponent(link.dataset.wikiUrl) : null;
+      const resolved = await resolveWikipedia(plQuery, enQuery, explicitUrl);
+      link.href = resolved.url;
+      link.textContent = `Wikipedia ${resolved.lang || ''} ↗`.trim();
+      link.classList.remove('wiki-resolve');
+    }));
+  }
+
+  function explicitWiki(item) {
+    return item?.wikipedia || item?.wikipedia_url || null;
+  }
+
   function openPerson(p) {
     els.detailType.textContent = 'OSOBA';
     els.detailTitle.textContent = p.display_name;
     els.detailDates.textContent = fmtLife(p);
     els.detailSummary.textContent = p.summary || '';
-    els.detailTags.innerHTML = (p.fields || []).map(x => `<span class="tag">${fieldLabel(x)}</span>`).join('');
-    els.detailWorks.innerHTML = (p.works || []).length ? p.works.map(w => `
-      <div class="detail-item">
-        <strong>${w.title}</strong>
-        ${w.original_title && w.original_title !== w.title ? `<span class="original-title">oryg. ${w.original_title}</span>` : ''}
-        <span>${fmtYear(w.year)} · ${typeLabel(w.type)}${w.posthumous ? ' · wydane pośmiertnie' : ''}</span>
-        ${w.dating_note ? `<p>${w.dating_note}</p>` : ''}
-        ${w.publication_note ? `<p>${w.publication_note}</p>` : ''}
-      </div>
-    `).join('') : '<div class="detail-item"><span>Brak zachowanych dzieł własnych w tym rekordzie.</span></div>';
-    els.detailIdeas.innerHTML = (p.ideas || []).map(i => `
-      <div class="detail-item">
-        <strong>${i.name}</strong>
-        ${i.original_name && i.original_name !== i.name ? `<span class="original-title">oryg. ${i.original_name}</span>` : ''}
-        <p>${i.summary || ''}</p>
-      </div>
-    `).join('');
-    els.detailSources.innerHTML = (p.sources || []).map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.title}</a>`).join('');
+
+    const personWiki = wikiAnchor(
+      p.display_name,
+      p.name || p.display_name,
+      explicitWiki(p),
+      'Wikipedia'
+    );
+
+    els.detailTags.innerHTML =
+      (p.fields || []).map(x => `<span class="tag">${fieldLabel(x)}</span>`).join('') +
+      `<span class="resource-inline">${personWiki}</span>`;
+
+    els.detailWorks.innerHTML = (p.works || []).length ? p.works.map(w => {
+      const plQuery = `${w.title} ${p.display_name}`;
+      const enQuery = `${w.original_title || w.title} ${p.name || p.display_name}`;
+      return `
+        <div class="detail-item">
+          <strong>${w.title}</strong>
+          ${w.original_title && w.original_title !== w.title ? `<span class="original-title">oryg. ${w.original_title}</span>` : ''}
+          <span>${fmtYear(w.year)} · ${typeLabel(w.type)}${w.posthumous ? ' · wydane pośmiertnie' : ''}</span>
+          ${w.dating_note ? `<p>${w.dating_note}</p>` : ''}
+          ${w.publication_note ? `<p>${w.publication_note}</p>` : ''}
+          <div class="resource-row">
+            ${wikiAnchor(plQuery, enQuery, explicitWiki(w))}
+            ${(w.links || []).map(link => `<a class="resource-link" href="${link.url}" target="_blank" rel="noopener">${link.title || 'Źródło'} ↗</a>`).join('')}
+          </div>
+        </div>
+      `;
+    }).join('') : '<div class="detail-item"><span>Brak zachowanych dzieł własnych w tym rekordzie.</span></div>';
+
+    els.detailIdeas.innerHTML = (p.ideas || []).map(i => {
+      const plQuery = `${i.name} ${p.display_name}`;
+      const enQuery = `${i.original_name || i.name} ${p.name || p.display_name}`;
+      return `
+        <div class="detail-item">
+          <strong>${i.name}</strong>
+          ${i.original_name && i.original_name !== i.name ? `<span class="original-title">oryg. ${i.original_name}</span>` : ''}
+          <p>${i.summary || ''}</p>
+          <div class="resource-row">
+            ${wikiAnchor(plQuery, enQuery, explicitWiki(i))}
+            ${(i.links || []).map(link => `<a class="resource-link" href="${link.url}" target="_blank" rel="noopener">${link.title || 'Źródło'} ↗</a>`).join('')}
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    els.detailSources.innerHTML = (p.sources || []).map(source =>
+      `<a class="source-link" href="${source.url}" target="_blank" rel="noopener">${source.title} ↗</a>`
+    ).join('');
+
     els.detailPanel.classList.remove('hidden');
+    hydrateWikiLinks(els.detailPanel);
     els.detailPanel.scrollIntoView({ behavior:'smooth', block:'nearest' });
   }
 
@@ -399,6 +505,11 @@
     if (item.original_title && item.original_title !== item.title) {
       els.detailTags.innerHTML = `<span class="tag">oryg. ${item.original_title}</span>` + els.detailTags.innerHTML;
     }
+
+    const plQuery = `${item.title} ${p.display_name}`;
+    const enQuery = `${item.original_title || item.title} ${p.name || p.display_name}`;
+    els.detailTags.innerHTML += `<span class="resource-inline">${wikiAnchor(plQuery, enQuery, explicitWiki(item), 'Wikipedia')}</span>`;
+    hydrateWikiLinks(els.detailPanel);
   }
 
   function render(animate = false) {
