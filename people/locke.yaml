@@ -1,0 +1,54 @@
+id: locke
+name: "John Locke"
+display_name: "John Locke"
+born:
+  date: "1632-08-29"
+  year: 1632
+  precision: day
+died:
+  date: "1704-10-28"
+  year: 1704
+  precision: day
+place_association: "England; Dutch Republic"
+fields: [philosophy, epistemology, political_philosophy, medicine, economics]
+image: null
+summary: "English philosopher and physician associated with empiricism, theories of knowledge, toleration, natural rights and government by consent."
+works:
+  - title: "A Letter Concerning Toleration"
+    year: 1689
+    precision: year
+    type: book
+  - title: "Two Treatises of Government"
+    year: 1689
+    precision: year
+    dating_note: "Published anonymously in 1689, commonly dated 1690 on the title page."
+    type: book
+  - title: "An Essay Concerning Human Understanding"
+    year: 1689
+    precision: year
+    dating_note: "First appeared in 1689, title page dated 1690."
+    type: book
+  - title: "Some Thoughts Concerning Education"
+    year: 1693
+    precision: year
+    type: book
+  - title: "The Reasonableness of Christianity"
+    year: 1695
+    precision: year
+    type: book
+ideas:
+  - name: "Empiricism"
+    summary: "Human knowledge begins from experience rather than innate speculative principles."
+  - name: "Primary and secondary qualities"
+    summary: "Distinguishes qualities attributed to bodies themselves from powers to produce sensations in perceivers."
+  - name: "Government by consent"
+    summary: "Legitimate political authority depends on consent, with political power limited by rights and purposes."
+  - name: "Religious toleration"
+    summary: "Argued for broad toleration and against coercion of belief, with historically important qualifications."
+sources:
+  - title: "Wikipedia — John Locke"
+    url: "https://en.wikipedia.org/wiki/John_Locke"
+  - title: "Wikipedia — An Essay Concerning Human Understanding"
+    url: "https://en.wikipedia.org/wiki/An_Essay_Concerning_Human_Understanding"
+  - title: "Wikipedia — Two Treatises of Government"
+    url: "https://en.wikipedia.org/wiki/Two_Treatises_of_Government"
