@@ -24,6 +24,9 @@ works:
     type: book
   - title: "Elementy filozofii Newtona"
     original_title: "Éléments de la philosophie de Newton"
+    links:
+      - title: "Voltaire Foundation — opis dzieła"
+        url: "https://www.voltaire.ox.ac.uk/publication/el%C3%A9ments-de-la-philosophie-de-newton/"
     year: 1738
     precision: year
     type: book
