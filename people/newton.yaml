@@ -5,46 +5,64 @@ born:
   date: "1643-01-04"
   year: 1643
   precision: day
-  note: "Gregorian/New Style date; 25 Dec 1642 in the Julian calendar then used in England."
+  note: "Data według kalendarza gregoriańskiego; w używanym wówczas w Anglii kalendarzu juliańskim był to 25 grudnia 1642 r."
+  note_original: "Gregorian/New Style date; 25 Dec 1642 in the Julian calendar then used in England."
 died:
   date: "1727-03-31"
   year: 1727
   precision: day
-  note: "Gregorian/New Style date; 20 Mar 1726/27 Old Style."
-place_association: "England"
+  note: "Data według kalendarza gregoriańskiego; według starego stylu był to 20 marca 1726/27."
+  note_original: "Gregorian/New Style date; 20 Mar 1726/27 Old Style."
+place_association: "Anglia"
 fields: [mathematics, physics, astronomy, optics, theology]
 image: null
-summary: "English mathematician and natural philosopher whose Principia unified terrestrial and celestial mechanics and whose work transformed optics and mathematics."
+summary: "Angielski matematyk i filozof przyrody. W Principiach połączył mechanikę ziemską i niebieską, a jego prace gruntownie zmieniły optykę i matematykę."
+summary_original: "English mathematician and natural philosopher whose Principia unified terrestrial and celestial mechanics and whose work transformed optics and mathematics."
 works:
-  - title: "Philosophiæ Naturalis Principia Mathematica"
+  - title: "Matematyczne zasady filozofii przyrody"
+    original_title: "Philosophiæ Naturalis Principia Mathematica"
     year: 1687
     precision: year
     type: book
-  - title: "Opticks"
+  - title: "Optyka"
+    original_title: "Opticks"
     year: 1704
     precision: year
     type: book
-  - title: "Arithmetica Universalis"
+  - title: "Arytmetyka uniwersalna"
+    original_title: "Arithmetica Universalis"
     year: 1707
     precision: year
     type: book
 ideas:
-  - name: "Three laws of motion"
-    summary: "A systematic foundation for classical mechanics."
-  - name: "Universal gravitation"
-    summary: "The same inverse-square gravitational interaction accounts for terrestrial and celestial motions."
-  - name: "Calculus / fluxions"
-    summary: "Developed methods of infinitesimal calculation independently of Leibniz, using his own fluxional notation."
-  - name: "Optical theory"
-    summary: "Prism experiments supported the claim that white light is composed of rays with different refrangibility."
+  - name: "Trzy zasady dynamiki"
+    original_name: "Three laws of motion"
+    summary: "Systematyczna podstawa mechaniki klasycznej opisująca związek między ruchem, siłą i bezwładnością."
+    summary_original: "A systematic foundation for classical mechanics."
+  - name: "Prawo powszechnego ciążenia"
+    original_name: "Universal gravitation"
+    summary: "Ta sama siła grawitacji o zależności odwrotnej do kwadratu odległości opisuje zjawiska na Ziemi i ruchy ciał niebieskich."
+    summary_original: "The same inverse-square gravitational interaction accounts for terrestrial and celestial motions."
+  - name: "Rachunek różniczkowy i całkowy / fluksje"
+    original_name: "Calculus / fluxions"
+    summary: "Newton rozwinął metody rachunku nieskończenie małych niezależnie od Leibniza, używając własnego języka fluksji."
+    summary_original: "Developed methods of infinitesimal calculation independently of Leibniz, using his own fluxional notation."
+  - name: "Teoria optyczna"
+    original_name: "Optical theory"
+    summary: "Doświadczenia z pryzmatami wspierały tezę, że światło białe składa się z promieni o różnej łamliwości."
+    summary_original: "Prism experiments supported the claim that white light is composed of rays with different refrangibility."
 events:
   - year: 1665
     precision: approximate
-    title: "Early work on calculus, optics and gravitation"
-    summary: "During the plague years away from Cambridge, Newton developed several foundational lines of research."
+    title: "Wczesne prace nad rachunkiem, optyką i grawitacją"
+    original_title: "Early work on calculus, optics and gravitation"
+    summary: "W latach epidemii, spędzonych poza Cambridge, Newton rozwinął kilka najważniejszych kierunków swoich późniejszych badań."
+    summary_original: "During the plague years away from Cambridge, Newton developed several foundational lines of research."
   - year: 1687
-    title: "Publication of Principia"
-    summary: "First edition published with support and encouragement from Edmond Halley."
+    title: "Publikacja Principiów"
+    original_title: "Publication of Principia"
+    summary: "Pierwsze wydanie ukazało się dzięki wsparciu i zachęcie Edmonda Halleya."
+    summary_original: "First edition published with support and encouragement from Edmond Halley."
 sources:
   - title: "Wikipedia — Isaac Newton"
     url: "https://en.wikipedia.org/wiki/Isaac_Newton"
