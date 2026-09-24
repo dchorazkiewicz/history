@@ -1,0 +1,54 @@
+id: hobbes
+name: "Thomas Hobbes"
+display_name: "Thomas Hobbes"
+born:
+  date: "1588-04-05"
+  year: 1588
+  precision: day
+died:
+  date: "1679-12-04"
+  year: 1679
+  precision: day
+place_association: "England; France"
+fields: [political_philosophy, philosophy, history, ethics, geometry, optics]
+image: null
+summary: "English philosopher and political theorist best known for a materialist philosophy and a powerful account of political authority and social contract."
+works:
+  - title: "The Elements of Law"
+    year: 1640
+    precision: year
+    type: treatise
+  - title: "De Cive"
+    year: 1642
+    precision: year
+    type: book
+  - title: "Leviathan"
+    year: 1651
+    precision: year
+    type: book
+  - title: "De Corpore"
+    year: 1655
+    precision: year
+    type: book
+  - title: "De Homine"
+    year: 1658
+    precision: year
+    type: book
+ideas:
+  - name: "State of nature"
+    summary: "A thought experiment describing human life without a common political authority."
+  - name: "Social contract"
+    summary: "Political authority is explained through covenant and authorization aimed at securing peace."
+  - name: "Materialism"
+    summary: "Hobbes sought explanations grounded in bodies and motion, including in psychology and politics."
+events:
+  - year: 1651
+    title: "Publication of Leviathan"
+    summary: "Published during the final phase of the English Civil War."
+sources:
+  - title: "Wikipedia — Thomas Hobbes"
+    url: "https://en.wikipedia.org/wiki/Thomas_Hobbes"
+  - title: "Wikipedia — Leviathan"
+    url: "https://en.wikipedia.org/wiki/Leviathan_(Hobbes_book)"
+  - title: "Stanford Encyclopedia of Philosophy — Hobbes"
+    url: "https://plato.stanford.edu/entries/hobbes/"
