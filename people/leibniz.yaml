@@ -1,0 +1,60 @@
+id: leibniz
+name: "Gottfried Wilhelm Leibniz"
+display_name: "Gottfried Wilhelm Leibniz"
+born:
+  date: "1646-07-01"
+  year: 1646
+  precision: day
+  note: "New Style date; 21 June Old Style."
+died:
+  date: "1716-11-14"
+  year: 1716
+  precision: day
+place_association: "Leipzig; Mainz; Hanover"
+fields: [philosophy, mathematics, logic, law, diplomacy, history]
+image: null
+summary: "German polymath who independently developed differential and integral calculus and made major contributions to logic, metaphysics and computation."
+works:
+  - title: "Meditations on Knowledge, Truth, and Ideas"
+    year: 1684
+    precision: year
+    type: essay
+  - title: "Discourse on Metaphysics"
+    year: 1686
+    precision: year
+    publication_note: "Composed in 1686 but not published in full until the 19th century."
+    type: treatise
+  - title: "New System of the Nature and Communication of Substances"
+    year: 1695
+    precision: year
+    type: essay
+  - title: "New Essays on Human Understanding"
+    year: 1704
+    precision: year
+    publication_note: "Completed in 1704; published posthumously in 1765."
+    type: book
+  - title: "Theodicy"
+    year: 1710
+    precision: year
+    type: book
+  - title: "Monadology"
+    year: 1714
+    precision: year
+    publication_note: "Written in 1714; first published after Leibniz's death."
+    type: treatise
+ideas:
+  - name: "Differential and integral calculus"
+    summary: "Developed independently of Newton, with notation that became foundational for modern calculus."
+  - name: "Monads"
+    summary: "Metaphysical simple substances used to account for unity, perception and change."
+  - name: "Principle of sufficient reason"
+    summary: "Nothing is the case without a sufficient reason why it is so rather than otherwise."
+  - name: "Binary arithmetic"
+    summary: "Developed and promoted a systematic binary numeral system and its conceptual significance."
+sources:
+  - title: "Stanford Encyclopedia of Philosophy — Leibniz"
+    url: "https://plato.stanford.edu/entries/leibniz/"
+  - title: "Wikipedia — Gottfried Wilhelm Leibniz"
+    url: "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+  - title: "Wikipedia — Monadology"
+    url: "https://en.wikipedia.org/wiki/Monadology"
