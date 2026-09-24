@@ -9,50 +9,68 @@ died:
   date: "1778-05-30"
   year: 1778
   precision: day
-place_association: "France; England; Prussia; Geneva/Ferney"
+place_association: "Francja; Anglia; Prusy; Genewa/Ferney"
 fields: [philosophy, literature, history, natural_philosophy, public_intellectual]
 image: null
-summary: "French Enlightenment writer and philosopher who also played a major role in popularizing Newtonian natural philosophy in France."
+summary: "Francuski pisarz i filozof Oświecenia, który odegrał także ważną rolę w popularyzacji newtonowskiej filozofii przyrody we Francji."
+summary_original: "French Enlightenment writer and philosopher who also played a major role in popularizing Newtonian natural philosophy in France."
 works:
-  - title: "Letters Concerning the English Nation / Lettres philosophiques"
+  - title: "Listy o Anglikach / Listy filozoficzne"
+    original_title: "Letters Concerning the English Nation / Lettres philosophiques"
     year: 1733
     precision: year
-    dating_note: "English edition 1733; French edition 1734."
+    dating_note: "Wydanie angielskie ukazało się w 1733 r., a francuskie w 1734 r."
+    dating_note_original: "English edition 1733; French edition 1734."
     type: book
-  - title: "Éléments de la philosophie de Newton"
+  - title: "Elementy filozofii Newtona"
+    original_title: "Éléments de la philosophie de Newton"
     year: 1738
     precision: year
     type: book
   - title: "Zadig"
+    original_title: "Zadig"
     year: 1747
     precision: year
     type: philosophical_tale
-  - title: "Candide"
+  - title: "Kandyd"
+    original_title: "Candide"
     year: 1759
     precision: year
     type: philosophical_tale
-  - title: "Traité sur la tolérance"
+  - title: "Traktat o tolerancji"
+    original_title: "Traité sur la tolérance"
     year: 1763
     precision: year
     type: treatise
-  - title: "Dictionnaire philosophique"
+  - title: "Słownik filozoficzny"
+    original_title: "Dictionnaire philosophique"
     year: 1764
     precision: year
     type: reference_work
 ideas:
-  - name: "Newtonianism in France"
-    summary: "Presented Newton's physics and natural philosophy to a broad French-reading public and argued against dominant Cartesian models."
-  - name: "Religious toleration"
-    summary: "Critiqued persecution and defended civil toleration in major interventions such as the Traité sur la tolérance."
-  - name: "Critique of dogmatism"
-    summary: "Used history, satire, polemic and philosophical tales to challenge metaphysical, ecclesiastical and political dogmatism."
+  - name: "Newtonizm we Francji"
+    original_name: "Newtonianism in France"
+    summary: "Voltaire przedstawiał fizykę i filozofię przyrody Newtona szerokiej francuskojęzycznej publiczności oraz polemizował z dominującymi modelami kartezjańskimi."
+    summary_original: "Presented Newton's physics and natural philosophy to a broad French-reading public and argued against dominant Cartesian models."
+  - name: "Tolerancja religijna"
+    original_name: "Religious toleration"
+    summary: "Krytykował prześladowania religijne i bronił tolerancji obywatelskiej, m.in. w Traktacie o tolerancji."
+    summary_original: "Critiqued persecution and defended civil toleration in major interventions such as the Traité sur la tolérance."
+  - name: "Krytyka dogmatyzmu"
+    original_name: "Critique of dogmatism"
+    summary: "Wykorzystywał historię, satyrę, polemikę i powiastkę filozoficzną do podważania dogmatyzmu metafizycznego, kościelnego i politycznego."
+    summary_original: "Used history, satire, polemic and philosophical tales to challenge metaphysical, ecclesiastical and political dogmatism."
 events:
   - year: 1726
-    title: "Exile in England"
-    summary: "Spent roughly 1726–1729 in England, where he encountered English political institutions and the thought of Locke and Newton."
+    title: "Pobyt na wygnaniu w Anglii"
+    original_title: "Exile in England"
+    summary: "W latach około 1726–1729 przebywał w Anglii, gdzie zetknął się z angielskimi instytucjami politycznymi oraz myślą Locke'a i Newtona."
+    summary_original: "Spent roughly 1726–1729 in England, where he encountered English political institutions and the thought of Locke and Newton."
   - year: 1738
-    title: "Publication of Éléments de la philosophie de Newton"
-    summary: "A major work of scientific exposition associated with Voltaire's campaign for Newtonian ideas in France."
+    title: "Publikacja Elementów filozofii Newtona"
+    original_title: "Publication of Éléments de la philosophie de Newton"
+    summary: "Jedno z najważniejszych dzieł popularyzujących naukę Newtona i newtonizm we Francji."
+    summary_original: "A major work of scientific exposition associated with Voltaire's campaign for Newtonian ideas in France."
 sources:
   - title: "Stanford Encyclopedia of Philosophy — Voltaire"
     url: "https://plato.stanford.edu/entries/voltaire/"
