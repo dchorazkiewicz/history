@@ -1,6 +1,12 @@
 (() => {
   const els = {
-    peopleList: document.querySelector('#peopleList'),
+    peopleSearch: document.querySelector('#peopleSearch'),
+    clearSearch: document.querySelector('#clearSearch'),
+    selectedPeople: document.querySelector('#selectedPeople'),
+    peopleResults: document.querySelector('#peopleResults'),
+    selectedMiniCount: document.querySelector('#selectedMiniCount'),
+    resultsLabel: document.querySelector('#resultsLabel'),
+    resultsCount: document.querySelector('#resultsCount'),
     selectedCount: document.querySelector('#selectedCount'),
     peopleCount: document.querySelector('#peopleCount'),
     svg: d3.select('#timelineSvg'),
@@ -11,7 +17,6 @@
     fitBtn: document.querySelector('#fitBtn'),
     zoomInBtn: document.querySelector('#zoomInBtn'),
     zoomOutBtn: document.querySelector('#zoomOutBtn'),
-    selectAllBtn: document.querySelector('#selectAllBtn'),
     clearBtn: document.querySelector('#clearBtn'),
     detailPanel: document.querySelector('#detailPanel'),
     detailType: document.querySelector('#detailType'),
@@ -96,12 +101,30 @@
   const fieldLabel = x => fieldLabels[x] || String(x).replaceAll('_',' ');
   const typeLabel = x => typeLabels[x] || x || 'dzieło';
 
-  async function loadPeople() {
-    const manifest = await fetch('./people/index.json').then(r => r.json());
-    people = await Promise.all(manifest.people.map(async filename => {
-      const text = await fetch('./people/' + filename).then(r => r.text());
+  async function loadPeopleData() {
+    // Production path: one generated catalog, regardless of whether there are
+    // 20 or 2000 YAML files. The deploy workflow rebuilds it automatically.
+    try {
+      const response = await fetch('./people/catalog.json', { cache: 'no-store' });
+      if (response.ok) {
+        const catalog = await response.json();
+        if (Array.isArray(catalog.people)) return catalog.people;
+      }
+    } catch (err) {
+      console.warn('catalog.json unavailable, using YAML fallback', err);
+    }
+
+    // Local/development fallback.
+    const manifest = await fetch('./people/index.json', { cache: 'no-store' }).then(r => r.json());
+    return Promise.all(manifest.people.map(async filename => {
+      const text = await fetch('./people/' + filename, { cache: 'no-store' }).then(r => r.text());
       return jsyaml.load(text);
     }));
+  }
+
+  async function loadPeople() {
+    people = await loadPeopleData();
+    people = people.filter(p => p && p.id && p.born && p.died);
     people.sort((a,b) => a.born.year - b.born.year);
     els.peopleCount.textContent = `${people.length} osób`;
     baseDomain = [
@@ -109,51 +132,129 @@
       Math.max(...people.map(p => p.died.year)) + 70
     ];
     currentDomain = [...baseDomain];
-    renderPeopleList();
 
     // A useful first view: Newton, Leibniz, Locke, Voltaire.
-    ['newton','leibniz','locke','voltaire'].forEach(id => selected.add(id));
-    syncChecks();
+    ['newton','leibniz','locke','voltaire'].forEach(id => {
+      if (people.some(p => p.id === id)) selected.add(id);
+    });
+
+    setupPeopleSelector();
+    renderPeopleSelector();
     fitSelected(false);
     initialized = true;
     render();
   }
 
-  function renderPeopleList() {
-    els.peopleList.innerHTML = people.map(p => `
-      <label class="person-option">
-        <input type="checkbox" value="${p.id}">
+  const normalizeText = value => String(value || '')
+    .normalize('NFD')
+    .replace(/[\\u0300-\\u036f]/g, '')
+    .toLocaleLowerCase('pl');
+
+  function searchableText(p) {
+    return normalizeText([
+      p.display_name,
+      p.name,
+      p.place_association,
+      ...(p.fields || []).map(fieldLabel),
+      ...(p.works || []).flatMap(w => [w.title, w.original_title]),
+      ...(p.ideas || []).flatMap(i => [i.name, i.original_name])
+    ].filter(Boolean).join(' '));
+  }
+
+  function workWord(n) {
+    return n === 1 ? 'dzieło' : (n >= 2 && n <= 4 ? 'dzieła' : 'dzieł');
+  }
+
+  function ideaWord(n) {
+    return n === 1 ? 'idea' : (n >= 2 && n <= 4 ? 'idee' : 'idei');
+  }
+
+  function addPerson(id) {
+    const person = people.find(p => p.id === id);
+    if (!person || selected.has(id)) return;
+    selected.add(id);
+    renderPeopleSelector();
+
+    if (person.born.year < currentDomain[0] || person.died.year > currentDomain[1]) {
+      expandDomainToInclude(person, true);
+    } else {
+      render();
+    }
+  }
+
+  function removePerson(id) {
+    if (!selected.has(id)) return;
+    selected.delete(id);
+    renderPeopleSelector();
+    render();
+  }
+
+  function renderPeopleSelector() {
+    const chosen = people
+      .filter(p => selected.has(p.id))
+      .sort((a,b) => a.display_name.localeCompare(b.display_name, 'pl'));
+
+    els.selectedMiniCount.textContent = chosen.length;
+    els.selectedCount.textContent = chosen.length;
+
+    els.selectedPeople.innerHTML = chosen.length ? chosen.map(p => `
+      <button class="selected-person" data-remove-person="${p.id}" title="Usuń z porównania">
         <span>
           <strong>${p.display_name}</strong>
           <small>${fmtLife(p)}</small>
-          <small class="person-stats">${(p.works || []).length} ${(p.works || []).length === 1 ? 'dzieło' : 'dzieł'} · ${(p.ideas || []).length} ${(p.ideas || []).length === 1 ? 'idea' : 'idee'}</small>
         </span>
-      </label>
-    `).join('');
-    els.peopleList.addEventListener('change', e => {
-      if (!e.target.matches('input[type=checkbox]')) return;
-      const id = e.target.value;
-      const person = people.find(p => p.id === id);
+        <span class="selected-remove" aria-hidden="true">×</span>
+      </button>
+    `).join('') : `
+      <div class="selector-empty">Nie wybrano jeszcze żadnej osoby.</div>
+    `;
 
-      if (e.target.checked) {
-        selected.add(id);
-        // If the newly selected life falls outside the current view,
-        // smoothly zoom out just enough to reveal it without destroying context.
-        if (person && (person.born.year < currentDomain[0] || person.died.year > currentDomain[1])) {
-          expandDomainToInclude(person, true);
-        } else {
-          render();
-        }
-      } else {
-        selected.delete(id);
-        render();
-      }
-    });
+    const query = normalizeText(els.peopleSearch.value.trim());
+    const available = people
+      .filter(p => !selected.has(p.id))
+      .filter(p => !query || searchableText(p).includes(query))
+      .sort((a,b) => a.display_name.localeCompare(b.display_name, 'pl'));
+
+    const visible = available.slice(0, 24);
+    els.resultsLabel.textContent = query ? 'Wyniki wyszukiwania' : 'Dodaj kolejną osobę';
+    els.resultsCount.textContent = available.length > visible.length
+      ? `${visible.length} z ${available.length}`
+      : String(available.length);
+
+    els.peopleResults.innerHTML = visible.length ? visible.map(p => {
+      const works = (p.works || []).length;
+      const ideas = (p.ideas || []).length;
+      return `
+        <button class="person-result" data-add-person="${p.id}">
+          <span class="result-main">
+            <strong>${p.display_name}</strong>
+            <small>${fmtLife(p)}</small>
+            <small class="person-stats">${works} ${workWord(works)} · ${ideas} ${ideaWord(ideas)}</small>
+          </span>
+          <span class="result-add" aria-hidden="true">+</span>
+        </button>
+      `;
+    }).join('') : `
+      <div class="selector-empty">${query ? 'Brak pasujących osób.' : 'Wszystkie osoby są już wybrane.'}</div>
+    `;
   }
 
-  function syncChecks() {
-    els.peopleList.querySelectorAll('input[type=checkbox]').forEach(input => {
-      input.checked = selected.has(input.value);
+  function setupPeopleSelector() {
+    els.peopleSearch.addEventListener('input', renderPeopleSelector);
+    els.clearSearch.addEventListener('click', () => {
+      els.peopleSearch.value = '';
+      els.peopleSearch.focus();
+      renderPeopleSelector();
+    });
+
+    els.peopleResults.addEventListener('click', e => {
+      const button = e.target.closest('[data-add-person]');
+      if (button) addPerson(button.dataset.addPerson);
+    });
+
+    els.selectedPeople.addEventListener('click', e => {
+      const button = e.target.closest('[data-remove-person]');
+      if (button) removePerson(button.dataset.removePerson);
     });
   }
 
@@ -479,13 +580,10 @@
   els.fitBtn.addEventListener('click', () => fitSelected());
   els.zoomInBtn.addEventListener('click', () => zoom(.72));
   els.zoomOutBtn.addEventListener('click', () => zoom(1.38));
-  els.selectAllBtn.addEventListener('click', () => {
-    people.forEach(p => selected.add(p.id));
-    syncChecks();
-    fitSelected();
-  });
   els.clearBtn.addEventListener('click', () => {
-    selected.clear(); syncChecks(); render();
+    selected.clear();
+    renderPeopleSelector();
+    render();
   });
   els.closeDetails.addEventListener('click', () => els.detailPanel.classList.add('hidden'));
   window.addEventListener('resize', () => initialized && render());
