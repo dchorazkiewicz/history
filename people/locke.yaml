@@ -9,42 +9,58 @@ died:
   date: "1704-10-28"
   year: 1704
   precision: day
-place_association: "England; Dutch Republic"
+place_association: "Anglia; Republika Zjednoczonych Prowincji"
 fields: [philosophy, epistemology, political_philosophy, medicine, economics]
 image: null
-summary: "English philosopher and physician associated with empiricism, theories of knowledge, toleration, natural rights and government by consent."
+summary: "Angielski filozof i lekarz kojarzony z empiryzmem, teorią poznania, tolerancją religijną, prawami naturalnymi i koncepcją rządów opartych na zgodzie rządzonych."
+summary_original: "English philosopher and physician associated with empiricism, theories of knowledge, toleration, natural rights and government by consent."
 works:
-  - title: "A Letter Concerning Toleration"
+  - title: "List o tolerancji"
+    original_title: "A Letter Concerning Toleration"
     year: 1689
     precision: year
     type: book
-  - title: "Two Treatises of Government"
+  - title: "Dwa traktaty o rządzie"
+    original_title: "Two Treatises of Government"
     year: 1689
     precision: year
-    dating_note: "Published anonymously in 1689, commonly dated 1690 on the title page."
+    dating_note: "Opublikowane anonimowo w 1689 r.; na karcie tytułowej często widnieje rok 1690."
+    dating_note_original: "Published anonymously in 1689, commonly dated 1690 on the title page."
     type: book
-  - title: "An Essay Concerning Human Understanding"
+  - title: "Rozważania dotyczące rozumu ludzkiego"
+    original_title: "An Essay Concerning Human Understanding"
     year: 1689
     precision: year
-    dating_note: "First appeared in 1689, title page dated 1690."
+    dating_note: "Pierwsze wydanie ukazało się w 1689 r., choć karta tytułowa nosi datę 1690."
+    dating_note_original: "First appeared in 1689, title page dated 1690."
     type: book
-  - title: "Some Thoughts Concerning Education"
+  - title: "Myśli o wychowaniu"
+    original_title: "Some Thoughts Concerning Education"
     year: 1693
     precision: year
     type: book
-  - title: "The Reasonableness of Christianity"
+  - title: "Rozumność chrześcijaństwa"
+    original_title: "The Reasonableness of Christianity"
     year: 1695
     precision: year
     type: book
 ideas:
-  - name: "Empiricism"
-    summary: "Human knowledge begins from experience rather than innate speculative principles."
-  - name: "Primary and secondary qualities"
-    summary: "Distinguishes qualities attributed to bodies themselves from powers to produce sensations in perceivers."
-  - name: "Government by consent"
-    summary: "Legitimate political authority depends on consent, with political power limited by rights and purposes."
-  - name: "Religious toleration"
-    summary: "Argued for broad toleration and against coercion of belief, with historically important qualifications."
+  - name: "Empiryzm"
+    original_name: "Empiricism"
+    summary: "Ludzka wiedza rozpoczyna się od doświadczenia, a nie od wrodzonych zasad spekulatywnych."
+    summary_original: "Human knowledge begins from experience rather than innate speculative principles."
+  - name: "Jakości pierwotne i wtórne"
+    original_name: "Primary and secondary qualities"
+    summary: "Rozróżnienie między cechami przypisywanymi samym rzeczom a ich zdolnością do wywoływania określonych wrażeń w obserwatorze."
+    summary_original: "Distinguishes qualities attributed to bodies themselves from powers to produce sensations in perceivers."
+  - name: "Rządy za zgodą rządzonych"
+    original_name: "Government by consent"
+    summary: "Prawomocna władza polityczna zależy od zgody, a jej zakres ograniczają prawa jednostek i cele, dla których powstało państwo."
+    summary_original: "Legitimate political authority depends on consent, with political power limited by rights and purposes."
+  - name: "Tolerancja religijna"
+    original_name: "Religious toleration"
+    summary: "Locke bronił szerokiej tolerancji religijnej i sprzeciwiał się przymuszaniu ludzi do wiary, choć jego stanowisko miało ważne historyczne ograniczenia."
+    summary_original: "Argued for broad toleration and against coercion of belief, with historically important qualifications."
 sources:
   - title: "Wikipedia — John Locke"
     url: "https://en.wikipedia.org/wiki/John_Locke"
