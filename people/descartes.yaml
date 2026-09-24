@@ -9,49 +9,66 @@ died:
   date: "1650-02-11"
   year: 1650
   precision: day
-place_association: "France; Dutch Republic; Sweden"
+place_association: "Francja; Republika Zjednoczonych Prowincji; Szwecja"
 fields: [philosophy, mathematics, natural_philosophy, optics]
 image: null
-summary: "French philosopher and mathematician central to early modern rationalism, analytic geometry and mechanistic natural philosophy."
+summary: "Francuski filozof i matematyk, jedna z centralnych postaci nowożytnego racjonalizmu, geometrii analitycznej i mechanistycznej filozofii przyrody."
+summary_original: "French philosopher and mathematician central to early modern rationalism, analytic geometry and mechanistic natural philosophy."
 works:
-  - title: "Discourse on the Method"
+  - title: "Rozprawa o metodzie"
+    original_title: "Discourse on the Method"
     year: 1637
     precision: year
     type: book
-  - title: "La Géométrie"
+  - title: "Geometria"
+    original_title: "La Géométrie"
     year: 1637
     precision: year
     type: mathematical_essay
-  - title: "Meditations on First Philosophy"
+  - title: "Medytacje o pierwszej filozofii"
+    original_title: "Meditations on First Philosophy"
     year: 1641
     precision: year
     type: book
-  - title: "Principles of Philosophy"
+  - title: "Zasady filozofii"
+    original_title: "Principles of Philosophy"
     year: 1644
     precision: year
     type: book
-  - title: "Passions of the Soul"
+  - title: "Namiętności duszy"
+    original_title: "Passions of the Soul"
     year: 1649
     precision: year
     type: book
-  - title: "The World / Treatise on Light"
+  - title: "Świat / Traktat o świetle"
+    original_title: "The World / Treatise on Light"
     year: 1664
     precision: year
     posthumous: true
     type: book
 ideas:
-  - name: "Methodic doubt"
-    summary: "A strategy of withholding assent from beliefs that can be doubted in order to seek secure foundations."
+  - name: "Wątpienie metodyczne"
+    original_name: "Methodic doubt"
+    summary: "Strategia polegająca na wstrzymywaniu zgody na przekonania, które można podać w wątpliwość, aby odnaleźć pewne podstawy wiedzy."
+    summary_original: "A strategy of withholding assent from beliefs that can be doubted in order to seek secure foundations."
   - name: "Cogito"
-    summary: "The thinking subject's existence is presented as indubitable in the act of thinking."
-  - name: "Mind–body dualism"
-    summary: "Mind is characterized by thought and body by extension, creating a central early-modern mind–body problem."
-  - name: "Mechanistic physics"
-    summary: "Natural phenomena are explained through matter, motion and geometrical-mechanical principles."
+    original_name: "Cogito"
+    summary: "Istnienie podmiotu myślącego jest przedstawione jako niemożliwe do podważenia w samym akcie myślenia."
+    summary_original: "The thinking subject's existence is presented as indubitable in the act of thinking."
+  - name: "Dualizm umysłu i ciała"
+    original_name: "Mind–body dualism"
+    summary: "Umysł określa myślenie, a ciało rozciągłość; to rozróżnienie stało się jednym z głównych problemów filozofii nowożytnej."
+    summary_original: "Mind is characterized by thought and body by extension, creating a central early-modern mind–body problem."
+  - name: "Fizyka mechanistyczna"
+    original_name: "Mechanistic physics"
+    summary: "Zjawiska przyrody wyjaśniane są przez materię, ruch oraz zasady geometryczne i mechaniczne."
+    summary_original: "Natural phenomena are explained through matter, motion and geometrical-mechanical principles."
 events:
   - year: 1633
-    title: "Withheld The World"
-    summary: "After learning of Galileo's condemnation, Descartes postponed publication of his cosmological treatise."
+    title: "Wstrzymanie publikacji Świata"
+    original_title: "Withheld The World"
+    summary: "Po wiadomości o potępieniu Galileusza Kartezjusz odłożył publikację swojego traktatu kosmologicznego."
+    summary_original: "After learning of Galileo's condemnation, Descartes postponed publication of his cosmological treatise."
 sources:
   - title: "Stanford Encyclopedia of Philosophy — René Descartes"
     url: "https://plato.stanford.edu/entries/descartes/"
