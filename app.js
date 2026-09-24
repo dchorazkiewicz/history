@@ -30,6 +30,7 @@
   let baseDomain = [-500, 1800];
   let currentDomain = [...baseDomain];
   let initialized = false;
+  let domainAnimationFrame = null;
 
   const margin = { top: 54, right: 28, bottom: 40, left: 138 };
   const rowHeight = 86;
@@ -77,8 +78,22 @@
     `).join('');
     els.peopleList.addEventListener('change', e => {
       if (!e.target.matches('input[type=checkbox]')) return;
-      if (e.target.checked) selected.add(e.target.value); else selected.delete(e.target.value);
-      render();
+      const id = e.target.value;
+      const person = people.find(p => p.id === id);
+
+      if (e.target.checked) {
+        selected.add(id);
+        // If the newly selected life falls outside the current view,
+        // smoothly zoom out just enough to reveal it without destroying context.
+        if (person && (person.born.year < currentDomain[0] || person.died.year > currentDomain[1])) {
+          expandDomainToInclude(person, true);
+        } else {
+          render();
+        }
+      } else {
+        selected.delete(id);
+        render();
+      }
     });
   }
 
@@ -92,29 +107,78 @@
     return people.filter(p => selected.has(p.id)).sort((a,b) => a.born.year - b.born.year);
   }
 
+  function setDomain(target, animate = true, duration = 520) {
+    const minSpan = 10;
+    const maxSpan = 3200;
+    let [a,b] = target;
+    const center = (a+b)/2;
+    let span = Math.max(minSpan, Math.min(maxSpan, b-a));
+    a = center - span/2;
+    b = center + span/2;
+
+    if (domainAnimationFrame) {
+      cancelAnimationFrame(domainAnimationFrame);
+      domainAnimationFrame = null;
+    }
+
+    if (!animate) {
+      currentDomain = [a,b];
+      render();
+      return;
+    }
+
+    const from = [...currentDomain];
+    const started = performance.now();
+    const ease = d3.easeCubicInOut;
+
+    const tick = now => {
+      const t = Math.min(1, (now-started)/duration);
+      const k = ease(t);
+      currentDomain = [
+        from[0] + (a-from[0])*k,
+        from[1] + (b-from[1])*k
+      ];
+      render();
+      if (t < 1) {
+        domainAnimationFrame = requestAnimationFrame(tick);
+      } else {
+        currentDomain = [a,b];
+        domainAnimationFrame = null;
+        render();
+      }
+    };
+    domainAnimationFrame = requestAnimationFrame(tick);
+  }
+
+  function expandDomainToInclude(person, animate = true) {
+    const min = Math.min(currentDomain[0], person.born.year);
+    const max = Math.max(currentDomain[1], person.died.year);
+    const span = Math.max(30, max-min);
+    const pad = Math.max(10, span*.055);
+    setDomain([min-pad, max+pad], animate, 620);
+  }
+
   function fitSelected(animate = true) {
     const chosen = getSelected();
+    let target;
     if (!chosen.length) {
-      currentDomain = [...baseDomain];
+      target = [...baseDomain];
     } else {
       const min = Math.min(...chosen.map(p => p.born.year));
       const max = Math.max(...chosen.map(p => p.died.year));
       const span = Math.max(30, max - min);
       const pad = Math.max(12, span * .08);
-      currentDomain = [min - pad, max + pad];
+      target = [min - pad, max + pad];
     }
-    render(animate);
+    setDomain(target, animate);
   }
 
-  function zoom(factor) {
+  function zoom(factor, anchor = null) {
     const [a,b] = currentDomain;
-    const c = (a+b)/2;
-    const half = (b-a)/2 * factor;
-    const minSpan = 12;
-    const maxSpan = Math.max(2600, baseDomain[1]-baseDomain[0]);
-    const targetHalf = Math.min(maxSpan/2, Math.max(minSpan/2, half));
-    currentDomain = [c-targetHalf, c+targetHalf];
-    render(true);
+    const focus = anchor == null ? (a+b)/2 : anchor;
+    const nextA = focus - (focus-a)*factor;
+    const nextB = focus + (b-focus)*factor;
+    setDomain([nextA,nextB], true, 260);
   }
 
   function showTooltip(evt, title, body='') {
@@ -175,6 +239,17 @@
     const tickVals = x.ticks(ticks);
 
     const root = els.svg.selectAll('g.root').data([null]).join('g').attr('class','root');
+
+    root.selectAll('line.cursor-guide').data([null]).join('line')
+      .attr('class','cursor-guide')
+      .attr('y1', margin.top-18)
+      .attr('y2', height-margin.bottom)
+      .style('display','none');
+
+    root.selectAll('text.cursor-date').data([null]).join('text')
+      .attr('class','cursor-date')
+      .attr('y', margin.top-27)
+      .style('display','none');
 
     root.selectAll('g.grid').data([null]).join('g')
       .attr('class','grid')
@@ -257,35 +332,84 @@
   let dragStartDomain = null;
   function bindPanAndWheel(width) {
     const node = els.viewport;
+    const svgNode = els.svg.node();
+
+    const pointerYear = e => {
+      const [px] = d3.pointer(e, svgNode);
+      const clampedX = Math.max(margin.left, Math.min(width-margin.right, px));
+      const scale = d3.scaleLinear().domain(currentDomain).range([margin.left, width-margin.right]);
+      return { year: scale.invert(clampedX), x: clampedX };
+    };
+
+    const showCursorGuide = e => {
+      if (dragStartX != null) return;
+      const {year,x} = pointerYear(e);
+      const root = els.svg.select('g.root');
+      root.select('.cursor-guide').attr('x1',x).attr('x2',x).style('display',null);
+      root.select('.cursor-date')
+        .attr('x', Math.min(width-margin.right-56, Math.max(margin.left+4, x+7)))
+        .text(fmtYear(year))
+        .style('display',null);
+    };
+
+    const hideCursorGuide = () => {
+      const root = els.svg.select('g.root');
+      root.select('.cursor-guide').style('display','none');
+      root.select('.cursor-date').style('display','none');
+    };
+
     node.onwheel = e => {
       e.preventDefault();
-      const rect = node.getBoundingClientRect();
-      const ratio = Math.max(0, Math.min(1, (e.clientX - rect.left - margin.left) / Math.max(1, rect.width-margin.left-margin.right)));
+      if (domainAnimationFrame) {
+        cancelAnimationFrame(domainAnimationFrame);
+        domainAnimationFrame = null;
+      }
+
+      // Zoom is anchored exactly on the date under the mouse cursor.
+      const {year: anchor} = pointerYear(e);
       const [a,b] = currentDomain;
-      const anchor = a + (b-a)*ratio;
-      const factor = e.deltaY > 0 ? 1.18 : .84;
+      const factor = e.deltaY > 0 ? 1.16 : .86;
       const na = anchor - (anchor-a)*factor;
       const nb = anchor + (b-anchor)*factor;
-      if (nb-na >= 10 && nb-na <= 3000) {
+      const span = nb-na;
+      if (span >= 10 && span <= 3200) {
         currentDomain = [na,nb];
         render();
       }
     };
+
     node.onpointerdown = e => {
       if (e.target.closest?.('.marker') || e.target.classList?.contains('life-bar') || e.target.classList?.contains('life-row-label')) return;
+      if (domainAnimationFrame) {
+        cancelAnimationFrame(domainAnimationFrame);
+        domainAnimationFrame = null;
+      }
       dragStartX = e.clientX;
       dragStartDomain = [...currentDomain];
+      hideCursorGuide();
       node.setPointerCapture?.(e.pointerId);
     };
+
     node.onpointermove = e => {
-      if (dragStartX == null) return;
+      if (dragStartX == null) {
+        showCursorGuide(e);
+        return;
+      }
       const pxSpan = Math.max(1, node.clientWidth-margin.left-margin.right);
       const yearsPerPx = (dragStartDomain[1]-dragStartDomain[0])/pxSpan;
       const dy = (dragStartX-e.clientX)*yearsPerPx;
       currentDomain = [dragStartDomain[0]+dy, dragStartDomain[1]+dy];
       render();
     };
-    const stop = () => { dragStartX=null; dragStartDomain=null; };
+
+    node.onpointerleave = () => {
+      if (dragStartX == null) hideCursorGuide();
+    };
+
+    const stop = () => {
+      dragStartX=null;
+      dragStartDomain=null;
+    };
     node.onpointerup = stop;
     node.onpointercancel = stop;
   }
