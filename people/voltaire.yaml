@@ -1,0 +1,62 @@
+id: voltaire
+name: "François-Marie Arouet (Voltaire)"
+display_name: "Voltaire"
+born:
+  date: "1694-11-21"
+  year: 1694
+  precision: day
+died:
+  date: "1778-05-30"
+  year: 1778
+  precision: day
+place_association: "France; England; Prussia; Geneva/Ferney"
+fields: [philosophy, literature, history, natural_philosophy, public_intellectual]
+image: null
+summary: "French Enlightenment writer and philosopher who also played a major role in popularizing Newtonian natural philosophy in France."
+works:
+  - title: "Letters Concerning the English Nation / Lettres philosophiques"
+    year: 1733
+    precision: year
+    dating_note: "English edition 1733; French edition 1734."
+    type: book
+  - title: "Éléments de la philosophie de Newton"
+    year: 1738
+    precision: year
+    type: book
+  - title: "Zadig"
+    year: 1747
+    precision: year
+    type: philosophical_tale
+  - title: "Candide"
+    year: 1759
+    precision: year
+    type: philosophical_tale
+  - title: "Traité sur la tolérance"
+    year: 1763
+    precision: year
+    type: treatise
+  - title: "Dictionnaire philosophique"
+    year: 1764
+    precision: year
+    type: reference_work
+ideas:
+  - name: "Newtonianism in France"
+    summary: "Presented Newton's physics and natural philosophy to a broad French-reading public and argued against dominant Cartesian models."
+  - name: "Religious toleration"
+    summary: "Critiqued persecution and defended civil toleration in major interventions such as the Traité sur la tolérance."
+  - name: "Critique of dogmatism"
+    summary: "Used history, satire, polemic and philosophical tales to challenge metaphysical, ecclesiastical and political dogmatism."
+events:
+  - year: 1726
+    title: "Exile in England"
+    summary: "Spent roughly 1726–1729 in England, where he encountered English political institutions and the thought of Locke and Newton."
+  - year: 1738
+    title: "Publication of Éléments de la philosophie de Newton"
+    summary: "A major work of scientific exposition associated with Voltaire's campaign for Newtonian ideas in France."
+sources:
+  - title: "Stanford Encyclopedia of Philosophy — Voltaire"
+    url: "https://plato.stanford.edu/entries/voltaire/"
+  - title: "Voltaire Foundation — Éléments de la philosophie de Newton"
+    url: "https://www.voltaire.ox.ac.uk/publication/el%C3%A9ments-de-la-philosophie-de-newton/"
+  - title: "Wikipedia — Voltaire"
+    url: "https://en.wikipedia.org/wiki/Voltaire"
