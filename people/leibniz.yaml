@@ -5,52 +5,71 @@ born:
   date: "1646-07-01"
   year: 1646
   precision: day
-  note: "New Style date; 21 June Old Style."
+  note: "Data według nowego stylu; według starego stylu był to 21 czerwca."
+  note_original: "New Style date; 21 June Old Style."
 died:
   date: "1716-11-14"
   year: 1716
   precision: day
-place_association: "Leipzig; Mainz; Hanover"
+place_association: "Lipsk; Moguncja; Hanower"
 fields: [philosophy, mathematics, logic, law, diplomacy, history]
 image: null
-summary: "German polymath who independently developed differential and integral calculus and made major contributions to logic, metaphysics and computation."
+summary: "Niemiecki uczony, który niezależnie od Newtona rozwinął rachunek różniczkowy i całkowy oraz wniósł ważny wkład do logiki, metafizyki i idei obliczeń."
+summary_original: "German polymath who independently developed differential and integral calculus and made major contributions to logic, metaphysics and computation."
 works:
-  - title: "Meditations on Knowledge, Truth, and Ideas"
+  - title: "Medytacje o poznaniu, prawdzie i ideach"
+    original_title: "Meditations on Knowledge, Truth, and Ideas"
     year: 1684
     precision: year
     type: essay
-  - title: "Discourse on Metaphysics"
+  - title: "Rozprawa metafizyczna"
+    original_title: "Discourse on Metaphysics"
     year: 1686
     precision: year
-    publication_note: "Composed in 1686 but not published in full until the 19th century."
+    publication_note: "Napisana w 1686 r., lecz w całości opublikowana dopiero w XIX wieku."
+    publication_note_original: "Composed in 1686 but not published in full until the 19th century."
     type: treatise
-  - title: "New System of the Nature and Communication of Substances"
+  - title: "Nowy system natury i komunikacji substancji"
+    original_title: "New System of the Nature and Communication of Substances"
     year: 1695
     precision: year
     type: essay
-  - title: "New Essays on Human Understanding"
+  - title: "Nowe rozważania dotyczące rozumu ludzkiego"
+    original_title: "New Essays on Human Understanding"
     year: 1704
     precision: year
-    publication_note: "Completed in 1704; published posthumously in 1765."
+    publication_note: "Ukończone w 1704 r.; opublikowane pośmiertnie w 1765 r."
+    publication_note_original: "Completed in 1704; published posthumously in 1765."
     type: book
-  - title: "Theodicy"
+  - title: "Teodycea"
+    original_title: "Theodicy"
     year: 1710
     precision: year
     type: book
-  - title: "Monadology"
+  - title: "Monadologia"
+    original_title: "Monadology"
     year: 1714
     precision: year
-    publication_note: "Written in 1714; first published after Leibniz's death."
+    publication_note: "Napisana w 1714 r.; po raz pierwszy wydana po śmierci Leibniza."
+    publication_note_original: "Written in 1714; first published after Leibniz's death."
     type: treatise
 ideas:
-  - name: "Differential and integral calculus"
-    summary: "Developed independently of Newton, with notation that became foundational for modern calculus."
-  - name: "Monads"
-    summary: "Metaphysical simple substances used to account for unity, perception and change."
-  - name: "Principle of sufficient reason"
-    summary: "Nothing is the case without a sufficient reason why it is so rather than otherwise."
-  - name: "Binary arithmetic"
-    summary: "Developed and promoted a systematic binary numeral system and its conceptual significance."
+  - name: "Rachunek różniczkowy i całkowy"
+    original_name: "Differential and integral calculus"
+    summary: "Leibniz rozwinął go niezależnie od Newtona, a jego zapis stał się podstawą współczesnej notacji rachunku różniczkowego i całkowego."
+    summary_original: "Developed independently of Newton, with notation that became foundational for modern calculus."
+  - name: "Monady"
+    original_name: "Monads"
+    summary: "Proste substancje metafizyczne mające wyjaśniać jedność, postrzeganie i zmianę."
+    summary_original: "Metaphysical simple substances used to account for unity, perception and change."
+  - name: "Zasada racji dostatecznej"
+    original_name: "Principle of sufficient reason"
+    summary: "Nic nie jest takie, jakie jest, bez dostatecznej racji wyjaśniającej, dlaczego jest właśnie tak, a nie inaczej."
+    summary_original: "Nothing is the case without a sufficient reason why it is so rather than otherwise."
+  - name: "Arytmetyka binarna"
+    original_name: "Binary arithmetic"
+    summary: "Leibniz rozwijał i popularyzował system dwójkowy oraz dostrzegał jego znaczenie pojęciowe."
+    summary_original: "Developed and promoted a systematic binary numeral system and its conceptual significance."
 sources:
   - title: "Stanford Encyclopedia of Philosophy — Leibniz"
     url: "https://plato.stanford.edu/entries/leibniz/"
