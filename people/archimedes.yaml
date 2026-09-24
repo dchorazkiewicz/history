@@ -7,42 +7,56 @@ born:
 died:
   year: -212
   precision: year
-place_association: "Syracuse, Sicily"
+place_association: "Syrakuzy, Sycylia"
 fields: [mathematics, physics, mechanics, engineering, astronomy]
 image: null
-summary: "Greek mathematician, physicist and engineer associated with foundational results in geometry, statics and hydrostatics."
+summary: "Grecki matematyk, fizyk i inżynier związany z fundamentalnymi wynikami w geometrii, statyce i hydrostatyce."
+summary_original: "Greek mathematician, physicist and engineer associated with foundational results in geometry, statics and hydrostatics."
 works:
-  - title: "On the Equilibrium of Planes"
+  - title: "O równowadze płaszczyzn"
+    original_title: "On the Equilibrium of Planes"
     year: -250
     precision: approximate
     type: mathematical_treatise
-  - title: "On the Sphere and Cylinder"
+  - title: "O kuli i walcu"
+    original_title: "On the Sphere and Cylinder"
     year: -250
     precision: approximate
     type: mathematical_treatise
-  - title: "Measurement of a Circle"
+  - title: "O pomiarze koła"
+    original_title: "Measurement of a Circle"
     year: -250
     precision: approximate
     type: mathematical_treatise
-  - title: "On Floating Bodies"
+  - title: "O ciałach pływających"
+    original_title: "On Floating Bodies"
     year: -250
     precision: approximate
     type: scientific_treatise
-  - title: "The Sand Reckoner"
+  - title: "O liczbie piasku"
+    original_title: "The Sand Reckoner"
     year: -240
     precision: approximate
     type: mathematical_treatise
 ideas:
-  - name: "Archimedes' principle"
-    summary: "A body immersed in a fluid experiences buoyancy related to the weight of displaced fluid."
-  - name: "Law of the lever"
-    summary: "Quantitative treatment of balance and moments in statics."
-  - name: "Method of exhaustion"
-    summary: "Rigorous limiting arguments used to determine areas and volumes, anticipating later integral methods."
+  - name: "Prawo Archimedesa"
+    original_name: "Archimedes' principle"
+    summary: "Na ciało zanurzone w cieczy działa siła wyporu związana z ciężarem wypartej cieczy."
+    summary_original: "A body immersed in a fluid experiences buoyancy related to the weight of displaced fluid."
+  - name: "Prawo dźwigni"
+    original_name: "Law of the lever"
+    summary: "Ilościowe ujęcie równowagi i momentów sił w statyce."
+    summary_original: "Quantitative treatment of balance and moments in statics."
+  - name: "Metoda wyczerpywania"
+    original_name: "Method of exhaustion"
+    summary: "Ścisłe rozumowania graniczne służące do wyznaczania pól i objętości, zapowiadające późniejsze metody całkowe."
+    summary_original: "Rigorous limiting arguments used to determine areas and volumes, anticipating later integral methods."
 events:
   - year: -212
-    title: "Death during the Roman capture of Syracuse"
-    summary: "Killed during the siege/capture of Syracuse in the Second Punic War."
+    title: "Śmierć podczas zdobycia Syrakuz przez Rzymian"
+    original_title: "Death during the Roman capture of Syracuse"
+    summary: "Archimedes zginął podczas oblężenia i zdobycia Syrakuz w czasie II wojny punickiej."
+    summary_original: "Killed during the siege/capture of Syracuse in the Second Punic War."
 sources:
   - title: "Wikipedia — Archimedes"
     url: "https://en.wikipedia.org/wiki/Archimedes"
