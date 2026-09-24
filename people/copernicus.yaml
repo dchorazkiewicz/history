@@ -29,12 +29,14 @@ works:
     type: economic_treatise
   - title: "O obrotach sfer niebieskich"
     original_title: "De revolutionibus orbium coelestium"
+    wikipedia: "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium"
     year: 1543
     precision: year
     type: book
 ideas:
   - name: "Heliocentryzm kopernikański"
     original_name: "Copernican heliocentrism"
+    wikipedia: "https://pl.wikipedia.org/wiki/Heliocentryzm"
     summary: "Ziemia obraca się wokół własnej osi i wraz z innymi planetami krąży wokół Słońca; model ten gruntownie przeorganizował astronomię planetarną."
     summary_original: "Earth rotates daily and, with the other planets, revolves around the Sun; the model reorganized planetary astronomy."
   - name: "Analiza pieniądza i psucia monety"
