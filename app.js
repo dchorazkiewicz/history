@@ -22,6 +22,7 @@
     detailType: document.querySelector('#detailType'),
     detailTitle: document.querySelector('#detailTitle'),
     detailDates: document.querySelector('#detailDates'),
+    detailLinks: document.querySelector('#detailLinks'),
     detailSummary: document.querySelector('#detailSummary'),
     detailTags: document.querySelector('#detailTags'),
     detailWorks: document.querySelector('#detailWorks'),
@@ -436,26 +437,40 @@
     return item?.wikipedia || item?.wikipedia_url || null;
   }
 
+  function explicitResourceLinks(item) {
+    const links = [];
+    const wiki = explicitWiki(item);
+    if (wiki) {
+      const lang = wiki.includes('pl.wikipedia.org') ? 'PL'
+        : wiki.includes('en.wikipedia.org') ? 'EN' : '';
+      links.push(`<a class="resource-link" href="${wiki}" target="_blank" rel="noopener">Wikipedia ${lang} ↗</a>`);
+    }
+    for (const link of (item?.links || [])) {
+      links.push(`<a class="resource-link" href="${link.url}" target="_blank" rel="noopener">${link.title || 'Źródło'} ↗</a>`);
+    }
+    return links.join('');
+  }
+
   function openPerson(p) {
     els.detailType.textContent = 'OSOBA';
     els.detailTitle.textContent = p.display_name;
     els.detailDates.textContent = fmtLife(p);
     els.detailSummary.textContent = p.summary || '';
 
-    const personWiki = wikiAnchor(
+    // The general Wikipedia link belongs to the person and is shown exactly once.
+    els.detailLinks.innerHTML = wikiAnchor(
       p.display_name,
       p.name || p.display_name,
       explicitWiki(p),
       'Wikipedia'
     );
 
-    els.detailTags.innerHTML =
-      (p.fields || []).map(x => `<span class="tag">${fieldLabel(x)}</span>`).join('') +
-      `<span class="resource-inline">${personWiki}</span>`;
+    els.detailTags.innerHTML = (p.fields || [])
+      .map(x => `<span class="tag">${fieldLabel(x)}</span>`)
+      .join('');
 
     els.detailWorks.innerHTML = (p.works || []).length ? p.works.map(w => {
-      const plQuery = `${w.title} ${p.display_name}`;
-      const enQuery = `${w.original_title || w.title} ${p.name || p.display_name}`;
+      const links = explicitResourceLinks(w);
       return `
         <div class="detail-item">
           <strong>${w.title}</strong>
@@ -463,26 +478,19 @@
           <span>${fmtYear(w.year)} · ${typeLabel(w.type)}${w.posthumous ? ' · wydane pośmiertnie' : ''}</span>
           ${w.dating_note ? `<p>${w.dating_note}</p>` : ''}
           ${w.publication_note ? `<p>${w.publication_note}</p>` : ''}
-          <div class="resource-row">
-            ${wikiAnchor(plQuery, enQuery, explicitWiki(w))}
-            ${(w.links || []).map(link => `<a class="resource-link" href="${link.url}" target="_blank" rel="noopener">${link.title || 'Źródło'} ↗</a>`).join('')}
-          </div>
+          ${links ? `<div class="resource-row">${links}</div>` : ''}
         </div>
       `;
     }).join('') : '<div class="detail-item"><span>Brak zachowanych dzieł własnych w tym rekordzie.</span></div>';
 
     els.detailIdeas.innerHTML = (p.ideas || []).map(i => {
-      const plQuery = `${i.name} ${p.display_name}`;
-      const enQuery = `${i.original_name || i.name} ${p.name || p.display_name}`;
+      const links = explicitResourceLinks(i);
       return `
         <div class="detail-item">
           <strong>${i.name}</strong>
           ${i.original_name && i.original_name !== i.name ? `<span class="original-title">oryg. ${i.original_name}</span>` : ''}
           <p>${i.summary || ''}</p>
-          <div class="resource-row">
-            ${wikiAnchor(plQuery, enQuery, explicitWiki(i))}
-            ${(i.links || []).map(link => `<a class="resource-link" href="${link.url}" target="_blank" rel="noopener">${link.title || 'Źródło'} ↗</a>`).join('')}
-          </div>
+          ${links ? `<div class="resource-row">${links}</div>` : ''}
         </div>
       `;
     }).join('');
@@ -492,7 +500,7 @@
     ).join('');
 
     els.detailPanel.classList.remove('hidden');
-    hydrateWikiLinks(els.detailPanel);
+    hydrateWikiLinks(els.detailLinks);
     els.detailPanel.scrollIntoView({ behavior:'smooth', block:'nearest' });
   }
 
@@ -502,14 +510,13 @@
     els.detailTitle.textContent = item.title;
     els.detailDates.textContent = fmtYear(item.year);
     els.detailSummary.textContent = item.summary || item.dating_note || item.publication_note || `Związane z: ${p.display_name}`;
+
+    const itemLinks = explicitResourceLinks(item);
+    els.detailLinks.innerHTML = itemLinks || '';
+
     if (item.original_title && item.original_title !== item.title) {
       els.detailTags.innerHTML = `<span class="tag">oryg. ${item.original_title}</span>` + els.detailTags.innerHTML;
     }
-
-    const plQuery = `${item.title} ${p.display_name}`;
-    const enQuery = `${item.original_title || item.title} ${p.name || p.display_name}`;
-    els.detailTags.innerHTML += `<span class="resource-inline">${wikiAnchor(plQuery, enQuery, explicitWiki(item), 'Wikipedia')}</span>`;
-    hydrateWikiLinks(els.detailPanel);
   }
 
   function render(animate = false) {
