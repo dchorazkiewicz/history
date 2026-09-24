@@ -4,46 +4,63 @@ display_name: Platon
 born:
   year: -428
   precision: approximate
-  note: "Commonly dated 428/427 BCE."
+  note: "Najczęściej datowany na 428/427 r. p.n.e."
+  note_original: "Commonly dated 428/427 BCE."
 died:
   year: -348
   precision: approximate
-  note: "Commonly dated 348/347 BCE."
-place_association: "Athens"
+  note: "Najczęściej datowany na 348/347 r. p.n.e."
+  note_original: "Commonly dated 348/347 BCE."
+place_association: "Ateny"
 fields: [philosophy, ethics, metaphysics, epistemology, political_philosophy]
 image: null
-summary: "Athenian philosopher, student of Socrates and founder of the Academy; his works are mostly philosophical dialogues."
+summary: "Ateński filozof, uczeń Sokratesa i założyciel Akademii. Większość jego dzieł ma formę dialogów filozoficznych."
+summary_original: "Athenian philosopher, student of Socrates and founder of the Academy; his works are mostly philosophical dialogues."
 works:
-  - title: "Apology"
+  - title: "Obrona Sokratesa"
+    original_title: "Apology"
     year: -399
     precision: approximate
-    dating_note: "Exact composition date uncertain; written after Socrates' trial."
+    dating_note: "Dokładna data powstania jest niepewna; tekst napisano po procesie Sokratesa."
+    dating_note_original: "Exact composition date uncertain; written after Socrates' trial."
     type: dialogue
-  - title: "Republic"
+  - title: "Państwo"
+    original_title: "Republic"
     year: -375
     precision: approximate
-    dating_note: "Usually placed in Plato's middle period; exact year uncertain."
+    dating_note: "Zwykle zaliczane do środkowego okresu twórczości Platona; dokładny rok jest niepewny."
+    dating_note_original: "Usually placed in Plato's middle period; exact year uncertain."
     type: dialogue
-  - title: "Symposium"
+  - title: "Uczta"
+    original_title: "Symposium"
     year: -385
     precision: approximate
-    dating_note: "Approximate conventional dating."
+    dating_note: "Datowanie przybliżone."
+    dating_note_original: "Approximate conventional dating."
     type: dialogue
-  - title: "Timaeus"
+  - title: "Timajos"
+    original_title: "Timaeus"
     year: -360
     precision: approximate
-    dating_note: "Approximate conventional dating."
+    dating_note: "Datowanie przybliżone."
+    dating_note_original: "Approximate conventional dating."
     type: dialogue
 ideas:
-  - name: "Theory of Forms"
-    summary: "The intelligible Forms provide stable objects of knowledge beyond changing sensible particulars."
-  - name: "Philosopher-ruler"
-    summary: "In the Republic, political order is connected with philosophical knowledge and education."
+  - name: "Teoria idei"
+    original_name: "Theory of Forms"
+    summary: "Poznanie dotyczy trwałych i inteligibilnych idei, które są czymś innym niż zmienne rzeczy dostępne zmysłom."
+    summary_original: "The intelligible Forms provide stable objects of knowledge beyond changing sensible particulars."
+  - name: "Filozof-władca"
+    original_name: "Philosopher-ruler"
+    summary: "W Państwie porządek polityczny zostaje powiązany z wiedzą filozoficzną oraz odpowiednim wychowaniem."
+    summary_original: "In the Republic, political order is connected with philosophical knowledge and education."
 events:
   - year: -387
     precision: approximate
-    title: "Foundation of the Academy"
-    summary: "Plato established the Academy at Athens; the exact founding year is approximate."
+    title: "Założenie Akademii"
+    original_title: "Foundation of the Academy"
+    summary: "Platon założył w Atenach Akademię; dokładny rok powstania szkoły jest przybliżony."
+    summary_original: "Plato established the Academy at Athens; the exact founding year is approximate."
 sources:
   - title: "Routledge Encyclopedia of Philosophy — Plato"
     url: "https://www.rep.routledge.com/articles/biographical/plato-427-347-bc/v-1"
