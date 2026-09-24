@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Interaktywna mapa historii idei, nauki i filozofii." />
+  <title>Historia — mapa ludzi, idei i dzieł</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="grain"></div>
+
+  <header class="hero">
+    <div>
+      <div class="eyebrow">HISTORIA · LUDZIE · IDEE</div>
+      <h1>Patrz w przeszłość<br><span>jak na mapę.</span></h1>
+      <p>Porównuj życia, dzieła i idee na jednej osi czasu. Zaznacz kilka osób, przybliżaj epoki i sprawdzaj, kto mógł żyć w tym samym świecie.</p>
+    </div>
+    <div class="hero-meta">
+      <span id="peopleCount">— osób</span>
+      <span>od starożytności do Oświecenia</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="toolbar panel">
+      <div class="toolbar-left">
+        <button class="btn primary" id="selectAllBtn">Wybierz wszystkich</button>
+        <button class="btn" id="clearBtn">Wyczyść</button>
+        <button class="btn" id="fitBtn">Dopasuj zaznaczonych</button>
+      </div>
+      <div class="toolbar-right">
+        <button class="icon-btn" id="zoomOutBtn" aria-label="Oddal">−</button>
+        <div class="zoom-readout" id="zoomReadout">100%</div>
+        <button class="icon-btn" id="zoomInBtn" aria-label="Przybliż">+</button>
+      </div>
+    </section>
+
+    <section class="layout">
+      <aside class="people-panel panel">
+        <div class="panel-heading">
+          <div>
+            <div class="eyebrow">PORÓWNAJ</div>
+            <h2>Osoby</h2>
+          </div>
+          <span id="selectedCount" class="count-pill">0</span>
+        </div>
+        <div id="peopleList" class="people-list"></div>
+      </aside>
+
+      <section class="timeline-panel panel">
+        <div class="timeline-head">
+          <div>
+            <div class="eyebrow">OŚ CZASU</div>
+            <h2 id="rangeLabel">—</h2>
+          </div>
+          <div class="timeline-help">kółko = zoom · przeciągnij = pan · kliknij wydarzenie</div>
+        </div>
+        <div id="timelineViewport" class="timeline-viewport">
+          <svg id="timelineSvg" role="img" aria-label="Interaktywna oś czasu"></svg>
+          <div id="emptyState" class="empty-state">
+            <strong>Wybierz osoby po lewej.</strong>
+            <span>Możesz porównać dowolną liczbę życiorysów jednocześnie.</span>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="detailPanel" class="detail-panel panel hidden">
+      <button id="closeDetails" class="detail-close" aria-label="Zamknij">×</button>
+      <div class="detail-grid">
+        <div>
+          <div class="eyebrow" id="detailType">OSOBA</div>
+          <h2 id="detailTitle"></h2>
+          <div id="detailDates" class="detail-dates"></div>
+          <p id="detailSummary" class="detail-summary"></p>
+          <div id="detailTags" class="tag-row"></div>
+        </div>
+        <div>
+          <div class="detail-section">
+            <h3>Dzieła</h3>
+            <div id="detailWorks" class="detail-list"></div>
+          </div>
+          <div class="detail-section">
+            <h3>Idee</h3>
+            <div id="detailIdeas" class="detail-list"></div>
+          </div>
+          <div class="detail-section">
+            <h3>Źródła</h3>
+            <div id="detailSources" class="sources-list"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Historia</span>
+    <span>Dane źródłowe: <code>/people/*.yaml</code></span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
