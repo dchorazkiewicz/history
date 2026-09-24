@@ -7,49 +7,67 @@ born:
 died:
   year: -322
   precision: year
-place_association: "Stagira; Athens"
+place_association: "Stagira; Ateny"
 fields: [philosophy, logic, natural_philosophy, biology, ethics, politics, rhetoric]
 image: null
-summary: "Greek philosopher and polymath, student of Plato and founder of the Peripatetic school at the Lyceum."
+summary: "Grecki filozof i uczony, uczeń Platona oraz twórca szkoły perypatetyckiej działającej w Likejonie."
+summary_original: "Greek philosopher and polymath, student of Plato and founder of the Peripatetic school at the Lyceum."
 works:
-  - title: "Physics"
+  - title: "Fizyka"
+    original_title: "Physics"
     year: -350
     precision: approximate
-    dating_note: "Surviving Aristotelian treatises are difficult to date precisely."
+    dating_note: "Zachowane traktaty Arystotelesa bardzo trudno dokładnie datować."
+    dating_note_original: "Surviving Aristotelian treatises are difficult to date precisely."
     type: treatise
-  - title: "Metaphysics"
+  - title: "Metafizyka"
+    original_title: "Metaphysics"
     year: -340
     precision: approximate
-    dating_note: "Composite work; exact chronology uncertain."
+    dating_note: "Dzieło złożone z tekstów powstających w różnym czasie; dokładna chronologia jest niepewna."
+    dating_note_original: "Composite work; exact chronology uncertain."
     type: treatise
-  - title: "Nicomachean Ethics"
+  - title: "Etyka nikomachejska"
+    original_title: "Nicomachean Ethics"
     year: -340
     precision: approximate
     type: treatise
-  - title: "Politics"
+  - title: "Polityka"
+    original_title: "Politics"
     year: -335
     precision: approximate
     type: treatise
-  - title: "Poetics"
+  - title: "Poetyka"
+    original_title: "Poetics"
     year: -335
     precision: approximate
     type: treatise
 ideas:
-  - name: "Syllogistic logic"
-    summary: "A systematic theory of deductive inference developed in works later grouped as the Organon."
-  - name: "Four causes"
-    summary: "Explanation in terms of material, formal, efficient and final causes."
-  - name: "Hylomorphism"
-    summary: "Physical substances are understood through the inseparable principles of matter and form."
+  - name: "Logika sylogistyczna"
+    original_name: "Syllogistic logic"
+    summary: "Systematyczna teoria wnioskowania dedukcyjnego rozwinięta w pismach później zebranych pod nazwą Organon."
+    summary_original: "A systematic theory of deductive inference developed in works later grouped as the Organon."
+  - name: "Cztery przyczyny"
+    original_name: "Four causes"
+    summary: "Wyjaśnienie rzeczy przez przyczynę materialną, formalną, sprawczą i celową."
+    summary_original: "Explanation in terms of material, formal, efficient and final causes."
+  - name: "Hylemorfizm"
+    original_name: "Hylomorphism"
+    summary: "Substancje fizyczne rozumiane są poprzez nierozdzielne zasady materii i formy."
+    summary_original: "Physical substances are understood through the inseparable principles of matter and form."
 events:
   - year: -367
     precision: approximate
-    title: "Entered Plato's Academy"
-    summary: "Joined the Academy in Athens as a young man."
+    title: "Wstąpienie do Akademii Platona"
+    original_title: "Entered Plato's Academy"
+    summary: "Jako młody człowiek Arystoteles rozpoczął naukę w Akademii w Atenach."
+    summary_original: "Joined the Academy in Athens as a young man."
   - year: -335
     precision: approximate
-    title: "Founded the Lyceum"
-    summary: "Established his school in Athens after returning from Macedonia."
+    title: "Założenie Likejonu"
+    original_title: "Founded the Lyceum"
+    summary: "Po powrocie z Macedonii założył własną szkołę w Atenach."
+    summary_original: "Established his school in Athens after returning from Macedonia."
 sources:
   - title: "Wikipedia — Aristotle"
     url: "https://en.wikipedia.org/wiki/Aristotle"
