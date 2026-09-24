@@ -1,0 +1,29 @@
+id: socrates
+name: Socrates
+display_name: Sokrates
+born:
+  year: -470
+  precision: approximate
+  note: "Often dated c. 470/469 BCE."
+died:
+  year: -399
+  precision: year
+place_association: "Athens"
+fields: [philosophy, ethics, epistemology]
+image: null
+summary: "Athenian philosopher known primarily through Plato, Xenophon and other ancient witnesses; he left no writings of his own."
+works: []
+ideas:
+  - name: "Socratic method"
+    summary: "Inquiry through disciplined questioning, testing definitions and exposing contradictions."
+  - name: "Ethical intellectualism"
+    summary: "A strong connection between knowledge, virtue and right action in many Socratic sources."
+events:
+  - year: -399
+    title: "Trial and death"
+    summary: "Tried in Athens on charges including impiety and corrupting the youth; condemned to death."
+sources:
+  - title: "Stanford Encyclopedia of Philosophy — Socrates"
+    url: "https://plato.stanford.edu/entries/socrates/"
+  - title: "Wikipedia — Socrates"
+    url: "https://en.wikipedia.org/wiki/Socrates"
