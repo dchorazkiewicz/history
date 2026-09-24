@@ -12,3 +12,7 @@ Każda osoba ma jeden plik YAML. **Polski jest językiem podstawowym interfejsu*
 - `events` zawiera wydarzenia biograficzne i intelektualne nadające się bezpośrednio do osi czasu.
 - `sources` przechowuje źródła używane do kontroli danych.
 - Obrazy są na razie opcjonalne (`image: null`), dopóki nie ustalimy jednolitego sposobu obsługi licencji i pochodzenia.
+
+- Każda osoba, dzieło i idea może opcjonalnie mieć pole `wikipedia` / `wikipedia_url` z konkretnym adresem hasła.
+- Dodatkowe materiały dla dzieła lub idei można zapisywać jako `links: [{ title, url }]`.
+- Jeśli bezpośredni link do Wikipedii nie jest wpisany, interfejs automatycznie szuka najpierw hasła w polskiej Wikipedii, a potem w angielskiej.
