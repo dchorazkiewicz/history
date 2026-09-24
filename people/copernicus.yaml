@@ -1,0 +1,48 @@
+id: copernicus
+name: "Nicolaus Copernicus"
+display_name: "Mikołaj Kopernik"
+born:
+  date: "1473-02-19"
+  year: 1473
+  precision: day
+died:
+  date: "1543-05-24"
+  year: 1543
+  precision: day
+place_association: "Toruń; Frombork, Royal Prussia, Crown of the Kingdom of Poland"
+fields: [astronomy, mathematics, economics, canon_law, medicine]
+image: null
+summary: "Renaissance polymath who developed the heliocentric planetary model presented systematically in De revolutionibus."
+works:
+  - title: "Commentariolus"
+    year: 1514
+    precision: approximate
+    dating_note: "Unpublished manuscript circulated before De revolutionibus; commonly dated before 1514."
+    type: manuscript
+  - title: "Monetae cudendae ratio"
+    year: 1526
+    precision: year
+    type: economic_treatise
+  - title: "De revolutionibus orbium coelestium"
+    year: 1543
+    precision: year
+    type: book
+ideas:
+  - name: "Copernican heliocentrism"
+    summary: "Earth rotates daily and, with the other planets, revolves around the Sun; the model reorganized planetary astronomy."
+  - name: "Quantity theory / monetary analysis"
+    summary: "Copernicus also wrote on coinage, monetary debasement and the value of money."
+events:
+  - year: 1491
+    title: "Studies at Kraków"
+    summary: "Began studies at the University of Kraków, where mathematics and astronomy formed part of his education."
+  - year: 1543
+    title: "Publication of De revolutionibus"
+    summary: "The first edition was printed in Nuremberg in the year of Copernicus's death."
+sources:
+  - title: "Wikipedia — Nicolaus Copernicus"
+    url: "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
+  - title: "Wikipedia — De revolutionibus orbium coelestium"
+    url: "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium"
+  - title: "High Altitude Observatory — Nicolaus Copernicus"
+    url: "https://www2.hao.ucar.edu/education/scientists/nicolaus-copernicus-1473-1543"
