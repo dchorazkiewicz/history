@@ -154,8 +154,22 @@ main { max-width:1500px; margin:0 auto; padding:0 34px 50px; }
 .detail-item strong { font-size:13px; }
 .detail-item span,.detail-item p { color:var(--muted); font-size:12px; margin:3px 0 0; line-height:1.5; }
 .detail-item .original-title { display:block; color:#777b82; font-style:italic; font-size:11px; margin-top:3px; }
+.resource-row { display:flex; flex-wrap:wrap; gap:7px; margin-top:8px; }
+.resource-link {
+  display:inline-flex; align-items:center; min-height:27px; padding:5px 8px;
+  border:1px solid rgba(224,183,106,.22); border-radius:8px;
+  background:rgba(224,183,106,.055); color:var(--accent);
+  font-size:10px; font-weight:750; text-decoration:none; transition:.15s ease;
+}
+.resource-link:hover { border-color:rgba(224,183,106,.5); background:rgba(224,183,106,.11); }
+.resource-inline { display:inline-flex; align-items:center; }
+.resource-inline .resource-link { border-radius:999px; padding:5px 9px; }
+.wiki-resolve { opacity:.72; }
 .sources-list { display:flex; flex-wrap:wrap; gap:8px; }
-.sources-list a { color:var(--accent); font-size:12px; text-decoration:none; border-bottom:1px solid rgba(224,183,106,.3); }
+.sources-list a, .source-link {
+  color:var(--accent); font-size:12px; text-decoration:none;
+  border-bottom:1px solid rgba(224,183,106,.3);
+}
 footer { max-width:1500px; margin:0 auto; padding:0 34px 35px; display:flex; justify-content:space-between; gap:20px; color:#666a70; font-size:11px; }
 code { color:#8e9299; }
 @media (max-width:900px) {
