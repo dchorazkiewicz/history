@@ -143,6 +143,8 @@ main { max-width:1500px; margin:0 auto; padding:0 34px 50px; }
 .detail-grid { display:grid; grid-template-columns:minmax(260px,.8fr) minmax(0,1.2fr); gap:46px; }
 .detail-panel h2 { font-size:42px; margin:8px 0 6px; }
 .detail-dates { color:var(--accent); font-variant-numeric:tabular-nums; }
+.detail-links { display:flex; flex-wrap:wrap; gap:7px; margin-top:10px; min-height:0; }
+.detail-links:empty { display:none; }
 .detail-summary { color:#b8b5ae; line-height:1.7; max-width:640px; }
 .tag-row { display:flex; flex-wrap:wrap; gap:7px; margin-top:16px; }
 .tag { border:1px solid var(--line); background:rgba(255,255,255,.03); color:#c7c3bb; border-radius:999px; padding:6px 9px; font-size:11px; }
