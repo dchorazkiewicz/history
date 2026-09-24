@@ -9,36 +9,49 @@ died:
   date: "1543-05-24"
   year: 1543
   precision: day
-place_association: "Toruń; Frombork, Royal Prussia, Crown of the Kingdom of Poland"
+place_association: "Toruń; Frombork, Prusy Królewskie, Korona Królestwa Polskiego"
 fields: [astronomy, mathematics, economics, canon_law, medicine]
 image: null
-summary: "Renaissance polymath who developed the heliocentric planetary model presented systematically in De revolutionibus."
+summary: "Renesansowy uczony, który rozwinął heliocentryczny model planetarny i przedstawił go systematycznie w dziele O obrotach sfer niebieskich."
+summary_original: "Renaissance polymath who developed the heliocentric planetary model presented systematically in De revolutionibus."
 works:
-  - title: "Commentariolus"
+  - title: "Mały komentarz"
+    original_title: "Commentariolus"
     year: 1514
     precision: approximate
-    dating_note: "Unpublished manuscript circulated before De revolutionibus; commonly dated before 1514."
+    dating_note: "Nieopublikowany rękopis krążył przed O obrotach sfer niebieskich; zwykle datuje się go na okres przed 1514 r."
+    dating_note_original: "Unpublished manuscript circulated before De revolutionibus; commonly dated before 1514."
     type: manuscript
-  - title: "Monetae cudendae ratio"
+  - title: "Sposób bicia monety"
+    original_title: "Monetae cudendae ratio"
     year: 1526
     precision: year
     type: economic_treatise
-  - title: "De revolutionibus orbium coelestium"
+  - title: "O obrotach sfer niebieskich"
+    original_title: "De revolutionibus orbium coelestium"
     year: 1543
     precision: year
     type: book
 ideas:
-  - name: "Copernican heliocentrism"
-    summary: "Earth rotates daily and, with the other planets, revolves around the Sun; the model reorganized planetary astronomy."
-  - name: "Quantity theory / monetary analysis"
-    summary: "Copernicus also wrote on coinage, monetary debasement and the value of money."
+  - name: "Heliocentryzm kopernikański"
+    original_name: "Copernican heliocentrism"
+    summary: "Ziemia obraca się wokół własnej osi i wraz z innymi planetami krąży wokół Słońca; model ten gruntownie przeorganizował astronomię planetarną."
+    summary_original: "Earth rotates daily and, with the other planets, revolves around the Sun; the model reorganized planetary astronomy."
+  - name: "Analiza pieniądza i psucia monety"
+    original_name: "Quantity theory / monetary analysis"
+    summary: "Kopernik pisał również o biciu monet, skutkach obniżania ich wartości oraz o wartości pieniądza."
+    summary_original: "Copernicus also wrote on coinage, monetary debasement and the value of money."
 events:
   - year: 1491
-    title: "Studies at Kraków"
-    summary: "Began studies at the University of Kraków, where mathematics and astronomy formed part of his education."
+    title: "Studia w Krakowie"
+    original_title: "Studies at Kraków"
+    summary: "Rozpoczął studia na Uniwersytecie Krakowskim, gdzie zetknął się m.in. z matematyką i astronomią."
+    summary_original: "Began studies at the University of Kraków, where mathematics and astronomy formed part of his education."
   - year: 1543
-    title: "Publication of De revolutionibus"
-    summary: "The first edition was printed in Nuremberg in the year of Copernicus's death."
+    title: "Publikacja O obrotach sfer niebieskich"
+    original_title: "Publication of De revolutionibus"
+    summary: "Pierwsze wydanie ukazało się w Norymberdze w roku śmierci Kopernika."
+    summary_original: "The first edition was printed in Nuremberg in the year of Copernicus's death."
 sources:
   - title: "Wikipedia — Nicolaus Copernicus"
     url: "https://en.wikipedia.org/wiki/Nicolaus_Copernicus"
