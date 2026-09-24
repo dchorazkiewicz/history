@@ -337,10 +337,29 @@
   }
 
   function showTooltip(evt, title, body='') {
+    // On touch devices a tap opens the details panel; don't leave a synthetic
+    // hover card covering the timeline.
+    if (evt.pointerType === 'touch') return;
+
     tooltip.innerHTML = `<b>${title}</b>${body}`;
-    tooltip.style.left = Math.min(window.innerWidth-320, evt.clientX+14) + 'px';
-    tooltip.style.top = Math.min(window.innerHeight-110, evt.clientY+14) + 'px';
     tooltip.classList.add('show');
+
+    const pad = 12;
+    const maxWidth = Math.min(320, window.innerWidth - pad * 2);
+    tooltip.style.maxWidth = maxWidth + 'px';
+
+    const box = tooltip.getBoundingClientRect();
+    const left = Math.max(
+      pad,
+      Math.min(window.innerWidth - box.width - pad, evt.clientX + 14)
+    );
+    const top = Math.max(
+      pad,
+      Math.min(window.innerHeight - box.height - pad, evt.clientY + 14)
+    );
+
+    tooltip.style.left = left + 'px';
+    tooltip.style.top = top + 'px';
   }
   const hideTooltip = () => tooltip.classList.remove('show');
 
@@ -467,25 +486,41 @@
       const g = d3.select(this).select('.markers');
       const marks = g.selectAll('g.marker').data(items, d => d.markerType + ':' + d.title + ':' + d.year);
       marks.exit().remove();
-      const enter = marks.enter().append('g').attr('class','marker').style('cursor','pointer');
-      enter.append('circle').attr('r',5);
-      enter.append('text').attr('class','marker-label').attr('y',62);
 
-      const mm = enter.merge(marks).attr('transform', d => `translate(${x(d.year)},0)`);
-      mm.select('circle')
+      const enter = marks.enter().append('g')
+        .attr('class', d => `marker marker-${d.markerType}`)
+        .style('cursor','pointer');
+
+      // Generous invisible hit area: easy to hover with a mouse and easy to tap
+      // on a phone, while the visible symbol stays compact.
+      enter.append('circle')
+        .attr('class','marker-hit')
         .attr('cy',50)
-        .attr('class', d => d.markerType === 'work' ? 'marker-work' : 'marker-event');
+        .attr('r',14);
 
-      mm.select('text')
-        .attr('x', 8)
-        .text(d => {
-          const visible = d.year >= currentDomain[0] && d.year <= currentDomain[1];
-          return visible && currentDomain[1]-currentDomain[0] < 320 ? d.title.slice(0,34) : '';
+      enter.append('path')
+        .attr('class','marker-symbol')
+        .attr('transform','translate(0,50)');
+
+      const mm = enter.merge(marks)
+        .attr('class', d => `marker marker-${d.markerType}`)
+        .attr('transform', d => `translate(${x(d.year)},0)`);
+
+      mm.select('.marker-symbol')
+        .attr('d', d => d3.symbol()
+          .type(d.markerType === 'work' ? d3.symbolDiamond : d3.symbolCircle)
+          .size(d.markerType === 'work' ? 92 : 78)());
+
+      mm.on('pointermove', (e,d) => showTooltip(
+          e,
+          d.title,
+          `${fmtYear(d.year)} · ${d.markerType === 'work' ? 'dzieło / publikacja' : 'wydarzenie'}<br>${d.summary || d.dating_note || d.publication_note || 'Kliknij, aby zobaczyć szczegóły.'}`
+        ))
+        .on('pointerleave', hideTooltip)
+        .on('click', (e,d) => {
+          hideTooltip();
+          openMarker(p,d,d.markerType);
         });
-
-      mm.on('mousemove', (e,d) => showTooltip(e, d.title, `${fmtYear(d.year)} · ${d.markerType === 'work' ? 'dzieło' : 'wydarzenie'}<br>${d.summary || d.dating_note || ''}`))
-        .on('mouseleave', hideTooltip)
-        .on('click', (e,d) => openMarker(p,d,d.markerType));
     });
 
     bindPanAndWheel(width);
