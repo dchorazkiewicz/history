@@ -1,0 +1,62 @@
+id: arnold
+name: "Vladimir Igorevich Arnold"
+display_name: "Władimir Arnold"
+born:
+  date: "1937-06-12"
+  year: 1937
+  precision: day
+died:
+  date: "2010-06-03"
+  year: 2010
+  precision: day
+place_association: "Odessa; Moskwa; Paryż"
+fields: [mathematics, dynamical_systems, symplectic_geometry, singularity_theory, differential_equations, mechanics, topology]
+image: null
+summary: "Rosyjski matematyk, jeden z najważniejszych twórców nowoczesnej teorii układów dynamicznych i geometrii symplektycznej. Współtworzył teorię KAM, rozwijał teorię osobliwości i pozostawił wpływowy geometryczny sposób myślenia o mechanice."
+summary_original: "Russian mathematician, a major creator of modern dynamical systems and symplectic geometry. He co-created KAM theory, advanced singularity theory and left an influential geometric approach to mechanics."
+works:
+  - title: "Matematyczne metody mechaniki klasycznej"
+    original_title: "Mathematical Methods of Classical Mechanics"
+    year: 1974
+    precision: year
+    type: mathematical_treatise
+  - title: "Teoria katastrof"
+    original_title: "Singularities of Differentiable Maps"
+    year: 1985
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Dwutomowe dzieło z V. I. Arnoldem, S. M. Gusein-Zade i A. N. Varchenko; pierwszy tom ukazał się w 1985 r."
+    publication_note_original: "A multi-author two-volume work; the first volume appeared in 1985."
+ideas:
+  - name: "Teoria KAM"
+    original_name: "KAM theory"
+    wikipedia: "https://en.wikipedia.org/wiki/KAM_theorem"
+    summary: "Arnold rozwinął twierdzenie Kołmogorowa o trwałości quasiokresowych orbit w lekko zaburzonych układach Hamiltona."
+    summary_original: "Arnold developed Kolmogorov's theorem on persistence of quasiperiodic orbits in weakly perturbed Hamiltonian systems."
+  - name: "Hipoteza Arnolda"
+    original_name: "Arnold conjecture"
+    wikipedia: "https://en.wikipedia.org/wiki/Arnold_conjecture"
+    summary: "Hipoteza o punktach stałych symplektycznych dyfeomorfizmów stała się jednym z impulsów rozwoju topologii symplektycznej i teorii Floera."
+    summary_original: "A conjecture on fixed points of symplectic diffeomorphisms became a major stimulus for symplectic topology and Floer theory."
+  - name: "Klasyfikacja osobliwości"
+    original_name: "Classification of singularities"
+    summary: "Arnold stworzył rozbudowane systemy klasyfikacji osobliwości funkcji i odwzorowań."
+    summary_original: "Arnold developed extensive classification systems for singularities of functions and mappings."
+events:
+  - year: 1957
+    precision: year
+    title: "Rozwiązanie trzynastego problemu Hilberta"
+    original_title: "Solution related to Hilbert's thirteenth problem"
+    summary: "Jako młody matematyk Arnold, rozwijając pracę Kołmogorowa, wykazał reprezentowalność ciągłych funkcji wielu zmiennych przez superpozycje funkcji mniejszej liczby zmiennych."
+    summary_original: "As a young mathematician Arnold, extending Kolmogorov's work, established representation of multivariable continuous functions by superpositions of functions of fewer variables."
+  - year: 1965
+    precision: approximate
+    title: "Rozwój teorii KAM"
+    original_title: "Development of KAM theory"
+    summary: "Prace Arnolda nadały teorii perturbacji Hamiltonowskiej nowoczesną, geometryczną postać."
+    summary_original: "Arnold's work gave Hamiltonian perturbation theory a modern geometric form."
+sources:
+  - title: "MacTutor — Vladimir Arnold"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Arnold/"
+  - title: "Wikipedia — Vladimir Arnold"
+    url: "https://en.wikipedia.org/wiki/Vladimir_Arnold"
