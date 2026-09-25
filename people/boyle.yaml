@@ -1,0 +1,60 @@
+id: boyle
+name: "Robert Boyle"
+display_name: "Robert Boyle"
+born:
+  date: "1627-01-25"
+  year: 1627
+  precision: day
+died:
+  date: "1691-12-31"
+  year: 1691
+  precision: day
+place_association: "Lismore; Oksford; Londyn"
+fields: [physics, chemistry, natural_philosophy, pneumatics, experimental_science, theology]
+image: null
+summary: "Anglo-irlandzki przyrodnik, jedna z kluczowych postaci rewolucji naukowej. Badał własności powietrza i próżni, współtworzył nowoczesne podejście eksperymentalne w chemii i fizyce oraz krytykował tradycyjną teorię czterech żywiołów."
+summary_original: "Anglo-Irish natural philosopher and a key figure of the Scientific Revolution. He investigated air and vacuum, helped shape experimental approaches in chemistry and physics, and criticized the traditional theory of four elements."
+works:
+  - title: "Nowe doświadczenia fizyczno-mechaniczne dotyczące sprężystości powietrza"
+    original_title: "New Experiments Physico-Mechanical, Touching the Spring of the Air"
+    year: 1660
+    precision: year
+    type: scientific_treatise
+  - title: "Sceptyczny chemik"
+    original_title: "The Sceptical Chymist"
+    wikipedia: "https://en.wikipedia.org/wiki/The_Sceptical_Chymist"
+    year: 1661
+    precision: year
+    type: book
+ideas:
+  - name: "Prawo Boyle’a"
+    original_name: "Boyle's law"
+    wikipedia: "https://en.wikipedia.org/wiki/Boyle%27s_law"
+    summary: "Dla stałej temperatury ciśnienie gazu jest odwrotnie proporcjonalne do jego objętości."
+    summary_original: "At constant temperature, the pressure of a gas varies inversely with its volume."
+  - name: "Korpuskularna filozofia materii"
+    original_name: "Corpuscular philosophy"
+    summary: "Boyle interpretował własności substancji przez ruch i konfigurację drobnych cząstek, odchodząc od arystotelesowskich jakości."
+    summary_original: "Boyle interpreted material properties through the motion and configuration of small particles rather than Aristotelian qualities."
+  - name: "Eksperyment jako narzędzie wiedzy"
+    original_name: "Experiment as a tool of knowledge"
+    summary: "Boyle podkreślał powtarzalne doświadczenie, szczegółowy opis aparatury i ostrożne wnioskowanie zamiast systemów spekulatywnych."
+    summary_original: "Boyle emphasized repeatable experiments, detailed apparatus descriptions and cautious inference over speculative systems."
+events:
+  - year: 1659
+    precision: approximate
+    title: "Budowa udoskonalonej pompy powietrznej z Robertem Hooke’em"
+    original_title: "Improved air pump with Robert Hooke"
+    summary: "Boyle i Hooke prowadzili serię eksperymentów nad ciśnieniem, próżnią, oddychaniem i spalaniem."
+    summary_original: "Boyle and Hooke carried out experiments on pressure, vacuum, respiration and combustion."
+  - year: 1660
+    precision: year
+    title: "Współtworzenie Royal Society"
+    original_title: "Formation of the Royal Society"
+    summary: "Boyle należał do kręgu uczonych, z którego powstało Royal Society."
+    summary_original: "Boyle belonged to the circle from which the Royal Society emerged."
+sources:
+  - title: "Encyclopaedia Britannica — Robert Boyle"
+    url: "https://www.britannica.com/biography/Robert-Boyle"
+  - title: "Wikipedia — Robert Boyle"
+    url: "https://en.wikipedia.org/wiki/Robert_Boyle"
