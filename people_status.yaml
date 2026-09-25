@@ -187,7 +187,9 @@ people:
   - id: al_biruni
     name: "Al-Biruni"
     status: pending
-    focus: [mathematics, physics]  - id: omar_khayyam
+    focus: [mathematics, physics]
+
+  - id: omar_khayyam
     name: "Omar Chajjam"
     status: pending
     focus: [mathematics]
@@ -255,7 +257,9 @@ people:
   - id: kepler
     name: "Johannes Kepler"
     status: pending
-    focus: [mathematics, physics]  - id: fermat
+    focus: [mathematics, physics]
+
+  - id: fermat
     name: "Pierre de Fermat"
     status: pending
     focus: [mathematics]
@@ -263,7 +267,9 @@ people:
   - id: pascal
     name: "Blaise Pascal"
     status: pending
-    focus: [mathematics, physics]  - id: cavalieri
+    focus: [mathematics, physics]
+
+  - id: cavalieri
     name: "Bonaventura Cavalieri"
     status: pending
     focus: [mathematics]
@@ -276,7 +282,9 @@ people:
   - id: huygens
     name: "Christiaan Huygens"
     status: pending
-    focus: [mathematics, physics]  - id: jacob_bernoulli
+    focus: [mathematics, physics]
+
+  - id: jacob_bernoulli
     name: "Jacob Bernoulli"
     status: pending
     focus: [mathematics]
@@ -304,7 +312,9 @@ people:
   - id: euler
     name: "Leonhard Euler"
     status: pending
-    focus: [mathematics, physics]  - id: dalembert
+    focus: [mathematics, physics]
+
+  - id: dalembert
     name: "Jean le Rond d’Alembert"
     status: pending
     focus: [mathematics]
@@ -312,7 +322,9 @@ people:
   - id: lagrange
     name: "Joseph-Louis Lagrange"
     status: pending
-    focus: [mathematics, physics]  - id: laplace
+    focus: [mathematics, physics]
+
+  - id: laplace
     name: "Pierre-Simon Laplace"
     status: pending
     focus: [mathematics]
@@ -330,7 +342,9 @@ people:
   - id: gauss
     name: "Carl Friedrich Gauss"
     status: pending
-    focus: [mathematics, physics]  - id: fourier
+    focus: [mathematics, physics]
+
+  - id: fourier
     name: "Joseph Fourier"
     status: pending
     focus: [mathematics]
@@ -423,7 +437,9 @@ people:
   - id: poincare
     name: "Henri Poincaré"
     status: pending
-    focus: [mathematics, physics]  - id: minkowski
+    focus: [mathematics, physics]
+
+  - id: minkowski
     name: "Hermann Minkowski"
     status: pending
     focus: [mathematics]
@@ -506,10 +522,14 @@ people:
   - id: weyl
     name: "Hermann Weyl"
     status: pending
-    focus: [mathematics, physics]  - id: noether
+    focus: [mathematics, physics]
+
+  - id: noether
     name: "Emmy Noether"
     status: pending
-    focus: [mathematics, physics]  - id: ramanujan
+    focus: [mathematics, physics]
+
+  - id: ramanujan
     name: "Srinivasa Ramanujan"
     status: pending
     focus: [mathematics]
@@ -557,7 +577,9 @@ people:
   - id: von_neumann
     name: "John von Neumann"
     status: pending
-    focus: [mathematics, physics]  - id: church
+    focus: [mathematics, physics]
+
+  - id: church
     name: "Alonzo Church"
     status: pending
     focus: [mathematics]
