@@ -1,0 +1,49 @@
+id: galvani
+name: "Luigi Galvani"
+display_name: "Luigi Galvani"
+born:
+  date: "1737-09-09"
+  year: 1737
+  precision: day
+died:
+  date: "1798-12-04"
+  year: 1798
+  precision: day
+place_association: "Bolonia, Państwo Kościelne"
+fields: [physics, electricity, medicine, anatomy, physiology, experimental_science]
+image: null
+summary: "Włoski lekarz, anatom i fizjolog, którego doświadczenia na preparatach żab zapoczątkowały badania bioelektryczności. Interpretował skurcze mięśni jako przejaw „elektryczności zwierzęcej”, co doprowadziło do słynnego sporu z Alessandrem Voltą."
+summary_original: "Italian physician, anatomist and physiologist whose experiments on frog preparations launched the study of bioelectricity. He interpreted muscular contractions as evidence of 'animal electricity,' leading to a famous dispute with Alessandro Volta."
+works:
+  - title: "O siłach elektryczności w ruchu mięśniowym"
+    original_title: "De viribus electricitatis in motu musculari commentarius"
+    year: 1791
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Elektryczność zwierzęca"
+    original_name: "Animal electricity"
+    summary: "Galvani uważał, że tkanki zwierzęce zawierają własną formę elektryczności, zdolną pobudzać mięśnie przez nerwy."
+    summary_original: "Galvani believed animal tissues contained their own form of electricity capable of stimulating muscles through nerves."
+  - name: "Początki bioelektryczności"
+    original_name: "Origins of bioelectricity"
+    summary: "Choć interpretacja Galvaniego była częściowo sporna, jego doświadczenia ujawniły ścisły związek zjawisk elektrycznych z działaniem układu nerwowo-mięśniowego."
+    summary_original: "Although Galvani's interpretation was partly disputed, his experiments revealed a close connection between electrical phenomena and neuromuscular activity."
+events:
+  - year: 1780
+    precision: approximate
+    title: "Doświadczenia z preparatami żab"
+    original_title: "Experiments with frog preparations"
+    summary: "Galvani obserwował skurcze mięśni wywoływane przez wyładowania i kontakt metali."
+    summary_original: "Galvani observed muscle contractions triggered by electrical discharges and metal contacts."
+  - year: 1791
+    precision: year
+    title: "Publikacja rozprawy o elektryczności zwierzęcej"
+    original_title: "Publication on animal electricity"
+    summary: "Praca rozpoczęła szeroką debatę z Voltą nad źródłem obserwowanej elektryczności."
+    summary_original: "The work launched a broad debate with Volta over the source of the observed electricity."
+sources:
+  - title: "Encyclopaedia Britannica — Luigi Galvani"
+    url: "https://www.britannica.com/biography/Luigi-Galvani"
+  - title: "Wikipedia — Luigi Galvani"
+    url: "https://en.wikipedia.org/wiki/Luigi_Galvani"
