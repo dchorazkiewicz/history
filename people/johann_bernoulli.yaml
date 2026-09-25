@@ -1,0 +1,78 @@
+id: johann_bernoulli
+name: "Johann Bernoulli"
+display_name: "Johann Bernoulli"
+born:
+  date: "1667-08-06"
+  year: 1667
+  precision: day
+died:
+  date: "1748-01-01"
+  year: 1748
+  precision: day
+place_association: "Bazylea; Groningen, Szwajcaria i Republika Zjednoczonych Prowincji"
+fields: [mathematics, infinitesimal_calculus, differential_equations, mechanics, fluid_dynamics, education]
+image: null
+summary: "Szwajcarski matematyk, brat Jacoba Bernoulliego i jeden z najważniejszych popularyzatorów oraz twórców rachunku Leibniza. Rozwijał równania różniczkowe, rachunek wariacyjny, mechanikę i hydrodynamikę, a jego wykłady wywarły ogromny wpływ na de l’Hôpitala i młodego Eulera."
+summary_original: "Swiss mathematician, brother of Jacob Bernoulli and one of the major developers and disseminators of Leibnizian calculus. He advanced differential equations, variational methods, mechanics and hydrodynamics, while his teaching strongly influenced de l'Hôpital and the young Euler."
+works:
+  - title: "Wykłady z rachunku różniczkowego"
+    original_title: "Lectiones de calculo differentialium"
+    year: 1691
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Notatki z wykładów dla markiza de l’Hôpitala; znaczna część materiału trafiła do pierwszego drukowanego podręcznika rachunku różniczkowego de l’Hôpitala z 1696 r."
+    publication_note_original: "Lecture notes prepared for the Marquis de l'Hôpital; much of the material entered de l'Hôpital's 1696 textbook, the first printed differential-calculus text."
+  - title: "Dzieła zebrane"
+    original_title: "Opera Omnia"
+    year: 1742
+    precision: year
+    type: collected_works
+  - title: "Hydraulika"
+    original_title: "Hydraulica"
+    year: 1742
+    precision: year
+    type: scientific_treatise
+    publication_note: "Ukazała się w czwartym tomie Opera Omnia. Na stronie tytułowej podano wcześniejszą datę 1732, co wiązało się ze sporem o pierwszeństwo z synem Danielem."
+    publication_note_original: "Published in volume IV of the Opera Omnia. The title page gave the earlier date 1732, connected with a priority dispute with his son Daniel."
+ideas:
+  - name: "Problem brachistochrony"
+    original_name: "Brachistochrone problem"
+    wikipedia: "https://en.wikipedia.org/wiki/Brachistochrone_curve"
+    summary: "W 1696 r. Johann rzucił europejskim matematykom wyzwanie znalezienia krzywej najszybszego spadku; rozwiązaniem jest cykloida."
+    summary_original: "In 1696 Johann challenged European mathematicians to find the curve of fastest descent; the solution is a cycloid."
+  - name: "Rachunek Leibniza i jego nauczanie"
+    original_name: "Leibnizian calculus and its teaching"
+    summary: "Bernoulli był jednym z najskuteczniejszych nauczycieli nowego rachunku, rozwijając jego techniki i przekazując je kolejnemu pokoleniu."
+    summary_original: "Bernoulli was one of the most effective teachers of the new calculus, extending its techniques and transmitting them to the next generation."
+  - name: "Równania różniczkowe"
+    original_name: "Differential equations"
+    summary: "Rozwijał metody dla wielu typów równań różniczkowych pojawiających się w geometrii i mechanice."
+    summary_original: "He developed methods for many types of differential equations arising in geometry and mechanics."
+  - name: "Hydrodynamika i zasada pracy"
+    original_name: "Hydrodynamics and work-energy ideas"
+    summary: "Badał ruch cieczy i związki między siłą a ruchem, uczestnicząc w sporach o energię i mechanikę XVIII wieku."
+    summary_original: "He studied fluid motion and relations between force and motion, participating in eighteenth-century debates on energy and mechanics."
+events:
+  - year: 1691
+    precision: year
+    title: "Nauczanie de l’Hôpitala"
+    original_title: "Teaching de l'Hôpital"
+    summary: "Johann prowadził intensywne wykłady z rachunku Leibniza dla francuskiego markiza."
+    summary_original: "Johann gave intensive instruction in Leibnizian calculus to the French marquis."
+  - year: 1695
+    precision: year
+    title: "Objęcie katedry matematyki w Groningen"
+    original_title: "Appointment at Groningen"
+    summary: "Bernoulli został profesorem matematyki na Uniwersytecie w Groningen."
+    summary_original: "Bernoulli became professor of mathematics at the University of Groningen."
+  - year: 1705
+    precision: year
+    title: "Powrót do Bazylei po śmierci Jacoba"
+    original_title: "Return to Basel after Jacob's death"
+    summary: "Johann przejął po bracie katedrę matematyki w Bazylei."
+    summary_original: "Johann succeeded his brother in the mathematics chair at Basel."
+sources:
+  - title: "MacTutor — Johann Bernoulli"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Johann/"
+  - title: "ETH e-rara — Johann Bernoulli, Opera Omnia"
+    url: "https://www.e-rara.ch/doi/10.3931/e-rara-3595"
