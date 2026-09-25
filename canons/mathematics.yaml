@@ -2,8 +2,14 @@ schema_version: 1
 category: mathematics
 label: "Matematycy — kanon historyczny"
 selection_policy: "Selektywny kanon osób istotnych dla historii matematyki; XX i XXI wiek filtrowane szczególnie mocno."
-count: 122
+count: 141
 members:
+  - archimedes
+  - ptolemy
+  - copernicus
+  - descartes
+  - newton
+  - leibniz
   - thales
   - pythagoras
   - eudoxus
@@ -16,6 +22,7 @@ members:
   - pappus
   - hypatia
   - liu_hui
+  - zu_chongzhi
   - aryabhata
   - brahmagupta
   - bhaskara_i
@@ -74,6 +81,7 @@ members:
   - peano
   - frege
   - bertrand_russell
+  - zermelo
   - hurwitz
   - borel
   - lebesgue
@@ -126,3 +134,14 @@ members:
   - bhargava
   - venkatesh
   - june_huh
+  - omar_khayyam
+  - fermat
+  - cavalieri
+  - jacob_bernoulli
+  - dalembert
+  - laplace
+  - fourier
+  - minkowski
+  - noether
+  - ramanujan
+  - church
