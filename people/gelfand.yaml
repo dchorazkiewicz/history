@@ -1,0 +1,57 @@
+id: gelfand
+name: "Israel Moiseevich Gelfand"
+display_name: "Israel Gelfand"
+born:
+  date: "1913-09-02"
+  year: 1913
+  precision: day
+died:
+  date: "2009-10-05"
+  year: 2009
+  precision: day
+place_association: "Okny; Moskwa; New Brunswick"
+fields: [mathematics, functional_analysis, representation_theory, operator_algebras, topology, differential_equations, mathematical_physics, biology, education]
+image: null
+summary: "Matematyk radziecki i amerykański o niezwykle szerokim wpływie. Jego szkoła obejmowała analizę funkcjonalną, teorię reprezentacji, algebry operatorowe, równania różniczkowe i fizykę matematyczną, a później także zastosowania matematyki w biologii."
+summary_original: "Soviet and American mathematician of exceptionally broad influence. His school spanned functional analysis, representation theory, operator algebras, differential equations and mathematical physics, later extending into mathematical approaches to biology."
+works:
+  - title: "Funkcje uogólnione"
+    original_title: "Generalized Functions"
+    year: 1958
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Wielotomowa seria napisana z różnymi współautorami, publikowana od końca lat 50."
+    publication_note_original: "A multi-volume series written with various collaborators, published from the late 1950s onward."
+ideas:
+  - name: "Transformata Gelfanda"
+    original_name: "Gelfand transform"
+    wikipedia: "https://en.wikipedia.org/wiki/Gelfand_representation"
+    summary: "Przekształca przemienne algebry Banacha w algebry funkcji na odpowiedniej przestrzeni widma."
+    summary_original: "It represents commutative Banach algebras as algebras of functions on an associated spectrum."
+  - name: "Twierdzenie Gelfanda-Najmarka"
+    original_name: "Gelfand–Naimark theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Gelfand%E2%80%93Naimark_theorem"
+    summary: "C*-algebry można realizować jako algebry operatorów na przestrzeni Hilberta."
+    summary_original: "C*-algebras can be represented as algebras of operators on a Hilbert space."
+  - name: "Szkoła Gelfanda"
+    original_name: "Gelfand seminar"
+    summary: "Jego seminarium w Moskwie stało się jednym z najbardziej wpływowych środowisk matematycznych XX wieku."
+    summary_original: "His Moscow seminar became one of the most influential mathematical environments of the twentieth century."
+events:
+  - year: 1930
+    precision: approximate
+    title: "Przyjazd do Moskwy"
+    original_title: "Arrival in Moscow"
+    summary: "Bez klasycznego wykształcenia uniwersyteckiego Gelfand szybko wszedł do moskiewskiego środowiska matematycznego."
+    summary_original: "Without a conventional university education, Gelfand rapidly entered Moscow's mathematical community."
+  - year: 1990
+    precision: year
+    title: "Przeniesienie do Stanów Zjednoczonych"
+    original_title: "Move to the United States"
+    summary: "Gelfand związał się z Rutgers University."
+    summary_original: "Gelfand joined Rutgers University."
+sources:
+  - title: "MacTutor — Israel Gelfand"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Gelfand/"
+  - title: "Wikipedia — Israel Gelfand"
+    url: "https://en.wikipedia.org/wiki/Israel_Gelfand"
