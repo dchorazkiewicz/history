@@ -1,0 +1,45 @@
+id: mills
+name: "Robert Laurence Mills"
+display_name: "Robert Mills"
+born:
+  date: "1927-04-15"
+  year: 1927
+  precision: day
+died:
+  date: "1999-10-27"
+  year: 1999
+  precision: day
+place_association: "Englewood; Princeton; Brookhaven; Ohio State"
+fields: [physics, particle_physics, quantum_field_theory, gauge_theory]
+image: null
+summary: "Amerykański fizyk teoretyczny, współtwórca z Chen-Ning Yangiem nieabelowej teorii cechowania. Teoria Yanga-Millsa stała się podstawowym formalizmem Modelu Standardowego."
+summary_original: "American theoretical physicist who co-created non-Abelian gauge theory with Chen-Ning Yang. Yang–Mills theory became a foundational formalism of the Standard Model."
+works:
+  - title: "Zachowanie izotopowego spinu i niezmienniczość cechowania"
+    original_title: "Conservation of Isotopic Spin and Isotopic Gauge Invariance"
+    year: 1954
+    precision: year
+    type: scientific_treatise
+    publication_note: "Praca z Chen-Ning Yangiem."
+    publication_note_original: "Written with Chen-Ning Yang."
+ideas:
+  - name: "Nieabelowa teoria cechowania"
+    original_name: "Non-Abelian gauge theory"
+    summary: "Mills i Yang wprowadzili pola cechowania związane z lokalną symetrią grup nieprzemiennych."
+    summary_original: "Mills and Yang introduced gauge fields associated with local symmetry under noncommuting groups."
+  - name: "Pola Yanga-Millsa"
+    original_name: "Yang–Mills fields"
+    summary: "Formalizm pozwala opisywać oddziaływania, w których same bozony pośredniczące mogą oddziaływać ze sobą."
+    summary_original: "The framework describes interactions in which the mediating gauge bosons can interact with one another."
+events:
+  - year: 1954
+    precision: year
+    title: "Publikacja teorii Yanga-Millsa"
+    original_title: "Publication of Yang–Mills theory"
+    summary: "Praca stała się jednym z najważniejszych fundamentów późniejszej fizyki cząstek."
+    summary_original: "The paper became a major foundation of later particle physics."
+sources:
+  - title: "Wikipedia — Robert Mills"
+    url: "https://en.wikipedia.org/wiki/Robert_Mills_(physicist)"
+  - title: "American Institute of Physics — Yang-Mills context"
+    url: "https://history.aip.org/exhibits/yang/"
