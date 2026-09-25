@@ -1,0 +1,44 @@
+id: lee
+name: "Tsung-Dao Lee"
+display_name: "Tsung-Dao Lee"
+born:
+  date: "1926-11-24"
+  year: 1926
+  precision: day
+died:
+  date: "2024-08-04"
+  year: 2024
+  precision: day
+place_association: "Szanghaj; Chicago; Columbia University"
+fields: [physics, particle_physics, quantum_field_theory, statistical_mechanics, nuclear_physics]
+image: null
+summary: "Chińsko-amerykański fizyk teoretyczny, współautor z Chen-Ning Yangiem analizy prowadzącej do odkrycia łamania parzystości w słabych oddziaływaniach. Pracował również nad teorią pola, statystyką i fizyką wysokich energii."
+summary_original: "Chinese-American theoretical physicist who, with Chen-Ning Yang, led the analysis that revealed parity violation in weak interactions. He also worked on field theory, statistical mechanics and high-energy physics."
+works:
+  - title: "Pytanie o zachowanie parzystości w oddziaływaniach słabych"
+    original_title: "Question of Parity Conservation in Weak Interactions"
+    year: 1956
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Łamanie parzystości w oddziaływaniach słabych"
+    original_name: "Parity violation in weak interactions"
+    wikipedia: "https://en.wikipedia.org/wiki/Parity_(physics)"
+    summary: "Lee i Yang wykazali, że nie istnieją dowody na zachowanie symetrii lustrzanej w procesach słabych i wskazali eksperymenty rozstrzygające."
+    summary_original: "Lee and Yang showed there was no evidence for mirror symmetry in weak processes and proposed decisive experiments."
+  - name: "Model Lee"
+    original_name: "Lee model"
+    summary: "Prosty model kwantowej teorii pola służył do badania renormalizacji i struktury oddziaływań."
+    summary_original: "A simple quantum field model used to study renormalization and interaction structure."
+events:
+  - year: 1957
+    precision: year
+    title: "Nagroda Nobla z Chen-Ning Yangiem"
+    original_title: "Nobel Prize with Chen Ning Yang"
+    summary: "Nagrodzono ich za badania praw parzystości prowadzące do nowych odkryć dotyczących cząstek elementarnych."
+    summary_original: "They were honored for investigations of parity laws leading to new discoveries about elementary particles."
+sources:
+  - title: "Nobel Prize — Tsung-Dao Lee"
+    url: "https://www.nobelprize.org/prizes/physics/1957/lee/facts/"
+  - title: "Wikipedia — Tsung-Dao Lee"
+    url: "https://en.wikipedia.org/wiki/Tsung-Dao_Lee"
