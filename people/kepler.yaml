@@ -1,0 +1,98 @@
+id: kepler
+name: "Johannes Kepler"
+display_name: "Johannes Kepler"
+born:
+  date: "1571-12-27"
+  year: 1571
+  precision: day
+died:
+  date: "1630-11-15"
+  year: 1630
+  precision: day
+place_association: "Weil der Stadt; Graz; Praga; Linz; Ratyzbona"
+fields: [mathematics, astronomy, physics, optics, geometry, natural_philosophy, astrology, theology]
+image: null
+summary: "Niemiecki matematyk, astronom i filozof przyrody, który na podstawie danych Tycho Brahe sformułował prawa ruchu planet. Rozwijał optykę, geometrię brył, metody obliczania objętości i próbował wyjaśniać porządek kosmosu za pomocą matematyki, harmonii i przyczyn fizycznych."
+summary_original: "German mathematician, astronomer and natural philosopher who formulated the laws of planetary motion using Tycho Brahe's data. He advanced optics, solid geometry and methods of volume calculation, and sought to explain cosmic order through mathematics, harmony and physical causes."
+works:
+  - title: "Tajemnica kosmograficzna"
+    original_title: "Mysterium Cosmographicum"
+    year: 1596
+    precision: year
+    type: astronomical_treatise
+  - title: "Astronomiczna część optyki"
+    original_title: "Astronomiae Pars Optica"
+    year: 1604
+    precision: year
+    type: scientific_treatise
+  - title: "Nowa astronomia"
+    original_title: "Astronomia Nova"
+    wikipedia: "https://en.wikipedia.org/wiki/Astronomia_nova"
+    year: 1609
+    precision: year
+    type: astronomical_treatise
+    publication_note: "Dzieło zawiera pierwsze dwa prawa ruchu planet."
+    publication_note_original: "The work contains the first two laws of planetary motion."
+  - title: "Dioptryka"
+    original_title: "Dioptrice"
+    year: 1611
+    precision: year
+    type: scientific_treatise
+  - title: "Harmonia świata"
+    original_title: "Harmonices Mundi"
+    year: 1619
+    precision: year
+    type: book
+    publication_note: "Zawiera trzecie prawo Keplera oraz rozważania o harmonii, geometrii i muzyce."
+    publication_note_original: "Contains Kepler's third law along with discussions of harmony, geometry and music."
+  - title: "Tablice rudolfińskie"
+    original_title: "Rudolphine Tables"
+    year: 1627
+    precision: year
+    type: astronomical_treatise
+ideas:
+  - name: "Pierwsze prawo Keplera"
+    original_name: "Kepler's first law"
+    wikipedia: "https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion"
+    summary: "Planety poruszają się po elipsach, a Słońce znajduje się w jednym z ognisk."
+    summary_original: "Planets move in ellipses with the Sun at one focus."
+  - name: "Drugie prawo Keplera"
+    original_name: "Kepler's second law"
+    summary: "Promień wodzący planety zakreśla równe pola w równych odstępach czasu."
+    summary_original: "A line from the Sun to a planet sweeps equal areas in equal times."
+  - name: "Trzecie prawo Keplera"
+    original_name: "Kepler's third law"
+    summary: "Kwadrat okresu obiegu planety jest proporcjonalny do sześcianu wielkiej półosi jej orbity."
+    summary_original: "The square of a planet's orbital period is proportional to the cube of the semi-major axis of its orbit."
+  - name: "Optyka obrazu i widzenia"
+    original_name: "Optics of images and vision"
+    summary: "Kepler poprawnie opisał powstawanie odwróconego obrazu na siatkówce i analizował działanie soczewek oraz teleskopu."
+    summary_original: "Kepler correctly described the formation of an inverted image on the retina and analyzed lenses and telescopes."
+  - name: "Metody objętości brył"
+    original_name: "Methods for volumes of solids"
+    summary: "W pracy o beczkach i bryłach obrotowych stosował metody sumowania przekrojów będące ważnymi prekursorami rachunku całkowego."
+    summary_original: "In work on barrels and solids of revolution he used methods of summing cross-sections that were important precursors of integral calculus."
+events:
+  - year: 1600
+    precision: year
+    title: "Rozpoczęcie współpracy z Tycho Brahe"
+    original_title: "Beginning collaboration with Tycho Brahe"
+    summary: "Kepler dołączył do zespołu Tycho w Pradze i uzyskał dostęp do wyjątkowo dokładnych obserwacji planet."
+    summary_original: "Kepler joined Tycho's team in Prague and gained access to exceptionally precise planetary observations."
+  - year: 1601
+    precision: year
+    title: "Objęcie funkcji cesarskiego matematyka"
+    original_title: "Appointment as imperial mathematician"
+    summary: "Po śmierci Tycho Brahe Kepler został matematykiem cesarskim Rudolfa II."
+    summary_original: "After Tycho Brahe's death Kepler became imperial mathematician to Rudolf II."
+  - year: 1609
+    precision: year
+    title: "Publikacja dwóch pierwszych praw ruchu planet"
+    original_title: "Publication of the first two laws of planetary motion"
+    summary: "Astronomia Nova zerwała z założeniem jednostajnych orbit kołowych i wprowadziła elipsę do fizycznej astronomii planet."
+    summary_original: "Astronomia Nova broke with uniform circular planetary orbits and introduced the ellipse into physical planetary astronomy."
+sources:
+  - title: "MacTutor — Johannes Kepler"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Kepler/"
+  - title: "MacTutor — Kepler's laws"
+    url: "https://mathshistory.st-andrews.ac.uk/HistTopics/Keplers_laws/"
