@@ -1,0 +1,51 @@
+id: scholze
+name: "Peter Scholze"
+display_name: "Peter Scholze"
+born:
+  year: 1987
+  precision: year
+died: null
+place_association: "Drezno; Bonn"
+fields: [mathematics, arithmetic_geometry, algebraic_geometry, p_adic_geometry, cohomology, number_theory]
+image: null
+summary: "Niemiecki matematyk, który wprowadził przestrzenie perfektoidalne i głęboko przekształcił arytmetyczną geometrię p-adyczną. Rozwija także teorię diamentów i nowe teorie kohomologii."
+summary_original: "German mathematician who introduced perfectoid spaces and deeply transformed p-adic arithmetic geometry. He also develops diamonds and new cohomology theories."
+works:
+  - title: "Przestrzenie perfektoidalne"
+    original_title: "Perfectoid Spaces"
+    wikipedia: "https://en.wikipedia.org/wiki/Perfectoid_space"
+    year: 2012
+    precision: year
+    type: mathematical_essay
+  - title: "P-adyczna teoria Hodge’a dla rozmaitości sztywno-analitycznych"
+    original_title: "p-adic Hodge theory for rigid-analytic varieties"
+    year: 2013
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Przestrzenie perfektoidalne"
+    original_name: "Perfectoid spaces"
+    summary: "Scholze stworzył narzędzie pozwalające przechodzić między geometrią charakterystyki 0 i p w sposób niedostępny wcześniejszym metodom."
+    summary_original: "Scholze created a tool enabling passage between geometry in characteristic 0 and characteristic p in ways unavailable to earlier methods."
+  - name: "Diamenty"
+    original_name: "Diamonds"
+    summary: "Nowa kategoria obiektów geometrycznych porządkuje ilorazy przestrzeni perfektoidalnych i jest kluczowa w nowoczesnej geometrii p-adycznej."
+    summary_original: "A new category of geometric objects organizes quotients of perfectoid spaces and is central to modern p-adic geometry."
+events:
+  - year: 2012
+    precision: year
+    title: "Profesor w Bonn"
+    original_title: "Professor in Bonn"
+    summary: "W wieku 24 lat Scholze został profesorem na Uniwersytecie w Bonn."
+    summary_original: "At age 24 Scholze became a professor at the University of Bonn."
+  - year: 2018
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Otrzymał Medal Fieldsa za przekształcenie arytmetycznej geometrii algebraicznej przez przestrzenie perfektoidalne."
+    summary_original: "He received the Fields Medal for transforming arithmetic algebraic geometry through perfectoid spaces."
+sources:
+  - title: "International Mathematical Union — Fields Medal 2018"
+    url: "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2018"
+  - title: "Max Planck Institute for Mathematics — Peter Scholze"
+    url: "https://www.mpim-bonn.mpg.de/taxonomy/term/24"
