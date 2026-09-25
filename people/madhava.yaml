@@ -1,0 +1,63 @@
+id: madhava
+name: "Madhava of Sangamagrama"
+display_name: "Madhava z Sangamagramy"
+born:
+  year: 1350
+  precision: approximate
+  note: "Datowanie przybliżone."
+  note_original: "Approximate date."
+died:
+  year: 1425
+  precision: approximate
+  note: "Datowanie przybliżone."
+  note_original: "Approximate date."
+place_association: "Kerala, Indie"
+fields: [mathematics, analysis, trigonometry, astronomy]
+image: null
+summary: "Indyjski matematyk i astronom uznawany za założyciela szkoły keralskiej. Odkrył rozwinięcia nieskończone dla funkcji trygonometrycznych i liczby π oraz metody szacowania błędu, które stanowią jeden z najważniejszych przednowożytnych etapów rozwoju analizy matematycznej."
+summary_original: "Indian mathematician and astronomer regarded as the founder of the Kerala school. He discovered infinite series expansions for trigonometric functions and pi, along with error estimates, forming one of the most important premodern stages in the development of mathematical analysis."
+works:
+  - title: "Venvaroha"
+    original_title: "Veṇvāroha"
+    year: 1400
+    precision: approximate
+    type: astronomical_treatise
+    publication_note: "Zachowany tekst astronomiczny przypisywany Madhavie, dotyczący obliczania położeń Księżyca."
+    publication_note_original: "A surviving astronomical text attributed to Madhava, dealing with computation of lunar positions."
+  - title: "Prace o szeregach nieskończonych"
+    original_title: "Works on infinite series"
+    year: 1400
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Oryginalne matematyczne pisma Madhavy w większości się nie zachowały; jego wyniki znamy głównie z dzieł późniejszych autorów szkoły keralskiej."
+    publication_note_original: "Most of Madhava's original mathematical writings are lost; his results are known chiefly through later Kerala-school authors."
+ideas:
+  - name: "Szereg Madhavy-Leibniza dla π/4"
+    original_name: "Madhava-Leibniz series for pi/4"
+    wikipedia: "https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80"
+    summary: "Szkoła keralska przypisywała Madhavie rozwinięcie 1 - 1/3 + 1/5 - 1/7 + ... dla π/4, znane w Europie dopiero kilka stuleci później."
+    summary_original: "The Kerala school credited Madhava with the series 1 - 1/3 + 1/5 - 1/7 + ... for pi/4, known in Europe only centuries later."
+  - name: "Szeregi dla sinusa i cosinusa"
+    original_name: "Infinite series for sine and cosine"
+    summary: "Rozwijał nieskończone szeregi potęgowe odpowiadające współczesnym rozwinięciom funkcji sinus i cosinus."
+    summary_original: "He developed infinite power series corresponding to modern expansions of sine and cosine."
+  - name: "Poprawki do sum częściowych i szacowanie błędu"
+    original_name: "Correction terms and error estimates"
+    summary: "Nie ograniczał się do formalnych szeregów: stosował poprawki przyspieszające zbieżność i oceniał wielkość błędu przy obliczaniu π."
+    summary_original: "He did not merely state formal series: he used correction terms to accelerate convergence and estimated the error in calculations of pi."
+  - name: "Szkoła keralska"
+    original_name: "Kerala school of astronomy and mathematics"
+    summary: "Jego uczniowie i następcy rozwijali te idee przez kolejne stulecia, tworząc spójną lokalną tradycję matematyczno-astronomiczną."
+    summary_original: "His students and successors developed these ideas over subsequent centuries, creating a coherent regional mathematical-astronomical tradition."
+events:
+  - year: 1400
+    precision: approximate
+    title: "Powstanie szkoły keralskiej"
+    original_title: "Formation of the Kerala school"
+    summary: "Wokół Madhavy ukształtowała się tradycja uczonych z Kerali rozwijających astronomię matematyczną, trygonometrię i szeregi nieskończone."
+    summary_original: "A tradition of Kerala scholars formed around Madhava, developing mathematical astronomy, trigonometry and infinite series."
+sources:
+  - title: "MacTutor — Madhava"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Madhava/"
+  - title: "MacTutor — Indian mathematics"
+    url: "https://mathshistory.st-andrews.ac.uk/HistTopics/Indian_mathematics/"
