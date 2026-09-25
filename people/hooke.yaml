@@ -1,0 +1,64 @@
+id: hooke
+name: "Robert Hooke"
+display_name: "Robert Hooke"
+born:
+  date: "1635-07-18"
+  year: 1635
+  precision: day
+died:
+  date: "1703-03-03"
+  year: 1703
+  precision: day
+place_association: "Freshwater; Oksford; Londyn"
+fields: [physics, mechanics, elasticity, microscopy, biology, astronomy, architecture, engineering, geology, experimental_science]
+image: null
+summary: "Angielski fizyk, eksperymentator, wynalazca, mikroskopista i architekt. Sformułował prawo sprężystości, rozwijał mikroskopię, obserwował komórkową strukturę korka, badał ruch planet i fale świetlne oraz uczestniczył w odbudowie Londynu po wielkim pożarze."
+summary_original: "English physicist, experimentalist, inventor, microscopist and architect. He formulated the law of elasticity, advanced microscopy, observed the cellular structure of cork, studied planetary motion and light waves, and helped rebuild London after the Great Fire."
+works:
+  - title: "Micrographia"
+    original_title: "Micrographia"
+    wikipedia: "https://en.wikipedia.org/wiki/Micrographia"
+    year: 1665
+    precision: year
+    type: scientific_treatise
+  - title: "Lectures de Potentia Restitutiva"
+    original_title: "Lectures de Potentia Restitutiva"
+    year: 1678
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Prawo Hooke’a"
+    original_name: "Hooke's law"
+    wikipedia: "https://en.wikipedia.org/wiki/Hooke%27s_law"
+    summary: "W zakresie sprężystym odkształcenie jest proporcjonalne do przyłożonej siły."
+    summary_original: "Within the elastic regime, deformation is proportional to applied force."
+  - name: "Komórka biologiczna"
+    original_name: "Biological cell"
+    summary: "Opisując strukturę korka w Micrographii Hooke wprowadził termin „cell” dla widocznych pod mikroskopem komór."
+    summary_original: "While describing cork in Micrographia, Hooke introduced the term 'cell' for the compartments seen under the microscope."
+  - name: "Falowe idee o świetle"
+    original_name: "Wave ideas of light"
+    summary: "Hooke opisywał światło jako szybkie drgania rozchodzące się w ośrodku, rozwijając jedną z wczesnych teorii falowych."
+    summary_original: "Hooke described light as rapid vibrations propagating through a medium, contributing to early wave theories."
+  - name: "Prawo odwrotności kwadratu w grawitacji"
+    original_name: "Inverse-square ideas in gravitation"
+    summary: "Hooke rozważał przyciąganie malejące z kwadratem odległości i jego związek z ruchem planet, choć nie podał pełnej teorii orbitalnej Newtona."
+    summary_original: "Hooke considered attraction decreasing with the square of distance and its relation to planetary motion, though he did not provide Newton's complete orbital theory."
+events:
+  - year: 1662
+    precision: year
+    title: "Kurator eksperymentów Royal Society"
+    original_title: "Curator of Experiments at the Royal Society"
+    summary: "Hooke odpowiadał za regularne przygotowywanie nowych doświadczeń dla Towarzystwa."
+    summary_original: "Hooke was responsible for regularly preparing new experiments for the Society."
+  - year: 1666
+    precision: year
+    title: "Odbudowa Londynu po wielkim pożarze"
+    original_title: "Rebuilding London after the Great Fire"
+    summary: "Jako geometra miejski i architekt brał udział w pomiarach i projektowaniu odbudowy miasta."
+    summary_original: "As a city surveyor and architect he participated in measuring and rebuilding London."
+sources:
+  - title: "Encyclopaedia Britannica — Robert Hooke"
+    url: "https://www.britannica.com/biography/Robert-Hooke"
+  - title: "Royal Society — Robert Hooke"
+    url: "https://royalsociety.org/people/robert-hooke-11680/"
