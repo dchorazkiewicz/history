@@ -1,0 +1,53 @@
+id: thomas_young
+name: "Thomas Young"
+display_name: "Thomas Young"
+born:
+  date: "1773-06-13"
+  year: 1773
+  precision: day
+died:
+  date: "1829-05-10"
+  year: 1829
+  precision: day
+place_association: "Milverton; Londyn"
+fields: [physics, optics, medicine, physiology, acoustics, linguistics, egyptology]
+image: null
+summary: "Brytyjski lekarz i uczony o niezwykle szerokich zainteresowaniach. Jego doświadczenie z dwiema szczelinami dostarczyło mocnego argumentu za falową naturą światła; badał także sprężystość, widzenie barwne, akustykę oraz hieroglify egipskie."
+summary_original: "British physician and polymath. His double-slit experiment provided strong evidence for the wave nature of light; he also studied elasticity, color vision, acoustics and Egyptian hieroglyphs."
+works:
+  - title: "Wykład Bakerowski o teorii światła i barw"
+    original_title: "The Bakerian Lecture: On the Theory of Light and Colours"
+    year: 1802
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Doświadczenie Younga z dwiema szczelinami"
+    original_name: "Young's double-slit experiment"
+    wikipedia: "https://en.wikipedia.org/wiki/Double-slit_experiment"
+    summary: "Interferencja światła przechodzącego przez dwie szczeliny tworzy układ prążków, który naturalnie wyjaśnia teoria falowa."
+    summary_original: "Interference of light passing through two slits produces fringes naturally explained by wave theory."
+  - name: "Moduł Younga"
+    original_name: "Young's modulus"
+    wikipedia: "https://en.wikipedia.org/wiki/Young%27s_modulus"
+    summary: "Wielkość opisująca sprężystą sztywność materiału przez stosunek naprężenia do odkształcenia."
+    summary_original: "A quantity describing elastic stiffness through the ratio of stress to strain."
+  - name: "Trójchromatyczna teoria widzenia"
+    original_name: "Trichromatic theory of color vision"
+    summary: "Young zaproponował, że widzenie barw opiera się na trzech rodzajach receptorów o różnej czułości widmowej."
+    summary_original: "Young proposed that color vision depends on three receptor types with different spectral sensitivities."
+  - name: "Wkład w odczytanie hieroglifów"
+    original_name: "Contribution to deciphering hieroglyphs"
+    summary: "Badając Kamień z Rosetty Young rozpoznał fonetyczny charakter części znaków i identyfikował imiona w kartuszach."
+    summary_original: "Studying the Rosetta Stone, Young recognized phonetic elements of the script and identified names in cartouches."
+events:
+  - year: 1801
+    precision: year
+    title: "Profesor filozofii naturalnej w Royal Institution"
+    original_title: "Professor of natural philosophy at the Royal Institution"
+    summary: "Young rozpoczął serię wykładów obejmujących mechanikę, optykę i fizjologię."
+    summary_original: "Young began lectures covering mechanics, optics and physiology."
+sources:
+  - title: "Encyclopaedia Britannica — Thomas Young"
+    url: "https://www.britannica.com/biography/Thomas-Young"
+  - title: "Wikipedia — Thomas Young"
+    url: "https://en.wikipedia.org/wiki/Thomas_Young_(scientist)"
