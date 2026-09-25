@@ -1,0 +1,74 @@
+id: wallis
+name: "John Wallis"
+display_name: "John Wallis"
+born:
+  date: "1616-11-23"
+  year: 1616
+  precision: day
+died:
+  date: "1703-10-28"
+  year: 1703
+  precision: day
+place_association: "Ashford; Cambridge; Londyn; Oksford, Anglia"
+fields: [mathematics, algebra, geometry, infinitesimal_calculus, cryptography, theology, education]
+image: null
+summary: "Angielski matematyk, kryptograf i duchowny. Był jednym z głównych poprzedników rachunku różniczkowego i całkowego w Anglii, rozwijał metody nieskończonościowe, interpolację i teorię szeregów, a równolegle przez dziesięciolecia łamał szyfry dla władz państwowych."
+summary_original: "English mathematician, cryptographer and clergyman. He was one of the principal English precursors of calculus, developing infinitesimal methods, interpolation and series, while also serving for decades as a state cryptanalyst."
+works:
+  - title: "Arytmetyka nieskończoności"
+    original_title: "Arithmetica Infinitorum"
+    wikipedia: "https://en.wikipedia.org/wiki/Arithmetica_Infinitorum"
+    year: 1656
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Dzieło rozwijające metody obliczania pól przez interpolację i uogólnianie potęg; silnie wpłynęło na Newtona."
+    publication_note_original: "A work developing methods for areas through interpolation and generalized powers; it strongly influenced Newton."
+  - title: "O przekrojach stożkowych"
+    original_title: "De Sectionibus Conicis"
+    year: 1655
+    precision: year
+    type: mathematical_treatise
+    publication_note: "W tym okresie Wallis wprowadził do druku symbol ∞ dla nieskończoności."
+    publication_note_original: "In this period Wallis introduced the infinity symbol ∞ in print."
+  - title: "Traktat o algebrze"
+    original_title: "A Treatise of Algebra"
+    year: 1685
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Iloczyn Wallisa"
+    original_name: "Wallis product"
+    wikipedia: "https://en.wikipedia.org/wiki/Wallis_product"
+    summary: "Wallis wyprowadził nieskończony iloczyn związany z liczbą π, jeden z najbardziej znanych wyników jego Arytmetyki nieskończoności."
+    summary_original: "Wallis derived an infinite product for pi, one of the best-known results of his Arithmetica Infinitorum."
+  - name: "Metody nieskończonościowe i interpolacja"
+    original_name: "Infinitesimal methods and interpolation"
+    summary: "Rozwijał metodę niepodzielnych Cavalieriego, interpolował wzory dla całek potęgowych i traktował wykładniki ułamkowe jako naturalne rozszerzenie rachunku algebraicznego."
+    summary_original: "He extended Cavalieri's indivisibles, interpolated formulas for power integrals and treated fractional exponents as natural algebraic extensions."
+  - name: "Symbol nieskończoności ∞"
+    original_name: "Infinity symbol"
+    wikipedia: "https://en.wikipedia.org/wiki/Infinity_symbol"
+    summary: "Wallis spopularyzował znak ∞, który stał się standardowym symbolem nieskończoności w matematyce."
+    summary_original: "Wallis popularized the symbol ∞, which became the standard mathematical sign for infinity."
+  - name: "Kryptoanaliza"
+    original_name: "Cryptanalysis"
+    summary: "Podczas wojny domowej i później odszyfrowywał korespondencję polityczną i dyplomatyczną; jego umiejętności kryptograficzne były ważną częścią kariery publicznej."
+    summary_original: "During the Civil War and afterward he deciphered political and diplomatic correspondence; cryptanalysis was an important part of his public career."
+events:
+  - year: 1643
+    precision: year
+    title: "Rozpoczęcie pracy kryptograficznej dla Parlamentu"
+    original_title: "Beginning cryptanalytic work for Parliament"
+    summary: "Wallis zaczął łamać szyfry rojalistów podczas angielskiej wojny domowej."
+    summary_original: "Wallis began breaking Royalist ciphers during the English Civil War."
+  - year: 1649
+    precision: year
+    title: "Objęcie katedry geometrii Savile’a w Oksfordzie"
+    original_title: "Appointment to the Savilian chair of geometry"
+    summary: "Stanowisko w Oksfordzie zapewniło mu centralną pozycję w angielskiej matematyce drugiej połowy XVII wieku."
+    summary_original: "The Oxford chair placed him at the center of English mathematics in the second half of the seventeenth century."
+sources:
+  - title: "MacTutor — John Wallis"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Wallis/"
+  - title: "Wikipedia — John Wallis"
+    url: "https://en.wikipedia.org/wiki/John_Wallis"
