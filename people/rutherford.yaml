@@ -1,0 +1,64 @@
+id: rutherford
+name: "Ernest Rutherford"
+display_name: "Ernest Rutherford"
+born:
+  date: "1871-08-30"
+  year: 1871
+  precision: day
+died:
+  date: "1937-10-19"
+  year: 1937
+  precision: day
+place_association: "Brightwater; Montreal; Manchester; Cambridge"
+fields: [physics, nuclear_physics, atomic_physics, radioactivity, experimental_science, chemistry]
+image: null
+summary: "Nowozelandzko-brytyjski fizyk, twórca fizyki jądrowej. Rozróżnił promieniowanie alfa i beta, wraz z Soddy’m stworzył teorię przemian promieniotwórczych, odkrył jądrową strukturę atomu i przeprowadził pierwszą sztuczną przemianę pierwiastka."
+summary_original: "New Zealand-born British physicist and founder of nuclear physics. He distinguished alpha and beta radiation, developed radioactive transformation theory with Soddy, discovered the nuclear structure of the atom and achieved the first artificial transmutation of an element."
+works:
+  - title: "Substancje promieniotwórcze i ich promieniowanie"
+    original_title: "Radioactive Substances and Their Radiations"
+    year: 1913
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Promieniowanie alfa i beta"
+    original_name: "Alpha and beta radiation"
+    summary: "Rutherford rozróżnił dwa rodzaje promieniowania na podstawie ich przenikliwości i zachowania w polach."
+    summary_original: "Rutherford distinguished two kinds of radiation by their penetrating power and response to fields."
+  - name: "Prawo rozpadu promieniotwórczego"
+    original_name: "Radioactive decay law"
+    summary: "Wspólnie z Frederickiem Soddy’m opisał promieniotwórczość jako spontaniczną przemianę atomów zachodzącą zgodnie z prawem wykładniczym."
+    summary_original: "With Frederick Soddy he described radioactivity as spontaneous atomic transformation governed by an exponential law."
+  - name: "Model jądrowy atomu"
+    original_name: "Rutherford model"
+    wikipedia: "https://en.wikipedia.org/wiki/Rutherford_model"
+    summary: "Eksperymenty rozpraszania cząstek alfa wykazały, że dodatni ładunek i większość masy atomu są skupione w bardzo małym jądrze."
+    summary_original: "Alpha-particle scattering showed that positive charge and most atomic mass are concentrated in a tiny nucleus."
+  - name: "Sztuczna transmutacja"
+    original_name: "Artificial transmutation"
+    summary: "Bombardując azot cząstkami alfa Rutherford uzyskał protony, demonstrując przemianę jednego pierwiastka w inny."
+    summary_original: "By bombarding nitrogen with alpha particles Rutherford produced protons, demonstrating transformation of one element into another."
+events:
+  - year: 1908
+    precision: year
+    title: "Nagroda Nobla w dziedzinie chemii"
+    original_title: "Nobel Prize in Chemistry"
+    summary: "Rutherford został nagrodzony za badania rozpadu pierwiastków i chemii substancji promieniotwórczych."
+    summary_original: "Rutherford was honored for investigations into the disintegration of elements and chemistry of radioactive substances."
+  - year: 1911
+    precision: year
+    title: "Model jądrowy atomu"
+    original_title: "Nuclear model of the atom"
+    summary: "Interpretacja doświadczenia Geigera-Marsdena doprowadziła Rutherforda do koncepcji atomowego jądra."
+    summary_original: "Interpretation of the Geiger–Marsden experiment led Rutherford to the atomic nucleus."
+  - year: 1919
+    precision: year
+    title: "Pierwsza sztuczna transmutacja"
+    original_title: "First artificial transmutation"
+    summary: "Rutherford wykazał przemianę jąder azotu pod wpływem bombardowania cząstkami alfa."
+    summary_original: "Rutherford demonstrated transformation of nitrogen nuclei under alpha-particle bombardment."
+sources:
+  - title: "Nobel Prize — Ernest Rutherford"
+    url: "https://www.nobelprize.org/prizes/chemistry/1908/rutherford/facts/"
+  - title: "Encyclopaedia Britannica — Ernest Rutherford"
+    url: "https://www.britannica.com/biography/Ernest-Rutherford"
