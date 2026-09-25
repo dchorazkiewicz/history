@@ -1,0 +1,77 @@
+id: legendre
+name: "Adrien-Marie Legendre"
+display_name: "Adrien-Marie Legendre"
+born:
+  date: "1752-09-18"
+  year: 1752
+  precision: day
+died:
+  date: "1833-01-10"
+  year: 1833
+  precision: day
+place_association: "Paryż, Francja"
+fields: [mathematics, number_theory, analysis, elliptic_functions, statistics, astronomy, geometry, geodesy]
+image: null
+summary: "Francuski matematyk o ogromnym wpływie na teorię liczb, funkcje eliptyczne, geometrię i metody obliczeniowe astronomii. Jako pierwszy opublikował metodę najmniejszych kwadratów, wprowadził symbol Legendre’a i systematycznie badał całki eliptyczne."
+summary_original: "French mathematician with major influence on number theory, elliptic functions, geometry and astronomical computation. He was the first to publish the method of least squares, introduced the Legendre symbol and systematically studied elliptic integrals."
+works:
+  - title: "Elementy geometrii"
+    original_title: "Éléments de géométrie"
+    year: 1794
+    precision: year
+    type: mathematical_treatise
+  - title: "Esej o teorii liczb"
+    original_title: "Essai sur la théorie des nombres"
+    year: 1798
+    precision: year
+    type: mathematical_treatise
+  - title: "Nowe metody wyznaczania orbit komet"
+    original_title: "Nouvelles méthodes pour la détermination des orbites des comètes"
+    year: 1805
+    precision: year
+    type: astronomical_treatise
+  - title: "Traktat o funkcjach eliptycznych i całkach Eulera"
+    original_title: "Traité des fonctions elliptiques et des intégrales eulériennes"
+    year: 1825
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Wielotomowe dzieło publikowane w latach 1825–1832."
+    publication_note_original: "A multi-volume work published from 1825 to 1832."
+ideas:
+  - name: "Symbol Legendre’a"
+    original_name: "Legendre symbol"
+    wikipedia: "https://en.wikipedia.org/wiki/Legendre_symbol"
+    summary: "Zapis (a/p) koduje, czy liczba jest resztą kwadratową modulo nieparzysta liczba pierwsza p."
+    summary_original: "The notation (a/p) records whether a number is a quadratic residue modulo an odd prime p."
+  - name: "Metoda najmniejszych kwadratów"
+    original_name: "Method of least squares"
+    wikipedia: "https://en.wikipedia.org/wiki/Least_squares"
+    summary: "Legendre jako pierwszy opublikował metodę dopasowania parametrów przez minimalizację sumy kwadratów błędów obserwacji."
+    summary_original: "Legendre was the first to publish the method of fitting parameters by minimizing the sum of squared observational errors."
+  - name: "Całki eliptyczne"
+    original_name: "Elliptic integrals"
+    summary: "Przez dziesięciolecia klasyfikował i tablicował całki eliptyczne, tworząc język, który przejęli Abel i Jacobi."
+    summary_original: "For decades he classified and tabulated elliptic integrals, creating a language later transformed by Abel and Jacobi."
+  - name: "Wielomiany Legendre’a"
+    original_name: "Legendre polynomials"
+    wikipedia: "https://en.wikipedia.org/wiki/Legendre_polynomials"
+    summary: "Wielomiany pojawiające się w problemach potencjału i astronomii stały się klasycznym układem funkcji specjalnych."
+    summary_original: "Polynomials arising in potential theory and astronomy became a classical system of special functions."
+events:
+  - year: 1782
+    precision: year
+    title: "Nagroda Akademii Berlińskiej"
+    original_title: "Berlin Academy prize"
+    summary: "Legendre został nagrodzony za pracę o torach pocisków w ośrodkach stawiających opór."
+    summary_original: "Legendre was awarded for work on projectile trajectories in resisting media."
+  - year: 1805
+    precision: year
+    title: "Publikacja metody najmniejszych kwadratów"
+    original_title: "Publication of least squares"
+    summary: "Metoda ukazała się w pracy o wyznaczaniu orbit komet."
+    summary_original: "The method appeared in his work on determining cometary orbits."
+sources:
+  - title: "MacTutor — Adrien-Marie Legendre"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Legendre/"
+  - title: "Wikipedia — Adrien-Marie Legendre"
+    url: "https://en.wikipedia.org/wiki/Adrien-Marie_Legendre"
