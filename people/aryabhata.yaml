@@ -1,0 +1,70 @@
+id: aryabhata
+name: "Aryabhata"
+display_name: "Aryabhata"
+born:
+  year: 476
+  precision: year
+  note: "Rok urodzenia wynika z informacji samego Aryabhaty, że miał 23 lata podczas ukończenia Aryabhatiyi w 499 r."
+  note_original: "The birth year follows Aryabhata's own statement that he was 23 when the Aryabhatiya was completed in 499."
+died:
+  year: 550
+  precision: approximate
+  note: "Data śmierci jest przybliżona."
+  note_original: "The death date is approximate."
+place_association: "Kusumapura, Indie"
+fields: [mathematics, algebra, trigonometry, astronomy]
+image: null
+summary: "Indyjski matematyk i astronom, autor Aryabhatiyi z 499 r. Rozwijał arytmetykę, algebrę, trygonometrię i astronomię matematyczną; podał bardzo dobre przybliżenie π, metodę kuttaka dla równań nieoznaczonych i wyjaśniał pozorny ruch nieba przez obrót Ziemi wokół osi."
+summary_original: "Indian mathematician and astronom, author of the Aryabhatiya of 499. He developed arithmetic, algebra, trigonometry and mathematical astronomy; gave a strong approximation to pi, the kuttaka method for indeterminate equations and explained the apparent motion of the heavens through Earth's axial rotation."
+works:
+  - title: "Aryabhatiya"
+    original_title: "Āryabhaṭīya"
+    wikipedia: "https://en.wikipedia.org/wiki/Aryabhatiya"
+    year: 499
+    precision: year
+    type: astronomical_treatise
+    publication_note: "Krótki traktat w 118 wersetach obejmujący matematykę, rachubę czasu, modele planetarne, sferę i zaćmienia."
+    publication_note_original: "A compact 118-verse treatise covering mathematics, time reckoning, planetary models, the sphere and eclipses."
+  - title: "Arya-siddhanta"
+    original_title: "Ārya-siddhānta"
+    year: 500
+    precision: approximate
+    type: astronomical_treatise
+    publication_note: "Dzieło zaginione, znane ze wzmianek późniejszych autorów."
+    publication_note_original: "Lost work known from references by later authors."
+ideas:
+  - name: "Metoda kuttaka"
+    original_name: "Kuttaka method"
+    wikipedia: "https://en.wikipedia.org/wiki/Ku%E1%B9%AD%E1%B9%ADaka"
+    summary: "Metoda „pulweryzacji” służyła do znajdowania całkowitych rozwiązań liniowych równań nieoznaczonych poprzez kolejne dzielenia przypominające algorytm Euklidesa."
+    summary_original: "The 'pulverizer' method found integer solutions of linear indeterminate equations through successive divisions resembling the Euclidean algorithm."
+  - name: "Przybliżenie π = 3,1416"
+    original_name: "Approximation pi = 3.1416"
+    summary: "Aryabhata podał wartość 62832/20000 = 3,1416 i zaznaczał jej przybliżony charakter."
+    summary_original: "Aryabhata gave 62832/20000 = 3.1416 and indicated its approximate character."
+  - name: "Tablice sinusów"
+    original_name: "Sine tables"
+    summary: "Aryabhatiya zawierała systematyczne wartości funkcji odpowiadającej współczesnemu sinusowi, ważne dla późniejszej matematyki indyjskiej i astronomii."
+    summary_original: "The Aryabhatiya contained systematic values corresponding to the modern sine function, important for later Indian mathematics and astronomy."
+  - name: "Obrót Ziemi wokół osi"
+    original_name: "Rotation of Earth on its axis"
+    summary: "Aryabhata tłumaczył dzienny pozorny ruch gwiazd obrotem Ziemi, używając analogii do obserwatora na poruszającej się łodzi."
+    summary_original: "Aryabhata explained the daily apparent motion of the stars through Earth's rotation, using an analogy with an observer on a moving boat."
+  - name: "Naturalne wyjaśnienie zaćmień"
+    original_name: "Natural explanation of eclipses"
+    summary: "Zaćmienia Słońca i Księżyca wyjaśniał geometrycznie przez cienie i wzajemne położenie ciał niebieskich, bez odwołania do mitologicznego demona Rahu."
+    summary_original: "He explained solar and lunar eclipses geometrically through shadows and relative positions of celestial bodies rather than through the mythological demon Rahu."
+events:
+  - year: 499
+    precision: year
+    title: "Ukończenie Aryabhatiyi"
+    original_title: "Completion of the Aryabhatiya"
+    summary: "W wieku 23 lat Aryabhata ukończył dzieło, które stało się jednym z najważniejszych tekstów matematyczno-astronomicznych klasycznych Indii."
+    summary_original: "At age 23 Aryabhata completed a work that became one of the most important mathematical-astronomical texts of classical India."
+sources:
+  - title: "MacTutor — Aryabhata"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/"
+  - title: "MacTutor — Aryabhata and his commentators"
+    url: "https://mathshistory.st-andrews.ac.uk/Projects/Pearce/chapter-10/"
+  - title: "MacTutor — Indian mathematics"
+    url: "https://mathshistory.st-andrews.ac.uk/HistTopics/Indian_mathematics/"
