@@ -512,43 +512,51 @@ people:
 
   - id: kovalevskaya
     name: "Sofia Kowalewska"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/kovalevskaya.yaml"
+    focus: [mathematics, physics, literature]
 
   - id: lindemann
     name: "Ferdinand von Lindemann"
-    status: pending
+    status: described
+    data_file: "people/lindemann.yaml"
     focus: [mathematics]
 
   - id: kummer
     name: "Ernst Kummer"
-    status: pending
+    status: described
+    data_file: "people/kummer.yaml"
     focus: [mathematics]
 
   - id: kronecker
     name: "Leopold Kronecker"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/kronecker.yaml"
+    focus: [mathematics, philosophy]
 
   - id: hilbert
     name: "David Hilbert"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/hilbert.yaml"
+    focus: [mathematics, physics]
 
   - id: peano
     name: "Giuseppe Peano"
-    status: pending
+    status: described
+    data_file: "people/peano.yaml"
     focus: [mathematics]
 
   - id: frege
     name: "Gottlob Frege"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/frege.yaml"
+    focus: [mathematics, philosophy]
 
   - id: bertrand_russell
     name: "Bertrand Russell"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/bertrand_russell.yaml"
+    focus: [mathematics, philosophy, literature]
 
   - id: zermelo
     name: "Ernst Zermelo"
@@ -557,42 +565,50 @@ people:
 
   - id: hurwitz
     name: "Adolf Hurwitz"
-    status: pending
+    status: described
+    data_file: "people/hurwitz.yaml"
     focus: [mathematics]
 
   - id: borel
     name: "Émile Borel"
-    status: pending
+    status: described
+    data_file: "people/borel.yaml"
     focus: [mathematics]
 
   - id: lebesgue
     name: "Henri Lebesgue"
-    status: pending
+    status: described
+    data_file: "people/lebesgue.yaml"
     focus: [mathematics]
 
   - id: frechet
     name: "Maurice Fréchet"
-    status: pending
+    status: described
+    data_file: "people/frechet.yaml"
     focus: [mathematics]
 
   - id: brouwer
     name: "L. E. J. Brouwer"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/brouwer.yaml"
+    focus: [mathematics, philosophy]
 
   - id: hausdorff
     name: "Felix Hausdorff"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/hausdorff.yaml"
+    focus: [mathematics, philosophy, literature]
 
   - id: weyl
     name: "Hermann Weyl"
-    status: pending
-    focus: [mathematics, physics]
+    status: described
+    data_file: "people/weyl.yaml"
+    focus: [mathematics, physics, philosophy]
 
   - id: noether
     name: "Emmy Noether"
-    status: pending
+    status: described
+    data_file: "people/noether.yaml"
     focus: [mathematics, physics]
 
   - id: ramanujan
