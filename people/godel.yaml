@@ -1,0 +1,63 @@
+id: godel
+name: "Kurt Godel"
+display_name: "Kurt Gödel"
+born:
+  date: "1906-04-28"
+  year: 1906
+  precision: day
+died:
+  date: "1978-01-14"
+  year: 1978
+  precision: day
+place_association: "Brno; Wiedeń; Princeton"
+fields: [mathematics, logic, foundations_of_mathematics, set_theory, philosophy_of_mathematics, relativity]
+image: null
+summary: "Austriacko-amerykański logik i matematyk, autor twierdzeń o niezupełności, które fundamentalnie zmieniły rozumienie możliwości systemów formalnych. Pracował również nad teorią mnogości, filozofią matematyki i rozwiązaniami równań ogólnej teorii względności."
+summary_original: "Austrian-American logician and mathematician, author of the incompleteness theorems that fundamentally changed understanding of formal systems. He also worked on set theory, philosophy of mathematics and solutions to Einstein's equations of general relativity."
+works:
+  - title: "O formalnie nierozstrzygalnych zdaniach Principia Mathematica i systemów pokrewnych"
+    original_title: "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I"
+    wikipedia: "https://en.wikipedia.org/wiki/G%C3%B6del%27s_incompleteness_theorems"
+    year: 1931
+    precision: year
+    type: mathematical_essay
+  - title: "Spójność aksjomatu wyboru i uogólnionej hipotezy continuum"
+    original_title: "The Consistency of the Axiom of Choice and of the Generalized Continuum-Hypothesis"
+    year: 1940
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Pierwsze twierdzenie o niezupełności"
+    original_name: "First incompleteness theorem"
+    summary: "Każdy dostatecznie silny, efektywnie aksjomatyzowalny i niesprzeczny system arytmetyczny zawiera zdania, których nie potrafi ani udowodnić, ani obalić."
+    summary_original: "Every sufficiently strong, effectively axiomatized and consistent arithmetic system contains statements it can neither prove nor refute."
+  - name: "Drugie twierdzenie o niezupełności"
+    original_name: "Second incompleteness theorem"
+    summary: "Taki system nie może, przy zachowaniu niesprzeczności, udowodnić własnej niesprzeczności."
+    summary_original: "Such a system cannot, if consistent, prove its own consistency."
+  - name: "Konstruktywny wszechświat L"
+    original_name: "Constructible universe L"
+    summary: "Gödel zbudował model teorii mnogości, w którym aksjomat wyboru i uogólniona hipoteza continuum są spełnione."
+    summary_original: "Gödel built a model of set theory in which the axiom of choice and generalized continuum hypothesis hold."
+  - name: "Wszechświat Gödlowski w ogólnej teorii względności"
+    original_name: "Godel universe"
+    summary: "W 1949 r. podał rozwiązanie równań Einsteina opisujące obracający się wszechświat z zamkniętymi krzywymi czasopodobnymi."
+    summary_original: "In 1949 he gave a solution to Einstein's equations describing a rotating universe with closed timelike curves."
+events:
+  - year: 1929
+    precision: year
+    title: "Twierdzenie o zupełności logiki pierwszego rzędu"
+    original_title: "Completeness theorem for first-order logic"
+    summary: "Rozprawa doktorska Gödlа wykazała zupełność klasycznego rachunku predykatów pierwszego rzędu."
+    summary_original: "Gödel's doctoral work established the completeness of classical first-order predicate logic."
+  - year: 1940
+    precision: year
+    title: "Emigracja do Stanów Zjednoczonych"
+    original_title: "Emigration to the United States"
+    summary: "Gödel osiadł w Princeton i związał się z Institute for Advanced Study."
+    summary_original: "Gödel settled in Princeton and joined the Institute for Advanced Study."
+sources:
+  - title: "MacTutor — Kurt Gödel"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Godel/"
+  - title: "Stanford Encyclopedia of Philosophy — Kurt Gödel"
+    url: "https://plato.stanford.edu/entries/goedel/"
