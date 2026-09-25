@@ -1217,67 +1217,80 @@ people:
 
   - id: raman
     name: "C. V. Raman"
-    status: pending
+    status: described
+    data_file: "people/raman.yaml"
     focus: [physics]
 
   - id: compton
     name: "Arthur Compton"
-    status: pending
+    status: described
+    data_file: "people/compton.yaml"
     focus: [physics]
 
   - id: stern
     name: "Otto Stern"
-    status: pending
+    status: described
+    data_file: "people/stern.yaml"
     focus: [physics]
 
   - id: meitner
     name: "Lise Meitner"
-    status: pending
+    status: described
+    data_file: "people/meitner.yaml"
     focus: [physics]
 
   - id: chadwick
     name: "James Chadwick"
-    status: pending
+    status: described
+    data_file: "people/chadwick.yaml"
     focus: [physics]
 
   - id: szilard
     name: "Leó Szilárd"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/szilard.yaml"
+    focus: [physics, biology]
 
   - id: wigner
     name: "Eugene Wigner"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/wigner.yaml"
+    focus: [physics, mathematics]
 
   - id: bethe
     name: "Hans Bethe"
-    status: pending
+    status: described
+    data_file: "people/bethe.yaml"
     focus: [physics]
 
   - id: oppenheimer
     name: "J. Robert Oppenheimer"
-    status: pending
+    status: described
+    data_file: "people/oppenheimer.yaml"
     focus: [physics]
 
   - id: goeppert_mayer
     name: "Maria Goeppert-Mayer"
-    status: pending
+    status: described
+    data_file: "people/goeppert_mayer.yaml"
     focus: [physics]
 
   - id: landau
     name: "Lew Landau"
-    status: pending
+    status: described
+    data_file: "people/landau.yaml"
     focus: [physics]
 
   - id: kapitza
     name: "Piotr Kapica"
-    status: pending
+    status: described
+    data_file: "people/kapitza.yaml"
     focus: [physics]
 
   - id: ginzburg
     name: "Witalij Ginzburg"
-    status: pending
+    status: described
+    data_file: "people/ginzburg.yaml"
     focus: [physics]
 
   - id: abrikosov
