@@ -1,0 +1,55 @@
+id: voevodsky
+name: "Vladimir Voevodsky"
+display_name: "Vladimir Voevodsky"
+born:
+  date: "1966-06-04"
+  year: 1966
+  precision: day
+died:
+  date: "2017-09-30"
+  year: 2017
+  precision: day
+place_association: "Moskwa; Princeton"
+fields: [mathematics, algebraic_geometry, homotopy_theory, motivic_cohomology, foundations_of_mathematics, type_theory]
+image: null
+summary: "Rosyjsko-amerykański matematyk, twórca motywicznej teorii homotopii i kluczowych nowych metod w geometrii algebraicznej. Pod koniec życia rozwijał uniwalentne podstawy matematyki i formalną weryfikację dowodów."
+summary_original: "Russian-American mathematician and creator of motivic homotopy theory and major new methods in algebraic geometry. Late in life he developed univalent foundations and formal verification of mathematics."
+works:
+  - title: "A¹-homotopijna teoria schematów"
+    original_title: "A¹-homotopy theory of schemes"
+    year: 1999
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Rozwijana wspólnie z Fabienem Morelem."
+    publication_note_original: "Developed with Fabien Morel."
+  - title: "Zredukowane motywy kohomologiczne z Z/2"
+    original_title: "Reduced power operations in motivic cohomology"
+    year: 2003
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Motywiczna teoria homotopii"
+    original_name: "Motivic homotopy theory"
+    summary: "Voevodsky przeniósł idee homotopii topologicznej do geometrii algebraicznej, tworząc nowy język dla motywów i kohomologii."
+    summary_original: "Voevodsky transported ideas from topological homotopy into algebraic geometry, creating a new language for motives and cohomology."
+  - name: "Dowód hipotezy Milnora"
+    original_name: "Proof of the Milnor conjecture"
+    summary: "Jego metody motywiczne doprowadziły do dowodu głębokiego związku między K-teorią Milnora i kohomologią Galois."
+    summary_original: "His motivic methods led to the proof of a deep relation between Milnor K-theory and Galois cohomology."
+  - name: "Uniwalentne podstawy"
+    original_name: "Univalent foundations"
+    wikipedia: "https://en.wikipedia.org/wiki/Univalent_foundations"
+    summary: "Voevodsky proponował budowanie podstaw matematyki na teorii typów nadającej się do formalizacji i komputerowej kontroli dowodów."
+    summary_original: "Voevodsky proposed foundations based on type theory suitable for formalization and computer verification of proofs."
+events:
+  - year: 2002
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Otrzymał Medal Fieldsa za rozwój teorii homotopii rozmaitości algebraicznych."
+    summary_original: "He received the Fields Medal for developing a homotopy theory of algebraic varieties."
+sources:
+  - title: "MacTutor — Vladimir Voevodsky"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Voevodsky/"
+  - title: "Wikipedia — Vladimir Voevodsky"
+    url: "https://en.wikipedia.org/wiki/Vladimir_Voevodsky"
