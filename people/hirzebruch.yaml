@@ -1,0 +1,44 @@
+id: hirzebruch
+name: "Friedrich Hirzebruch"
+display_name: "Friedrich Hirzebruch"
+born:
+  date: "1927-10-17"
+  year: 1927
+  precision: day
+died:
+  date: "2012-05-27"
+  year: 2012
+  precision: day
+place_association: "Hamm; Zurych; Princeton; Bonn"
+fields: [mathematics, algebraic_geometry, topology, differential_geometry, k_theory, scientific_organization]
+image: null
+summary: "Niemiecki matematyk, który połączył geometrię algebraiczną, topologię i klasy charakterystyczne. Jego twierdzenie Riemanna-Rocha było kluczowym krokiem prowadzącym do późniejszych uogólnień Grothendiecka i Atiyaha-Singera."
+summary_original: "German mathematician who connected algebraic geometry, topology and characteristic classes. His Riemann–Roch theorem was a key step toward later generalizations by Grothendieck and Atiyah–Singer."
+works:
+  - title: "Metody topologiczne w geometrii algebraicznej"
+    original_title: "Neue topologische Methoden in der algebraischen Geometrie"
+    year: 1956
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Twierdzenie Hirzebrucha-Riemanna-Rocha"
+    original_name: "Hirzebruch–Riemann–Roch theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Hirzebruch%E2%80%93Riemann%E2%80%93Roch_theorem"
+    summary: "Twierdzenie wyraża charakterystykę Eulera snopa przez klasy charakterystyczne rozmaitości."
+    summary_original: "The theorem expresses the Euler characteristic of a sheaf through characteristic classes of the variety."
+  - name: "Rodzaje Hirzebrucha"
+    original_name: "Hirzebruch genera"
+    summary: "Hirzebruch systematycznie łączył niezmienniki topologiczne z klasami charakterystycznymi."
+    summary_original: "Hirzebruch systematically connected topological invariants with characteristic classes."
+events:
+  - year: 1957
+    precision: approximate
+    title: "Powstanie Arbeitstagung w Bonn"
+    original_title: "Creation of the Bonn Arbeitstagung"
+    summary: "Hirzebruch stworzył niezwykle wpływowe międzynarodowe spotkania matematyczne w powojennych Niemczech."
+    summary_original: "Hirzebruch created highly influential international mathematical meetings in postwar Germany."
+sources:
+  - title: "MacTutor — Friedrich Hirzebruch"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Hirzebruch/"
+  - title: "Wikipedia — Friedrich Hirzebruch"
+    url: "https://en.wikipedia.org/wiki/Friedrich_Hirzebruch"
