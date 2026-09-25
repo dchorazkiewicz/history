@@ -905,8 +905,9 @@ people:
 
   - id: ibn_al_haytham
     name: "Ibn al-Hajsam (Alhazen)"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/ibn_al_haytham.yaml"
+    focus: [physics, mathematics, astronomy, philosophy]
 
   - id: galileo
     name: "Galileusz"
@@ -916,48 +917,57 @@ people:
 
   - id: torricelli
     name: "Evangelista Torricelli"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/torricelli.yaml"
+    focus: [physics, mathematics, engineering]
 
   - id: boyle
     name: "Robert Boyle"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/boyle.yaml"
+    focus: [physics, chemistry, theology]
 
   - id: hooke
     name: "Robert Hooke"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/hooke.yaml"
+    focus: [physics, biology, astronomy, engineering]
 
   - id: daniel_bernoulli
     name: "Daniel Bernoulli"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/daniel_bernoulli.yaml"
+    focus: [physics, mathematics, medicine]
 
   - id: cavendish
     name: "Henry Cavendish"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/cavendish.yaml"
+    focus: [physics, chemistry]
 
   - id: coulomb
     name: "Charles-Augustin de Coulomb"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/coulomb.yaml"
+    focus: [physics, engineering]
 
   - id: benjamin_franklin
     name: "Benjamin Franklin"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/benjamin_franklin.yaml"
+    focus: [physics, politics, diplomacy]
 
   - id: galvani
     name: "Luigi Galvani"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/galvani.yaml"
+    focus: [physics, medicine, biology]
 
   - id: volta
     name: "Alessandro Volta"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/volta.yaml"
+    focus: [physics, chemistry, engineering]
 
   - id: thomas_young
     name: "Thomas Young"
