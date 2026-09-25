@@ -1,0 +1,50 @@
+id: compton
+name: "Arthur Holly Compton"
+display_name: "Arthur Compton"
+born:
+  date: "1892-09-10"
+  year: 1892
+  precision: day
+died:
+  date: "1962-03-15"
+  year: 1962
+  precision: day
+place_association: "Wooster; St. Louis; Chicago"
+fields: [physics, quantum_theory, x_rays, particle_physics, experimental_science]
+image: null
+summary: "Amerykański fizyk, odkrywca efektu Comptona. Wykazał, że promieniowanie rentgenowskie podczas zderzeń z elektronami zachowuje się jak strumień kwantów mających energię i pęd."
+summary_original: "American physicist who discovered the Compton effect. He showed that X-rays scattering from electrons behave like quanta carrying both energy and momentum."
+works:
+  - title: "Kwantowa teoria rozpraszania promieni X przez lekkie pierwiastki"
+    original_title: "A Quantum Theory of the Scattering of X-rays by Light Elements"
+    year: 1923
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Efekt Comptona"
+    original_name: "Compton effect"
+    wikipedia: "https://en.wikipedia.org/wiki/Compton_scattering"
+    summary: "Rozproszenie fotonu na elektronie prowadzi do zwiększenia długości fali fotonu zgodnie z bilansem energii i pędu."
+    summary_original: "Photon scattering from an electron increases the photon's wavelength according to energy and momentum conservation."
+  - name: "Pęd fotonu"
+    original_name: "Photon momentum"
+    summary: "Efekt Comptona dostarczył bezpośredniego dowodu, że kwant światła ma pęd h/λ."
+    summary_original: "The Compton effect directly demonstrated that a light quantum carries momentum h/lambda."
+events:
+  - year: 1923
+    precision: year
+    title: "Publikacja efektu Comptona"
+    original_title: "Publication of the Compton effect"
+    summary: "Wynik stał się jednym z najmocniejszych argumentów za korpuskularnym aspektem światła."
+    summary_original: "The result became one of the strongest arguments for the particle aspect of light."
+  - year: 1927
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Compton został nagrodzony za odkrycie efektu nazwanego jego nazwiskiem."
+    summary_original: "Compton was honored for discovery of the effect bearing his name."
+sources:
+  - title: "Nobel Prize — Arthur H. Compton"
+    url: "https://www.nobelprize.org/prizes/physics/1927/compton/facts/"
+  - title: "Encyclopaedia Britannica — Arthur Compton"
+    url: "https://www.britannica.com/biography/Arthur-Holly-Compton"
