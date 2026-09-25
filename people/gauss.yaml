@@ -1,0 +1,81 @@
+id: gauss
+name: "Carl Friedrich Gauss"
+display_name: "Carl Friedrich Gauss"
+born:
+  date: "1777-04-30"
+  year: 1777
+  precision: day
+died:
+  date: "1855-02-23"
+  year: 1855
+  precision: day
+place_association: "Brunszwik; Getynga, Niemcy"
+fields: [mathematics, number_theory, algebra, geometry, statistics, astronomy, geodesy, physics, magnetism]
+image: null
+summary: "Niemiecki matematyk i fizyk, jedna z centralnych postaci całej historii matematyki. Wniósł fundamentalny wkład do teorii liczb, algebry, geometrii, statystyki, astronomii i geodezji, a jego prace nad magnetyzmem łączyły matematykę z eksperymentalną fizyką."
+summary_original: "German mathematician and physicist, one of the central figures in the history of mathematics. He made fundamental contributions to number theory, algebra, geometry, statistics, astronomy and geodesy, while his work on magnetism linked mathematics with experimental physics."
+works:
+  - title: "Rozprawy arytmetyczne"
+    original_title: "Disquisitiones Arithmeticae"
+    wikipedia: "https://en.wikipedia.org/wiki/Disquisitiones_Arithmeticae"
+    year: 1801
+    precision: year
+    type: mathematical_treatise
+  - title: "Teoria ruchu ciał niebieskich"
+    original_title: "Theoria Motus Corporum Coelestium"
+    year: 1809
+    precision: year
+    type: astronomical_treatise
+  - title: "Ogólne badania powierzchni krzywych"
+    original_title: "Disquisitiones generales circa superficies curvas"
+    year: 1827
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Teoria kongruencji i nowoczesna teoria liczb"
+    original_name: "Congruences and modern number theory"
+    summary: "Gauss usystematyzował arytmetykę modularną i teorię reszt kwadratowych, nadając teorii liczb nowoczesny język i strukturę."
+    summary_original: "Gauss systematized modular arithmetic and quadratic reciprocity, giving number theory a modern language and structure."
+  - name: "Metoda najmniejszych kwadratów"
+    original_name: "Method of least squares"
+    wikipedia: "https://en.wikipedia.org/wiki/Least_squares"
+    summary: "Stosował metodę najmniejszych kwadratów do danych astronomicznych i geodezyjnych, rozwijając ważne podstawy statystyki i estymacji."
+    summary_original: "He used least squares for astronomical and geodetic data, developing important foundations of statistics and estimation."
+  - name: "Krzywizna Gaussa"
+    original_name: "Gaussian curvature"
+    wikipedia: "https://en.wikipedia.org/wiki/Gaussian_curvature"
+    summary: "Wykazał, że krzywizna powierzchni może być określona wyłącznie przez geometrię wewnętrzną powierzchni."
+    summary_original: "He showed that the curvature of a surface can be determined entirely from its intrinsic geometry."
+  - name: "Rozkład normalny"
+    original_name: "Normal distribution"
+    wikipedia: "https://en.wikipedia.org/wiki/Normal_distribution"
+    summary: "Gauss silnie związał rozkład normalny z teorią błędów pomiarowych i metodą najmniejszych kwadratów."
+    summary_original: "Gauss strongly connected the normal distribution with error theory and least squares."
+  - name: "Geomagnetyzm ilościowy"
+    original_name: "Quantitative geomagnetism"
+    summary: "Wspólnie z Wilhelmem Weberem rozwijał pomiary pola magnetycznego Ziemi i absolutne metody pomiaru magnetyzmu."
+    summary_original: "With Wilhelm Weber he developed measurements of Earth's magnetic field and absolute methods of magnetic measurement."
+events:
+  - year: 1796
+    precision: year
+    title: "Konstrukcja foremnego siedemnastokąta"
+    original_title: "Construction of the regular 17-gon"
+    summary: "Gauss odkrył konstrukcję cyrklem i linijką regularnego siedemnastokąta, wiążąc geometrię z teorią liczb."
+    summary_original: "Gauss discovered a straightedge-and-compass construction of the regular 17-gon, linking geometry with number theory."
+  - year: 1801
+    precision: year
+    title: "Odtworzenie orbity Ceres"
+    original_title: "Recovery of Ceres's orbit"
+    summary: "Na podstawie nielicznych obserwacji Gauss obliczył orbitę Ceres, dzięki czemu astronomowie mogli ponownie odnaleźć planetoidę."
+    summary_original: "From sparse observations Gauss computed the orbit of Ceres, allowing astronomers to recover the asteroid."
+  - year: 1807
+    precision: year
+    title: "Objęcie obserwatorium w Getyndze"
+    original_title: "Appointment at Göttingen Observatory"
+    summary: "Został profesorem astronomii i dyrektorem obserwatorium, pozostając w Getyndze do końca życia."
+    summary_original: "He became professor of astronomy and director of the observatory, remaining in Göttingen for life."
+sources:
+  - title: "MacTutor — Carl Friedrich Gauss"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/"
+  - title: "Wikipedia — Carl Friedrich Gauss"
+    url: "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss"
