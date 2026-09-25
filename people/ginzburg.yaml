@@ -1,0 +1,52 @@
+id: ginzburg
+name: "Vitaly Lazarevich Ginzburg"
+display_name: "Witalij Ginzburg"
+born:
+  date: "1916-10-04"
+  year: 1916
+  precision: day
+died:
+  date: "2009-11-08"
+  year: 2009
+  precision: day
+place_association: "Moskwa"
+fields: [physics, theoretical_physics, superconductivity, condensed_matter_physics, astrophysics, plasma_physics, electrodynamics]
+image: null
+summary: "Radziecki i rosyjski fizyk teoretyczny, współtwórca teorii Ginzburga-Landaua nadprzewodnictwa. Pracował również nad astrofizyką, promieniowaniem kosmicznym, fizyką plazmy i propagacją fal."
+summary_original: "Soviet and Russian theoretical physicist, co-creator of Ginzburg–Landau theory of superconductivity. He also worked on astrophysics, cosmic rays, plasma physics and wave propagation."
+works:
+  - title: "O teorii nadprzewodnictwa"
+    original_title: "On the Theory of Superconductivity"
+    year: 1950
+    precision: year
+    type: scientific_treatise
+    publication_note: "Praca napisana wspólnie z Lwem Landauem."
+    publication_note_original: "Written with Lev Landau."
+ideas:
+  - name: "Teoria Ginzburga-Landaua"
+    original_name: "Ginzburg–Landau theory"
+    wikipedia: "https://en.wikipedia.org/wiki/Ginzburg%E2%80%93Landau_theory"
+    summary: "Fenomenologiczna teoria opisuje nadprzewodnik przez zespolony parametr porządku i pola elektromagnetyczne."
+    summary_original: "The phenomenological theory describes a superconductor using a complex order parameter coupled to electromagnetic fields."
+  - name: "Parametr Ginzburga-Landaua"
+    original_name: "Ginzburg–Landau parameter"
+    summary: "Stosunek dwóch charakterystycznych długości rozróżnia nadprzewodniki typu I i II."
+    summary_original: "The ratio of two characteristic lengths distinguishes type-I and type-II superconductors."
+events:
+  - year: 1950
+    precision: year
+    title: "Teoria Ginzburga-Landaua"
+    original_title: "Ginzburg–Landau theory"
+    summary: "Wspólna praca Ginzburga i Landaua stworzyła uniwersalny język opisu nadprzewodnictwa blisko temperatury krytycznej."
+    summary_original: "Their work created a universal language for superconductivity near the critical temperature."
+  - year: 2003
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Ginzburg został nagrodzony za pionierski wkład do teorii nadprzewodników i nadcieczy."
+    summary_original: "Ginzburg was honored for pioneering contributions to the theory of superconductors and superfluids."
+sources:
+  - title: "Nobel Prize — Vitaly Ginzburg"
+    url: "https://www.nobelprize.org/prizes/physics/2003/ginzburg/facts/"
+  - title: "Encyclopaedia Britannica — Vitaly Ginzburg"
+    url: "https://www.britannica.com/biography/Vitaly-Lazarevich-Ginzburg"
