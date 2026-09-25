@@ -32,13 +32,14 @@
   };
 
   let people = [];
+  let periods = [];
   let selected = new Set();
   let baseDomain = [-500, 1800];
   let currentDomain = [...baseDomain];
   let initialized = false;
   let domainAnimationFrame = null;
 
-  const margin = { top: 54, right: 28, bottom: 40, left: 138 };
+  const margin = { top: 54, right: 28, bottom: 110, left: 138 };
   const rowHeight = 86;
 
   const tooltip = document.createElement('div');
@@ -123,8 +124,26 @@
     }));
   }
 
+  async function loadPeriodsData() {
+    try {
+      const response = await fetch('./periods/epochs.yaml', { cache: 'no-store' });
+      if (!response.ok) return [];
+      const text = await response.text();
+      const data = jsyaml.load(text);
+      return Array.isArray(data?.periods) ? data.periods : [];
+    } catch (err) {
+      console.warn('Nie udało się wczytać epok', err);
+      return [];
+    }
+  }
+
   async function loadPeople() {
-    people = await loadPeopleData();
+    const [loadedPeople, loadedPeriods] = await Promise.all([
+      loadPeopleData(),
+      loadPeriodsData()
+    ]);
+    people = loadedPeople;
+    periods = loadedPeriods;
     people = people.filter(p => p && p.id && p.born && p.died);
     people.sort((a,b) => a.born.year - b.born.year);
     els.peopleCount.textContent = `${people.length} osób`;
@@ -519,6 +538,89 @@
     }
   }
 
+  function renderPeriods(root, x, height) {
+    const bandTop = height - margin.bottom + 14;
+    const laneY = lane => bandTop + 18 + (Number(lane || 0) * 21);
+    const visible = periods.filter(period => {
+      const start = Number(period.start_year);
+      const end = Number(period.end_year);
+      return Number.isFinite(start) && Number.isFinite(end)
+        && end >= currentDomain[0]
+        && start <= currentDomain[1];
+    });
+
+    const band = root.selectAll('g.period-band')
+      .data([null])
+      .join('g')
+      .attr('class','period-band');
+
+    band.selectAll('text.period-band-title')
+      .data([null])
+      .join('text')
+      .attr('class','period-band-title')
+      .attr('x',16)
+      .attr('y',bandTop + 8)
+      .text('EPOKI · GRANICE UMOWNE');
+
+    const entries = band.selectAll('g.period-entry')
+      .data(visible, d => d.id);
+
+    entries.exit().remove();
+
+    const enter = entries.enter()
+      .append('g')
+      .attr('class', d => `period-entry period-${d.kind || 'movement'}`)
+      .style('cursor','pointer');
+
+    enter.append('rect')
+      .attr('class','period-rect')
+      .attr('rx',5)
+      .attr('ry',5);
+
+    enter.append('text')
+      .attr('class','period-label');
+
+    const merged = enter.merge(entries)
+      .attr('class', d => `period-entry period-${d.kind || 'movement'}`);
+
+    merged.each(function(d) {
+      const start = Math.max(Number(d.start_year), currentDomain[0]);
+      const end = Math.min(Number(d.end_year), currentDomain[1]);
+      const left = x(start);
+      const right = x(end);
+      const width = Math.max(1, right-left);
+      const y = laneY(d.lane);
+
+      const g = d3.select(this);
+      g.select('.period-rect')
+        .attr('x',left)
+        .attr('y',y)
+        .attr('width',width)
+        .attr('height',16);
+
+      g.select('.period-label')
+        .attr('x',left + width/2)
+        .attr('y',y + 11.5)
+        .attr('text-anchor','middle')
+        .text(width >= 58 ? (d.short_label || d.label) : '');
+    });
+
+    merged
+      .on('pointermove', (e,d) => showTooltip(
+        e,
+        d.label,
+        `${fmtYear(d.start_year)} – ${fmtYear(d.end_year)}${d.scope ? `<br>${d.scope}` : ''}${d.note ? `<br>${d.note}` : ''}`
+      ))
+      .on('pointerleave', hideTooltip)
+      .on('click', (e,d) => {
+        e.stopPropagation();
+        hideTooltip();
+        const span = Math.max(20, Number(d.end_year)-Number(d.start_year));
+        const pad = Math.max(5, span*.04);
+        setDomain([Number(d.start_year)-pad, Number(d.end_year)+pad], true, 520);
+      });
+  }
+
   function render(animate = false) {
     const chosen = getSelected();
     els.selectedCount.textContent = chosen.length;
@@ -641,6 +743,8 @@
         });
     });
 
+    renderPeriods(root, x, height);
+
     bindPanAndWheel(width);
   }
 
@@ -695,7 +799,7 @@
     };
 
     node.onpointerdown = e => {
-      if (e.target.closest?.('.marker') || e.target.classList?.contains('life-bar') || e.target.classList?.contains('life-row-label')) return;
+      if (e.target.closest?.('.marker, .period-entry') || e.target.classList?.contains('life-bar') || e.target.classList?.contains('life-row-label')) return;
       if (domainAnimationFrame) {
         cancelAnimationFrame(domainAnimationFrame);
         domainAnimationFrame = null;
