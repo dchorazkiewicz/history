@@ -1,0 +1,44 @@
+id: ohm
+name: "Georg Simon Ohm"
+display_name: "Georg Ohm"
+born:
+  date: "1789-03-16"
+  year: 1789
+  precision: day
+died:
+  date: "1854-07-06"
+  year: 1854
+  precision: day
+place_association: "Erlangen; Kolonia; Norymberga; Monachium"
+fields: [physics, electricity, mathematics, acoustics, education]
+image: null
+summary: "Niemiecki fizyk znany z ilościowego prawa łączącego napięcie, natężenie i opór elektryczny. Jego podejście matematyczne pomogło przekształcić badania elektryczne z jakościowych obserwacji w precyzyjną fizykę pomiarową."
+summary_original: "German physicist known for the quantitative law linking voltage, current and resistance. His mathematical approach helped transform electrical research from qualitative observation into precise measurement science."
+works:
+  - title: "Obwód galwaniczny opracowany matematycznie"
+    original_title: "Die galvanische Kette, mathematisch bearbeitet"
+    year: 1827
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Prawo Ohma"
+    original_name: "Ohm's law"
+    wikipedia: "https://en.wikipedia.org/wiki/Ohm%27s_law"
+    summary: "Dla elementu omowego napięcie jest proporcjonalne do natężenia prądu, a współczynnikiem proporcjonalności jest opór."
+    summary_original: "For an ohmic element voltage is proportional to current, with resistance as the proportionality constant."
+  - name: "Opór elektryczny jako wielkość fizyczna"
+    original_name: "Electrical resistance as a physical quantity"
+    summary: "Ohm systematycznie opisywał wpływ materiału, długości i przekroju przewodnika na przepływ prądu."
+    summary_original: "Ohm systematically described how material, length and cross-section affect electric current."
+events:
+  - year: 1827
+    precision: year
+    title: "Publikacja prawa przewodzenia elektrycznego"
+    original_title: "Publication of the electrical conduction law"
+    summary: "Początkowo praca spotkała się z chłodnym przyjęciem, lecz później stała się podstawą elektrotechniki."
+    summary_original: "The work was initially received coolly but later became foundational to electrical engineering."
+sources:
+  - title: "Encyclopaedia Britannica — Georg Ohm"
+    url: "https://www.britannica.com/biography/Georg-Simon-Ohm"
+  - title: "Wikipedia — Georg Ohm"
+    url: "https://en.wikipedia.org/wiki/Georg_Ohm"
