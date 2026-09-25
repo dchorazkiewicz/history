@@ -1,0 +1,53 @@
+id: tao
+name: "Terence Chi-Shen Tao"
+display_name: "Terence Tao"
+born:
+  date: "1975-07-17"
+  year: 1975
+  precision: day
+died: null
+place_association: "Adelaide; Los Angeles"
+fields: [mathematics, harmonic_analysis, partial_differential_equations, additive_combinatorics, number_theory, compressed_sensing, probability]
+image: null
+summary: "Australijsko-amerykański matematyk o niezwykle szerokim dorobku, obejmującym analizę harmoniczną, równania różniczkowe, kombinatorykę addytywną, teorię liczb i teorię sygnałów. Wspólnie z Benem Greenem udowodnił, że liczby pierwsze zawierają dowolnie długie ciągi arytmetyczne."
+summary_original: "Australian-American mathematician of exceptionally broad scope, spanning harmonic analysis, partial differential equations, additive combinatorics, number theory and signal theory. With Ben Green he proved that the primes contain arbitrarily long arithmetic progressions."
+works:
+  - title: "Liczby pierwsze zawierają dowolnie długie ciągi arytmetyczne"
+    original_title: "The primes contain arbitrarily long arithmetic progressions"
+    year: 2008
+    precision: year
+    type: mathematical_essay
+    publication_note: "Praca z Benem Greenem; wynik ogłoszono wcześniej, w 2004 r."
+    publication_note_original: "Joint work with Ben Green; the result was announced earlier, in 2004."
+  - title: "Stabilne odzyskiwanie sygnału z niepełnych i niedokładnych pomiarów"
+    original_title: "Stable signal recovery from incomplete and inaccurate measurements"
+    year: 2006
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Twierdzenie Greena-Tao"
+    original_name: "Green-Tao theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Green%E2%80%93Tao_theorem"
+    summary: "Liczby pierwsze zawierają ciągi arytmetyczne dowolnej skończonej długości."
+    summary_original: "The prime numbers contain arithmetic progressions of every finite length."
+  - name: "Kompresyjne próbkowanie"
+    original_name: "Compressed sensing"
+    wikipedia: "https://en.wikipedia.org/wiki/Compressed_sensing"
+    summary: "Tao wraz z Emmanuelem Candèsem i innymi stworzył podstawy odzyskiwania rzadkich sygnałów z liczby pomiarów znacznie mniejszej niż sugerowały klasyczne metody."
+    summary_original: "With Emmanuel Candès and others, Tao helped establish recovery of sparse signals from far fewer measurements than classical methods suggested."
+  - name: "Analiza dyspersyjnych równań różniczkowych"
+    original_name: "Dispersive PDE analysis"
+    summary: "Rozwijał nowoczesne techniki dla nieliniowych równań falowych i Schrödingera, łącząc analizę harmoniczną z dynamiką."
+    summary_original: "He developed modern techniques for nonlinear wave and Schrödinger equations, linking harmonic analysis with dynamics."
+events:
+  - year: 2006
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Tao otrzymał Medal Fieldsa za wkład do równań różniczkowych, kombinatoryki, analizy harmonicznej i teorii liczb."
+    summary_original: "Tao received the Fields Medal for contributions to partial differential equations, combinatorics, harmonic analysis and number theory."
+sources:
+  - title: "MacTutor — Terence Tao"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Tao/"
+  - title: "Wikipedia — Terence Tao"
+    url: "https://en.wikipedia.org/wiki/Terence_Tao"
