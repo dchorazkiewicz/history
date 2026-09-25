@@ -1,0 +1,69 @@
+id: napier
+name: "John Napier"
+display_name: "John Napier"
+born:
+  year: 1550
+  precision: year
+died:
+  date: "1617-04-04"
+  year: 1617
+  precision: day
+place_association: "Merchiston pod Edynburgiem, Szkocja"
+fields: [mathematics, logarithms, arithmetic, computational_tools, theology, politics]
+image: null
+summary: "Szkocki matematyk, właściciel ziemski i pisarz religijny. Najbardziej znany jako twórca logarytmów w Europie i autor narzędzi upraszczających obliczenia, takich jak kostki Napiera. Jego prace znacząco przyspieszyły rachunki astronomów, nawigatorów i matematyków."
+summary_original: "Scottish mathematician, landowner and religious writer. He is best known as the European inventor of logarithms and as the creator of computational tools such as Napier's bones. His work greatly accelerated calculations for astronomers, navigators and mathematicians."
+works:
+  - title: "Proste wyjaśnienie całego Objawienia św. Jana"
+    original_title: "A Plaine Discovery of the Whole Revelation of St John"
+    year: 1593
+    precision: year
+    type: theology
+    publication_note: "Obszerne dzieło religijne pokazujące, że teologia i polityka religijna były ważną częścią działalności Napiera."
+    publication_note_original: "A substantial religious work showing that theology and religious politics were an important part of Napier's activity."
+  - title: "Opis cudownego kanonu logarytmów"
+    original_title: "Mirifici Logarithmorum Canonis Descriptio"
+    wikipedia: "https://en.wikipedia.org/wiki/Mirifici_Logarithmorum_Canonis_Descriptio"
+    year: 1614
+    precision: year
+    type: mathematical_treatise
+  - title: "Rabdologia"
+    original_title: "Rabdologiae"
+    year: 1617
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Opis przyrządów i metod mechanizujących mnożenie i dzielenie, w tym słynnych kostek Napiera."
+    publication_note_original: "A description of devices and methods mechanizing multiplication and division, including the famous Napier's bones."
+ideas:
+  - name: "Logarytmy"
+    original_name: "Logarithms"
+    wikipedia: "https://en.wikipedia.org/wiki/Logarithm"
+    summary: "Napier skonstruował system pozwalający zastępować mnożenie i dzielenie dodawaniem i odejmowaniem odpowiednich wartości tabelarycznych."
+    summary_original: "Napier constructed a system that allowed multiplication and division to be replaced by addition and subtraction of corresponding tabulated values."
+  - name: "Kostki Napiera"
+    original_name: "Napier's bones"
+    wikipedia: "https://en.wikipedia.org/wiki/Napier%27s_bones"
+    summary: "Zestaw prętów z tablicami cyfr pozwalał mechanicznie upraszczać mnożenie, dzielenie i wyciąganie pierwiastków."
+    summary_original: "A set of rods carrying digit tables mechanically simplified multiplication, division and extraction of roots."
+  - name: "Upraszczanie rachunku jako problem naukowy"
+    original_name: "Simplifying calculation as a scientific problem"
+    summary: "Napier traktował czasochłonność rachunków jako realną barierę rozwoju astronomii i innych nauk, dlatego projektował zarówno nowe pojęcia matematyczne, jak i fizyczne pomoce rachunkowe."
+    summary_original: "Napier treated the labor of calculation as a real barrier to astronomy and other sciences, designing both new mathematical concepts and physical calculating aids."
+events:
+  - year: 1593
+    precision: year
+    title: "Publikacja głównego dzieła religijnego"
+    original_title: "Publication of his major religious work"
+    summary: "Napier był znany współczesnym nie tylko jako matematyk, ale również jako zaangażowany protestancki autor polityczno-religijny."
+    summary_original: "Napier was known to contemporaries not only as a mathematician but also as a committed Protestant religious-political author."
+  - year: 1614
+    precision: year
+    title: "Publikacja logarytmów"
+    original_title: "Publication of logarithms"
+    summary: "Ukazanie się Descriptio szybko zainteresowało europejskich astronomów i matematyków."
+    summary_original: "Publication of the Descriptio quickly attracted the attention of European astronomers and mathematicians."
+sources:
+  - title: "MacTutor — John Napier"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Napier/"
+  - title: "MacTutor — Napier's rods"
+    url: "https://mathshistory.st-andrews.ac.uk/Extras/Napier_rods/"
