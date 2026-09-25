@@ -1,0 +1,73 @@
+id: turing
+name: "Alan Turing"
+display_name: "Alan Turing"
+born:
+  date: "1912-06-23"
+  year: 1912
+  precision: day
+died:
+  date: "1954-06-07"
+  year: 1954
+  precision: day
+place_association: "Londyn; Cambridge; Princeton; Bletchley Park; Manchester"
+fields: [mathematics, logic, theoretical_computer_science, cryptanalysis, artificial_intelligence, computer_engineering, mathematical_biology]
+image: null
+summary: "Brytyjski matematyk, logik i kryptanalityk, jedna z najważniejszych postaci historii informatyki. Sformalizował pojęcie obliczenia za pomocą maszyny Turinga, odegrał kluczową rolę w łamaniu niemieckich szyfrów podczas II wojny światowej, pracował nad pierwszymi komputerami i zapoczątkował badania nad sztuczną inteligencją oraz morfogenezą."
+summary_original: "British mathematician, logician and cryptanalyst, one of the most important figures in the history of computing. He formalized computation with the Turing machine, played a key role in breaking German ciphers during World War II, worked on early computers and initiated research in artificial intelligence and morphogenesis."
+works:
+  - title: "O liczbach obliczalnych z zastosowaniem do Entscheidungsproblemu"
+    original_title: "On Computable Numbers, with an Application to the Entscheidungsproblem"
+    wikipedia: "https://en.wikipedia.org/wiki/On_Computable_Numbers"
+    year: 1936
+    precision: year
+    type: mathematical_essay
+  - title: "Maszyny obliczeniowe i inteligencja"
+    original_title: "Computing Machinery and Intelligence"
+    wikipedia: "https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence"
+    year: 1950
+    precision: year
+    type: scientific_treatise
+  - title: "Chemiczne podstawy morfogenezy"
+    original_title: "The Chemical Basis of Morphogenesis"
+    year: 1952
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Maszyna Turinga"
+    original_name: "Turing machine"
+    wikipedia: "https://en.wikipedia.org/wiki/Turing_machine"
+    summary: "Abstrakcyjna maszyna operująca na taśmie i skończonym zestawie reguł stała się fundamentalnym modelem algorytmu."
+    summary_original: "An abstract machine operating on a tape under a finite rule set became a fundamental model of algorithmic computation."
+  - name: "Problem stopu"
+    original_name: "Halting problem"
+    wikipedia: "https://en.wikipedia.org/wiki/Halting_problem"
+    summary: "Turing pokazał, że nie istnieje uniwersalny algorytm rozstrzygający dla każdego programu, czy jego wykonanie kiedyś się zatrzyma."
+    summary_original: "Turing showed that no universal algorithm can decide for every program whether it will eventually halt."
+  - name: "Test Turinga"
+    original_name: "Turing test"
+    wikipedia: "https://en.wikipedia.org/wiki/Turing_test"
+    summary: "Zaproponował operacyjne kryterium dyskusji o inteligencji maszyn oparte na zdolności do prowadzenia rozmowy nieodróżnialnej od ludzkiej."
+    summary_original: "He proposed an operational criterion for discussing machine intelligence based on conversational indistinguishability from a human."
+  - name: "Wzory Turinga w morfogenezie"
+    original_name: "Turing patterns"
+    wikipedia: "https://en.wikipedia.org/wiki/Turing_pattern"
+    summary: "Pokazał, że reakcje chemiczne sprzężone z dyfuzją mogą spontanicznie tworzyć przestrzenne wzory biologiczne."
+    summary_original: "He showed that chemical reactions coupled with diffusion can spontaneously generate biological spatial patterns."
+events:
+  - year: 1939
+    precision: year
+    title: "Rozpoczęcie pracy w Bletchley Park"
+    original_title: "Beginning work at Bletchley Park"
+    summary: "Turing pracował nad metodami ataku na szyfry Enigmy i nad projektami maszyn wspierających kryptanalizę."
+    summary_original: "Turing worked on methods for attacking Enigma ciphers and on machine designs supporting cryptanalysis."
+  - year: 1945
+    precision: year
+    title: "Projekt ACE"
+    original_title: "ACE design"
+    summary: "W National Physical Laboratory zaproponował projekt Automatic Computing Engine, jednego z najambitniejszych wczesnych komputerów elektronicznych."
+    summary_original: "At the National Physical Laboratory he proposed the Automatic Computing Engine, one of the most ambitious early electronic computer designs."
+sources:
+  - title: "MacTutor — Alan Turing"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Turing/"
+  - title: "Alan Turing: The Enigma — reference bibliography"
+    url: "https://www.turing.org.uk/"
