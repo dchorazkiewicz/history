@@ -192,48 +192,57 @@ people:
 
   - id: thabit_ibn_qurra
     name: "Thabit ibn Qurra"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/thabit_ibn_qurra.yaml"
+    focus: [mathematics, astronomy, physics, medicine, philosophy]
 
   - id: abu_kamil
     name: "Abu Kamil"
-    status: pending
+    status: described
+    data_file: "people/abu_kamil.yaml"
     focus: [mathematics]
 
   - id: al_biruni
     name: "Al-Biruni"
-    status: pending
-    focus: [mathematics, physics]
+    status: described
+    data_file: "people/al_biruni.yaml"
+    focus: [mathematics, physics, astronomy, history, geography, medicine]
 
   - id: omar_khayyam
     name: "Omar Chajjam"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/omar_khayyam.yaml"
+    focus: [mathematics, astronomy, philosophy, literature]
 
   - id: bhaskara_ii
     name: "Bhaskara II"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/bhaskara_ii.yaml"
+    focus: [mathematics, astronomy]
 
   - id: fibonacci
     name: "Fibonacci"
-    status: pending
+    status: described
+    data_file: "people/fibonacci.yaml"
     focus: [mathematics]
 
   - id: nasir_al_din_al_tusi
     name: "Nasir ad-Din at-Tusi"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/nasir_al_din_al_tusi.yaml"
+    focus: [mathematics, astronomy, philosophy, medicine]
 
   - id: madhava
     name: "Madhava z Sangamagramy"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/madhava.yaml"
+    focus: [mathematics, astronomy]
 
   - id: al_kashi
     name: "Jamshid al-Kashi"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/al_kashi.yaml"
+    focus: [mathematics, astronomy]
 
   - id: luca_pacioli
     name: "Luca Pacioli"
