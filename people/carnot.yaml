@@ -1,0 +1,45 @@
+id: carnot
+name: "Nicolas Leonard Sadi Carnot"
+display_name: "Sadi Carnot"
+born:
+  date: "1796-06-01"
+  year: 1796
+  precision: day
+died:
+  date: "1832-08-24"
+  year: 1832
+  precision: day
+place_association: "Paryż, Francja"
+fields: [physics, thermodynamics, engineering, military_engineering]
+image: null
+summary: "Francuski fizyk i inżynier, jeden z twórców termodynamiki. Analizując idealne silniki cieplne zdefiniował odwracalny cykl Carnota i wykazał, że maksymalna sprawność zależy od temperatur źródła i chłodnicy, a nie od szczegółów konstrukcji."
+summary_original: "French physicist and engineer, one of the founders of thermodynamics. By analyzing ideal heat engines he defined the reversible Carnot cycle and showed that maximum efficiency depends on hot and cold reservoir temperatures rather than machine details."
+works:
+  - title: "Rozważania o sile napędowej ognia"
+    original_title: "Réflexions sur la puissance motrice du feu"
+    wikipedia: "https://en.wikipedia.org/wiki/Reflections_on_the_Motive_Power_of_Fire"
+    year: 1824
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Cykl Carnota"
+    original_name: "Carnot cycle"
+    wikipedia: "https://en.wikipedia.org/wiki/Carnot_cycle"
+    summary: "Idealny odwracalny cykl wyznacza granicę sprawności silnika działającego między dwiema temperaturami."
+    summary_original: "An ideal reversible cycle sets the efficiency limit for an engine operating between two temperatures."
+  - name: "Granica sprawności silnika cieplnego"
+    original_name: "Heat-engine efficiency limit"
+    summary: "Carnot pokazał, że nie istnieje silnik cieplny sprawniejszy od odwracalnego silnika działającego między tymi samymi temperaturami."
+    summary_original: "Carnot showed that no heat engine can be more efficient than a reversible engine operating between the same temperatures."
+events:
+  - year: 1824
+    precision: year
+    title: "Publikacja Rozważań o sile napędowej ognia"
+    original_title: "Publication of Reflections on the Motive Power of Fire"
+    summary: "Niewielka książka stała się później jednym z tekstów założycielskich termodynamiki."
+    summary_original: "The small book later became one of the foundational texts of thermodynamics."
+sources:
+  - title: "Encyclopaedia Britannica — Sadi Carnot"
+    url: "https://www.britannica.com/biography/Sadi-Carnot-French-scientist"
+  - title: "Wikipedia — Sadi Carnot"
+    url: "https://en.wikipedia.org/wiki/Nicolas_L%C3%A9onard_Sadi_Carnot"
