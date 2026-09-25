@@ -1,0 +1,77 @@
+id: monge
+name: "Gaspard Monge"
+display_name: "Gaspard Monge"
+born:
+  date: "1746-05-09"
+  year: 1746
+  precision: day
+died:
+  date: "1818-07-28"
+  year: 1818
+  precision: day
+place_association: "Beaune; Mézières; Paryż; Egipt"
+fields: [mathematics, descriptive_geometry, differential_geometry, geometry, optimal_transport, engineering, military_engineering, education, political_administration]
+image: null
+summary: "Francuski matematyk, inżynier, nauczyciel i administrator rewolucyjnej Francji. Stworzył geometrię wykreślną, rozwijał geometrię różniczkową powierzchni i sformułował problem transportowy, od którego wywodzi się współczesna teoria transportu optymalnego."
+summary_original: "French mathematician, engineer, teacher and administrator of Revolutionary France. He created descriptive geometry, advanced the differential geometry of surfaces and formulated the transport problem from which modern optimal transport descends."
+works:
+  - title: "Pamiętnik o teorii wykopów i nasypów"
+    original_title: "Mémoire sur la théorie des déblais et des remblais"
+    year: 1781
+    precision: year
+    type: mathematical_essay
+  - title: "Geometria wykreślna"
+    original_title: "Géométrie descriptive"
+    wikipedia: "https://en.wikipedia.org/wiki/Descriptive_geometry"
+    year: 1799
+    precision: year
+    type: mathematical_treatise
+  - title: "Zastosowanie analizy do geometrii"
+    original_title: "Application de l'analyse à la géométrie"
+    year: 1807
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Geometria wykreślna"
+    original_name: "Descriptive geometry"
+    summary: "Monge stworzył system odwzorowywania obiektów trójwymiarowych na dwie płaszczyzny rzutowe, kluczowy dla inżynierii, architektury i wojskowości."
+    summary_original: "Monge created a system for representing three-dimensional objects on two projection planes, crucial to engineering, architecture and military practice."
+  - name: "Linie krzywizny powierzchni"
+    original_name: "Lines of curvature"
+    summary: "Badał kierunki głównej krzywizny na powierzchniach, stając się jednym z pionierów geometrii różniczkowej."
+    summary_original: "He studied directions of principal curvature on surfaces, becoming a pioneer of differential geometry."
+  - name: "Problem Monge’a"
+    original_name: "Monge optimal transport problem"
+    wikipedia: "https://en.wikipedia.org/wiki/Transportation_theory_(mathematics)"
+    summary: "Zapytał o najbardziej oszczędny sposób przeniesienia masy ziemi z obszaru wykopów do obszaru nasypów, tworząc pierwotną wersję problemu transportu optymalnego."
+    summary_original: "He asked for the least costly way to move earth from excavation sites to fill sites, originating the optimal transport problem."
+events:
+  - year: 1765
+    precision: approximate
+    title: "Praca w szkole wojskowej w Mézières"
+    original_title: "Work at the military school in Mézières"
+    summary: "Problemy fortyfikacyjne doprowadziły Monge’a do stworzenia metod geometrii wykreślnej."
+    summary_original: "Fortification problems led Monge to create methods of descriptive geometry."
+  - year: 1792
+    precision: year
+    title: "Minister marynarki"
+    original_title: "Minister of the Navy"
+    summary: "Podczas rewolucji francuskiej Monge pełnił krótko funkcję ministra marynarki."
+    summary_original: "During the French Revolution Monge briefly served as Minister of the Navy."
+  - year: 1794
+    precision: year
+    title: "Współtworzenie École Polytechnique"
+    original_title: "Co-founding the École Polytechnique"
+    summary: "Monge odegrał kluczową rolę w programie i nauczaniu nowej szkoły techniczno-naukowej."
+    summary_original: "Monge played a key role in the curriculum and teaching of the new scientific-engineering school."
+  - year: 1798
+    precision: year
+    title: "Wyprawa Napoleona do Egiptu"
+    original_title: "Napoleon's expedition to Egypt"
+    summary: "Monge należał do głównych uczonych towarzyszących ekspedycji i współtworzył Institut d'Égypte."
+    summary_original: "Monge was among the leading scholars accompanying the expedition and helped found the Institut d'Égypte."
+sources:
+  - title: "MacTutor — Gaspard Monge"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Monge/"
+  - title: "Wikipedia — Gaspard Monge"
+    url: "https://en.wikipedia.org/wiki/Gaspard_Monge"
