@@ -1,0 +1,58 @@
+id: erdos
+name: "Paul Erdos"
+display_name: "Paul Erdős"
+born:
+  date: "1913-03-26"
+  year: 1913
+  precision: day
+died:
+  date: "1996-09-20"
+  year: 1996
+  precision: day
+place_association: "Budapeszt; Europa; Izrael; Stany Zjednoczone"
+fields: [mathematics, number_theory, combinatorics, graph_theory, probability, set_theory]
+image: null
+summary: "Węgierski matematyk o bezprecedensowej kulturze współpracy i jednym z największych dorobków publikacyjnych w historii matematyki. Pracował nad teorią liczb, kombinatoryką, teorią grafów i metodami probabilistycznymi."
+summary_original: "Hungarian mathematician with an unprecedented culture of collaboration and one of the largest publication records in mathematics. He worked in number theory, combinatorics, graph theory and probabilistic methods."
+works:
+  - title: "O grafach losowych I"
+    original_title: "On Random Graphs I"
+    year: 1959
+    precision: year
+    type: mathematical_essay
+    publication_note: "Napisane wspólnie z Alfrédem Rényim."
+    publication_note_original: "Written with Alfréd Rényi."
+ideas:
+  - name: "Metoda probabilistyczna"
+    original_name: "Probabilistic method"
+    wikipedia: "https://en.wikipedia.org/wiki/Probabilistic_method"
+    summary: "Erdős używał probabilistyki do dowodzenia istnienia obiektów kombinatorycznych bez ich jawnej konstrukcji."
+    summary_original: "Erdős used probability to prove existence of combinatorial objects without constructing them explicitly."
+  - name: "Grafy losowe Erdősa-Rényiego"
+    original_name: "Erdos–Renyi random graphs"
+    wikipedia: "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model"
+    summary: "Model grafu losowego stał się fundamentem probabilistycznej teorii grafów i późniejszej nauki o sieciach."
+    summary_original: "The random-graph model became foundational to probabilistic graph theory and later network science."
+  - name: "Liczba Erdősa"
+    original_name: "Erdos number"
+    wikipedia: "https://en.wikipedia.org/wiki/Erd%C5%91s_number"
+    summary: "Sieć jego setek współautorów stała się symboliczną miarą odległości współpracy naukowej."
+    summary_original: "His network of hundreds of coauthors became a symbolic measure of collaboration distance."
+events:
+  - year: 1934
+    precision: year
+    title: "Wyjazd z Węgier do Manchesteru"
+    original_title: "Move from Hungary to Manchester"
+    summary: "Narastający antysemityzm i ograniczenia akademickie skłoniły Erdősa do pracy za granicą."
+    summary_original: "Rising antisemitism and academic restrictions pushed Erdős to work abroad."
+  - year: 1948
+    precision: year
+    title: "Powrót do intensywnego życia podróżującego matematyka"
+    original_title: "Return to itinerant mathematical life"
+    summary: "Przez kolejne dekady pracował niemal bez stałego domu, odwiedzając współpracowników na całym świecie."
+    summary_original: "For decades he worked with almost no permanent home, visiting collaborators around the world."
+sources:
+  - title: "MacTutor — Paul Erdős"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Erdos/"
+  - title: "Wikipedia — Paul Erdős"
+    url: "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s"
