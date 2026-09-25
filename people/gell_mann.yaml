@@ -1,0 +1,60 @@
+id: gell_mann
+name: "Murray Gell-Mann"
+display_name: "Murray Gell-Mann"
+born:
+  date: "1929-09-15"
+  year: 1929
+  precision: day
+died:
+  date: "2019-05-24"
+  year: 2019
+  precision: day
+place_association: "Nowy Jork; Chicago; Pasadena; Santa Fe"
+fields: [physics, particle_physics, quantum_field_theory, symmetry, quark_model, complexity]
+image: null
+summary: "Amerykański fizyk teoretyczny, twórca modelu kwarkowego i jeden z głównych organizatorów systematyki cząstek elementarnych. Rozwinął ideę 'Eightfold Way' i pojęcie kwarków."
+summary_original: "American theoretical physicist, creator of the quark model and a principal architect of elementary-particle classification. He developed the Eightfold Way and the concept of quarks."
+works:
+  - title: "Schemat symetrii barionów i mezonów"
+    original_title: "Symmetries of Baryons and Mesons"
+    year: 1962
+    precision: year
+    type: scientific_treatise
+  - title: "Schematyczny model barionów i mezonów"
+    original_title: "A Schematic Model of Baryons and Mesons"
+    year: 1964
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Eightfold Way"
+    original_name: "Eightfold Way"
+    wikipedia: "https://en.wikipedia.org/wiki/Eightfold_way_(physics)"
+    summary: "Cząstki hadronowe można klasyfikować według symetrii SU(3), co ujawnia regularności ich własności i mas."
+    summary_original: "Hadrons can be classified using SU(3) symmetry, revealing regularities in their properties and masses."
+  - name: "Kwarki"
+    original_name: "Quarks"
+    wikipedia: "https://en.wikipedia.org/wiki/Quark"
+    summary: "Gell-Mann zaproponował, że hadrony są zbudowane z bardziej podstawowych składników o ułamkowych ładunkach."
+    summary_original: "Gell-Mann proposed that hadrons are composed of more fundamental constituents carrying fractional charges."
+  - name: "Dziwność"
+    original_name: "Strangeness"
+    summary: "Wprowadził liczbę kwantową porządkującą własności nowo odkrywanych hadronów."
+    summary_original: "He introduced a quantum number organizing properties of newly discovered hadrons."
+events:
+  - year: 1964
+    precision: year
+    title: "Model kwarkowy"
+    original_title: "Quark model"
+    summary: "Gell-Mann i niezależnie George Zweig zaproponowali kwarkową strukturę hadronów."
+    summary_original: "Gell-Mann and independently George Zweig proposed the quark structure of hadrons."
+  - year: 1969
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Nagrodzono go za wkład do klasyfikacji cząstek elementarnych i ich oddziaływań."
+    summary_original: "He was honored for contributions to the classification of elementary particles and their interactions."
+sources:
+  - title: "Nobel Prize — Murray Gell-Mann"
+    url: "https://www.nobelprize.org/prizes/physics/1969/gell-mann/facts/"
+  - title: "Encyclopaedia Britannica — Murray Gell-Mann"
+    url: "https://www.britannica.com/biography/Murray-Gell-Mann"
