@@ -1,0 +1,54 @@
+id: gamow
+name: "George Gamow"
+display_name: "George Gamow"
+born:
+  date: "1904-03-04"
+  year: 1904
+  precision: day
+died:
+  date: "1968-08-19"
+  year: 1968
+  precision: day
+place_association: "Odessa; Leningrad; Waszyngton; Boulder"
+fields: [physics, nuclear_physics, quantum_mechanics, cosmology, astrophysics, biology, popularization]
+image: null
+summary: "Ukraińsko-amerykański fizyk teoretyczny, który zastosował mechanikę kwantową do rozpadu alfa, rozwijał gorący model Wielkiego Wybuchu i przewidywał kosmiczne promieniowanie tła. Interesował się również problemem kodu genetycznego."
+summary_original: "Ukrainian-American theoretical physicist who applied quantum mechanics to alpha decay, developed the hot Big Bang model and predicted relic cosmic radiation. He also explored ideas related to the genetic code."
+works:
+  - title: "Kwantowa teoria rozpadu jądrowego"
+    original_title: "Zur Quantentheorie des Atomkernes"
+    year: 1928
+    precision: year
+    type: scientific_treatise
+  - title: "Powstanie pierwiastków chemicznych"
+    original_title: "The Origin of Chemical Elements"
+    year: 1948
+    precision: year
+    type: scientific_treatise
+    publication_note: "Praca Alpher-Bethe-Gamow; Hans Bethe został dopisany do listy autorów jako żart słowny, bez udziału w badaniu."
+    publication_note_original: "The Alpher-Bethe-Gamow paper; Hans Bethe was added to the author list as a pun and did not contribute to the work."
+ideas:
+  - name: "Tunelowanie kwantowe w rozpadzie alfa"
+    original_name: "Quantum tunneling in alpha decay"
+    summary: "Gamow wyjaśnił emisję cząstki alfa jako tunelowanie przez barierę potencjału jądrowego."
+    summary_original: "Gamow explained alpha emission as quantum tunneling through the nuclear potential barrier."
+  - name: "Nukleosynteza Wielkiego Wybuchu"
+    original_name: "Big Bang nucleosynthesis"
+    summary: "Wraz z Ralphem Alpherem rozwijał teorię powstawania lekkich pierwiastków we wczesnym gorącym Wszechświecie."
+    summary_original: "With Ralph Alpher he developed the theory of light-element formation in the early hot universe."
+  - name: "Reliktowe promieniowanie tła"
+    original_name: "Relic background radiation"
+    summary: "Gamow i współpracownicy przewidywali, że gorący początek Wszechświata powinien pozostawić ochłodzone promieniowanie obserwowalne dziś."
+    summary_original: "Gamow and collaborators predicted that a hot early universe should leave cooled background radiation observable today."
+events:
+  - year: 1948
+    precision: year
+    title: "Model gorącego Wielkiego Wybuchu i nukleosyntezy"
+    original_title: "Hot Big Bang nucleosynthesis model"
+    summary: "Prace Gamowa i Alphera uczyniły fizykę jądrową centralnym elementem wczesnej kosmologii."
+    summary_original: "Gamow and Alpher made nuclear physics central to early-universe cosmology."
+sources:
+  - title: "Encyclopaedia Britannica — George Gamow"
+    url: "https://www.britannica.com/biography/George-Gamow"
+  - title: "Wikipedia — George Gamow"
+    url: "https://en.wikipedia.org/wiki/George_Gamow"
