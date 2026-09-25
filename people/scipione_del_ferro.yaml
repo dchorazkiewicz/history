@@ -1,0 +1,55 @@
+id: scipione_del_ferro
+name: "Scipione del Ferro"
+display_name: "Scipione del Ferro"
+born:
+  date: "1465-02-06"
+  year: 1465
+  precision: day
+died:
+  date: "1526-11-05"
+  year: 1526
+  precision: day
+place_association: "Bolonia, Państwo Kościelne"
+fields: [mathematics, algebra, geometry, education]
+image: null
+summary: "Włoski matematyk i wykładowca Uniwersytetu Bolońskiego, który jako pierwszy znany matematyk nowożytnej Europy odkrył metodę algebraicznego rozwiązania pewnego typu równania sześciennego. Nie opublikował wyniku za życia, a jego notatnik zaginął."
+summary_original: "Italian mathematician and lecturer at the University of Bologna who was the first known mathematician of early modern Europe to discover an algebraic method for solving a type of cubic equation. He did not publish the result during his lifetime, and his notebook is lost."
+works:
+  - title: "Notatnik matematyczny"
+    original_title: "Mathematical notebook"
+    year: 1515
+    precision: approximate
+    type: manuscript
+    publication_note: "Zaginiony notatnik zawierał m.in. metodę rozwiązania równania sześciennego typu x³ + px = q."
+    publication_note_original: "The lost notebook contained, among other results, a method for solving cubics of the form x³ + px = q."
+ideas:
+  - name: "Algebraiczne rozwiązanie równania sześciennego"
+    original_name: "Algebraic solution of a cubic equation"
+    summary: "Del Ferro znalazł metodę rozwiązania jednego z nieredukowalnych do kwadratu typów równań trzeciego stopnia, przełamując problem pozostający otwarty od starożytności."
+    summary_original: "Del Ferro found a method for solving one of the genuinely cubic equation types, breaking an ancient open problem."
+  - name: "Matematyka jako wiedza konkursowa"
+    original_name: "Mathematics as competitive knowledge"
+    summary: "W renesansowych Włoszech metody rozwiązywania zadań bywały zachowywane w tajemnicy jako przewaga w publicznych konkursach matematycznych; del Ferro również ograniczał krąg osób znających jego metodę."
+    summary_original: "In Renaissance Italy, solution methods were often kept secret as advantages in public mathematical contests; del Ferro likewise restricted knowledge of his method."
+events:
+  - year: 1496
+    precision: year
+    title: "Objęcie wykładów z arytmetyki i geometrii w Bolonii"
+    original_title: "Appointment as lecturer in arithmetic and geometry at Bologna"
+    summary: "Del Ferro został wykładowcą Uniwersytetu Bolońskiego i pozostał związany z uczelnią do końca życia."
+    summary_original: "Del Ferro became a lecturer at the University of Bologna and remained associated with it for the rest of his life."
+  - year: 1515
+    precision: approximate
+    title: "Odkrycie metody rozwiązania równania sześciennego"
+    original_title: "Discovery of a method for solving the cubic"
+    summary: "Około drugiej dekady XVI wieku znalazł metodę rozwiązania równania typu x³ + px = q."
+    summary_original: "Around the second decade of the sixteenth century he found a method for solving equations of the form x³ + px = q."
+  - year: 1543
+    precision: year
+    title: "Cardano i Ferrari poznają notatnik del Ferra"
+    original_title: "Cardano and Ferrari inspect del Ferro's notebook"
+    summary: "Hannibal della Nave pokazał Cardanowi i Ferrari notatnik z zapisem wcześniejszego rozwiązania równania sześciennego."
+    summary_original: "Hannibal della Nave showed Cardano and Ferrari the notebook containing del Ferro's earlier solution of the cubic."
+sources:
+  - title: "MacTutor — Scipione del Ferro"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Ferro/"
