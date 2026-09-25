@@ -1,0 +1,53 @@
+id: zermelo
+name: "Ernst Zermelo"
+display_name: "Ernst Zermelo"
+born:
+  date: "1871-07-27"
+  year: 1871
+  precision: day
+died:
+  date: "1953-05-21"
+  year: 1953
+  precision: day
+place_association: "Berlin; Getynga; Zurych; Freiburg"
+fields: [mathematics, set_theory, logic, foundations_of_mathematics]
+image: null
+summary: "Niemiecki matematyk, jeden z twórców aksjomatycznej teorii mnogości. Udowodnił twierdzenie o dobrym uporządkowaniu przy użyciu aksjomatu wyboru i zaproponował system aksjomatów, z którego wyrosła teoria Zermela-Fraenkla."
+summary_original: "German mathematician and one of the creators of axiomatic set theory. He proved the well-ordering theorem using the axiom of choice and proposed an axiom system from which Zermelo–Fraenkel set theory developed."
+works:
+  - title: "Dowód, że każdy zbiór może być dobrze uporządkowany"
+    original_title: "Beweis, dass jede Menge wohlgeordnet werden kann"
+    year: 1904
+    precision: year
+    type: mathematical_essay
+  - title: "Badania nad podstawami teorii mnogości I"
+    original_title: "Untersuchungen über die Grundlagen der Mengenlehre I"
+    year: 1908
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Aksjomat wyboru"
+    original_name: "Axiom of choice"
+    wikipedia: "https://en.wikipedia.org/wiki/Axiom_of_choice"
+    summary: "Zermelo użył zasady pozwalającej wybierać element z każdego zbioru w rodzinie niepustych zbiorów."
+    summary_original: "Zermelo used a principle allowing an element to be selected from each set in a family of nonempty sets."
+  - name: "Twierdzenie o dobrym uporządkowaniu"
+    original_name: "Well-ordering theorem"
+    summary: "Udowodnił, że każdy zbiór można dobrze uporządkować, zakładając aksjomat wyboru."
+    summary_original: "He proved that every set can be well ordered, assuming the axiom of choice."
+  - name: "Aksjomatyczna teoria mnogości"
+    original_name: "Axiomatic set theory"
+    summary: "Jego system z 1908 r. miał wyeliminować paradoksy przez jawne ograniczenie sposobów tworzenia zbiorów."
+    summary_original: "His 1908 system aimed to avoid paradoxes by explicitly restricting set formation."
+events:
+  - year: 1904
+    precision: year
+    title: "Publikacja dowodu twierdzenia o dobrym uporządkowaniu"
+    original_title: "Publication of the well-ordering proof"
+    summary: "Dowód wywołał intensywną debatę nad statusem aksjomatu wyboru."
+    summary_original: "The proof triggered intense debate about the status of the axiom of choice."
+sources:
+  - title: "MacTutor — Ernst Zermelo"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Zermelo/"
+  - title: "Stanford Encyclopedia of Philosophy — Set Theory"
+    url: "https://plato.stanford.edu/entries/set-theory/"
