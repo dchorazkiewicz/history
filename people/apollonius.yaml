@@ -1,0 +1,50 @@
+id: apollonius
+name: "Apollonius of Perga"
+display_name: "Apoloniusz z Pergi"
+born:
+  year: -262
+  precision: approximate
+  note: "Datowanie przybliżone; w nowoczesnych opracowaniach spotyka się narodziny około 262–240 r. p.n.e."
+  note_original: "Approximate dating; modern sources place his birth roughly between 262 and 240 BCE."
+died:
+  year: -190
+  precision: approximate
+  note: "Data przybliżona."
+  note_original: "Approximate date."
+place_association: "Perge; Aleksandria"
+fields: [mathematics, geometry, astronomy]
+image: null
+summary: "Jeden z najwybitniejszych geometrów starożytności. W traktacie O przekrojach stożkowych usystematyzował teorię elipsy, paraboli i hiperboli, a jego rezultaty pozostawały punktem odniesienia aż do narodzin geometrii analitycznej."
+summary_original: "One of antiquity's greatest geometers. In his Conics he systematized the theory of the ellipse, parabola and hyperbola, and his results remained a reference point until the rise of analytic geometry."
+works:
+  - title: "O przekrojach stożkowych"
+    original_title: "Conics"
+    year: -200
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Traktat składał się z ośmiu ksiąg. Księgi I–IV zachowały się po grecku, V–VII w przekładzie arabskim; księga VIII zaginęła."
+    publication_note_original: "The treatise comprised eight books. Books I–IV survive in Greek, V–VII in Arabic translation, while Book VIII is lost."
+ideas:
+  - name: "Systematyczna teoria przekrojów stożkowych"
+    original_name: "Systematic theory of conic sections"
+    wikipedia: "https://en.wikipedia.org/wiki/Conic_section"
+    summary: "Apoloniusz rozwinął jednolitą teorię krzywych powstających przez przecięcie stożka płaszczyzną i utrwalił nazwy parabola, elipsa oraz hiperbola."
+    summary_original: "Apollonius developed a unified theory of curves obtained by intersecting a cone with a plane and established the names parabola, ellipse and hyperbola."
+  - name: "Normalne, maksima i minima w geometrii stożkowych"
+    original_name: "Normals, maxima and minima for conics"
+    summary: "Księga V jego traktatu badała m.in. linie maksymalne i minimalne prowadzone do przekrojów stożkowych, co później interpretowano jako ważny krok w rozwoju geometrii krzywych."
+    summary_original: "Book V studied maximum and minimum lines associated with conics, later seen as an important step in the geometry of curves."
+events:
+  - year: -210
+    precision: approximate
+    title: "Redakcja traktatu o przekrojach stożkowych"
+    original_title: "Revision of the Conics"
+    summary: "Apoloniusz przygotowywał kolejne księgi i poprawioną redakcję traktatu pod koniec III w. p.n.e.; dokładna chronologia nie jest znana."
+    summary_original: "Apollonius prepared successive books and a revised edition of the Conics in the late third century BCE; the precise chronology is unknown."
+sources:
+  - title: "MacTutor — Apollonius of Perga"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Apollonius/"
+  - title: "Encyclopaedia Britannica 1911 — Apollonius of Perga"
+    url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Apollonius_of_Perga"
+  - title: "Wikipedia — Apollonius of Perga"
+    url: "https://en.wikipedia.org/wiki/Apollonius_of_Perga"
