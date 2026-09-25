@@ -1,0 +1,56 @@
+id: hausdorff
+name: "Felix Hausdorff"
+display_name: "Felix Hausdorff"
+born:
+  date: "1868-11-08"
+  year: 1868
+  precision: day
+died:
+  date: "1942-01-26"
+  year: 1942
+  precision: day
+place_association: "Wrocław; Lipsk; Bonn"
+fields: [mathematics, topology, set_theory, measure_theory, analysis, philosophy, literature]
+image: null
+summary: "Niemiecki matematyk, jeden z twórców topologii ogólnej i teorii mnogości. Równolegle pod pseudonimem Paul Mongré pisał filozofię i literaturę. Jego Grundzüge der Mengenlehre stały się jednym z pierwszych systematycznych podręczników nowoczesnej teorii zbiorów i topologii."
+summary_original: "German mathematician and a founder of general topology and set theory. Under the pseudonym Paul Mongré he also wrote philosophy and literature. His Grundzüge der Mengenlehre became one of the first systematic textbooks of modern set theory and topology."
+works:
+  - title: "Podstawy teorii mnogości"
+    original_title: "Grundzüge der Mengenlehre"
+    year: 1914
+    precision: year
+    type: mathematical_treatise
+  - title: "Wymiar i miara zewnętrzna"
+    original_title: "Dimension und äußeres Maß"
+    year: 1918
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Przestrzenie Hausdorffa"
+    original_name: "Hausdorff spaces"
+    wikipedia: "https://en.wikipedia.org/wiki/Hausdorff_space"
+    summary: "Hausdorff wyodrębnił warunek rozdzielania punktów przez rozłączne otoczenia, dziś podstawowy aksjomat topologiczny."
+    summary_original: "Hausdorff isolated the condition that distinct points have disjoint neighborhoods, now a basic topological separation axiom."
+  - name: "Wymiar Hausdorffa"
+    original_name: "Hausdorff dimension"
+    wikipedia: "https://en.wikipedia.org/wiki/Hausdorff_dimension"
+    summary: "Uogólnił pojęcie wymiaru tak, by można było mierzyć także zbiory o wymiarze niecałkowitym."
+    summary_original: "He generalized dimension so that sets of non-integer dimension could also be measured."
+events:
+  - year: 1914
+    precision: year
+    title: "Publikacja Grundzüge der Mengenlehre"
+    original_title: "Publication of Grundzüge der Mengenlehre"
+    summary: "Książka uporządkowała język nowoczesnej topologii i teorii mnogości."
+    summary_original: "The book systematized the language of modern topology and set theory."
+  - year: 1942
+    precision: year
+    title: "Śmierć w obliczu deportacji"
+    original_title: "Death in the face of deportation"
+    summary: "Po otrzymaniu nakazu przeniesienia do miejsca internowania Hausdorff, jego żona i jej siostra odebrali sobie życie, próbując uniknąć nazistowskich prześladowań."
+    summary_original: "After receiving an order to move to an internment site, Hausdorff, his wife and her sister took their own lives in an attempt to avoid Nazi persecution."
+sources:
+  - title: "MacTutor — Felix Hausdorff"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Hausdorff/"
+  - title: "Wikipedia — Felix Hausdorff"
+    url: "https://en.wikipedia.org/wiki/Felix_Hausdorff"
