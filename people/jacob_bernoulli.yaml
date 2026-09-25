@@ -1,0 +1,75 @@
+id: jacob_bernoulli
+name: "Jacob Bernoulli"
+display_name: "Jacob Bernoulli"
+born:
+  date: "1655-01-06"
+  year: 1655
+  precision: day
+died:
+  date: "1705-08-16"
+  year: 1705
+  precision: day
+place_association: "Bazylea, Szwajcaria"
+fields: [mathematics, infinitesimal_calculus, probability, statistics, geometry, differential_equations, mechanics]
+image: null
+summary: "Szwajcarski matematyk, jeden z najważniejszych wczesnych twórców rachunku różniczkowego i całkowego po Leibnizu. Badał szeregi, równania różniczkowe, krzywe i problemy mechaniczne, a pośmiertne Ars Conjectandi uczyniło go jednym z założycieli matematycznej teorii prawdopodobieństwa."
+summary_original: "Swiss mathematician and one of the most important early developers of calculus after Leibniz. He studied series, differential equations, curves and mechanical problems, while the posthumous Ars Conjectandi made him one of the founders of mathematical probability."
+works:
+  - title: "Traktat o szeregach nieskończonych"
+    original_title: "Tractatus de seriebus infinitis"
+    year: 1689
+    precision: approximate
+    type: mathematical_treatise
+  - title: "Sztuka przewidywania"
+    original_title: "Ars Conjectandi"
+    wikipedia: "https://en.wikipedia.org/wiki/Ars_Conjectandi"
+    year: 1713
+    precision: year
+    type: mathematical_treatise
+    posthumous: true
+    publication_note: "Dzieło opublikowane osiem lat po śmierci autora; zawiera m.in. prawo wielkich liczb i liczby Bernoulliego."
+    publication_note_original: "Published eight years after his death; it contains, among other things, the law of large numbers and Bernoulli numbers."
+ideas:
+  - name: "Prawo wielkich liczb"
+    original_name: "Law of large numbers"
+    wikipedia: "https://en.wikipedia.org/wiki/Law_of_large_numbers"
+    summary: "Bernoulli udowodnił, że częstość zdarzenia w długiej serii niezależnych prób stabilizuje się wokół jego prawdopodobieństwa."
+    summary_original: "Bernoulli proved that the frequency of an event in a long sequence of independent trials stabilizes around its probability."
+  - name: "Liczby Bernoulliego"
+    original_name: "Bernoulli numbers"
+    wikipedia: "https://en.wikipedia.org/wiki/Bernoulli_number"
+    summary: "W Ars Conjectandi pojawiły się liczby związane z sumami potęg liczb naturalnych, później nazwane liczbami Bernoulliego."
+    summary_original: "Ars Conjectandi introduced numbers connected with sums of powers of natural numbers, later called Bernoulli numbers."
+  - name: "Lemniskata Bernoulliego"
+    original_name: "Bernoulli lemniscate"
+    wikipedia: "https://en.wikipedia.org/wiki/Lemniscate_of_Bernoulli"
+    summary: "W 1694 r. badał krzywą o kształcie ósemki zdefiniowaną przez stały iloczyn odległości od dwóch ognisk."
+    summary_original: "In 1694 he studied a figure-eight curve defined by a constant product of distances from two foci."
+  - name: "Równanie Bernoulliego"
+    original_name: "Bernoulli differential equation"
+    summary: "Badał klasę nieliniowych równań różniczkowych, dla których można znaleźć redukcję do równania liniowego."
+    summary_original: "He studied a class of nonlinear differential equations reducible to linear form."
+events:
+  - year: 1687
+    precision: year
+    title: "Objęcie katedry matematyki w Bazylei"
+    original_title: "Appointment to the mathematics chair at Basel"
+    summary: "Jacob objął katedrę, którą zachował do końca życia."
+    summary_original: "Jacob took the mathematics chair, which he held for the rest of his life."
+  - year: 1696
+    precision: year
+    title: "Udział w problemie brachistochrony"
+    original_title: "Work on the brachistochrone problem"
+    summary: "Rodzina Bernoullich należała do głównych uczestników słynnego konkursu dotyczącego krzywej najszybszego spadku."
+    summary_original: "The Bernoulli family were leading participants in the famous challenge concerning the curve of fastest descent."
+  - year: 1713
+    precision: year
+    title: "Pośmiertna publikacja Ars Conjectandi"
+    original_title: "Posthumous publication of Ars Conjectandi"
+    summary: "Dzieło zostało wydane przez jego bratanka Nicolausa Bernoulliego."
+    summary_original: "The work was published by his nephew Nicolaus Bernoulli."
+sources:
+  - title: "MacTutor — Jacob Bernoulli"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Jacob/"
+  - title: "Wikipedia — Jacob Bernoulli"
+    url: "https://en.wikipedia.org/wiki/Jacob_Bernoulli"
