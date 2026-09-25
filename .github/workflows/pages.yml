@@ -24,9 +24,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build people catalog
+      - name: Audit and build people catalog
         run: |
           python -m pip install --quiet pyyaml
+          python scripts/audit_people_registry.py
           python scripts/build_people_catalog.py
 
       - name: Setup Pages
