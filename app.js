@@ -39,7 +39,7 @@
   let initialized = false;
   let domainAnimationFrame = null;
 
-  const margin = { top: 54, right: 28, bottom: 135, left: 138 };
+  const margin = { top: 54, right: 28, bottom: 190, left: 138 };
   const rowHeight = 86;
 
   const tooltip = document.createElement('div');
@@ -545,9 +545,9 @@
     const laneY = lane => bandTop + 24 + (Number(lane || 0) * 23);
     const trackLabels = [
       { lane:0, label:'RAMY HISTORYCZNE' },
-      { lane:1, label:'KULTURA / LITERATURA' },
-      { lane:2, label:'IDEE / FILOZOFIA' },
-      { lane:3, label:'NAUKA' }
+      { lane:1, label:'KULTURA / SZTUKA / LITERATURA' },
+      { lane:4, label:'IDEE / FILOZOFIA' },
+      { lane:5, label:'NAUKA' }
     ];
 
     const visible = periods.filter(period => {
@@ -569,7 +569,7 @@
       .attr('class','period-band-title')
       .attr('x',16)
       .attr('y',bandTop + 7)
-      .text('EPOKI I NURTY · GRANICE UMOWNE');
+      .text('EPOKI I NURTY · DATY ORIENTACYJNE · NURTY MOGĄ SIĘ NAKŁADAĆ');
 
     band.selectAll('text.period-track-label')
       .data(trackLabels, d => d.lane)
