@@ -1,0 +1,57 @@
+id: michelson
+name: "Albert Abraham Michelson"
+display_name: "Albert A. Michelson"
+born:
+  date: "1852-12-19"
+  year: 1852
+  precision: day
+died:
+  date: "1931-05-09"
+  year: 1931
+  precision: day
+place_association: "Strzelno; Annapolis; Cleveland; Chicago"
+fields: [physics, optics, interferometry, metrology, spectroscopy, experimental_science]
+image: null
+summary: "Amerykański fizyk urodzony w Strzelnie, mistrz precyzyjnych pomiarów optycznych. Udoskonalił interferometrię i wielokrotnie mierzył prędkość światła; eksperyment Michelsona-Morleya stał się jednym z kluczowych wyników prowadzących do odejścia od eteru świetlnego."
+summary_original: "American physicist born in Strzelno and a master of precision optical measurement. He advanced interferometry and repeatedly measured the speed of light; the Michelson–Morley experiment became a key result in the decline of the luminiferous ether."
+works:
+  - title: "O względnym ruchu Ziemi i eteru świetlnego"
+    original_title: "On the Relative Motion of the Earth and the Luminiferous Ether"
+    year: 1887
+    precision: year
+    type: scientific_treatise
+    publication_note: "Napisane wspólnie z Edwardem W. Morleyem."
+    publication_note_original: "Written with Edward W. Morley."
+ideas:
+  - name: "Interferometr Michelsona"
+    original_name: "Michelson interferometer"
+    wikipedia: "https://en.wikipedia.org/wiki/Michelson_interferometer"
+    summary: "Przyrząd rozdziela wiązkę światła na dwie drogi i ponownie je łączy, umożliwiając niezwykle precyzyjne pomiary różnic długości."
+    summary_original: "The instrument splits light into two paths and recombines them, enabling extremely precise measurement of path differences."
+  - name: "Eksperyment Michelsona-Morleya"
+    original_name: "Michelson–Morley experiment"
+    wikipedia: "https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment"
+    summary: "Eksperyment nie wykrył oczekiwanego ruchu Ziemi względem eteru świetlnego."
+    summary_original: "The experiment failed to detect the expected motion of Earth relative to the luminiferous ether."
+  - name: "Precyzyjne pomiary prędkości światła"
+    original_name: "Precision measurement of the speed of light"
+    summary: "Michelson przez dziesięciolecia udoskonalał metody pomiaru prędkości światła na coraz większych dystansach."
+    summary_original: "Michelson spent decades improving measurements of the speed of light over increasingly long baselines."
+events:
+  - year: 1887
+    precision: year
+    title: "Eksperyment Michelsona-Morleya"
+    original_title: "Michelson–Morley experiment"
+    summary: "Wynik stał się jednym z najważniejszych doświadczeń w historii fizyki końca XIX wieku."
+    summary_original: "The result became one of the most important experiments in late nineteenth-century physics."
+  - year: 1907
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Michelson został pierwszym amerykańskim laureatem naukowej Nagrody Nobla, nagrodzonym za precyzyjne przyrządy optyczne i pomiary."
+    summary_original: "Michelson became the first American Nobel science laureate, honored for precision optical instruments and measurements."
+sources:
+  - title: "Nobel Prize — Albert A. Michelson"
+    url: "https://www.nobelprize.org/prizes/physics/1907/michelson/facts/"
+  - title: "Encyclopaedia Britannica — Albert A. Michelson"
+    url: "https://www.britannica.com/biography/Albert-A-Michelson"
