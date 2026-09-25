@@ -1,0 +1,80 @@
+id: al_biruni
+name: "Abu Rayhan al-Biruni"
+display_name: "Al-Biruni"
+born:
+  date: "0973-09-15"
+  year: 973
+  precision: day
+died:
+  date: "1048-12-13"
+  year: 1048
+  precision: day
+place_association: "Chorezm; Ghazna; Azja Środkowa i Indie"
+fields: [mathematics, astronomy, physics, geography, geodesy, history, chronology, anthropology, medicine, mineralogy]
+image: null
+summary: "Perski uczony o niezwykle szerokim dorobku: matematyk, astronom, geograf, historyk nauki i badacz kultur. Zajmował się trygonometrią, geodezją, pomiarem Ziemi, gęstością substancji, chronologią oraz porównawczym opisem Indii."
+summary_original: "Persian polymath with an exceptionally broad body of work: mathematician, astronomer, geographer, historian of science and student of cultures. He worked on trigonometry, geodesy, measurement of Earth, densities of substances, chronology and comparative study of India."
+works:
+  - title: "Chronologia dawnych narodów"
+    original_title: "Al-Athar al-baqiya 'an al-qurun al-khaliya / The Chronology of Ancient Nations"
+    year: 1000
+    precision: approximate
+    type: book
+    publication_note: "Porównawcze dzieło o kalendarzach, erach i chronologii różnych ludów."
+    publication_note_original: "A comparative work on calendars, eras and chronologies of different peoples."
+  - title: "Wyznaczanie współrzędnych miejsc"
+    original_title: "Tahdid nihayat al-amakin"
+    year: 1025
+    precision: approximate
+    type: scientific_treatise
+    publication_note: "Traktat o geodezji, współrzędnych geograficznych i metodach wyznaczania położenia miejsc."
+    publication_note_original: "A treatise on geodesy, geographic coordinates and methods for determining locations."
+  - title: "Indie"
+    original_title: "Kitab fi tahqiq ma li-l-Hind / India"
+    year: 1030
+    precision: approximate
+    type: book
+    publication_note: "Obszerne studium religii, filozofii, nauki, obyczajów i systemów miar subkontynentu indyjskiego."
+    publication_note_original: "An extensive study of the religions, philosophy, sciences, customs and systems of measurement of the Indian subcontinent."
+  - title: "Kanon Masuda"
+    original_title: "Al-Qanun al-Mas'udi"
+    year: 1030
+    precision: approximate
+    type: astronomical_treatise
+    publication_note: "Monumentalne kompendium astronomii matematycznej i geografii."
+    publication_note_original: "A monumental compendium of mathematical astronomy and geography."
+ideas:
+  - name: "Geodezyjny pomiar promienia Ziemi"
+    original_name: "Geodetic measurement of Earth's radius"
+    summary: "Al-Biruni rozwijał metodę wyznaczania promienia Ziemi z wysokości góry i kąta obniżenia horyzontu, łącząc obserwację z trygonometrią."
+    summary_original: "Al-Biruni developed a method for determining Earth's radius from a mountain's height and the dip angle of the horizon, combining observation with trigonometry."
+  - name: "Trygonometria sferyczna"
+    original_name: "Spherical trigonometry"
+    summary: "Stosował i rozwijał metody trygonometryczne do problemów astronomii, geografii i wyznaczania kierunku Mekki."
+    summary_original: "He applied and developed trigonometric methods for astronomy, geography and determining the direction of Mecca."
+  - name: "Pomiar gęstości i ciężaru właściwego"
+    original_name: "Measurement of density and specific gravity"
+    summary: "Prowadził precyzyjne pomiary gęstości metali i minerałów, należące do najważniejszych wczesnych przykładów ilościowej fizyki materiałów."
+    summary_original: "He made precise measurements of densities of metals and minerals, among the most important early examples of quantitative material physics."
+  - name: "Porównawcze badanie kultur"
+    original_name: "Comparative study of cultures"
+    summary: "W dziele o Indiach starał się opisywać obcą kulturę, religię i naukę na podstawie języka, tekstów i obserwacji, bez sprowadzania ich do własnych kategorii."
+    summary_original: "In his work on India he sought to describe another culture, religion and science through language, texts and observation rather than reducing them to his own categories."
+events:
+  - year: 990
+    precision: year
+    title: "Wyznaczenie szerokości geograficznej Kath"
+    original_title: "Determination of the latitude of Kath"
+    summary: "W wieku około 17 lat Al-Biruni prowadził już poważne obserwacje astronomiczne i obliczył szerokość geograficzną rodzinnego miasta."
+    summary_original: "At about age 17 al-Biruni was already conducting serious astronomical observations and computed the latitude of his home city."
+  - year: 1017
+    precision: approximate
+    title: "Przeniesienie do Ghazny"
+    original_title: "Move to Ghazna"
+    summary: "Po podboju Chorezmu przez Mahmuda z Ghazny Al-Biruni znalazł się na jego dworze, skąd uczestniczył również w wyprawach do Indii."
+    summary_original: "After Mahmud of Ghazna conquered Khwarazm, al-Biruni entered his court and also took part in journeys to India."
+sources:
+  - title: "MacTutor — Al-Biruni"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Biruni/"
+  - title: "Wikipedia — Al-Biruni"
+    url: "https://en.wikipedia.org/wiki/Al-Biruni"
