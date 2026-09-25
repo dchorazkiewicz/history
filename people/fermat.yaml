@@ -1,0 +1,83 @@
+id: fermat
+name: "Pierre de Fermat"
+display_name: "Pierre de Fermat"
+born:
+  date: "1601-08-17"
+  year: 1601
+  precision: day
+  note: "Data urodzenia 17 sierpnia 1601 r. jest najczęściej przyjmowana, choć w starszej literaturze występowały wątpliwości biograficzne."
+  note_original: "17 August 1601 is the commonly accepted birth date, although older biographical literature contained uncertainty."
+died:
+  date: "1665-01-12"
+  year: 1665
+  precision: day
+place_association: "Beaumont-de-Lomagne; Bordeaux; Tuluza; Castres, Francja"
+fields: [mathematics, number_theory, analytic_geometry, probability, infinitesimal_calculus, optics, law, public_administration]
+image: null
+summary: "Francuski prawnik i urzędnik, który matematyką zajmował się poza zawodem. Stworzył podstawy nowożytnej teorii liczb, rozwijał geometrię analityczną i metody wyznaczania ekstremów oraz stycznych, współtworzył z Pascalem rachunek prawdopodobieństwa i sformułował zasadę najmniejszego czasu w optyce."
+summary_original: "French lawyer and magistrate who pursued mathematics outside his profession. He founded major parts of early modern number theory, developed analytic geometry and methods for extrema and tangents, helped create probability with Pascal, and formulated the principle of least time in optics."
+works:
+  - title: "Wprowadzenie do miejsc płaskich i przestrzennych"
+    original_title: "Ad locos planos et solidos isagoge"
+    year: 1636
+    precision: approximate
+    type: manuscript
+    publication_note: "Rękopis rozwijający algebraiczne podejście do krzywych; opublikowany dopiero pośmiertnie."
+    publication_note_original: "A manuscript developing an algebraic approach to curves; published only posthumously."
+  - title: "Metoda wyznaczania maksimów i minimów"
+    original_title: "Methodus ad disquirendam maximam et minimam"
+    year: 1636
+    precision: approximate
+    type: manuscript
+    publication_note: "Metoda adekwacji służyła do znajdowania ekstremów i stycznych i była ważnym prekursorem rachunku różniczkowego."
+    publication_note_original: "The method of adequality was used to find extrema and tangents and was an important precursor of differential calculus."
+  - title: "Uwagi do Arytmetyki Diofantosa"
+    original_title: "Observations on Diophantus's Arithmetica"
+    year: 1670
+    precision: year
+    type: collected_works
+    posthumous: true
+    publication_note: "Syn Fermata Samuel wydał pośmiertnie edycję Diofantosa z marginalnymi notatkami ojca."
+    publication_note_original: "Fermat's son Samuel published a posthumous edition of Diophantus containing his father's marginal notes."
+ideas:
+  - name: "Wielkie twierdzenie Fermata"
+    original_name: "Fermat's Last Theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem"
+    summary: "Fermat zanotował, że równanie xⁿ + yⁿ = zⁿ nie ma dodatnich całkowitych rozwiązań dla n > 2 i twierdził, że ma dowód. Pełny dowód powstał dopiero w XX wieku dzięki Andrew Wilesowi."
+    summary_original: "Fermat wrote that x^n + y^n = z^n has no positive integer solutions for n > 2 and claimed to possess a proof. A complete proof was achieved only in the twentieth century by Andrew Wiles."
+  - name: "Małe twierdzenie Fermata"
+    original_name: "Fermat's little theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Fermat%27s_little_theorem"
+    summary: "Dla liczby pierwszej p zachodzi a^p ≡ a mod p; wynik stał się jednym z podstawowych narzędzi teorii liczb."
+    summary_original: "For a prime p, a^p ≡ a mod p; the result became a basic tool of number theory."
+  - name: "Metoda nieskończonego zejścia"
+    original_name: "Infinite descent"
+    summary: "Fermat systematycznie używał argumentu pokazującego, że hipotetyczne rozwiązanie prowadziłoby do jeszcze mniejszego rozwiązania, co daje sprzeczność."
+    summary_original: "Fermat systematically used an argument showing that a hypothetical solution would yield a smaller one, leading to contradiction."
+  - name: "Rachunek prawdopodobieństwa z Pascalem"
+    original_name: "Probability theory with Pascal"
+    summary: "Korespondencja z Pascalem w 1654 r. nad problemem podziału stawki stała się jednym z początków matematycznej teorii prawdopodobieństwa."
+    summary_original: "His 1654 correspondence with Pascal on the problem of points became one of the origins of mathematical probability theory."
+  - name: "Zasada Fermata"
+    original_name: "Fermat's principle"
+    wikipedia: "https://en.wikipedia.org/wiki/Fermat%27s_principle"
+    summary: "Światło wybiera drogę o stacjonarnym czasie przejścia; zasada dała matematyczne wyjaśnienie praw odbicia i załamania."
+    summary_original: "Light follows a path of stationary travel time; the principle gave a mathematical explanation of reflection and refraction laws."
+events:
+  - year: 1631
+    precision: year
+    title: "Radca parlamentu w Tuluzie"
+    original_title: "Councillor at the Parlement of Toulouse"
+    summary: "Fermat rozpoczął wieloletnią karierę prawniczą i urzędniczą, prowadząc badania matematyczne prywatnie."
+    summary_original: "Fermat began his long legal and administrative career while pursuing mathematics privately."
+  - year: 1654
+    precision: year
+    title: "Korespondencja z Pascalem"
+    original_title: "Correspondence with Pascal"
+    summary: "Seria listów o problemach hazardowych pomogła stworzyć klasyczny rachunek prawdopodobieństwa."
+    summary_original: "A series of letters on gambling problems helped create classical probability theory."
+sources:
+  - title: "MacTutor — Pierre de Fermat"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Fermat/"
+  - title: "Wikipedia — Pierre de Fermat"
+    url: "https://en.wikipedia.org/wiki/Pierre_de_Fermat"
