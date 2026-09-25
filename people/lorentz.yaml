@@ -1,0 +1,64 @@
+id: lorentz
+name: "Hendrik Antoon Lorentz"
+display_name: "Hendrik Lorentz"
+born:
+  date: "1853-07-18"
+  year: 1853
+  precision: day
+died:
+  date: "1928-02-04"
+  year: 1928
+  precision: day
+place_association: "Arnhem; Lejda; Haarlem"
+fields: [physics, mathematics, electromagnetism, electron_theory, relativity, optics, thermodynamics]
+image: null
+summary: "Holenderski fizyk matematyczny, twórca elektronowej teorii materii i kluczowy poprzednik szczególnej teorii względności. Opracował transformacje Lorentza, wyjaśniał efekt Zeemana i rozwijał elektrodynamikę poruszających się ciał."
+summary_original: "Dutch mathematical physicist, creator of electron theory and a key precursor of special relativity. He developed the Lorentz transformations, explained the Zeeman effect and advanced electrodynamics of moving bodies."
+works:
+  - title: "Próba teorii zjawisk elektrycznych i optycznych w poruszających się ciałach"
+    original_title: "Versuch einer Theorie der electrischen und optischen Erscheinungen in bewegten Körpern"
+    year: 1895
+    precision: year
+    type: scientific_treatise
+  - title: "Zjawiska elektromagnetyczne w układzie poruszającym się z dowolną prędkością mniejszą niż prędkość światła"
+    original_title: "Electromagnetic phenomena in a system moving with any velocity smaller than that of light"
+    year: 1904
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Transformacje Lorentza"
+    original_name: "Lorentz transformations"
+    wikipedia: "https://en.wikipedia.org/wiki/Lorentz_transformation"
+    summary: "Transformacje wiążą współrzędne przestrzeni i czasu między inercjalnymi układami odniesienia i stały się podstawą szczególnej teorii względności."
+    summary_original: "The transformations relate space and time coordinates between inertial frames and became foundational to special relativity."
+  - name: "Siła Lorentza"
+    original_name: "Lorentz force"
+    wikipedia: "https://en.wikipedia.org/wiki/Lorentz_force"
+    summary: "Opisuje siłę działającą na ładunek poruszający się w polu elektrycznym i magnetycznym."
+    summary_original: "It describes the force on a charge moving in electric and magnetic fields."
+  - name: "Elektronowa teoria materii"
+    original_name: "Electron theory"
+    summary: "Lorentz modelował materię jako zawierającą naładowane cząstki oddziałujące z polem elektromagnetycznym."
+    summary_original: "Lorentz modeled matter as containing charged particles interacting with the electromagnetic field."
+  - name: "Wyjaśnienie efektu Zeemana"
+    original_name: "Explanation of the Zeeman effect"
+    summary: "Teoria Lorentza powiązała rozszczepienie linii widmowych w polu magnetycznym z zachowaniem naładowanych cząstek."
+    summary_original: "Lorentz's theory linked spectral-line splitting in a magnetic field with the behavior of charged particles."
+events:
+  - year: 1878
+    precision: year
+    title: "Profesor fizyki teoretycznej w Lejdzie"
+    original_title: "Professor of theoretical physics at Leiden"
+    summary: "Lorentz objął nowo utworzoną katedrę i zbudował jedną z najważniejszych szkół fizyki teoretycznej."
+    summary_original: "Lorentz took a newly created chair and built one of the leading schools of theoretical physics."
+  - year: 1902
+    precision: year
+    title: "Nagroda Nobla z Pieterem Zeemanem"
+    original_title: "Nobel Prize with Pieter Zeeman"
+    summary: "Nagrodzono ich za badania wpływu magnetyzmu na promieniowanie."
+    summary_original: "They were honored for research on the influence of magnetism on radiation."
+sources:
+  - title: "Nobel Prize — Hendrik A. Lorentz"
+    url: "https://www.nobelprize.org/prizes/physics/1902/lorentz/facts/"
+  - title: "Encyclopaedia Britannica — Hendrik Antoon Lorentz"
+    url: "https://www.britannica.com/biography/Hendrik-Antoon-Lorentz"
