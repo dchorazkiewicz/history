@@ -1,0 +1,72 @@
+id: marie_curie
+name: "Marie Sklodowska Curie"
+display_name: "Maria Skłodowska-Curie"
+born:
+  date: "1867-11-07"
+  year: 1867
+  precision: day
+died:
+  date: "1934-07-04"
+  year: 1934
+  precision: day
+place_association: "Warszawa; Paryż"
+fields: [physics, chemistry, radioactivity, nuclear_physics, medicine, education]
+image: null
+summary: "Polsko-francuska fizyczka i chemiczka, pionierka badań promieniotwórczości. Wspólnie z Pierre’em Curie odkryła polon i rad, rozwinęła metody izolacji substancji promieniotwórczych i została pierwszą osobą nagrodzoną Noblem w dwóch różnych dziedzinach naukowych."
+summary_original: "Polish-French physicist and chemist, a pioneer of radioactivity research. With Pierre Curie she discovered polonium and radium, developed methods for isolating radioactive substances, and became the first person to receive Nobel Prizes in two different scientific fields."
+works:
+  - title: "Badania nad substancjami promieniotwórczymi"
+    original_title: "Recherches sur les substances radioactives"
+    year: 1903
+    precision: year
+    type: scientific_treatise
+    publication_note: "Rozprawa doktorska Marii Curie."
+    publication_note_original: "Marie Curie's doctoral thesis."
+  - title: "Traktat o promieniotwórczości"
+    original_title: "Traité de radioactivité"
+    year: 1910
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Promieniotwórczość jako własność atomu"
+    original_name: "Radioactivity as an atomic property"
+    summary: "Curie wykazała, że intensywność promieniowania zależy od ilości pierwiastka, a nie od jego stanu chemicznego, co wskazywało na wewnętrzne źródło atomowe."
+    summary_original: "Curie showed that radiation intensity depends on the amount of an element rather than its chemical state, pointing to an internal atomic source."
+  - name: "Polon"
+    original_name: "Polonium"
+    wikipedia: "https://en.wikipedia.org/wiki/Polonium"
+    summary: "W 1898 r. Maria i Pierre Curie ogłosili odkrycie nowego silnie promieniotwórczego pierwiastka nazwanego na cześć Polski."
+    summary_original: "In 1898 Marie and Pierre Curie announced a new strongly radioactive element named in honor of Poland."
+  - name: "Rad"
+    original_name: "Radium"
+    wikipedia: "https://en.wikipedia.org/wiki/Radium"
+    summary: "W tym samym roku ogłosili istnienie radu, którego związki wykazywały wyjątkowo silną promieniotwórczość."
+    summary_original: "The same year they announced radium, whose compounds displayed exceptionally strong radioactivity."
+  - name: "Mobilna radiologia podczas I wojny światowej"
+    original_name: "Mobile radiology in World War I"
+    summary: "Curie organizowała samochodowe stanowiska rentgenowskie i szkoliła personel, aby umożliwić diagnostykę rannych blisko frontu."
+    summary_original: "Curie organized mobile X-ray units and trained staff to diagnose wounded soldiers near the front."
+events:
+  - year: 1898
+    precision: year
+    title: "Odkrycie polonu i radu"
+    original_title: "Discovery of polonium and radium"
+    summary: "Maria i Pierre Curie ogłosili dwa nowe pierwiastki na podstawie badań blendy smolistej."
+    summary_original: "Marie and Pierre Curie announced two new elements from studies of pitchblende."
+  - year: 1903
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Maria Curie, Pierre Curie i Henri Becquerel zostali nagrodzeni za badania nad promieniotwórczością."
+    summary_original: "Marie Curie, Pierre Curie and Henri Becquerel were honored for research on radioactivity."
+  - year: 1911
+    precision: year
+    title: "Nagroda Nobla w dziedzinie chemii"
+    original_title: "Nobel Prize in Chemistry"
+    summary: "Curie otrzymała drugiego Nobla za odkrycie polonu i radu oraz izolację radu."
+    summary_original: "Curie received a second Nobel Prize for discovering polonium and radium and isolating radium."
+sources:
+  - title: "Nobel Prize — Marie Curie"
+    url: "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/"
+  - title: "Musée Curie — Marie Curie"
+    url: "https://musee.curie.fr/decouvrir/la-famille-curie/marie-curie"
