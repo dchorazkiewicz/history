@@ -1,0 +1,57 @@
+id: planck
+name: "Max Karl Ernst Ludwig Planck"
+display_name: "Max Planck"
+born:
+  date: "1858-04-23"
+  year: 1858
+  precision: day
+died:
+  date: "1947-10-04"
+  year: 1947
+  precision: day
+place_association: "Kilonia; Monachium; Berlin; Getynga"
+fields: [physics, quantum_theory, thermodynamics, statistical_mechanics, radiation_theory, philosophy_of_science]
+image: null
+summary: "Niemiecki fizyk, twórca hipotezy kwantowej. W 1900 r. wyprowadził prawo promieniowania ciała doskonale czarnego, zakładając dyskretną wymianę energii w porcjach proporcjonalnych do częstotliwości."
+summary_original: "German physicist and originator of the quantum hypothesis. In 1900 he derived the blackbody radiation law by assuming that energy exchange occurs in discrete amounts proportional to frequency."
+works:
+  - title: "O prawie rozkładu energii w normalnym widmie"
+    original_title: "Über das Gesetz der Energieverteilung im Normalspectrum"
+    year: 1901
+    precision: year
+    type: scientific_treatise
+    publication_note: "Wynik został przedstawiony Niemieckiemu Towarzystwu Fizycznemu w grudniu 1900 r. i opublikowany w 1901 r."
+    publication_note_original: "The result was presented to the German Physical Society in December 1900 and published in 1901."
+ideas:
+  - name: "Stała Plancka"
+    original_name: "Planck constant"
+    wikipedia: "https://en.wikipedia.org/wiki/Planck_constant"
+    summary: "Stała h wyznacza podstawową skalę kwantową i wiąże energię kwantu z częstotliwością przez E = hν."
+    summary_original: "The constant h sets the fundamental quantum scale and relates quantum energy to frequency through E = hν."
+  - name: "Prawo promieniowania Plancka"
+    original_name: "Planck's law"
+    wikipedia: "https://en.wikipedia.org/wiki/Planck%27s_law"
+    summary: "Prawo poprawnie opisuje widmo promieniowania ciała doskonale czarnego w całym zakresie częstotliwości."
+    summary_original: "The law correctly describes blackbody radiation across the full frequency range."
+  - name: "Hipoteza kwantowa"
+    original_name: "Quantum hypothesis"
+    summary: "Planck założył, że oscylatory wymieniają energię w dyskretnych porcjach będących wielokrotnościami hν."
+    summary_original: "Planck assumed that oscillators exchange energy in discrete amounts that are multiples of hν."
+events:
+  - year: 1900
+    precision: day
+    title: "Ogłoszenie prawa promieniowania i kwantów energii"
+    original_title: "Announcement of the radiation law and energy quanta"
+    summary: "14 grudnia Planck przedstawił wynik uznawany symbolicznie za początek teorii kwantowej."
+    summary_original: "On 14 December Planck presented the result often taken as the symbolic birth of quantum theory."
+  - year: 1918
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Nagrodę przyznano za odkrycie kwantów energii."
+    summary_original: "He was awarded the prize for the discovery of energy quanta."
+sources:
+  - title: "Nobel Prize — Max Planck"
+    url: "https://www.nobelprize.org/prizes/physics/1918/planck/facts/"
+  - title: "Encyclopaedia Britannica — Max Planck"
+    url: "https://www.britannica.com/biography/Max-Planck"
