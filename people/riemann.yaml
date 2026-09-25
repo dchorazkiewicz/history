@@ -1,0 +1,74 @@
+id: riemann
+name: "Bernhard Riemann"
+display_name: "Bernhard Riemann"
+born:
+  date: "1826-09-17"
+  year: 1826
+  precision: day
+died:
+  date: "1866-07-20"
+  year: 1866
+  precision: day
+place_association: "Breselenz; Getynga; Selasca, Królestwo Hanoweru i Włochy"
+fields: [mathematics, analysis, complex_analysis, differential_geometry, number_theory, topology, mathematical_physics]
+image: null
+summary: "Niemiecki matematyk, którego prace zmieniły analizę, geometrię, teorię liczb i podstawy fizyki matematycznej. Stworzył geometrię riemannowską, teorię powierzchni Riemanna, nową koncepcję całki i postawił hipotezę o zerach funkcji dzeta."
+summary_original: "German mathematician whose work transformed analysis, geometry, number theory and the foundations of mathematical physics. He created Riemannian geometry, the theory of Riemann surfaces, a new concept of integration and posed the hypothesis on the zeros of the zeta function."
+works:
+  - title: "Podstawy ogólnej teorii funkcji jednej zmiennej zespolonej"
+    original_title: "Grundlagen für eine allgemeine Theorie der Functionen einer veränderlichen complexen Grösse"
+    year: 1851
+    precision: year
+    type: mathematical_treatise
+  - title: "O hipotezach leżących u podstaw geometrii"
+    original_title: "Über die Hypothesen, welche der Geometrie zu Grunde liegen"
+    year: 1854
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Wykład habilitacyjny wygłoszony w 1854 r.; opublikowany pośmiertnie w 1868 r."
+    publication_note_original: "Habilitation lecture delivered in 1854 and published posthumously in 1868."
+  - title: "O liczbie liczb pierwszych mniejszych od zadanej wielkości"
+    original_title: "Über die Anzahl der Primzahlen unter einer gegebenen Grösse"
+    wikipedia: "https://en.wikipedia.org/wiki/On_the_Number_of_Primes_Less_Than_a_Given_Magnitude"
+    year: 1859
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Geometria riemannowska"
+    original_name: "Riemannian geometry"
+    wikipedia: "https://en.wikipedia.org/wiki/Riemannian_geometry"
+    summary: "Riemann uogólnił geometrię do przestrzeni o dowolnym wymiarze i zmiennej krzywiźnie, tworząc język późniejszej ogólnej teorii względności."
+    summary_original: "Riemann generalized geometry to spaces of arbitrary dimension and varying curvature, creating the language later used by general relativity."
+  - name: "Powierzchnie Riemanna"
+    original_name: "Riemann surfaces"
+    wikipedia: "https://en.wikipedia.org/wiki/Riemann_surface"
+    summary: "Wprowadził geometryczny sposób rozumienia wielowartościowych funkcji zespolonych poprzez odpowiednio skonstruowane powierzchnie."
+    summary_original: "He introduced a geometric way of understanding multivalued complex functions through suitably constructed surfaces."
+  - name: "Całka Riemanna"
+    original_name: "Riemann integral"
+    wikipedia: "https://en.wikipedia.org/wiki/Riemann_integral"
+    summary: "Sformalizował pojęcie całki przez granice sum na coraz drobniejszych podziałach przedziału."
+    summary_original: "He formalized integration through limits of sums over increasingly fine partitions."
+  - name: "Hipoteza Riemanna"
+    original_name: "Riemann hypothesis"
+    wikipedia: "https://en.wikipedia.org/wiki/Riemann_hypothesis"
+    summary: "W 1859 r. wysunął hipotezę o położeniu nietrywialnych zer funkcji dzeta, ściśle związaną z rozkładem liczb pierwszych."
+    summary_original: "In 1859 he conjectured the location of the nontrivial zeros of the zeta function, tightly connected with the distribution of primes."
+events:
+  - year: 1854
+    precision: year
+    title: "Wykład habilitacyjny o podstawach geometrii"
+    original_title: "Habilitation lecture on the foundations of geometry"
+    summary: "W obecności Gaussa Riemann przedstawił wizję geometrii znacznie wykraczającą poza przestrzeń euklidesową."
+    summary_original: "In Gauss's presence Riemann presented a vision of geometry far beyond Euclidean space."
+  - year: 1859
+    precision: year
+    title: "Profesor zwyczajny w Getyndze"
+    original_title: "Full professor at Göttingen"
+    summary: "Po śmierci Dirichleta Riemann objął jego katedrę."
+    summary_original: "After Dirichlet's death Riemann succeeded to his chair."
+sources:
+  - title: "MacTutor — Bernhard Riemann"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/"
+  - title: "Wikipedia — Bernhard Riemann"
+    url: "https://en.wikipedia.org/wiki/Bernhard_Riemann"
