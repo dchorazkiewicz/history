@@ -1,0 +1,50 @@
+id: abrikosov
+name: "Alexei Alexeyevich Abrikosov"
+display_name: "Aleksiej Abrikosow"
+born:
+  date: "1928-06-25"
+  year: 1928
+  precision: day
+died:
+  date: "2017-03-29"
+  year: 2017
+  precision: day
+place_association: "Moskwa; Chicago"
+fields: [physics, condensed_matter_physics, superconductivity, theoretical_physics]
+image: null
+summary: "Radziecki i amerykański fizyk teoretyczny, który rozwinął teorię nadprzewodników typu II. Przewidział strukturę wirów magnetycznych w takich materiałach, dziś znaną jako sieć Abrikosowa."
+summary_original: "Soviet and American theoretical physicist who developed the theory of type-II superconductors. He predicted the magnetic vortex structure in such materials, now known as the Abrikosov lattice."
+works:
+  - title: "O własnościach magnetycznych nadprzewodników drugiej grupy"
+    original_title: "On the Magnetic Properties of Superconductors of the Second Group"
+    year: 1957
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Nadprzewodniki typu II"
+    original_name: "Type-II superconductors"
+    summary: "Abrikosow pokazał, że pewna klasa nadprzewodników może przepuszczać pole magnetyczne w postaci skwantowanych wirów."
+    summary_original: "Abrikosov showed that a class of superconductors can admit magnetic field in the form of quantized vortices."
+  - name: "Sieć Abrikosowa"
+    original_name: "Abrikosov vortex lattice"
+    wikipedia: "https://en.wikipedia.org/wiki/Abrikosov_vortex"
+    summary: "W wirującym stanie mieszanym linie strumienia magnetycznego tworzą uporządkowaną sieć."
+    summary_original: "In the mixed vortex state, magnetic flux lines form an ordered lattice."
+events:
+  - year: 1957
+    precision: year
+    title: "Teoria wirów w nadprzewodnikach typu II"
+    original_title: "Theory of vortices in type-II superconductors"
+    summary: "Praca stała się jednym z fundamentów współczesnej fizyki nadprzewodnictwa."
+    summary_original: "The work became foundational to modern superconductivity physics."
+  - year: 2003
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Abrikosow został nagrodzony za pionierski wkład do teorii nadprzewodników i nadcieczy."
+    summary_original: "Abrikosov was honored for pioneering contributions to superconductors and superfluids."
+sources:
+  - title: "Nobel Prize — Alexei Abrikosov"
+    url: "https://www.nobelprize.org/prizes/physics/2003/abrikosov/facts/"
+  - title: "Encyclopaedia Britannica — Alexei Abrikosov"
+    url: "https://www.britannica.com/biography/Alexei-Alexeyevich-Abrikosov"
