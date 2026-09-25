@@ -1,0 +1,66 @@
+id: tarski
+name: "Alfred Tarski"
+display_name: "Alfred Tarski"
+born:
+  date: "1901-01-14"
+  year: 1901
+  precision: day
+died:
+  date: "1983-10-26"
+  year: 1983
+  precision: day
+place_association: "Warszawa; Berkeley"
+fields: [mathematics, logic, model_theory, set_theory, geometry, philosophy_of_logic, philosophy_of_language, education]
+image: null
+summary: "Polsko-amerykański matematyk i logik, jeden z najważniejszych logików XX wieku. Stworzył semantyczną teorię prawdy, współtworzył teorię modeli, badał teorię mnogości i geometrię, a wraz z Banachem sformułował paradoks Banacha-Tarskiego."
+summary_original: "Polish-American mathematician and logician, one of the most important logicians of the twentieth century. He created the semantic theory of truth, helped found model theory, worked on set theory and geometry, and with Banach formulated the Banach–Tarski paradox."
+works:
+  - title: "Pojęcie prawdy w językach nauk dedukcyjnych"
+    original_title: "Pojęcie prawdy w językach nauk dedukcyjnych"
+    year: 1933
+    precision: year
+    type: philosophy
+    publication_note: "Rozszerzona wersja niemiecka ukazała się w 1935 r."
+    publication_note_original: "An expanded German version appeared in 1935."
+  - title: "Wprowadzenie do logiki i metodologii nauk dedukcyjnych"
+    original_title: "Introduction to Logic and to the Methodology of Deductive Sciences"
+    year: 1936
+    precision: year
+    type: book
+ideas:
+  - name: "Semantyczna teoria prawdy"
+    original_name: "Semantic theory of truth"
+    wikipedia: "https://en.wikipedia.org/wiki/Semantic_theory_of_truth"
+    summary: "Tarski podał formalną definicję prawdy dla języków sformalizowanych, opartą na relacji spełniania."
+    summary_original: "Tarski gave a formal definition of truth for formalized languages based on the satisfaction relation."
+  - name: "Twierdzenie Tarskiego o niedefiniowalności prawdy"
+    original_name: "Tarski's undefinability theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Tarski%27s_undefinability_theorem"
+    summary: "Dostatecznie bogaty język nie może w sposób niesprzeczny zawierać własnego pełnego predykatu prawdy."
+    summary_original: "A sufficiently rich language cannot consistently contain its own full truth predicate."
+  - name: "Teoria modeli"
+    original_name: "Model theory"
+    summary: "Prace Tarskiego nad relacją między językiem formalnym a strukturami, w których zdania są prawdziwe, stały się fundamentem teorii modeli."
+    summary_original: "Tarski's work on the relation between formal languages and structures in which sentences are true became foundational to model theory."
+  - name: "Paradoks Banacha-Tarskiego"
+    original_name: "Banach–Tarski paradox"
+    summary: "Wspólnie z Banachem uzyskał jedno z najbardziej zaskakujących zastosowań aksjomatu wyboru do geometrii."
+    summary_original: "With Banach he obtained one of the most surprising geometric consequences of the axiom of choice."
+events:
+  - year: 1939
+    precision: year
+    title: "Wyjazd do Stanów Zjednoczonych"
+    original_title: "Departure for the United States"
+    summary: "Tarski wyjechał na kongres do USA tuż przed wybuchem II wojny światowej i pozostał tam na emigracji."
+    summary_original: "Tarski traveled to the United States for a congress shortly before World War II and remained there in exile."
+  - year: 1942
+    precision: year
+    title: "Rozpoczęcie pracy w Berkeley"
+    original_title: "Beginning work at Berkeley"
+    summary: "Na Uniwersytecie Kalifornijskim stworzył jeden z najważniejszych ośrodków logiki matematycznej XX wieku."
+    summary_original: "At the University of California he built one of the twentieth century's leading centers of mathematical logic."
+sources:
+  - title: "MacTutor — Alfred Tarski"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Tarski/"
+  - title: "Stanford Encyclopedia of Philosophy — Alfred Tarski"
+    url: "https://plato.stanford.edu/entries/tarski/"
