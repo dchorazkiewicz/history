@@ -1,0 +1,60 @@
+id: daniel_bernoulli
+name: "Daniel Bernoulli"
+display_name: "Daniel Bernoulli"
+born:
+  date: "1700-02-08"
+  year: 1700
+  precision: day
+died:
+  date: "1782-03-17"
+  year: 1782
+  precision: day
+place_association: "Groningen; Petersburg; Bazylea"
+fields: [physics, mathematics, fluid_mechanics, hydrodynamics, probability, statistics, medicine, physiology]
+image: null
+summary: "Szwajcarski matematyk i fizyk z rodziny Bernoullich. W Hydrodynamice połączył mechanikę cieczy z zasadą zachowania energii, sformułował relację znaną jako zasada Bernoulliego i należał do pionierów kinetycznego opisu gazów oraz zastosowań probabilistyki do medycyny."
+summary_original: "Swiss mathematician and physicist from the Bernoulli family. In Hydrodynamica he connected fluid mechanics with energy conservation, formulated the relation known as Bernoulli's principle, pioneered kinetic ideas about gases, and applied probability to medicine."
+works:
+  - title: "Hydrodynamika"
+    original_title: "Hydrodynamica"
+    wikipedia: "https://en.wikipedia.org/wiki/Hydrodynamica"
+    year: 1738
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Zasada Bernoulliego"
+    original_name: "Bernoulli's principle"
+    wikipedia: "https://en.wikipedia.org/wiki/Bernoulli%27s_principle"
+    summary: "W ustalonym przepływie idealnego płynu wzrost prędkości wiąże się ze spadkiem ciśnienia lub zmianą energii potencjalnej."
+    summary_original: "In steady ideal-fluid flow, an increase in speed is associated with a decrease in pressure or a change in potential energy."
+  - name: "Kinetyczny model gazu"
+    original_name: "Kinetic model of gases"
+    summary: "Bernoulli interpretował ciśnienie gazu jako rezultat zderzeń poruszających się cząstek ze ściankami naczynia."
+    summary_original: "Bernoulli interpreted gas pressure as the result of moving particles colliding with container walls."
+  - name: "Oczekiwana użyteczność"
+    original_name: "Expected utility"
+    wikipedia: "https://en.wikipedia.org/wiki/St._Petersburg_paradox"
+    summary: "Analizując paradoks petersburski rozróżnił wartość pieniężną od subiektywnej użyteczności zysku."
+    summary_original: "In analyzing the St Petersburg paradox he distinguished monetary value from subjective utility."
+  - name: "Probabilistyka w epidemiologii"
+    original_name: "Probability in epidemiology"
+    summary: "W pracy o ospie porównywał oczekiwaną długość życia z i bez inokulacji, tworząc wczesny przykład ilościowej analizy ryzyka medycznego."
+    summary_original: "In work on smallpox he compared expected lifetimes with and without inoculation, an early quantitative analysis of medical risk."
+events:
+  - year: 1725
+    precision: year
+    title: "Przyjazd do Akademii Petersburskiej"
+    original_title: "Arrival at the St Petersburg Academy"
+    summary: "Bernoulli pracował w Petersburgu nad matematyką, fizyką i medycyną."
+    summary_original: "Bernoulli worked in St Petersburg on mathematics, physics and medicine."
+  - year: 1738
+    precision: year
+    title: "Publikacja Hydrodynamiki"
+    original_title: "Publication of Hydrodynamica"
+    summary: "Dzieło stało się jednym z fundamentów nowożytnej mechaniki płynów."
+    summary_original: "The work became foundational to modern fluid mechanics."
+sources:
+  - title: "MacTutor — Daniel Bernoulli"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Daniel/"
+  - title: "Encyclopaedia Britannica — Daniel Bernoulli"
+    url: "https://www.britannica.com/biography/Daniel-Bernoulli"
