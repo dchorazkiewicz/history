@@ -1,0 +1,53 @@
+id: steinhaus
+name: "Hugo Steinhaus"
+display_name: "Hugo Steinhaus"
+born:
+  date: "1887-01-14"
+  year: 1887
+  precision: day
+died:
+  date: "1972-02-25"
+  year: 1972
+  precision: day
+place_association: "Jasło; Lwów; Wrocław"
+fields: [mathematics, functional_analysis, probability, game_theory, applied_mathematics, statistics, education, popularization]
+image: null
+summary: "Polski matematyk, współtwórca lwowskiej szkoły matematycznej, badacz analizy funkcjonalnej, probabilistyki i zastosowań matematyki. Odkrył talent Stefana Banacha i przez całe życie popularyzował matematyczne myślenie."
+summary_original: "Polish mathematician and co-founder of the Lwów school of mathematics, working in functional analysis, probability and applications. He discovered Stefan Banach's talent and spent his life popularizing mathematical thinking."
+works:
+  - title: "Kalejdoskop matematyczny"
+    original_title: "Kalejdoskop matematyczny"
+    year: 1938
+    precision: year
+    type: book
+ideas:
+  - name: "Twierdzenie Steinhausa o zbiorach dodatniej miary"
+    original_name: "Steinhaus theorem"
+    summary: "Jeśli zbiór na prostej ma dodatnią miarę, to jego zbiór różnic zawiera otoczenie zera."
+    summary_original: "If a subset of the line has positive measure, then its difference set contains a neighborhood of zero."
+  - name: "Probabilistyczne spojrzenie na matematykę stosowaną"
+    original_name: "Probabilistic view of applied mathematics"
+    summary: "Steinhaus stosował rachunek prawdopodobieństwa i statystykę do problemów praktycznych, od pomiarów po teorię gier i decyzji."
+    summary_original: "Steinhaus applied probability and statistics to practical problems ranging from measurement to games and decision problems."
+  - name: "Lwowska szkoła matematyczna"
+    original_name: "Lwów school of mathematics"
+    summary: "Wspólnie z Banachem i innymi stworzył środowisko, w którym problemy matematyczne dyskutowano intensywnie w Kawiarni Szkockiej."
+    summary_original: "With Banach and others he created a community where mathematical problems were intensely discussed in the Scottish Café."
+events:
+  - year: 1916
+    precision: approximate
+    title: "Spotkanie Stefana Banacha"
+    original_title: "Meeting Stefan Banach"
+    summary: "Steinhaus usłyszał rozmowę Banacha o całce Lebesgue’a na krakowskich Plantach i zaprosił go do współpracy."
+    summary_original: "Steinhaus overheard Banach discussing the Lebesgue integral in Kraków and invited him to collaborate."
+  - year: 1945
+    precision: year
+    title: "Budowa środowiska matematycznego we Wrocławiu"
+    original_title: "Building the mathematical community in Wrocław"
+    summary: "Po wojnie Steinhaus współtworzył nowy ośrodek matematyczny we Wrocławiu."
+    summary_original: "After the war Steinhaus helped build a new mathematical center in Wrocław."
+sources:
+  - title: "MacTutor — Hugo Steinhaus"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Steinhaus/"
+  - title: "Wikipedia — Hugo Steinhaus"
+    url: "https://en.wikipedia.org/wiki/Hugo_Steinhaus"
