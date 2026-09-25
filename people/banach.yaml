@@ -1,0 +1,67 @@
+id: banach
+name: "Stefan Banach"
+display_name: "Stefan Banach"
+born:
+  date: "1892-03-30"
+  year: 1892
+  precision: day
+died:
+  date: "1945-08-31"
+  year: 1945
+  precision: day
+place_association: "Kraków; Lwów"
+fields: [mathematics, functional_analysis, measure_theory, set_theory, geometry, education]
+image: null
+summary: "Polski matematyk, współtwórca nowoczesnej analizy funkcjonalnej i centralna postać lwowskiej szkoły matematycznej. Jego nazwisko noszą przestrzenie Banacha, twierdzenie Hahna-Banacha, twierdzenie Banacha-Steinhausa i twierdzenie o punkcie stałym."
+summary_original: "Polish mathematician, co-creator of modern functional analysis and a central figure of the Lwów school of mathematics. His name is attached to Banach spaces, the Hahn–Banach theorem, Banach–Steinhaus theorem and fixed-point theorem."
+works:
+  - title: "O operacjach w zbiorach abstrakcyjnych i ich zastosowaniu do równań całkowych"
+    original_title: "Sur les opérations dans les ensembles abstraits et leur application aux équations intégrales"
+    year: 1922
+    precision: year
+    type: mathematical_treatise
+  - title: "Teoria operacji liniowych"
+    original_title: "Théorie des opérations linéaires"
+    wikipedia: "https://en.wikipedia.org/wiki/Th%C3%A9orie_des_op%C3%A9rations_lin%C3%A9aires"
+    year: 1932
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Przestrzeń Banacha"
+    original_name: "Banach space"
+    wikipedia: "https://en.wikipedia.org/wiki/Banach_space"
+    summary: "Abstrakcyjna przestrzeń liniowa z normą, w której każdy ciąg Cauchy’ego ma granicę, stała się podstawowym środowiskiem analizy funkcjonalnej."
+    summary_original: "A normed linear space in which every Cauchy sequence converges became a basic setting of functional analysis."
+  - name: "Twierdzenie Hahna-Banacha"
+    original_name: "Hahn–Banach theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Hahn%E2%80%93Banach_theorem"
+    summary: "Twierdzenie pozwala rozszerzać funkcjonały liniowe przy zachowaniu kontrolowanej normy."
+    summary_original: "The theorem extends linear functionals while controlling their norm."
+  - name: "Twierdzenie Banacha o punkcie stałym"
+    original_name: "Banach fixed-point theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Banach_fixed-point_theorem"
+    summary: "Kontrakcja na zupełnej przestrzeni metrycznej ma dokładnie jeden punkt stały, co daje konstruktywną metodę dowodzenia istnienia rozwiązań."
+    summary_original: "A contraction on a complete metric space has a unique fixed point, giving a constructive existence method."
+  - name: "Paradoks Banacha-Tarskiego"
+    original_name: "Banach–Tarski paradox"
+    wikipedia: "https://en.wikipedia.org/wiki/Banach%E2%80%93Tarski_paradox"
+    summary: "Wspólnie z Tarskim pokazał, że przy użyciu aksjomatu wyboru kulę można rozłożyć na skończenie wiele niemierzalnych części i złożyć z nich dwie kule tej samej wielkości."
+    summary_original: "With Tarski he showed that, using the axiom of choice, a ball can be decomposed into finitely many nonmeasurable pieces and reassembled into two balls of the same size."
+events:
+  - year: 1916
+    precision: approximate
+    title: "Spotkanie z Hugonem Steinhausem w Krakowie"
+    original_title: "Meeting Hugo Steinhaus in Kraków"
+    summary: "Przypadkowe spotkanie zapoczątkowało karierę Banacha i jedną z najważniejszych współprac w historii polskiej matematyki."
+    summary_original: "A chance meeting launched Banach's career and one of the most important collaborations in Polish mathematics."
+  - year: 1924
+    precision: year
+    title: "Profesor Uniwersytetu Jana Kazimierza we Lwowie"
+    original_title: "Professor at Jan Kazimierz University in Lwów"
+    summary: "Banach stał się centralną postacią lwowskiej szkoły matematycznej."
+    summary_original: "Banach became a central figure of the Lwów school of mathematics."
+sources:
+  - title: "MacTutor — Stefan Banach"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Banach/"
+  - title: "Wikipedia — Stefan Banach"
+    url: "https://en.wikipedia.org/wiki/Stefan_Banach"
