@@ -1,0 +1,44 @@
+id: lindemann
+name: "Ferdinand von Lindemann"
+display_name: "Ferdinand von Lindemann"
+born:
+  date: "1852-04-12"
+  year: 1852
+  precision: day
+died:
+  date: "1939-03-06"
+  year: 1939
+  precision: day
+place_association: "Hanower; Freiburg; Królewiec; Monachium"
+fields: [mathematics, number_theory, analysis, transcendental_number_theory, education]
+image: null
+summary: "Niemiecki matematyk znany przede wszystkim z dowodu przestępności liczby π. Wynik z 1882 r. ostatecznie rozstrzygnął starożytny problem kwadratury koła za pomocą cyrkla i linijki."
+summary_original: "German mathematician best known for proving the transcendence of pi. His 1882 result finally settled the ancient problem of squaring the circle with straightedge and compass."
+works:
+  - title: "O liczbie π"
+    original_title: "Über die Zahl π"
+    year: 1882
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Przestępność π"
+    original_name: "Transcendence of pi"
+    wikipedia: "https://en.wikipedia.org/wiki/Transcendental_number"
+    summary: "Lindemann udowodnił, że π nie jest pierwiastkiem żadnego niezerowego wielomianu o współczynnikach całkowitych."
+    summary_original: "Lindemann proved that pi is not a root of any nonzero polynomial with integer coefficients."
+  - name: "Niemożliwość kwadratury koła"
+    original_name: "Impossibility of squaring the circle"
+    summary: "Z przestępności π wynika, że nie można skonstruować cyrklem i linijką kwadratu o polu równym polu danego koła."
+    summary_original: "The transcendence of pi implies that a square equal in area to a given circle cannot be constructed with straightedge and compass."
+events:
+  - year: 1882
+    precision: year
+    title: "Dowód przestępności π"
+    original_title: "Proof of the transcendence of pi"
+    summary: "Lindemann rozwinął wcześniejsze idee Hermite’a dotyczące liczby e."
+    summary_original: "Lindemann extended Hermite's earlier ideas concerning the number e."
+sources:
+  - title: "MacTutor — Ferdinand von Lindemann"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Lindemann/"
+  - title: "Wikipedia — Ferdinand von Lindemann"
+    url: "https://en.wikipedia.org/wiki/Ferdinand_von_Lindemann"
