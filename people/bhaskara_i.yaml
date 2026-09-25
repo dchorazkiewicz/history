@@ -1,0 +1,66 @@
+id: bhaskara_i
+name: "Bhaskara I"
+display_name: "Bhaskara I"
+born:
+  year: 600
+  precision: approximate
+  note: "Data przybliżona; informacje biograficzne są rekonstruowane głównie z jego dzieł."
+  note_original: "Approximate date; biographical information is reconstructed mainly from his writings."
+died:
+  year: 680
+  precision: approximate
+  note: "Data przybliżona."
+  note_original: "Approximate date."
+place_association: "Saurashtra i Asmaka, Indie"
+fields: [mathematics, algebra, trigonometry, astronomy, education]
+image: null
+summary: "Indyjski matematyk i astronom, jeden z najważniejszych komentatorów Aryabhaty. Rozwijał algebrę, trygonometrię i astronomię obliczeniową, a jego przybliżenie sinusa było wyjątkowo dokładne jak na epokę."
+summary_original: "Indian mathematician and astronom, one of the most important commentators on Aryabhata. He developed algebra, trigonometry and computational astronomy, and his approximation to the sine function was exceptionally accurate for its time."
+works:
+  - title: "Komentarz do Aryabhatiyi"
+    original_title: "Āryabhaṭīyabhāṣya"
+    year: 629
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Komentarz dotyczył przede wszystkim 33 matematycznych wersetów Aryabhatiyi i rozwijał m.in. równania nieoznaczone oraz trygonometrię."
+    publication_note_original: "The commentary focused primarily on the 33 mathematical verses of the Aryabhatiya and developed topics including indeterminate equations and trigonometry."
+  - title: "Wielkie dzieło Bhaskary"
+    original_title: "Mahābhāskarīya"
+    year: 630
+    precision: approximate
+    type: astronomical_treatise
+    publication_note: "Ośmioczęściowy traktat z astronomii matematycznej, zawierający m.in. znaną aproksymację funkcji sinus."
+    publication_note_original: "An eight-chapter treatise on mathematical astronomy containing, among other things, a well-known approximation to the sine function."
+  - title: "Małe dzieło Bhaskary"
+    original_title: "Laghubhāskarīya"
+    year: 630
+    precision: approximate
+    type: astronomical_treatise
+ideas:
+  - name: "Racjonalne przybliżenie sinusa"
+    original_name: "Rational approximation to the sine function"
+    wikipedia: "https://en.wikipedia.org/wiki/Bhaskara_I%27s_sine_approximation_formula"
+    summary: "Bhaskara I podał prostą funkcję wymierną bardzo dokładnie przybliżającą sinus dla kątów od 0 do π."
+    summary_original: "Bhaskara I gave a simple rational function that approximates the sine very accurately for angles from 0 to pi."
+  - name: "Rozwój metody kuttaka"
+    original_name: "Development of the kuttaka method"
+    summary: "Komentując Aryabhatę, Bhaskara rozwijał metody rozwiązywania liniowych równań nieoznaczonych."
+    summary_original: "In commenting on Aryabhata, Bhaskara developed methods for solving linear indeterminate equations."
+  - name: "Tradycja komentarza matematycznego"
+    original_name: "Mathematical commentary tradition"
+    summary: "Jego prace pokazują, że komentarz nie był jedynie objaśnieniem starszego tekstu: służył także rozwijaniu i porządkowaniu nowych metod."
+    summary_original: "His works show that commentary was not merely explanation of an older text; it also served to develop and organize new methods."
+events:
+  - year: 629
+    precision: year
+    title: "Ukończenie komentarza do Aryabhatiyi"
+    original_title: "Completion of the commentary on the Aryabhatiya"
+    summary: "Bhaskara I ukończył jeden z najważniejszych wczesnych komentarzy do matematycznej części dzieła Aryabhaty."
+    summary_original: "Bhaskara I completed one of the most important early commentaries on the mathematical part of Aryabhata's work."
+sources:
+  - title: "MacTutor — Bhaskara I"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Bhaskara_I/"
+  - title: "MacTutor — Aryabhata and his commentators"
+    url: "https://mathshistory.st-andrews.ac.uk/Projects/Pearce/chapter-10/"
+  - title: "Wikipedia — Bhaskara I"
+    url: "https://en.wikipedia.org/wiki/Bh%C4%81skara_I"
