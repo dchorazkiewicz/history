@@ -267,6 +267,8 @@
     astrophysics: 'astrofizyka',
     quantum_electrodynamics: 'elektrodynamika kwantowa',
     scientific_administration: 'zarządzanie nauką',
+    stellar_structure: 'struktura gwiazd',
+    string_theory: 'teoria strun',
     electrodynamics: 'elektrodynamika',
     electrochemistry: 'elektrochemia',
     telegraphy: 'telegrafia',
