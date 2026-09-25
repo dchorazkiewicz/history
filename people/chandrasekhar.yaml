@@ -1,0 +1,55 @@
+id: chandrasekhar
+name: "Subrahmanyan Chandrasekhar"
+display_name: "Subrahmanyan Chandrasekhar"
+born:
+  date: "1910-10-19"
+  year: 1910
+  precision: day
+died:
+  date: "1995-08-21"
+  year: 1995
+  precision: day
+place_association: "Lahore; Cambridge; Chicago"
+fields: [physics, astrophysics, stellar_structure, relativity, hydrodynamics, mathematical_physics]
+image: null
+summary: "Indyjsko-amerykański astrofizyk, autor teorii granicy masy białych karłów. Jego prace obejmowały strukturę gwiazd, dynamikę gwiazdową, transport promieniowania, hydrodynamikę i teorię czarnych dziur."
+summary_original: "Indian-American astrophysicist who developed the mass limit for white dwarfs. His work ranged across stellar structure, stellar dynamics, radiative transfer, hydrodynamics and black-hole theory."
+works:
+  - title: "Wprowadzenie do badań struktury gwiazd"
+    original_title: "An Introduction to the Study of Stellar Structure"
+    year: 1939
+    precision: year
+    type: scientific_treatise
+  - title: "Matematyczna teoria czarnych dziur"
+    original_title: "The Mathematical Theory of Black Holes"
+    year: 1983
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Granica Chandrasekhara"
+    original_name: "Chandrasekhar limit"
+    wikipedia: "https://en.wikipedia.org/wiki/Chandrasekhar_limit"
+    summary: "Biały karzeł podtrzymywany przez degenerację elektronów nie może być stabilny powyżej charakterystycznej masy około 1,4 masy Słońca."
+    summary_original: "A white dwarf supported by electron degeneracy cannot remain stable above a characteristic mass of about 1.4 solar masses."
+  - name: "Relatywistyczna degeneracja gwiazdowa"
+    original_name: "Relativistic stellar degeneracy"
+    summary: "Chandrasekhar połączył statystykę Fermiego-Diraca ze szczególną teorią względności w teorii białych karłów."
+    summary_original: "Chandrasekhar combined Fermi–Dirac statistics with special relativity in white-dwarf theory."
+events:
+  - year: 1930
+    precision: approximate
+    title: "Wyprowadzenie granicy masy białych karłów"
+    original_title: "Derivation of the white-dwarf mass limit"
+    summary: "Podczas podróży do Cambridge młody Chandrasekhar analizował relatywistyczny gaz zdegenerowanych elektronów."
+    summary_original: "While traveling to Cambridge, the young Chandrasekhar analyzed a relativistic degenerate electron gas."
+  - year: 1983
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Nagrodzono go za teoretyczne badania procesów fizycznych ważnych dla struktury i ewolucji gwiazd."
+    summary_original: "He was honored for theoretical studies of physical processes important to stellar structure and evolution."
+sources:
+  - title: "Nobel Prize — Subrahmanyan Chandrasekhar"
+    url: "https://www.nobelprize.org/prizes/physics/1983/chandrasekhar/facts/"
+  - title: "Encyclopaedia Britannica — Subrahmanyan Chandrasekhar"
+    url: "https://www.britannica.com/biography/Subrahmanyan-Chandrasekhar"
