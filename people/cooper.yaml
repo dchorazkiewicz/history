@@ -1,0 +1,49 @@
+id: cooper
+name: "Leon Neil Cooper"
+display_name: "Leon Cooper"
+born:
+  date: "1930-02-28"
+  year: 1930
+  precision: day
+died:
+  date: "2024-10-23"
+  year: 2024
+  precision: day
+place_association: "Nowy Jork; Providence"
+fields: [physics, condensed_matter_physics, superconductivity, neuroscience, theoretical_physics]
+image: null
+summary: "Amerykański fizyk teoretyczny, współtwórca teorii BCS nadprzewodnictwa. Odkrył mechanizm parowania elektronów nazwanych parami Coopera, a później zajmował się także modelami uczenia i neurobiologii."
+summary_original: "American theoretical physicist and co-creator of BCS superconductivity theory. He discovered the electron-pairing mechanism now called Cooper pairs and later also worked on learning models and neuroscience."
+works:
+  - title: "Związane pary elektronów w zdegenerowanym gazie Fermiego"
+    original_title: "Bound Electron Pairs in a Degenerate Fermi Gas"
+    year: 1956
+    precision: year
+    type: scientific_treatise
+  - title: "Teoria nadprzewodnictwa"
+    original_title: "Theory of Superconductivity"
+    year: 1957
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Pary Coopera"
+    original_name: "Cooper pairs"
+    wikipedia: "https://en.wikipedia.org/wiki/Cooper_pair"
+    summary: "Słabe przyciąganie efektywne może związać dwa elektrony blisko powierzchni Fermiego w skorelowaną parę."
+    summary_original: "A weak effective attraction can bind two electrons near the Fermi surface into a correlated pair."
+  - name: "Teoria BCS"
+    original_name: "BCS theory"
+    summary: "Kondensacja wielu par Coopera tworzy makroskopowy stan kwantowy bez oporu elektrycznego."
+    summary_original: "Condensation of many Cooper pairs creates a macroscopic quantum state with zero electrical resistance."
+events:
+  - year: 1972
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Cooper podzielił nagrodę z Bardeenem i Schriefferem za teorię BCS."
+    summary_original: "Cooper shared the prize with Bardeen and Schrieffer for BCS theory."
+sources:
+  - title: "Nobel Prize — Leon Cooper"
+    url: "https://www.nobelprize.org/prizes/physics/1972/cooper/facts/"
+  - title: "Brown University — Leon Cooper"
+    url: "https://www.brown.edu/news/2024-10-24/leon-cooper"
