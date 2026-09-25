@@ -1,0 +1,45 @@
+id: bose
+name: "Satyendra Nath Bose"
+display_name: "Satyendra Nath Bose"
+born:
+  date: "1894-01-01"
+  year: 1894
+  precision: day
+died:
+  date: "1974-02-04"
+  year: 1974
+  precision: day
+place_association: "Kalkuta; Dhaka"
+fields: [physics, mathematics, quantum_theory, statistical_mechanics, education]
+image: null
+summary: "Indyjski fizyk i matematyk, którego nowy sposób liczenia stanów kwantowych doprowadził do statystyki Bosego-Einsteina. Od jego nazwiska pochodzi termin „bozon”."
+summary_original: "Indian physicist and mathematician whose new counting of quantum states led to Bose–Einstein statistics. The term 'boson' derives from his name."
+works:
+  - title: "Prawo Plancka i hipoteza kwantów światła"
+    original_title: "Planck's Law and the Hypothesis of Light Quanta"
+    year: 1924
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Statystyka Bosego-Einsteina"
+    original_name: "Bose–Einstein statistics"
+    wikipedia: "https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_statistics"
+    summary: "Bose potraktował fotony jako nierozróżnialne cząstki i policzył stany bez klasycznego przypisywania cząstek do indywidualnych trajektorii."
+    summary_original: "Bose treated photons as indistinguishable particles and counted states without classical assignment of particles to individual trajectories."
+  - name: "Bozony"
+    original_name: "Bosons"
+    wikipedia: "https://en.wikipedia.org/wiki/Boson"
+    summary: "Cząstki podlegające statystyce Bosego-Einsteina nazwano później bozonami."
+    summary_original: "Particles obeying Bose–Einstein statistics were later named bosons."
+events:
+  - year: 1924
+    precision: year
+    title: "Praca przesłana Einsteinowi"
+    original_title: "Paper sent to Einstein"
+    summary: "Einstein rozpoznał znaczenie pracy Bosego, przetłumaczył ją na niemiecki i pomógł w publikacji."
+    summary_original: "Einstein recognized the importance of Bose's work, translated it into German and helped publish it."
+sources:
+  - title: "Encyclopaedia Britannica — Satyendra Nath Bose"
+    url: "https://www.britannica.com/biography/Satyendra-Nath-Bose"
+  - title: "Wikipedia — Satyendra Nath Bose"
+    url: "https://en.wikipedia.org/wiki/Satyendra_Nath_Bose"
