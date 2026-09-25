@@ -1,0 +1,62 @@
+id: peano
+name: "Giuseppe Peano"
+display_name: "Giuseppe Peano"
+born:
+  date: "1858-08-27"
+  year: 1858
+  precision: day
+died:
+  date: "1932-04-20"
+  year: 1932
+  precision: day
+place_association: "Spinetta; Turyn, Włochy"
+fields: [mathematics, logic, foundations_of_mathematics, set_theory, analysis, linguistics, constructed_languages, education]
+image: null
+summary: "Włoski matematyk i logik, ważny twórca formalnego języka matematyki. Sformułował aksjomaty arytmetyki liczb naturalnych, rozwijał zapis logiczny i teorię mnogości oraz eksperymentował z międzynarodowym językiem Latino sine flexione."
+summary_original: "Italian mathematician and logician, an important creator of formal mathematical language. He formulated axioms for natural-number arithmetic, advanced logical and set-theoretic notation, and experimented with the international language Latino sine flexione."
+works:
+  - title: "Zasady arytmetyki przedstawione nową metodą"
+    original_title: "Arithmetices principia, nova methodo exposita"
+    year: 1889
+    precision: year
+    type: mathematical_treatise
+  - title: "Formulario mathematico"
+    original_title: "Formulario mathematico"
+    year: 1895
+    precision: year
+    type: reference_work
+    publication_note: "Projekt rozwijany w kolejnych wydaniach do 1908 r."
+    publication_note_original: "A project developed through successive editions until 1908."
+ideas:
+  - name: "Aksjomaty Peana"
+    original_name: "Peano axioms"
+    wikipedia: "https://en.wikipedia.org/wiki/Peano_axioms"
+    summary: "Peano uporządkował arytmetykę liczb naturalnych w system aksjomatów dotyczących zera, następnika i indukcji."
+    summary_original: "Peano organized natural-number arithmetic into axioms involving zero, successor and induction."
+  - name: "Krzywa Peana"
+    original_name: "Peano curve"
+    wikipedia: "https://en.wikipedia.org/wiki/Peano_curve"
+    summary: "W 1890 r. skonstruował ciągłą krzywą wypełniającą cały kwadrat, podważając intuicję o wymiarze."
+    summary_original: "In 1890 he constructed a continuous curve filling an entire square, challenging intuition about dimension."
+  - name: "Formalny język matematyki"
+    original_name: "Formal mathematical notation"
+    summary: "Peano i jego szkoła rozwinęli zwięzły system symboli logicznych i mnogościowych, który wpłynął na późniejsze standardy zapisu."
+    summary_original: "Peano and his school developed a concise logical and set-theoretic notation that influenced later standards."
+events:
+  - year: 1889
+    precision: year
+    title: "Publikacja aksjomatycznej arytmetyki"
+    original_title: "Publication of axiomatic arithmetic"
+    summary: "Ukazało się Arithmetices principia z nowym językiem symbolicznym."
+    summary_original: "Arithmetices principia appeared with a new symbolic language."
+  - year: 1903
+    precision: year
+    title: "Latino sine flexione"
+    original_title: "Latino sine flexione"
+    summary: "Peano zaproponował uproszczoną łacinę jako międzynarodowy język komunikacji naukowej."
+    summary_original: "Peano proposed simplified Latin as an international language of scientific communication."
+sources:
+  - title: "MacTutor — Giuseppe Peano"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Peano/"
+  - title: "Wikipedia — Giuseppe Peano"
+    url: "https://en.wikipedia.org/wiki/Giuseppe_Peano"
