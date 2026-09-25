@@ -1,0 +1,65 @@
+id: euclid
+name: "Euclid of Alexandria"
+display_name: "Euklides"
+born:
+  year: -325
+  precision: approximate
+  note: "Daty życia Euklidesa są bardzo niepewne; pewniejsze jest jedynie to, że działał około 300 r. p.n.e. w Aleksandrii."
+  note_original: "Euclid's life dates are highly uncertain; it is more secure that he was active around 300 BCE in Alexandria."
+died:
+  year: -265
+  precision: approximate
+  note: "Data orientacyjna, używana w części opracowań biograficznych."
+  note_original: "Approximate date used in some biographical reconstructions."
+place_association: "Aleksandria, Egipt"
+fields: [mathematics, geometry, optics]
+image: null
+summary: "Grecki matematyk działający w Aleksandrii, autor Elementów — najbardziej wpływowego starożytnego wykładu geometrii i teorii liczb. Jego sposób organizowania matematyki przez definicje, postulaty i dowody stał się wzorcem matematycznego rygoru na ponad dwa tysiące lat."
+summary_original: "Greek mathematician active in Alexandria and author of the Elements, the most influential ancient exposition of geometry and number theory. His organization of mathematics through definitions, postulates and proofs became a model of mathematical rigor for more than two millennia."
+works:
+  - title: "Elementy"
+    original_title: "Stoicheia / Elements"
+    wikipedia: "https://en.wikipedia.org/wiki/Euclid%27s_Elements"
+    year: -300
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Trzynaście ksiąg obejmujących geometrię płaską i przestrzenną, teorię proporcji oraz elementarną teorię liczb."
+    publication_note_original: "Thirteen books covering plane and solid geometry, proportion theory and elementary number theory."
+  - title: "Dane"
+    original_title: "Data"
+    year: -300
+    precision: approximate
+    type: mathematical_treatise
+  - title: "Optyka"
+    original_title: "Optics"
+    year: -300
+    precision: approximate
+    type: scientific_treatise
+ideas:
+  - name: "Metoda aksjomatyczno-dedukcyjna"
+    original_name: "Axiomatic-deductive method"
+    summary: "Elementy rozpoczynają od definicji i postulatów, a następnie wyprowadzają kolejne twierdzenia w uporządkowanym ciągu dowodów. Ten styl stał się klasycznym wzorcem matematycznej argumentacji."
+    summary_original: "The Elements begin from definitions and postulates and derive propositions in an ordered chain of proofs, establishing a classical model for mathematical argument."
+  - name: "Algorytm Euklidesa"
+    original_name: "Euclidean algorithm"
+    wikipedia: "https://en.wikipedia.org/wiki/Euclidean_algorithm"
+    summary: "Procedura znajdowania największego wspólnego dzielnika przez kolejne dzielenia z resztą jest opisana w Elementach i pozostaje jednym z najstarszych używanych algorytmów."
+    summary_original: "The procedure for finding the greatest common divisor by repeated division is described in the Elements and remains one of the oldest algorithms still in use."
+  - name: "Nieskończoność liczb pierwszych"
+    original_name: "Infinitude of primes"
+    summary: "W Elementach znajduje się klasyczny dowód, że liczb pierwszych jest nieskończenie wiele."
+    summary_original: "The Elements contains the classical proof that there are infinitely many prime numbers."
+events:
+  - year: -300
+    precision: approximate
+    title: "Działalność matematyczna w Aleksandrii"
+    original_title: "Mathematical activity in Alexandria"
+    summary: "Euklides działał w Aleksandrii w epoce wczesnych Ptolemeuszy; z tym okresem wiąże się redakcję Elementów."
+    summary_original: "Euclid worked in Alexandria in the early Ptolemaic period; the composition of the Elements is associated with this time."
+sources:
+  - title: "MacTutor — Euclid of Alexandria"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/"
+  - title: "Wikipedia — Euclid's Elements"
+    url: "https://en.wikipedia.org/wiki/Euclid%27s_Elements"
+  - title: "Wikipedia — Euclid"
+    url: "https://en.wikipedia.org/wiki/Euclid"
