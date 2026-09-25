@@ -1,0 +1,70 @@
+id: ulam
+name: "Stanislaw Marcin Ulam"
+display_name: "Stanisław Ulam"
+born:
+  date: "1909-04-13"
+  year: 1909
+  precision: day
+died:
+  date: "1984-05-13"
+  year: 1984
+  precision: day
+place_association: "Lwów; Princeton; Los Alamos"
+fields: [mathematics, set_theory, topology, probability, numerical_analysis, computer_science, nuclear_physics, dynamical_systems, cellular_automata]
+image: null
+summary: "Polsko-amerykański matematyk wywodzący się ze lwowskiej szkoły matematycznej. Pracował nad teorią mnogości, topologią, probabilistyką i obliczeniami, współtworzył metodę Monte Carlo, brał udział w Projekcie Manhattan i odegrał kluczową rolę w koncepcji Teller-Ulama."
+summary_original: "Polish-American mathematician from the Lwów school. He worked on set theory, topology, probability and computation, co-created the Monte Carlo method, participated in the Manhattan Project and played a key role in the Teller–Ulam concept."
+works:
+  - title: "Zbiór problemów matematycznych"
+    original_title: "A Collection of Mathematical Problems"
+    year: 1960
+    precision: year
+    type: mathematical_treatise
+  - title: "Przygody matematyka"
+    original_title: "Adventures of a Mathematician"
+    year: 1976
+    precision: year
+    type: autobiography
+ideas:
+  - name: "Metoda Monte Carlo"
+    original_name: "Monte Carlo method"
+    wikipedia: "https://en.wikipedia.org/wiki/Monte_Carlo_method"
+    summary: "Ulam wraz z von Neumannem i innymi rozwijał wykorzystanie losowego próbkowania do przybliżonego rozwiązywania trudnych problemów numerycznych."
+    summary_original: "Ulam with von Neumann and others developed random sampling for approximate solutions of difficult numerical problems."
+  - name: "Koncepcja Teller-Ulama"
+    original_name: "Teller–Ulam design"
+    summary: "Ulam zaproponował kluczową zmianę architektury bomby termojądrowej, którą następnie rozwinięto wspólnie z Edwardem Tellerem."
+    summary_original: "Ulam proposed a key architectural change for the thermonuclear weapon, subsequently developed with Edward Teller."
+  - name: "Automaty komórkowe"
+    original_name: "Cellular automata"
+    summary: "W rozmowach i badaniach z von Neumannem rozwijał idee prostych lokalnych reguł prowadzących do złożonych zachowań obliczeniowych."
+    summary_original: "In discussions and research with von Neumann he developed ideas of simple local rules generating complex computational behavior."
+  - name: "Eksperyment Fermi-Pasta-Ulam-Tsingou"
+    original_name: "Fermi–Pasta–Ulam–Tsingou experiment"
+    wikipedia: "https://en.wikipedia.org/wiki/Fermi%E2%80%93Pasta%E2%80%93Ulam%E2%80%93Tsingou_problem"
+    summary: "Jedno z pierwszych eksperymentalnych badań dynamiki nieliniowej wykonywanych za pomocą komputera ujawniło zaskakujące zjawiska nawrotów zamiast szybkiej termalizacji."
+    summary_original: "One of the first computer experiments on nonlinear dynamics revealed surprising recurrence rather than rapid thermalization."
+events:
+  - year: 1943
+    precision: year
+    title: "Przyjazd do Los Alamos"
+    original_title: "Arrival at Los Alamos"
+    summary: "Ulam dołączył do zespołu Projektu Manhattan."
+    summary_original: "Ulam joined the Manhattan Project team."
+  - year: 1946
+    precision: approximate
+    title: "Rozwój metody Monte Carlo"
+    original_title: "Development of the Monte Carlo method"
+    summary: "Pomysł losowego próbkowania został rozwinięty w Los Alamos wraz z von Neumannem i Nicholasem Metropolisem."
+    summary_original: "The idea of random sampling was developed at Los Alamos with von Neumann and Nicholas Metropolis."
+  - year: 1951
+    precision: year
+    title: "Przełom w projekcie termojądrowym"
+    original_title: "Breakthrough in the thermonuclear project"
+    summary: "Ulam przedstawił pomysł oddzielenia etapów urządzenia i wykorzystania promieniowania do kompresji paliwa termojądrowego."
+    summary_original: "Ulam proposed separating stages of the device and using radiation to compress thermonuclear fuel."
+sources:
+  - title: "MacTutor — Stanislaw Ulam"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Ulam/"
+  - title: "Wikipedia — Stanisław Ulam"
+    url: "https://en.wikipedia.org/wiki/Stanislaw_Ulam"
