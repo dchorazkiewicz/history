@@ -1,0 +1,56 @@
+id: nambu
+name: "Yoichiro Nambu"
+display_name: "Yoichiro Nambu"
+born:
+  date: "1921-01-18"
+  year: 1921
+  precision: day
+died:
+  date: "2015-07-05"
+  year: 2015
+  precision: day
+place_association: "Tokio; Osaka; Chicago"
+fields: [physics, particle_physics, quantum_field_theory, symmetry, theoretical_physics, string_theory]
+image: null
+summary: "Japońsko-amerykański fizyk teoretyczny, pionier pojęcia spontanicznego łamania symetrii w fizyce cząstek. Jego idee stały się fundamentalne dla Modelu Standardowego i wpłynęły na rozwój wczesnej teorii strun."
+summary_original: "Japanese-American theoretical physicist and pioneer of spontaneous symmetry breaking in particle physics. His ideas became fundamental to the Standard Model and influenced early string theory."
+works:
+  - title: "Dynamiczny model cząstek elementarnych oparty na analogii z nadprzewodnictwem I"
+    original_title: "Dynamical Model of Elementary Particles Based on an Analogy with Superconductivity I"
+    year: 1961
+    precision: year
+    type: scientific_treatise
+    publication_note: "Praca z Giovannim Joną-Lasinio."
+    publication_note_original: "Work with Giovanni Jona-Lasinio."
+ideas:
+  - name: "Spontaniczne łamanie symetrii"
+    original_name: "Spontaneous symmetry breaking"
+    wikipedia: "https://en.wikipedia.org/wiki/Spontaneous_symmetry_breaking"
+    summary: "Równania teorii mogą zachowywać symetrię, podczas gdy jej najniższy stan energetyczny już jej nie posiada."
+    summary_original: "A theory's equations can possess a symmetry while its lowest-energy state does not."
+  - name: "Model Nambu-Jona-Lasinio"
+    original_name: "Nambu–Jona-Lasinio model"
+    summary: "Model pokazał, jak mechanizm podobny do nadprzewodnictwa może dynamicznie generować masy i łamać symetrię."
+    summary_original: "The model showed how a superconductivity-like mechanism can dynamically generate masses and break symmetry."
+  - name: "Kolor w teorii kwarków"
+    original_name: "Color degree of freedom"
+    summary: "Nambu należał do pierwszych fizyków wykorzystujących dodatkowy stopień swobody odpowiadający późniejszemu kolorowi kwarków."
+    summary_original: "Nambu was among the first physicists to use an additional degree of freedom corresponding to what became quark color."
+events:
+  - year: 1961
+    precision: year
+    title: "Spontaniczne łamanie symetrii w fizyce cząstek"
+    original_title: "Spontaneous symmetry breaking in particle physics"
+    summary: "Praca Nambu i Jony-Lasinio przeniosła idee nadprzewodnictwa do teorii cząstek."
+    summary_original: "Nambu and Jona-Lasinio transferred ideas from superconductivity into particle theory."
+  - year: 2008
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Nambu otrzymał połowę nagrody za odkrycie mechanizmu spontanicznego łamania symetrii w fizyce subatomowej."
+    summary_original: "Nambu received half the prize for discovering the mechanism of spontaneous broken symmetry in subatomic physics."
+sources:
+  - title: "Nobel Prize — Yoichiro Nambu"
+    url: "https://www.nobelprize.org/prizes/physics/2008/nambu/facts/"
+  - title: "Encyclopaedia Britannica — Yoichiro Nambu"
+    url: "https://www.britannica.com/biography/Nambu-Yoichiro"
