@@ -1,0 +1,54 @@
+id: kelvin
+name: "William Thomson, 1st Baron Kelvin"
+display_name: "William Thomson (Lord Kelvin)"
+born:
+  date: "1824-06-26"
+  year: 1824
+  precision: day
+died:
+  date: "1907-12-17"
+  year: 1907
+  precision: day
+place_association: "Belfast; Glasgow; Cambridge"
+fields: [physics, thermodynamics, mathematics, electricity, electromagnetism, engineering, telegraphy, geophysics]
+image: null
+summary: "Brytyjski fizyk, matematyk i inżynier. Współtworzył termodynamikę, wprowadził bezwzględną skalę temperatury, pracował nad elektromagnetyzmem i transportem ciepła oraz odegrał kluczową rolę techniczną w rozwoju transatlantyckiego telegrafu."
+summary_original: "British physicist, mathematician and engineer. He helped build thermodynamics, introduced the absolute temperature scale, worked on electromagnetism and heat transport, and played a key technical role in the transatlantic telegraph."
+works:
+  - title: "O absolutnej skali termometrycznej"
+    original_title: "On an Absolute Thermometric Scale"
+    year: 1848
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Skala Kelvina"
+    original_name: "Kelvin temperature scale"
+    wikipedia: "https://en.wikipedia.org/wiki/Kelvin"
+    summary: "Skala temperatury została zdefiniowana tak, aby opierać się na zasadach termodynamiki i posiadać naturalne zero absolutne."
+    summary_original: "The temperature scale was defined from thermodynamic principles with a natural absolute zero."
+  - name: "Sformułowanie drugiej zasady termodynamiki"
+    original_name: "Kelvin statement of the second law"
+    summary: "Kelvin sformułował niemożliwość cyklicznego przekształcania całego ciepła pobranego z jednego źródła w pracę."
+    summary_original: "Kelvin formulated the impossibility of converting all heat taken from a single reservoir into work in a cyclic process."
+  - name: "Technika kabla transatlantyckiego"
+    original_name: "Transatlantic telegraph engineering"
+    summary: "Analizował rozchodzenie sygnałów w długich kablach i projektował czułe przyrządy pomiarowe potrzebne do praktycznej telegrafii oceanicznej."
+    summary_original: "He analyzed signal propagation in long cables and designed sensitive instruments needed for practical oceanic telegraphy."
+events:
+  - year: 1846
+    precision: year
+    title: "Profesor filozofii naturalnej w Glasgow"
+    original_title: "Professor of natural philosophy at Glasgow"
+    summary: "Thomson objął katedrę w wieku 22 lat i utrzymał ją przez ponad pół wieku."
+    summary_original: "Thomson took the chair at age 22 and held it for more than half a century."
+  - year: 1866
+    precision: year
+    title: "Udane położenie kabla transatlantyckiego"
+    original_title: "Successful transatlantic cable"
+    summary: "Kelvin uczestniczył w wyprawie i projektowaniu aparatury, które umożliwiły trwałe połączenie telegraficzne Europy i Ameryki."
+    summary_original: "Kelvin contributed to the expedition and instrumentation that enabled a durable telegraph link between Europe and America."
+sources:
+  - title: "Encyclopaedia Britannica — William Thomson, Baron Kelvin"
+    url: "https://www.britannica.com/biography/William-Thomson-Baron-Kelvin"
+  - title: "Wikipedia — William Thomson, 1st Baron Kelvin"
+    url: "https://en.wikipedia.org/wiki/William_Thomson,_1st_Baron_Kelvin"
