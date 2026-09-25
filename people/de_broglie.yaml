@@ -1,0 +1,52 @@
+id: de_broglie
+name: "Louis Victor de Broglie"
+display_name: "Louis de Broglie"
+born:
+  date: "1892-08-15"
+  year: 1892
+  precision: day
+died:
+  date: "1987-03-19"
+  year: 1987
+  precision: day
+place_association: "Dieppe; Paryż"
+fields: [physics, quantum_theory, wave_mechanics, theoretical_physics, philosophy_of_science]
+image: null
+summary: "Francuski fizyk teoretyczny, który zaproponował falową naturę materii. Jego hipoteza, że cząstkom materialnym odpowiada długość fali związana z pędem, stała się jednym z fundamentów mechaniki falowej."
+summary_original: "French theoretical physicist who proposed the wave nature of matter. His hypothesis that material particles possess a wavelength related to momentum became foundational to wave mechanics."
+works:
+  - title: "Badania nad teorią kwantów"
+    original_title: "Recherches sur la théorie des quanta"
+    year: 1924
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Rozprawa doktorska de Broglie’a."
+    publication_note_original: "De Broglie's doctoral thesis."
+ideas:
+  - name: "Fale materii"
+    original_name: "Matter waves"
+    wikipedia: "https://en.wikipedia.org/wiki/Matter_wave"
+    summary: "De Broglie zaproponował relację λ = h/p, przypisując długość fali cząstce o pędzie p."
+    summary_original: "De Broglie proposed the relation lambda = h/p, assigning a wavelength to a particle of momentum p."
+  - name: "Dualizm korpuskularno-falowy materii"
+    original_name: "Wave-particle duality of matter"
+    summary: "Rozszerzył dualizm znany dla światła na elektrony i inne cząstki materialne."
+    summary_original: "He extended the wave-particle duality known for light to electrons and other matter particles."
+events:
+  - year: 1924
+    precision: year
+    title: "Hipoteza fal materii"
+    original_title: "Matter-wave hypothesis"
+    summary: "Rozprawa doktorska zawierała propozycję, którą kilka lat później potwierdziła dyfrakcja elektronów."
+    summary_original: "His doctoral thesis proposed an idea confirmed a few years later by electron diffraction."
+  - year: 1929
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "De Broglie został nagrodzony za odkrycie falowej natury elektronów."
+    summary_original: "De Broglie was honored for discovering the wave nature of electrons."
+sources:
+  - title: "Nobel Prize — Louis de Broglie"
+    url: "https://www.nobelprize.org/prizes/physics/1929/broglie/facts/"
+  - title: "Encyclopaedia Britannica — Louis de Broglie"
+    url: "https://www.britannica.com/biography/Louis-de-Broglie"
