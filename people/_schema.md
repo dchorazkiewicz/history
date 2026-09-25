@@ -20,3 +20,12 @@ Każda osoba ma jeden plik YAML. **Polski jest językiem podstawowym interfejsu*
 - Link Wikipedii do osoby może być rozwiązywany automatycznie i jest pokazywany tylko raz przy nagłówku osoby.
 - Dla dzieł, idei i wydarzeń **nie generujemy automatycznych linków wyszukiwarki**. Link pojawia się tylko wtedy, gdy w rekordzie istnieje konkretne pole `wikipedia` / `wikipedia_url` albo wpis w `links`.
 - Dzięki temu link przy „Principiach” musi prowadzić do Principiów, a nie ogólnie do Isaaca Newtona.
+
+
+## Pełne dossier osoby
+
+- `fields` oznacza **pola aktywności człowieka**, a nie jedną etykietę zawodu. Osoba może mieć dowolnie wiele pól, np. `[mathematics, astronomy, economics, medicine, philosophy]`.
+- Rekord osoby ma obejmować cały istotny dorobek niezależnie od tego, z którego kanonu do niej trafiliśmy. Jeżeli matematyk pisał również filozofię, literaturę, teologię albo prowadził badania biologiczne, te elementy mają znaleźć się w tym samym dossier.
+- `works`, `ideas` i `events` nie są filtrowane według kanonu. Mają przedstawiać pełny historycznie istotny profil działalności.
+- Kanony i `focus` w `people_status.yaml` służą wyłącznie do indeksowania i znajdowania osób. Nie ograniczają zawartości `people/<id>.yaml`.
+- Przy aktualizacji istniejącej osoby należy rozszerzać jeden rekord, a nie tworzyć osobne wersje „matematyka”, „fizyka”, „filozofa” itd.
