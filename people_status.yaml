@@ -310,58 +310,69 @@ people:
 
   - id: wallis
     name: "John Wallis"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/wallis.yaml"
+    focus: [mathematics, theology]
 
   - id: huygens
     name: "Christiaan Huygens"
-    status: pending
-    focus: [mathematics, physics]
+    status: described
+    data_file: "people/huygens.yaml"
+    focus: [mathematics, physics, astronomy]
 
   - id: jacob_bernoulli
     name: "Jacob Bernoulli"
-    status: pending
+    status: described
+    data_file: "people/jacob_bernoulli.yaml"
     focus: [mathematics]
 
   - id: johann_bernoulli
     name: "Johann Bernoulli"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/johann_bernoulli.yaml"
+    focus: [mathematics, physics]
 
   - id: de_moivre
     name: "Abraham de Moivre"
-    status: pending
+    status: described
+    data_file: "people/de_moivre.yaml"
     focus: [mathematics]
 
   - id: brook_taylor
     name: "Brook Taylor"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/brook_taylor.yaml"
+    focus: [mathematics, art]
 
   - id: maclaurin
     name: "Colin Maclaurin"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/maclaurin.yaml"
+    focus: [mathematics, physics, astronomy]
 
   - id: euler
     name: "Leonhard Euler"
-    status: pending
-    focus: [mathematics, physics]
+    status: described
+    data_file: "people/euler.yaml"
+    focus: [mathematics, physics, astronomy]
 
   - id: dalembert
     name: "Jean le Rond d’Alembert"
-    status: pending
-    focus: [mathematics, physics]
+    status: described
+    data_file: "people/dalembert.yaml"
+    focus: [mathematics, physics, philosophy, literature]
 
   - id: lagrange
     name: "Joseph-Louis Lagrange"
-    status: pending
-    focus: [mathematics, physics]
+    status: described
+    data_file: "people/lagrange.yaml"
+    focus: [mathematics, physics, astronomy]
 
   - id: laplace
     name: "Pierre-Simon Laplace"
-    status: pending
-    focus: [mathematics, physics]
+    status: described
+    data_file: "people/laplace.yaml"
+    focus: [mathematics, physics, astronomy, politics]
 
   - id: monge
     name: "Gaspard Monge"
