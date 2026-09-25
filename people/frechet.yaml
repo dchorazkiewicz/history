@@ -1,0 +1,44 @@
+id: frechet
+name: "Maurice Fréchet"
+display_name: "Maurice Fréchet"
+born:
+  date: "1878-09-02"
+  year: 1878
+  precision: day
+died:
+  date: "1973-06-04"
+  year: 1973
+  precision: day
+place_association: "Maligny; Poitiers; Strasburg; Paryż"
+fields: [mathematics, topology, functional_analysis, probability, statistics, education]
+image: null
+summary: "Francuski matematyk, jeden z pionierów analizy funkcjonalnej i topologii ogólnej. W swojej rozprawie doktorskiej wprowadził pojęcie przestrzeni metrycznej, dając wspólny język dla wielu wcześniej odrębnych problemów."
+summary_original: "French mathematician and a pioneer of functional analysis and general topology. In his doctoral thesis he introduced the concept of a metric space, providing a common language for many previously separate problems."
+works:
+  - title: "O kilku punktach rachunku funkcjonalnego"
+    original_title: "Sur quelques points du calcul fonctionnel"
+    year: 1906
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Przestrzeń metryczna"
+    original_name: "Metric space"
+    wikipedia: "https://en.wikipedia.org/wiki/Metric_space"
+    summary: "Fréchet abstrahował pojęcie odległości od zwykłej przestrzeni geometrycznej i zastosował je do zbiorów funkcji i innych obiektów."
+    summary_original: "Fréchet abstracted the notion of distance from ordinary geometry and applied it to spaces of functions and other objects."
+  - name: "Rachunek funkcjonalny"
+    original_name: "Functional analysis"
+    summary: "Badał funkcje, których argumentami są same funkcje lub bardziej ogólne obiekty, pomagając tworzyć język analizy nieskończeniewymiarowej."
+    summary_original: "He studied functions whose arguments are themselves functions or more general objects, helping create the language of infinite-dimensional analysis."
+events:
+  - year: 1906
+    precision: year
+    title: "Doktorat i wprowadzenie przestrzeni metrycznych"
+    original_title: "Doctorate and introduction of metric spaces"
+    summary: "Rozprawa Frécheta stała się jednym z dokumentów założycielskich nowoczesnej topologii ogólnej."
+    summary_original: "Fréchet's thesis became one of the founding documents of modern general topology."
+sources:
+  - title: "MacTutor — Maurice Fréchet"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Frechet/"
+  - title: "Wikipedia — Maurice Fréchet"
+    url: "https://en.wikipedia.org/wiki/Maurice_Fr%C3%A9chet"
