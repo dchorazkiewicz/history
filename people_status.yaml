@@ -1295,62 +1295,74 @@ people:
 
   - id: abrikosov
     name: "Aleksiej Abrikosow"
-    status: pending
+    status: described
+    data_file: "people/abrikosov.yaml"
     focus: [physics]
 
   - id: yukawa
     name: "Hideki Yukawa"
-    status: pending
+    status: described
+    data_file: "people/yukawa.yaml"
     focus: [physics]
 
   - id: gamow
     name: "George Gamow"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/gamow.yaml"
+    focus: [physics, biology]
 
   - id: friedmann
     name: "Aleksandr Friedmann"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/friedmann.yaml"
+    focus: [physics, mathematics]
 
   - id: lemaitre
     name: "Georges Lemaître"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/lemaitre.yaml"
+    focus: [physics, mathematics, theology]
 
   - id: eddington
     name: "Arthur Eddington"
-    status: pending
+    status: described
+    data_file: "people/eddington.yaml"
     focus: [physics]
 
   - id: chandrasekhar
     name: "Subrahmanyan Chandrasekhar"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/chandrasekhar.yaml"
+    focus: [physics, mathematics]
 
   - id: feynman
     name: "Richard Feynman"
-    status: pending
+    status: described
+    data_file: "people/feynman.yaml"
     focus: [physics]
 
   - id: schwinger
     name: "Julian Schwinger"
-    status: pending
+    status: described
+    data_file: "people/schwinger.yaml"
     focus: [physics]
 
   - id: tomonaga
     name: "Shin’ichirō Tomonaga"
-    status: pending
+    status: described
+    data_file: "people/tomonaga.yaml"
     focus: [physics]
 
   - id: dyson
     name: "Freeman Dyson"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/dyson.yaml"
+    focus: [physics, mathematics]
 
   - id: nambu
     name: "Yoichiro Nambu"
-    status: pending
+    status: described
+    data_file: "people/nambu.yaml"
     focus: [physics]
 
   - id: yang
