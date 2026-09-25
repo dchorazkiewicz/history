@@ -1,0 +1,50 @@
+id: lebesgue
+name: "Henri Lebesgue"
+display_name: "Henri Lebesgue"
+born:
+  date: "1875-06-28"
+  year: 1875
+  precision: day
+died:
+  date: "1941-07-26"
+  year: 1941
+  precision: day
+place_association: "Beauvais; Rennes; Poitiers; Paryż"
+fields: [mathematics, measure_theory, integration, real_analysis, education]
+image: null
+summary: "Francuski matematyk, twórca teorii miary i całki Lebesgue’a. Jego podejście radykalnie rozszerzyło klasę funkcji, które można sensownie całkować, i stało się podstawą współczesnej analizy, probabilistyki i teorii równań."
+summary_original: "French mathematician, creator of Lebesgue measure and integration. His approach radically expanded the class of functions that can be meaningfully integrated and became foundational to modern analysis, probability and differential equations."
+works:
+  - title: "Całka, długość, pole"
+    original_title: "Intégrale, longueur, aire"
+    year: 1902
+    precision: year
+    type: mathematical_treatise
+  - title: "Wykłady o całkowaniu i poszukiwaniu funkcji pierwotnych"
+    original_title: "Leçons sur l'intégration et la recherche des fonctions primitives"
+    year: 1904
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Miara Lebesgue’a"
+    original_name: "Lebesgue measure"
+    wikipedia: "https://en.wikipedia.org/wiki/Lebesgue_measure"
+    summary: "Lebesgue przypisał długość znacznie szerszym klasom zbiorów niż klasyczne przedziały i ich proste kombinacje."
+    summary_original: "Lebesgue assigned length to far broader classes of sets than classical intervals and their simple combinations."
+  - name: "Całka Lebesgue’a"
+    original_name: "Lebesgue integral"
+    wikipedia: "https://en.wikipedia.org/wiki/Lebesgue_integration"
+    summary: "Zamiast dzielić dziedzinę funkcji na małe przedziały, grupował punkty według wartości funkcji, uzyskując potężniejszą teorię całkowania."
+    summary_original: "Instead of partitioning a function's domain into small intervals, he grouped points by function value, obtaining a more powerful integration theory."
+events:
+  - year: 1902
+    precision: year
+    title: "Obrona doktoratu z nową teorią całki"
+    original_title: "Doctoral thesis introducing the new integral"
+    summary: "Praca szybko zmieniła podstawy analizy rzeczywistej."
+    summary_original: "The work rapidly changed the foundations of real analysis."
+sources:
+  - title: "MacTutor — Henri Lebesgue"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Lebesgue/"
+  - title: "Wikipedia — Henri Lebesgue"
+    url: "https://en.wikipedia.org/wiki/Henri_Lebesgue"
