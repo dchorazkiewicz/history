@@ -1,0 +1,90 @@
+id: al_khwarizmi
+name: "Muhammad ibn Musa al-Khwarizmi"
+display_name: "Al-Chwarizmi"
+born:
+  year: 780
+  precision: approximate
+  note: "Data i miejsce urodzenia są niepewne. Przydomek wskazuje na związek rodzinny lub geograficzny z Chorezmem, ale sam uczony działał w Bagdadzie."
+  note_original: "The date and place of birth are uncertain. His nisba indicates a family or geographic association with Khwarazm, but he worked in Baghdad."
+died:
+  year: 850
+  precision: approximate
+  note: "Data przybliżona."
+  note_original: "Approximate date."
+place_association: "Bagdad, Kalifat Abbasydów"
+fields: [mathematics, algebra, arithmetic, astronomy, geography]
+image: null
+summary: "Perski uczony działający w Domu Mądrości w Bagdadzie. Jego traktat o al-dżabr dał nazwę algebrze, a łacińska tradycja jego dzieła arytmetycznego przyczyniła się do powstania słowa „algorytm” i rozpowszechnienia cyfr indoarabskich w Europie."
+summary_original: "Persian scholar working at the House of Wisdom in Baghdad. His treatise on al-jabr gave algebra its name, while the Latin tradition of his arithmetic work contributed to the word 'algorithm' and the spread of Hindu-Arabic numerals in Europe."
+works:
+  - title: "Krótka księga rachunku przez uzupełnianie i równoważenie"
+    original_title: "Al-Kitāb al-mukhtaṣar fī ḥisāb al-jabr wa-l-muqābala"
+    wikipedia: "https://en.wikipedia.org/wiki/The_Compendious_Book_on_Calculation_by_Completion_and_Balancing"
+    year: 820
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Systematyczny traktat o rozwiązywaniu równań liniowych i kwadratowych, pisany retorycznie bez nowoczesnej symboliki."
+    publication_note_original: "A systematic treatise on solving linear and quadratic equations, written rhetorically without modern symbolism."
+  - title: "Księga rachunku cyframi hinduskimi"
+    original_title: "Kitāb al-ḥisāb al-hindī"
+    year: 825
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Arabski oryginał zaginął, ale łacińskie przekłady odegrały wielką rolę w europejskim rozpowszechnieniu systemu pozycyjnego i cyfr indoarabskich."
+    publication_note_original: "The Arabic original is lost, but Latin translations played a major role in spreading positional notation and Hindu-Arabic numerals in Europe."
+  - title: "Tablice astronomiczne"
+    original_title: "Zīj al-Sindhind"
+    year: 820
+    precision: approximate
+    type: astronomical_treatise
+  - title: "Księga obrazu Ziemi"
+    original_title: "Kitāb Ṣūrat al-Arḍ"
+    year: 833
+    precision: approximate
+    type: geography
+    publication_note: "Dzieło geograficzne podające współrzędne tysięcy miejsc i poprawiające część danych Ptolemeusza."
+    publication_note_original: "A geographical work listing coordinates for thousands of places and correcting some of Ptolemy's data."
+ideas:
+  - name: "Al-dżabr i al-mukabala"
+    original_name: "Al-jabr and al-muqabala"
+    summary: "Dwie podstawowe operacje używane do sprowadzania równań do standardowych postaci. Od słowa al-dżabr pochodzi współczesna nazwa „algebra”."
+    summary_original: "Two basic operations used to reduce equations to standard forms. The modern word 'algebra' derives from al-jabr."
+  - name: "Systematyczna teoria równań liniowych i kwadratowych"
+    original_name: "Systematic theory of linear and quadratic equations"
+    summary: "Al-Chwarizmi klasyfikował równania na sześć podstawowych typów i podawał ogólne procedury ich rozwiązywania, uzasadniane geometrycznie."
+    summary_original: "Al-Khwarizmi classified equations into six basic types and gave general procedures for solving them, justified geometrically."
+  - name: "Algorytmiczny rachunek cyframi indoarabskimi"
+    original_name: "Algorithmic computation with Hindu-Arabic numerals"
+    wikipedia: "https://en.wikipedia.org/wiki/Algorithm"
+    summary: "Łacińska forma jego imienia, Algoritmi, stała się źródłem słowa „algorytm”, początkowo związanego z rachunkiem pozycyjnym według jego tradycji."
+    summary_original: "The Latin form of his name, Algoritmi, became the source of the word 'algorithm', initially associated with positional arithmetic in his tradition."
+  - name: "Matematyczna geografia"
+    original_name: "Mathematical geography"
+    summary: "W Księdze obrazu Ziemi zebrał szeroki zestaw długości i szerokości geograficznych, rozwijając i korygując tradycję Ptolemeusza."
+    summary_original: "In the Book of the Description of the Earth he assembled a broad set of longitudes and latitudes, extending and correcting the Ptolemaic tradition."
+events:
+  - year: 810
+    precision: approximate
+    title: "Praca w Domu Mądrości w Bagdadzie"
+    original_title: "Work at the House of Wisdom in Baghdad"
+    summary: "Al-Chwarizmi działał w środowisku uczonych wspieranych przez kalifa al-Mamuna, gdzie tłumaczono i rozwijano wiedzę grecką, indyjską i perską."
+    summary_original: "Al-Khwarizmi worked among scholars supported by Caliph al-Ma'mun, where Greek, Indian and Persian knowledge was translated and developed."
+  - year: 820
+    precision: approximate
+    title: "Powstanie traktatu o algebrze"
+    original_title: "Composition of the algebra treatise"
+    summary: "Około 820 r. powstał traktat, od którego tytułu pochodzi nazwa algebra."
+    summary_original: "Around 820 he composed the treatise whose title gave algebra its name."
+  - year: 833
+    precision: approximate
+    title: "Opracowanie Księgi obrazu Ziemi"
+    original_title: "Composition of the Book of the Description of the Earth"
+    summary: "W ramach działalności w Bagdadzie Al-Chwarizmi opracował zestaw danych geograficznych dla tysięcy miejsc."
+    summary_original: "As part of his scholarly work in Baghdad, Al-Khwarizmi compiled geographical data for thousands of places."
+sources:
+  - title: "MacTutor — Al-Khwarizmi"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/"
+  - title: "MacTutor — Arabic mathematics"
+    url: "https://mathshistory.st-andrews.ac.uk/HistTopics/Arabic_mathematics/"
+  - title: "Wikipedia — Al-Khwarizmi"
+    url: "https://en.wikipedia.org/wiki/Al-Khwarizmi"
