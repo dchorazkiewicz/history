@@ -1,0 +1,52 @@
+id: meitner
+name: "Lise Meitner"
+display_name: "Lise Meitner"
+born:
+  date: "1878-11-07"
+  year: 1878
+  precision: day
+died:
+  date: "1968-10-27"
+  year: 1968
+  precision: day
+place_association: "Wiedeń; Berlin; Sztokholm"
+fields: [physics, nuclear_physics, radioactivity, atomic_physics, experimental_science, theoretical_physics]
+image: null
+summary: "Austriacko-szwedzka fizyczka, pionierka fizyki jądrowej. Współpracowała przez dekady z Otto Hahnem, współodkryła protaktyn i wraz z Ottonem Frischem podała fizyczną interpretację rozszczepienia jądra atomowego."
+summary_original: "Austrian-Swedish physicist and pioneer of nuclear physics. She collaborated for decades with Otto Hahn, co-discovered protactinium, and with Otto Frisch provided the physical interpretation of nuclear fission."
+works:
+  - title: "Rozszczepienie uranu przez neutrony: nowy typ reakcji jądrowej"
+    original_title: "Disintegration of Uranium by Neutrons: a New Type of Nuclear Reaction"
+    year: 1939
+    precision: year
+    type: scientific_treatise
+    publication_note: "Napisane wspólnie z Ottonem Frischem."
+    publication_note_original: "Written with Otto Frisch."
+ideas:
+  - name: "Fizyczne wyjaśnienie rozszczepienia jądrowego"
+    original_name: "Physical explanation of nuclear fission"
+    wikipedia: "https://en.wikipedia.org/wiki/Nuclear_fission"
+    summary: "Meitner i Frisch wyjaśnili wyniki Hahna i Strassmanna jako podział ciężkiego jądra na dwa lżejsze fragmenty i oszacowali uwalnianą energię z E = mc²."
+    summary_original: "Meitner and Frisch interpreted Hahn and Strassmann's results as splitting a heavy nucleus into two lighter fragments and estimated the released energy using E = mc²."
+  - name: "Protaktyn"
+    original_name: "Protactinium"
+    summary: "Meitner i Hahn wyodrębnili długowieczny izotop pierwiastka 91 i ustalili jego miejsce w szeregu promieniotwórczym."
+    summary_original: "Meitner and Hahn isolated a long-lived isotope of element 91 and established its place in radioactive decay series."
+events:
+  - year: 1938
+    precision: year
+    title: "Ucieczka z nazistowskich Niemiec"
+    original_title: "Escape from Nazi Germany"
+    summary: "Po Anschlussie Austrii Meitner, pochodzenia żydowskiego, uciekła do Szwecji."
+    summary_original: "After the Anschluss, Meitner, of Jewish descent, escaped to Sweden."
+  - year: 1939
+    precision: year
+    title: "Interpretacja rozszczepienia jądra"
+    original_title: "Interpretation of nuclear fission"
+    summary: "Meitner i Frisch opublikowali fizyczne wyjaśnienie nowego zjawiska."
+    summary_original: "Meitner and Frisch published the physical explanation of the new phenomenon."
+sources:
+  - title: "Encyclopaedia Britannica — Lise Meitner"
+    url: "https://www.britannica.com/biography/Lise-Meitner"
+  - title: "Atomic Heritage Foundation — Lise Meitner"
+    url: "https://ahf.nuclearmuseum.org/ahf/profile/lise-meitner/"
