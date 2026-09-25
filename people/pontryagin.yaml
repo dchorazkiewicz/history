@@ -1,0 +1,60 @@
+id: pontryagin
+name: "Lev Semenovich Pontryagin"
+display_name: "Lew Pontriagin"
+born:
+  date: "1908-09-03"
+  year: 1908
+  precision: day
+died:
+  date: "1988-05-03"
+  year: 1988
+  precision: day
+place_association: "Moskwa"
+fields: [mathematics, topology, algebraic_topology, control_theory, differential_equations]
+image: null
+summary: "Rosyjski matematyk, który mimo utraty wzroku jako nastolatek stał się jednym z najważniejszych topologów i twórców matematycznej teorii sterowania. Jego nazwisko noszą dualność Pontriagina, klasy charakterystyczne i zasada maksimum."
+summary_original: "Russian mathematician who, despite losing his sight as a teenager, became a major topologist and creator of mathematical control theory. His name is attached to Pontryagin duality, characteristic classes and the maximum principle."
+works:
+  - title: "Grupy ciągłe"
+    original_title: "Continuous Groups"
+    year: 1939
+    precision: year
+    type: mathematical_treatise
+  - title: "Matematyczna teoria procesów optymalnych"
+    original_title: "The Mathematical Theory of Optimal Processes"
+    year: 1962
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Dualność Pontriagina"
+    original_name: "Pontryagin duality"
+    wikipedia: "https://en.wikipedia.org/wiki/Pontryagin_duality"
+    summary: "Lokalnie zwarte abelowe grupy można odtworzyć z grupy ich ciągłych charakterów."
+    summary_original: "Locally compact abelian groups can be recovered from the group of their continuous characters."
+  - name: "Klasy Pontriagina"
+    original_name: "Pontryagin classes"
+    summary: "Charakterystyczne klasy wiązek rzeczywistych stały się ważnym narzędziem topologii różniczkowej."
+    summary_original: "Characteristic classes of real vector bundles became an important tool of differential topology."
+  - name: "Zasada maksimum Pontriagina"
+    original_name: "Pontryagin maximum principle"
+    wikipedia: "https://en.wikipedia.org/wiki/Pontryagin%27s_maximum_principle"
+    summary: "Podstawowa zasada teorii sterowania optymalnego daje warunki konieczne dla optymalnych trajektorii systemów dynamicznych."
+    summary_original: "A foundational principle of optimal control gives necessary conditions for optimal trajectories of dynamical systems."
+events:
+  - year: 1922
+    precision: year
+    title: "Utrata wzroku"
+    original_title: "Loss of sight"
+    summary: "W wyniku wypadku Pontriagin całkowicie stracił wzrok; w dalszej edukacji ogromną rolę odegrała pomoc matki."
+    summary_original: "After an accident Pontryagin became completely blind; his mother's assistance was crucial to his continued education."
+  - year: 1956
+    precision: approximate
+    title: "Rozwój zasady maksimum"
+    original_title: "Development of the maximum principle"
+    summary: "Zespół Pontriagina stworzył jeden z fundamentów nowoczesnej teorii sterowania."
+    summary_original: "Pontryagin's group developed one of the foundations of modern control theory."
+sources:
+  - title: "MacTutor — Lev Pontryagin"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Pontryagin/"
+  - title: "Wikipedia — Lev Pontryagin"
+    url: "https://en.wikipedia.org/wiki/Lev_Pontryagin"
