@@ -1,0 +1,79 @@
+id: tartaglia
+name: "Niccolo Fontana Tartaglia"
+display_name: "Niccolò Tartaglia"
+born:
+  year: 1500
+  precision: approximate
+  note: "MacTutor podaje 1499 lub 1500 r.; na osi przyjmujemy 1500 jako datę orientacyjną."
+  note_original: "MacTutor gives 1499 or 1500; the timeline uses 1500 as an approximate date."
+died:
+  date: "1557-12-13"
+  year: 1557
+  precision: day
+place_association: "Brescia; Werona; Wenecja"
+fields: [mathematics, algebra, arithmetic, geometry, mechanics, ballistics, translation, education]
+image: null
+summary: "Włoski matematyk samouk, nauczyciel i tłumacz. Niezależnie odkrył metodę rozwiązywania pewnego typu równań sześciennych, rozwijał matematykę artylerii i balistyki, publikował podręczniki arytmetyki oraz pierwsze włoskie wydanie Elementów Euklidesa."
+summary_original: "Self-taught Italian mathematician, teacher and translator. He independently discovered a method for solving a type of cubic equation, developed mathematical approaches to artillery and ballistics, published arithmetic textbooks and produced the first Italian edition of Euclid's Elements."
+works:
+  - title: "Nowa nauka"
+    original_title: "Nova Scientia"
+    year: 1537
+    precision: year
+    type: scientific_treatise
+    publication_note: "Dzieło o zastosowaniu matematyki do artylerii, trajektorii pocisków i przyrządów pomiarowych."
+    publication_note_original: "A work applying mathematics to artillery, projectile trajectories and measuring instruments."
+  - title: "Elementy Euklidesa po włosku"
+    original_title: "Euclid's Elements, Italian translation"
+    year: 1543
+    precision: year
+    type: mathematical_treatise
+  - title: "Różne pytania i wynalazki"
+    original_title: "Quesiti et inventioni diverse"
+    year: 1546
+    precision: year
+    type: book
+    publication_note: "Dzieło zawierało m.in. relację Tartaglii o sporze z Cardanem oraz problemy z mechaniki i matematyki."
+    publication_note_original: "The work included Tartaglia's account of his dispute with Cardano as well as problems in mechanics and mathematics."
+  - title: "Ogólny traktat o liczbach i miarach"
+    original_title: "General trattato di numeri et misure"
+    year: 1556
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Rozwiązanie równania sześciennego"
+    original_name: "Solution of the cubic equation"
+    summary: "Tartaglia znalazł metodę rozwiązania typu równania sześciennego i wykorzystał ją w konkursach matematycznych; później przekazał ją Cardanowi pod warunkiem zachowania tajemnicy."
+    summary_original: "Tartaglia found a method for solving a type of cubic equation and used it in mathematical contests; he later disclosed it to Cardano under a pledge of secrecy."
+  - name: "Matematyczna balistyka"
+    original_name: "Mathematical ballistics"
+    summary: "Próbował opisywać lot pocisków geometrycznie i tworzył tablice oraz przyrządy dla artylerzystów, stanowiąc ważne ogniwo między praktyką wojskową a nowożytną mechaniką."
+    summary_original: "He attempted to describe projectile motion geometrically and created tables and instruments for artillery, forming an important link between military practice and early modern mechanics."
+  - name: "Przekład matematyki klasycznej na język narodowy"
+    original_name: "Translation of classical mathematics into the vernacular"
+    summary: "Wydając Euklidesa po włosku, poszerzał dostęp do geometrii poza krąg uczonych posługujących się łaciną."
+    summary_original: "By publishing Euclid in Italian, he broadened access to geometry beyond Latin-reading scholarly circles."
+events:
+  - year: 1512
+    precision: year
+    title: "Rana podczas zdobycia Brescii"
+    original_title: "Wounding during the sack of Brescia"
+    summary: "Jako dziecko został ciężko ranny szablą podczas francuskiego ataku na Brescię; uszkodzenie szczęki i podniebienia wpłynęło na jego mowę i przydomek Tartaglia."
+    summary_original: "As a child he was gravely wounded by a sabre during the French sack of Brescia; damage to his jaw and palate affected his speech and led to the nickname Tartaglia."
+  - year: 1535
+    precision: year
+    title: "Zwycięstwo w konkursie równań sześciennych"
+    original_title: "Victory in a cubic-equation contest"
+    summary: "Tartaglia wykorzystał swoją metodę rozwiązania równań sześciennych w głośnym konkursie przeciw Antonio Fiorowi."
+    summary_original: "Tartaglia used his cubic-solution method in a celebrated contest against Antonio Fior."
+  - year: 1545
+    precision: year
+    title: "Publikacja metody w Ars Magna Cardana"
+    original_title: "Publication of the method in Cardano's Ars Magna"
+    summary: "Cardano opublikował metodę rozwiązania równań sześciennych, przypisując odkrycia del Ferro i Tartaglii; wywołało to wieloletni konflikt."
+    summary_original: "Cardano published methods for cubics, crediting del Ferro and Tartaglia, triggering a long-running dispute."
+sources:
+  - title: "MacTutor — Tartaglia"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Tartaglia/"
+  - title: "MacTutor — Tartaglia and Cardano"
+    url: "https://mathshistory.st-andrews.ac.uk/Strick/tartaglia.pdf"
