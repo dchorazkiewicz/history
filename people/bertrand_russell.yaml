@@ -1,0 +1,67 @@
+id: bertrand_russell
+name: "Bertrand Russell"
+display_name: "Bertrand Russell"
+born:
+  date: "1872-05-18"
+  year: 1872
+  precision: day
+died:
+  date: "1970-02-02"
+  year: 1970
+  precision: day
+place_association: "Trellech; Cambridge; Londyn"
+fields: [logic, mathematics, foundations_of_mathematics, philosophy, philosophy_of_language, public_intellectual, literature]
+image: null
+summary: "Brytyjski filozof, logik i matematyk, jedna z centralnych postaci filozofii analitycznej. Wspólnie z Alfredem N. Whiteheadem stworzył Principia Mathematica, rozwijał logicyzm i teorię typów, a także wywarł ogromny wpływ jako eseista i intelektualista publiczny."
+summary_original: "British philosopher, logician and mathematician, one of the central figures of analytic philosophy. With Alfred North Whitehead he wrote Principia Mathematica, developed logicism and type theory, and had enormous influence as an essayist and public intellectual."
+works:
+  - title: "Zasady matematyki"
+    original_title: "The Principles of Mathematics"
+    year: 1903
+    precision: year
+    type: philosophy
+  - title: "O denotowaniu"
+    original_title: "On Denoting"
+    year: 1905
+    precision: year
+    type: philosophy
+  - title: "Principia Mathematica"
+    original_title: "Principia Mathematica"
+    wikipedia: "https://en.wikipedia.org/wiki/Principia_Mathematica"
+    year: 1910
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Trzy tomy napisane z Alfredem N. Whiteheadem ukazały się w latach 1910–1913."
+    publication_note_original: "Three volumes written with Alfred North Whitehead appeared from 1910 to 1913."
+ideas:
+  - name: "Paradoks Russella"
+    original_name: "Russell's paradox"
+    wikipedia: "https://en.wikipedia.org/wiki/Russell%27s_paradox"
+    summary: "Paradoks zbioru wszystkich zbiorów, które nie zawierają samych siebie, ujawnił sprzeczności naiwnej teorii mnogości."
+    summary_original: "The paradox of the set of all sets that are not members of themselves exposed contradictions in naive set theory."
+  - name: "Teoria typów"
+    original_name: "Type theory"
+    summary: "Russell próbował uniknąć paradoksów przez hierarchiczne rozdzielenie poziomów obiektów i wyrażeń."
+    summary_original: "Russell sought to avoid paradoxes by hierarchically separating levels of objects and expressions."
+  - name: "Teoria deskrypcji"
+    original_name: "Theory of descriptions"
+    summary: "Analiza zdań z opisami określonymi stała się jednym z klasycznych narzędzi filozofii analitycznej."
+    summary_original: "The analysis of sentences containing definite descriptions became a classic tool of analytic philosophy."
+events:
+  - year: 1901
+    precision: year
+    title: "Odkrycie paradoksu Russella"
+    original_title: "Discovery of Russell's paradox"
+    summary: "Sprzeczność podważyła program prostego budowania matematyki na swobodnej teorii zbiorów."
+    summary_original: "The contradiction undermined simple attempts to build mathematics on unrestricted set formation."
+  - year: 1950
+    precision: year
+    title: "Literacka Nagroda Nobla"
+    original_title: "Nobel Prize in Literature"
+    summary: "Russell otrzymał nagrodę za różnorodne i znaczące pisarstwo, w którym bronił humanistycznych ideałów i wolności myśli."
+    summary_original: "Russell received the prize for varied and significant writings championing humanitarian ideals and freedom of thought."
+sources:
+  - title: "Stanford Encyclopedia of Philosophy — Bertrand Russell"
+    url: "https://plato.stanford.edu/entries/russell/"
+  - title: "MacTutor — Bertrand Russell"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Russell/"
