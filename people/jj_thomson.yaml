@@ -1,0 +1,61 @@
+id: jj_thomson
+name: "Joseph John Thomson"
+display_name: "J. J. Thomson"
+born:
+  date: "1856-12-18"
+  year: 1856
+  precision: day
+died:
+  date: "1940-08-30"
+  year: 1940
+  precision: day
+place_association: "Manchester; Cambridge"
+fields: [physics, atomic_physics, electricity, electromagnetism, mass_spectrometry, experimental_science, education]
+image: null
+summary: "Brytyjski fizyk, odkrywca elektronu i wieloletni dyrektor Cavendish Laboratory. Wykazał, że promienie katodowe są strumieniem ujemnie naładowanych cząstek o masie znacznie mniejszej od atomu, podważając przekonanie o niepodzielności atomu."
+summary_original: "British physicist, discoverer of the electron and long-time director of the Cavendish Laboratory. He showed that cathode rays are streams of negatively charged particles far lighter than atoms, overturning the idea of atomic indivisibility."
+works:
+  - title: "Promienie katodowe"
+    original_title: "Cathode Rays"
+    year: 1897
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Odkrycie elektronu"
+    original_name: "Discovery of the electron"
+    wikipedia: "https://en.wikipedia.org/wiki/Electron"
+    summary: "Thomson zmierzył stosunek ładunku do masy składników promieni katodowych i wykazał, że są wspólnymi składnikami materii."
+    summary_original: "Thomson measured the charge-to-mass ratio of cathode-ray particles and showed that they are universal constituents of matter."
+  - name: "Model atomu Thomsona"
+    original_name: "Plum pudding model"
+    wikipedia: "https://en.wikipedia.org/wiki/Plum_pudding_model"
+    summary: "Proponował atom jako dodatnio naładowaną objętość zawierającą ujemne elektrony."
+    summary_original: "He proposed the atom as a positively charged volume containing negative electrons."
+  - name: "Wczesna spektrometria mas"
+    original_name: "Early mass spectrometry"
+    summary: "Badania promieni dodatnich doprowadziły Thomsona do rozróżniania jonów o różnych stosunkach masy do ładunku i obserwacji izotopów neonu."
+    summary_original: "Positive-ray studies led Thomson to separate ions by mass-to-charge ratio and observe neon isotopes."
+events:
+  - year: 1884
+    precision: year
+    title: "Cavendish Professor w Cambridge"
+    original_title: "Cavendish Professor at Cambridge"
+    summary: "Thomson objął kierownictwo laboratorium, z którego wyszło całe pokolenie wybitnych fizyków."
+    summary_original: "Thomson took charge of the laboratory that trained a generation of leading physicists."
+  - year: 1897
+    precision: year
+    title: "Ogłoszenie odkrycia elektronu"
+    original_title: "Announcement of the electron"
+    summary: "Wynik pokazał, że atom ma strukturę wewnętrzną."
+    summary_original: "The result showed that atoms have internal structure."
+  - year: 1906
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Thomson został nagrodzony za badania przewodnictwa elektrycznego w gazach."
+    summary_original: "Thomson was honored for investigations of electrical conduction in gases."
+sources:
+  - title: "Nobel Prize — J. J. Thomson"
+    url: "https://www.nobelprize.org/prizes/physics/1906/thomson/facts/"
+  - title: "Encyclopaedia Britannica — J. J. Thomson"
+    url: "https://www.britannica.com/biography/J-J-Thomson"
