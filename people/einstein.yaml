@@ -1,0 +1,102 @@
+id: einstein
+name: "Albert Einstein"
+display_name: "Albert Einstein"
+born:
+  date: "1879-03-14"
+  year: 1879
+  precision: day
+died:
+  date: "1955-04-18"
+  year: 1955
+  precision: day
+place_association: "Ulm; Berno; Zurych; Praga; Berlin; Princeton"
+fields: [physics, theoretical_physics, relativity, quantum_theory, statistical_mechanics, cosmology, philosophy_of_science]
+image: null
+summary: "Niemiecko-amerykański fizyk teoretyczny, jeden z głównych twórców fizyki XX wieku. Sformułował szczególną i ogólną teorię względności, wyjaśnił efekt fotoelektryczny za pomocą kwantów światła, rozwinął teorię ruchów Browna i wniósł fundamentalny wkład do statystycznych podstaw mechaniki kwantowej."
+summary_original: "German-born American theoretical physicist and one of the principal creators of twentieth-century physics. He formulated special and general relativity, explained the photoelectric effect using light quanta, developed the theory of Brownian motion and made fundamental contributions to the statistical foundations of quantum theory."
+works:
+  - title: "O heurystycznym punkcie widzenia dotyczącym powstawania i przemiany światła"
+    original_title: "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt"
+    year: 1905
+    precision: year
+    type: scientific_treatise
+  - title: "O ruchu cząstek zawieszonych w cieczach spoczywających"
+    original_title: "Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung von in ruhenden Flüssigkeiten suspendierten Teilchen"
+    year: 1905
+    precision: year
+    type: scientific_treatise
+  - title: "O elektrodynamice ciał w ruchu"
+    original_title: "Zur Elektrodynamik bewegter Körper"
+    wikipedia: "https://en.wikipedia.org/wiki/On_the_Electrodynamics_of_Moving_Bodies"
+    year: 1905
+    precision: year
+    type: scientific_treatise
+  - title: "Czy bezwładność ciała zależy od zawartej w nim energii?"
+    original_title: "Ist die Trägheit eines Körpers von seinem Energieinhalt abhängig?"
+    year: 1905
+    precision: year
+    type: scientific_treatise
+  - title: "Podstawy ogólnej teorii względności"
+    original_title: "Die Grundlage der allgemeinen Relativitätstheorie"
+    year: 1916
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Szczególna teoria względności"
+    original_name: "Special relativity"
+    wikipedia: "https://en.wikipedia.org/wiki/Special_relativity"
+    summary: "Einstein oparł fizykę inercjalnych układów odniesienia na zasadzie względności i stałości prędkości światła."
+    summary_original: "Einstein based inertial-frame physics on the relativity principle and constancy of the speed of light."
+  - name: "Równoważność masy i energii"
+    original_name: "Mass–energy equivalence"
+    wikipedia: "https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence"
+    summary: "Relacja E = mc² wyraża równoważność masy i energii."
+    summary_original: "The relation E = mc² expresses the equivalence of mass and energy."
+  - name: "Ogólna teoria względności"
+    original_name: "General relativity"
+    wikipedia: "https://en.wikipedia.org/wiki/General_relativity"
+    summary: "Grawitacja jest opisywana jako geometria zakrzywionej czasoprzestrzeni, której krzywizna zależy od rozkładu energii i pędu."
+    summary_original: "Gravity is described as the geometry of curved spacetime, whose curvature depends on energy and momentum."
+  - name: "Kwanty światła i efekt fotoelektryczny"
+    original_name: "Light quanta and the photoelectric effect"
+    wikipedia: "https://en.wikipedia.org/wiki/Photoelectric_effect"
+    summary: "Einstein zastosował ideę kwantowania energii do samego światła, wyjaśniając zależność energii elektronów od częstotliwości promieniowania."
+    summary_original: "Einstein applied energy quantization to light itself, explaining why electron energy depends on radiation frequency."
+  - name: "Ruch Browna i atomizm"
+    original_name: "Brownian motion and atomism"
+    summary: "Wyprowadził ilościowe przewidywania dla losowego ruchu cząstek zawiesiny, dostarczając mocnego argumentu za realnością atomów."
+    summary_original: "He derived quantitative predictions for suspended-particle motion, providing strong evidence for the physical reality of atoms."
+  - name: "Statystyka Bosego-Einsteina"
+    original_name: "Bose–Einstein statistics"
+    summary: "Einstein rozwinął pracę Satyendry Natha Bosego, przewidując nowe własności gazu nierozróżnialnych cząstek, w tym kondensację Bosego-Einsteina."
+    summary_original: "Einstein extended Satyendra Nath Bose's work, predicting new properties of indistinguishable-particle gases including Bose–Einstein condensation."
+events:
+  - year: 1905
+    precision: year
+    title: "Annus mirabilis"
+    original_title: "Annus mirabilis"
+    summary: "Einstein opublikował przełomowe prace o kwantach światła, ruchach Browna, szczególnej względności i równoważności masy z energią."
+    summary_original: "Einstein published breakthrough papers on light quanta, Brownian motion, special relativity and mass–energy equivalence."
+  - year: 1915
+    precision: year
+    title: "Równania ogólnej teorii względności"
+    original_title: "Field equations of general relativity"
+    summary: "W listopadzie Einstein przedstawił finalną postać równań pola grawitacyjnego."
+    summary_original: "In November Einstein presented the final form of the gravitational field equations."
+  - year: 1919
+    precision: year
+    title: "Obserwacje zaćmienia i światowa sława"
+    original_title: "Eclipse observations and international fame"
+    summary: "Pomiar odchylenia światła gwiazd podczas zaćmienia był zgodny z przewidywaniami ogólnej teorii względności w granicach ówczesnej dokładności."
+    summary_original: "Measurements of starlight deflection during an eclipse were consistent with general relativity within the accuracy available at the time."
+  - year: 1921
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Einstein otrzymał nagrodę przede wszystkim za wyjaśnienie prawa efektu fotoelektrycznego."
+    summary_original: "Einstein received the prize primarily for explaining the law of the photoelectric effect."
+sources:
+  - title: "Nobel Prize — Albert Einstein"
+    url: "https://www.nobelprize.org/prizes/physics/1921/einstein/facts/"
+  - title: "Einstein Papers Project"
+    url: "https://einsteinpapers.press.princeton.edu/"
