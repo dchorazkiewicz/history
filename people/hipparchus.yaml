@@ -1,0 +1,66 @@
+id: hipparchus
+name: "Hipparchus"
+display_name: "Hipparch"
+born:
+  year: -190
+  precision: approximate
+  note: "Data przybliżona."
+  note_original: "Approximate date."
+died:
+  year: -120
+  precision: approximate
+  note: "Data przybliżona; działalność obserwacyjna jest poświadczona głównie dla II w. p.n.e."
+  note_original: "Approximate date; his observational activity is mainly attested for the second century BCE."
+place_association: "Nikea; Rodos"
+fields: [mathematics, astronomy, geography]
+image: null
+summary: "Grecki astronom i matematyk, którego prace nad tablicą cięciw stanowią najwcześniej dobrze poświadczony systematyczny etap rozwoju trygonometrii. Odkrył precesję równonocy i rozwijał ilościowe metody astronomii obserwacyjnej."
+summary_original: "Greek astronomer and mathematician whose work on a chord table is the earliest well-attested systematic stage in the development of trigonometry. He discovered the precession of the equinoxes and advanced quantitative observational astronomy."
+works:
+  - title: "Komentarz do Zjawisk Eudoksosa i Aratosa"
+    original_title: "Commentary on the Phaenomena of Eudoxus and Aratus"
+    year: -130
+    precision: approximate
+    type: astronomical_treatise
+    publication_note: "Jedyna praca Hipparcha zachowana w całości; krytyczny komentarz astronomiczny."
+    publication_note_original: "The only work of Hipparchus preserved substantially complete; a critical astronomical commentary."
+  - title: "Tablica cięciw"
+    original_title: "Table of chords"
+    year: -140
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Dzieło nie zachowało się; jego istnienie i charakter znamy z późniejszych źródeł."
+    publication_note_original: "The work does not survive; its existence and character are known from later sources."
+ideas:
+  - name: "Tablica cięciw i początki trygonometrii"
+    original_name: "Chord table and early trigonometry"
+    links:
+      - title: "MacTutor — historia funkcji trygonometrycznych"
+        url: "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/"
+    summary: "Hipparch sporządził tablicę długości cięciw odpowiadających kątom w okręgu. Pozwalała ona systematycznie rozwiązywać problemy astronomiczne odpowiadające późniejszej trygonometrii."
+    summary_original: "Hipparchus compiled a table of chord lengths corresponding to angles in a circle, enabling systematic solutions to astronomical problems later expressed trigonometrically."
+  - name: "Precesja równonocy"
+    original_name: "Precession of the equinoxes"
+    wikipedia: "https://en.wikipedia.org/wiki/Axial_precession"
+    summary: "Porównując własne obserwacje z wcześniejszymi danymi, Hipparch rozpoznał powolną zmianę położenia punktów równonocy względem gwiazd."
+    summary_original: "By comparing his observations with earlier data, Hipparchus recognized the slow shift of the equinoctial points relative to the stars."
+events:
+  - year: -140
+    precision: approximate
+    title: "Opracowanie tablicy cięciw"
+    original_title: "Compilation of a chord table"
+    summary: "Około połowy II w. p.n.e. Hipparch stworzył narzędzie obliczeniowe uznawane za jeden z początków systematycznej trygonometrii."
+    summary_original: "Around the mid-second century BCE Hipparchus created a computational tool regarded as one of the beginnings of systematic trigonometry."
+  - year: -130
+    precision: approximate
+    title: "Rozpoznanie precesji równonocy"
+    original_title: "Recognition of precession"
+    summary: "Analiza porównawcza obserwacji doprowadziła Hipparcha do rozpoznania precesji równonocy."
+    summary_original: "Comparative analysis of observations led Hipparchus to recognize precession."
+sources:
+  - title: "MacTutor — Hipparchus"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Hipparchus/"
+  - title: "MacTutor — Trigonometric functions"
+    url: "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/"
+  - title: "Wikipedia — Hipparchus"
+    url: "https://en.wikipedia.org/wiki/Hipparchus"
