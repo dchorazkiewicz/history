@@ -1,0 +1,71 @@
+id: von_neumann
+name: "John von Neumann"
+display_name: "John von Neumann"
+born:
+  date: "1903-12-28"
+  year: 1903
+  precision: day
+died:
+  date: "1957-02-08"
+  year: 1957
+  precision: day
+place_association: "Budapeszt; Berlin; Princeton; Los Alamos"
+fields: [mathematics, functional_analysis, operator_algebras, set_theory, logic, quantum_mechanics, physics, computer_science, game_theory, economics, numerical_analysis, nuclear_physics]
+image: null
+summary: "Węgiersko-amerykański matematyk i polimat, jeden z najważniejszych uczonych XX wieku. Wniósł fundamentalny wkład do podstaw mechaniki kwantowej, analizy funkcjonalnej, teorii operatorów, teorii gier, architektury komputerów, metod numerycznych i badań nad bronią jądrową."
+summary_original: "Hungarian-American mathematician and polymath, one of the most important scientists of the twentieth century. He made fundamental contributions to quantum mechanics, functional analysis, operator theory, game theory, computer architecture, numerical methods and nuclear-weapons research."
+works:
+  - title: "Matematyczne podstawy mechaniki kwantowej"
+    original_title: "Mathematische Grundlagen der Quantenmechanik"
+    year: 1932
+    precision: year
+    type: scientific_treatise
+  - title: "Teoria gier i zachowań ekonomicznych"
+    original_title: "Theory of Games and Economic Behavior"
+    wikipedia: "https://en.wikipedia.org/wiki/Theory_of_Games_and_Economic_Behavior"
+    year: 1944
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Napisane wspólnie z Oskarem Morgensternem."
+    publication_note_original: "Written with Oskar Morgenstern."
+  - title: "Pierwszy szkic raportu o EDVAC"
+    original_title: "First Draft of a Report on the EDVAC"
+    year: 1945
+    precision: year
+    type: technical_report
+ideas:
+  - name: "Architektura von Neumanna"
+    original_name: "Von Neumann architecture"
+    wikipedia: "https://en.wikipedia.org/wiki/Von_Neumann_architecture"
+    summary: "Program i dane są przechowywane w tej samej pamięci, a procesor wykonuje instrukcje kolejno odczytywane z pamięci."
+    summary_original: "Programs and data are stored in the same memory, with the processor executing instructions fetched from memory."
+  - name: "Teoria gier"
+    original_name: "Game theory"
+    summary: "Von Neumann stworzył matematyczną teorię strategii w konfliktach i konkurencji, obejmującą m.in. twierdzenie minimax."
+    summary_original: "Von Neumann created a mathematical theory of strategy in conflict and competition, including the minimax theorem."
+  - name: "Algebry operatorów"
+    original_name: "Operator algebras"
+    summary: "Rozwijał teorię operatorów w przestrzeniach Hilberta i struktury dziś nazywane algebrami von Neumanna."
+    summary_original: "He developed operator theory on Hilbert spaces and structures now called von Neumann algebras."
+  - name: "Matematyczne podstawy mechaniki kwantowej"
+    original_name: "Mathematical foundations of quantum mechanics"
+    summary: "Ujął mechanikę kwantową w rygorystycznym formalizmie przestrzeni Hilberta i operatorów."
+    summary_original: "He formulated quantum mechanics rigorously in terms of Hilbert spaces and operators."
+events:
+  - year: 1930
+    precision: year
+    title: "Przeniesienie do Princeton"
+    original_title: "Move to Princeton"
+    summary: "Von Neumann rozpoczął pracę w Stanach Zjednoczonych i później został jednym z pierwszych profesorów Institute for Advanced Study."
+    summary_original: "Von Neumann began work in the United States and later became one of the first professors at the Institute for Advanced Study."
+  - year: 1943
+    precision: year
+    title: "Praca przy Projekcie Manhattan"
+    original_title: "Work on the Manhattan Project"
+    summary: "W Los Alamos zajmował się m.in. hydrodynamiką fal uderzeniowych, obliczeniami i projektowaniem implozji."
+    summary_original: "At Los Alamos he worked on shock-wave hydrodynamics, computation and implosion design."
+sources:
+  - title: "MacTutor — John von Neumann"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/"
+  - title: "Wikipedia — John von Neumann"
+    url: "https://en.wikipedia.org/wiki/John_von_Neumann"
