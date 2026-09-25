@@ -1,0 +1,66 @@
+id: boltzmann
+name: "Ludwig Boltzmann"
+display_name: "Ludwig Boltzmann"
+born:
+  date: "1844-02-20"
+  year: 1844
+  precision: day
+died:
+  date: "1906-09-05"
+  year: 1906
+  precision: day
+place_association: "Wiedeń; Graz; Monachium; Lipsk"
+fields: [physics, statistical_mechanics, thermodynamics, kinetic_theory, mathematics, philosophy_of_science]
+image: null
+summary: "Austriacki fizyk, jeden z twórców mechaniki statystycznej. Połączył makroskopową termodynamikę z mikroskopowym ruchem atomów i cząsteczek, nadając entropii interpretację probabilistyczną."
+summary_original: "Austrian physicist and a founder of statistical mechanics. He connected macroscopic thermodynamics with microscopic atomic and molecular motion and gave entropy a probabilistic interpretation."
+works:
+  - title: "Dalsze studia nad równowagą termiczną między cząsteczkami gazu"
+    original_title: "Weitere Studien über das Wärmegleichgewicht unter Gasmolekülen"
+    year: 1872
+    precision: year
+    type: scientific_treatise
+  - title: "Wykłady z teorii gazów"
+    original_title: "Vorlesungen über Gastheorie"
+    year: 1896
+    precision: year
+    type: scientific_treatise
+    publication_note: "Dwa tomy ukazały się w 1896 i 1898 r."
+    publication_note_original: "Two volumes appeared in 1896 and 1898."
+ideas:
+  - name: "Rozkład Maxwella-Boltzmanna"
+    original_name: "Maxwell–Boltzmann distribution"
+    summary: "Boltzmann rozwinął statystyczny opis rozkładu energii i prędkości cząstek klasycznego gazu."
+    summary_original: "Boltzmann developed the statistical description of energy and velocity distributions in a classical gas."
+  - name: "Równanie Boltzmanna"
+    original_name: "Boltzmann equation"
+    wikipedia: "https://en.wikipedia.org/wiki/Boltzmann_equation"
+    summary: "Równanie opisuje ewolucję funkcji rozkładu cząstek gazu pod wpływem ruchu i zderzeń."
+    summary_original: "The equation describes evolution of a gas particle distribution under motion and collisions."
+  - name: "Twierdzenie H"
+    original_name: "H-theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/H-theorem"
+    summary: "Boltzmann próbował wyprowadzić kierunek wzrostu entropii z kinetycznej teorii gazów i statystycznego charakteru zderzeń."
+    summary_original: "Boltzmann sought to derive entropy increase from gas kinetics and the statistical character of collisions."
+  - name: "Entropia jako logarytm liczby mikrostanów"
+    original_name: "Entropy and multiplicity"
+    summary: "Relacja S = k log W wyraża związek między entropią a liczbą mikroskopowych konfiguracji odpowiadających makrostanowi."
+    summary_original: "The relation S = k log W connects entropy with the number of microscopic configurations corresponding to a macrostate."
+events:
+  - year: 1869
+    precision: year
+    title: "Profesor fizyki matematycznej w Graz"
+    original_title: "Professor of mathematical physics at Graz"
+    summary: "Rozpoczął okres intensywnych prac nad teorią kinetyczną i termodynamiką."
+    summary_original: "He began an intensive period of work on kinetic theory and thermodynamics."
+  - year: 1902
+    precision: year
+    title: "Powrót na Uniwersytet Wiedeński"
+    original_title: "Return to the University of Vienna"
+    summary: "Boltzmann prowadził zarówno wykłady fizyczne, jak i bardzo popularne wykłady z filozofii nauki."
+    summary_original: "Boltzmann taught physics and also highly popular lectures on philosophy of science."
+sources:
+  - title: "MacTutor — Ludwig Boltzmann"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Boltzmann/"
+  - title: "Encyclopaedia Britannica — Ludwig Boltzmann"
+    url: "https://www.britannica.com/biography/Ludwig-Boltzmann"
