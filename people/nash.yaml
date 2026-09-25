@@ -1,0 +1,60 @@
+id: nash
+name: "John Forbes Nash Jr."
+display_name: "John Nash"
+born:
+  date: "1928-06-13"
+  year: 1928
+  precision: day
+died:
+  date: "2015-05-23"
+  year: 2015
+  precision: day
+place_association: "Bluefield; Princeton; Cambridge, Massachusetts"
+fields: [mathematics, game_theory, economics, differential_geometry, partial_differential_equations]
+image: null
+summary: "Amerykański matematyk, którego prace zmieniły teorię gier, geometrię różniczkową i teorię równań różniczkowych cząstkowych. Pojęcie równowagi Nasha stało się podstawą nowoczesnej mikroekonomii i nauk o strategii."
+summary_original: "American mathematician whose work transformed game theory, differential geometry and partial differential equations. The Nash equilibrium became foundational to modern microeconomics and strategic science."
+works:
+  - title: "Gry niekooperacyjne"
+    original_title: "Non-Cooperative Games"
+    year: 1951
+    precision: year
+    type: mathematical_treatise
+  - title: "Problem zanurzenia rozmaitości riemannowskich"
+    original_title: "The Imbedding Problem for Riemannian Manifolds"
+    year: 1956
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Równowaga Nasha"
+    original_name: "Nash equilibrium"
+    wikipedia: "https://en.wikipedia.org/wiki/Nash_equilibrium"
+    summary: "Profil strategii jest równowagą, gdy żaden gracz nie może jednostronnie poprawić swojego wyniku."
+    summary_original: "A strategy profile is an equilibrium when no player can improve their outcome by deviating unilaterally."
+  - name: "Twierdzenie Nasha o zanurzeniu"
+    original_name: "Nash embedding theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Nash_embedding_theorem"
+    summary: "Każdą rozmaitość riemannowską można izometrycznie zanurzyć w odpowiednio wysokowymiarowej przestrzeni euklidesowej."
+    summary_original: "Every Riemannian manifold can be isometrically embedded in a sufficiently high-dimensional Euclidean space."
+  - name: "Regularność równań eliptycznych"
+    original_name: "De Giorgi–Nash theorem"
+    summary: "Nash niezależnie uzyskał kluczowe wyniki o regularności rozwiązań eliptycznych równań różniczkowych."
+    summary_original: "Nash independently obtained key regularity results for elliptic partial differential equations."
+events:
+  - year: 1994
+    precision: year
+    title: "Nagroda Nobla w dziedzinie ekonomii"
+    original_title: "Nobel Memorial Prize in Economic Sciences"
+    summary: "Nash został współlaureatem za pionierską analizę równowag w teorii gier niekooperacyjnych."
+    summary_original: "Nash shared the prize for pioneering analysis of equilibria in non-cooperative games."
+  - year: 2015
+    precision: year
+    title: "Nagroda Abela"
+    original_title: "Abel Prize"
+    summary: "Wspólnie z Louisem Nirenbergiem otrzymał Nagrodę Abela za wkład do nieliniowych równań różniczkowych cząstkowych i geometrii."
+    summary_original: "With Louis Nirenberg he received the Abel Prize for contributions to nonlinear partial differential equations and geometric analysis."
+sources:
+  - title: "MacTutor — John Nash"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Nash/"
+  - title: "Nobel Prize — John F. Nash Jr."
+    url: "https://www.nobelprize.org/prizes/economic-sciences/1994/nash/facts/"
