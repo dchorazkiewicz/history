@@ -91,42 +91,50 @@ people:
 
   - id: thales
     name: "Tales z Miletu"
-    status: pending
+    status: described
+    data_file: "people/thales.yaml"
     focus: [mathematics]
 
   - id: pythagoras
     name: "Pitagoras"
-    status: pending
+    status: described
+    data_file: "people/pythagoras.yaml"
     focus: [mathematics]
 
   - id: eudoxus
     name: "Eudoksos z Knidos"
-    status: pending
+    status: described
+    data_file: "people/eudoxus.yaml"
     focus: [mathematics]
 
   - id: euclid
     name: "Euklides"
-    status: pending
+    status: described
+    data_file: "people/euclid.yaml"
     focus: [mathematics]
 
   - id: apollonius
     name: "Apoloniusz z Pergi"
-    status: pending
+    status: described
+    data_file: "people/apollonius.yaml"
     focus: [mathematics]
 
   - id: eratosthenes
     name: "Eratostenes"
-    status: pending
+    status: described
+    data_file: "people/eratosthenes.yaml"
     focus: [mathematics]
 
   - id: hipparchus
     name: "Hipparch"
-    status: pending
+    status: described
+    data_file: "people/hipparchus.yaml"
     focus: [mathematics]
 
   - id: hero
     name: "Heron z Aleksandrii"
-    status: pending
+    status: described
+    data_file: "people/hero.yaml"
     focus: [mathematics]
 
   - id: diophantus
