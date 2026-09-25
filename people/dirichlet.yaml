@@ -1,0 +1,72 @@
+id: dirichlet
+name: "Peter Gustav Lejeune Dirichlet"
+display_name: "Peter Gustav Lejeune Dirichlet"
+born:
+  date: "1805-02-13"
+  year: 1805
+  precision: day
+died:
+  date: "1859-05-05"
+  year: 1859
+  precision: day
+place_association: "Düren; Berlin; Getynga"
+fields: [mathematics, number_theory, analysis, differential_equations, potential_theory, education]
+image: null
+summary: "Niemiecki matematyk, jeden z głównych twórców nowoczesnej analitycznej teorii liczb. Łączył szeregi i analizę z badaniem liczb pierwszych, wprowadził funkcje L Dirichleta, rozwijał teorię potencjału i odegrał ważną rolę w nowoczesnym pojęciu funkcji."
+summary_original: "German mathematician and one of the principal creators of modern analytic number theory. He combined series and analysis with the study of primes, introduced Dirichlet L-functions, advanced potential theory and played an important role in the modern concept of function."
+works:
+  - title: "O postępach arytmetycznych"
+    original_title: "Beweis des Satzes, dass jede unbegrenzte arithmetische Progression ... unendlich viele Primzahlen enthält"
+    year: 1837
+    precision: year
+    type: mathematical_essay
+  - title: "Wykłady z teorii liczb"
+    original_title: "Vorlesungen über Zahlentheorie"
+    year: 1863
+    precision: year
+    type: mathematical_treatise
+    posthumous: true
+    publication_note: "Wykłady Dirichleta zostały opracowane i wydane pośmiertnie przez Richarda Dedekinda."
+    publication_note_original: "Dirichlet's lectures were edited and published posthumously by Richard Dedekind."
+ideas:
+  - name: "Twierdzenie Dirichleta o liczbach pierwszych w postępie arytmetycznym"
+    original_name: "Dirichlet theorem on primes in arithmetic progressions"
+    wikipedia: "https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions"
+    summary: "Każdy postęp arytmetyczny o względnie pierwszym wyrazie początkowym i różnicy zawiera nieskończenie wiele liczb pierwszych."
+    summary_original: "Every arithmetic progression with coprime initial term and difference contains infinitely many primes."
+  - name: "Funkcje L Dirichleta"
+    original_name: "Dirichlet L-functions"
+    summary: "W dowodzie twierdzenia o postępach Dirichlet wprowadził szeregi zależne od charakterów, tworząc fundament analitycznej teorii liczb."
+    summary_original: "In proving his theorem Dirichlet introduced series associated with characters, founding analytic number theory."
+  - name: "Warunki Dirichleta"
+    original_name: "Dirichlet conditions"
+    summary: "Badał warunki, przy których rozwinięcia Fouriera zbiegają do funkcji, pomagając uporządkować teorię szeregów trygonometrycznych."
+    summary_original: "He studied conditions under which Fourier expansions converge to a function, helping clarify trigonometric series."
+  - name: "Zasada Dirichleta"
+    original_name: "Dirichlet principle"
+    summary: "Łączył problemy potencjału z minimalizacją odpowiednich całek energii, tworząc ważny pomost między analizą i fizyką matematyczną."
+    summary_original: "He connected potential problems with minimizing suitable energy integrals, creating an important bridge between analysis and mathematical physics."
+events:
+  - year: 1825
+    precision: year
+    title: "Dowód przypadku n=5 wielkiego twierdzenia Fermata"
+    original_title: "Proof of the n=5 case of Fermat's Last Theorem"
+    summary: "Dirichlet i Legendre niezależnie i uzupełniająco doprowadzili do dowodu przypadku wykładnika piątego."
+    summary_original: "Dirichlet and Legendre independently and complementarily established the exponent-five case."
+  - year: 1828
+    precision: year
+    title: "Profesor w Berlinie"
+    original_title: "Professor in Berlin"
+    summary: "Dirichlet rozpoczął wieloletnią działalność dydaktyczną i badawczą w Berlinie."
+    summary_original: "Dirichlet began a long teaching and research career in Berlin."
+  - year: 1855
+    precision: year
+    title: "Następca Gaussa w Getyndze"
+    original_title: "Successor to Gauss at Göttingen"
+    summary: "Po śmierci Gaussa Dirichlet objął jego katedrę."
+    summary_original: "After Gauss's death Dirichlet took his chair."
+sources:
+  - title: "MacTutor — Dirichlet"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Dirichlet/"
+  - title: "Wikipedia — Peter Gustav Lejeune Dirichlet"
+    url: "https://en.wikipedia.org/wiki/Peter_Gustav_Lejeune_Dirichlet"
