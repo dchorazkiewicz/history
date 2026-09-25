@@ -1,0 +1,48 @@
+id: dyson
+name: "Freeman John Dyson"
+display_name: "Freeman Dyson"
+born:
+  date: "1923-12-15"
+  year: 1923
+  precision: day
+died:
+  date: "2020-02-28"
+  year: 2020
+  precision: day
+place_association: "Crowthorne; Cambridge; Ithaca; Princeton"
+fields: [physics, mathematics, quantum_electrodynamics, quantum_field_theory, condensed_matter_physics, astrophysics, public_intellectual]
+image: null
+summary: "Brytyjsko-amerykański fizyk matematyczny, który wykazał równoważność sformułowań QED Feynmana, Schwingera i Tomonagi oraz nadał diagramom Feynmana systematyczny status rachunkowy. Pracował też nad materią skondensowaną, astrofizyką i energetyką jądrową."
+summary_original: "British-American mathematical physicist who demonstrated the equivalence of Feynman's, Schwinger's and Tomonaga's formulations of QED and systematized Feynman-diagram calculations. He also worked on condensed matter, astrophysics and nuclear technology."
+works:
+  - title: "Teorie promieniowania Tomonagi, Schwingera i Feynmana"
+    original_title: "The Radiation Theories of Tomonaga, Schwinger, and Feynman"
+    year: 1949
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Synteza elektrodynamiki kwantowej"
+    original_name: "Synthesis of quantum electrodynamics"
+    summary: "Dyson pokazał, że pozornie odmienne formalizmy QED są matematycznie równoważne i uporządkował teorię perturbacji."
+    summary_original: "Dyson showed that apparently different QED formalisms are mathematically equivalent and organized perturbation theory."
+  - name: "Szereg Dysona"
+    original_name: "Dyson series"
+    wikipedia: "https://en.wikipedia.org/wiki/Dyson_series"
+    summary: "Rozwinięcie operatora ewolucji w szeregu czasowo uporządkowanych całek jest podstawowym narzędziem teorii perturbacji."
+    summary_original: "The time-ordered expansion of the evolution operator is a basic tool of perturbation theory."
+  - name: "Sfera Dysona"
+    original_name: "Dyson sphere"
+    summary: "W rozważaniach astrofizycznych opisał hipotetyczne struktury wykorzystujące dużą część energii gwiazdy jako potencjalną sygnaturę zaawansowanej cywilizacji."
+    summary_original: "In astrophysical speculation he described structures capturing a large fraction of a star's energy as a possible signature of an advanced civilization."
+events:
+  - year: 1949
+    precision: year
+    title: "Synteza różnych postaci QED"
+    original_title: "Unification of QED formulations"
+    summary: "Prace Dysona pozwoliły fizykom używać najbardziej praktycznych elementów formalizmów Feynmana i operatorowych metod QED."
+    summary_original: "Dyson's work allowed physicists to combine practical elements of Feynman's formulation with operator methods."
+sources:
+  - title: "Institute for Advanced Study — Freeman Dyson"
+    url: "https://www.ias.edu/scholars/freeman-j-dyson"
+  - title: "Encyclopaedia Britannica — Freeman Dyson"
+    url: "https://www.britannica.com/biography/Freeman-Dyson"
