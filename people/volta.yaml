@@ -1,0 +1,54 @@
+id: volta
+name: "Alessandro Volta"
+display_name: "Alessandro Volta"
+born:
+  date: "1745-02-18"
+  year: 1745
+  precision: day
+died:
+  date: "1827-03-05"
+  year: 1827
+  precision: day
+place_association: "Como; Pawia, Włochy"
+fields: [physics, electricity, chemistry, experimental_science, engineering]
+image: null
+summary: "Włoski fizyk, twórca pierwszego praktycznego źródła ciągłego prądu elektrycznego — stosu Volty. Jego spór z Galvanim o źródło skurczów mięśni doprowadził do rozwoju elektrochemii i badań nad napięciem kontaktowym."
+summary_original: "Italian physicist and creator of the first practical continuous source of electric current, the voltaic pile. His dispute with Galvani over muscular contractions led to the development of electrochemistry and studies of contact potential."
+works:
+  - title: "O elektryczności wzbudzanej przez prosty kontakt substancji przewodzących różnych rodzajów"
+    original_title: "On the Electricity Excited by the Mere Contact of Conducting Substances of Different Kinds"
+    year: 1800
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Stos Volty"
+    original_name: "Voltaic pile"
+    wikipedia: "https://en.wikipedia.org/wiki/Voltaic_pile"
+    summary: "Naprzemienne warstwy dwóch metali oddzielone elektrolitem tworzyły pierwszą baterię zdolną dostarczać względnie stały prąd."
+    summary_original: "Alternating layers of two metals separated by electrolyte formed the first battery capable of supplying a relatively steady current."
+  - name: "Napięcie kontaktowe"
+    original_name: "Contact potential"
+    summary: "Volta argumentował, że kontakt różnych metali może wytwarzać różnicę potencjałów, sprzeciwiając się części interpretacji Galvaniego."
+    summary_original: "Volta argued that contact between different metals could produce a potential difference, challenging part of Galvani's interpretation."
+  - name: "Początki elektrochemii"
+    original_name: "Origins of electrochemistry"
+    summary: "Stos Volty dostarczył ciągłego źródła prądu, które natychmiast umożliwiło nowe doświadczenia chemiczne i elektryczne."
+    summary_original: "The voltaic pile provided a continuous current source that immediately enabled new chemical and electrical experiments."
+events:
+  - year: 1778
+    precision: year
+    title: "Profesor fizyki eksperymentalnej w Pawii"
+    original_title: "Professor of experimental physics at Pavia"
+    summary: "Volta objął katedrę, na której prowadził badania elektryczne przez wiele lat."
+    summary_original: "Volta took the chair where he pursued electrical research for many years."
+  - year: 1800
+    precision: year
+    title: "Ogłoszenie stosu Volty"
+    original_title: "Announcement of the voltaic pile"
+    summary: "W liście do Royal Society Volta opisał nowe źródło ciągłego prądu elektrycznego."
+    summary_original: "In a letter to the Royal Society, Volta described the new continuous source of electric current."
+sources:
+  - title: "Encyclopaedia Britannica — Alessandro Volta"
+    url: "https://www.britannica.com/biography/Alessandro-Volta"
+  - title: "Wikipedia — Alessandro Volta"
+    url: "https://en.wikipedia.org/wiki/Alessandro_Volta"
