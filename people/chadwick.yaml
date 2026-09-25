@@ -1,0 +1,50 @@
+id: chadwick
+name: "James Chadwick"
+display_name: "James Chadwick"
+born:
+  date: "1891-10-20"
+  year: 1891
+  precision: day
+died:
+  date: "1974-07-24"
+  year: 1974
+  precision: day
+place_association: "Bollington; Manchester; Cambridge; Liverpool"
+fields: [physics, nuclear_physics, atomic_physics, experimental_science]
+image: null
+summary: "Brytyjski fizyk, odkrywca neutronu. Jego wynik z 1932 r. wyjaśnił brakującą masę jąder i otworzył drogę do nowej generacji eksperymentów jądrowych."
+summary_original: "British physicist who discovered the neutron. His 1932 result explained missing nuclear mass and opened a new generation of nuclear experiments."
+works:
+  - title: "Możliwe istnienie neutronu"
+    original_title: "Possible Existence of a Neutron"
+    year: 1932
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Neutron"
+    original_name: "Neutron"
+    wikipedia: "https://en.wikipedia.org/wiki/Neutron"
+    summary: "Chadwick wykazał istnienie neutralnej cząstki o masie zbliżonej do protonu jako składnika jądra atomowego."
+    summary_original: "Chadwick demonstrated a neutral particle with mass close to the proton as a constituent of the atomic nucleus."
+  - name: "Neutron jako sonda jądrowa"
+    original_name: "Neutron as a nuclear probe"
+    summary: "Brak ładunku elektrycznego pozwala neutronom łatwiej przenikać do jąder niż naładowanym cząstkom."
+    summary_original: "Because neutrons carry no electric charge, they can penetrate nuclei more readily than charged particles."
+events:
+  - year: 1932
+    precision: year
+    title: "Odkrycie neutronu"
+    original_title: "Discovery of the neutron"
+    summary: "Chadwick zinterpretował przenikliwe promieniowanie z bombardowanego berylu jako strumień neutralnych cząstek."
+    summary_original: "Chadwick interpreted penetrating radiation from bombarded beryllium as a stream of neutral particles."
+  - year: 1935
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Nagrodzono go za odkrycie neutronu."
+    summary_original: "He was honored for discovering the neutron."
+sources:
+  - title: "Nobel Prize — James Chadwick"
+    url: "https://www.nobelprize.org/prizes/physics/1935/chadwick/facts/"
+  - title: "Encyclopaedia Britannica — James Chadwick"
+    url: "https://www.britannica.com/biography/James-Chadwick"
