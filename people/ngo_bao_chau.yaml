@@ -1,0 +1,47 @@
+id: ngo_bao_chau
+name: "Ngo Bao Chau"
+display_name: "Ngô Bảo Châu"
+born:
+  date: "1972-06-28"
+  year: 1972
+  precision: day
+died: null
+place_association: "Hanoi; Paryż; Orsay; Chicago"
+fields: [mathematics, number_theory, algebraic_geometry, representation_theory, automorphic_forms, langlands_program]
+image: null
+summary: "Wietnamsko-francuski matematyk, który udowodnił fundamentalny lemat programu Langlandsa, używając nowych metod geometrii algebraicznej i fibracji Hitchina. Wynik usunął wieloletnią przeszkodę w teorii form automorficznych."
+summary_original: "Vietnamese-French mathematician who proved the fundamental lemma of the Langlands program using new algebraic-geometric methods and the Hitchin fibration. The result removed a decades-long obstacle in the theory of automorphic forms."
+works:
+  - title: "Fundamentalny lemat dla algebr Liego"
+    original_title: "Le lemme fondamental pour les algèbres de Lie"
+    year: 2010
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Dowód fundamentalnego lematu"
+    original_name: "Proof of the fundamental lemma"
+    wikipedia: "https://en.wikipedia.org/wiki/Fundamental_lemma_(Langlands_program)"
+    summary: "Ngô przełożył trudną tożsamość orbitalnych całek na geometrię fibracji Hitchina i użył narzędzi kohomologicznych do jej udowodnienia."
+    summary_original: "Ngô translated a difficult identity of orbital integrals into the geometry of the Hitchin fibration and proved it using cohomological methods."
+  - name: "Geometria w programie Langlandsa"
+    original_name: "Geometry in the Langlands program"
+    summary: "Jego praca pokazała siłę metod geometrii algebraicznej w problemach wcześniej formułowanych głównie językiem analizy i reprezentacji."
+    summary_original: "His work demonstrated the power of algebraic geometry in problems previously framed largely in analytic and representation-theoretic language."
+events:
+  - year: 2009
+    precision: year
+    title: "Ukończenie dowodu fundamentalnego lematu"
+    original_title: "Completion of the fundamental lemma proof"
+    summary: "Dowód został uznany za jedno z największych osiągnięć matematycznych roku."
+    summary_original: "The proof was recognized as one of the year's major mathematical achievements."
+  - year: 2010
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Ngô otrzymał Medal Fieldsa za dowód fundamentalnego lematu przy użyciu nowych metod geometrycznych."
+    summary_original: "Ngô received the Fields Medal for proving the fundamental lemma using new geometric methods."
+sources:
+  - title: "University of Chicago — Ngô Bảo Châu"
+    url: "https://www.trailblazers.psd.uchicago.edu/ng%C3%B4-b%E1%BA%A3o-ch%C3%A2u"
+  - title: "International Mathematical Union — Fields Medal 2010"
+    url: "https://www.mathunion.org/fileadmin/IMU/Prizes/2010/IMU-Awards-2010.pdf"
