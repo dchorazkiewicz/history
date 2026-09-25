@@ -1,0 +1,59 @@
+id: paul_cohen
+name: "Paul Joseph Cohen"
+display_name: "Paul Cohen"
+born:
+  date: "1934-04-02"
+  year: 1934
+  precision: day
+died:
+  date: "2007-03-23"
+  year: 2007
+  precision: day
+place_association: "Long Branch; Brooklyn; Stanford"
+fields: [mathematics, set_theory, logic, foundations_of_mathematics, analysis]
+image: null
+summary: "Amerykański matematyk, który stworzył metodę forcingu i udowodnił niezależność hipotezy continuum oraz aksjomatu wyboru od standardowych aksjomatów teorii mnogości. Jego prace dopełniły obraz rozpoczęty przez Gödla i zmieniły podstawy matematyki."
+summary_original: "American mathematician who created forcing and proved the independence of the continuum hypothesis and the axiom of choice from standard set-theoretic axioms. His work completed the picture begun by Gödel and transformed mathematical foundations."
+works:
+  - title: "Niezależność hipotezy continuum I"
+    original_title: "The Independence of the Continuum Hypothesis I"
+    year: 1963
+    precision: year
+    type: mathematical_essay
+  - title: "Niezależność hipotezy continuum II"
+    original_title: "The Independence of the Continuum Hypothesis II"
+    year: 1964
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Forcing"
+    original_name: "Forcing"
+    wikipedia: "https://en.wikipedia.org/wiki/Forcing_(mathematics)"
+    summary: "Cohen stworzył metodę rozszerzania modeli teorii mnogości przez dodawanie obiektów generycznych w sposób kontrolujący prawdziwość wybranych zdań."
+    summary_original: "Cohen created a method for extending models of set theory by adding generic objects while controlling truth values of selected statements."
+  - name: "Niezależność hipotezy continuum"
+    original_name: "Independence of the continuum hypothesis"
+    summary: "Cohen wykazał, że jeśli ZF jest niesprzeczna, to hipotezy continuum nie da się ani dowieść, ani obalić w standardowym systemie ZFC."
+    summary_original: "Cohen showed that, assuming consistency, the continuum hypothesis can neither be proved nor refuted in the standard ZFC framework."
+  - name: "Niezależność aksjomatu wyboru"
+    original_name: "Independence of the axiom of choice"
+    summary: "Metoda Cohena pokazała również, że aksjomat wyboru nie wynika z pozostałych aksjomatów ZF."
+    summary_original: "Cohen's method also showed that the axiom of choice is not derivable from the other ZF axioms."
+events:
+  - year: 1963
+    precision: year
+    title: "Powstanie forcingu"
+    original_title: "Creation of forcing"
+    summary: "Cohen rozwiązał jeden z najważniejszych problemów pozostawionych przez Hilberta i Gödla."
+    summary_original: "Cohen solved one of the major foundational problems left by Hilbert and Gödel."
+  - year: 1966
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Otrzymał Medal Fieldsa za fundamentalne prace nad niezależnością w teorii mnogości."
+    summary_original: "He received the Fields Medal for fundamental work on independence in set theory."
+sources:
+  - title: "MacTutor — Paul Cohen"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Cohen/"
+  - title: "Wikipedia — Paul Cohen"
+    url: "https://en.wikipedia.org/wiki/Paul_Cohen"
