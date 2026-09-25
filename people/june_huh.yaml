@@ -1,0 +1,61 @@
+id: june_huh
+name: "June Huh"
+display_name: "June Huh"
+born:
+  year: 1983
+  precision: year
+died: null
+place_association: "Kalifornia; Seul; Ann Arbor; Princeton"
+fields: [mathematics, combinatorics, algebraic_geometry, matroid_theory, hodge_theory, topology]
+image: null
+summary: "Koreańsko-amerykański matematyk, który połączył kombinatorykę z geometrią algebraiczną i teorią Hodge’a. Jego metody rozwiązały wieloletnie hipotezy dotyczące wielomianów chromatycznych i matroidów."
+summary_original: "Korean-American mathematician who connected combinatorics with algebraic geometry and Hodge theory. His methods solved long-standing conjectures concerning chromatic polynomials and matroids."
+works:
+  - title: "Liczby Milnora hiperpłaszczyzn projektowych i wielomian chromatyczny grafów"
+    original_title: "Milnor numbers of projective hypersurfaces and the chromatic polynomial of graphs"
+    year: 2012
+    precision: year
+    type: mathematical_essay
+  - title: "Teoria Hodge’a dla geometrii kombinatorycznej"
+    original_title: "Hodge theory for combinatorial geometries"
+    year: 2018
+    precision: year
+    type: mathematical_essay
+    publication_note: "Napisane wspólnie z Karimem Adiprasito i Ericiem Katzem."
+    publication_note_original: "Written with Karim Adiprasito and Eric Katz."
+  - title: "Wielomiany Lorentzowskie"
+    original_title: "Lorentzian polynomials"
+    year: 2020
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Geometria algebraiczna w kombinatoryce"
+    original_name: "Algebraic geometry in combinatorics"
+    summary: "Huh przeniósł metody z geometrii algebraicznej do problemów dotyczących grafów i matroidów, które wcześniej wydawały się czysto dyskretne."
+    summary_original: "Huh brought methods from algebraic geometry into problems about graphs and matroids that had appeared purely discrete."
+  - name: "Logarytmiczna wklęsłość współczynników"
+    original_name: "Log-concavity phenomena"
+    summary: "Jego prace wykazały głębokie własności wklęsłości ciągów kombinatorycznych poprzez analogie z relacjami Hodge’a."
+    summary_original: "His work established deep log-concavity properties of combinatorial sequences through analogues of Hodge relations."
+  - name: "Hipoteza Rota-Welsh"
+    original_name: "Rota-Welsh conjectures"
+    summary: "Wspólnie z Adiprasito i Katzem udowodnił szeroki pakiet hipotez dotyczących wielomianów charakterystycznych matroidów."
+    summary_original: "With Adiprasito and Katz he proved a broad package of conjectures concerning characteristic polynomials of matroids."
+events:
+  - year: 2012
+    precision: year
+    title: "Dowód hipotezy Reada"
+    original_title: "Proof of Read's conjecture"
+    summary: "Huh wykorzystał geometrię algebraiczną do rozwiązania problemu dotyczącego współczynników wielomianu chromatycznego grafu."
+    summary_original: "Huh used algebraic geometry to solve a problem concerning coefficients of graph chromatic polynomials."
+  - year: 2022
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Otrzymał Medal Fieldsa za przekształcenie kombinatoryki przez idee geometrii algebraicznej i teorii Hodge’a."
+    summary_original: "He received the Fields Medal for transforming combinatorics through ideas from algebraic geometry and Hodge theory."
+sources:
+  - title: "International Mathematical Union — June Huh, Fields Medal 2022"
+    url: "https://www.mathunion.org/fileadmin/IMU/Prizes/Fields/2022/JH_intro.pdf"
+  - title: "Princeton University — June Huh"
+    url: "https://www.princeton.edu/news/2022/10/12/june-huh-wins-macarthur-genius-grant-creative-approaches-mathematical-puzzles"
