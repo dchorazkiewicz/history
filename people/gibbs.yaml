@@ -1,0 +1,60 @@
+id: gibbs
+name: "Josiah Willard Gibbs"
+display_name: "Josiah Willard Gibbs"
+born:
+  date: "1839-02-11"
+  year: 1839
+  precision: day
+died:
+  date: "1903-04-28"
+  year: 1903
+  precision: day
+place_association: "New Haven, Connecticut"
+fields: [physics, mathematics, thermodynamics, statistical_mechanics, physical_chemistry, vector_analysis]
+image: null
+summary: "Amerykański fizyk matematyczny, który nadał termodynamice i mechanice statystycznej nowoczesny formalizm. Wprowadził energię swobodną, potencjał chemiczny i regułę faz, a jego metody stały się fundamentem chemii fizycznej."
+summary_original: "American mathematical physicist who gave thermodynamics and statistical mechanics a modern formalism. He introduced free energy, chemical potential and the phase rule, and his methods became foundational to physical chemistry."
+works:
+  - title: "O równowadze substancji niejednorodnych"
+    original_title: "On the Equilibrium of Heterogeneous Substances"
+    year: 1876
+    precision: year
+    type: scientific_treatise
+    publication_note: "Praca została opublikowana w dwóch częściach w latach 1876–1878."
+    publication_note_original: "The work was published in two parts in 1876–1878."
+  - title: "Podstawowe zasady mechaniki statystycznej"
+    original_title: "Elementary Principles in Statistical Mechanics"
+    year: 1902
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Energia swobodna Gibbsa"
+    original_name: "Gibbs free energy"
+    wikipedia: "https://en.wikipedia.org/wiki/Gibbs_free_energy"
+    summary: "Funkcja G pozwala przewidywać kierunek procesów i równowagę chemiczną przy stałej temperaturze i ciśnieniu."
+    summary_original: "The function G predicts process direction and chemical equilibrium at constant temperature and pressure."
+  - name: "Potencjał chemiczny"
+    original_name: "Chemical potential"
+    summary: "Gibbs wprowadził wielkość opisującą zmianę energii układu przy dodawaniu składnika, centralną dla termodynamiki mieszanin i reakcji."
+    summary_original: "Gibbs introduced a quantity describing energy change when adding a component, central to mixtures and reactions."
+  - name: "Reguła faz Gibbsa"
+    original_name: "Gibbs phase rule"
+    wikipedia: "https://en.wikipedia.org/wiki/Gibbs_phase_rule"
+    summary: "Reguła określa liczbę niezależnych parametrów termodynamicznych w układzie wielofazowym."
+    summary_original: "The rule gives the number of independent thermodynamic variables in a multiphase system."
+  - name: "Zespoły statystyczne"
+    original_name: "Statistical ensembles"
+    summary: "Gibbs systematycznie używał zespołów mikrokanonicznego, kanonicznego i wielkiego kanonicznego do opisu statystycznego układów fizycznych."
+    summary_original: "Gibbs systematically used microcanonical, canonical and grand-canonical ensembles to describe physical systems statistically."
+events:
+  - year: 1871
+    precision: year
+    title: "Profesor fizyki matematycznej w Yale"
+    original_title: "Professor of mathematical physics at Yale"
+    summary: "Gibbs otrzymał jedną z pierwszych katedr fizyki matematycznej w Stanach Zjednoczonych."
+    summary_original: "Gibbs received one of the first chairs of mathematical physics in the United States."
+sources:
+  - title: "MacTutor — Josiah Willard Gibbs"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Gibbs/"
+  - title: "Encyclopaedia Britannica — J. Willard Gibbs"
+    url: "https://www.britannica.com/biography/J-Willard-Gibbs"
