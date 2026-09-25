@@ -1,0 +1,83 @@
+id: hamilton
+name: "William Rowan Hamilton"
+display_name: "William Rowan Hamilton"
+born:
+  date: "1805-08-04"
+  year: 1805
+  precision: day
+died:
+  date: "1865-09-02"
+  year: 1865
+  precision: day
+place_association: "Dublin; Dunsink Observatory, Irlandia"
+fields: [mathematics, algebra, complex_numbers, mechanics, optics, astronomy, physics, poetry]
+image: null
+summary: "Irlandzki matematyk, astronom i fizyk matematyczny. Stworzył formalizm mechaniki Hamiltona, rozwinął analogię między optyką i dynamiką, przewidział refrakcję stożkową i wynalazł kwaterniony, otwierając drogę do algebry wektorowej i nowych struktur algebraicznych."
+summary_original: "Irish mathematician, astronomer and mathematical physicist. He created Hamiltonian mechanics, developed the analogy between optics and dynamics, predicted conical refraction and invented quaternions, opening paths toward vector algebra and new algebraic structures."
+works:
+  - title: "Teoria układów promieni"
+    original_title: "Theory of Systems of Rays"
+    year: 1828
+    precision: year
+    type: scientific_treatise
+  - title: "O ogólnej metodzie dynamiki"
+    original_title: "On a General Method in Dynamics"
+    year: 1834
+    precision: year
+    type: scientific_treatise
+    publication_note: "Prace z lat 1834–1835 ustanowiły podstawy mechaniki Hamiltona."
+    publication_note_original: "Papers of 1834–1835 established the foundations of Hamiltonian mechanics."
+  - title: "Wykłady o kwaternionach"
+    original_title: "Lectures on Quaternions"
+    year: 1853
+    precision: year
+    type: mathematical_treatise
+  - title: "Elementy kwaternionów"
+    original_title: "Elements of Quaternions"
+    year: 1866
+    precision: year
+    type: mathematical_treatise
+    posthumous: true
+ideas:
+  - name: "Mechanika Hamiltona"
+    original_name: "Hamiltonian mechanics"
+    wikipedia: "https://en.wikipedia.org/wiki/Hamiltonian_mechanics"
+    summary: "Hamilton przeformułował mechanikę klasyczną w języku funkcji Hamiltona i równań pierwszego rzędu, tworząc formalizm fundamentalny również dla fizyki XX wieku."
+    summary_original: "Hamilton reformulated classical mechanics using the Hamiltonian and first-order equations, creating a formalism fundamental also to twentieth-century physics."
+  - name: "Kwaterniony"
+    original_name: "Quaternions"
+    wikipedia: "https://en.wikipedia.org/wiki/Quaternion"
+    summary: "W 1843 r. odkrył czterowymiarowy system liczbowy rozszerzający liczby zespolone, w którym mnożenie nie jest przemienne."
+    summary_original: "In 1843 he discovered a four-dimensional number system extending complex numbers, with noncommutative multiplication."
+  - name: "Równanie Hamiltona-Jacobiego"
+    original_name: "Hamilton–Jacobi equation"
+    summary: "Połączenie idei Hamiltona i Jacobiego stworzyło pomost między mechaniką klasyczną, optyką i późniejszą mechaniką kwantową."
+    summary_original: "The synthesis of Hamilton's and Jacobi's ideas created a bridge between classical mechanics, optics and later quantum mechanics."
+  - name: "Refrakcja stożkowa"
+    original_name: "Conical refraction"
+    summary: "Hamilton matematycznie przewidział nietypowe rozszczepienie promienia w kryształach dwuosiowych; zjawisko zostało następnie potwierdzone eksperymentalnie."
+    summary_original: "Hamilton mathematically predicted unusual ray splitting in biaxial crystals; the phenomenon was then experimentally confirmed."
+events:
+  - year: 1827
+    precision: year
+    title: "Królewski astronom Irlandii"
+    original_title: "Royal Astronomer of Ireland"
+    summary: "Jeszcze jako bardzo młody uczony został profesorem astronomii i dyrektorem obserwatorium Dunsink."
+    summary_original: "Still very young, he became professor of astronomy and director of Dunsink Observatory."
+  - year: 1832
+    precision: year
+    title: "Przewidzenie refrakcji stożkowej"
+    original_title: "Prediction of conical refraction"
+    summary: "Teoretyczny wynik został wkrótce potwierdzony doświadczalnie przez Humphreya Lloyda."
+    summary_original: "The theoretical prediction was soon experimentally confirmed by Humphrey Lloyd."
+  - year: 1843
+    precision: day
+    title: "Odkrycie kwaternionów"
+    original_title: "Discovery of quaternions"
+    summary: "16 października 1843 r. podczas spaceru przy kanale w Dublinie Hamilton zapisał fundamentalne relacje mnożenia kwaternionów."
+    summary_original: "On 16 October 1843, while walking beside the canal in Dublin, Hamilton wrote down the fundamental quaternion multiplication relations."
+sources:
+  - title: "MacTutor — William Rowan Hamilton"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Hamilton/"
+  - title: "Wikipedia — William Rowan Hamilton"
+    url: "https://en.wikipedia.org/wiki/William_Rowan_Hamilton"
