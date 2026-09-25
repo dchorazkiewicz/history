@@ -1,0 +1,66 @@
+id: pappus
+name: "Pappus of Alexandria"
+display_name: "Pappus z Aleksandrii"
+born:
+  year: 290
+  precision: approximate
+  note: "Data przybliżona. Wiarygodnym punktem chronologicznym jest obserwacja zaćmienia Słońca w Aleksandrii w 320 r."
+  note_original: "Approximate date. A reliable chronological anchor is his observation of a solar eclipse in Alexandria in 320."
+died:
+  year: 350
+  precision: approximate
+  note: "Data przybliżona."
+  note_original: "Approximate date."
+place_association: "Aleksandria, Egipt"
+fields: [mathematics, geometry, astronomy, education]
+image: null
+summary: "Późnoantyczny matematyk aleksandryjski, autor Zbioru matematycznego. Zachował, uporządkował i rozwinął znaczną część wcześniejszej geometrii greckiej, a niektóre z jego twierdzeń stały się później punktami wyjścia dla geometrii rzutowej i teorii środków ciężkości."
+summary_original: "Late antique Alexandrian mathematician and author of the Mathematical Collection. He preserved, organized and extended much of earlier Greek geometry, and some of his theorems later became starting points for projective geometry and centroid theory."
+works:
+  - title: "Zbiór matematyczny"
+    original_title: "Synagoge / Mathematical Collection"
+    year: 340
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Ośmioksiąg poświęcony geometrii, konstrukcjom, problemom klasycznym i wcześniejszym autorom greckim."
+    publication_note_original: "An eight-book collection on geometry, constructions, classical problems and earlier Greek authors."
+  - title: "Komentarz do Almagestu"
+    original_title: "Commentary on Ptolemy's Almagest"
+    year: 320
+    precision: year
+    type: astronomical_treatise
+    publication_note: "Datowanie wiąże się z własną obserwacją zaćmienia Słońca 18 października 320 r."
+    publication_note_original: "The dating is tied to his own observation of the solar eclipse of 18 October 320."
+ideas:
+  - name: "Twierdzenie Pappusa"
+    original_name: "Pappus's hexagon theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Pappus%27s_hexagon_theorem"
+    summary: "Twierdzenie o współliniowości punktów wyznaczonych przez przecięcia odpowiednich boków dwóch trójek punktów stało się później jednym z klasycznych rezultatów geometrii rzutowej."
+    summary_original: "The theorem on the collinearity of intersection points determined by two triples of points later became a classical result of projective geometry."
+  - name: "Twierdzenia Pappusa-Guldina"
+    original_name: "Pappus centroid theorems"
+    wikipedia: "https://en.wikipedia.org/wiki/Pappus%27s_centroid_theorem"
+    summary: "Zbiór zawiera twierdzenia łączące pola i objętości brył obrotowych z drogą przebywaną przez środek ciężkości obracanej figury."
+    summary_original: "The Collection contains theorems relating areas and volumes of solids of revolution to the path traced by the centroid of the rotating figure."
+  - name: "Zachowanie tradycji geometrii greckiej"
+    original_name: "Preservation of Greek geometry"
+    summary: "Zbiór Pappusa przekazuje informacje o wielu wcześniejszych dziełach i problemach, które inaczej byłyby znane znacznie słabiej lub wcale."
+    summary_original: "Pappus's Collection preserves information about many earlier works and problems that would otherwise be much less well known or entirely lost."
+events:
+  - year: 320
+    precision: day
+    title: "Obserwacja zaćmienia Słońca"
+    original_title: "Observation of a solar eclipse"
+    summary: "Pappus zanotował zaćmienie Słońca widoczne w Aleksandrii 18 października 320 r., co pozwala dobrze datować część jego działalności."
+    summary_original: "Pappus recorded the solar eclipse seen in Alexandria on 18 October 320, providing a firm chronological anchor for part of his activity."
+  - year: 340
+    precision: approximate
+    title: "Redakcja Zbioru matematycznego"
+    original_title: "Composition of the Mathematical Collection"
+    summary: "Około połowy IV wieku powstała główna praca Pappusa, podsumowująca i rozwijająca wiele osiągnięć geometrii greckiej."
+    summary_original: "Around the middle of the fourth century Pappus composed his major work, summarizing and extending many achievements of Greek geometry."
+sources:
+  - title: "MacTutor — Pappus of Alexandria"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Pappus/"
+  - title: "Wikipedia — Pappus of Alexandria"
+    url: "https://en.wikipedia.org/wiki/Pappus_of_Alexandria"
