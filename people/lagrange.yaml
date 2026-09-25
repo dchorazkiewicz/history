@@ -1,0 +1,85 @@
+id: lagrange
+name: "Joseph-Louis Lagrange"
+display_name: "Joseph-Louis Lagrange"
+born:
+  date: "1736-01-25"
+  year: 1736
+  precision: day
+died:
+  date: "1813-04-10"
+  year: 1813
+  precision: day
+place_association: "Turyn; Berlin; Paryż"
+fields: [mathematics, analysis, calculus_of_variations, algebra, number_theory, mechanics, celestial_mechanics, fluid_dynamics, probability, astronomy, metric_system, education]
+image: null
+summary: "Urodzony w Turynie matematyk działający we Włoszech, Prusach i Francji. Stworzył rachunek wariacyjny w nowoczesnej formie, zbudował analityczną mechanikę opartą na uogólnionych współrzędnych, wniósł fundamentalny wkład do teorii równań i liczb oraz współtworzył matematyczne podstawy mechaniki nieba."
+summary_original: "Turin-born mathematician active in Italy, Prussia and France. He created the calculus of variations in modern form, built analytical mechanics around generalized coordinates, made fundamental contributions to equations and number theory, and helped establish the mathematical foundations of celestial mechanics."
+works:
+  - title: "Refleksje o algebraicznym rozwiązywaniu równań"
+    original_title: "Réflexions sur la résolution algébrique des équations"
+    year: 1770
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Praca z lat 1770–1771 analizująca, dlaczego równania stopni do czwartego dają się rozwiązać przez pierwiastniki; ważny prekursor teorii grup."
+    publication_note_original: "A 1770–1771 investigation of why equations up to degree four are solvable by radicals; an important precursor of group theory."
+  - title: "Mechanika analityczna"
+    original_title: "Mécanique analytique"
+    wikipedia: "https://en.wikipedia.org/wiki/M%C3%A9canique_Analytique"
+    year: 1788
+    precision: year
+    type: scientific_treatise
+  - title: "Teoria funkcji analitycznych"
+    original_title: "Théorie des fonctions analytiques"
+    year: 1797
+    precision: year
+    type: mathematical_treatise
+  - title: "Lekcje rachunku funkcji"
+    original_title: "Leçons sur le calcul des fonctions"
+    year: 1800
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Rachunek wariacyjny"
+    original_name: "Calculus of variations"
+    wikipedia: "https://en.wikipedia.org/wiki/Calculus_of_variations"
+    summary: "Lagrange rozwinął metodę znajdowania funkcji ekstremalizujących całki i wprowadził formalizm wariacji, który stał się podstawą całej dziedziny."
+    summary_original: "Lagrange developed methods for finding functions that extremize integrals and introduced a variational formalism foundational to the field."
+  - name: "Mechanika Lagrange’a"
+    original_name: "Lagrangian mechanics"
+    wikipedia: "https://en.wikipedia.org/wiki/Lagrangian_mechanics"
+    summary: "Sformułował mechanikę w języku energii, uogólnionych współrzędnych i równań różniczkowych, ograniczając konieczność bezpośredniego śledzenia sił w każdym kierunku."
+    summary_original: "He formulated mechanics using energy, generalized coordinates and differential equations, reducing the need to track forces directly in every direction."
+  - name: "Mnożniki Lagrange’a"
+    original_name: "Lagrange multipliers"
+    wikipedia: "https://en.wikipedia.org/wiki/Lagrange_multiplier"
+    summary: "Metoda optymalizacji przy warunkach ograniczających stała się jednym z podstawowych narzędzi matematyki stosowanej."
+    summary_original: "The method for constrained optimization became a basic tool of applied mathematics."
+  - name: "Punkty Lagrange’a"
+    original_name: "Lagrange points"
+    wikipedia: "https://en.wikipedia.org/wiki/Lagrange_point"
+    summary: "W analizie ograniczonego problemu trzech ciał pojawiają się szczególne konfiguracje równowagi, dziś nazywane punktami Lagrange’a."
+    summary_original: "In the restricted three-body problem special equilibrium configurations arise that are now called Lagrange points."
+events:
+  - year: 1755
+    precision: year
+    title: "Profesor matematyki w Turynie"
+    original_title: "Professor of mathematics in Turin"
+    summary: "W wieku 19 lat Lagrange został profesorem w Królewskiej Szkole Artylerii."
+    summary_original: "At age 19 Lagrange became professor at the Royal Artillery School."
+  - year: 1766
+    precision: year
+    title: "Dyrektor sekcji matematycznej Akademii Berlińskiej"
+    original_title: "Director of mathematics at the Berlin Academy"
+    summary: "Lagrange zastąpił Eulera i przez dwadzieścia lat pracował w Berlinie."
+    summary_original: "Lagrange succeeded Euler and worked in Berlin for twenty years."
+  - year: 1790
+    precision: year
+    title: "Prace nad systemem metrycznym"
+    original_title: "Work on the metric system"
+    summary: "Został członkiem komisji standaryzacji wag i miar oraz uczestniczył w tworzeniu systemu metrycznego."
+    summary_original: "He joined the commission for standardizing weights and measures and participated in the creation of the metric system."
+sources:
+  - title: "MacTutor — Joseph-Louis Lagrange"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/"
+  - title: "Wikipedia — Joseph-Louis Lagrange"
+    url: "https://en.wikipedia.org/wiki/Joseph-Louis_Lagrange"
