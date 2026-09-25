@@ -1,0 +1,63 @@
+id: langlands
+name: "Robert Phelan Langlands"
+display_name: "Robert Langlands"
+born:
+  date: "1936-10-06"
+  year: 1936
+  precision: day
+died: null
+place_association: "New Westminster; Yale; Princeton"
+fields: [mathematics, number_theory, representation_theory, automorphic_forms, harmonic_analysis, algebraic_geometry]
+image: null
+summary: "Kanadyjski matematyk, twórca programu Langlandsa — rozległej sieci przewidywań łączących teorię liczb, reprezentacje grup i formy automorficzne. Program ten stał się jednym z głównych organizujących projektów współczesnej matematyki."
+summary_original: "Canadian mathematician and creator of the Langlands program, a vast network of conjectures linking number theory, group representations and automorphic forms. The program became one of the major organizing projects of modern mathematics."
+works:
+  - title: "List do André Weila"
+    original_title: "Letter to André Weil"
+    year: 1967
+    precision: year
+    type: manuscript
+    publication_note: "Siedemnastostronicowy list naszkicował idee, z których wyrósł program Langlandsa."
+    publication_note_original: "A seventeen-page letter sketched the ideas from which the Langlands program grew."
+  - title: "Problemy teorii form automorficznych"
+    original_title: "Problems in the Theory of Automorphic Forms"
+    year: 1970
+    precision: year
+    type: mathematical_essay
+  - title: "Iloczyny Eulera"
+    original_title: "Euler Products"
+    year: 1971
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Program Langlandsa"
+    original_name: "Langlands program"
+    wikipedia: "https://en.wikipedia.org/wiki/Langlands_program"
+    summary: "Program przewiduje głębokie związki między reprezentacjami grup Galois i automorficznymi reprezentacjami grup reduktywnych."
+    summary_original: "The program predicts deep correspondences between Galois representations and automorphic representations of reductive groups."
+  - name: "Zasada funktorialności"
+    original_name: "Langlands functoriality"
+    summary: "Przenoszenie reprezentacji między grupami powinno odpowiadać naturalnym relacjom między ich L-funkcjami i strukturami dualnymi."
+    summary_original: "Transfer of representations between groups should correspond to natural relations among their L-functions and dual structures."
+  - name: "Uogólniona wzajemność"
+    original_name: "Generalized reciprocity"
+    summary: "Program Langlandsa rozszerza klasyczne prawa wzajemności teorii liczb na znacznie szersze klasy obiektów."
+    summary_original: "The Langlands program generalizes classical reciprocity laws of number theory to much broader classes of objects."
+events:
+  - year: 1967
+    precision: year
+    title: "List do André Weila"
+    original_title: "Letter to André Weil"
+    summary: "Nieformalny list zawierał zalążek programu, który przez kolejne dekady zorganizował ogromną część teorii liczb i reprezentacji."
+    summary_original: "An informal letter contained the seed of a program that organized vast areas of number theory and representation theory for decades."
+  - year: 2018
+    precision: year
+    title: "Nagroda Abela"
+    original_title: "Abel Prize"
+    summary: "Langlands otrzymał Nagrodę Abela za wizjonerski program łączący teorię reprezentacji z teorią liczb."
+    summary_original: "Langlands received the Abel Prize for his visionary program connecting representation theory to number theory."
+sources:
+  - title: "MacTutor — Robert Langlands"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Langlands/"
+  - title: "Abel Prize — Robert Langlands"
+    url: "https://abelprize.no/abel-prize-laureates/2018"
