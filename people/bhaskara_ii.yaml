@@ -1,0 +1,72 @@
+id: bhaskara_ii
+name: "Bhaskara II"
+display_name: "Bhaskara II"
+born:
+  year: 1114
+  precision: year
+died:
+  year: 1185
+  precision: year
+place_association: "Vijayapura; Ujjain, Indie"
+fields: [mathematics, arithmetic, algebra, number_theory, geometry, trigonometry, astronomy]
+image: null
+summary: "Indyjski matematyk i astronom, znany także jako Bhaskaracharya. Kierował ośrodkiem astronomicznym w Ujjain i syntetyzował wcześniejszą tradycję indyjską, rozwijając arytmetykę, algebrę, równania nieoznaczone, trygonometrię i astronomię planetarną."
+summary_original: "Indian mathematician and astronomer, also known as Bhaskaracharya. He led the astronomical center at Ujjain and synthesized earlier Indian traditions, developing arithmetic, algebra, indeterminate equations, trigonometry and planetary astronomy."
+works:
+  - title: "Korona doktryny"
+    original_title: "Siddhanta Shiromani"
+    year: 1150
+    precision: year
+    type: astronomical_treatise
+    publication_note: "Główne dzieło składające się z czterech części: Lilavati, Bijaganita, Grahaganita i Goladhyaya."
+    publication_note_original: "His principal work in four parts: Lilavati, Bijaganita, Grahaganita and Goladhyaya."
+  - title: "Lilavati"
+    original_title: "Līlāvatī"
+    year: 1150
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Część Siddhanta Shiromani poświęcona arytmetyce, geometrii i praktycznym problemom rachunkowym."
+    publication_note_original: "Part of the Siddhanta Shiromani devoted to arithmetic, geometry and practical computational problems."
+  - title: "Bijaganita"
+    original_title: "Bījagaṇita"
+    year: 1150
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Część poświęcona algebrze, równaniom i problemom nieoznaczonym."
+    publication_note_original: "The algebraic part, devoted to equations and indeterminate problems."
+  - title: "Karanakutuhala"
+    original_title: "Karaṇakutūhala"
+    year: 1183
+    precision: year
+    type: astronomical_treatise
+ideas:
+  - name: "Metody dla równań typu Pella"
+    original_name: "Methods for Pell-type equations"
+    summary: "Bhaskara II rozwijał indyjską tradycję cyklicznych metod rozwiązywania równań nieoznaczonych, związaną później z nazwą chakravala."
+    summary_original: "Bhaskara II developed the Indian tradition of cyclic methods for solving indeterminate equations, later associated with the chakravala method."
+  - name: "Algebra liczb dodatnich, ujemnych i zera"
+    original_name: "Algebra of positive and negative numbers and zero"
+    summary: "Rozwijał i porządkował reguły działań algebraicznych odziedziczone po Brahmagupcie, w tym rachunek z liczbami ujemnymi i zerem."
+    summary_original: "He extended and organized algebraic rules inherited from Brahmagupta, including arithmetic with negative numbers and zero."
+  - name: "Chwilowa prędkość w astronomii"
+    original_name: "Instantaneous motion in astronomy"
+    summary: "W kontekście ruchu planet rozróżniał średnią i chwilową prędkość oraz analizował momenty, w których zmiana położenia osiąga wartości szczególne. Są to ważne prekursorskie idee, ale nie należy utożsamiać ich z nowoczesnym rachunkiem różniczkowym."
+    summary_original: "In planetary motion he distinguished mean and instantaneous velocity and analyzed moments when change took special values. These are important precursor ideas but should not be equated with modern differential calculus."
+events:
+  - year: 1150
+    precision: year
+    title: "Ukończenie Siddhanta Shiromani"
+    original_title: "Completion of the Siddhanta Shiromani"
+    summary: "W wieku 36 lat Bhaskara ukończył swoje najważniejsze dzieło matematyczno-astronomiczne."
+    summary_original: "At age 36 Bhaskara completed his principal mathematical-astronomical work."
+  - year: 1160
+    precision: approximate
+    title: "Kierowanie ośrodkiem astronomicznym w Ujjain"
+    original_title: "Leadership of the astronomical center at Ujjain"
+    summary: "Bhaskara został główną postacią szkoły matematycznej i astronomicznej w Ujjain."
+    summary_original: "Bhaskara became the leading figure of the mathematical and astronomical school at Ujjain."
+sources:
+  - title: "MacTutor — Bhaskara II"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Bhaskara_II/"
+  - title: "MacTutor — Bhaskaracharya II"
+    url: "https://mathshistory.st-andrews.ac.uk/Projects/Pearce/chapter-13/"
