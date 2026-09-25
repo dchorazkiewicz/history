@@ -1,0 +1,59 @@
+id: dedekind
+name: "Richard Dedekind"
+display_name: "Richard Dedekind"
+born:
+  date: "1831-10-06"
+  year: 1831
+  precision: day
+died:
+  date: "1916-02-12"
+  year: 1916
+  precision: day
+place_association: "Brunszwik; Getynga; Zurych"
+fields: [mathematics, number_theory, algebra, foundations_of_mathematics, set_theory, education]
+image: null
+summary: "Niemiecki matematyk, który odegrał kluczową rolę w arytmetyzacji analizy i narodzinach nowoczesnej algebry. Wprowadził przekroje Dedekinda jako konstrukcję liczb rzeczywistych, rozwinął teorię ideałów w teorii liczb algebraicznych i tworzył strukturalne ujęcie liczb naturalnych."
+summary_original: "German mathematician who played a key role in the arithmetization of analysis and the birth of modern algebra. He introduced Dedekind cuts as a construction of the real numbers, developed ideal theory in algebraic number theory and created a structural account of natural numbers."
+works:
+  - title: "Ciągłość i liczby niewymierne"
+    original_title: "Stetigkeit und irrationale Zahlen"
+    wikipedia: "https://en.wikipedia.org/wiki/Dedekind_cut"
+    year: 1872
+    precision: year
+    type: mathematical_treatise
+  - title: "Czym są i do czego służą liczby?"
+    original_title: "Was sind und was sollen die Zahlen?"
+    year: 1888
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Przekroje Dedekinda"
+    original_name: "Dedekind cuts"
+    summary: "Liczby rzeczywiste można zdefiniować przez podziały liczb wymiernych na dwie klasy spełniające odpowiednie warunki porządku."
+    summary_original: "Real numbers can be defined through partitions of the rationals into two classes satisfying suitable order conditions."
+  - name: "Ideały w pierścieniach liczb algebraicznych"
+    original_name: "Ideals in algebraic number theory"
+    summary: "Dedekind wprowadził ideały, aby przywrócić jednoznaczność rozkładu na czynniki w rozszerzonych strukturach liczbowych."
+    summary_original: "Dedekind introduced ideals to restore unique factorization in extended number systems."
+  - name: "Strukturalne ujęcie liczb naturalnych"
+    original_name: "Structural conception of natural numbers"
+    summary: "Definiował liczby naturalne przez struktury i odwzorowania, antycypując późniejszy aksjomatyczny język teorii mnogości i algebry."
+    summary_original: "He defined natural numbers through structures and mappings, anticipating later axiomatic language in set theory and algebra."
+events:
+  - year: 1858
+    precision: year
+    title: "Idea przekrojów podczas wykładów w Zurychu"
+    original_title: "Idea of Dedekind cuts during lectures in Zurich"
+    summary: "Potrzeba ścisłego wyjaśnienia ciągłości prostej doprowadziła Dedekinda do konstrukcji przekrojów."
+    summary_original: "The need to explain the continuity of the line rigorously led Dedekind to the cut construction."
+  - year: 1863
+    precision: year
+    title: "Redakcja wykładów Dirichleta z teorii liczb"
+    original_title: "Editing Dirichlet's lectures on number theory"
+    summary: "Dedekind wielokrotnie rozszerzał pośmiertne wydania wykładów Dirichleta, dodając własne idee, które stały się fundamentem algebraicznej teorii liczb."
+    summary_original: "Dedekind repeatedly expanded posthumous editions of Dirichlet's lectures with his own ideas, foundational to algebraic number theory."
+sources:
+  - title: "MacTutor — Richard Dedekind"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Dedekind/"
+  - title: "Wikipedia — Richard Dedekind"
+    url: "https://en.wikipedia.org/wiki/Richard_Dedekind"
