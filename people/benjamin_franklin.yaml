@@ -1,0 +1,58 @@
+id: benjamin_franklin
+name: "Benjamin Franklin"
+display_name: "Benjamin Franklin"
+born:
+  date: "1706-01-17"
+  year: 1706
+  precision: day
+died:
+  date: "1790-04-17"
+  year: 1790
+  precision: day
+place_association: "Boston; Filadelfia; Londyn; Paryż"
+fields: [physics, electricity, meteorology, oceanography, engineering, publishing, diplomacy, politics, public_intellectual]
+image: null
+summary: "Amerykański drukarz, przyrodnik, wynalazca, dyplomata i polityk. Prowadził przełomowe doświadczenia z elektrycznością, wprowadził pojęcia dodatniego i ujemnego ładunku, opracował piorunochron oraz badał pogodę i Prąd Zatokowy."
+summary_original: "American printer, natural philosopher, inventor, diplomat and statesman. He performed major experiments on electricity, introduced positive and negative charge conventions, developed the lightning rod, and studied weather and the Gulf Stream."
+works:
+  - title: "Doświadczenia i obserwacje nad elektrycznością"
+    original_title: "Experiments and Observations on Electricity"
+    year: 1751
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Jednopłynowa teoria elektryczności"
+    original_name: "One-fluid theory of electricity"
+    summary: "Franklin opisywał elektryczność jako nadmiar lub niedobór jednego rodzaju „płynu”, wprowadzając konwencję ładunków dodatnich i ujemnych."
+    summary_original: "Franklin described electricity as excess or deficiency of a single electrical fluid and introduced the positive/negative charge convention."
+  - name: "Elektryczna natura pioruna"
+    original_name: "Electrical nature of lightning"
+    summary: "Seria eksperymentów Franklina i jego współczesnych wykazała, że piorun jest zjawiskiem elektrycznym."
+    summary_original: "Experiments by Franklin and his contemporaries demonstrated that lightning is electrical in nature."
+  - name: "Piorunochron"
+    original_name: "Lightning rod"
+    wikipedia: "https://en.wikipedia.org/wiki/Lightning_rod"
+    summary: "Franklin zaprojektował metalowy przewodnik odprowadzający ładunek wyładowania atmosferycznego bezpiecznie do ziemi."
+    summary_original: "Franklin designed a metal conductor to carry lightning discharge safely to ground."
+  - name: "Badania Prądu Zatokowego"
+    original_name: "Gulf Stream studies"
+    summary: "Franklin współtworzył jedną z pierwszych map Prądu Zatokowego i analizował jego znaczenie dla czasu podróży przez Atlantyk."
+    summary_original: "Franklin helped produce one of the first maps of the Gulf Stream and studied its effect on Atlantic travel times."
+events:
+  - year: 1752
+    precision: year
+    title: "Eksperymenty z elektrycznością atmosferyczną"
+    original_title: "Atmospheric electricity experiments"
+    summary: "Franklin przeprowadzał eksperymenty mające wykazać elektryczną naturę burz i praktyczne działanie piorunochronu."
+    summary_original: "Franklin conducted experiments aimed at demonstrating the electrical nature of storms and the practical action of lightning rods."
+  - year: 1776
+    precision: year
+    title: "Misja dyplomatyczna we Francji"
+    original_title: "Diplomatic mission to France"
+    summary: "Franklin odegrał kluczową rolę w pozyskaniu francuskiego wsparcia dla rewolucji amerykańskiej."
+    summary_original: "Franklin played a major role in securing French support for the American Revolution."
+sources:
+  - title: "Encyclopaedia Britannica — Benjamin Franklin"
+    url: "https://www.britannica.com/biography/Benjamin-Franklin"
+  - title: "The Franklin Institute — Benjamin Franklin"
+    url: "https://fi.edu/en/science-and-education/benjamin-franklin"
