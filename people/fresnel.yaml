@@ -1,0 +1,54 @@
+id: fresnel
+name: "Augustin-Jean Fresnel"
+display_name: "Augustin-Jean Fresnel"
+born:
+  date: "1788-05-10"
+  year: 1788
+  precision: day
+died:
+  date: "1827-07-14"
+  year: 1827
+  precision: day
+place_association: "Broglie; Paryż"
+fields: [physics, optics, wave_optics, engineering]
+image: null
+summary: "Francuski fizyk i inżynier, który nadał falowej teorii światła precyzyjną postać matematyczną. Wyjaśnił dyfrakcję i interferencję, rozwinął opis polaryzacji i skonstruował soczewkę Fresnela stosowaną w latarniach morskich."
+summary_original: "French physicist and engineer who gave the wave theory of light a precise mathematical form. He explained diffraction and interference, developed the theory of polarization, and designed the Fresnel lens used in lighthouses."
+works:
+  - title: "Pamiętnik o dyfrakcji światła"
+    original_title: "Mémoire sur la diffraction de la lumière"
+    year: 1818
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Dyfrakcja Fresnela"
+    original_name: "Fresnel diffraction"
+    wikipedia: "https://en.wikipedia.org/wiki/Fresnel_diffraction"
+    summary: "Fresnel połączył zasadę Huygensa z interferencją, tworząc ilościową teorię dyfrakcji w polu bliskim."
+    summary_original: "Fresnel combined Huygens' principle with interference to create a quantitative theory of near-field diffraction."
+  - name: "Równania Fresnela"
+    original_name: "Fresnel equations"
+    wikipedia: "https://en.wikipedia.org/wiki/Fresnel_equations"
+    summary: "Równania opisują amplitudy światła odbitego i załamanego na granicy dwóch ośrodków."
+    summary_original: "The equations describe amplitudes of reflected and transmitted light at an interface."
+  - name: "Poprzeczna natura fal świetlnych"
+    original_name: "Transverse nature of light waves"
+    summary: "Analiza polaryzacji doprowadziła Fresnela do wniosku, że drgania światła mają charakter poprzeczny."
+    summary_original: "Analysis of polarization led Fresnel to conclude that light vibrations are transverse."
+  - name: "Soczewka Fresnela"
+    original_name: "Fresnel lens"
+    wikipedia: "https://en.wikipedia.org/wiki/Fresnel_lens"
+    summary: "Segmentowa soczewka pozwalała uzyskać dużą aperturę przy znacznie mniejszej masie szkła, co zrewolucjonizowało oświetlenie latarni morskich."
+    summary_original: "The segmented lens achieved large aperture with far less glass, transforming lighthouse illumination."
+events:
+  - year: 1819
+    precision: year
+    title: "Nagroda Akademii Francuskiej za teorię dyfrakcji"
+    original_title: "French Academy prize for diffraction theory"
+    summary: "Pamiętnik Fresnela zwyciężył w konkursie Akademii i wzmocnił pozycję falowej teorii światła."
+    summary_original: "Fresnel's memoir won the Academy competition and strengthened the wave theory of light."
+sources:
+  - title: "Encyclopaedia Britannica — Augustin-Jean Fresnel"
+    url: "https://www.britannica.com/biography/Augustin-Jean-Fresnel"
+  - title: "Wikipedia — Augustin-Jean Fresnel"
+    url: "https://en.wikipedia.org/wiki/Augustin-Jean_Fresnel"
