@@ -1,0 +1,48 @@
+id: sommerfeld
+name: "Arnold Johannes Wilhelm Sommerfeld"
+display_name: "Arnold Sommerfeld"
+born:
+  date: "1868-12-05"
+  year: 1868
+  precision: day
+died:
+  date: "1951-04-26"
+  year: 1951
+  precision: day
+place_association: "Królewiec; Monachium"
+fields: [physics, mathematics, atomic_physics, quantum_theory, spectroscopy, electrodynamics, education]
+image: null
+summary: "Niemiecki fizyk teoretyczny i wybitny nauczyciel. Rozszerzył model Bohra o orbity eliptyczne i strukturę subtelną, rozwinął teorię elektronów w metalach i wychował wyjątkowe pokolenie fizyków, w tym Heisenberga i Pauliego."
+summary_original: "German theoretical physicist and exceptional teacher. He extended Bohr's model with elliptical orbits and fine structure, advanced electron theory in metals, and trained an extraordinary generation including Heisenberg and Pauli."
+works:
+  - title: "Budowa atomu i linie widmowe"
+    original_title: "Atombau und Spektrallinien"
+    year: 1919
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Model Bohra-Sommerfelda"
+    original_name: "Bohr–Sommerfeld model"
+    summary: "Sommerfeld uogólnił kwantowanie orbit na elipsy i wprowadził dodatkowe liczby kwantowe."
+    summary_original: "Sommerfeld generalized orbital quantization to ellipses and introduced additional quantum numbers."
+  - name: "Stała struktury subtelnej"
+    original_name: "Fine-structure constant"
+    wikipedia: "https://en.wikipedia.org/wiki/Fine-structure_constant"
+    summary: "W analizie struktury widmowej pojawiła się bezwymiarowa stała α opisująca siłę oddziaływania elektromagnetycznego."
+    summary_original: "Analysis of spectral fine structure highlighted the dimensionless constant alpha characterizing electromagnetic interaction strength."
+  - name: "Sommerfeldowska teoria metali"
+    original_name: "Sommerfeld model of metals"
+    summary: "Zastosował statystykę Fermiego-Diraca do elektronów przewodnictwa, tworząc kwantową wersję modelu Drudego."
+    summary_original: "He applied Fermi–Dirac statistics to conduction electrons, creating a quantum version of the Drude model."
+events:
+  - year: 1906
+    precision: year
+    title: "Profesor fizyki teoretycznej w Monachium"
+    original_title: "Professor of theoretical physics in Munich"
+    summary: "Jego seminarium stało się jednym z najważniejszych miejsc kształcenia fizyków teoretycznych."
+    summary_original: "His seminar became one of the major training grounds for theoretical physicists."
+sources:
+  - title: "MacTutor — Arnold Sommerfeld"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Sommerfeld/"
+  - title: "Encyclopaedia Britannica — Arnold Sommerfeld"
+    url: "https://www.britannica.com/biography/Arnold-Sommerfeld"
