@@ -1,0 +1,63 @@
+id: fermi
+name: "Enrico Fermi"
+display_name: "Enrico Fermi"
+born:
+  date: "1901-09-29"
+  year: 1901
+  precision: day
+died:
+  date: "1954-11-28"
+  year: 1954
+  precision: day
+place_association: "Rzym; Florencja; Chicago; Los Alamos"
+fields: [physics, theoretical_physics, experimental_physics, quantum_mechanics, nuclear_physics, particle_physics, statistical_mechanics]
+image: null
+summary: "Włosko-amerykański fizyk wyjątkowo skuteczny zarówno w teorii, jak i eksperymencie. Stworzył statystykę Fermiego-Diraca, teorię rozpadu beta, prowadził badania neutronowe i zbudował pierwszy samopodtrzymujący się reaktor jądrowy."
+summary_original: "Italian-American physicist exceptionally accomplished in both theory and experiment. He created Fermi–Dirac statistics, developed beta-decay theory, led neutron research and built the first self-sustaining nuclear reactor."
+works:
+  - title: "O kwantowaniu gazu jednoatomowego idealnego"
+    original_title: "Sulla quantizzazione del gas perfetto monoatomico"
+    year: 1926
+    precision: year
+    type: scientific_treatise
+  - title: "Próba teorii promieni beta"
+    original_title: "Tentativo di una teoria dei raggi beta"
+    year: 1934
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Statystyka Fermiego-Diraca"
+    original_name: "Fermi–Dirac statistics"
+    wikipedia: "https://en.wikipedia.org/wiki/Fermi%E2%80%93Dirac_statistics"
+    summary: "Opisuje układy identycznych fermionów podlegających zasadzie wykluczania Pauliego."
+    summary_original: "It describes systems of identical fermions obeying the Pauli exclusion principle."
+  - name: "Teoria rozpadu beta"
+    original_name: "Fermi theory of beta decay"
+    summary: "Fermi opisał rozpad beta jako nowe oddziaływanie punktowe prowadzące do emisji elektronu i neutrina."
+    summary_original: "Fermi described beta decay as a new point-like interaction producing an electron and neutrino."
+  - name: "Spowalnianie neutronów"
+    original_name: "Neutron moderation"
+    summary: "Fermi odkrył, że wolne neutrony są szczególnie skuteczne w wywoływaniu wielu reakcji jądrowych."
+    summary_original: "Fermi discovered that slow neutrons are especially effective in inducing many nuclear reactions."
+  - name: "Pierwsza kontrolowana reakcja łańcuchowa"
+    original_name: "First controlled nuclear chain reaction"
+    summary: "Chicago Pile-1 osiągnął stan krytyczny 2 grudnia 1942 r."
+    summary_original: "Chicago Pile-1 reached criticality on 2 December 1942."
+events:
+  - year: 1938
+    precision: year
+    title: "Nagroda Nobla i emigracja do USA"
+    original_title: "Nobel Prize and emigration to the United States"
+    summary: "Po odebraniu Nobla w Sztokholmie Fermi wraz z rodziną udał się bezpośrednio do Stanów Zjednoczonych."
+    summary_original: "After receiving the Nobel Prize in Stockholm, Fermi and his family traveled directly to the United States."
+  - year: 1942
+    precision: day
+    title: "Chicago Pile-1 osiąga krytyczność"
+    original_title: "Chicago Pile-1 reaches criticality"
+    summary: "Zespół Fermiego przeprowadził pierwszą kontrolowaną samopodtrzymującą się reakcję łańcuchową."
+    summary_original: "Fermi's team achieved the first controlled self-sustaining nuclear chain reaction."
+sources:
+  - title: "Nobel Prize — Enrico Fermi"
+    url: "https://www.nobelprize.org/prizes/physics/1938/fermi/facts/"
+  - title: "Encyclopaedia Britannica — Enrico Fermi"
+    url: "https://www.britannica.com/biography/Enrico-Fermi"
