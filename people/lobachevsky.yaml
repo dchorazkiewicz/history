@@ -1,0 +1,62 @@
+id: lobachevsky
+name: "Nikolai Ivanovich Lobachevsky"
+display_name: "Nikołaj Łobaczewski"
+born:
+  date: "1792-12-01"
+  year: 1792
+  precision: day
+died:
+  date: "1856-02-24"
+  year: 1856
+  precision: day
+place_association: "Niżny Nowogród; Kazań, Imperium Rosyjskie"
+fields: [mathematics, geometry, analysis, differential_equations, physics, astronomy, education, university_administration]
+image: null
+summary: "Rosyjski matematyk i wieloletni rektor Uniwersytetu Kazańskiego. Jako pierwszy opublikował spójny system geometrii nieeuklidesowej, w której przez punkt poza prostą przechodzi więcej niż jedna prosta nieprzecinająca danej prostej."
+summary_original: "Russian mathematician and long-serving rector of Kazan University. He was the first to publish a coherent system of non-Euclidean geometry in which more than one non-intersecting line can pass through a point outside a given line."
+works:
+  - title: "O zasadach geometrii"
+    original_title: "O nachalakh geometrii / On the Principles of Geometry"
+    year: 1829
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Publikacja z lat 1829–1830 była pierwszym drukowanym przedstawieniem geometrii nieeuklidesowej."
+    publication_note_original: "The 1829–1830 publication was the first printed account of non-Euclidean geometry."
+  - title: "Geometria urojona"
+    original_title: "Géométrie imaginaire"
+    year: 1837
+    precision: year
+    type: mathematical_treatise
+  - title: "Badania geometryczne nad teorią prostych równoległych"
+    original_title: "Geometrische Untersuchungen zur Theorie der Parallellinien"
+    year: 1840
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Geometria hiperboliczna"
+    original_name: "Hyperbolic geometry"
+    wikipedia: "https://en.wikipedia.org/wiki/Hyperbolic_geometry"
+    summary: "Łobaczewski badał geometrię powstającą po odrzuceniu euklidesowego postulatu o jednej prostej równoległej."
+    summary_original: "Lobachevsky studied the geometry arising when Euclid's unique-parallel postulate is rejected."
+  - name: "Geometria jako system aksjomatyczny, a nie jedyny opis konieczny"
+    original_name: "Geometry as an axiomatic system"
+    summary: "Jego prace pokazały, że alternatywne geometrie mogą być logicznie spójne, co zasadniczo zmieniło rozumienie podstaw matematyki."
+    summary_original: "His work showed that alternative geometries can be logically coherent, fundamentally changing the understanding of mathematical foundations."
+events:
+  - year: 1826
+    precision: year
+    title: "Publiczne przedstawienie nowej geometrii"
+    original_title: "Public presentation of the new geometry"
+    summary: "Łobaczewski przedstawił w Kazaniu pracę o podstawach nowej geometrii; jej tekst się nie zachował."
+    summary_original: "Lobachevsky presented a work on the foundations of the new geometry at Kazan; its text has not survived."
+  - year: 1827
+    precision: year
+    title: "Rektor Uniwersytetu Kazańskiego"
+    original_title: "Rector of Kazan University"
+    summary: "Przez 19 lat jako rektor rozbudowywał bibliotekę, obserwatorium, laboratoria i poziom badań uniwersytetu."
+    summary_original: "For nineteen years as rector he developed the university's library, observatory, laboratories and research standards."
+sources:
+  - title: "MacTutor — Nikolai Lobachevsky"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Lobachevsky/"
+  - title: "Wikipedia — Nikolai Lobachevsky"
+    url: "https://en.wikipedia.org/wiki/Nikolai_Lobachevsky"
