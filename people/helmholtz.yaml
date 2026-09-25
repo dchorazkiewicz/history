@@ -1,0 +1,58 @@
+id: helmholtz
+name: "Hermann von Helmholtz"
+display_name: "Hermann von Helmholtz"
+born:
+  date: "1821-08-31"
+  year: 1821
+  precision: day
+died:
+  date: "1894-09-08"
+  year: 1894
+  precision: day
+place_association: "Poczdam; Królewiec; Bonn; Heidelberg; Berlin"
+fields: [physics, medicine, physiology, optics, acoustics, thermodynamics, electrodynamics, philosophy_of_science]
+image: null
+summary: "Niemiecki lekarz, fizjolog i fizyk. Sformułował zasadę zachowania energii w szerokiej postaci, badał fizjologię wzroku i słuchu, skonstruował oftalmoskop oraz rozwijał elektrodynamikę i teorię wirów."
+summary_original: "German physician, physiologist and physicist. He formulated a broad principle of energy conservation, studied vision and hearing, invented the ophthalmoscope, and advanced electrodynamics and vortex theory."
+works:
+  - title: "O zachowaniu siły"
+    original_title: "Über die Erhaltung der Kraft"
+    year: 1847
+    precision: year
+    type: scientific_treatise
+  - title: "Podręcznik optyki fizjologicznej"
+    original_title: "Handbuch der physiologischen Optik"
+    year: 1856
+    precision: year
+    type: scientific_treatise
+  - title: "O wrażeniach tonu"
+    original_title: "Die Lehre von den Tonempfindungen"
+    year: 1863
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Zasada zachowania energii"
+    original_name: "Conservation of energy"
+    summary: "Helmholtz argumentował, że w procesach fizycznych energia zmienia formę, lecz nie jest tworzona ani niszczona."
+    summary_original: "Helmholtz argued that in physical processes energy changes form but is neither created nor destroyed."
+  - name: "Oftalmoskop"
+    original_name: "Ophthalmoscope"
+    wikipedia: "https://en.wikipedia.org/wiki/Ophthalmoscopy"
+    summary: "Przyrząd umożliwił lekarzom bezpośrednie oglądanie wnętrza żywego oka."
+    summary_original: "The instrument allowed physicians to inspect the interior of the living eye directly."
+  - name: "Teoria rezonansu słuchowego"
+    original_name: "Resonance theory of hearing"
+    summary: "Helmholtz analizował barwę dźwięku przez harmoniczne składowe i rezonans układu słuchowego."
+    summary_original: "Helmholtz analyzed timbre through harmonic components and resonance in the auditory system."
+events:
+  - year: 1851
+    precision: year
+    title: "Wynalezienie oftalmoskopu"
+    original_title: "Invention of the ophthalmoscope"
+    summary: "Oftalmoskop szybko stał się podstawowym narzędziem diagnostyki okulistycznej."
+    summary_original: "The ophthalmoscope rapidly became a fundamental diagnostic instrument in ophthalmology."
+sources:
+  - title: "Encyclopaedia Britannica — Hermann von Helmholtz"
+    url: "https://www.britannica.com/biography/Hermann-von-Helmholtz"
+  - title: "Wikipedia — Hermann von Helmholtz"
+    url: "https://en.wikipedia.org/wiki/Hermann_von_Helmholtz"
