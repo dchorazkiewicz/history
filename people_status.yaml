@@ -75,3 +75,684 @@ people:
     name: "Voltaire"
     status: described
     data_file: "people/voltaire.yaml"
+
+
+# Matematycy — kanon historyczny do opracowania.
+# Lista jest celowo selektywna, szczególnie dla XX i XXI wieku.
+# Osoby już opisane wyżej (np. Archimedes, Kartezjusz, Newton, Leibniz)
+# nie są tu duplikowane.
+
+  - id: thales
+    name: "Tales z Miletu"
+    status: pending
+    focus: [mathematics]
+
+  - id: pythagoras
+    name: "Pitagoras"
+    status: pending
+    focus: [mathematics]
+
+  - id: eudoxus
+    name: "Eudoksos z Knidos"
+    status: pending
+    focus: [mathematics]
+
+  - id: euclid
+    name: "Euklides"
+    status: pending
+    focus: [mathematics]
+
+  - id: apollonius
+    name: "Apoloniusz z Pergi"
+    status: pending
+    focus: [mathematics]
+
+  - id: eratosthenes
+    name: "Eratostenes"
+    status: pending
+    focus: [mathematics]
+
+  - id: hipparchus
+    name: "Hipparch"
+    status: pending
+    focus: [mathematics]
+
+  - id: hero
+    name: "Heron z Aleksandrii"
+    status: pending
+    focus: [mathematics]
+
+  - id: diophantus
+    name: "Diofantos"
+    status: pending
+    focus: [mathematics]
+
+  - id: pappus
+    name: "Pappus z Aleksandrii"
+    status: pending
+    focus: [mathematics]
+
+  - id: hypatia
+    name: "Hypatia"
+    status: pending
+    focus: [mathematics]
+
+  - id: liu_hui
+    name: "Liu Hui"
+    status: pending
+    focus: [mathematics]
+
+  - id: zu_chongzhi
+    name: "Zu Chongzhi"
+    status: pending
+    focus: [mathematics]
+
+  - id: aryabhata
+    name: "Aryabhata"
+    status: pending
+    focus: [mathematics]
+
+  - id: brahmagupta
+    name: "Brahmagupta"
+    status: pending
+    focus: [mathematics]
+
+  - id: bhaskara_i
+    name: "Bhaskara I"
+    status: pending
+    focus: [mathematics]
+
+  - id: al_khwarizmi
+    name: "Al-Chwarizmi"
+    status: pending
+    focus: [mathematics]
+
+  - id: thabit_ibn_qurra
+    name: "Thabit ibn Qurra"
+    status: pending
+    focus: [mathematics]
+
+  - id: abu_kamil
+    name: "Abu Kamil"
+    status: pending
+    focus: [mathematics]
+
+  - id: al_biruni
+    name: "Al-Biruni"
+    status: pending
+    focus: [mathematics]
+
+  - id: omar_khayyam
+    name: "Omar Chajjam"
+    status: pending
+    focus: [mathematics]
+
+  - id: bhaskara_ii
+    name: "Bhaskara II"
+    status: pending
+    focus: [mathematics]
+
+  - id: fibonacci
+    name: "Fibonacci"
+    status: pending
+    focus: [mathematics]
+
+  - id: nasir_al_din_al_tusi
+    name: "Nasir ad-Din at-Tusi"
+    status: pending
+    focus: [mathematics]
+
+  - id: madhava
+    name: "Madhava z Sangamagramy"
+    status: pending
+    focus: [mathematics]
+
+  - id: al_kashi
+    name: "Jamshid al-Kashi"
+    status: pending
+    focus: [mathematics]
+
+  - id: luca_pacioli
+    name: "Luca Pacioli"
+    status: pending
+    focus: [mathematics]
+
+  - id: scipione_del_ferro
+    name: "Scipione del Ferro"
+    status: pending
+    focus: [mathematics]
+
+  - id: tartaglia
+    name: "Niccolò Tartaglia"
+    status: pending
+    focus: [mathematics]
+
+  - id: cardano
+    name: "Gerolamo Cardano"
+    status: pending
+    focus: [mathematics]
+
+  - id: bombelli
+    name: "Rafael Bombelli"
+    status: pending
+    focus: [mathematics]
+
+  - id: viete
+    name: "François Viète"
+    status: pending
+    focus: [mathematics]
+
+  - id: napier
+    name: "John Napier"
+    status: pending
+    focus: [mathematics]
+
+  - id: kepler
+    name: "Johannes Kepler"
+    status: pending
+    focus: [mathematics]
+
+  - id: fermat
+    name: "Pierre de Fermat"
+    status: pending
+    focus: [mathematics]
+
+  - id: pascal
+    name: "Blaise Pascal"
+    status: pending
+    focus: [mathematics]
+
+  - id: cavalieri
+    name: "Bonaventura Cavalieri"
+    status: pending
+    focus: [mathematics]
+
+  - id: wallis
+    name: "John Wallis"
+    status: pending
+    focus: [mathematics]
+
+  - id: huygens
+    name: "Christiaan Huygens"
+    status: pending
+    focus: [mathematics]
+
+  - id: jacob_bernoulli
+    name: "Jacob Bernoulli"
+    status: pending
+    focus: [mathematics]
+
+  - id: johann_bernoulli
+    name: "Johann Bernoulli"
+    status: pending
+    focus: [mathematics]
+
+  - id: de_moivre
+    name: "Abraham de Moivre"
+    status: pending
+    focus: [mathematics]
+
+  - id: brook_taylor
+    name: "Brook Taylor"
+    status: pending
+    focus: [mathematics]
+
+  - id: maclaurin
+    name: "Colin Maclaurin"
+    status: pending
+    focus: [mathematics]
+
+  - id: euler
+    name: "Leonhard Euler"
+    status: pending
+    focus: [mathematics]
+
+  - id: dalembert
+    name: "Jean le Rond d’Alembert"
+    status: pending
+    focus: [mathematics]
+
+  - id: lagrange
+    name: "Joseph-Louis Lagrange"
+    status: pending
+    focus: [mathematics]
+
+  - id: laplace
+    name: "Pierre-Simon Laplace"
+    status: pending
+    focus: [mathematics]
+
+  - id: monge
+    name: "Gaspard Monge"
+    status: pending
+    focus: [mathematics]
+
+  - id: legendre
+    name: "Adrien-Marie Legendre"
+    status: pending
+    focus: [mathematics]
+
+  - id: gauss
+    name: "Carl Friedrich Gauss"
+    status: pending
+    focus: [mathematics]
+
+  - id: fourier
+    name: "Joseph Fourier"
+    status: pending
+    focus: [mathematics]
+
+  - id: cauchy
+    name: "Augustin-Louis Cauchy"
+    status: pending
+    focus: [mathematics]
+
+  - id: abel
+    name: "Niels Henrik Abel"
+    status: pending
+    focus: [mathematics]
+
+  - id: galois
+    name: "Évariste Galois"
+    status: pending
+    focus: [mathematics]
+
+  - id: dirichlet
+    name: "Peter Gustav Lejeune Dirichlet"
+    status: pending
+    focus: [mathematics]
+
+  - id: jacobi
+    name: "Carl Gustav Jacobi"
+    status: pending
+    focus: [mathematics]
+
+  - id: lobachevsky
+    name: "Nikołaj Łobaczewski"
+    status: pending
+    focus: [mathematics]
+
+  - id: bolyai
+    name: "János Bolyai"
+    status: pending
+    focus: [mathematics]
+
+  - id: hamilton
+    name: "William Rowan Hamilton"
+    status: pending
+    focus: [mathematics]
+
+  - id: boole
+    name: "George Boole"
+    status: pending
+    focus: [mathematics]
+
+  - id: cayley
+    name: "Arthur Cayley"
+    status: pending
+    focus: [mathematics]
+
+  - id: sylvester
+    name: "James Joseph Sylvester"
+    status: pending
+    focus: [mathematics]
+
+  - id: riemann
+    name: "Bernhard Riemann"
+    status: pending
+    focus: [mathematics]
+
+  - id: weierstrass
+    name: "Karl Weierstrass"
+    status: pending
+    focus: [mathematics]
+
+  - id: dedekind
+    name: "Richard Dedekind"
+    status: pending
+    focus: [mathematics]
+
+  - id: cantor
+    name: "Georg Cantor"
+    status: pending
+    focus: [mathematics]
+
+  - id: klein
+    name: "Felix Klein"
+    status: pending
+    focus: [mathematics]
+
+  - id: sophus_lie
+    name: "Sophus Lie"
+    status: pending
+    focus: [mathematics]
+
+  - id: poincare
+    name: "Henri Poincaré"
+    status: pending
+    focus: [mathematics]
+
+  - id: minkowski
+    name: "Hermann Minkowski"
+    status: pending
+    focus: [mathematics]
+
+  - id: kovalevskaya
+    name: "Sofia Kowalewska"
+    status: pending
+    focus: [mathematics]
+
+  - id: lindemann
+    name: "Ferdinand von Lindemann"
+    status: pending
+    focus: [mathematics]
+
+  - id: kummer
+    name: "Ernst Kummer"
+    status: pending
+    focus: [mathematics]
+
+  - id: kronecker
+    name: "Leopold Kronecker"
+    status: pending
+    focus: [mathematics]
+
+  - id: hilbert
+    name: "David Hilbert"
+    status: pending
+    focus: [mathematics]
+
+  - id: peano
+    name: "Giuseppe Peano"
+    status: pending
+    focus: [mathematics]
+
+  - id: frege
+    name: "Gottlob Frege"
+    status: pending
+    focus: [mathematics]
+
+  - id: bertrand_russell
+    name: "Bertrand Russell"
+    status: pending
+    focus: [mathematics]
+
+  - id: zermelo
+    name: "Ernst Zermelo"
+    status: pending
+    focus: [mathematics]
+
+  - id: hurwitz
+    name: "Adolf Hurwitz"
+    status: pending
+    focus: [mathematics]
+
+  - id: borel
+    name: "Émile Borel"
+    status: pending
+    focus: [mathematics]
+
+  - id: lebesgue
+    name: "Henri Lebesgue"
+    status: pending
+    focus: [mathematics]
+
+  - id: frechet
+    name: "Maurice Fréchet"
+    status: pending
+    focus: [mathematics]
+
+  - id: brouwer
+    name: "L. E. J. Brouwer"
+    status: pending
+    focus: [mathematics]
+
+  - id: hausdorff
+    name: "Felix Hausdorff"
+    status: pending
+    focus: [mathematics]
+
+  - id: weyl
+    name: "Hermann Weyl"
+    status: pending
+    focus: [mathematics]
+
+  - id: noether
+    name: "Emmy Noether"
+    status: pending
+    focus: [mathematics]
+
+  - id: ramanujan
+    name: "Srinivasa Ramanujan"
+    status: pending
+    focus: [mathematics]
+
+  - id: hardy
+    name: "G. H. Hardy"
+    status: pending
+    focus: [mathematics]
+
+  - id: banach
+    name: "Stefan Banach"
+    status: pending
+    focus: [mathematics]
+
+  - id: sierpinski
+    name: "Wacław Sierpiński"
+    status: pending
+    focus: [mathematics]
+
+  - id: kuratowski
+    name: "Kazimierz Kuratowski"
+    status: pending
+    focus: [mathematics]
+
+  - id: steinhaus
+    name: "Hugo Steinhaus"
+    status: pending
+    focus: [mathematics]
+
+  - id: tarski
+    name: "Alfred Tarski"
+    status: pending
+    focus: [mathematics]
+
+  - id: godel
+    name: "Kurt Gödel"
+    status: pending
+    focus: [mathematics]
+
+  - id: kolmogorov
+    name: "Andriej Kołmogorow"
+    status: pending
+    focus: [mathematics]
+
+  - id: von_neumann
+    name: "John von Neumann"
+    status: pending
+    focus: [mathematics]
+
+  - id: church
+    name: "Alonzo Church"
+    status: pending
+    focus: [mathematics]
+
+  - id: turing
+    name: "Alan Turing"
+    status: pending
+    focus: [mathematics]
+
+  - id: wiener
+    name: "Norbert Wiener"
+    status: pending
+    focus: [mathematics]
+
+  - id: shannon
+    name: "Claude Shannon"
+    status: pending
+    focus: [mathematics]
+
+  - id: ulam
+    name: "Stanisław Ulam"
+    status: pending
+    focus: [mathematics]
+
+  - id: andre_weil
+    name: "André Weil"
+    status: pending
+    focus: [mathematics]
+
+  - id: laurent_schwartz
+    name: "Laurent Schwartz"
+    status: pending
+    focus: [mathematics]
+
+  - id: erdos
+    name: "Paul Erdős"
+    status: pending
+    focus: [mathematics]
+
+  - id: gelfand
+    name: "Israel Gelfand"
+    status: pending
+    focus: [mathematics]
+
+  - id: pontryagin
+    name: "Lew Pontriagin"
+    status: pending
+    focus: [mathematics]
+
+  - id: chern
+    name: "Shiing-Shen Chern"
+    status: pending
+    focus: [mathematics]
+
+  - id: nash
+    name: "John Nash"
+    status: pending
+    focus: [mathematics]
+
+  - id: serre
+    name: "Jean-Pierre Serre"
+    status: pending
+    focus: [mathematics]
+
+  - id: grothendieck
+    name: "Alexander Grothendieck"
+    status: pending
+    focus: [mathematics]
+
+  - id: smale
+    name: "Stephen Smale"
+    status: pending
+    focus: [mathematics]
+
+  - id: atiyah
+    name: "Michael Atiyah"
+    status: pending
+    focus: [mathematics]
+
+  - id: milnor
+    name: "John Milnor"
+    status: pending
+    focus: [mathematics]
+
+  - id: bott
+    name: "Raoul Bott"
+    status: pending
+    focus: [mathematics]
+
+  - id: hirzebruch
+    name: "Friedrich Hirzebruch"
+    status: pending
+    focus: [mathematics]
+
+  - id: arnold
+    name: "Władimir Arnold"
+    status: pending
+    focus: [mathematics]
+
+  - id: paul_cohen
+    name: "Paul Cohen"
+    status: pending
+    focus: [mathematics]
+
+  - id: conway
+    name: "John Horton Conway"
+    status: pending
+    focus: [mathematics]
+
+  - id: thurston
+    name: "William Thurston"
+    status: pending
+    focus: [mathematics]
+
+  - id: langlands
+    name: "Robert Langlands"
+    status: pending
+    focus: [mathematics]
+
+  - id: deligne
+    name: "Pierre Deligne"
+    status: pending
+    focus: [mathematics]
+
+  - id: wiles
+    name: "Andrew Wiles"
+    status: pending
+    focus: [mathematics]
+
+  - id: perelman
+    name: "Grigori Perelman"
+    status: pending
+    focus: [mathematics]
+
+  - id: kontsevich
+    name: "Maxim Kontsevich"
+    status: pending
+    focus: [mathematics]
+
+  - id: mirzakhani
+    name: "Maryam Mirzakhani"
+    status: pending
+    focus: [mathematics]
+
+  - id: tao
+    name: "Terence Tao"
+    status: pending
+    focus: [mathematics]
+
+  - id: scholze
+    name: "Peter Scholze"
+    status: pending
+    focus: [mathematics]
+
+  - id: voevodsky
+    name: "Vladimir Voevodsky"
+    status: pending
+    focus: [mathematics]
+
+  - id: gowers
+    name: "Timothy Gowers"
+    status: pending
+    focus: [mathematics]
+
+  - id: ngo_bao_chau
+    name: "Ngô Bảo Châu"
+    status: pending
+    focus: [mathematics]
+
+  - id: bhargava
+    name: "Manjul Bhargava"
+    status: pending
+    focus: [mathematics]
+
+  - id: venkatesh
+    name: "Akshay Venkatesh"
+    status: pending
+    focus: [mathematics]
+
+  - id: june_huh
+    name: "June Huh"
+    status: pending
+    focus: [mathematics]
