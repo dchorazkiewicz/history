@@ -246,43 +246,51 @@ people:
 
   - id: luca_pacioli
     name: "Luca Pacioli"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/luca_pacioli.yaml"
+    focus: [mathematics, economics, art, theology]
 
   - id: scipione_del_ferro
     name: "Scipione del Ferro"
-    status: pending
+    status: described
+    data_file: "people/scipione_del_ferro.yaml"
     focus: [mathematics]
 
   - id: tartaglia
     name: "Niccolò Tartaglia"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/tartaglia.yaml"
+    focus: [mathematics, physics]
 
   - id: cardano
     name: "Gerolamo Cardano"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/cardano.yaml"
+    focus: [mathematics, medicine, physics, philosophy]
 
   - id: bombelli
     name: "Rafael Bombelli"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/bombelli.yaml"
+    focus: [mathematics, engineering]
 
   - id: viete
     name: "François Viète"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/viete.yaml"
+    focus: [mathematics, law]
 
   - id: napier
     name: "John Napier"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/napier.yaml"
+    focus: [mathematics, theology, politics]
 
   - id: kepler
     name: "Johannes Kepler"
-    status: pending
-    focus: [mathematics, physics]
+    status: described
+    data_file: "people/kepler.yaml"
+    focus: [mathematics, physics, astronomy, philosophy, theology]
 
   - id: fermat
     name: "Pierre de Fermat"
@@ -291,8 +299,9 @@ people:
 
   - id: pascal
     name: "Blaise Pascal"
-    status: pending
-    focus: [mathematics, physics]
+    status: described
+    data_file: "people/pascal.yaml"
+    focus: [mathematics, physics, philosophy, theology, literature]
 
   - id: cavalieri
     name: "Bonaventura Cavalieri"
