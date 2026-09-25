@@ -1,0 +1,63 @@
+id: brook_taylor
+name: "Brook Taylor"
+display_name: "Brook Taylor"
+born:
+  date: "1685-08-18"
+  year: 1685
+  precision: day
+died:
+  date: "1731-12-29"
+  year: 1731
+  precision: day
+place_association: "Edmonton; Londyn, Anglia"
+fields: [mathematics, analysis, finite_differences, differential_equations, geometry, perspective, art, music]
+image: null
+summary: "Angielski matematyk związany z Royal Society. Rozwijał rachunek różnic skończonych, całkowanie przez części i rozwinięcia funkcji w szeregi, a równolegle pisał o perspektywie, malarstwie i muzyce."
+summary_original: "English mathematician associated with the Royal Society. He developed finite-difference calculus, integration by parts and function expansions into series, while also writing on perspective, painting and music."
+works:
+  - title: "Metoda przyrostów prostych i odwrotnych"
+    original_title: "Methodus Incrementorum Directa et Inversa"
+    year: 1715
+    precision: year
+    type: mathematical_treatise
+  - title: "Perspektywa liniowa"
+    original_title: "Linear Perspective"
+    year: 1715
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Twierdzenie i szereg Taylora"
+    original_name: "Taylor's theorem and Taylor series"
+    wikipedia: "https://en.wikipedia.org/wiki/Taylor%27s_theorem"
+    summary: "Taylor podał ogólną metodę rozwijania funkcji wokół punktu w szereg potęgowy zależny od kolejnych pochodnych."
+    summary_original: "Taylor gave a general method for expanding a function around a point into a power series determined by successive derivatives."
+  - name: "Rachunek różnic skończonych"
+    original_name: "Finite-difference calculus"
+    summary: "Methodus incrementorum stworzyła ważny dział rachunku dyskretnego, użyteczny w interpolacji i przybliżeniach numerycznych."
+    summary_original: "Methodus incrementorum developed an important discrete calculus useful for interpolation and numerical approximation."
+  - name: "Całkowanie przez części"
+    original_name: "Integration by parts"
+    summary: "Taylor podał ogólną postać procedury odpowiadającej dzisiejszemu całkowaniu przez części."
+    summary_original: "Taylor gave a general form of the procedure now known as integration by parts."
+  - name: "Matematyczna teoria perspektywy"
+    original_name: "Mathematical theory of perspective"
+    summary: "W Linear Perspective próbował oprzeć zasady perspektywy malarskiej na geometrii i konstrukcjach projekcyjnych."
+    summary_original: "In Linear Perspective he sought to ground pictorial perspective in geometry and projective constructions."
+events:
+  - year: 1712
+    precision: year
+    title: "Pierwsza wersja twierdzenia Taylora w liście do Machina"
+    original_title: "First version of Taylor's theorem in a letter to Machin"
+    summary: "W korespondencji Taylor sformułował wynik, który trzy lata później znalazł się w Methodus incrementorum."
+    summary_original: "In correspondence Taylor formulated a result that appeared three years later in Methodus incrementorum."
+  - year: 1714
+    precision: year
+    title: "Sekretarz Royal Society"
+    original_title: "Secretary of the Royal Society"
+    summary: "Taylor pełnił funkcję sekretarza w okresie swojej największej aktywności matematycznej."
+    summary_original: "Taylor served as secretary during his most productive mathematical period."
+sources:
+  - title: "MacTutor — Brook Taylor"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Taylor/"
+  - title: "Wikipedia — Brook Taylor"
+    url: "https://en.wikipedia.org/wiki/Brook_Taylor"
