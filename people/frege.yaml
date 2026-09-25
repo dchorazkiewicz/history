@@ -1,0 +1,61 @@
+id: frege
+name: "Gottlob Frege"
+display_name: "Gottlob Frege"
+born:
+  date: "1848-11-08"
+  year: 1848
+  precision: day
+died:
+  date: "1925-07-26"
+  year: 1925
+  precision: day
+place_association: "Wismar; Jena, Niemcy"
+fields: [logic, mathematics, foundations_of_mathematics, philosophy, philosophy_of_language, philosophy_of_logic]
+image: null
+summary: "Niemiecki logik, matematyk i filozof, jeden z twórców nowoczesnej logiki formalnej i filozofii analitycznej. W Begriffsschrift stworzył system logiki predykatów, a jego program logicyzmu próbował wyprowadzić arytmetykę z logiki."
+summary_original: "German logician, mathematician and philosopher, one of the creators of modern formal logic and analytic philosophy. In Begriffsschrift he created a predicate-logic system, while his logicist program sought to derive arithmetic from logic."
+works:
+  - title: "Pismo pojęciowe"
+    original_title: "Begriffsschrift"
+    wikipedia: "https://en.wikipedia.org/wiki/Begriffsschrift"
+    year: 1879
+    precision: year
+    type: philosophy
+  - title: "Podstawy arytmetyki"
+    original_title: "Die Grundlagen der Arithmetik"
+    year: 1884
+    precision: year
+    type: philosophy
+  - title: "Podstawowe prawa arytmetyki"
+    original_title: "Grundgesetze der Arithmetik"
+    year: 1893
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Pierwszy tom ukazał się w 1893 r., drugi w 1903 r."
+    publication_note_original: "The first volume appeared in 1893 and the second in 1903."
+ideas:
+  - name: "Logika predykatów"
+    original_name: "Predicate logic"
+    summary: "Frege stworzył pierwszy dojrzały formalny rachunek kwantyfikatorów i relacji, znacznie potężniejszy od tradycyjnej logiki sylogistycznej."
+    summary_original: "Frege created the first mature formal calculus of quantification and relations, far more powerful than traditional syllogistic logic."
+  - name: "Logicyzm"
+    original_name: "Logicism"
+    summary: "Próbował wykazać, że prawdy arytmetyczne można wyprowadzić z praw logiki i odpowiednio zdefiniowanych pojęć."
+    summary_original: "He sought to show that arithmetic truths could be derived from laws of logic and suitably defined concepts."
+  - name: "Sens i znaczenie"
+    original_name: "Sense and reference"
+    wikipedia: "https://en.wikipedia.org/wiki/Sense_and_reference"
+    summary: "Rozróżnienie między sposobem przedstawienia obiektu a samym obiektem stało się fundamentem nowoczesnej filozofii języka."
+    summary_original: "The distinction between a mode of presentation and the object itself became foundational in modern philosophy of language."
+events:
+  - year: 1902
+    precision: year
+    title: "List Russella o paradoksie"
+    original_title: "Russell's letter about the paradox"
+    summary: "Bertrand Russell poinformował Fregego o sprzeczności wynikającej z jego systemu zbiorów, tuż przed drukiem drugiego tomu Grundgesetze."
+    summary_original: "Bertrand Russell informed Frege of a contradiction arising in his set framework just before the second volume of Grundgesetze went to press."
+sources:
+  - title: "Stanford Encyclopedia of Philosophy — Gottlob Frege"
+    url: "https://plato.stanford.edu/entries/frege/"
+  - title: "MacTutor — Gottlob Frege"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Frege/"
