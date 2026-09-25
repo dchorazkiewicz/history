@@ -1,0 +1,61 @@
+id: faraday
+name: "Michael Faraday"
+display_name: "Michael Faraday"
+born:
+  date: "1791-09-22"
+  year: 1791
+  precision: day
+died:
+  date: "1867-08-25"
+  year: 1867
+  precision: day
+place_association: "Newington Butts; Londyn"
+fields: [physics, chemistry, electromagnetism, electrochemistry, experimental_science, education]
+image: null
+summary: "Brytyjski eksperymentator, fizyk i chemik. Odkrył indukcję elektromagnetyczną, prawa elektrolizy i zjawisko diamagnetyzmu, wprowadził ideę linii sił i stworzył doświadczalne fundamenty elektromagnetyzmu, które Maxwell później ujął matematycznie."
+summary_original: "British experimentalist, physicist and chemist. He discovered electromagnetic induction, laws of electrolysis and diamagnetism, introduced the idea of lines of force, and created the experimental foundations of electromagnetism later mathematized by Maxwell."
+works:
+  - title: "Badania eksperymentalne nad elektrycznością"
+    original_title: "Experimental Researches in Electricity"
+    year: 1832
+    precision: year
+    type: scientific_treatise
+    publication_note: "Seria publikowana przez wiele lat, później zebrana w tomy."
+    publication_note_original: "A long-running series of papers later collected into volumes."
+ideas:
+  - name: "Indukcja elektromagnetyczna"
+    original_name: "Electromagnetic induction"
+    wikipedia: "https://en.wikipedia.org/wiki/Electromagnetic_induction"
+    summary: "Zmiana strumienia magnetycznego przez obwód indukuje w nim siłę elektromotoryczną."
+    summary_original: "A change in magnetic flux through a circuit induces an electromotive force."
+  - name: "Linie sił"
+    original_name: "Lines of force"
+    summary: "Faraday traktował oddziaływania elektryczne i magnetyczne jako lokalne własności przestrzeni, obrazowane przez linie pola."
+    summary_original: "Faraday treated electric and magnetic interactions as local properties of space represented by field lines."
+  - name: "Prawa elektrolizy"
+    original_name: "Faraday's laws of electrolysis"
+    wikipedia: "https://en.wikipedia.org/wiki/Faraday%27s_laws_of_electrolysis"
+    summary: "Ilość substancji wydzielanej podczas elektrolizy jest związana z przepływającym ładunkiem."
+    summary_original: "The amount of substance produced during electrolysis is related to the electric charge passed."
+  - name: "Efekt Faradaya"
+    original_name: "Faraday effect"
+    summary: "Pole magnetyczne może obracać płaszczyznę polaryzacji światła w ośrodku, ujawniając związek magnetyzmu z optyką."
+    summary_original: "A magnetic field can rotate the plane of polarization of light in a medium, revealing a link between magnetism and optics."
+events:
+  - year: 1821
+    precision: year
+    title: "Pierwszy silnik elektromagnetyczny"
+    original_title: "First electromagnetic rotation experiment"
+    summary: "Faraday zademonstrował ciągły ruch przewodnika wywołany oddziaływaniem prądu i magnesu."
+    summary_original: "Faraday demonstrated continuous motion of a conductor caused by interaction between current and a magnet."
+  - year: 1831
+    precision: year
+    title: "Odkrycie indukcji elektromagnetycznej"
+    original_title: "Discovery of electromagnetic induction"
+    summary: "Eksperymenty Faradaya stworzyły fizyczną podstawę generatorów, transformatorów i dużej części elektrotechniki."
+    summary_original: "Faraday's experiments created the physical basis of generators, transformers and much of electrical engineering."
+sources:
+  - title: "Royal Institution — Michael Faraday"
+    url: "https://www.rigb.org/explore-science/explore/person/michael-faraday"
+  - title: "Encyclopaedia Britannica — Michael Faraday"
+    url: "https://www.britannica.com/biography/Michael-Faraday"
