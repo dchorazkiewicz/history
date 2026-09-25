@@ -1,0 +1,54 @@
+id: sierpinski
+name: "Waclaw Sierpinski"
+display_name: "Wacław Sierpiński"
+born:
+  date: "1882-03-14"
+  year: 1882
+  precision: day
+died:
+  date: "1969-10-21"
+  year: 1969
+  precision: day
+place_association: "Warszawa; Lwów; Moskwa"
+fields: [mathematics, set_theory, topology, number_theory, real_analysis, foundations_of_mathematics, education]
+image: null
+summary: "Polski matematyk, jeden z głównych twórców warszawskiej szkoły teorii mnogości i topologii. Pracował nad teorią zbiorów, continuum, teorią liczb i topologią, a jego nazwisko noszą m.in. trójkąt i dywan Sierpińskiego."
+summary_original: "Polish mathematician and one of the principal creators of the Warsaw school of set theory and topology. He worked on set theory, the continuum, number theory and topology, and his name is attached to the Sierpiński triangle and carpet."
+works:
+  - title: "Zarys teorii mnogości"
+    original_title: "Zarys teorii mnogości"
+    year: 1912
+    precision: year
+    type: mathematical_treatise
+  - title: "Hipoteza continuum"
+    original_title: "Hypothèse du continu"
+    year: 1934
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Trójkąt Sierpińskiego"
+    original_name: "Sierpinski triangle"
+    wikipedia: "https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle"
+    summary: "Fraktalna konstrukcja otrzymywana przez iteracyjne usuwanie środkowych trójkątów."
+    summary_original: "A fractal construction obtained by iteratively removing central triangles."
+  - name: "Dywan Sierpińskiego"
+    original_name: "Sierpinski carpet"
+    wikipedia: "https://en.wikipedia.org/wiki/Sierpi%C5%84ski_carpet"
+    summary: "Dwuwymiarowy fraktal będący klasycznym przykładem obiektu topologicznego o złożonej strukturze."
+    summary_original: "A two-dimensional fractal that became a classic example of a topologically intricate object."
+  - name: "Teoria continuum i zbiorów nieskończonych"
+    original_name: "Theory of the continuum and infinite sets"
+    summary: "Sierpiński należał do czołowych badaczy konsekwencji hipotezy continuum i aksjomatu wyboru."
+    summary_original: "Sierpiński was a leading researcher on consequences of the continuum hypothesis and axiom of choice."
+events:
+  - year: 1919
+    precision: year
+    title: "Profesor Uniwersytetu Warszawskiego"
+    original_title: "Professor at the University of Warsaw"
+    summary: "Wokół Sierpińskiego i jego współpracowników rozwinęła się jedna z najważniejszych szkół teorii mnogości na świecie."
+    summary_original: "Around Sierpiński and his collaborators one of the world's leading schools of set theory developed."
+sources:
+  - title: "MacTutor — Wacław Sierpiński"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Sierpinski/"
+  - title: "Wikipedia — Wacław Sierpiński"
+    url: "https://en.wikipedia.org/wiki/Wac%C5%82aw_Sierpi%C5%84ski"
