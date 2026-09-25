@@ -29,3 +29,10 @@ Każda osoba ma jeden plik YAML. **Polski jest językiem podstawowym interfejsu*
 - `works`, `ideas` i `events` nie są filtrowane według kanonu. Mają przedstawiać pełny historycznie istotny profil działalności.
 - Kanony i `focus` w `people_status.yaml` służą wyłącznie do indeksowania i znajdowania osób. Nie ograniczają zawartości `people/<id>.yaml`.
 - Przy aktualizacji istniejącej osoby należy rozszerzać jeden rekord, a nie tworzyć osobne wersje „matematyka”, „fizyka”, „filozofa” itd.
+
+
+## Osoby żyjące
+
+- Dla osoby żyjącej zapisujemy `died: null` albo pomijamy pole `died`.
+- Interfejs pokazuje wtedy zakres `rok urodzenia – żyje`, a pasek życia dochodzi do bieżącego roku.
+- Nie wpisujemy fikcyjnej przyszłej daty śmierci tylko po to, żeby spełnić schemat.
