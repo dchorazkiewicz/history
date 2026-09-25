@@ -1,0 +1,55 @@
+id: torricelli
+name: "Evangelista Torricelli"
+display_name: "Evangelista Torricelli"
+born:
+  date: "1608-10-15"
+  year: 1608
+  precision: day
+died:
+  date: "1647-10-25"
+  year: 1647
+  precision: day
+place_association: "Faenza; Rzym; Florencja"
+fields: [physics, mathematics, mechanics, fluid_mechanics, hydrostatics, optics, engineering]
+image: null
+summary: "Włoski matematyk i fizyk, uczeń Galileusza i jego następca we Florencji. Zbudował barometr rtęciowy, wykazał istnienie ciśnienia atmosferycznego i próżni nad słupem rtęci oraz rozwijał mechanikę cieczy i geometrię."
+summary_original: "Italian mathematician and physicist, a student of Galileo and his successor in Florence. He built the mercury barometer, demonstrated atmospheric pressure and the vacuum above a mercury column, and advanced fluid mechanics and geometry."
+works:
+  - title: "Dzieła geometryczne"
+    original_title: "Opera geometrica"
+    year: 1644
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Barometr rtęciowy"
+    original_name: "Mercury barometer"
+    wikipedia: "https://en.wikipedia.org/wiki/Barometer"
+    summary: "Torricelli pokazał, że wysokość słupa rtęci zależy od nacisku atmosfery, a przestrzeń nad nim może być niemal próżna."
+    summary_original: "Torricelli showed that the height of a mercury column is supported by atmospheric pressure and that the space above it can be nearly empty."
+  - name: "Prawo Torricellego"
+    original_name: "Torricelli's law"
+    wikipedia: "https://en.wikipedia.org/wiki/Torricelli%27s_law"
+    summary: "Prędkość wypływu cieczy z otworu jest związana z wysokością słupa cieczy nad otworem."
+    summary_original: "The speed of efflux from an opening is related to the height of fluid above the opening."
+  - name: "Próżnia Torricellego"
+    original_name: "Torricellian vacuum"
+    summary: "Doświadczenie z rurką rtęciową dostarczyło mocnego argumentu przeciw przekonaniu, że natura nie dopuszcza próżni."
+    summary_original: "The mercury-tube experiment provided strong evidence against the traditional claim that nature could not admit a vacuum."
+events:
+  - year: 1641
+    precision: year
+    title: "Praca z Galileuszem"
+    original_title: "Work with Galileo"
+    summary: "Torricelli został zaproszony przez Galileusza do Florencji i spędził z nim ostatnie miesiące jego życia."
+    summary_original: "Torricelli was invited by Galileo to Florence and spent the final months of Galileo's life working with him."
+  - year: 1643
+    precision: approximate
+    title: "Doświadczenie barometryczne"
+    original_title: "Barometer experiment"
+    summary: "Eksperyment z rtęcią wykazał działanie ciśnienia atmosferycznego i powstanie próżni nad słupem cieczy."
+    summary_original: "The mercury experiment demonstrated atmospheric pressure and the formation of a vacuum above the liquid column."
+sources:
+  - title: "MacTutor — Evangelista Torricelli"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Torricelli/"
+  - title: "Encyclopaedia Britannica — Evangelista Torricelli"
+    url: "https://www.britannica.com/biography/Evangelista-Torricelli"
