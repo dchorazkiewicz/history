@@ -1,0 +1,50 @@
+id: raman
+name: "Chandrasekhara Venkata Raman"
+display_name: "C. V. Raman"
+born:
+  date: "1888-11-07"
+  year: 1888
+  precision: day
+died:
+  date: "1970-11-21"
+  year: 1970
+  precision: day
+place_association: "Tiruchirappalli; Kalkuta; Bangalore"
+fields: [physics, optics, spectroscopy, acoustics, condensed_matter_physics]
+image: null
+summary: "Indyjski fizyk, odkrywca efektu Ramana. Badał rozpraszanie światła w materii, optykę kryształów i akustykę, a jego odkrycie dało początek jednej z najważniejszych metod spektroskopowych."
+summary_original: "Indian physicist who discovered the Raman effect. He studied light scattering in matter, crystal optics and acoustics, and his discovery founded one of the most important spectroscopic methods."
+works:
+  - title: "Nowy typ wtórnego promieniowania"
+    original_title: "A New Type of Secondary Radiation"
+    year: 1928
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Efekt Ramana"
+    original_name: "Raman effect"
+    wikipedia: "https://en.wikipedia.org/wiki/Raman_scattering"
+    summary: "Niewielka część światła rozproszonego przez cząsteczki zmienia częstotliwość, przekazując informację o ich drganiach i rotacjach."
+    summary_original: "A small fraction of light scattered by molecules changes frequency, revealing information about molecular vibrations and rotations."
+  - name: "Spektroskopia Ramana"
+    original_name: "Raman spectroscopy"
+    summary: "Efekt umożliwia identyfikację materiałów i struktur molekularnych na podstawie charakterystycznych przesunięć częstotliwości."
+    summary_original: "The effect enables identification of materials and molecular structures through characteristic frequency shifts."
+events:
+  - year: 1928
+    precision: day
+    title: "Odkrycie efektu Ramana"
+    original_title: "Discovery of the Raman effect"
+    summary: "28 lutego Raman i jego współpracownicy zaobserwowali przesunięte częstotliwości w świetle rozproszonym."
+    summary_original: "On 28 February Raman and collaborators observed shifted frequencies in scattered light."
+  - year: 1930
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Raman został nagrodzony za badania rozpraszania światła i odkrycie efektu nazwanego jego nazwiskiem."
+    summary_original: "Raman was honored for work on light scattering and discovery of the effect bearing his name."
+sources:
+  - title: "Nobel Prize — C. V. Raman"
+    url: "https://www.nobelprize.org/prizes/physics/1930/raman/facts/"
+  - title: "Encyclopaedia Britannica — C. V. Raman"
+    url: "https://www.britannica.com/biography/C-V-Raman"
