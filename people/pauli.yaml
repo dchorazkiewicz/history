@@ -1,0 +1,54 @@
+id: pauli
+name: "Wolfgang Ernst Pauli"
+display_name: "Wolfgang Pauli"
+born:
+  date: "1900-04-25"
+  year: 1900
+  precision: day
+died:
+  date: "1958-12-15"
+  year: 1958
+  precision: day
+place_association: "Wiedeń; Monachium; Hamburg; Zurych; Princeton"
+fields: [physics, quantum_mechanics, atomic_physics, particle_physics, quantum_field_theory, philosophy_of_science]
+image: null
+summary: "Austriacko-szwajcarski fizyk teoretyczny, autor zasady wykluczania i jeden z głównych architektów mechaniki kwantowej. Przewidział istnienie neutrina i wniósł fundamentalny wkład do teorii spinu oraz kwantowej teorii pola."
+summary_original: "Austrian-Swiss theoretical physicist, author of the exclusion principle and a major architect of quantum mechanics. He predicted the neutrino and made fundamental contributions to spin theory and quantum field theory."
+works:
+  - title: "O związku zamknięcia grup elektronowych w atomie z budową złożonych widm"
+    original_title: "Über den Zusammenhang des Abschlusses der Elektronengruppen im Atom mit der Komplexstruktur der Spektren"
+    year: 1925
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Zasada wykluczania Pauliego"
+    original_name: "Pauli exclusion principle"
+    wikipedia: "https://en.wikipedia.org/wiki/Pauli_exclusion_principle"
+    summary: "Dwa identyczne fermiony nie mogą zajmować tego samego stanu kwantowego."
+    summary_original: "No two identical fermions can occupy the same quantum state."
+  - name: "Przewidzenie neutrina"
+    original_name: "Neutrino hypothesis"
+    summary: "Aby zachować energię, pęd i moment pędu w rozpadzie beta, Pauli zaproponował istnienie lekkiej neutralnej cząstki."
+    summary_original: "To preserve energy, momentum and angular momentum in beta decay, Pauli proposed a light neutral particle."
+  - name: "Macierze Pauliego"
+    original_name: "Pauli matrices"
+    summary: "Macierze 2×2 opisują spin 1/2 i stały się podstawowym narzędziem mechaniki kwantowej."
+    summary_original: "The 2x2 matrices describe spin one-half and became basic tools in quantum mechanics."
+events:
+  - year: 1930
+    precision: year
+    title: "Hipoteza neutrina"
+    original_title: "Neutrino hypothesis"
+    summary: "Pauli przedstawił pomysł w słynnym liście do uczestników konferencji w Tybindze."
+    summary_original: "Pauli proposed the idea in a famous letter to participants at a meeting in Tübingen."
+  - year: 1945
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Nagrodzono go za odkrycie zasady wykluczania."
+    summary_original: "He was honored for the discovery of the exclusion principle."
+sources:
+  - title: "Nobel Prize — Wolfgang Pauli"
+    url: "https://www.nobelprize.org/prizes/physics/1945/pauli/facts/"
+  - title: "Encyclopaedia Britannica — Wolfgang Pauli"
+    url: "https://www.britannica.com/biography/Wolfgang-Pauli"
