@@ -1,0 +1,48 @@
+id: joule
+name: "James Prescott Joule"
+display_name: "James Prescott Joule"
+born:
+  date: "1818-12-24"
+  year: 1818
+  precision: day
+died:
+  date: "1889-10-11"
+  year: 1889
+  precision: day
+place_association: "Salford; Manchester"
+fields: [physics, thermodynamics, electricity, experimental_science]
+image: null
+summary: "Brytyjski fizyk eksperymentalny, który wykazał ilościową równoważność pracy mechanicznej i ciepła. Jego pomiary stały się kluczowym elementem zasady zachowania energii i pierwszej zasady termodynamiki."
+summary_original: "British experimental physicist who demonstrated the quantitative equivalence of mechanical work and heat. His measurements became central to energy conservation and the first law of thermodynamics."
+works:
+  - title: "O mechanicznym równoważniku ciepła"
+    original_title: "On the Mechanical Equivalent of Heat"
+    year: 1850
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Mechaniczny równoważnik ciepła"
+    original_name: "Mechanical equivalent of heat"
+    summary: "Joule wykazał, że określona ilość pracy mechanicznej prowadzi do określonego przyrostu ciepła."
+    summary_original: "Joule showed that a definite amount of mechanical work corresponds to a definite amount of heat."
+  - name: "Prawo Joule’a"
+    original_name: "Joule's law"
+    wikipedia: "https://en.wikipedia.org/wiki/Joule_heating"
+    summary: "Ciepło wydzielane w przewodniku rośnie z kwadratem natężenia prądu, oporem i czasem."
+    summary_original: "Heat generated in a conductor grows with the square of current, resistance and time."
+  - name: "Efekt Joule’a-Thomsona"
+    original_name: "Joule-Thomson effect"
+    summary: "Wspólnie z Williamem Thomsonem badał zmianę temperatury gazu podczas dławienia bez wymiany ciepła z otoczeniem."
+    summary_original: "With William Thomson he studied temperature change in a gas during throttling without heat exchange with the surroundings."
+events:
+  - year: 1845
+    precision: year
+    title: "Eksperymenty z mieszadłem łopatkowym"
+    original_title: "Paddle-wheel experiments"
+    summary: "Joule porównywał pracę mechaniczną opadających ciężarków z ogrzewaniem wody."
+    summary_original: "Joule compared mechanical work from falling weights with the resulting heating of water."
+sources:
+  - title: "Encyclopaedia Britannica — James Prescott Joule"
+    url: "https://www.britannica.com/biography/James-Prescott-Joule"
+  - title: "Wikipedia — James Prescott Joule"
+    url: "https://en.wikipedia.org/wiki/James_Prescott_Joule"
