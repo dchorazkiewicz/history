@@ -1,0 +1,76 @@
+id: omar_khayyam
+name: "Omar Khayyam"
+display_name: "Omar Chajjam"
+born:
+  date: "1048-05-18"
+  year: 1048
+  precision: day
+died:
+  date: "1131-12-04"
+  year: 1131
+  precision: day
+place_association: "Niszapur; Samarkanda; Isfahan, Persja"
+fields: [mathematics, algebra, geometry, astronomy, calendar_science, philosophy, poetry]
+image: null
+summary: "Perski matematyk, astronom, filozof i poeta. W matematyce stworzył systematyczną klasyfikację równań sześciennych i rozwiązywał je geometrycznie przez przecięcia krzywych stożkowych; uczestniczył też w reformie kalendarza perskiego. Jego sława literacka wiąże się z rubajjatami, choć autorstwo wielu przypisywanych mu czterowierszy jest niepewne."
+summary_original: "Persian mathematician, astronomer, philosopher and poet. In mathematics he produced a systematic classification of cubic equations and solved them geometrically using intersections of conics; he also participated in Persian calendar reform. His literary fame is tied to the Rubaiyat, although the authorship of many quatrains attributed to him is uncertain."
+works:
+  - title: "Traktat o dowodzeniu problemów algebry"
+    original_title: "Treatise on Demonstration of Problems of Algebra"
+    year: 1070
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Dzieło zawierało systematyczną klasyfikację równań sześciennych i konstrukcje rozwiązań za pomocą przecięć krzywych stożkowych."
+    publication_note_original: "The work contained a systematic classification of cubic equations and constructions of solutions using intersections of conic sections."
+  - title: "Traktat o trudnościach w postulatach Euklidesa"
+    original_title: "Treatise on Difficulties in the Postulates of Euclid"
+    year: 1077
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Praca dotyczyła teorii proporcji i postulatu równoległych."
+    publication_note_original: "A work dealing with proportion theory and the parallel postulate."
+  - title: "Rubajaty"
+    original_title: "Rubaiyat"
+    year: 1100
+    precision: approximate
+    type: poetry
+    publication_note: "Zbiór czterowierszy przypisywanych Chajjamowi narastał w tradycji rękopiśmiennej. Autorstwo wielu pojedynczych rubajjatów jest dyskutowane."
+    publication_note_original: "The corpus of quatrains attributed to Khayyam grew in manuscript tradition; authorship of many individual rubai is disputed."
+ideas:
+  - name: "Klasyfikacja równań sześciennych"
+    original_name: "Classification of cubic equations"
+    summary: "Chajjam klasyfikował równania stopnia trzeciego według występujących wyrazów i podał geometryczne rozwiązania wielu typów za pomocą przecięć paraboli, okręgów i hiperbol."
+    summary_original: "Khayyam classified cubic equations according to their terms and gave geometric solutions to many types using intersections of parabolas, circles and hyperbolas."
+  - name: "Geometria zamiast symbolicznego wzoru ogólnego"
+    original_name: "Geometric solution of cubics"
+    summary: "Nie dysponował ogólnym rozwiązaniem algebraicznym równania sześciennego, ale jego systematyczna metoda geometryczna była jednym z najważniejszych etapów rozwoju algebry."
+    summary_original: "He did not have a general algebraic formula for the cubic, but his systematic geometric method was a major stage in the development of algebra."
+  - name: "Reforma kalendarza dżalalijskiego"
+    original_name: "Jalali calendar reform"
+    wikipedia: "https://en.wikipedia.org/wiki/Jalali_calendar"
+    summary: "Jako członek zespołu astronomów w Isfahanie uczestniczył w opracowaniu bardzo dokładnego kalendarza słonecznego wprowadzonego w 1079 r."
+    summary_original: "As a member of the astronomical team at Isfahan he helped develop a highly accurate solar calendar introduced in 1079."
+  - name: "Filozoficzna refleksja nad koniecznością i przemijaniem"
+    original_name: "Philosophical reflection on necessity and transience"
+    summary: "Teksty filozoficzne i poetyckie przypisywane Chajjamowi podejmują problemy konieczności, poznania, losu i przemijania, choć granice autentycznego korpusu są niepewne."
+    summary_original: "Philosophical and poetic texts attributed to Khayyam address necessity, knowledge, fate and transience, although the boundaries of the authentic corpus are uncertain."
+events:
+  - year: 1074
+    precision: approximate
+    title: "Praca w obserwatorium w Isfahanie"
+    original_title: "Work at the Isfahan observatory"
+    summary: "Sułtan Malikszah powierzył Chajjamowi i grupie astronomów zadanie reformy kalendarza i prowadzenia obserwacji."
+    summary_original: "Sultan Malik-Shah tasked Khayyam and a group of astronomers with calendar reform and observations."
+  - year: 1079
+    precision: year
+    title: "Wprowadzenie kalendarza dżalalijskiego"
+    original_title: "Introduction of the Jalali calendar"
+    summary: "W Persji wprowadzono nowy kalendarz słoneczny oparty na pracach zespołu astronomicznego z Isfahanu."
+    summary_original: "Persia introduced a new solar calendar based on the work of the Isfahan astronomical team."
+sources:
+  - title: "MacTutor — Omar Khayyam"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Khayyam/"
+  - title: "MacTutor — Arabic mathematics"
+    url: "https://mathshistory.st-andrews.ac.uk/HistTopics/Arabic_mathematics/"
+  - title: "Wikipedia — Omar Khayyam"
+    url: "https://en.wikipedia.org/wiki/Omar_Khayyam"
