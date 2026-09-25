@@ -1,0 +1,70 @@
+id: minkowski
+name: "Hermann Minkowski"
+display_name: "Hermann Minkowski"
+born:
+  date: "1864-06-22"
+  year: 1864
+  precision: day
+died:
+  date: "1909-01-12"
+  year: 1909
+  precision: day
+place_association: "Aleksotas; Królewiec; Zurych; Getynga"
+fields: [mathematics, number_theory, geometry, convex_geometry, relativity, spacetime, mathematical_physics]
+image: null
+summary: "Matematyk urodzony w Imperium Rosyjskim i działający w Niemczech oraz Szwajcarii. Stworzył geometrię liczb, rozwijał geometrię wypukłą i w 1907–1908 r. nadał szczególnej teorii względności czterowymiarową interpretację czasoprzestrzenną."
+summary_original: "Mathematician born in the Russian Empire and active in Germany and Switzerland. He created the geometry of numbers, advanced convex geometry, and in 1907–1908 gave special relativity a four-dimensional spacetime interpretation."
+works:
+  - title: "Geometria liczb"
+    original_title: "Geometrie der Zahlen"
+    wikipedia: "https://en.wikipedia.org/wiki/Geometry_of_numbers"
+    year: 1896
+    precision: year
+    type: mathematical_treatise
+  - title: "Przestrzeń i czas"
+    original_title: "Raum und Zeit"
+    wikipedia: "https://en.wikipedia.org/wiki/Spacetime"
+    year: 1908
+    precision: year
+    type: scientific_treatise
+    publication_note: "Słynny wykład wygłoszony w Kolonii w 1908 r.; opublikowany w 1909 r."
+    publication_note_original: "Famous lecture delivered in Cologne in 1908 and published in 1909."
+ideas:
+  - name: "Geometria liczb"
+    original_name: "Geometry of numbers"
+    summary: "Minkowski badał problemy teorii liczb przez geometrię wypukłych obszarów i punktów kratowych."
+    summary_original: "Minkowski studied number-theoretic problems through convex geometry and lattice points."
+  - name: "Twierdzenie Minkowskiego o punktach kratowych"
+    original_name: "Minkowski's convex body theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Minkowski%27s_theorem"
+    summary: "Odpowiednio duży symetryczny wypukły zbiór zawiera niezerowy punkt kratowy, co łączy objętość geometryczną z arytmetyką."
+    summary_original: "A sufficiently large symmetric convex body contains a nonzero lattice point, linking geometric volume with arithmetic."
+  - name: "Czasoprzestrzeń Minkowskiego"
+    original_name: "Minkowski spacetime"
+    wikipedia: "https://en.wikipedia.org/wiki/Minkowski_space"
+    summary: "Połączył trzy wymiary przestrzeni i czas w czterowymiarową strukturę geometryczną, która stała się naturalnym językiem szczególnej teorii względności."
+    summary_original: "He combined three spatial dimensions and time into a four-dimensional geometric structure that became the natural language of special relativity."
+events:
+  - year: 1883
+    precision: year
+    title: "Nagroda Akademii Francuskiej za teorię form kwadratowych"
+    original_title: "French Academy prize for quadratic forms"
+    summary: "Minkowski zdobył Grand Prix des Sciences Mathématiques jeszcze jako młody student."
+    summary_original: "Minkowski won the Grand Prix des Sciences Mathématiques while still a young student."
+  - year: 1902
+    precision: year
+    title: "Profesor w Getyndze"
+    original_title: "Professor at Göttingen"
+    summary: "Na zaproszenie Hilberta objął katedrę w Getyndze, gdzie później rozwinął geometryczne ujęcie względności."
+    summary_original: "At Hilbert's invitation he took a chair at Göttingen, where he later developed the geometric formulation of relativity."
+  - year: 1908
+    precision: year
+    title: "Wykład „Przestrzeń i czas”"
+    original_title: "Space and Time lecture"
+    summary: "Minkowski przedstawił geometryczną interpretację teorii względności w słynnym wykładzie w Kolonii."
+    summary_original: "Minkowski presented the geometric interpretation of relativity in his famous Cologne lecture."
+sources:
+  - title: "MacTutor — Hermann Minkowski"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Minkowski/"
+  - title: "Wikipedia — Hermann Minkowski"
+    url: "https://en.wikipedia.org/wiki/Hermann_Minkowski"
