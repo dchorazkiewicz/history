@@ -1,0 +1,60 @@
+id: cayley
+name: "Arthur Cayley"
+display_name: "Arthur Cayley"
+born:
+  date: "1821-08-16"
+  year: 1821
+  precision: day
+died:
+  date: "1895-01-26"
+  year: 1895
+  precision: day
+place_association: "Richmond; Londyn; Cambridge, Wielka Brytania"
+fields: [mathematics, algebra, matrix_theory, invariant_theory, group_theory, algebraic_geometry, geometry, law]
+image: null
+summary: "Brytyjski matematyk i przez wiele lat praktykujący prawnik. Był jednym z głównych twórców nowoczesnej algebry: rozwijał teorię macierzy, grup, niezmienników i geometrię algebraiczną, a jego prace pomogły oderwać algebrę od samego rozwiązywania równań."
+summary_original: "British mathematician and for many years a practicing lawyer. He was one of the principal creators of modern algebra, developing matrix theory, groups, invariants and algebraic geometry, and helping move algebra beyond equation solving."
+works:
+  - title: "O teorii grup zależnych od równania symbolicznego θⁿ = 1"
+    original_title: "On the theory of groups, as depending on the symbolic equation θ^n = 1"
+    year: 1854
+    precision: year
+    type: mathematical_essay
+  - title: "Pamiętnik o teorii macierzy"
+    original_title: "A Memoir on the Theory of Matrices"
+    year: 1858
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Macierz jako samodzielny obiekt algebraiczny"
+    original_name: "Matrix as an algebraic object"
+    wikipedia: "https://en.wikipedia.org/wiki/Matrix_(mathematics)"
+    summary: "Cayley rozwinął rachunek macierzy jako teorię obiektów podlegających własnym prawom mnożenia i przekształceń."
+    summary_original: "Cayley developed matrix algebra as a theory of objects governed by their own multiplication and transformation laws."
+  - name: "Twierdzenie Cayleya-Hamiltona"
+    original_name: "Cayley–Hamilton theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Cayley%E2%80%93Hamilton_theorem"
+    summary: "Każda macierz kwadratowa spełnia własne równanie charakterystyczne."
+    summary_original: "Every square matrix satisfies its own characteristic equation."
+  - name: "Abstrakcyjna teoria grup"
+    original_name: "Abstract group theory"
+    summary: "Cayley pokazywał, że grupy można badać niezależnie od konkretnego pochodzenia ich elementów, np. od permutacji."
+    summary_original: "Cayley showed that groups could be studied independently of the specific origin of their elements, such as permutations."
+events:
+  - year: 1849
+    precision: year
+    title: "Rozpoczęcie praktyki prawniczej"
+    original_title: "Beginning legal practice"
+    summary: "Przez kilkanaście lat Cayley utrzymywał się jako prawnik, publikując matematykę równolegle z pracą zawodową."
+    summary_original: "For over a decade Cayley supported himself as a lawyer while publishing mathematics alongside professional work."
+  - year: 1863
+    precision: year
+    title: "Objęcie Sadleirian Professorship w Cambridge"
+    original_title: "Appointment to the Sadleirian Professorship at Cambridge"
+    summary: "Po objęciu katedry mógł poświęcić się matematyce w pełnym wymiarze."
+    summary_original: "After taking the chair he was able to devote himself fully to mathematics."
+sources:
+  - title: "MacTutor — Arthur Cayley"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Cayley/"
+  - title: "Wikipedia — Arthur Cayley"
+    url: "https://en.wikipedia.org/wiki/Arthur_Cayley"
