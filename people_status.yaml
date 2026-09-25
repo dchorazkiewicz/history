@@ -35,25 +35,25 @@ people:
   - id: archimedes
     name: "Archimedes"
     status: described
-    focus: [physics]
+    focus: [physics, mathematics]
     data_file: "people/archimedes.yaml"
 
   - id: ptolemy
     name: "Klaudiusz Ptolemeusz"
     status: described
-    focus: [physics]
+    focus: [physics, mathematics]
     data_file: "people/ptolemy.yaml"
 
   - id: copernicus
     name: "Mikołaj Kopernik"
     status: described
-    focus: [physics]
+    focus: [physics, mathematics]
     data_file: "people/copernicus.yaml"
 
   - id: descartes
     name: "René Descartes (Kartezjusz)"
     status: described
-    focus: [physics]
+    focus: [physics, mathematics]
     data_file: "people/descartes.yaml"
 
   - id: hobbes
@@ -69,13 +69,13 @@ people:
   - id: newton
     name: "Isaac Newton"
     status: described
-    focus: [physics]
+    focus: [physics, mathematics]
     data_file: "people/newton.yaml"
 
   - id: leibniz
     name: "Gottfried Wilhelm Leibniz"
     status: described
-    focus: [physics]
+    focus: [physics, mathematics]
     data_file: "people/leibniz.yaml"
 
   - id: voltaire
@@ -1280,3 +1280,58 @@ people:
     name: "Juan Maldacena"
     status: pending
     focus: [physics]
+
+  - id: omar_khayyam
+    name: "Omar Chajjam"
+    status: pending
+    focus: [mathematics]
+
+  - id: fermat
+    name: "Pierre de Fermat"
+    status: pending
+    focus: [mathematics]
+
+  - id: cavalieri
+    name: "Bonaventura Cavalieri"
+    status: pending
+    focus: [mathematics]
+
+  - id: jacob_bernoulli
+    name: "Jacob Bernoulli"
+    status: pending
+    focus: [mathematics]
+
+  - id: dalembert
+    name: "Jean le Rond d’Alembert"
+    status: pending
+    focus: [mathematics, physics]
+
+  - id: laplace
+    name: "Pierre-Simon Laplace"
+    status: pending
+    focus: [mathematics, physics]
+
+  - id: fourier
+    name: "Joseph Fourier"
+    status: pending
+    focus: [mathematics, physics]
+
+  - id: minkowski
+    name: "Hermann Minkowski"
+    status: pending
+    focus: [mathematics, physics]
+
+  - id: noether
+    name: "Emmy Noether"
+    status: pending
+    focus: [mathematics, physics]
+
+  - id: ramanujan
+    name: "Srinivasa Ramanujan"
+    status: pending
+    focus: [mathematics]
+
+  - id: church
+    name: "Alonzo Church"
+    status: pending
+    focus: [mathematics]
