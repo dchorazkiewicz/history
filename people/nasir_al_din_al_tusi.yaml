@@ -1,0 +1,79 @@
+id: nasir_al_din_al_tusi
+name: "Nasir al-Din al-Tusi"
+display_name: "Nasir ad-Din at-Tusi"
+born:
+  date: "1201-02-18"
+  year: 1201
+  precision: day
+died:
+  date: "1274-06-26"
+  year: 1274
+  precision: day
+place_association: "Tus; Alamut; Maragha; Bagdad"
+fields: [mathematics, trigonometry, astronomy, philosophy, ethics, theology, medicine, mineralogy]
+image: null
+summary: "Perski matematyk, astronom, filozof i uczony o bardzo szerokim dorobku. Rozwinął trygonometrię jako względnie samodzielną dziedzinę, stworzył model znany jako para Tusiego, kierował obserwatorium w Maradze i wywarł wielki wpływ na późniejszą astronomię islamu."
+summary_original: "Persian mathematician, astronomer, philosopher and polymath. He advanced trigonometry as a relatively independent discipline, created the model known as the Tusi couple, directed the Maragha observatory and exerted major influence on later Islamic astronomy."
+works:
+  - title: "Etyka Nasirejska"
+    original_title: "Akhlaq-i Nasiri"
+    year: 1235
+    precision: approximate
+    type: book
+    publication_note: "Wpływowy traktat z etyki, filozofii praktycznej, ekonomiki gospodarstwa i polityki."
+    publication_note_original: "An influential treatise on ethics, practical philosophy, household economy and politics."
+  - title: "Traktat o czworokącie"
+    original_title: "Treatise on the Quadrilateral"
+    year: 1250
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Dzieło o trygonometrii płaskiej i sferycznej, istotne dla usamodzielnienia trygonometrii."
+    publication_note_original: "A work on plane and spherical trigonometry, important in establishing trigonometry as a discipline."
+  - title: "Pamiętnik o astronomii"
+    original_title: "Tadhkira fi ilm al-hay'a"
+    year: 1260
+    precision: approximate
+    type: astronomical_treatise
+  - title: "Tablice ilchanidzkie"
+    original_title: "Zij-i Ilkhani"
+    year: 1272
+    precision: approximate
+    type: astronomical_treatise
+    publication_note: "Tablice powstałe na podstawie obserwacji prowadzonych w obserwatorium w Maradze."
+    publication_note_original: "Astronomical tables based on observations conducted at the Maragha observatory."
+ideas:
+  - name: "Para Tusiego"
+    original_name: "Tusi couple"
+    wikipedia: "https://en.wikipedia.org/wiki/Tusi_couple"
+    summary: "Konstrukcja geometryczna, w której ruch punktu na mniejszym okręgu toczącym się wewnątrz większego daje ruch prostoliniowy tam i z powrotem. Pozwalała modyfikować modele planetarne bez rezygnacji z ruchów kołowych."
+    summary_original: "A geometric construction in which a point on a smaller circle rolling inside a larger one produces linear oscillation, allowing planetary models to be modified while retaining circular motions."
+  - name: "Trygonometria jako samodzielna dziedzina"
+    original_name: "Trigonometry as an independent discipline"
+    summary: "At-Tusi przedstawiał zależności trygonometryczne w sposób mniej zależny od konkretnych problemów astronomicznych niż wcześniejsi autorzy."
+    summary_original: "Al-Tusi presented trigonometric relations in a form less dependent on specific astronomical problems than earlier authors."
+  - name: "Prawo sinusów dla trójkątów sferycznych"
+    original_name: "Law of sines for spherical triangles"
+    summary: "Systematyzował relacje pozwalające rozwiązywać trójkąty sferyczne, kluczowe dla astronomii i geografii."
+    summary_original: "He systematized relations for solving spherical triangles, crucial to astronomy and geography."
+  - name: "Filozofia przestrzeni i etyka"
+    original_name: "Philosophy of space and ethics"
+    summary: "Poza naukami ścisłymi pisał o naturze przestrzeni, metafizyce, teologii i etyce, co czyni jego dossier wyraźnie interdyscyplinarnym."
+    summary_original: "Beyond the exact sciences he wrote on the nature of space, metaphysics, theology and ethics, making his intellectual profile strongly interdisciplinary."
+events:
+  - year: 1256
+    precision: year
+    title: "Przejście do służby Hulagu-chana"
+    original_title: "Entry into the service of Hulagu Khan"
+    summary: "Po zdobyciu twierdz nizarytów przez Mongołów at-Tusi znalazł się w otoczeniu Hulagu i wykorzystał tę pozycję do organizacji nowego ośrodka naukowego."
+    summary_original: "After the Mongol capture of the Nizari fortresses, al-Tusi entered Hulagu's service and used his position to organize a new scientific center."
+  - year: 1259
+    precision: approximate
+    title: "Powstanie obserwatorium w Maradze"
+    original_title: "Foundation of the Maragha observatory"
+    summary: "At-Tusi kierował budową i działalnością jednego z najważniejszych obserwatoriów średniowiecznego świata."
+    summary_original: "Al-Tusi directed the construction and activity of one of the medieval world's most important observatories."
+sources:
+  - title: "MacTutor — Nasir al-Din al-Tusi"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Tusi_Nasir/"
+  - title: "Wikipedia — Nasir al-Din al-Tusi"
+    url: "https://en.wikipedia.org/wiki/Nasir_al-Din_al-Tusi"
