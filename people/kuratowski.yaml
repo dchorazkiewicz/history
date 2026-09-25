@@ -1,0 +1,56 @@
+id: kuratowski
+name: "Kazimierz Kuratowski"
+display_name: "Kazimierz Kuratowski"
+born:
+  date: "1896-02-02"
+  year: 1896
+  precision: day
+died:
+  date: "1980-06-18"
+  year: 1980
+  precision: day
+place_association: "Warszawa; Lwów"
+fields: [mathematics, topology, set_theory, graph_theory, foundations_of_mathematics, education, scientific_organization]
+image: null
+summary: "Polski matematyk, jeden z najważniejszych twórców topologii ogólnej i warszawskiej szkoły matematycznej. Sformułował aksjomaty domknięcia, podał klasyczne kryterium planarności grafów i odegrał dużą rolę w odbudowie polskiej nauki po II wojnie światowej."
+summary_original: "Polish mathematician, a major creator of general topology and the Warsaw mathematical school. He formulated closure axioms, gave a classical criterion for graph planarity, and played a major role in rebuilding Polish science after World War II."
+works:
+  - title: "Topologia I"
+    original_title: "Topologie I"
+    year: 1933
+    precision: year
+    type: mathematical_treatise
+  - title: "Topologia II"
+    original_title: "Topologie II"
+    year: 1950
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Aksjomaty domknięcia Kuratowskiego"
+    original_name: "Kuratowski closure axioms"
+    wikipedia: "https://en.wikipedia.org/wiki/Kuratowski_closure_axioms"
+    summary: "Topologię można opisać przez operację domknięcia spełniającą cztery proste aksjomaty."
+    summary_original: "A topology can be described by a closure operation satisfying four simple axioms."
+  - name: "Twierdzenie Kuratowskiego o grafach planarnych"
+    original_name: "Kuratowski's theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Kuratowski%27s_theorem"
+    summary: "Graf jest planarny wtedy i tylko wtedy, gdy nie zawiera podziału K5 ani K3,3."
+    summary_original: "A graph is planar if and only if it contains no subdivision of K5 or K3,3."
+events:
+  - year: 1927
+    precision: year
+    title: "Profesor Politechniki Lwowskiej"
+    original_title: "Professor at Lwów Polytechnic"
+    summary: "Kuratowski wszedł do środowiska lwowskiej szkoły matematycznej."
+    summary_original: "Kuratowski joined the Lwów mathematical community."
+  - year: 1948
+    precision: year
+    title: "Dyrektor Państwowego Instytutu Matematycznego"
+    original_title: "Director of the State Mathematical Institute"
+    summary: "Kierował instytucją, z której rozwinął się późniejszy Instytut Matematyczny PAN."
+    summary_original: "He led the institution that later developed into the Institute of Mathematics of the Polish Academy of Sciences."
+sources:
+  - title: "MacTutor — Kazimierz Kuratowski"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Kuratowski/"
+  - title: "Wikipedia — Kazimierz Kuratowski"
+    url: "https://en.wikipedia.org/wiki/Kazimierz_Kuratowski"
