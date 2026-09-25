@@ -1,0 +1,59 @@
+id: sylvester
+name: "James Joseph Sylvester"
+display_name: "James Joseph Sylvester"
+born:
+  date: "1814-09-03"
+  year: 1814
+  precision: day
+died:
+  date: "1897-03-15"
+  year: 1897
+  precision: day
+place_association: "Londyn; Baltimore; Oksford"
+fields: [mathematics, algebra, matrix_theory, invariant_theory, number_theory, geometry, education, publishing]
+image: null
+summary: "Brytyjski matematyk, bliski współpracownik Cayleya. Rozwijał teorię niezmienników, macierze, teorię liczb i geometrię, wprowadził wiele terminów algebraicznych, a jako profesor Johns Hopkins założył American Journal of Mathematics."
+summary_original: "British mathematician and close collaborator of Cayley. He advanced invariant theory, matrices, number theory and geometry, introduced many algebraic terms, and as a professor at Johns Hopkins founded the American Journal of Mathematics."
+works:
+  - title: "O nowej klasie twierdzeń"
+    original_title: "On a New Class of Theorems"
+    year: 1850
+    precision: year
+    type: mathematical_essay
+  - title: "O teorii syzygetycznych relacji dwóch form wymiernych"
+    original_title: "On the Theory of the Syzygetic Relations of Two Rational Integral Functions"
+    year: 1853
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Termin „macierz”"
+    original_name: "The term matrix"
+    summary: "Sylvester wprowadził termin „matrix” dla prostokątnego układu liczb, z którego można wydobywać minory i wyznaczniki."
+    summary_original: "Sylvester introduced the term 'matrix' for a rectangular array from which minors and determinants could be formed."
+  - name: "Teoria niezmienników"
+    original_name: "Invariant theory"
+    summary: "Wspólnie z Cayleyem rozwijał badanie wielomianów zachowujących określone własności przy przekształceniach zmiennych."
+    summary_original: "Together with Cayley he developed the study of polynomials preserving specified properties under changes of variables."
+  - name: "Prawo bezwładności Sylvestera"
+    original_name: "Sylvester's law of inertia"
+    wikipedia: "https://en.wikipedia.org/wiki/Sylvester%27s_law_of_inertia"
+    summary: "Dla formy kwadratowej liczby dodatnich i ujemnych składników diagonalnych pozostają niezmienne przy odwracalnej zmianie współrzędnych."
+    summary_original: "For a quadratic form, the numbers of positive and negative diagonal terms remain invariant under invertible coordinate changes."
+events:
+  - year: 1876
+    precision: year
+    title: "Profesor w Johns Hopkins University"
+    original_title: "Professor at Johns Hopkins University"
+    summary: "Sylvester objął katedrę w nowo powstałym amerykańskim uniwersytecie badawczym."
+    summary_original: "Sylvester took a chair at the newly founded American research university."
+  - year: 1878
+    precision: year
+    title: "Założenie American Journal of Mathematics"
+    original_title: "Founding the American Journal of Mathematics"
+    summary: "Czasopismo stało się jednym z najważniejszych kanałów rozwoju profesjonalnej matematyki w Stanach Zjednoczonych."
+    summary_original: "The journal became one of the major channels for the development of professional mathematics in the United States."
+sources:
+  - title: "MacTutor — James Joseph Sylvester"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Sylvester/"
+  - title: "Wikipedia — James Joseph Sylvester"
+    url: "https://en.wikipedia.org/wiki/James_Joseph_Sylvester"
