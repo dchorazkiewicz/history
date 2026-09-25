@@ -1,0 +1,43 @@
+id: pythagoras
+name: "Pythagoras of Samos"
+display_name: "Pitagoras"
+born:
+  year: -570
+  precision: approximate
+  note: "Przybliżona data urodzenia przyjmowana we współczesnych opracowaniach."
+  note_original: "Approximate birth date used in modern scholarship."
+died:
+  year: -490
+  precision: approximate
+  note: "Przybliżona data śmierci; szczegóły biografii Pitagorasa są słabo poświadczone."
+  note_original: "Approximate death date; many details of Pythagoras's life are poorly attested."
+place_association: "Samos; Kroton i Metapont, Wielka Grecja"
+fields: [mathematics, philosophy]
+image: null
+summary: "Grecki myśliciel i założyciel wspólnoty pitagorejskiej. Jego późniejsza sława matematyczna jest ogromna, ale historycy podkreślają, że trudno oddzielić osiągnięcia samego Pitagorasa od późniejszej działalności szkoły pitagorejskiej. Nie zachowały się wiarygodne pisma jego autorstwa."
+summary_original: "Greek thinker and founder of the Pythagorean community. His later mathematical reputation is immense, but historians stress how difficult it is to separate Pythagoras's own achievements from those of the later Pythagorean school. No reliable writings by him survive."
+works: []
+ideas:
+  - name: "Twierdzenie Pitagorasa i tradycja pitagorejska"
+    original_name: "Pythagorean theorem and Pythagorean tradition"
+    wikipedia: "https://en.wikipedia.org/wiki/Pythagorean_theorem"
+    summary: "Twierdzenie nazwane jego imieniem było znane w pewnej formie wcześniej w Mezopotamii. Późna tradycja wiąże Pitagorasa z jego dowodem, ale najwcześniejsze źródła nie pozwalają tego pewnie potwierdzić."
+    summary_original: "The theorem bearing his name was known in some form earlier in Mesopotamia. Late tradition associates Pythagoras with a proof, but the earliest sources do not securely confirm this."
+  - name: "Matematyczne proporcje w muzyce"
+    original_name: "Mathematical ratios in music"
+    summary: "Tradycja pitagorejska wiązała współbrzmienia muzyczne z prostymi stosunkami liczbowymi. Stało się to jednym z najważniejszych przykładów idei, że zjawiska przyrodnicze można opisywać matematycznie."
+    summary_original: "Pythagorean tradition connected musical consonances with simple numerical ratios, a major early example of the idea that natural phenomena can be described mathematically."
+events:
+  - year: -530
+    precision: approximate
+    title: "Powstanie wspólnoty pitagorejskiej w Krotonie"
+    original_title: "Formation of the Pythagorean community at Croton"
+    summary: "Około 530 r. p.n.e. Pitagoras przeniósł się do Krotonu w południowej Italii, gdzie powstała wspólnota religijno-filozoficzna związana z jego nauczaniem."
+    summary_original: "Around 530 BCE Pythagoras moved to Croton in southern Italy, where a religious-philosophical community formed around his teaching."
+sources:
+  - title: "Stanford Encyclopedia of Philosophy — Pythagoras"
+    url: "https://plato.stanford.edu/entries/pythagoras/"
+  - title: "MacTutor — Pythagoras"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Pythagoras/"
+  - title: "Wikipedia — Pythagoras"
+    url: "https://en.wikipedia.org/wiki/Pythagoras"
