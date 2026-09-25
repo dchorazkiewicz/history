@@ -1,0 +1,61 @@
+id: kontsevich
+name: "Maxim Lvovich Kontsevich"
+display_name: "Maxim Kontsevich"
+born:
+  date: "1964-08-25"
+  year: 1964
+  precision: day
+died: null
+place_association: "Chimki; Bonn; Berkeley; Bures-sur-Yvette"
+fields: [mathematics, algebraic_geometry, mathematical_physics, deformation_quantization, mirror_symmetry, knot_theory, moduli_spaces]
+image: null
+summary: "Rosyjsko-francuski matematyk, którego prace łączą geometrię algebraiczną, topologię i fizykę matematyczną. Udowodnił hipotezę Wittena o przestrzeniach moduli, stworzył formułę kwantyzacji deformacyjnej dla rozmaitości Poissona i odegrał ważną rolę w rozwoju symetrii lustrzanej."
+summary_original: "Russian-French mathematician whose work connects algebraic geometry, topology and mathematical physics. He proved Witten's conjecture on moduli spaces, created a deformation-quantization formula for Poisson manifolds and played a major role in mirror symmetry."
+works:
+  - title: "Przecięcia na przestrzeni moduli i model macierzowy"
+    original_title: "Intersection theory on the moduli space of curves and the matrix Airy function"
+    year: 1992
+    precision: year
+    type: mathematical_essay
+  - title: "Klasy Gromova-Wittena, kohomologia kwantowa i geometria enumeratywna"
+    original_title: "Gromov-Witten classes, quantum cohomology, and enumerative geometry"
+    year: 1994
+    precision: year
+    type: mathematical_essay
+  - title: "Kwantyzacja deformacyjna rozmaitości Poissona"
+    original_title: "Deformation Quantization of Poisson Manifolds"
+    year: 2003
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Dowód hipotezy Wittena"
+    original_name: "Proof of Witten's conjecture"
+    summary: "Kontsevich połączył teorię przecięć na przestrzeniach moduli krzywych z modelem macierzowym i całkami Feynmana."
+    summary_original: "Kontsevich connected intersection theory on moduli spaces of curves with a matrix model and Feynman-integral techniques."
+  - name: "Kwantyzacja deformacyjna"
+    original_name: "Deformation quantization"
+    wikipedia: "https://en.wikipedia.org/wiki/Deformation_quantization"
+    summary: "Podał uniwersalną formułę kwantyzacji struktur Poissona, tworząc głęboki pomost między geometrią a mechaniką kwantową."
+    summary_original: "He gave a universal formula quantizing Poisson structures, creating a deep bridge between geometry and quantum mechanics."
+  - name: "Symetria lustrzana"
+    original_name: "Mirror symmetry"
+    summary: "Kontsevich należał do głównych twórców matematycznego języka symetrii lustrzanej, szczególnie przez homologiczną hipotezę symetrii lustrzanej."
+    summary_original: "Kontsevich became a major creator of the mathematical language of mirror symmetry, especially through homological mirror symmetry."
+events:
+  - year: 1992
+    precision: year
+    title: "Dowód hipotezy Wittena"
+    original_title: "Proof of Witten's conjecture"
+    summary: "Przełom natychmiast umieścił Kontsevicha wśród najważniejszych młodych matematyków świata."
+    summary_original: "The breakthrough immediately established Kontsevich among the world's leading young mathematicians."
+  - year: 1998
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Otrzymał Medal Fieldsa za prace łączące geometrię, topologię i fizykę matematyczną."
+    summary_original: "He received the Fields Medal for work connecting geometry, topology and mathematical physics."
+sources:
+  - title: "MacTutor — Maxim Kontsevich"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Kontsevich/"
+  - title: "Wikipedia — Maxim Kontsevich"
+    url: "https://en.wikipedia.org/wiki/Maxim_Kontsevich"
