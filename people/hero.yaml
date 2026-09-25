@@ -1,0 +1,70 @@
+id: hero
+name: "Hero of Alexandria"
+display_name: "Heron z Aleksandrii"
+born:
+  year: 10
+  precision: approximate
+  note: "Datowanie przybliżone; obecnie Herona zwykle umieszcza się w I w. n.e."
+  note_original: "Approximate dating; Heron is now usually placed in the first century CE."
+died:
+  year: 75
+  precision: approximate
+  note: "Data przybliżona."
+  note_original: "Approximate date."
+place_association: "Aleksandria, Egipt"
+fields: [mathematics, geometry, mechanics, engineering, physics]
+image: null
+summary: "Aleksandryjski matematyk i inżynier znany z Metriki, wzoru na pole trójkąta wyrażone przez długości boków oraz prac o mechanice, pneumatyce, automatach i przyrządach pomiarowych."
+summary_original: "Alexandrian mathematician and engineer known for the Metrica, the formula for the area of a triangle from its side lengths, and works on mechanics, pneumatics, automata and measuring instruments."
+works:
+  - title: "Metryka"
+    original_title: "Metrica"
+    year: 60
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Trzy księgi poświęcone pomiarom pól i objętości; zawierają m.in. dowód wzoru Herona."
+    publication_note_original: "Three books on areas and volumes, including a proof of Heron's formula."
+  - title: "Pneumatyka"
+    original_title: "Pneumatica"
+    year: 60
+    precision: approximate
+    type: scientific_treatise
+  - title: "Dioptra"
+    original_title: "Dioptra"
+    year: 60
+    precision: approximate
+    type: scientific_treatise
+  - title: "Mechanika"
+    original_title: "Mechanica"
+    year: 60
+    precision: approximate
+    type: scientific_treatise
+ideas:
+  - name: "Wzór Herona"
+    original_name: "Heron's formula"
+    wikipedia: "https://en.wikipedia.org/wiki/Heron%27s_formula"
+    summary: "Wzór pozwala obliczyć pole trójkąta wyłącznie na podstawie długości jego trzech boków i półobwodu."
+    summary_original: "The formula computes a triangle's area solely from the lengths of its three sides and semiperimeter."
+  - name: "Iteracyjna metoda obliczania pierwiastków"
+    original_name: "Heron's method for square roots"
+    wikipedia: "https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Heron's_method"
+    summary: "Heron opisał praktyczną procedurę iteracyjnego przybliżania pierwiastków kwadratowych, będącą szczególnym przypadkiem późniejszej metody Newtona."
+    summary_original: "Heron described a practical iterative procedure for approximating square roots, a special case of what later became Newton's method."
+  - name: "Matematyzacja mechaniki i pomiaru"
+    original_name: "Mathematization of mechanics and measurement"
+    summary: "Jego pisma łączyły geometrię z problemami inżynierskimi: obliczaniem pól i objętości, maszynami prostymi, pneumatyką oraz geodezją."
+    summary_original: "His writings connected geometry with engineering problems including areas and volumes, simple machines, pneumatics and surveying."
+events:
+  - year: 60
+    precision: approximate
+    title: "Działalność matematyczna i inżynierska w Aleksandrii"
+    original_title: "Mathematical and engineering activity in Alexandria"
+    summary: "Około połowy I w. n.e. powstała zasadnicza część dzieł przypisywanych Heronowi."
+    summary_original: "Around the middle of the first century CE, the main body of works attributed to Heron was produced."
+sources:
+  - title: "MacTutor — Heron of Alexandria"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Heron/"
+  - title: "Encyclopaedia Britannica 1911 — Hero of Alexandria"
+    url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hero_of_Alexandria"
+  - title: "Wikipedia — Heron of Alexandria"
+    url: "https://en.wikipedia.org/wiki/Hero_of_Alexandria"
