@@ -1,0 +1,59 @@
+id: abel
+name: "Niels Henrik Abel"
+display_name: "Niels Henrik Abel"
+born:
+  date: "1802-08-05"
+  year: 1802
+  precision: day
+died:
+  date: "1829-04-06"
+  year: 1829
+  precision: day
+place_association: "Finnøy; Christiania; Berlin; Paryż"
+fields: [mathematics, algebra, analysis, elliptic_functions, differential_equations]
+image: null
+summary: "Norweski matematyk, który mimo bardzo krótkiego życia dokonał przełomów w algebrze i analizie. Udowodnił niemożliwość rozwiązania ogólnego równania piątego stopnia przez pierwiastniki oraz stworzył fundamenty nowoczesnej teorii funkcji eliptycznych."
+summary_original: "Norwegian mathematician who, despite a very short life, made breakthroughs in algebra and analysis. He proved the impossibility of solving the general quintic equation by radicals and laid foundations for the modern theory of elliptic functions."
+works:
+  - title: "O równaniach algebraicznych, w których dowodzi się niemożliwości rozwiązania ogólnego równania piątego stopnia"
+    original_title: "Mémoire sur les équations algébriques où on démontre l'impossibilité de la résolution de l'équation générale du cinquième degré"
+    year: 1824
+    precision: year
+    type: mathematical_treatise
+  - title: "Badania nad funkcjami eliptycznymi"
+    original_title: "Recherches sur les fonctions elliptiques"
+    year: 1827
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Twierdzenie Abela-Ruffiniego"
+    original_name: "Abel–Ruffini theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Abel%E2%80%93Ruffini_theorem"
+    summary: "Abel podał pierwszy pełny dowód, że nie istnieje ogólny wzór przez pierwiastniki dla równania stopnia piątego."
+    summary_original: "Abel gave the first complete proof that no general radical formula exists for the quintic."
+  - name: "Funkcje eliptyczne"
+    original_name: "Elliptic functions"
+    summary: "Odwrócił całki eliptyczne i badał otrzymane funkcje jako obiekty samodzielne, otwierając nowy rozdział analizy."
+    summary_original: "He inverted elliptic integrals and studied the resulting functions as objects in their own right, opening a new chapter in analysis."
+  - name: "Twierdzenie Abela"
+    original_name: "Abel's theorem"
+    summary: "Wyniki Abela o całkach algebraicznych stały się podstawą późniejszej geometrii algebraicznej i teorii funkcji."
+    summary_original: "Abel's results on algebraic integrals became foundational for later algebraic geometry and function theory."
+events:
+  - year: 1825
+    precision: year
+    title: "Podróż naukowa po Europie"
+    original_title: "Scientific journey through Europe"
+    summary: "Abel wyjechał z Norwegii i nawiązał kontakty m.in. z matematykami w Berlinie i Paryżu."
+    summary_original: "Abel left Norway and made contacts with mathematicians in Berlin and Paris."
+  - year: 1826
+    precision: year
+    title: "Przedłożenie wielkiego pamiętnika Akademii Francuskiej"
+    original_title: "Submission of the great Paris memoir"
+    summary: "Praca Abela o funkcjach została zagubiona w procedurze Akademii i opublikowana dopiero po jego śmierci."
+    summary_original: "Abel's major memoir was lost in the Academy's process and published only after his death."
+sources:
+  - title: "MacTutor — Niels Henrik Abel"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Abel/"
+  - title: "Wikipedia — Niels Henrik Abel"
+    url: "https://en.wikipedia.org/wiki/Niels_Henrik_Abel"
