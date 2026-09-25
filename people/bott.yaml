@@ -1,0 +1,44 @@
+id: bott
+name: "Raoul Bott"
+display_name: "Raoul Bott"
+born:
+  date: "1923-09-24"
+  year: 1923
+  precision: day
+died:
+  date: "2005-12-20"
+  year: 2005
+  precision: day
+place_association: "Budapeszt; Montreal; Princeton; Harvard"
+fields: [mathematics, topology, differential_geometry, algebraic_topology, k_theory, mathematical_physics]
+image: null
+summary: "Węgiersko-kanadyjsko-amerykański matematyk, jedna z centralnych postaci topologii XX wieku. Jego twierdzenie o periodyczności stało się fundamentem K-teorii i głęboko wpłynęło na geometrię oraz fizykę matematyczną."
+summary_original: "Hungarian-Canadian-American mathematician and a central figure in twentieth-century topology. His periodicity theorem became foundational to K-theory and deeply influenced geometry and mathematical physics."
+works:
+  - title: "Przestrzeń pętli na grupie Liego"
+    original_title: "The Stable Homotopy of the Classical Groups"
+    year: 1959
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Periodyczność Botta"
+    original_name: "Bott periodicity theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Bott_periodicity_theorem"
+    summary: "Grupy homotopii klasycznych grup Liego wykazują regularną periodyczność, co ma fundamentalne znaczenie dla K-teorii."
+    summary_original: "The homotopy groups of classical Lie groups display regular periodicity, fundamental to K-theory."
+  - name: "Morse’owskie podejście do topologii"
+    original_name: "Morse-theoretic approach to topology"
+    summary: "Bott wykorzystywał funkcje energii i geometrię przestrzeni pętli do rozwiązywania problemów homotopii."
+    summary_original: "Bott used energy functions and loop-space geometry to solve homotopy problems."
+events:
+  - year: 1959
+    precision: year
+    title: "Twierdzenie o periodyczności"
+    original_title: "Bott periodicity theorem"
+    summary: "Publikacja wyniku stała się jednym z kamieni milowych topologii algebraicznej."
+    summary_original: "Publication of the result became a milestone in algebraic topology."
+sources:
+  - title: "MacTutor — Raoul Bott"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Bott/"
+  - title: "Wikipedia — Raoul Bott"
+    url: "https://en.wikipedia.org/wiki/Raoul_Bott"
