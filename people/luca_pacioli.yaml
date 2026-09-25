@@ -1,0 +1,74 @@
+id: luca_pacioli
+name: "Luca Pacioli"
+display_name: "Luca Pacioli"
+born:
+  year: 1445
+  precision: year
+died:
+  year: 1517
+  precision: year
+place_association: "Sansepolcro; Wenecja; Mediolan; Florencja; Perugia"
+fields: [mathematics, arithmetic, geometry, accounting, commercial_mathematics, art, perspective, education, theology]
+image: null
+summary: "Włoski matematyk i franciszkanin, nauczyciel oraz autor jednego z najważniejszych renesansowych kompendiów matematycznych. W Summie zebrał arytmetykę, algebrę, geometrię i rachunek handlowy, a jego opis księgowości podwójnej stał się klasycznym punktem odniesienia dla historii rachunkowości. Współpracował także z Leonardem da Vinci przy Divina proportione."
+summary_original: "Italian mathematician and Franciscan friar, teacher and author of one of the Renaissance's most important mathematical compendia. In the Summa he collected arithmetic, algebra, geometry and commercial calculation, while his description of double-entry bookkeeping became a classic reference point in the history of accounting. He also collaborated with Leonardo da Vinci on Divina proportione."
+works:
+  - title: "Summa arytmetyki, geometrii, proporcji i proporcjonalności"
+    original_title: "Summa de arithmetica, geometria, proportioni et proportionalita"
+    year: 1494
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Obszerne drukowane kompendium matematyki praktycznej i teoretycznej; zawiera także słynny opis księgowości podwójnej."
+    publication_note_original: "A large printed compendium of practical and theoretical mathematics; it also contains the famous description of double-entry bookkeeping."
+  - title: "Boska proporcja"
+    original_title: "Divina proportione"
+    wikipedia: "https://en.wikipedia.org/wiki/Divina_proportione"
+    year: 1509
+    precision: year
+    type: book
+    publication_note: "Dzieło o proporcji, geometrii i perspektywie z ilustracjami wielościanów wykonanymi przez Leonarda da Vinci."
+    publication_note_original: "A work on proportion, geometry and perspective, illustrated with polyhedra drawn by Leonardo da Vinci."
+  - title: "Wydanie Elementów Euklidesa"
+    original_title: "Euclid's Elements, Latin edition"
+    year: 1509
+    precision: year
+    type: mathematical_treatise
+  - title: "O mocach liczb"
+    original_title: "De Viribus Quantitatis"
+    year: 1500
+    precision: approximate
+    type: manuscript
+    publication_note: "Nieopublikowany za życia zbiór problemów matematycznych, łamigłówek, sztuczek i zagadnień rekreacyjnych."
+    publication_note_original: "An unpublished-in-his-lifetime collection of mathematical problems, puzzles, tricks and recreational material."
+ideas:
+  - name: "Kodyfikacja księgowości podwójnej"
+    original_name: "Codification of double-entry bookkeeping"
+    summary: "Pacioli nie wynalazł księgowości podwójnej, ale jego drukowany opis systemu w Summie stał się jednym z najważniejszych źródeł jej europejskiego upowszechnienia."
+    summary_original: "Pacioli did not invent double-entry bookkeeping, but his printed description in the Summa became one of the most important sources for its spread in Europe."
+  - name: "Złoty podział jako temat matematyki i sztuki"
+    original_name: "Golden ratio in mathematics and art"
+    wikipedia: "https://en.wikipedia.org/wiki/Golden_ratio"
+    summary: "W Divina proportione łączył własności geometryczne złotego podziału z refleksją nad proporcją, harmonią i sztuką."
+    summary_original: "In Divina proportione he connected geometric properties of the golden ratio with ideas of proportion, harmony and art."
+  - name: "Matematyka handlowa"
+    original_name: "Commercial mathematics"
+    summary: "Jego podręczniki integrowały arytmetykę z wymianą walut, procentami, miarami, księgowością i praktyką kupiecką."
+    summary_original: "His textbooks integrated arithmetic with currency exchange, interest, measures, bookkeeping and mercantile practice."
+events:
+  - year: 1494
+    precision: year
+    title: "Publikacja Summy"
+    original_title: "Publication of the Summa"
+    summary: "W Wenecji ukazało się dzieło syntetyzujące znaczną część matematyki dostępnej w ówczesnej praktyce europejskiej."
+    summary_original: "The Summa was published in Venice, synthesizing a large part of the mathematics then available in European practice."
+  - year: 1496
+    precision: approximate
+    title: "Współpraca z Leonardem da Vinci w Mediolanie"
+    original_title: "Collaboration with Leonardo da Vinci in Milan"
+    summary: "Pacioli i Leonardo współpracowali nad zagadnieniami proporcji i geometrii; Leonardo wykonał ilustracje wielościanów do Divina proportione."
+    summary_original: "Pacioli and Leonardo collaborated on proportion and geometry; Leonardo prepared polyhedral illustrations for Divina proportione."
+sources:
+  - title: "MacTutor — Luca Pacioli"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Pacioli/"
+  - title: "MacTutor — Divine proportion"
+    url: "https://mathshistory.st-andrews.ac.uk/Extras/Divine_proportion/"
