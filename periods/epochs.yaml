@@ -9,6 +9,7 @@ periods:
     start_year: -800
     end_year: 476
     lane: 0
+    track: historical
     kind: macro
     precision: conventional
     scope: "Europa i basen Morza Śródziemnego"
@@ -23,6 +24,7 @@ periods:
     start_year: 476
     end_year: 1500
     lane: 0
+    track: historical
     kind: macro
     precision: conventional
     scope: "Europa"
@@ -39,6 +41,7 @@ periods:
     start_year: 1500
     end_year: 1800
     lane: 0
+    track: historical
     kind: macro
     precision: conventional
     scope: "Europa"
@@ -53,6 +56,7 @@ periods:
     start_year: 1800
     end_year: 1914
     lane: 0
+    track: historical
     kind: macro
     precision: conventional
     scope: "Europa"
@@ -67,6 +71,7 @@ periods:
     start_year: 1914
     end_year: 2026
     lane: 0
+    track: historical
     kind: macro
     precision: conventional
     scope: "Świat"
@@ -81,6 +86,7 @@ periods:
     start_year: 1350
     end_year: 1600
     lane: 1
+    track: culture
     kind: movement
     precision: conventional
     scope: "Europa; początek we Włoszech"
@@ -96,7 +102,8 @@ periods:
     short_label: "Rewolucja naukowa"
     start_year: 1543
     end_year: 1687
-    lane: 2
+    lane: 3
+    track: science
     kind: movement
     precision: conventional
     scope: "Europa"
@@ -111,6 +118,7 @@ periods:
     start_year: 1600
     end_year: 1750
     lane: 1
+    track: culture
     kind: movement
     precision: conventional
     scope: "Europa"
@@ -125,6 +133,7 @@ periods:
     start_year: 1685
     end_year: 1815
     lane: 2
+    track: ideas
     kind: movement
     precision: conventional
     scope: "Europa i świat atlantycki"
@@ -139,6 +148,7 @@ periods:
     start_year: 1780
     end_year: 1850
     lane: 1
+    track: culture
     kind: movement
     precision: conventional
     scope: "Europa"
@@ -155,6 +165,7 @@ periods:
     start_year: 1830
     end_year: 1900
     lane: 2
+    track: ideas
     kind: movement
     precision: conventional
     scope: "Europa; jako nurt filozoficzny i intelektualny"
@@ -169,6 +180,7 @@ periods:
     start_year: 1890
     end_year: 1945
     lane: 1
+    track: culture
     kind: movement
     precision: conventional
     scope: "Europa i Ameryka Północna"
