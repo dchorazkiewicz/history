@@ -1,0 +1,81 @@
+id: maclaurin
+name: "Colin Maclaurin"
+display_name: "Colin Maclaurin"
+born:
+  year: 1698
+  precision: month
+  note: "Urodził się w lutym 1698 r.; dzień nie jest pewny."
+  note_original: "He was born in February 1698; the exact day is uncertain."
+died:
+  date: "1746-06-14"
+  year: 1746
+  precision: day
+place_association: "Kilmodan; Aberdeen; Edynburg, Szkocja"
+fields: [mathematics, analysis, geometry, physics, astronomy, actuarial_science, education]
+image: null
+summary: "Szkocki matematyk i filozof przyrody, jeden z najważniejszych obrońców i systematyzatorów rachunku Newtona. Pracował nad krzywymi, szeregami, całkami, teorią pływów, figurą Ziemi i matematyką ubezpieczeniową."
+summary_original: "Scottish mathematician and natural philosopher, one of the most important defenders and systematizers of Newtonian calculus. He worked on curves, series, integrals, tides, the figure of Earth and actuarial mathematics."
+works:
+  - title: "Geometria organiczna"
+    original_title: "Geometria Organica"
+    year: 1720
+    precision: year
+    type: mathematical_treatise
+  - title: "Traktat o fluksjach"
+    original_title: "A Treatise of Fluxions"
+    year: 1742
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Dwutomowe dzieło napisane m.in. jako odpowiedź na krytykę podstaw rachunku Newtona przez George’a Berkeleya."
+    publication_note_original: "A two-volume work written partly in response to George Berkeley's criticism of the foundations of Newtonian calculus."
+  - title: "Traktat o algebrze"
+    original_title: "A Treatise of Algebra"
+    year: 1748
+    precision: year
+    type: mathematical_treatise
+    posthumous: true
+  - title: "Opis filozofii Newtona"
+    original_title: "An Account of Sir Isaac Newton's Philosophical Discoveries"
+    year: 1748
+    precision: year
+    type: scientific_treatise
+    posthumous: true
+ideas:
+  - name: "Szereg Maclaurina"
+    original_name: "Maclaurin series"
+    wikipedia: "https://en.wikipedia.org/wiki/Taylor_series"
+    summary: "Maclaurin systematycznie wykorzystywał szczególny przypadek szeregu Taylora rozwijanego wokół zera; sam jasno uznawał wcześniejszy wkład Taylora."
+    summary_original: "Maclaurin systematically used the special case of Taylor expansion around zero and explicitly acknowledged Taylor's prior contribution."
+  - name: "Formuła Eulera-Maclaurina"
+    original_name: "Euler–Maclaurin formula"
+    wikipedia: "https://en.wikipedia.org/wiki/Euler%E2%80%93Maclaurin_formula"
+    summary: "Maclaurin niezależnie rozwijał relację między sumami dyskretnymi a całkami, równolegle z pracami Eulera."
+    summary_original: "Maclaurin independently developed a relation between discrete sums and integrals, in parallel with Euler's work."
+  - name: "Matematyczna teoria pływów"
+    original_name: "Mathematical theory of tides"
+    summary: "Stosował teorię grawitacji Newtona do opisu odkształcenia oceanu i kształtu Ziemi pod wpływem sił pływowych."
+    summary_original: "He applied Newtonian gravity to the deformation of the ocean and Earth's figure under tidal forces."
+events:
+  - year: 1717
+    precision: year
+    title: "Profesor matematyki w Aberdeen"
+    original_title: "Professor of mathematics at Aberdeen"
+    summary: "Maclaurin objął katedrę w bardzo młodym wieku."
+    summary_original: "Maclaurin took the chair at a very young age."
+  - year: 1725
+    precision: year
+    title: "Objęcie katedry w Edynburgu"
+    original_title: "Appointment at Edinburgh"
+    summary: "Z rekomendacji Newtona został profesorem matematyki na Uniwersytecie Edynburskim."
+    summary_original: "With Newton's recommendation he became professor of mathematics at the University of Edinburgh."
+  - year: 1740
+    precision: year
+    title: "Nagroda Académie des Sciences za pracę o pływach"
+    original_title: "Académie des Sciences prize for work on tides"
+    summary: "Nagrodę podzielił z Eulerem i Danielem Bernoullim."
+    summary_original: "He shared the prize with Euler and Daniel Bernoulli."
+sources:
+  - title: "MacTutor — Colin Maclaurin"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Maclaurin/"
+  - title: "MacTutor — Mathematical Works of Colin Maclaurin"
+    url: "https://mathshistory.st-andrews.ac.uk/Extras/Maclaurin_publications/"
