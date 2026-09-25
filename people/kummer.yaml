@@ -1,0 +1,54 @@
+id: kummer
+name: "Ernst Eduard Kummer"
+display_name: "Ernst Kummer"
+born:
+  date: "1810-01-29"
+  year: 1810
+  precision: day
+died:
+  date: "1893-05-14"
+  year: 1893
+  precision: day
+place_association: "Sorau; Wrocław; Berlin"
+fields: [mathematics, number_theory, algebra, analysis, special_functions, education]
+image: null
+summary: "Niemiecki matematyk, który rozwinął teorię liczb algebraicznych, wprowadzając tzw. liczby idealne. Jego prace nad wielkim twierdzeniem Fermata i funkcjami hipergeometrycznymi silnie wpłynęły na późniejszą algebrę i teorię liczb."
+summary_original: "German mathematician who advanced algebraic number theory by introducing so-called ideal numbers. His work on Fermat's Last Theorem and hypergeometric functions strongly influenced later algebra and number theory."
+works:
+  - title: "O ogólnym szeregu hipergeometrycznym"
+    original_title: "Über die hypergeometrische Reihe"
+    year: 1836
+    precision: year
+    type: mathematical_essay
+  - title: "O liczbach idealnych"
+    original_title: "Über die idealen Primfactoren der complexen Zahlen"
+    year: 1847
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Liczby idealne"
+    original_name: "Ideal numbers"
+    summary: "Kummer wprowadził pomocnicze obiekty przywracające jednoznaczny rozkład na czynniki w pewnych pierścieniach liczb algebraicznych."
+    summary_original: "Kummer introduced auxiliary objects restoring unique factorization in certain rings of algebraic integers."
+  - name: "Regularne liczby pierwsze i wielkie twierdzenie Fermata"
+    original_name: "Regular primes and Fermat's Last Theorem"
+    summary: "Udowodnił wielkie twierdzenie Fermata dla szerokiej klasy wykładników pierwszych, dziś nazywanych regularnymi."
+    summary_original: "He proved Fermat's Last Theorem for a broad class of prime exponents now called regular primes."
+events:
+  - year: 1842
+    precision: year
+    title: "Profesor we Wrocławiu"
+    original_title: "Professor in Breslau"
+    summary: "Rozpoczął okres najbardziej intensywnych badań nad teorią liczb."
+    summary_original: "He began the most intensive period of his work in number theory."
+  - year: 1855
+    precision: year
+    title: "Profesor w Berlinie"
+    original_title: "Professor in Berlin"
+    summary: "Został jednym z centralnych nauczycieli berlińskiej szkoły matematycznej."
+    summary_original: "He became one of the central teachers of the Berlin mathematical school."
+sources:
+  - title: "MacTutor — Ernst Kummer"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Kummer/"
+  - title: "Wikipedia — Ernst Kummer"
+    url: "https://en.wikipedia.org/wiki/Ernst_Kummer"
