@@ -1,0 +1,61 @@
+id: jacobi
+name: "Carl Gustav Jacob Jacobi"
+display_name: "Carl Gustav Jacobi"
+born:
+  date: "1804-12-10"
+  year: 1804
+  precision: day
+died:
+  date: "1851-02-18"
+  year: 1851
+  precision: day
+place_association: "Poczdam; Królewiec; Berlin"
+fields: [mathematics, analysis, elliptic_functions, algebra, number_theory, mechanics, celestial_mechanics, differential_equations]
+image: null
+summary: "Niemiecki matematyk, jeden z największych analityków pierwszej połowy XIX wieku. Wspólnie z Ablem stworzył teorię funkcji eliptycznych, rozwijał determinanty i przekształcenia, teorię liczb oraz analityczną mechanikę."
+summary_original: "German mathematician and one of the greatest analysts of the first half of the nineteenth century. Together with Abel he created the theory of elliptic functions, and advanced determinants and transformations, number theory and analytical mechanics."
+works:
+  - title: "Nowe podstawy teorii funkcji eliptycznych"
+    original_title: "Fundamenta nova theoriae functionum ellipticarum"
+    year: 1829
+    precision: year
+    type: mathematical_treatise
+  - title: "Canon arithmeticus"
+    original_title: "Canon arithmeticus"
+    year: 1839
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Funkcje eliptyczne Jacobiego"
+    original_name: "Jacobi elliptic functions"
+    wikipedia: "https://en.wikipedia.org/wiki/Jacobi_elliptic_functions"
+    summary: "Jacobi rozwinął teorię funkcji powstających przez odwracanie całek eliptycznych i stworzył szeroki aparat transformacji."
+    summary_original: "Jacobi developed the theory of functions obtained by inverting elliptic integrals and built a broad transformation theory."
+  - name: "Jakobian"
+    original_name: "Jacobian determinant"
+    wikipedia: "https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant"
+    summary: "Wyznacznik pochodnych cząstkowych opisuje lokalną zmianę objętości przy transformacji współrzędnych."
+    summary_original: "The determinant of partial derivatives describes local volume change under coordinate transformation."
+  - name: "Równanie Hamiltona-Jacobiego"
+    original_name: "Hamilton–Jacobi equation"
+    wikipedia: "https://en.wikipedia.org/wiki/Hamilton%E2%80%93Jacobi_equation"
+    summary: "Jacobi rozwinął formalizm Hamiltona w potężną metodę analitycznego rozwiązywania problemów mechaniki."
+    summary_original: "Jacobi developed Hamilton's formalism into a powerful analytical method for mechanics."
+events:
+  - year: 1827
+    precision: year
+    title: "Profesor w Królewcu"
+    original_title: "Professor at Königsberg"
+    summary: "Jacobi stworzył w Królewcu bardzo aktywną szkołę matematyczną."
+    summary_original: "Jacobi built a highly active mathematical school at Königsberg."
+  - year: 1829
+    precision: year
+    title: "Publikacja Fundamenta nova"
+    original_title: "Publication of Fundamenta nova"
+    summary: "Dzieło ugruntowało jego pozycję jako jednego z głównych twórców teorii funkcji eliptycznych."
+    summary_original: "The work established him as one of the principal creators of elliptic-function theory."
+sources:
+  - title: "MacTutor — Carl Gustav Jacobi"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Jacobi/"
+  - title: "Wikipedia — Carl Gustav Jacob Jacobi"
+    url: "https://en.wikipedia.org/wiki/Carl_Gustav_Jacob_Jacobi"
