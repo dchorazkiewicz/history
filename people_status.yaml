@@ -386,53 +386,63 @@ people:
 
   - id: gauss
     name: "Carl Friedrich Gauss"
-    status: pending
-    focus: [mathematics, physics]
+    status: described
+    data_file: "people/gauss.yaml"
+    focus: [mathematics, physics, astronomy]
 
   - id: fourier
     name: "Joseph Fourier"
-    status: pending
-    focus: [mathematics, physics]
+    status: described
+    data_file: "people/fourier.yaml"
+    focus: [mathematics, physics, history, politics]
 
   - id: cauchy
     name: "Augustin-Louis Cauchy"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/cauchy.yaml"
+    focus: [mathematics, physics]
 
   - id: abel
     name: "Niels Henrik Abel"
-    status: pending
+    status: described
+    data_file: "people/abel.yaml"
     focus: [mathematics]
 
   - id: galois
     name: "Évariste Galois"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/galois.yaml"
+    focus: [mathematics, politics]
 
   - id: dirichlet
     name: "Peter Gustav Lejeune Dirichlet"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/dirichlet.yaml"
+    focus: [mathematics, physics]
 
   - id: jacobi
     name: "Carl Gustav Jacobi"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/jacobi.yaml"
+    focus: [mathematics, physics]
 
   - id: lobachevsky
     name: "Nikołaj Łobaczewski"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/lobachevsky.yaml"
+    focus: [mathematics, physics, astronomy]
 
   - id: bolyai
     name: "János Bolyai"
-    status: pending
+    status: described
+    data_file: "people/bolyai.yaml"
     focus: [mathematics]
 
   - id: hamilton
     name: "William Rowan Hamilton"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/hamilton.yaml"
+    focus: [mathematics, physics, astronomy, literature]
 
   - id: boole
     name: "George Boole"
