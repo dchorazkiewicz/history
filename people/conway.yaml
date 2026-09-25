@@ -1,0 +1,63 @@
+id: conway
+name: "John Horton Conway"
+display_name: "John Horton Conway"
+born:
+  date: "1937-12-26"
+  year: 1937
+  precision: day
+died:
+  date: "2020-04-11"
+  year: 2020
+  precision: day
+place_association: "Liverpool; Cambridge; Princeton"
+fields: [mathematics, group_theory, number_theory, knot_theory, combinatorics, game_theory, coding_theory, recreational_mathematics, cellular_automata]
+image: null
+summary: "Brytyjski matematyk o wyjątkowo szerokim i twórczym dorobku. Badał grupy sporadyczne, teorię węzłów, liczby, kody i gry kombinatoryczne, stworzył liczby surrealne i Game of Life, który stał się ikoną automatów komórkowych."
+summary_original: "British mathematician of exceptionally broad and creative scope. He worked on sporadic groups, knot theory, number theory, codes and combinatorial games, created surreal numbers and invented the Game of Life, an icon of cellular automata."
+works:
+  - title: "O liczbach i grach"
+    original_title: "On Numbers and Games"
+    wikipedia: "https://en.wikipedia.org/wiki/On_Numbers_and_Games"
+    year: 1976
+    precision: year
+    type: mathematical_treatise
+  - title: "Wygrywające sposoby dla twoich matematycznych gier"
+    original_title: "Winning Ways for your Mathematical Plays"
+    year: 1982
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Napisane wspólnie z Elwynem Berlekampem i Richardem Guyem."
+    publication_note_original: "Written with Elwyn Berlekamp and Richard Guy."
+ideas:
+  - name: "Game of Life"
+    original_name: "Conway's Game of Life"
+    wikipedia: "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
+    summary: "Prosty automat komórkowy na siatce kwadratowej pokazuje, jak z kilku lokalnych reguł mogą powstawać bardzo złożone struktury i procesy."
+    summary_original: "A simple cellular automaton on a square grid shows how a few local rules can generate highly complex structures and processes."
+  - name: "Liczby surrealne"
+    original_name: "Surreal numbers"
+    wikipedia: "https://en.wikipedia.org/wiki/Surreal_number"
+    summary: "Conway stworzył ogromny system liczb obejmujący liczby rzeczywiste, nieskończenie duże i nieskończenie małe w jednej konstrukcji."
+    summary_original: "Conway created a vast number system containing real numbers, infinite and infinitesimal quantities within a single construction."
+  - name: "Grupy Conwaya"
+    original_name: "Conway groups"
+    summary: "Badając symetrie kraty Leecha odkrył sporadyczne grupy proste, które stały się ważnym elementem klasyfikacji skończonych grup prostych."
+    summary_original: "While studying symmetries of the Leech lattice he discovered sporadic simple groups important to the classification of finite simple groups."
+events:
+  - year: 1968
+    precision: year
+    title: "Odkrycie grup Conwaya"
+    original_title: "Discovery of the Conway groups"
+    summary: "Analiza symetrii kraty Leecha doprowadziła do nowych sporadycznych grup prostych."
+    summary_original: "Analysis of Leech lattice symmetries led to new sporadic simple groups."
+  - year: 1970
+    precision: year
+    title: "Game of Life"
+    original_title: "Game of Life"
+    summary: "Gra została spopularyzowana przez Martina Gardnera w Scientific American i stała się jednym z najbardziej znanych modeli emergencji."
+    summary_original: "The game was popularized by Martin Gardner in Scientific American and became one of the best-known models of emergence."
+sources:
+  - title: "MacTutor — John Conway"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Conway/"
+  - title: "Wikipedia — John Horton Conway"
+    url: "https://en.wikipedia.org/wiki/John_Horton_Conway"
