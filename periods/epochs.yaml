@@ -1,0 +1,178 @@
+schema_version: 1
+scope: "Europa i zachodnia historia idei"
+note: "Granice epok są umowne, zależą od regionu i dziedziny oraz często nakładają się na siebie. Daty służą orientacji na osi czasu, a nie jako ostre granice historyczne."
+
+periods:
+  - id: classical_antiquity
+    label: "Starożytność"
+    short_label: "Starożytność"
+    start_year: -800
+    end_year: 476
+    lane: 0
+    kind: macro
+    precision: conventional
+    scope: "Europa i basen Morza Śródziemnego"
+    note: "Na osi używamy okresu od archaicznej Grecji do tradycyjnej daty upadku Cesarstwa Zachodniorzymskiego. Sama historia starożytna zaczyna się oczywiście znacznie wcześniej."
+    sources:
+      - title: "Wikipedia — Classical antiquity"
+        url: "https://en.wikipedia.org/wiki/Classical_antiquity"
+
+  - id: middle_ages
+    label: "Średniowiecze"
+    short_label: "Średniowiecze"
+    start_year: 476
+    end_year: 1500
+    lane: 0
+    kind: macro
+    precision: conventional
+    scope: "Europa"
+    note: "Tradycyjnie od V do końca XV wieku. Daty 476, 1453 i 1492 są używane jako punkty orientacyjne, ale granica nie jest ostra."
+    sources:
+      - title: "Wikipedia — Middle Ages"
+        url: "https://en.wikipedia.org/wiki/Middle_Ages"
+      - title: "Encyclopaedia Britannica 1911 — Middle Ages"
+        url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Middle_Ages%2C_The"
+
+  - id: early_modern
+    label: "Wczesna nowożytność"
+    short_label: "Wczesna nowożytność"
+    start_year: 1500
+    end_year: 1800
+    lane: 0
+    kind: macro
+    precision: conventional
+    scope: "Europa"
+    note: "Umowny szeroki okres obejmujący m.in. reformację, rewolucję naukową, barok i oświecenie."
+    sources:
+      - title: "Wikipedia — Early modern period"
+        url: "https://en.wikipedia.org/wiki/Early_modern_period"
+
+  - id: modern_19th
+    label: "XIX wiek / nowoczesność"
+    short_label: "XIX wiek"
+    start_year: 1800
+    end_year: 1914
+    lane: 0
+    kind: macro
+    precision: conventional
+    scope: "Europa"
+    note: "Szeroki pas orientacyjny dla XIX wieku i narodzin nowoczesnego społeczeństwa przemysłowego; nakłada się z romantyzmem, pozytywizmem i modernizmem."
+    sources:
+      - title: "Wikipedia — Long nineteenth century"
+        url: "https://en.wikipedia.org/wiki/Long_nineteenth_century"
+
+  - id: contemporary
+    label: "Współczesność"
+    short_label: "Współczesność"
+    start_year: 1914
+    end_year: 2026
+    lane: 0
+    kind: macro
+    precision: conventional
+    scope: "Świat"
+    note: "Na potrzeby osi przyjmujemy I wojnę światową jako umowny początek współczesności."
+    sources:
+      - title: "Wikipedia — Contemporary history"
+        url: "https://en.wikipedia.org/wiki/Contemporary_history"
+
+  - id: renaissance
+    label: "Renesans"
+    short_label: "Renesans"
+    start_year: 1350
+    end_year: 1600
+    lane: 1
+    kind: movement
+    precision: conventional
+    scope: "Europa; początek we Włoszech"
+    note: "Renesans rozwijał się w różnych krajach w różnym czasie; orientacyjnie XIV–XVII wiek, ze szczególnym nasileniem w XV i XVI wieku."
+    sources:
+      - title: "Library of Congress — Renaissance Era"
+        url: "https://guides.loc.gov/renaissance-era-resources"
+      - title: "Wikipedia — Renaissance"
+        url: "https://en.wikipedia.org/wiki/Renaissance"
+
+  - id: scientific_revolution
+    label: "Rewolucja naukowa"
+    short_label: "Rewolucja naukowa"
+    start_year: 1543
+    end_year: 1687
+    lane: 2
+    kind: movement
+    precision: conventional
+    scope: "Europa"
+    note: "Umowne daty od publikacji De revolutionibus Kopernika do Principiów Newtona. To użyteczna rama dla historii nauki, a nie ostro odgraniczona epoka."
+    sources:
+      - title: "Wikipedia — Scientific Revolution"
+        url: "https://en.wikipedia.org/wiki/Scientific_Revolution"
+
+  - id: baroque
+    label: "Barok"
+    short_label: "Barok"
+    start_year: 1600
+    end_year: 1750
+    lane: 1
+    kind: movement
+    precision: conventional
+    scope: "Europa"
+    note: "Datowanie orientacyjne dla szerokiego zjawiska artystycznego i kulturowego."
+    sources:
+      - title: "Wikipedia — Baroque"
+        url: "https://en.wikipedia.org/wiki/Baroque"
+
+  - id: enlightenment
+    label: "Oświecenie"
+    short_label: "Oświecenie"
+    start_year: 1685
+    end_year: 1815
+    lane: 2
+    kind: movement
+    precision: conventional
+    scope: "Europa i świat atlantycki"
+    note: "Ruch intelektualny rozwijający się od końca XVII wieku i dominujący w XVIII wieku. Różne tradycje przyjmują inne daty początku i końca."
+    sources:
+      - title: "Wikipedia — Age of Enlightenment"
+        url: "https://en.wikipedia.org/wiki/Age_of_Enlightenment"
+
+  - id: romanticism
+    label: "Romantyzm"
+    short_label: "Romantyzm"
+    start_year: 1780
+    end_year: 1850
+    lane: 1
+    kind: movement
+    precision: conventional
+    scope: "Europa"
+    note: "Szeroki ruch literacki, artystyczny i intelektualny od końca XVIII do połowy XIX wieku; datowanie różni się regionalnie."
+    sources:
+      - title: "British Library — The Romantics"
+        url: "https://www.bl.uk/romantics-and-victorians/articles/the-romantics"
+      - title: "Wikipedia — Romanticism"
+        url: "https://en.wikipedia.org/wiki/Romanticism"
+
+  - id: positivism
+    label: "Pozytywizm"
+    short_label: "Pozytywizm"
+    start_year: 1830
+    end_year: 1900
+    lane: 2
+    kind: movement
+    precision: conventional
+    scope: "Europa; jako nurt filozoficzny i intelektualny"
+    note: "Orientacyjny pas dla pozytywizmu wywodzącego się od Comte’a i jego XIX-wiecznych rozwinięć. Literacki pozytywizm w Polsce ma własne, węższe datowanie."
+    sources:
+      - title: "Wikipedia — Positivism"
+        url: "https://en.wikipedia.org/wiki/Positivism"
+
+  - id: modernism
+    label: "Modernizm"
+    short_label: "Modernizm"
+    start_year: 1890
+    end_year: 1945
+    lane: 1
+    kind: movement
+    precision: conventional
+    scope: "Europa i Ameryka Północna"
+    note: "Szeroki ruch kulturowy i artystyczny przełomu XIX i XX wieku; jego ramy są silnie zależne od dziedziny."
+    sources:
+      - title: "Wikipedia — Modernism"
+        url: "https://en.wikipedia.org/wiki/Modernism"
