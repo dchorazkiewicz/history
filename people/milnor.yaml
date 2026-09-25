@@ -1,0 +1,53 @@
+id: milnor
+name: "John Milnor"
+display_name: "John Milnor"
+born:
+  date: "1931-02-20"
+  year: 1931
+  precision: day
+died: null
+place_association: "Orange, New Jersey; Princeton; Stony Brook"
+fields: [mathematics, topology, differential_topology, dynamical_systems, algebraic_geometry]
+image: null
+summary: "Amerykański matematyk, którego prace przekształciły topologię różniczkową i teorię układów dynamicznych. Odkrył egzotyczne sfery — rozmaitości homeomorficzne, ale nie dyfeomorficzne ze standardową sferą."
+summary_original: "American mathematician whose work transformed differential topology and dynamical systems. He discovered exotic spheres—manifolds homeomorphic but not diffeomorphic to the standard sphere."
+works:
+  - title: "O rozmaitościach homeomorficznych ze sferą siedmiowymiarową"
+    original_title: "On Manifolds Homeomorphic to the 7-Sphere"
+    year: 1956
+    precision: year
+    type: mathematical_essay
+  - title: "Punkty osobliwe zespolonych hiperpłaszczyzn"
+    original_title: "Singular Points of Complex Hypersurfaces"
+    year: 1968
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Egzotyczne sfery"
+    original_name: "Exotic spheres"
+    wikipedia: "https://en.wikipedia.org/wiki/Exotic_sphere"
+    summary: "Milnor pokazał, że ta sama topologiczna sfera może mieć różne, nieekwiwalentne struktury różniczkowe."
+    summary_original: "Milnor showed that the same topological sphere can carry distinct inequivalent differentiable structures."
+  - name: "Włókno Milnora"
+    original_name: "Milnor fibration"
+    wikipedia: "https://en.wikipedia.org/wiki/Milnor_fibration"
+    summary: "Badanie otoczenia osobliwości zespolonej prowadzi do naturalnego włóknowania łączącego geometrię algebraiczną z topologią."
+    summary_original: "Studying a neighborhood of a complex singularity leads to a natural fibration connecting algebraic geometry with topology."
+events:
+  - year: 1962
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Milnor otrzymał Medal Fieldsa za osiągnięcia w topologii różniczkowej."
+    summary_original: "Milnor received the Fields Medal for achievements in differential topology."
+  - year: 2011
+    precision: year
+    title: "Nagroda Abela"
+    original_title: "Abel Prize"
+    summary: "Nagrodzono jego pionierskie odkrycia w topologii, geometrii i algebrze."
+    summary_original: "He was honored for pioneering discoveries in topology, geometry and algebra."
+sources:
+  - title: "MacTutor — John Milnor"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Milnor/"
+  - title: "Abel Prize — John Milnor"
+    url: "https://abelprize.no/abel-prize-laureates/2011"
