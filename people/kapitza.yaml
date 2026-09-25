@@ -1,0 +1,50 @@
+id: kapitza
+name: "Pyotr Leonidovich Kapitza"
+display_name: "Piotr Kapica"
+born:
+  date: "1894-07-08"
+  year: 1894
+  precision: day
+died:
+  date: "1984-04-08"
+  year: 1984
+  precision: day
+place_association: "Kronsztad; Cambridge; Moskwa"
+fields: [physics, low_temperature_physics, superfluidity, magnetism, experimental_science, engineering]
+image: null
+summary: "Rosyjski fizyk eksperymentalny, pionier fizyki niskich temperatur i silnych pól magnetycznych. Odkrył nadciekłość helu II i stworzył nowe techniki skraplania gazów."
+summary_original: "Russian experimental physicist and pioneer of low-temperature physics and strong magnetic fields. He discovered superfluidity in helium II and created new gas-liquefaction techniques."
+works:
+  - title: "Lepkość ciekłego helu poniżej punktu lambda"
+    original_title: "Viscosity of Liquid Helium below the λ-Point"
+    year: 1938
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Nadciekłość helu II"
+    original_name: "Superfluidity of helium II"
+    wikipedia: "https://en.wikipedia.org/wiki/Superfluidity"
+    summary: "Kapica wykazał niezwykle małą lepkość ciekłego helu poniżej temperatury lambda."
+    summary_original: "Kapitza demonstrated the extraordinarily low viscosity of liquid helium below the lambda temperature."
+  - name: "Techniki silnych pól magnetycznych"
+    original_name: "High magnetic field techniques"
+    summary: "Rozwijał aparaturę umożliwiającą badanie materii w bardzo silnych polach magnetycznych."
+    summary_original: "He developed apparatus enabling studies of matter in very strong magnetic fields."
+events:
+  - year: 1934
+    precision: year
+    title: "Zatrzymanie w ZSRR i budowa nowego instytutu"
+    original_title: "Retention in the USSR and creation of a new institute"
+    summary: "Po wizycie w ZSRR władze nie pozwoliły Kapicy wrócić do Cambridge; utworzono dla niego Instytut Problemów Fizycznych w Moskwie."
+    summary_original: "After a visit to the USSR, authorities did not permit Kapitza to return to Cambridge; a new Institute for Physical Problems was created for him in Moscow."
+  - year: 1978
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Kapica został nagrodzony za podstawowe wynalazki i odkrycia w fizyce niskich temperatur."
+    summary_original: "Kapitza was honored for fundamental inventions and discoveries in low-temperature physics."
+sources:
+  - title: "Nobel Prize — Pyotr Kapitsa"
+    url: "https://www.nobelprize.org/prizes/physics/1978/kapitsa/facts/"
+  - title: "Encyclopaedia Britannica — Pyotr Kapitsa"
+    url: "https://www.britannica.com/biography/Pyotr-Leonidovich-Kapitsa"
