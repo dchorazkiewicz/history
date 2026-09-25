@@ -1,0 +1,52 @@
+id: born
+name: "Max Born"
+display_name: "Max Born"
+born:
+  date: "1882-12-11"
+  year: 1882
+  precision: day
+died:
+  date: "1970-01-05"
+  year: 1970
+  precision: day
+place_association: "Wrocław; Getynga; Cambridge; Edynburg"
+fields: [physics, mathematics, quantum_mechanics, statistical_mechanics, solid_state_physics, philosophy_of_science, education]
+image: null
+summary: "Niemiecko-brytyjski fizyk teoretyczny, jeden z twórców mechaniki kwantowej i szkoły getyńskiej. Zaproponował probabilistyczną interpretację funkcji falowej oraz wniósł fundamentalny wkład do teorii kryształów i dynamiki sieci."
+summary_original: "German-British theoretical physicist, a founder of quantum mechanics and the Göttingen school. He proposed the probabilistic interpretation of the wavefunction and made fundamental contributions to crystal theory and lattice dynamics."
+works:
+  - title: "Mechanika macierzowa"
+    original_title: "Zur Quantenmechanik"
+    year: 1925
+    precision: year
+    type: scientific_treatise
+    publication_note: "Praca z Wernerem Heisenbergiem i Pascualem Jordanem."
+    publication_note_original: "Work with Werner Heisenberg and Pascual Jordan."
+ideas:
+  - name: "Reguła Borna"
+    original_name: "Born rule"
+    wikipedia: "https://en.wikipedia.org/wiki/Born_rule"
+    summary: "Kwadrat modułu funkcji falowej jest interpretowany jako gęstość prawdopodobieństwa wyniku pomiaru."
+    summary_original: "The squared modulus of the wavefunction is interpreted as the probability density for measurement outcomes."
+  - name: "Mechanika macierzowa"
+    original_name: "Matrix mechanics"
+    summary: "Born rozpoznał, że formalizm Heisenberga ma strukturę rachunku macierzy i wraz z Jordanem pomógł nadać mu pełną postać matematyczną."
+    summary_original: "Born recognized the matrix structure of Heisenberg's formalism and with Jordan helped give it a complete mathematical form."
+events:
+  - year: 1921
+    precision: year
+    title: "Profesor w Getyndze"
+    original_title: "Professor at Göttingen"
+    summary: "Pod kierunkiem Borna Getynga stała się jednym z głównych ośrodków narodzin mechaniki kwantowej."
+    summary_original: "Under Born, Göttingen became one of the main centers in the birth of quantum mechanics."
+  - year: 1954
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Born został nagrodzony przede wszystkim za statystyczną interpretację funkcji falowej."
+    summary_original: "Born was honored primarily for the statistical interpretation of the wavefunction."
+sources:
+  - title: "Nobel Prize — Max Born"
+    url: "https://www.nobelprize.org/prizes/physics/1954/born/facts/"
+  - title: "MacTutor — Max Born"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Born/"
