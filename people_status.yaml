@@ -1,0 +1,77 @@
+schema_version: 1
+
+# Centralny rejestr osób w projekcie.
+# Ten plik służy do szybkiego sprawdzania:
+# - kogo już mamy,
+# - kto został opisany,
+# - kto dopiero czeka na opracowanie.
+#
+# Statusy:
+#   pending     - osoba zgłoszona, ale jeszcze nieopracowana
+#   researching - trwa zbieranie i weryfikacja danych
+#   described   - podstawowy rekord osoby został opracowany w people/<id>.yaml
+#   reviewed    - rekord został dodatkowo sprawdzony / rozszerzony
+#
+# Przy dodawaniu nowych osób z dużej listy najpierw dopisujemy je tutaj
+# ze statusem pending. Po stworzeniu pliku w people/ zmieniamy status.
+
+people:
+  - id: socrates
+    name: "Sokrates"
+    status: described
+    data_file: "people/socrates.yaml"
+
+  - id: plato
+    name: "Platon"
+    status: described
+    data_file: "people/plato.yaml"
+
+  - id: aristotle
+    name: "Arystoteles"
+    status: described
+    data_file: "people/aristotle.yaml"
+
+  - id: archimedes
+    name: "Archimedes"
+    status: described
+    data_file: "people/archimedes.yaml"
+
+  - id: ptolemy
+    name: "Klaudiusz Ptolemeusz"
+    status: described
+    data_file: "people/ptolemy.yaml"
+
+  - id: copernicus
+    name: "Mikołaj Kopernik"
+    status: described
+    data_file: "people/copernicus.yaml"
+
+  - id: descartes
+    name: "René Descartes (Kartezjusz)"
+    status: described
+    data_file: "people/descartes.yaml"
+
+  - id: hobbes
+    name: "Thomas Hobbes"
+    status: described
+    data_file: "people/hobbes.yaml"
+
+  - id: locke
+    name: "John Locke"
+    status: described
+    data_file: "people/locke.yaml"
+
+  - id: newton
+    name: "Isaac Newton"
+    status: described
+    data_file: "people/newton.yaml"
+
+  - id: leibniz
+    name: "Gottfried Wilhelm Leibniz"
+    status: described
+    data_file: "people/leibniz.yaml"
+
+  - id: voltaire
+    name: "Voltaire"
+    status: described
+    data_file: "people/voltaire.yaml"
