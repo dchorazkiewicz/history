@@ -1,0 +1,59 @@
+id: oppenheimer
+name: "J. Robert Oppenheimer"
+display_name: "J. Robert Oppenheimer"
+born:
+  date: "1904-04-22"
+  year: 1904
+  precision: day
+died:
+  date: "1967-02-18"
+  year: 1967
+  precision: day
+place_association: "Nowy Jork; Berkeley; Los Alamos; Princeton"
+fields: [physics, theoretical_physics, quantum_mechanics, nuclear_physics, astrophysics, scientific_administration]
+image: null
+summary: "Amerykański fizyk teoretyczny, współtwórca amerykańskiej szkoły fizyki teoretycznej i dyrektor naukowy Los Alamos podczas Projektu Manhattan. Przed wojną pracował m.in. nad mechaniką kwantową, promieniowaniem kosmicznym i teorią kolapsu grawitacyjnego."
+summary_original: "American theoretical physicist who helped build the American school of theoretical physics and served as scientific director of Los Alamos during the Manhattan Project. Before the war he worked on quantum mechanics, cosmic rays and gravitational collapse."
+works:
+  - title: "O masywnych jądrach neutronowych"
+    original_title: "On Massive Neutron Cores"
+    year: 1939
+    precision: year
+    type: scientific_treatise
+    publication_note: "Praca z George'em Volkoffem."
+    publication_note_original: "Work with George Volkoff."
+  - title: "O ciągłym kurczeniu grawitacyjnym"
+    original_title: "On Continued Gravitational Contraction"
+    year: 1939
+    precision: year
+    type: scientific_treatise
+    publication_note: "Praca z Hartlandem Snyderem przewidywała nieograniczony kolaps dostatecznie masywnej gwiazdy."
+    publication_note_original: "Work with Hartland Snyder predicting continued collapse of a sufficiently massive star."
+ideas:
+  - name: "Granica Tolmana-Oppenheimera-Volkoffa"
+    original_name: "Tolman–Oppenheimer–Volkoff limit"
+    wikipedia: "https://en.wikipedia.org/wiki/Tolman%E2%80%93Oppenheimer%E2%80%93Volkoff_limit"
+    summary: "Prace Oppenheimera i Volkoffa badały maksymalną masę stabilnej gwiazdy neutronowej."
+    summary_original: "Oppenheimer and Volkoff studied the maximum mass of a stable neutron star."
+  - name: "Kolaps grawitacyjny"
+    original_name: "Gravitational collapse"
+    summary: "Oppenheimer i Snyder pokazali w modelu relatywistycznym, że masywna gwiazda może zapaść się poza promień, z którego światło nie może się wydostać."
+    summary_original: "Oppenheimer and Snyder showed in a relativistic model that a massive star can collapse beyond a radius from which light cannot escape."
+events:
+  - year: 1943
+    precision: year
+    title: "Dyrektor naukowy Los Alamos"
+    original_title: "Scientific director of Los Alamos"
+    summary: "Oppenheimer kierował laboratorium odpowiedzialnym za projekt i budowę pierwszych bomb atomowych."
+    summary_original: "Oppenheimer directed the laboratory responsible for designing and building the first atomic bombs."
+  - year: 1947
+    precision: year
+    title: "Dyrektor Institute for Advanced Study"
+    original_title: "Director of the Institute for Advanced Study"
+    summary: "Po wojnie objął kierownictwo instytutu w Princeton."
+    summary_original: "After the war he became director of the institute in Princeton."
+sources:
+  - title: "Atomic Heritage Foundation — J. Robert Oppenheimer"
+    url: "https://ahf.nuclearmuseum.org/ahf/profile/j-robert-oppenheimer/"
+  - title: "Encyclopaedia Britannica — J. Robert Oppenheimer"
+    url: "https://www.britannica.com/biography/J-Robert-Oppenheimer"
