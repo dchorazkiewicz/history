@@ -1,0 +1,57 @@
+id: serre
+name: "Jean-Pierre Serre"
+display_name: "Jean-Pierre Serre"
+born:
+  date: "1926-09-15"
+  year: 1926
+  precision: day
+died: null
+place_association: "Bages; Paryż"
+fields: [mathematics, algebraic_geometry, number_theory, algebraic_topology, group_theory, sheaf_theory, education]
+image: null
+summary: "Francuski matematyk o wyjątkowym wpływie na geometrię algebraiczną, topologię i teorię liczb. Jego prace nad snopami, kohomologią i relacją między geometrią algebraiczną a analityczną pomogły stworzyć język nowoczesnej matematyki."
+summary_original: "French mathematician of exceptional influence on algebraic geometry, topology and number theory. His work on sheaves, cohomology and the relation between algebraic and analytic geometry helped create the language of modern mathematics."
+works:
+  - title: "Spójne snopy algebraiczne"
+    original_title: "Faisceaux algébriques cohérents"
+    year: 1955
+    precision: year
+    type: mathematical_essay
+  - title: "Geometria algebraiczna i geometria analityczna"
+    original_title: "Géométrie algébrique et géométrie analytique (GAGA)"
+    year: 1956
+    precision: year
+    type: mathematical_essay
+  - title: "Ciała lokalne"
+    original_title: "Corps locaux"
+    year: 1962
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "GAGA"
+    original_name: "GAGA"
+    wikipedia: "https://en.wikipedia.org/wiki/GAGA"
+    summary: "Serre wykazał głęboką zgodność między geometrią algebraiczną nad liczbami zespolonymi a odpowiadającą jej geometrią analityczną."
+    summary_original: "Serre established deep correspondences between complex algebraic geometry and the associated analytic geometry."
+  - name: "Kohomologia snopów"
+    original_name: "Sheaf cohomology"
+    summary: "Pomógł uczynić snopy i ich kohomologię podstawowym narzędziem geometrii algebraicznej."
+    summary_original: "He helped make sheaves and their cohomology basic tools of algebraic geometry."
+events:
+  - year: 1954
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "W wieku 27 lat Serre został najmłodszym wówczas laureatem Medalu Fieldsa."
+    summary_original: "At age 27 Serre became the youngest Fields Medalist at that time."
+  - year: 2003
+    precision: year
+    title: "Pierwsza Nagroda Abela"
+    original_title: "First Abel Prize"
+    summary: "Serre został pierwszym laureatem Nagrody Abela."
+    summary_original: "Serre became the first recipient of the Abel Prize."
+sources:
+  - title: "MacTutor — Jean-Pierre Serre"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Serre/"
+  - title: "Abel Prize — Jean-Pierre Serre"
+    url: "https://abelprize.no/abel-prize-laureates/2003"
