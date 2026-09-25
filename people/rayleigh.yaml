@@ -1,0 +1,61 @@
+id: rayleigh
+name: "John William Strutt, 3rd Baron Rayleigh"
+display_name: "Lord Rayleigh"
+born:
+  date: "1842-11-12"
+  year: 1842
+  precision: day
+died:
+  date: "1919-06-30"
+  year: 1919
+  precision: day
+place_association: "Langford Grove; Cambridge; Terling"
+fields: [physics, mathematics, acoustics, optics, fluid_dynamics, thermodynamics, wave_theory, spectroscopy]
+image: null
+summary: "Brytyjski fizyk i matematyk, jeden z najważniejszych badaczy fal, akustyki i optyki. Wyjaśnił rozpraszanie światła odpowiedzialne za błękit nieba, rozwinął teorię drgań i hydrodynamikę oraz współuczestniczył w odkryciu argonu."
+summary_original: "British physicist and mathematician, a major investigator of waves, acoustics and optics. He explained the scattering responsible for the blue sky, advanced vibration theory and hydrodynamics, and co-discovered argon."
+works:
+  - title: "Teoria dźwięku"
+    original_title: "The Theory of Sound"
+    year: 1877
+    precision: year
+    type: scientific_treatise
+    publication_note: "Dwa tomy ukazały się w 1877 i 1878 r."
+    publication_note_original: "Two volumes appeared in 1877 and 1878."
+ideas:
+  - name: "Rozpraszanie Rayleigha"
+    original_name: "Rayleigh scattering"
+    wikipedia: "https://en.wikipedia.org/wiki/Rayleigh_scattering"
+    summary: "Dla cząstek znacznie mniejszych od długości fali intensywność rozpraszania silnie rośnie dla krótszych fal, co pomaga wyjaśnić błękit nieba."
+    summary_original: "For particles much smaller than the wavelength, scattering is much stronger at shorter wavelengths, helping explain the blue sky."
+  - name: "Kryterium Rayleigha"
+    original_name: "Rayleigh criterion"
+    wikipedia: "https://en.wikipedia.org/wiki/Angular_resolution#The_Rayleigh_criterion"
+    summary: "Kryterium opisuje granicę rozdzielczości dwóch bliskich źródeł w układzie optycznym."
+    summary_original: "The criterion describes the resolution limit for two nearby sources in an optical system."
+  - name: "Niestabilność Rayleigha-Taylora"
+    original_name: "Rayleigh–Taylor instability"
+    summary: "Rayleigh badał niestabilność granicy między płynami o różnych gęstościach w polu sił."
+    summary_original: "Rayleigh studied instability at the interface between fluids of different densities under acceleration."
+  - name: "Prawo Rayleigha-Jeansa"
+    original_name: "Rayleigh–Jeans law"
+    summary: "Klasyczny wzór na promieniowanie ciała doskonale czarnego działa dla długich fal, lecz prowadzi do katastrofy ultrafioletowej."
+    summary_original: "The classical blackbody formula works at long wavelengths but leads to the ultraviolet catastrophe."
+events:
+  - year: 1894
+    precision: year
+    title: "Odkrycie argonu z Williamem Ramsayem"
+    original_title: "Discovery of argon with William Ramsay"
+    summary: "Badania różnicy gęstości azotu atmosferycznego i chemicznego doprowadziły do identyfikacji nowego gazu szlachetnego."
+    summary_original: "Investigating the density difference between atmospheric and chemically produced nitrogen led to identification of a new noble gas."
+  - year: 1904
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Rayleigh został nagrodzony za badania gęstości gazów i odkrycie argonu."
+    summary_original: "Rayleigh was honored for gas-density research and the discovery of argon."
+sources:
+  - title: "Nobel Prize — Lord Rayleigh"
+    url: "https://www.nobelprize.org/prizes/physics/1904/strutt/facts/"
+  - title: "Encyclopaedia Britannica — Lord Rayleigh"
+    url: "https://www.britannica.com/biography/John-William-Strutt-3rd-Baron-Rayleigh"
