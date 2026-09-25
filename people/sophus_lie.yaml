@@ -1,0 +1,57 @@
+id: sophus_lie
+name: "Sophus Lie"
+display_name: "Sophus Lie"
+born:
+  date: "1842-12-17"
+  year: 1842
+  precision: day
+died:
+  date: "1899-02-18"
+  year: 1899
+  precision: day
+place_association: "Nordfjordeid; Christiania; Lipsk, Norwegia i Niemcy"
+fields: [mathematics, group_theory, differential_geometry, differential_equations, geometry, symmetry]
+image: null
+summary: "Norweski matematyk, twórca teorii ciągłych grup transformacji. Jego idee połączyły symetrię, geometrię i równania różniczkowe, dając początek grupom i algebrom Liego — narzędziom fundamentalnym dla współczesnej matematyki i fizyki teoretycznej."
+summary_original: "Norwegian mathematician and creator of the theory of continuous transformation groups. His ideas linked symmetry, geometry and differential equations, giving rise to Lie groups and Lie algebras, fundamental tools in modern mathematics and theoretical physics."
+works:
+  - title: "Teoria grup transformacji"
+    original_title: "Theorie der Transformationsgruppen"
+    year: 1888
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Monumentalne dzieło napisane wspólnie z Friedrichem Engelem ukazywało się w trzech tomach w latach 1888–1893."
+    publication_note_original: "A monumental work written with Friedrich Engel and published in three volumes from 1888 to 1893."
+ideas:
+  - name: "Grupy Liego"
+    original_name: "Lie groups"
+    wikipedia: "https://en.wikipedia.org/wiki/Lie_group"
+    summary: "Ciągłe rodziny symetrii można traktować jednocześnie jako grupy algebraiczne i rozmaitości różniczkowe."
+    summary_original: "Continuous families of symmetries can be treated simultaneously as algebraic groups and differentiable manifolds."
+  - name: "Algebry Liego"
+    original_name: "Lie algebras"
+    wikipedia: "https://en.wikipedia.org/wiki/Lie_algebra"
+    summary: "Lokalna, liniowa struktura grupy ciągłej może być badana przez przestrzeń generatorów z odpowiednim nawiasem."
+    summary_original: "The local linear structure of a continuous group can be studied through its generators with a suitable bracket."
+  - name: "Symetrie równań różniczkowych"
+    original_name: "Symmetries of differential equations"
+    summary: "Lie rozwijał systematyczne metody znajdowania i wykorzystywania symetrii do upraszczania równań różniczkowych."
+    summary_original: "Lie developed systematic methods for finding and using symmetries to simplify differential equations."
+events:
+  - year: 1869
+    precision: year
+    title: "Spotkanie z Felixem Kleinem"
+    original_title: "Meeting Felix Klein"
+    summary: "Wspólna praca i podróże zapoczątkowały ważny etap rozwoju geometrii transformacji."
+    summary_original: "Their collaboration and travels helped initiate an important phase in transformation geometry."
+  - year: 1886
+    precision: year
+    title: "Profesor w Lipsku"
+    original_title: "Professor in Leipzig"
+    summary: "Lie objął prestiżową katedrę, na której rozwinął szkołę teorii grup transformacji."
+    summary_original: "Lie took a prestigious chair and developed a school of transformation-group theory."
+sources:
+  - title: "MacTutor — Sophus Lie"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Lie/"
+  - title: "Wikipedia — Sophus Lie"
+    url: "https://en.wikipedia.org/wiki/Sophus_Lie"
