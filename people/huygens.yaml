@@ -1,0 +1,87 @@
+id: huygens
+name: "Christiaan Huygens"
+display_name: "Christiaan Huygens"
+born:
+  date: "1629-04-14"
+  year: 1629
+  precision: day
+died:
+  date: "1695-07-08"
+  year: 1695
+  precision: day
+place_association: "Haga; Paryż, Republika Zjednoczonych Prowincji i Francja"
+fields: [mathematics, probability, physics, mechanics, astronomy, optics, horology, engineering]
+image: null
+summary: "Holenderski matematyk, fizyk, astronom i konstruktor. Odkrył Tytana i poprawnie wyjaśnił naturę pierścieni Saturna, stworzył pierwszy praktyczny zegar wahadłowy, rozwijał mechanikę ruchu kołowego, teorię falową światła oraz jeden z pierwszych drukowanych traktatów rachunku prawdopodobieństwa."
+summary_original: "Dutch mathematician, physicist, astronomer and inventor. He discovered Titan and correctly explained Saturn's rings, built the first practical pendulum clock, developed mechanics of circular motion, a wave theory of light and one of the earliest printed treatises on probability."
+works:
+  - title: "O rachunku w grach losowych"
+    original_title: "De Ratiociniis in Ludo Aleae"
+    year: 1657
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Pierwszy drukowany traktat poświęcony rachunkowi prawdopodobieństwa."
+    publication_note_original: "The first printed treatise devoted to probability theory."
+  - title: "System Saturna"
+    original_title: "Systema Saturnium"
+    year: 1659
+    precision: year
+    type: astronomical_treatise
+    publication_note: "Przedstawiał poprawny model pierścieni Saturna oraz obserwacje jego księżyca Tytana."
+    publication_note_original: "Presented the correct model of Saturn's rings and observations of its moon Titan."
+  - title: "Zegar wahadłowy"
+    original_title: "Horologium Oscillatorium"
+    wikipedia: "https://en.wikipedia.org/wiki/Horologium_Oscillatorium"
+    year: 1673
+    precision: year
+    type: scientific_treatise
+    publication_note: "Jedno z najważniejszych dzieł mechaniki XVII wieku, obejmujące ruch wahadła, krzywe cykloidalne i siłę odśrodkową."
+    publication_note_original: "One of the seventeenth century's major mechanics works, covering pendulum motion, cycloidal curves and centrifugal force."
+  - title: "Traktat o świetle"
+    original_title: "Traité de la lumière"
+    wikipedia: "https://en.wikipedia.org/wiki/Treatise_on_Light"
+    year: 1690
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Zegar wahadłowy"
+    original_name: "Pendulum clock"
+    summary: "W 1656 r. Huygens opatentował zegar wahadłowy, radykalnie poprawiający dokładność pomiaru czasu."
+    summary_original: "In 1656 Huygens patented the pendulum clock, dramatically improving timekeeping accuracy."
+  - name: "Pierścienie Saturna i Tytan"
+    original_name: "Saturn's rings and Titan"
+    summary: "Za pomocą udoskonalonych teleskopów odkrył Tytana w 1655 r., a następnie wyjaśnił zmienny wygląd Saturna obecnością cienkiego pierścienia."
+    summary_original: "Using improved telescopes he discovered Titan in 1655 and then explained Saturn's changing appearance by a thin ring."
+  - name: "Prawo siły odśrodkowej"
+    original_name: "Law of centrifugal force"
+    summary: "Huygens sformułował ilościową zależność dla ruchu po okręgu, ważną dla rozwoju nowożytnej mechaniki."
+    summary_original: "Huygens formulated a quantitative law for circular motion, important in the development of modern mechanics."
+  - name: "Zasada Huygensa i falowa teoria światła"
+    original_name: "Huygens principle and wave theory of light"
+    wikipedia: "https://en.wikipedia.org/wiki/Huygens%E2%80%93Fresnel_principle"
+    summary: "Traktował rozchodzenie się światła jako propagację fal i używał konstrukcji geometrycznej frontów falowych."
+    summary_original: "He treated light propagation as a wave process and used a geometric construction of wavefronts."
+events:
+  - year: 1655
+    precision: year
+    title: "Odkrycie Tytana"
+    original_title: "Discovery of Titan"
+    summary: "Huygens odkrył największy księżyc Saturna za pomocą teleskopu z własnoręcznie szlifowanymi soczewkami."
+    summary_original: "Huygens discovered Saturn's largest moon using a telescope with lenses he had ground himself."
+  - year: 1656
+    precision: year
+    title: "Patent na zegar wahadłowy"
+    original_title: "Patent for the pendulum clock"
+    summary: "Nowy zegar miał ogromne znaczenie dla precyzyjnego pomiaru czasu, astronomii i prób wyznaczania długości geograficznej."
+    summary_original: "The new clock was highly important for precise timekeeping, astronomy and attempts to determine longitude."
+  - year: 1666
+    precision: year
+    title: "Praca w nowo utworzonej Académie Royale des Sciences"
+    original_title: "Work at the newly founded Académie Royale des Sciences"
+    summary: "Huygens przeniósł się do Paryża i został jednym z czołowych członków królewskiej akademii nauk."
+    summary_original: "Huygens moved to Paris and became one of the leading members of the royal academy of sciences."
+sources:
+  - title: "MacTutor — Christiaan Huygens"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Huygens/"
+  - title: "Wikipedia — Christiaan Huygens"
+    url: "https://en.wikipedia.org/wiki/Christiaan_Huygens"
