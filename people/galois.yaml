@@ -1,0 +1,63 @@
+id: galois
+name: "Évariste Galois"
+display_name: "Évariste Galois"
+born:
+  date: "1811-10-25"
+  year: 1811
+  precision: day
+died:
+  date: "1832-05-31"
+  year: 1832
+  precision: day
+place_association: "Bourg-la-Reine; Paryż, Francja"
+fields: [mathematics, algebra, group_theory, field_theory, politics]
+image: null
+summary: "Francuski matematyk i republikański działacz polityczny. W wieku zaledwie dwudziestu lat stworzył idee, z których wyrosła teoria grup i teoria Galois: związał rozwiązywalność równań algebraicznych z symetriami permutującymi ich pierwiastki."
+summary_original: "French mathematician and republican political activist. By age twenty he created ideas from which group theory and Galois theory grew, linking solvability of algebraic equations with symmetries permuting their roots."
+works:
+  - title: "Pamiętnik o warunkach rozwiązywalności równań przez pierwiastniki"
+    original_title: "Mémoire sur les conditions de résolubilité des équations par radicaux"
+    year: 1831
+    precision: year
+    type: manuscript
+    publication_note: "Tekst nie został zaakceptowany za życia Galois; Joseph Liouville opublikował jego najważniejsze prace w 1846 r."
+    publication_note_original: "The text was not accepted during Galois's life; Joseph Liouville published his major works in 1846."
+ideas:
+  - name: "Teoria Galois"
+    original_name: "Galois theory"
+    wikipedia: "https://en.wikipedia.org/wiki/Galois_theory"
+    summary: "Rozwiązywalność równania przez pierwiastniki zależy od struktury grupy permutacji jego pierwiastków."
+    summary_original: "Solvability of an equation by radicals depends on the structure of the permutation group of its roots."
+  - name: "Grupa jako struktura algebraiczna"
+    original_name: "Group as an algebraic structure"
+    summary: "Galois używał grup permutacji systematycznie do badania równań, co stało się jednym z głównych źródeł abstrakcyjnej teorii grup."
+    summary_original: "Galois systematically used permutation groups to study equations, becoming a major source of abstract group theory."
+  - name: "Ciała skończone"
+    original_name: "Finite fields"
+    wikipedia: "https://en.wikipedia.org/wiki/Finite_field"
+    summary: "Badał struktury skończonych rozszerzeń ciał, dziś nazywane ciałami Galois."
+    summary_original: "He studied finite field extensions, structures now called Galois fields."
+events:
+  - year: 1830
+    precision: year
+    title: "Zaangażowanie republikańskie po rewolucji lipcowej"
+    original_title: "Republican activism after the July Revolution"
+    summary: "Galois zaangażował się w radykalny ruch republikański i wielokrotnie popadał w konflikt z władzami."
+    summary_original: "Galois became active in the radical republican movement and repeatedly came into conflict with the authorities."
+  - year: 1831
+    precision: year
+    title: "Więzienie Sainte-Pélagie"
+    original_title: "Imprisonment at Sainte-Pélagie"
+    summary: "Spędził kilka miesięcy w więzieniu za działalność polityczną."
+    summary_original: "He spent several months in prison for political activity."
+  - year: 1832
+    precision: day
+    title: "Pojedynek i śmierć"
+    original_title: "Duel and death"
+    summary: "30 maja został ciężko ranny w pojedynku i zmarł następnego dnia, mając 20 lat."
+    summary_original: "He was mortally wounded in a duel on 30 May and died the next day at age twenty."
+sources:
+  - title: "MacTutor — Évariste Galois"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Galois/"
+  - title: "MacTutor — development of Galois theory"
+    url: "https://mathshistory.st-andrews.ac.uk/Projects/Brunk/chapter-3/"
