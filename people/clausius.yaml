@@ -1,0 +1,54 @@
+id: clausius
+name: "Rudolf Clausius"
+display_name: "Rudolf Clausius"
+born:
+  date: "1822-01-02"
+  year: 1822
+  precision: day
+died:
+  date: "1888-08-24"
+  year: 1888
+  precision: day
+place_association: "Koszalin; Berlin; Zurych; Bonn"
+fields: [physics, thermodynamics, kinetic_theory, statistical_mechanics, mathematical_physics]
+image: null
+summary: "Niemiecki fizyk, jeden z głównych twórców termodynamiki. Sformułował nowoczesną postać drugiej zasady, wprowadził pojęcie entropii i rozwijał kinetyczną teorię gazów."
+summary_original: "German physicist and one of the principal founders of thermodynamics. He formulated the modern second law, introduced entropy and advanced the kinetic theory of gases."
+works:
+  - title: "O sile poruszającej ciepła i prawach, które można z niej wyprowadzić"
+    original_title: "Über die bewegende Kraft der Wärme"
+    year: 1850
+    precision: year
+    type: scientific_treatise
+  - title: "O różnych postaciach podstawowych równań mechanicznej teorii ciepła"
+    original_title: "Über verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie"
+    year: 1865
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Entropia"
+    original_name: "Entropy"
+    wikipedia: "https://en.wikipedia.org/wiki/Entropy"
+    summary: "Clausius wprowadził wielkość S i nazwę „entropia”, aby ilościowo opisywać kierunek procesów termodynamicznych."
+    summary_original: "Clausius introduced the quantity S and the term 'entropy' to quantify the direction of thermodynamic processes."
+  - name: "Druga zasada termodynamiki"
+    original_name: "Second law of thermodynamics"
+    summary: "Sformułował zasadę, że ciepło nie przepływa samorzutnie z ciała chłodniejszego do cieplejszego."
+    summary_original: "He formulated the principle that heat does not spontaneously pass from a colder body to a hotter one."
+  - name: "Średnia droga swobodna"
+    original_name: "Mean free path"
+    wikipedia: "https://en.wikipedia.org/wiki/Mean_free_path"
+    summary: "W teorii kinetycznej gazów wprowadził pojęcie średniej drogi przebywanej przez cząsteczkę między zderzeniami."
+    summary_original: "In kinetic gas theory he introduced the mean distance traveled by a molecule between collisions."
+events:
+  - year: 1865
+    precision: year
+    title: "Wprowadzenie pojęcia entropii"
+    original_title: "Introduction of entropy"
+    summary: "Clausius nadał drugiej zasadzie termodynamiki zwięzłą matematyczną postać."
+    summary_original: "Clausius gave the second law a concise mathematical form."
+sources:
+  - title: "Encyclopaedia Britannica — Rudolf Clausius"
+    url: "https://www.britannica.com/biography/Rudolf-Clausius"
+  - title: "Wikipedia — Rudolf Clausius"
+    url: "https://en.wikipedia.org/wiki/Rudolf_Clausius"
