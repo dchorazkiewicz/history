@@ -102,7 +102,7 @@ periods:
     short_label: "Rewolucja naukowa"
     start_year: 1543
     end_year: 1687
-    lane: 3
+    lane: 5
     track: science
     kind: movement
     precision: conventional
@@ -132,7 +132,7 @@ periods:
     short_label: "Oświecenie"
     start_year: 1685
     end_year: 1815
-    lane: 2
+    lane: 4
     track: ideas
     kind: movement
     precision: conventional
@@ -147,7 +147,7 @@ periods:
     short_label: "Romantyzm"
     start_year: 1780
     end_year: 1850
-    lane: 1
+    lane: 2
     track: culture
     kind: movement
     precision: conventional
@@ -164,7 +164,7 @@ periods:
     short_label: "Pozytywizm"
     start_year: 1830
     end_year: 1900
-    lane: 2
+    lane: 4
     track: ideas
     kind: movement
     precision: conventional
@@ -188,3 +188,82 @@ periods:
     sources:
       - title: "Wikipedia — Modernism"
         url: "https://en.wikipedia.org/wiki/Modernism"
+
+  - id: rococo
+    label: "Rokoko"
+    short_label: "Rokoko"
+    start_year: 1720
+    end_year: 1780
+    lane: 2
+    track: culture
+    kind: movement
+    precision: conventional
+    scope: "Europa"
+    note: "Rokoko rozwinęło się w pierwszej połowie XVIII wieku i współistniało z późnym barokiem oraz wczesnym neoklasycyzmem; jego zasięg i datowanie zależą od dziedziny i regionu."
+    sources:
+      - title: "Wikipedia — Rococo"
+        url: "https://en.wikipedia.org/wiki/Rococo"
+
+  - id: neoclassicism
+    label: "Klasycyzm / neoklasycyzm"
+    short_label: "Neoklasycyzm"
+    start_year: 1750
+    end_year: 1860
+    lane: 1
+    track: culture
+    kind: movement
+    precision: conventional
+    scope: "Europa i świat atlantycki"
+    note: "Szeroki nurt od połowy XVIII do XIX wieku, związany z ponownym zwrotem ku antykowi. W różnych sztukach i literaturach jego ramy są odmienne."
+    sources:
+      - title: "Google Arts & Culture — Neoclassicism"
+        url: "https://artsandculture.google.com/entity/neoclassicism/m0190t4"
+      - title: "Wikipedia — Neoclassicism"
+        url: "https://en.wikipedia.org/wiki/Neoclassicism"
+
+  - id: realism
+    label: "Realizm"
+    short_label: "Realizm"
+    start_year: 1840
+    end_year: 1900
+    lane: 3
+    track: culture
+    kind: movement
+    precision: conventional
+    scope: "Europa; następnie szerzej"
+    note: "Realizm jako ruch artystyczny i literacki wyłonił się szczególnie wyraźnie we Francji około lat 1840. i rozwijał się w wielu tradycjach przez drugą połowę XIX wieku."
+    sources:
+      - title: "Metropolitan Museum of Art — Nineteenth-Century French Realism"
+        url: "https://www.metmuseum.org/essays/nineteenth-century-french-realism"
+      - title: "Wikipedia — Realism"
+        url: "https://en.wikipedia.org/wiki/Realism_(art_movement)"
+
+  - id: naturalism
+    label: "Naturalizm"
+    short_label: "Naturalizm"
+    start_year: 1870
+    end_year: 1900
+    lane: 2
+    track: culture
+    kind: movement
+    precision: conventional
+    scope: "Europa; szczególnie literatura"
+    note: "Literacki naturalizm rozwinął się w późnym XIX wieku jako nurt bliski realizmowi, akcentujący determinizm, środowisko i obserwację społeczną."
+    sources:
+      - title: "Wikipedia — Naturalism (literature)"
+        url: "https://en.wikipedia.org/wiki/Naturalism_(literature)"
+
+  - id: humanism
+    label: "Humanizm renesansowy"
+    short_label: "Humanizm"
+    start_year: 1350
+    end_year: 1600
+    lane: 4
+    track: ideas
+    kind: movement
+    precision: conventional
+    scope: "Europa"
+    note: "Humanizm renesansowy był szerokim nurtem intelektualnym związanym m.in. ze studiami nad językami i tekstami antycznymi; jego rozwój był regionalnie zróżnicowany."
+    sources:
+      - title: "Wikipedia — Renaissance humanism"
+        url: "https://en.wikipedia.org/wiki/Renaissance_humanism"
