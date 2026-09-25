@@ -1,0 +1,44 @@
+id: kronecker
+name: "Leopold Kronecker"
+display_name: "Leopold Kronecker"
+born:
+  date: "1823-12-07"
+  year: 1823
+  precision: day
+died:
+  date: "1891-12-29"
+  year: 1891
+  precision: day
+place_association: "Legnica; Berlin"
+fields: [mathematics, number_theory, algebra, foundations_of_mathematics, philosophy_of_mathematics]
+image: null
+summary: "Niemiecki matematyk zajmujący się teorią liczb, algebrą i podstawami matematyki. Był wpływowym zwolennikiem podejścia konstruktywnego i sceptycznie odnosił się do swobodnego użycia aktualnej nieskończoności."
+summary_original: "German mathematician working in number theory, algebra and foundations. He was an influential advocate of constructive approaches and skeptical of unrestricted use of actual infinity."
+works:
+  - title: "O jednostkach zespolonych"
+    original_title: "Über complexe Einheiten"
+    year: 1857
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Twierdzenie Kroneckera-Webera"
+    original_name: "Kronecker–Weber theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Kronecker%E2%80%93Weber_theorem"
+    summary: "Każde abelowe rozszerzenie liczb wymiernych zawiera się w odpowiednim ciele cyklotomicznym."
+    summary_original: "Every finite abelian extension of the rationals is contained in a suitable cyclotomic field."
+  - name: "Konstruktywne podejście do podstaw matematyki"
+    original_name: "Constructive approach to foundations"
+    summary: "Kronecker preferował obiekty dające się skonstruować skończonymi procedurami i krytykował część nowych metod opartych na aktualnej nieskończoności."
+    summary_original: "Kronecker preferred objects constructible by finite procedures and criticized parts of the new mathematics based on actual infinity."
+events:
+  - year: 1861
+    precision: year
+    title: "Członek Akademii Berlińskiej"
+    original_title: "Member of the Berlin Academy"
+    summary: "Kronecker uzyskał silną pozycję w berlińskim środowisku matematycznym."
+    summary_original: "Kronecker gained a strong position in the Berlin mathematical community."
+sources:
+  - title: "MacTutor — Leopold Kronecker"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Kronecker/"
+  - title: "Wikipedia — Leopold Kronecker"
+    url: "https://en.wikipedia.org/wiki/Leopold_Kronecker"
