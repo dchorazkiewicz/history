@@ -1,0 +1,67 @@
+id: perelman
+name: "Grigori Yakovlevich Perelman"
+display_name: "Grigori Perelman"
+born:
+  date: "1966-06-13"
+  year: 1966
+  precision: day
+died: null
+place_association: "Leningrad / Petersburg, Rosja"
+fields: [mathematics, differential_geometry, geometric_analysis, topology, ricci_flow]
+image: null
+summary: "Rosyjski matematyk, który rozwiązał hipotezę Poincarégo i udowodnił hipotezę geometrizacji Thurstona, rozwijając program przepływu Ricciego Richarda Hamiltona. Opublikował dowód w trzech preprintach internetowych i odmówił zarówno Medalu Fieldsa, jak i Nagrody Milenijnej Clay Institute."
+summary_original: "Russian mathematician who solved the Poincaré conjecture and proved Thurston's geometrization conjecture by advancing Richard Hamilton's Ricci-flow program. He published the proof in three online preprints and declined both the Fields Medal and the Clay Millennium Prize."
+works:
+  - title: "Formuła entropii dla przepływu Ricciego i jej zastosowania geometryczne"
+    original_title: "The entropy formula for the Ricci flow and its geometric applications"
+    year: 2002
+    precision: year
+    type: preprint
+  - title: "Przepływ Ricciego z chirurgią na trójrozmaitościach"
+    original_title: "Ricci flow with surgery on three-manifolds"
+    year: 2003
+    precision: year
+    type: preprint
+  - title: "Skończony czas wygasania rozwiązań przepływu Ricciego na pewnych trójrozmaitościach"
+    original_title: "Finite extinction time for the solutions to the Ricci flow on certain three-manifolds"
+    year: 2003
+    precision: year
+    type: preprint
+ideas:
+  - name: "Dowód hipotezy Poincarégo"
+    original_name: "Proof of the Poincare conjecture"
+    wikipedia: "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture"
+    summary: "Perelman domknął program Hamiltona i wykazał, że każda domknięta, jednospójna trójrozmaitość jest homeomorficzna ze sferą trójwymiarową."
+    summary_original: "Perelman completed Hamilton's program and proved that every closed simply connected 3-manifold is homeomorphic to the 3-sphere."
+  - name: "Geometrizacja Thurstona"
+    original_name: "Thurston geometrization"
+    summary: "Techniki Perelmana wystarczyły do dowodu pełnej hipotezy geometrizacji, której hipoteza Poincarégo jest szczególnym przypadkiem."
+    summary_original: "Perelman's techniques proved the full geometrization conjecture, of which the Poincaré conjecture is a special case."
+  - name: "Entropia i chirurgia przepływu Ricciego"
+    original_name: "Ricci-flow entropy and surgery"
+    summary: "Wprowadził nowe funkcjonały monotoniczne i kontrolę osobliwości umożliwiającą wykonywanie chirurgii podczas przepływu Ricciego."
+    summary_original: "He introduced new monotone functionals and singularity control enabling surgery during Ricci flow."
+events:
+  - year: 2002
+    precision: year
+    title: "Pierwszy preprint z rozwiązaniem programu Hamiltona"
+    original_title: "First preprint in the solution of Hamilton's program"
+    summary: "Perelman opublikował pracę w arXiv zamiast w tradycyjnym czasopiśmie."
+    summary_original: "Perelman posted his work to arXiv rather than first submitting it to a traditional journal."
+  - year: 2006
+    precision: year
+    title: "Odmowa przyjęcia Medalu Fieldsa"
+    original_title: "Declining the Fields Medal"
+    summary: "Perelman nie przyjął Medalu Fieldsa przyznanego za rozwiązanie jednego z najważniejszych problemów topologii."
+    summary_original: "Perelman declined the Fields Medal awarded for solving one of topology's central problems."
+  - year: 2010
+    precision: year
+    title: "Odmowa Nagrody Milenijnej"
+    original_title: "Declining the Millennium Prize"
+    summary: "Odmówił również nagrody miliona dolarów Clay Mathematics Institute."
+    summary_original: "He also declined the million-dollar Clay Mathematics Institute prize."
+sources:
+  - title: "MacTutor — Grigori Perelman"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Perelman/"
+  - title: "Wikipedia — Grigori Perelman"
+    url: "https://en.wikipedia.org/wiki/Grigori_Perelman"
