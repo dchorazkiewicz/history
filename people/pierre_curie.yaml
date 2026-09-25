@@ -1,0 +1,65 @@
+id: pierre_curie
+name: "Pierre Curie"
+display_name: "Pierre Curie"
+born:
+  date: "1859-05-15"
+  year: 1859
+  precision: day
+died:
+  date: "1906-04-19"
+  year: 1906
+  precision: day
+place_association: "Paryż, Francja"
+fields: [physics, crystallography, magnetism, radioactivity, piezoelectricity, experimental_science]
+image: null
+summary: "Francuski fizyk, badacz magnetyzmu, kryształów i promieniotwórczości. Wspólnie z bratem Jacques’em odkrył piezoelektryczność, sformułował prawo Curie dla paramagnetyków, a z Marią Skłodowską-Curie odkrył polon i rad."
+summary_original: "French physicist who studied magnetism, crystals and radioactivity. With his brother Jacques he discovered piezoelectricity, formulated Curie's law for paramagnets, and with Marie Curie discovered polonium and radium."
+works:
+  - title: "O symetrii w zjawiskach fizycznych"
+    original_title: "Sur la symétrie dans les phénomènes physiques"
+    year: 1894
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Piezoelektryczność"
+    original_name: "Piezoelectricity"
+    wikipedia: "https://en.wikipedia.org/wiki/Piezoelectricity"
+    summary: "Pierre i Jacques Curie odkryli, że ściskanie niektórych kryształów wytwarza ładunek elektryczny."
+    summary_original: "Pierre and Jacques Curie discovered that compressing certain crystals produces electric charge."
+  - name: "Prawo Curie"
+    original_name: "Curie's law"
+    wikipedia: "https://en.wikipedia.org/wiki/Curie%27s_law"
+    summary: "Podatność paramagnetyka jest w przybliżeniu odwrotnie proporcjonalna do temperatury bezwzględnej."
+    summary_original: "The susceptibility of a paramagnet is approximately inversely proportional to absolute temperature."
+  - name: "Temperatura Curie"
+    original_name: "Curie temperature"
+    summary: "Powyżej charakterystycznej temperatury materiały ferromagnetyczne tracą spontaniczne uporządkowanie magnetyczne."
+    summary_original: "Above a characteristic temperature ferromagnetic materials lose spontaneous magnetic order."
+  - name: "Badania promieniotwórczości"
+    original_name: "Radioactivity research"
+    summary: "Wspólnie z Marią Curie opracowywał pomiary promieniotwórczości i badał własności nowo odkrytych pierwiastków."
+    summary_original: "With Marie Curie he developed radioactivity measurements and studied properties of newly discovered elements."
+events:
+  - year: 1880
+    precision: year
+    title: "Odkrycie piezoelektryczności"
+    original_title: "Discovery of piezoelectricity"
+    summary: "Pierre i Jacques Curie odkryli efekt piezoelektryczny w kryształach."
+    summary_original: "Pierre and Jacques Curie discovered the piezoelectric effect in crystals."
+  - year: 1898
+    precision: year
+    title: "Odkrycie polonu i radu z Marią Curie"
+    original_title: "Discovery of polonium and radium with Marie Curie"
+    summary: "Wspólne badania stały się fundamentem fizyki promieniotwórczości."
+    summary_original: "Their joint research became foundational to the physics of radioactivity."
+  - year: 1903
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Pierre i Maria Curie podzielili połowę nagrody za wspólne badania nad zjawiskami promieniowania."
+    summary_original: "Pierre and Marie Curie shared half the prize for their joint research on radiation phenomena."
+sources:
+  - title: "Nobel Prize — Pierre Curie"
+    url: "https://www.nobelprize.org/prizes/physics/1903/pierre-curie/facts/"
+  - title: "Encyclopaedia Britannica — Pierre Curie"
+    url: "https://www.britannica.com/biography/Pierre-Curie"
