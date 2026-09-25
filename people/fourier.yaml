@@ -1,0 +1,61 @@
+id: fourier
+name: "Joseph Fourier"
+display_name: "Joseph Fourier"
+born:
+  date: "1768-03-21"
+  year: 1768
+  precision: day
+died:
+  date: "1830-05-16"
+  year: 1830
+  precision: day
+place_association: "Auxerre; Egipt; Grenoble; Paryż"
+fields: [mathematics, analysis, differential_equations, physics, thermodynamics, history, political_administration]
+image: null
+summary: "Francuski matematyk i fizyk, twórca analitycznej teorii przewodzenia ciepła i jednej z najważniejszych idei całej analizy: rozkładania funkcji na sumy sinusów i cosinusów. Był też uczestnikiem ekspedycji Napoleona do Egiptu i wysokim urzędnikiem administracji."
+summary_original: "French mathematician and physicist, creator of the analytical theory of heat conduction and one of the most important ideas in analysis: decomposing functions into sums of sines and cosines. He also joined Napoleon's Egyptian expedition and served as a senior administrator."
+works:
+  - title: "O rozchodzeniu się ciepła w ciałach stałych"
+    original_title: "Mémoire sur la propagation de la chaleur dans les corps solides"
+    year: 1807
+    precision: year
+    type: scientific_treatise
+  - title: "Analityczna teoria ciepła"
+    original_title: "Théorie analytique de la chaleur"
+    wikipedia: "https://en.wikipedia.org/wiki/The_Analytical_Theory_of_Heat"
+    year: 1822
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Szereg Fouriera"
+    original_name: "Fourier series"
+    wikipedia: "https://en.wikipedia.org/wiki/Fourier_series"
+    summary: "Fourier rozwijał funkcje jako sumy sinusów i cosinusów, tworząc narzędzie fundamentalne dla analizy, fizyki, teorii sygnałów i równań różniczkowych."
+    summary_original: "Fourier expanded functions into sums of sines and cosines, creating a tool fundamental to analysis, physics, signal theory and differential equations."
+  - name: "Równanie przewodzenia ciepła"
+    original_name: "Heat equation"
+    wikipedia: "https://en.wikipedia.org/wiki/Heat_equation"
+    summary: "Sformułował matematyczny model dyfuzji temperatury i użył analizy harmonicznej do jego rozwiązywania."
+    summary_original: "He formulated a mathematical model of temperature diffusion and used harmonic analysis to solve it."
+  - name: "Analiza częstotliwościowa"
+    original_name: "Frequency decomposition"
+    summary: "Idea przedstawiania złożonych zjawisk jako superpozycji prostych oscylacji stała się jednym z najbardziej uniwersalnych języków nauki i techniki."
+    summary_original: "Representing complex phenomena as superpositions of simple oscillations became one of science and engineering's most universal languages."
+events:
+  - year: 1798
+    precision: year
+    title: "Udział w wyprawie do Egiptu"
+    original_title: "Participation in the Egyptian expedition"
+    summary: "Fourier dołączył do naukowej części ekspedycji Napoleona i został sekretarzem Institut d'Égypte."
+    summary_original: "Fourier joined the scientific contingent of Napoleon's expedition and became secretary of the Institut d'Égypte."
+  - year: 1802
+    precision: year
+    title: "Prefekt departamentu Isère"
+    original_title: "Prefect of Isère"
+    summary: "Łączył administrację w Grenoble z intensywną pracą naukową nad przewodzeniem ciepła."
+    summary_original: "He combined administration in Grenoble with intensive scientific work on heat conduction."
+sources:
+  - title: "MacTutor — Joseph Fourier"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Fourier/"
+  - title: "Wikipedia — Joseph Fourier"
+    url: "https://en.wikipedia.org/wiki/Joseph_Fourier"
