@@ -1,0 +1,51 @@
+id: chern
+name: "Shiing-Shen Chern"
+display_name: "Shiing-Shen Chern"
+born:
+  date: "1911-10-28"
+  year: 1911
+  precision: day
+died:
+  date: "2004-12-03"
+  year: 2004
+  precision: day
+place_association: "Jiaxing; Nankin; Princeton; Chicago; Berkeley"
+fields: [mathematics, differential_geometry, topology, algebraic_topology, global_analysis, education, scientific_organization]
+image: null
+summary: "Chińsko-amerykański matematyk, jeden z twórców nowoczesnej geometrii różniczkowej globalnej. Klasy Cherna połączyły geometrię różniczkową, topologię i późniejszą fizykę cechowania."
+summary_original: "Chinese-American mathematician and a creator of modern global differential geometry. Chern classes linked differential geometry, topology and later gauge physics."
+works:
+  - title: "Charakterystyczne klasy rozmaitości hermitowskich"
+    original_title: "Characteristic Classes of Hermitian Manifolds"
+    year: 1946
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Klasy Cherna"
+    original_name: "Chern classes"
+    wikipedia: "https://en.wikipedia.org/wiki/Chern_class"
+    summary: "Charakterystyczne klasy zespolonych wiązek wektorowych stały się podstawowym narzędziem topologii i geometrii."
+    summary_original: "Characteristic classes of complex vector bundles became a basic tool in topology and geometry."
+  - name: "Twierdzenie Cherna-Gaussa-Bonneta"
+    original_name: "Chern–Gauss–Bonnet theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Chern%E2%80%93Gauss%E2%80%93Bonnet_theorem"
+    summary: "Uogólnienie twierdzenia Gaussa-Bonneta wiąże całkę krzywizny z topologiczną charakterystyką Eulera."
+    summary_original: "A generalization of Gauss–Bonnet relates an integral of curvature to the topological Euler characteristic."
+events:
+  - year: 1943
+    precision: year
+    title: "Pobyt w Institute for Advanced Study"
+    original_title: "Work at the Institute for Advanced Study"
+    summary: "W Princeton Chern rozwinął metody, które doprowadziły do jego teorii klas charakterystycznych."
+    summary_original: "At Princeton Chern developed methods leading to his theory of characteristic classes."
+  - year: 1982
+    precision: year
+    title: "Powstanie Mathematical Sciences Research Institute"
+    original_title: "Founding of MSRI"
+    summary: "Chern był założycielem i pierwszym dyrektorem MSRI w Berkeley."
+    summary_original: "Chern was the founder and first director of MSRI in Berkeley."
+sources:
+  - title: "MacTutor — Shiing-Shen Chern"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Chern/"
+  - title: "Wikipedia — Shiing-Shen Chern"
+    url: "https://en.wikipedia.org/wiki/Shiing-Shen_Chern"
