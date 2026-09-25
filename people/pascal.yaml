@@ -1,0 +1,99 @@
+id: pascal
+name: "Blaise Pascal"
+display_name: "Blaise Pascal"
+born:
+  date: "1623-06-19"
+  year: 1623
+  precision: day
+died:
+  date: "1662-08-19"
+  year: 1662
+  precision: day
+place_association: "Clermont-Ferrand; Rouen; Paryż"
+fields: [mathematics, geometry, probability, physics, hydrostatics, mechanics, engineering, philosophy, theology, literature]
+image: null
+summary: "Francuski matematyk, fizyk, konstruktor, filozof i pisarz religijny. W młodości wniósł ważny wkład do geometrii rzutowej i skonstruował maszynę liczącą; później wraz z Fermatem tworzył podstawy rachunku prawdopodobieństwa, badał próżnię i ciśnienie, a w Prowincjałkach i Myślach zapisał się również w historii literatury i filozofii."
+summary_original: "French mathematician, physicist, inventor, philosopher and religious writer. As a youth he made major contributions to projective geometry and built a calculating machine; later with Fermat he helped found probability theory, investigated vacuum and pressure, and through the Provincial Letters and Pensées also entered literary and philosophical history."
+works:
+  - title: "Esej o przekrojach stożkowych"
+    original_title: "Essai pour les coniques"
+    year: 1640
+    precision: year
+    type: mathematical_treatise
+  - title: "Nowe doświadczenia dotyczące próżni"
+    original_title: "Expériences nouvelles touchant le vide"
+    year: 1647
+    precision: year
+    type: scientific_treatise
+  - title: "Traktat o trójkącie arytmetycznym"
+    original_title: "Traité du triangle arithmétique"
+    wikipedia: "https://en.wikipedia.org/wiki/Pascal%27s_triangle"
+    year: 1654
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Napisany około 1654 r.; opublikowany pośmiertnie w 1665 r."
+    publication_note_original: "Written around 1654; published posthumously in 1665."
+  - title: "Prowincjałki"
+    original_title: "Lettres provinciales"
+    year: 1656
+    precision: year
+    type: literature
+    publication_note: "Seria listów polemicznych publikowanych w latach 1656–1657."
+    publication_note_original: "A series of polemical letters published in 1656–1657."
+  - title: "Myśli"
+    original_title: "Pensées"
+    wikipedia: "https://en.wikipedia.org/wiki/Pens%C3%A9es"
+    year: 1670
+    precision: year
+    type: philosophy
+    posthumous: true
+    publication_note: "Fragmenty planowanego dzieła apologetycznego, opublikowane pośmiertnie."
+    publication_note_original: "Fragments of a planned apologetic work, published posthumously."
+ideas:
+  - name: "Twierdzenie Pascala"
+    original_name: "Pascal's theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Pascal%27s_theorem"
+    summary: "Dla sześciokąta wpisanego w stożkową punkty przecięcia par przeciwległych boków leżą na jednej prostej; rezultat stał się jednym z fundamentów geometrii rzutowej."
+    summary_original: "For a hexagon inscribed in a conic, the intersections of pairs of opposite sides lie on a single line; the result became a foundation of projective geometry."
+  - name: "Rachunek prawdopodobieństwa z Fermatem"
+    original_name: "Probability theory with Fermat"
+    summary: "Korespondencja Pascala z Fermatem w 1654 r. nad problemem podziału stawki ukształtowała podstawowe idee klasycznego rachunku prawdopodobieństwa."
+    summary_original: "Pascal's 1654 correspondence with Fermat on the problem of points shaped foundational ideas of classical probability theory."
+  - name: "Prawo Pascala"
+    original_name: "Pascal's law"
+    wikipedia: "https://en.wikipedia.org/wiki/Pascal%27s_law"
+    summary: "Zmiana ciśnienia przyłożona do zamkniętej cieczy przenosi się w całej cieczy, co stało się podstawą hydrauliki."
+    summary_original: "A pressure change applied to a confined fluid is transmitted throughout the fluid, becoming a foundation of hydraulics."
+  - name: "Próżnia i ciśnienie atmosferyczne"
+    original_name: "Vacuum and atmospheric pressure"
+    summary: "Eksperymenty Pascala wspierały istnienie próżni i interpretację wysokości słupa rtęci jako skutku ciśnienia atmosferycznego."
+    summary_original: "Pascal's experiments supported the existence of a vacuum and interpreted mercury-column height as an effect of atmospheric pressure."
+  - name: "Zakład Pascala"
+    original_name: "Pascal's wager"
+    wikipedia: "https://en.wikipedia.org/wiki/Pascal%27s_wager"
+    summary: "W Myślach Pascal sformułował argument decyzyjny dotyczący wiary, łączący religię z rozumowaniem o ryzyku, możliwych zyskach i stratach."
+    summary_original: "In the Pensées Pascal formulated a decision-theoretic argument about belief, connecting religion with reasoning about risk, possible gains and losses."
+events:
+  - year: 1642
+    precision: year
+    title: "Budowa Pascaliny"
+    original_title: "Construction of the Pascaline"
+    summary: "Pascal rozpoczął budowę mechanicznego kalkulatora mającego ułatwić ojcu pracę przy obliczeniach podatkowych."
+    summary_original: "Pascal began building a mechanical calculator to assist his father's tax calculations."
+  - year: 1648
+    precision: year
+    title: "Eksperyment na Puy de Dôme"
+    original_title: "Puy de Dôme experiment"
+    summary: "Florin Périer, działając według planu Pascala, wykazał zmianę wysokości słupa rtęci wraz z wysokością, wspierając teorię ciśnienia atmosferycznego."
+    summary_original: "Florin Périer, following Pascal's plan, demonstrated changes in mercury-column height with altitude, supporting atmospheric-pressure theory."
+  - year: 1654
+    precision: year
+    title: "Korespondencja z Fermatem o prawdopodobieństwie"
+    original_title: "Correspondence with Fermat on probability"
+    summary: "Rozważania nad problemami hazardowymi doprowadziły do podstaw klasycznego rachunku prawdopodobieństwa."
+    summary_original: "Discussion of gambling problems led to foundations of classical probability theory."
+sources:
+  - title: "MacTutor — Blaise Pascal"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Pascal/"
+  - title: "Wikipedia — Blaise Pascal"
+    url: "https://en.wikipedia.org/wiki/Blaise_Pascal"
