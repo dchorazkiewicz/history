@@ -1,0 +1,50 @@
+id: rontgen
+name: "Wilhelm Conrad Rontgen"
+display_name: "Wilhelm Röntgen"
+born:
+  date: "1845-03-27"
+  year: 1845
+  precision: day
+died:
+  date: "1923-02-10"
+  year: 1923
+  precision: day
+place_association: "Lennep; Strasburg; Würzburg; Monachium"
+fields: [physics, x_rays, experimental_science, optics]
+image: null
+summary: "Niemiecki fizyk, odkrywca promieni X. W 1895 r. zauważył niewidzialne promieniowanie przenikające materiały nieprzezroczyste dla światła widzialnego i wykonał jedne z pierwszych zdjęć rentgenowskich, otwierając nową epokę diagnostyki medycznej i fizyki promieniowania."
+summary_original: "German physicist who discovered X-rays. In 1895 he observed invisible radiation capable of penetrating materials opaque to visible light and produced some of the first radiographs, opening a new era in medical diagnosis and radiation physics."
+works:
+  - title: "O nowym rodzaju promieni"
+    original_title: "Über eine neue Art von Strahlen"
+    year: 1895
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Promienie X"
+    original_name: "X-rays"
+    wikipedia: "https://en.wikipedia.org/wiki/X-ray"
+    summary: "Röntgen odkrył wysokoenergetyczne promieniowanie elektromagnetyczne o znacznie większej przenikliwości niż światło widzialne."
+    summary_original: "Röntgen discovered high-energy electromagnetic radiation with far greater penetrating power than visible light."
+  - name: "Radiografia"
+    original_name: "Radiography"
+    summary: "Wykorzystanie różnego pochłaniania promieni X przez tkanki i kości umożliwiło obrazowanie wnętrza ciała bez operacji."
+    summary_original: "Differences in X-ray absorption by tissue and bone enabled imaging inside the body without surgery."
+events:
+  - year: 1895
+    precision: day
+    title: "Odkrycie promieni X"
+    original_title: "Discovery of X-rays"
+    summary: "8 listopada Röntgen podczas eksperymentów z lampami wyładowczymi zauważył nowe promieniowanie."
+    summary_original: "On 8 November Röntgen observed a new radiation while experimenting with discharge tubes."
+  - year: 1901
+    precision: year
+    title: "Pierwsza Nagroda Nobla w dziedzinie fizyki"
+    original_title: "First Nobel Prize in Physics"
+    summary: "Röntgen został pierwszym laureatem Nagrody Nobla w dziedzinie fizyki."
+    summary_original: "Röntgen became the first recipient of the Nobel Prize in Physics."
+sources:
+  - title: "Nobel Prize — Wilhelm Conrad Röntgen"
+    url: "https://www.nobelprize.org/prizes/physics/1901/rontgen/facts/"
+  - title: "Encyclopaedia Britannica — Wilhelm Conrad Röntgen"
+    url: "https://www.britannica.com/biography/Wilhelm-Rontgen"
