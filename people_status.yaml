@@ -971,62 +971,74 @@ people:
 
   - id: thomas_young
     name: "Thomas Young"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/thomas_young.yaml"
+    focus: [physics, medicine]
 
   - id: fresnel
     name: "Augustin-Jean Fresnel"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/fresnel.yaml"
+    focus: [physics, engineering]
 
   - id: oersted
     name: "Hans Christian Ørsted"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/oersted.yaml"
+    focus: [physics, chemistry, philosophy]
 
   - id: ampere
     name: "André-Marie Ampère"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/ampere.yaml"
+    focus: [physics, mathematics, philosophy]
 
   - id: ohm
     name: "Georg Ohm"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/ohm.yaml"
+    focus: [physics, mathematics]
 
   - id: faraday
     name: "Michael Faraday"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/faraday.yaml"
+    focus: [physics, chemistry]
 
   - id: carnot
     name: "Sadi Carnot"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/carnot.yaml"
+    focus: [physics, engineering]
 
   - id: joule
     name: "James Prescott Joule"
-    status: pending
+    status: described
+    data_file: "people/joule.yaml"
     focus: [physics]
 
   - id: kelvin
     name: "William Thomson (Lord Kelvin)"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/kelvin.yaml"
+    focus: [physics, mathematics, engineering]
 
   - id: clausius
     name: "Rudolf Clausius"
-    status: pending
+    status: described
+    data_file: "people/clausius.yaml"
     focus: [physics]
 
   - id: helmholtz
     name: "Hermann von Helmholtz"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/helmholtz.yaml"
+    focus: [physics, medicine, philosophy]
 
   - id: kirchhoff
     name: "Gustav Kirchhoff"
-    status: pending
+    status: described
+    data_file: "people/kirchhoff.yaml"
     focus: [physics]
 
   - id: maxwell
