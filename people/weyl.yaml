@@ -1,0 +1,64 @@
+id: weyl
+name: "Hermann Weyl"
+display_name: "Hermann Weyl"
+born:
+  date: "1885-11-09"
+  year: 1885
+  precision: day
+died:
+  date: "1955-12-08"
+  year: 1955
+  precision: day
+place_association: "Elmshorn; Getynga; Zurych; Princeton"
+fields: [mathematics, differential_geometry, group_theory, topology, number_theory, physics, relativity, quantum_mechanics, gauge_theory, philosophy_of_mathematics]
+image: null
+summary: "Niemiecki matematyk i fizyk matematyczny o niezwykle szerokim dorobku. Łączył geometrię różniczkową, teorię grup, teorię liczb i analizę z teorią względności oraz mechaniką kwantową, a jego idea cechowania stała się jednym z fundamentów nowoczesnej fizyki pól."
+summary_original: "German mathematician and mathematical physicist with an exceptionally broad body of work. He connected differential geometry, group theory, number theory and analysis with relativity and quantum mechanics, while his gauge idea became foundational to modern field theory."
+works:
+  - title: "Przestrzeń, czas, materia"
+    original_title: "Raum, Zeit, Materie"
+    year: 1918
+    precision: year
+    type: scientific_treatise
+  - title: "Continuum"
+    original_title: "Das Kontinuum"
+    year: 1918
+    precision: year
+    type: philosophy
+  - title: "Teoria grup i mechanika kwantowa"
+    original_title: "Gruppentheorie und Quantenmechanik"
+    year: 1928
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Teoria cechowania"
+    original_name: "Gauge theory"
+    wikipedia: "https://en.wikipedia.org/wiki/Gauge_theory"
+    summary: "W 1918 r. Weyl próbował połączyć grawitację i elektromagnetyzm przez lokalną swobodę skali; później idea lokalnego cechowania została przekształcona i stała się centralna w fizyce kwantowej."
+    summary_original: "In 1918 Weyl tried to unify gravity and electromagnetism through local scale freedom; later the idea of local gauge symmetry was transformed and became central to quantum physics."
+  - name: "Teoria reprezentacji grup w fizyce"
+    original_name: "Group representations in physics"
+    summary: "Weyl pokazał, że symetrie grupowe są naturalnym językiem klasyfikacji stanów i wielkości w mechanice kwantowej."
+    summary_original: "Weyl showed that group symmetries provide a natural language for classifying states and quantities in quantum mechanics."
+  - name: "Filozofia kontinuum"
+    original_name: "Philosophy of the continuum"
+    summary: "W Das Kontinuum próbował pogodzić rygor matematyczny z intuicjonistycznymi wątpliwościami wobec klasycznej teorii zbiorów."
+    summary_original: "In Das Kontinuum he tried to reconcile mathematical rigor with intuitionist doubts about classical set theory."
+events:
+  - year: 1913
+    precision: year
+    title: "Profesor w ETH Zürich"
+    original_title: "Professor at ETH Zurich"
+    summary: "Weyl objął katedrę po odejściu Minkowskiego z Zurychu."
+    summary_original: "Weyl took a chair at ETH Zurich."
+  - year: 1933
+    precision: year
+    title: "Wyjazd z Niemiec do Princeton"
+    original_title: "Departure from Germany for Princeton"
+    summary: "Po dojściu nazistów do władzy Weyl opuścił Getyngę i przeniósł się do Institute for Advanced Study."
+    summary_original: "After the Nazis came to power, Weyl left Göttingen and moved to the Institute for Advanced Study."
+sources:
+  - title: "MacTutor — Hermann Weyl"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/"
+  - title: "Stanford Encyclopedia of Philosophy — Hermann Weyl"
+    url: "https://plato.stanford.edu/entries/weyl/"
