@@ -2,7 +2,7 @@ schema_version: 1
 category: physics
 label: "Fizycy — kanon historyczny"
 selection_policy: "Selektywny kanon osób istotnych dla rozwoju fizyki i historycznej filozofii przyrody; nie jest listą wszystkich laureatów ani wszystkich specjalistów."
-count: 122
+count: 129
 members:
   - aristotle
   - archimedes
@@ -125,4 +125,11 @@ members:
   - barish
   - clauser
   - aspect
+  - zeilinger
   - witten
+  - maldacena
+  - dalembert
+  - laplace
+  - fourier
+  - minkowski
+  - noether
