@@ -1,0 +1,69 @@
+id: cavalieri
+name: "Bonaventura Cavalieri"
+display_name: "Bonaventura Cavalieri"
+born:
+  year: 1598
+  precision: year
+died:
+  date: "1647-11-30"
+  year: 1647
+  precision: day
+place_association: "Mediolan; Piza; Parma; Bolonia"
+fields: [mathematics, geometry, infinitesimal_calculus, astronomy, optics, theology, education]
+image: null
+summary: "Włoski matematyk i zakonnik, uczeń kręgu Galileusza. Rozwinął metodę niepodzielnych, która pozwalała porównywać pola i objętości przez traktowanie figur jako złożonych z nieskończenie wielu przekrojów i stała się jednym z ważnych prekursorów rachunku całkowego."
+summary_original: "Italian mathematician and religious scholar associated with Galileo's circle. He developed the method of indivisibles, comparing areas and volumes by treating figures as composed of infinitely many sections, an important precursor of integral calculus."
+works:
+  - title: "Dyrektorium astronomiczne"
+    original_title: "Directorium generale uranometricum"
+    year: 1632
+    precision: year
+    type: astronomical_treatise
+  - title: "Geometria rozwinięta nową metodą niepodzielnych"
+    original_title: "Geometria indivisibilibus continuorum nova quadam ratione promota"
+    year: 1635
+    precision: year
+    type: mathematical_treatise
+  - title: "Sześć ćwiczeń geometrycznych"
+    original_title: "Exercitationes Geometricae Sex"
+    year: 1647
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Metoda niepodzielnych"
+    original_name: "Method of indivisibles"
+    summary: "Cavalieri porównywał pola przez odpowiadające sobie przekroje liniowe, a objętości przez przekroje płaskie, co umożliwiało obliczenia podobne do późniejszego całkowania."
+    summary_original: "Cavalieri compared areas through corresponding line sections and volumes through plane sections, enabling calculations similar to later integration."
+  - name: "Zasada Cavalieriego"
+    original_name: "Cavalieri's principle"
+    wikipedia: "https://en.wikipedia.org/wiki/Cavalieri%27s_principle"
+    summary: "Jeżeli dwie bryły mają na każdej wysokości przekroje o równych polach, mają równe objętości."
+    summary_original: "If two solids have equal cross-sectional areas at every height, they have equal volumes."
+  - name: "Przekaz idei Galileusza"
+    original_name: "Transmission of Galilean ideas"
+    summary: "Cavalieri przez dekady korespondował z Galileuszem i należał do uczonych rozwijających matematyczne metody jego szkoły."
+    summary_original: "Cavalieri corresponded with Galileo for decades and was among the scholars extending mathematical methods associated with his school."
+events:
+  - year: 1619
+    precision: year
+    title: "Początek korespondencji z Galileuszem"
+    original_title: "Beginning correspondence with Galileo"
+    summary: "Kontakt z Galileuszem stał się jednym z głównych intelektualnych punktów odniesienia Cavalieriego."
+    summary_original: "Contact with Galileo became one of Cavalieri's main intellectual reference points."
+  - year: 1629
+    precision: year
+    title: "Katedra matematyki w Bolonii"
+    original_title: "Mathematics chair at Bologna"
+    summary: "Dzięki poparciu Galileusza Cavalieri objął pierwszą katedrę matematyki w Bolonii i zajmował ją do śmierci."
+    summary_original: "With Galileo's support Cavalieri obtained Bologna's first chair of mathematics and held it until his death."
+  - year: 1635
+    precision: year
+    title: "Publikacja Geometria indivisibilibus"
+    original_title: "Publication of Geometria indivisibilibus"
+    summary: "Dzieło stało się jednym z głównych tekstów prowadzących od geometrii starożytnej do nowożytnego rachunku całkowego."
+    summary_original: "The work became a major bridge from ancient geometry to early modern integral methods."
+sources:
+  - title: "MacTutor — Bonaventura Cavalieri"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Cavalieri/"
+  - title: "Wikipedia — Bonaventura Cavalieri"
+    url: "https://en.wikipedia.org/wiki/Bonaventura_Cavalieri"
