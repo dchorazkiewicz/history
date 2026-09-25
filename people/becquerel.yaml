@@ -1,0 +1,50 @@
+id: becquerel
+name: "Antoine Henri Becquerel"
+display_name: "Henri Becquerel"
+born:
+  date: "1852-12-15"
+  year: 1852
+  precision: day
+died:
+  date: "1908-08-25"
+  year: 1908
+  precision: day
+place_association: "Paryż, Francja"
+fields: [physics, radioactivity, experimental_science, optics]
+image: null
+summary: "Francuski fizyk, odkrywca naturalnej promieniotwórczości. Badając sole uranu w 1896 r. zauważył, że samorzutnie zaczerniają płytę fotograficzną nawet bez wcześniejszego naświetlenia."
+summary_original: "French physicist who discovered natural radioactivity. While studying uranium salts in 1896 he found that they spontaneously fogged photographic plates even without prior exposure to light."
+works:
+  - title: "O promieniowaniu emitowanym przez fosforescencję"
+    original_title: "Sur les radiations émises par phosphorescence"
+    year: 1896
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Naturalna promieniotwórczość"
+    original_name: "Natural radioactivity"
+    wikipedia: "https://en.wikipedia.org/wiki/Radioactive_decay"
+    summary: "Becquerel wykazał, że związki uranu emitują przenikliwe promieniowanie samorzutnie, bez zewnętrznego wzbudzenia świetlnego."
+    summary_original: "Becquerel showed that uranium compounds emit penetrating radiation spontaneously, without external light excitation."
+  - name: "Promienie Becquerela"
+    original_name: "Becquerel rays"
+    summary: "Pierwsza nazwa promieniowania pochodzącego od uranu stała się punktem wyjścia do badań Curie nad promieniotwórczością."
+    summary_original: "The early name for radiation from uranium became the starting point for the Curies' research on radioactivity."
+events:
+  - year: 1896
+    precision: year
+    title: "Odkrycie promieniotwórczości"
+    original_title: "Discovery of radioactivity"
+    summary: "Eksperymenty z solami uranu ujawniły samorzutne promieniowanie przenikające papier i zaczerniające kliszę fotograficzną."
+    summary_original: "Experiments with uranium salts revealed spontaneous radiation penetrating paper and darkening photographic plates."
+  - year: 1903
+    precision: year
+    title: "Nagroda Nobla z Marią i Pierre’em Curie"
+    original_title: "Nobel Prize with Marie and Pierre Curie"
+    summary: "Becquerel otrzymał połowę nagrody za odkrycie spontanicznej promieniotwórczości."
+    summary_original: "Becquerel received half the prize for discovering spontaneous radioactivity."
+sources:
+  - title: "Nobel Prize — Henri Becquerel"
+    url: "https://www.nobelprize.org/prizes/physics/1903/becquerel/facts/"
+  - title: "Encyclopaedia Britannica — Henri Becquerel"
+    url: "https://www.britannica.com/biography/Henri-Becquerel"
