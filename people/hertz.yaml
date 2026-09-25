@@ -1,0 +1,52 @@
+id: hertz
+name: "Heinrich Rudolf Hertz"
+display_name: "Heinrich Hertz"
+born:
+  date: "1857-02-22"
+  year: 1857
+  precision: day
+died:
+  date: "1894-01-01"
+  year: 1894
+  precision: day
+place_association: "Hamburg; Karlsruhe; Bonn"
+fields: [physics, electromagnetism, mechanics, experimental_science]
+image: null
+summary: "Niemiecki fizyk, który eksperymentalnie potwierdził istnienie fal elektromagnetycznych przewidzianych przez Maxwella. Jego doświadczenia pokazały, że fale radiowe podlegają odbiciu, załamaniu, interferencji i polaryzacji podobnie jak światło."
+summary_original: "German physicist who experimentally confirmed the electromagnetic waves predicted by Maxwell. His experiments showed that radio waves undergo reflection, refraction, interference and polarization like light."
+works:
+  - title: "O bardzo szybkich drganiach elektrycznych"
+    original_title: "Über sehr schnelle elektrische Schwingungen"
+    year: 1887
+    precision: year
+    type: scientific_treatise
+  - title: "Badania nad rozchodzeniem się siły elektrycznej"
+    original_title: "Untersuchungen über die Ausbreitung der elektrischen Kraft"
+    year: 1892
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Doświadczalne fale elektromagnetyczne"
+    original_name: "Experimental electromagnetic waves"
+    summary: "Hertz wytwarzał i wykrywał fale radiowe, potwierdzając kluczowe przewidywanie teorii Maxwella."
+    summary_original: "Hertz generated and detected radio waves, confirming a key prediction of Maxwell's theory."
+  - name: "Właściwości optyczne fal radiowych"
+    original_name: "Optical properties of radio waves"
+    summary: "Pokazał, że fale elektromagnetyczne można odbijać, załamywać, polaryzować i interferować."
+    summary_original: "He showed that electromagnetic waves can be reflected, refracted, polarized and interfered."
+  - name: "Efekt fotoelektryczny jako obserwacja uboczna"
+    original_name: "Early observation of the photoelectric effect"
+    summary: "Hertz zauważył, że promieniowanie ultrafioletowe ułatwia przeskok iskry, co później doprowadziło do badań efektu fotoelektrycznego."
+    summary_original: "Hertz noticed that ultraviolet radiation facilitated spark discharge, an observation leading to later studies of the photoelectric effect."
+events:
+  - year: 1887
+    precision: year
+    title: "Wykrycie fal elektromagnetycznych"
+    original_title: "Detection of electromagnetic waves"
+    summary: "Eksperymenty Hertza zapewniły bezpośrednie potwierdzenie teorii elektromagnetycznej Maxwella."
+    summary_original: "Hertz's experiments directly confirmed Maxwell's electromagnetic theory."
+sources:
+  - title: "Encyclopaedia Britannica — Heinrich Hertz"
+    url: "https://www.britannica.com/biography/Heinrich-Hertz"
+  - title: "Wikipedia — Heinrich Hertz"
+    url: "https://en.wikipedia.org/wiki/Heinrich_Hertz"
