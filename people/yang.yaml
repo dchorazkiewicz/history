@@ -1,0 +1,59 @@
+id: yang
+name: "Chen Ning Yang"
+display_name: "Chen-Ning Yang"
+born:
+  date: "1922-09-22"
+  year: 1922
+  precision: day
+died:
+  date: "2025-10-18"
+  year: 2025
+  precision: day
+place_association: "Hefei; Chicago; Princeton; Stony Brook; Pekin"
+fields: [physics, particle_physics, quantum_field_theory, gauge_theory, statistical_mechanics, mathematical_physics]
+image: null
+summary: "Chińsko-amerykański fizyk teoretyczny, współtwórca teorii Yanga-Millsa i jeden z głównych autorów przełomu dotyczącego łamania parzystości w oddziaływaniach słabych. Jego prace nad teoriami cechowania stały się fundamentem Modelu Standardowego."
+summary_original: "Chinese-American theoretical physicist, co-creator of Yang–Mills theory and a principal author of the breakthrough on parity violation in weak interactions. His work on gauge theories became foundational to the Standard Model."
+works:
+  - title: "Zachowanie izotopowego spinu i niezmienniczość cechowania"
+    original_title: "Conservation of Isotopic Spin and Isotopic Gauge Invariance"
+    year: 1954
+    precision: year
+    type: scientific_treatise
+    publication_note: "Praca z Robertem Millsem."
+    publication_note_original: "Written with Robert Mills."
+  - title: "Pytanie o zachowanie parzystości w oddziaływaniach słabych"
+    original_title: "Question of Parity Conservation in Weak Interactions"
+    year: 1956
+    precision: year
+    type: scientific_treatise
+    publication_note: "Praca z Tsung-Dao Lee."
+    publication_note_original: "Written with Tsung-Dao Lee."
+ideas:
+  - name: "Teoria Yanga-Millsa"
+    original_name: "Yang–Mills theory"
+    wikipedia: "https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_theory"
+    summary: "Uogólnia elektromagnetyczną teorię cechowania na nieabelowe grupy symetrii i stanowi matematyczny rdzeń współczesnych teorii oddziaływań fundamentalnych."
+    summary_original: "It generalizes electromagnetic gauge theory to non-Abelian symmetry groups and forms the mathematical core of modern fundamental interactions."
+  - name: "Łamanie parzystości"
+    original_name: "Parity violation"
+    summary: "Yang i Lee wykazali, że zachowanie parzystości w słabych oddziaływaniach nie było eksperymentalnie potwierdzone i zaproponowali testy ujawniające jego naruszenie."
+    summary_original: "Yang and Lee showed that parity conservation in weak interactions lacked experimental confirmation and proposed tests revealing its violation."
+events:
+  - year: 1954
+    precision: year
+    title: "Teoria Yanga-Millsa"
+    original_title: "Yang–Mills theory"
+    summary: "Wspólna praca Yanga i Millsa stworzyła nieabelową teorię cechowania."
+    summary_original: "Yang and Mills created a non-Abelian gauge theory."
+  - year: 1957
+    precision: year
+    title: "Nagroda Nobla z Tsung-Dao Lee"
+    original_title: "Nobel Prize with Tsung-Dao Lee"
+    summary: "Nagrodzono ich za analizę praw parzystości i jej konsekwencje w fizyce cząstek."
+    summary_original: "They were honored for their analysis of parity laws and its consequences in particle physics."
+sources:
+  - title: "Nobel Prize — Chen Ning Yang"
+    url: "https://www.nobelprize.org/prizes/physics/1957/yang/facts/"
+  - title: "Wikipedia — Chen Ning Yang"
+    url: "https://en.wikipedia.org/wiki/Chen_Ning_Yang"
