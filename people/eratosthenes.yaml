@@ -1,0 +1,64 @@
+id: eratosthenes
+name: "Eratosthenes of Cyrene"
+display_name: "Eratostenes"
+born:
+  year: -276
+  precision: approximate
+died:
+  year: -194
+  precision: approximate
+place_association: "Cyrena; Aleksandria"
+fields: [mathematics, geography, astronomy]
+image: null
+summary: "Grecki matematyk, geograf i uczony związany z Biblioteką Aleksandryjską. Zasłynął pomiarem obwodu Ziemi, sitem do wyznaczania liczb pierwszych oraz próbą matematycznego opisu geografii świata."
+summary_original: "Greek mathematician, geographer and scholar associated with the Library of Alexandria. He is famous for measuring Earth's circumference, the sieve for identifying primes and attempts to describe world geography mathematically."
+works:
+  - title: "O pomiarze Ziemi"
+    original_title: "On the Measurement of the Earth"
+    year: -240
+    precision: approximate
+    type: scientific_treatise
+    publication_note: "Dzieło zaginione; metoda pomiaru obwodu Ziemi jest znana z późniejszych przekazów, zwłaszcza Kleomedesa."
+    publication_note_original: "Lost work; the method for measuring Earth's circumference is known from later accounts, especially Cleomedes."
+  - title: "Geografia"
+    original_title: "Geographika"
+    year: -230
+    precision: approximate
+    type: geography
+    publication_note: "Dzieło zaginione, znane z cytowań i omówień późniejszych autorów."
+    publication_note_original: "Lost work known from quotations and discussions by later authors."
+ideas:
+  - name: "Pomiar obwodu Ziemi"
+    original_name: "Measurement of Earth's circumference"
+    wikipedia: "https://en.wikipedia.org/wiki/Earth%27s_circumference#Eratosthenes"
+    summary: "Porównując kąt padania promieni słonecznych w Syene i Aleksandrii oraz znaną odległość między tymi miejscami, Eratostenes oszacował rozmiar Ziemi."
+    summary_original: "By comparing the Sun's angle at Syene and Alexandria and using the known distance between them, Eratosthenes estimated Earth's size."
+  - name: "Sito Eratostenesa"
+    original_name: "Sieve of Eratosthenes"
+    wikipedia: "https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes"
+    summary: "Klasyczny algorytm wyznaczania liczb pierwszych przez systematyczne wykreślanie wielokrotności kolejnych liczb."
+    summary_original: "A classical algorithm for finding prime numbers by systematically eliminating multiples of successive integers."
+  - name: "Matematyczna geografia"
+    original_name: "Mathematical geography"
+    summary: "Eratostenes łączył pomiary, geometrię i dane geograficzne, rozwijając ilościowy sposób opisu Ziemi."
+    summary_original: "Eratosthenes combined measurement, geometry and geographic data, developing a quantitative approach to describing Earth."
+events:
+  - year: -245
+    precision: approximate
+    title: "Kierowanie Biblioteką Aleksandryjską"
+    original_title: "Leadership of the Library of Alexandria"
+    summary: "W III w. p.n.e. Eratostenes został jednym z głównych uczonych i bibliotekarzy Aleksandrii."
+    summary_original: "In the third century BCE Eratosthenes became one of Alexandria's leading scholars and librarians."
+  - year: -240
+    precision: approximate
+    title: "Pomiar obwodu Ziemi"
+    original_title: "Measurement of Earth's circumference"
+    summary: "Około połowy III w. p.n.e. przeprowadził słynne oszacowanie obwodu Ziemi na podstawie geometrii cieni."
+    summary_original: "Around the middle of the third century BCE he carried out his famous estimate of Earth's circumference using the geometry of shadows."
+sources:
+  - title: "MacTutor — Eratosthenes of Cyrene"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Eratosthenes/"
+  - title: "Wikipedia — Eratosthenes"
+    url: "https://en.wikipedia.org/wiki/Eratosthenes"
+  - title: "Wikipedia — History of geodesy"
+    url: "https://en.wikipedia.org/wiki/History_of_geodesy"
