@@ -1,0 +1,55 @@
+id: bohr
+name: "Niels Henrik David Bohr"
+display_name: "Niels Bohr"
+born:
+  date: "1885-10-07"
+  year: 1885
+  precision: day
+died:
+  date: "1962-11-18"
+  year: 1962
+  precision: day
+place_association: "Kopenhaga; Manchester; Cambridge"
+fields: [physics, atomic_physics, quantum_theory, nuclear_physics, philosophy_of_science, education]
+image: null
+summary: "Duński fizyk, jedna z centralnych postaci narodzin mechaniki kwantowej. Stworzył model atomu z kwantowanymi stanami, rozwinął zasadę komplementarności i zbudował w Kopenhadze jeden z najważniejszych ośrodków fizyki XX wieku."
+summary_original: "Danish physicist and a central figure in the birth of quantum mechanics. He created a model of the atom with quantized states, developed the principle of complementarity and built one of the twentieth century's leading physics centers in Copenhagen."
+works:
+  - title: "O budowie atomów i cząsteczek"
+    original_title: "On the Constitution of Atoms and Molecules"
+    year: 1913
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Model Bohra atomu"
+    original_name: "Bohr model"
+    wikipedia: "https://en.wikipedia.org/wiki/Bohr_model"
+    summary: "Elektrony mogą zajmować tylko wybrane stany energetyczne, a przejściom między nimi towarzyszy emisja lub absorpcja kwantów promieniowania."
+    summary_original: "Electrons occupy only selected energy states, with radiation emitted or absorbed during transitions between them."
+  - name: "Zasada korespondencji"
+    original_name: "Correspondence principle"
+    summary: "W granicy dużych liczb kwantowych przewidywania teorii kwantowej powinny przechodzić w wyniki fizyki klasycznej."
+    summary_original: "At large quantum numbers, quantum predictions should approach classical physics."
+  - name: "Komplementarność"
+    original_name: "Complementarity"
+    wikipedia: "https://en.wikipedia.org/wiki/Complementarity_(physics)"
+    summary: "Różne, wzajemnie wykluczające się opisy eksperymentalne mogą być konieczne do pełnego opisu zjawiska kwantowego."
+    summary_original: "Different mutually exclusive experimental descriptions may be necessary for a complete account of a quantum phenomenon."
+events:
+  - year: 1913
+    precision: year
+    title: "Model atomu Bohra"
+    original_title: "Bohr atomic model"
+    summary: "Bohr połączył model jądrowy Rutherforda z hipotezą kwantową Plancka."
+    summary_original: "Bohr combined Rutherford's nuclear atom with Planck's quantum hypothesis."
+  - year: 1922
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Nagrodzono go za badania struktury atomów i emitowanego przez nie promieniowania."
+    summary_original: "He was honored for investigations of atomic structure and radiation."
+sources:
+  - title: "Nobel Prize — Niels Bohr"
+    url: "https://www.nobelprize.org/prizes/physics/1922/bohr/facts/"
+  - title: "Niels Bohr Archive"
+    url: "https://nbarchive.ku.dk/"
