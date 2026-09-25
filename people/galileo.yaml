@@ -1,0 +1,163 @@
+id: galileo
+name: "Galileo Galilei"
+display_name: "Galileusz"
+wikipedia: "https://pl.wikipedia.org/wiki/Galileusz"
+born:
+  date: "1564-02-15"
+  year: 1564
+  precision: day
+died:
+  date: "1642-01-08"
+  year: 1642
+  precision: day
+place_association: "Piza; Padwa; Florencja; Arcetri, Toskania"
+fields: [mathematics, physics, astronomy, mechanics, optics, engineering, philosophy, natural_philosophy]
+image: null
+summary: "Włoski matematyk, astronom i filozof przyrody, jeden z kluczowych twórców nowożytnej nauki. Łączył doświadczenie z matematycznym opisem ruchu, rozwijał mechanikę i astronomię obserwacyjną, a za pomocą teleskopu dostarczył nowych argumentów przeciw tradycyjnemu obrazowi kosmosu."
+summary_original: "Italian mathematician, astronomer and natural philosopher, one of the key figures in the emergence of modern science. He combined experiment with mathematical analysis of motion, advanced mechanics and observational astronomy, and used telescopic observations to challenge the traditional picture of the cosmos."
+
+works:
+  - title: "Operacje cyrkla geometrycznego i wojskowego"
+    original_title: "Le operazioni del compasso geometrico e militare"
+    year: 1606
+    precision: year
+    type: mathematical_treatise
+    links:
+      - title: "Museo Galileo — opis dzieła"
+        url: "https://www2.museogalileo.it/en/library-and-research-institute/projects/meet-galileo/38-works.html"
+
+  - title: "Gwiezdny posłaniec"
+    original_title: "Sidereus Nuncius"
+    wikipedia: "https://en.wikipedia.org/wiki/Sidereus_Nuncius"
+    year: 1610
+    precision: year
+    type: astronomical_treatise
+    publication_note: "Opublikowany w Wenecji 12 marca 1610 r.; przedstawiał obserwacje Księżyca, Drogi Mlecznej i czterech księżyców Jowisza."
+    publication_note_original: "Published in Venice on 12 March 1610; reported observations of the Moon, the Milky Way and four moons of Jupiter."
+
+  - title: "Rozprawa o ciałach unoszących się na wodzie"
+    original_title: "Discorso intorno alle cose che stanno in su l'acqua o che in quella si muovono"
+    year: 1612
+    precision: year
+    type: scientific_treatise
+
+  - title: "Listy o plamach słonecznych"
+    original_title: "Istoria e dimostrazioni intorno alle macchie solari"
+    wikipedia: "https://en.wikipedia.org/wiki/Letters_on_Sunspots"
+    year: 1613
+    precision: year
+    type: scientific_treatise
+
+  - title: "Probierca"
+    original_title: "Il Saggiatore"
+    wikipedia: "https://en.wikipedia.org/wiki/The_Assayer"
+    year: 1623
+    precision: year
+    type: book
+    publication_note: "Dzieło polemiczne poświęcone naturze komet, metodzie poznania przyrody i roli matematyki w nauce."
+    publication_note_original: "A polemical work on comets, the method of natural inquiry and the role of mathematics in science."
+
+  - title: "Dialog o dwóch najważniejszych systemach świata"
+    original_title: "Dialogo sopra i due massimi sistemi del mondo"
+    wikipedia: "https://en.wikipedia.org/wiki/Dialogue_Concerning_the_Two_Chief_World_Systems"
+    year: 1632
+    precision: year
+    type: book
+    publication_note: "Dialog porównujący system ptolemejski i kopernikański; publikacja stała się bezpośrednim tłem procesu Galileusza."
+    publication_note_original: "A dialogue comparing the Ptolemaic and Copernican systems; its publication became the immediate background to Galileo's trial."
+
+  - title: "Rozmowy i dowodzenia matematyczne dotyczące dwóch nowych nauk"
+    original_title: "Discorsi e dimostrazioni matematiche intorno a due nuove scienze"
+    wikipedia: "https://en.wikipedia.org/wiki/Two_New_Sciences"
+    year: 1638
+    precision: year
+    type: scientific_treatise
+    publication_note: "Wydane w Lejdzie; syntetyzowało wieloletnie badania Galileusza nad ruchem i wytrzymałością materiałów."
+    publication_note_original: "Published in Leiden; synthesized Galileo's long-running work on motion and the strength of materials."
+
+ideas:
+  - name: "Matematyczny opis ruchu"
+    original_name: "Mathematical description of motion"
+    summary: "Galileusz badał ruch jednostajnie przyspieszony, swobodny spadek i ruch pocisków, ujmując te zjawiska ilościowo i geometrycznie."
+    summary_original: "Galileo studied uniformly accelerated motion, free fall and projectile motion, treating them quantitatively and geometrically."
+
+  - name: "Zasada względności Galileusza"
+    original_name: "Galilean relativity"
+    wikipedia: "https://en.wikipedia.org/wiki/Galilean_invariance"
+    summary: "W układzie poruszającym się jednostajnie nie da się za pomocą lokalnych doświadczeń mechanicznych wykryć samego ruchu jednostajnego. Idea ta stała się ważnym elementem późniejszej mechaniki klasycznej."
+    summary_original: "In a uniformly moving system, local mechanical experiments cannot reveal uniform motion itself. This became an important element of later classical mechanics."
+
+  - name: "Astronomia teleskopowa"
+    original_name: "Telescopic astronomy"
+    summary: "Obserwacje gór i kraterów na Księżycu, księżyców Jowisza, faz Wenus, plam słonecznych i licznych gwiazd podważały część założeń tradycyjnej kosmologii arystotelesowsko-ptolemejskiej."
+    summary_original: "Observations of lunar mountains, Jupiter's moons, the phases of Venus, sunspots and numerous stars challenged parts of traditional Aristotelian-Ptolemaic cosmology."
+
+  - name: "Matematyzacja badań przyrody"
+    original_name: "Mathematization of natural philosophy"
+    summary: "Galileusz konsekwentnie łączył pomiar, eksperyment i matematykę, traktując matematyczne relacje jako klucz do opisu zjawisk fizycznych."
+    summary_original: "Galileo consistently combined measurement, experiment and mathematics, treating mathematical relations as central to the description of physical phenomena."
+
+  - name: "Obrona systemu kopernikańskiego"
+    original_name: "Advocacy of Copernicanism"
+    summary: "Galileusz interpretował swoje obserwacje jako argumenty zgodne z ruchem Ziemi i heliocentryzmem, choć część jego szczegółowych argumentów, np. teoria pływów, była błędna."
+    summary_original: "Galileo interpreted his observations as supporting Earth's motion and heliocentrism, although some of his specific arguments, such as his theory of the tides, were incorrect."
+
+events:
+  - year: 1589
+    precision: year
+    title: "Objęcie katedry matematyki w Pizie"
+    original_title: "Appointment to the mathematics chair at Pisa"
+    summary: "Galileusz wykładał matematykę na Uniwersytecie w Pizie w latach 1589–1592."
+    summary_original: "Galileo held the mathematics chair at the University of Pisa from 1589 to 1592."
+
+  - year: 1592
+    precision: year
+    title: "Przeniesienie na Uniwersytet w Padwie"
+    original_title: "Appointment at the University of Padua"
+    summary: "W Padwie pracował do 1610 r., rozwijając badania nad mechaniką, przyrządami i ruchem."
+    summary_original: "He worked at Padua until 1610, developing research on mechanics, instruments and motion."
+
+  - year: 1609
+    precision: year
+    title: "Budowa i rozwój własnych teleskopów"
+    original_title: "Construction and development of telescopes"
+    summary: "Po otrzymaniu informacji o holenderskiej lunecie Galileusz zbudował i ulepszał własne instrumenty, kierując je ku niebu."
+    summary_original: "After hearing of the Dutch spyglass, Galileo built and improved his own instruments and turned them toward the sky."
+
+  - year: 1610
+    precision: year
+    title: "Publikacja Gwiezdnego posłańca"
+    original_title: "Publication of Sidereus Nuncius"
+    summary: "Wyniki obserwacji teleskopowych przyniosły Galileuszowi europejską sławę i doprowadziły do jego powrotu do Toskanii jako matematyka i filozofa dworu."
+    summary_original: "His telescopic observations brought Galileo European fame and led to his return to Tuscany as court mathematician and philosopher."
+
+  - year: 1616
+    precision: year
+    title: "Upomnienie dotyczące kopernikanizmu"
+    original_title: "Admonition concerning Copernicanism"
+    summary: "Kardynał Robert Bellarmin przekazał Galileuszowi nakaz, by nie nauczał heliocentryzmu jako prawdziwego opisu świata."
+    summary_original: "Cardinal Robert Bellarmine delivered an admonition restricting Galileo from teaching heliocentrism as a true description of the world."
+
+  - year: 1633
+    precision: year
+    title: "Proces i skazanie przez Święte Oficjum"
+    original_title: "Trial and condemnation by the Holy Office"
+    summary: "Po publikacji Dialogu Galileusz stanął przed inkwizycją, został uznany za silnie podejrzanego o herezję, zmuszony do wyrzeczenia się poglądów i objęty aresztem domowym."
+    summary_original: "After publication of the Dialogue, Galileo was tried by the Inquisition, found vehemently suspect of heresy, forced to abjure and placed under house arrest."
+
+  - year: 1638
+    precision: year
+    title: "Publikacja Dwóch nowych nauk"
+    original_title: "Publication of Two New Sciences"
+    summary: "W Lejdzie ukazało się dzieło podsumowujące jego badania nad ruchem i mechaniką, mimo ograniczeń nałożonych po procesie."
+    summary_original: "His synthesis of research on motion and mechanics was published in Leiden despite the restrictions imposed after his trial."
+
+sources:
+  - title: "Museo Galileo — Galileo Galilei: life"
+    url: "https://www.museogalileo.it/en/galileo/life.html"
+  - title: "Museo Galileo — Galileo Galilei: works"
+    url: "https://www2.museogalileo.it/en/library-and-research-institute/projects/meet-galileo/38-works.html"
+  - title: "Museo Galileo — biography of Galileo Galilei"
+    url: "https://catalogue.museogalileo.it/biography/GalileoGalilei.html"
+  - title: "Stanford Encyclopedia of Philosophy — Galileo Galilei"
+    url: "https://plato.stanford.edu/entries/galileo/"
