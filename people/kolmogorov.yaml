@@ -1,0 +1,65 @@
+id: kolmogorov
+name: "Andrey Nikolaevich Kolmogorov"
+display_name: "Andriej Kołmogorow"
+born:
+  date: "1903-04-25"
+  year: 1903
+  precision: day
+died:
+  date: "1987-10-20"
+  year: 1987
+  precision: day
+place_association: "Tambow; Moskwa"
+fields: [mathematics, probability, statistics, dynamical_systems, turbulence, topology, information_theory, algorithmic_complexity, education]
+image: null
+summary: "Rosyjski matematyk o niezwykle szerokim dorobku. Zaksjomatyzował teorię prawdopodobieństwa, wniósł fundamentalny wkład do teorii turbulencji i układów dynamicznych, współtworzył teorię złożoności algorytmicznej oraz silnie wpływał na edukację matematyczną."
+summary_original: "Russian mathematician of exceptionally broad scope. He axiomatized probability theory, made fundamental contributions to turbulence and dynamical systems, helped create algorithmic complexity theory and strongly influenced mathematical education."
+works:
+  - title: "Podstawowe pojęcia rachunku prawdopodobieństwa"
+    original_title: "Grundbegriffe der Wahrscheinlichkeitsrechnung"
+    wikipedia: "https://en.wikipedia.org/wiki/Foundations_of_the_Theory_of_Probability"
+    year: 1933
+    precision: year
+    type: mathematical_treatise
+  - title: "Lokalna struktura turbulencji w nieściśliwym płynie"
+    original_title: "The Local Structure of Turbulence in Incompressible Viscous Fluid"
+    year: 1941
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Aksjomaty Kołmogorowa"
+    original_name: "Kolmogorov axioms"
+    wikipedia: "https://en.wikipedia.org/wiki/Probability_axioms"
+    summary: "Kołmogorow oparł rachunek prawdopodobieństwa na teorii miary i trzech prostych aksjomatach."
+    summary_original: "Kolmogorov grounded probability in measure theory using three simple axioms."
+  - name: "Teoria turbulencji K41"
+    original_name: "Kolmogorov 1941 turbulence theory"
+    summary: "Zaproponował skalującą teorię kaskady energii w turbulencji, fundamentalną dla mechaniki płynów."
+    summary_original: "He proposed a scaling theory of the energy cascade in turbulence, fundamental to fluid mechanics."
+  - name: "Teoria KAM"
+    original_name: "KAM theory"
+    summary: "Jego twierdzenie o stabilności quasiokresowych orbit zostało rozwinięte przez Arnolda i Mosera w teorię KAM."
+    summary_original: "His theorem on the stability of quasiperiodic motion was extended by Arnold and Moser into KAM theory."
+  - name: "Złożoność Kołmogorowa"
+    original_name: "Kolmogorov complexity"
+    wikipedia: "https://en.wikipedia.org/wiki/Kolmogorov_complexity"
+    summary: "Ilość informacji w obiekcie można mierzyć długością najkrótszego programu, który go generuje."
+    summary_original: "The information content of an object can be measured by the length of the shortest program that generates it."
+events:
+  - year: 1933
+    precision: year
+    title: "Aksjomatyzacja teorii prawdopodobieństwa"
+    original_title: "Axiomatization of probability"
+    summary: "Publikacja Grundbegriffe nadała probabilistyce nowoczesne podstawy teoriomiarowe."
+    summary_original: "Publication of Grundbegriffe gave probability modern measure-theoretic foundations."
+  - year: 1939
+    precision: year
+    title: "Członek Akademii Nauk ZSRR"
+    original_title: "Member of the USSR Academy of Sciences"
+    summary: "Kołmogorow uzyskał najwyższą pozycję instytucjonalną w radzieckiej matematyce."
+    summary_original: "Kolmogorov attained the highest institutional standing in Soviet mathematics."
+sources:
+  - title: "MacTutor — Andrey Kolmogorov"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Kolmogorov/"
+  - title: "Wikipedia — Andrey Kolmogorov"
+    url: "https://en.wikipedia.org/wiki/Andrey_Kolmogorov"
