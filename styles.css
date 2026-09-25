@@ -133,6 +133,14 @@ main { max-width:1500px; margin:0 auto; padding:0 34px 50px; }
 .legend-mark { width:9px; height:9px; display:inline-block; border:1.5px solid #0b0d10; box-shadow:0 0 0 1px rgba(255,255,255,.12); }
 .legend-mark.work { background:#d9d5cd; transform:rotate(45deg); border-radius:1px; }
 .legend-mark.event { background:#8eb79c; border-radius:50%; }
+.legend-mark.period { width:15px; height:6px; border-radius:3px; background:rgba(224,183,106,.28); transform:none; }
+.period-band-title { fill:#666a70; font-size:8px; font-weight:800; letter-spacing:.12em; pointer-events:none; }
+.period-rect { stroke-width:1; transition:fill .14s ease, stroke .14s ease; }
+.period-macro .period-rect { fill:rgba(224,183,106,.09); stroke:rgba(224,183,106,.24); }
+.period-movement .period-rect { fill:rgba(142,183,156,.075); stroke:rgba(142,183,156,.20); }
+.period-entry:hover .period-rect { fill:rgba(224,183,106,.18); stroke:rgba(224,183,106,.50); }
+.period-label { fill:#8e9299; font-size:8.5px; font-weight:700; pointer-events:none; }
+.period-macro .period-label { fill:#aaa69c; }
 .today-line { stroke:rgba(255,255,255,.18); stroke-dasharray:4 6; }
 .tooltip { position:fixed; z-index:100; max-width:min(320px,calc(100vw - 24px)); padding:10px 12px; border-radius:10px; background:#f1ede4; color:#171717; font-size:12px; line-height:1.45; box-shadow:0 12px 40px rgba(0,0,0,.35); pointer-events:none; opacity:0; transform:translateY(4px); transition:opacity .1s ease,transform .1s ease; }
 .tooltip.show { opacity:1; transform:translateY(0); }
