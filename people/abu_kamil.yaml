@@ -1,0 +1,69 @@
+id: abu_kamil
+name: "Abu Kamil Shuja ibn Aslam"
+display_name: "Abu Kamil"
+born:
+  year: 850
+  precision: approximate
+  note: "Data przybliżona; o jego życiu wiadomo bardzo niewiele."
+  note_original: "Approximate date; very little is known about his life."
+died:
+  year: 930
+  precision: approximate
+  note: "Data przybliżona."
+  note_original: "Approximate date."
+place_association: "Egipt"
+fields: [mathematics, algebra, geometry, number_theory, surveying]
+image: null
+summary: "Egipski matematyk, jeden z najważniejszych następców Al-Chwarizmiego. Rozwinął algebrę równań kwadratowych, operował wyższymi potęgami niewiadomej, stosował algebrę do geometrii i problemów nieoznaczonych, a jego dzieła silnie wpłynęły na Fibonacciego."
+summary_original: "Egyptian mathematician and one of al-Khwarizmi's most important successors. He extended quadratic algebra, worked with higher powers of the unknown, applied algebra to geometry and indeterminate problems, and strongly influenced Fibonacci."
+works:
+  - title: "Księga o algebrze"
+    original_title: "Book on Algebra"
+    year: 900
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Traktat obejmował równania kwadratowe, zastosowania algebry do pięciokąta i dziesięciokąta oraz problemy diofantyczne."
+    publication_note_original: "The treatise covered quadratic equations, applications of algebra to the pentagon and decagon, and Diophantine problems."
+  - title: "Księga rzadkich rzeczy w sztuce rachunku"
+    original_title: "Book of Rare Things in the Art of Calculation"
+    year: 900
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Dzieło poświęcone m.in. problemom nieoznaczonym."
+    publication_note_original: "A work dealing, among other things, with indeterminate problems."
+  - title: "Księga o miernictwie i geometrii"
+    original_title: "Book on Surveying and Geometry"
+    year: 900
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Praktyczny podręcznik przeznaczony m.in. dla mierniczych administracji państwowej."
+    publication_note_original: "A practical manual intended in part for government land surveyors."
+ideas:
+  - name: "Rozszerzenie algebry Al-Chwarizmiego"
+    original_name: "Extension of al-Khwarizmi's algebra"
+    summary: "Abu Kamil rozwijał ogólne procedury algebraiczne i swobodnie operował wyższymi potęgami niewiadomej, choć nadal bez symboliki współczesnej."
+    summary_original: "Abu Kamil extended general algebraic procedures and worked fluently with higher powers of the unknown, still without modern symbolism."
+  - name: "Algebra w geometrii"
+    original_name: "Algebra applied to geometry"
+    summary: "Łączył techniki algebraiczne z problemami konstrukcji i własności figur geometrycznych, m.in. pięciokątów i dziesięciokątów."
+    summary_original: "He combined algebraic techniques with geometric construction and figure problems, including pentagons and decagons."
+  - name: "Problemy nieoznaczone"
+    original_name: "Indeterminate problems"
+    summary: "Rozwiązywał problemy o wielu możliwych rozwiązaniach liczbowych, tworząc ważne ogniwo między tradycją Diofantosa a późniejszą algebrą arabską."
+    summary_original: "He solved problems with multiple possible numerical solutions, forming an important link between the Diophantine tradition and later Arabic algebra."
+  - name: "Wpływ na Fibonacciego"
+    original_name: "Influence on Fibonacci"
+    summary: "Znaczna część materiału algebraicznego Fibonacciego ma wyraźne analogie do dzieł Abu Kamila, dzięki czemu jego wpływ przeszedł z matematyki arabskiej do łacińskiej Europy."
+    summary_original: "Much of Fibonacci's algebraic material closely parallels Abu Kamil's works, carrying his influence from Arabic mathematics into Latin Europe."
+events:
+  - year: 900
+    precision: approximate
+    title: "Powstanie głównych traktatów algebraicznych"
+    original_title: "Composition of the principal algebraic works"
+    summary: "Około przełomu IX i X wieku Abu Kamil stworzył prace, które rozwinęły program algebraiczny zapoczątkowany przez Al-Chwarizmiego."
+    summary_original: "Around the turn of the ninth and tenth centuries Abu Kamil produced works that extended the algebraic program begun by al-Khwarizmi."
+sources:
+  - title: "MacTutor — Abu Kamil"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Abu_Kamil/"
+  - title: "MacTutor — Arabic mathematics"
+    url: "https://mathshistory.st-andrews.ac.uk/HistTopics/Arabic_mathematics/"
