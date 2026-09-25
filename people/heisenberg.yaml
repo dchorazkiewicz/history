@@ -1,0 +1,56 @@
+id: heisenberg
+name: "Werner Karl Heisenberg"
+display_name: "Werner Heisenberg"
+born:
+  date: "1901-12-05"
+  year: 1901
+  precision: day
+died:
+  date: "1976-02-01"
+  year: 1976
+  precision: day
+place_association: "Würzburg; Monachium; Getynga; Lipsk"
+fields: [physics, quantum_mechanics, nuclear_physics, particle_physics, philosophy_of_science]
+image: null
+summary: "Niemiecki fizyk teoretyczny, jeden z głównych twórców mechaniki kwantowej. W 1925 r. stworzył pierwszą kompletną wersję mechaniki kwantowej w postaci macierzowej, a następnie sformułował zasadę nieoznaczoności."
+summary_original: "German theoretical physicist and one of the principal creators of quantum mechanics. In 1925 he developed the first complete formulation of quantum mechanics in matrix form and later formulated the uncertainty principle."
+works:
+  - title: "O kwantowoteoretycznej interpretacji relacji kinematycznych i mechanicznych"
+    original_title: "Über quantentheoretische Umdeutung kinematischer und mechanischer Beziehungen"
+    year: 1925
+    precision: year
+    type: scientific_treatise
+  - title: "O treści intuicyjnej kinematyki i mechaniki kwantowoteoretycznej"
+    original_title: "Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik"
+    year: 1927
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Mechanika macierzowa"
+    original_name: "Matrix mechanics"
+    wikipedia: "https://en.wikipedia.org/wiki/Matrix_mechanics"
+    summary: "Heisenberg zbudował teorię opartą na obserwowalnych wielkościach i regułach mnożenia odpowiadających nieprzemiennym macierzom."
+    summary_original: "Heisenberg built a theory based on observable quantities and multiplication rules corresponding to noncommuting matrices."
+  - name: "Zasada nieoznaczoności"
+    original_name: "Heisenberg uncertainty principle"
+    wikipedia: "https://en.wikipedia.org/wiki/Uncertainty_principle"
+    summary: "Niektórych par wielkości, takich jak położenie i pęd, nie można jednocześnie określić z dowolną dokładnością."
+    summary_original: "Certain pairs of quantities, such as position and momentum, cannot simultaneously be specified with arbitrary precision."
+events:
+  - year: 1925
+    precision: year
+    title: "Narodziny mechaniki macierzowej"
+    original_title: "Birth of matrix mechanics"
+    summary: "Praca Heisenberga została rozwinięta matematycznie przez Borna i Jordana."
+    summary_original: "Heisenberg's paper was mathematically developed by Born and Jordan."
+  - year: 1932
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Nagrodzono go za stworzenie mechaniki kwantowej."
+    summary_original: "He was honored for the creation of quantum mechanics."
+sources:
+  - title: "Nobel Prize — Werner Heisenberg"
+    url: "https://www.nobelprize.org/prizes/physics/1932/heisenberg/facts/"
+  - title: "Encyclopaedia Britannica — Werner Heisenberg"
+    url: "https://www.britannica.com/biography/Werner-Heisenberg"
