@@ -1,0 +1,75 @@
+id: cauchy
+name: "Augustin-Louis Cauchy"
+display_name: "Augustin-Louis Cauchy"
+born:
+  date: "1789-08-21"
+  year: 1789
+  precision: day
+died:
+  date: "1857-05-23"
+  year: 1857
+  precision: day
+place_association: "Paryż; Cherbourg; Turyn; Praga"
+fields: [mathematics, analysis, complex_analysis, differential_equations, algebra, group_theory, probability, mechanics, elasticity, optics, physics, education]
+image: null
+summary: "Francuski matematyk o ogromnej produktywności, jeden z głównych twórców rygorystycznej analizy XIX wieku. Rozwinął pojęcia granicy, ciągłości i zbieżności, stworzył fundamenty analizy zespolonej, wniósł istotny wkład do teorii grup, równań różniczkowych, sprężystości i optyki."
+summary_original: "Extremely prolific French mathematician and one of the principal creators of rigorous nineteenth-century analysis. He developed concepts of limit, continuity and convergence, laid foundations of complex analysis, and made major contributions to group theory, differential equations, elasticity and optics."
+works:
+  - title: "Kurs analizy"
+    original_title: "Cours d'analyse"
+    wikipedia: "https://en.wikipedia.org/wiki/Cours_d%27Analyse"
+    year: 1821
+    precision: year
+    type: mathematical_treatise
+  - title: "Podsumowanie lekcji rachunku nieskończenie małych"
+    original_title: "Résumé des leçons sur le calcul infinitésimal"
+    year: 1823
+    precision: year
+    type: mathematical_treatise
+  - title: "Lekcje rachunku różniczkowego"
+    original_title: "Leçons sur le calcul différentiel"
+    year: 1829
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Rygor granic, ciągłości i zbieżności"
+    original_name: "Rigor in limits, continuity and convergence"
+    summary: "Cauchy próbował oprzeć analizę na precyzyjnych definicjach granicy i zbieżności, ograniczając wcześniejsze intuicyjne manipulacje nieskończenie małymi."
+    summary_original: "Cauchy sought to base analysis on precise definitions of limits and convergence, reducing earlier intuitive manipulation of infinitesimals."
+  - name: "Twierdzenie całkowe Cauchy’ego"
+    original_name: "Cauchy integral theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Cauchy%27s_integral_theorem"
+    summary: "Podstawowy wynik analizy zespolonej wiążący holomorficzność z własnościami całek po krzywych."
+    summary_original: "A fundamental result of complex analysis linking holomorphicity with contour integrals."
+  - name: "Ciągi Cauchy’ego"
+    original_name: "Cauchy sequences"
+    summary: "Warunek Cauchy’ego pozwala rozpoznawać zbieżność przez porównywanie wyrazów ciągu ze sobą, bez znajomości granicy z góry."
+    summary_original: "The Cauchy condition detects convergence by comparing sequence terms with one another without knowing the limit in advance."
+  - name: "Teoria grup permutacji"
+    original_name: "Permutation group theory"
+    summary: "Cauchy rozwinął badanie permutacji jako obiektów algebraicznych i udowodnił wyniki, które stały się częścią późniejszej teorii grup."
+    summary_original: "Cauchy advanced the study of permutations as algebraic objects and proved results that became part of later group theory."
+events:
+  - year: 1816
+    precision: year
+    title: "Wybór do Académie des Sciences"
+    original_title: "Election to the Académie des Sciences"
+    summary: "Cauchy uzyskał miejsce w Akademii i szybko stał się jedną z dominujących postaci francuskiej matematyki."
+    summary_original: "Cauchy gained a place in the Academy and rapidly became a dominant figure in French mathematics."
+  - year: 1821
+    precision: year
+    title: "Publikacja Cours d'analyse"
+    original_title: "Publication of Cours d'analyse"
+    summary: "Podręcznik stał się symbolem zwrotu ku większemu rygorowi w analizie."
+    summary_original: "The textbook became a symbol of the shift toward greater rigor in analysis."
+  - year: 1830
+    precision: year
+    title: "Wyjazd z Francji po rewolucji lipcowej"
+    original_title: "Departure from France after the July Revolution"
+    summary: "Cauchy odmówił złożenia przysięgi nowemu reżimowi i przez kilka lat pracował poza Francją."
+    summary_original: "Cauchy refused the oath to the new regime and worked abroad for several years."
+sources:
+  - title: "MacTutor — Augustin-Louis Cauchy"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Cauchy/"
+  - title: "Wikipedia — Augustin-Louis Cauchy"
+    url: "https://en.wikipedia.org/wiki/Augustin-Louis_Cauchy"
