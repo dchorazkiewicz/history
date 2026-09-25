@@ -1,0 +1,60 @@
+id: andre_weil
+name: "Andre Weil"
+display_name: "André Weil"
+born:
+  date: "1906-05-06"
+  year: 1906
+  precision: day
+died:
+  date: "1998-08-06"
+  year: 1998
+  precision: day
+place_association: "Paryż; Aligarh; Strasburg; Princeton"
+fields: [mathematics, number_theory, algebraic_geometry, algebra, topology, history_of_mathematics, education]
+image: null
+summary: "Francuski matematyk, jedna z centralnych postaci matematyki XX wieku i współzałożyciel grupy Bourbaki. Połączył teorię liczb z geometrią algebraiczną, sformułował słynne hipotezy Weila i wpłynął na język całych pokoleń matematyków."
+summary_original: "French mathematician, one of the central figures of twentieth-century mathematics and a co-founder of Bourbaki. He connected number theory with algebraic geometry, formulated the Weil conjectures and influenced the language of generations of mathematicians."
+works:
+  - title: "Podstawy geometrii algebraicznej"
+    original_title: "Foundations of Algebraic Geometry"
+    year: 1946
+    precision: year
+    type: mathematical_treatise
+  - title: "Podstawowa teoria liczb"
+    original_title: "Basic Number Theory"
+    year: 1967
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Hipotezy Weila"
+    original_name: "Weil conjectures"
+    wikipedia: "https://en.wikipedia.org/wiki/Weil_conjectures"
+    summary: "Weil sformułował głębokie przewidywania dotyczące liczby punktów rozmaitości algebraicznych nad ciałami skończonymi, łącząc geometrię, topologię i teorię liczb."
+    summary_original: "Weil formulated deep predictions about numbers of points of algebraic varieties over finite fields, linking geometry, topology and number theory."
+  - name: "Adele i idele w teorii liczb"
+    original_name: "Adeles and ideles"
+    summary: "Rozwinął globalny język pozwalający traktować równocześnie wszystkie lokalne dopełnienia ciała liczbowego."
+    summary_original: "He developed a global language allowing all local completions of a number field to be handled simultaneously."
+  - name: "Bourbaki"
+    original_name: "Nicolas Bourbaki"
+    wikipedia: "https://en.wikipedia.org/wiki/Nicolas_Bourbaki"
+    summary: "Weil należał do założycieli kolektywu Bourbaki, który próbował przebudować matematykę na jednolitym, strukturalnym i aksjomatycznym języku."
+    summary_original: "Weil was among the founders of Bourbaki, which sought to rebuild mathematics in a unified structural and axiomatic language."
+events:
+  - year: 1934
+    precision: approximate
+    title: "Powstanie grupy Bourbaki"
+    original_title: "Formation of Bourbaki"
+    summary: "Weil wraz z grupą młodych francuskich matematyków rozpoczął projekt nowego systematycznego traktatu matematyki."
+    summary_original: "Weil and a group of young French mathematicians began a project for a new systematic mathematical treatise."
+  - year: 1949
+    precision: year
+    title: "Ogłoszenie hipotez Weila"
+    original_title: "Formulation of the Weil conjectures"
+    summary: "Hipotezy stały się jednym z głównych programów geometrii algebraicznej XX wieku."
+    summary_original: "The conjectures became a major program in twentieth-century algebraic geometry."
+sources:
+  - title: "MacTutor — André Weil"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Weil/"
+  - title: "Wikipedia — André Weil"
+    url: "https://en.wikipedia.org/wiki/Andr%C3%A9_Weil"
