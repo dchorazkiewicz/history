@@ -1,0 +1,48 @@
+id: coulomb
+name: "Charles-Augustin de Coulomb"
+display_name: "Charles-Augustin de Coulomb"
+born:
+  date: "1736-06-14"
+  year: 1736
+  precision: day
+died:
+  date: "1806-08-23"
+  year: 1806
+  precision: day
+place_association: "Angoulême; Martynika; Paryż"
+fields: [physics, electricity, magnetism, mechanics, engineering, military_engineering, friction]
+image: null
+summary: "Francuski fizyk i inżynier wojskowy, twórca ilościowej elektrostatyki. Za pomocą wagi skręceń zmierzył zależność siły elektrycznej od ładunków i odległości, a także badał tarcie, skręcanie i magnetyzm."
+summary_original: "French physicist and military engineer who created quantitative electrostatics. Using a torsion balance he measured how electric force depends on charge and distance, and he also studied friction, torsion and magnetism."
+works:
+  - title: "Pierwszy pamiętnik o elektryczności i magnetyzmie"
+    original_title: "Premier mémoire sur l'électricité et le magnétisme"
+    year: 1785
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Prawo Coulomba"
+    original_name: "Coulomb's law"
+    wikipedia: "https://en.wikipedia.org/wiki/Coulomb%27s_law"
+    summary: "Siła między punktowymi ładunkami jest proporcjonalna do iloczynu ładunków i odwrotnie proporcjonalna do kwadratu odległości."
+    summary_original: "The force between point charges is proportional to the product of the charges and inversely proportional to the square of their separation."
+  - name: "Waga skręceń"
+    original_name: "Torsion balance"
+    summary: "Coulomb wykorzystał skręcanie cienkiego włókna jako precyzyjną miarę bardzo małych sił elektrycznych i magnetycznych."
+    summary_original: "Coulomb used the torsion of a thin fiber as a precise measure of very small electric and magnetic forces."
+  - name: "Prawa tarcia"
+    original_name: "Laws of friction"
+    summary: "Badał zależność tarcia od nacisku, powierzchni i prędkości, rozwijając ilościową mechanikę kontaktu."
+    summary_original: "He studied how friction depends on load, surface and speed, advancing quantitative contact mechanics."
+events:
+  - year: 1785
+    precision: year
+    title: "Publikacja prawa elektrostatycznego"
+    original_title: "Publication of the electrostatic force law"
+    summary: "Pierwszy z serii pamiętników Akademii Francuskiej ustanowił ilościowe podstawy elektrostatyki."
+    summary_original: "The first of a series of French Academy memoirs established quantitative foundations for electrostatics."
+sources:
+  - title: "MacTutor — Charles Coulomb"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Coulomb/"
+  - title: "Encyclopaedia Britannica — Charles-Augustin de Coulomb"
+    url: "https://www.britannica.com/biography/Charles-Augustin-de-Coulomb"
