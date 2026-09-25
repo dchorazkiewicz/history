@@ -1,0 +1,48 @@
+id: ampere
+name: "Andre-Marie Ampere"
+display_name: "André-Marie Ampère"
+born:
+  date: "1775-01-20"
+  year: 1775
+  precision: day
+died:
+  date: "1836-06-10"
+  year: 1836
+  precision: day
+place_association: "Lyon; Paryż"
+fields: [physics, mathematics, electromagnetism, electrodynamics, philosophy, education]
+image: null
+summary: "Francuski fizyk i matematyk, jeden z głównych twórców elektrodynamiki. Bezpośrednio po odkryciu Ørsteda rozpoczął systematyczne badania sił między przewodnikami z prądem i sformułował prawa matematyczne łączące elektryczność z magnetyzmem."
+summary_original: "French physicist and mathematician, a principal creator of electrodynamics. Immediately after Ørsted's discovery he systematically investigated forces between current-carrying conductors and formulated mathematical laws linking electricity and magnetism."
+works:
+  - title: "Teoria zjawisk elektrodynamicznych wyprowadzona wyłącznie z doświadczenia"
+    original_title: "Mémoire sur la théorie mathématique des phénomènes électrodynamiques uniquement déduite de l'expérience"
+    year: 1826
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Prawo Ampère’a"
+    original_name: "Ampere's circuital law"
+    wikipedia: "https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_circuital_law"
+    summary: "Ampère powiązał pole magnetyczne wokół przewodnika z przepływającym prądem."
+    summary_original: "Ampère related the magnetic field around a conductor to the electric current flowing through it."
+  - name: "Siła między przewodnikami z prądem"
+    original_name: "Force between current-carrying wires"
+    summary: "Pokazał, że równoległe przewodniki mogą się przyciągać lub odpychać zależnie od kierunków prądów."
+    summary_original: "He showed that parallel current-carrying wires attract or repel depending on current direction."
+  - name: "Elektrodynamika"
+    original_name: "Electrodynamics"
+    summary: "Ampère stworzył jedną z pierwszych spójnych matematycznych teorii oddziaływań prądów elektrycznych."
+    summary_original: "Ampère created one of the first coherent mathematical theories of interactions among electric currents."
+events:
+  - year: 1820
+    precision: year
+    title: "Seria badań po odkryciu Ørsteda"
+    original_title: "Research following Ørsted's discovery"
+    summary: "W ciągu kilku tygodni Ampère rozpoczął intensywne doświadczenia i matematyzację nowych zjawisk elektromagnetycznych."
+    summary_original: "Within weeks Ampère began intensive experiments and mathematical analysis of the new electromagnetic phenomena."
+sources:
+  - title: "MacTutor — André-Marie Ampère"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Ampere/"
+  - title: "Encyclopaedia Britannica — André-Marie Ampère"
+    url: "https://www.britannica.com/biography/Andre-Marie-Ampere"
