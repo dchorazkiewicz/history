@@ -1,0 +1,95 @@
+id: euler
+name: "Leonhard Euler"
+display_name: "Leonhard Euler"
+born:
+  date: "1707-04-15"
+  year: 1707
+  precision: day
+died:
+  date: "1783-09-18"
+  year: 1783
+  precision: day
+place_association: "Bazylea; Petersburg; Berlin"
+fields: [mathematics, analysis, number_theory, algebra, geometry, graph_theory, mechanics, fluid_dynamics, astronomy, optics, music_theory, education]
+image: null
+summary: "Szwajcarski matematyk i fizyk, jeden z najbardziej wpływowych uczonych w historii matematyki. Przekształcił analizę matematyczną, teorię liczb, mechanikę, hydrodynamikę i astronomię, ujednolicił znaczną część współczesnej notacji oraz pozostawił olbrzymi korpus prac obejmujący niemal wszystkie działy osiemnastowiecznej matematyki."
+summary_original: "Swiss mathematician and physicist, one of the most influential scholars in the history of mathematics. He transformed analysis, number theory, mechanics, hydrodynamics and astronomy, standardized much modern notation, and left an enormous body of work spanning almost every area of eighteenth-century mathematics."
+works:
+  - title: "Mechanika"
+    original_title: "Mechanica"
+    year: 1736
+    precision: year
+    type: scientific_treatise
+  - title: "Wprowadzenie do analizy nieskończoności"
+    original_title: "Introductio in analysin infinitorum"
+    wikipedia: "https://en.wikipedia.org/wiki/Introductio_in_analysin_infinitorum"
+    year: 1748
+    precision: year
+    type: mathematical_treatise
+  - title: "Podstawy rachunku różniczkowego"
+    original_title: "Institutiones calculi differentialis"
+    year: 1755
+    precision: year
+    type: mathematical_treatise
+  - title: "Podstawy rachunku całkowego"
+    original_title: "Institutionum calculi integralis"
+    year: 1768
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Pierwszy tom ukazał się w 1768 r.; kolejne tomy wychodziły do 1770 r."
+    publication_note_original: "The first volume appeared in 1768; subsequent volumes followed through 1770."
+  - title: "Listy do księżniczki niemieckiej"
+    original_title: "Lettres à une princesse d'Allemagne"
+    year: 1768
+    precision: year
+    type: book
+    publication_note: "Popularny wykład fizyki i filozofii przyrody opublikowany w latach 1768–1772."
+    publication_note_original: "A popular exposition of physics and natural philosophy published in 1768–1772."
+ideas:
+  - name: "Tożsamość Eulera i wzór Eulera"
+    original_name: "Euler's formula and Euler's identity"
+    wikipedia: "https://en.wikipedia.org/wiki/Euler%27s_formula"
+    summary: "Związek między funkcją wykładniczą i trygonometrią w dziedzinie zespolonej stał się jednym z centralnych wyników analizy."
+    summary_original: "The relation between the exponential function and trigonometry in the complex domain became a central result of analysis."
+  - name: "Notacja funkcji i stałych"
+    original_name: "Function and constant notation"
+    summary: "Euler przyczynił się do standaryzacji oznaczeń takich jak f(x), e, i oraz użycia π, dzięki czemu język matematyki stał się bardziej jednolity."
+    summary_original: "Euler helped standardize notation such as f(x), e, i and the use of pi, making mathematical language more uniform."
+  - name: "Problem mostów królewieckich i początki teorii grafów"
+    original_name: "Seven Bridges of Königsberg and graph theory"
+    wikipedia: "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg"
+    summary: "W 1736 r. Euler rozwiązał problem spaceru przez siedem mostów Królewca, abstrahując od geometrii i tworząc jeden z początków teorii grafów i topologii."
+    summary_original: "In 1736 Euler solved the Königsberg bridge problem by abstracting away geometry, creating one of the beginnings of graph theory and topology."
+  - name: "Równania ruchu płynu idealnego"
+    original_name: "Euler equations of fluid motion"
+    wikipedia: "https://en.wikipedia.org/wiki/Euler_equations_(fluid_dynamics)"
+    summary: "Euler sformułował równania opisujące ruch płynu bez lepkości, fundamentalne dla mechaniki płynów."
+    summary_original: "Euler formulated equations describing inviscid fluid motion, fundamental to fluid mechanics."
+  - name: "Teoria liczb"
+    original_name: "Number theory"
+    summary: "Rozwinął wyniki Fermata, badał liczby pierwsze, funkcję dzeta i zależności między sumami a iloczynami po liczbach pierwszych."
+    summary_original: "He extended Fermat's work, studied primes, the zeta function and relations between sums and products over prime numbers."
+events:
+  - year: 1727
+    precision: year
+    title: "Przyjazd do Petersburga"
+    original_title: "Arrival in St Petersburg"
+    summary: "Euler rozpoczął pracę w nowej Akademii Petersburskiej."
+    summary_original: "Euler began work at the new St Petersburg Academy."
+  - year: 1741
+    precision: year
+    title: "Przeniesienie do Akademii Berlińskiej"
+    original_title: "Move to the Berlin Academy"
+    summary: "Na zaproszenie Fryderyka II przeniósł się do Berlina, gdzie pracował przez ćwierć wieku."
+    summary_original: "At Frederick II's invitation he moved to Berlin, where he worked for a quarter century."
+  - year: 1766
+    precision: year
+    title: "Powrót do Petersburga"
+    original_title: "Return to St Petersburg"
+    summary: "Euler wrócił do Rosji i mimo postępującej ślepoty nadal dyktował ogromną liczbę prac."
+    summary_original: "Euler returned to Russia and, despite progressive blindness, continued dictating an enormous number of works."
+sources:
+  - title: "MacTutor — Leonhard Euler"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/"
+  - title: "MacTutor — Some books by Leonhard Euler"
+    url: "https://mathshistory.st-andrews.ac.uk/Extras/Euler_books/"
