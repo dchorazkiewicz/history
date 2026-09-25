@@ -1,0 +1,59 @@
+id: weierstrass
+name: "Karl Weierstrass"
+display_name: "Karl Weierstrass"
+born:
+  date: "1815-10-31"
+  year: 1815
+  precision: day
+died:
+  date: "1897-02-19"
+  year: 1897
+  precision: day
+place_association: "Ostenfelde; Berlin, Prusy i Niemcy"
+fields: [mathematics, analysis, complex_analysis, real_analysis, elliptic_functions, education]
+image: null
+summary: "Niemiecki matematyk nazywany często ojcem nowoczesnej analizy. Dążył do rygorystycznego oparcia rachunku na granicach i nierównościach, rozwijał teorię funkcji rzeczywistych i zespolonych oraz wychował całe pokolenie wybitnych matematyków."
+summary_original: "German mathematician often called a father of modern analysis. He sought rigorous foundations for calculus in limits and inequalities, advanced real and complex function theory, and trained an entire generation of leading mathematicians."
+works:
+  - title: "O teorii funkcji abelowych"
+    original_title: "Zur Theorie der Abelschen Functionen"
+    year: 1854
+    precision: year
+    type: mathematical_essay
+  - title: "O teorii funkcji abelowych"
+    original_title: "Theorie der Abelschen Functionen"
+    year: 1856
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Rygoryzm epsilon-delta"
+    original_name: "Epsilon-delta rigor"
+    summary: "Weierstrass systematycznie formułował granice i ciągłość za pomocą precyzyjnych nierówności, eliminując odwołania do niejasnych wielkości nieskończenie małych."
+    summary_original: "Weierstrass systematically formulated limits and continuity using precise inequalities, avoiding vague appeals to infinitesimals."
+  - name: "Funkcja ciągła nigdzie nieróżniczkowalna"
+    original_name: "Nowhere differentiable continuous function"
+    wikipedia: "https://en.wikipedia.org/wiki/Weierstrass_function"
+    summary: "Skonstruował przykład funkcji ciągłej w każdym punkcie, ale nieróżniczkowalnej w żadnym, podważając geometryczne intuicje XIX wieku."
+    summary_original: "He constructed an example continuous everywhere but differentiable nowhere, challenging nineteenth-century geometric intuition."
+  - name: "Twierdzenie o rozkładzie funkcji całkowitych na iloczyn"
+    original_name: "Weierstrass factorization theorem"
+    summary: "Pokazał, że funkcje całkowite można budować jako odpowiednio zbieżne iloczyny określone przez ich zera."
+    summary_original: "He showed that entire functions can be represented by suitably convergent products determined by their zeros."
+events:
+  - year: 1854
+    precision: year
+    title: "Przełomowa publikacja o funkcjach abelowych"
+    original_title: "Breakthrough publication on Abelian functions"
+    summary: "Praca zwróciła uwagę berlińskich matematyków na nauczyciela gimnazjalnego z prowincji i odmieniła jego karierę."
+    summary_original: "The paper drew Berlin mathematicians' attention to a provincial schoolteacher and transformed his career."
+  - year: 1856
+    precision: year
+    title: "Przeniesienie do Berlina"
+    original_title: "Move to Berlin"
+    summary: "Weierstrass rozpoczął działalność akademicką w Berlinie, gdzie jego wykłady stały się legendarnym centrum nowoczesnej analizy."
+    summary_original: "Weierstrass began his academic career in Berlin, where his lectures became a legendary center of modern analysis."
+sources:
+  - title: "MacTutor — Karl Weierstrass"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Weierstrass/"
+  - title: "Wikipedia — Karl Weierstrass"
+    url: "https://en.wikipedia.org/wiki/Karl_Weierstrass"
