@@ -1,0 +1,65 @@
+id: stokes
+name: "George Gabriel Stokes"
+display_name: "George Gabriel Stokes"
+born:
+  date: "1819-08-13"
+  year: 1819
+  precision: day
+died:
+  date: "1903-02-01"
+  year: 1903
+  precision: day
+place_association: "Skreen; Cambridge"
+fields: [physics, mathematics, fluid_dynamics, optics, fluorescence, mathematical_physics, education]
+image: null
+summary: "Irlandzki matematyk i fizyk związany z Cambridge. Rozwijał mechanikę płynów, optykę i teorię fal, współtworzył równania Naviera-Stokesa i wprowadził pojęcie fluorescencji."
+summary_original: "Irish mathematician and physicist based at Cambridge. He advanced fluid mechanics, optics and wave theory, helped develop the Navier–Stokes equations and introduced the concept of fluorescence."
+works:
+  - title: "O teoriach tarcia wewnętrznego płynów w ruchu"
+    original_title: "On the Theories of the Internal Friction of Fluids in Motion"
+    year: 1845
+    precision: year
+    type: scientific_treatise
+  - title: "O zmianie załamywalności światła"
+    original_title: "On the Change of Refrangibility of Light"
+    year: 1852
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Równania Naviera-Stokesa"
+    original_name: "Navier–Stokes equations"
+    wikipedia: "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations"
+    summary: "Stokes rozwinął równania ruchu lepkich płynów, które stały się podstawą współczesnej mechaniki płynów."
+    summary_original: "Stokes developed equations for viscous fluid motion that became foundational to modern fluid mechanics."
+  - name: "Prawo Stokesa"
+    original_name: "Stokes' law"
+    wikipedia: "https://en.wikipedia.org/wiki/Stokes%27_law"
+    summary: "Prawo opisuje opór działający na małą kulę poruszającą się powoli w lepkim płynie."
+    summary_original: "The law describes drag on a small sphere moving slowly through a viscous fluid."
+  - name: "Fluorescencja"
+    original_name: "Fluorescence"
+    wikipedia: "https://en.wikipedia.org/wiki/Fluorescence"
+    summary: "Stokes badał substancje emitujące światło o większej długości fali niż światło padające i wprowadził nazwę „fluorescencja”."
+    summary_original: "Stokes studied substances emitting longer-wavelength light than they absorbed and coined the term 'fluorescence.'"
+  - name: "Parametry Stokesa"
+    original_name: "Stokes parameters"
+    summary: "Wprowadził sposób ilościowego opisu stanu polaryzacji światła."
+    summary_original: "He introduced a quantitative description of the polarization state of light."
+events:
+  - year: 1849
+    precision: year
+    title: "Lucasian Professor of Mathematics w Cambridge"
+    original_title: "Lucasian Professor of Mathematics at Cambridge"
+    summary: "Stokes objął jedną z najbardziej prestiżowych katedr matematycznych w Wielkiej Brytanii."
+    summary_original: "Stokes took one of Britain's most prestigious mathematical chairs."
+  - year: 1852
+    precision: year
+    title: "Opis fluorescencji"
+    original_title: "Description of fluorescence"
+    summary: "Badania Stokesa nad zmianą długości fali światła otworzyły nowy dział spektroskopii."
+    summary_original: "Stokes's studies of wavelength shifting opened a new area of spectroscopy."
+sources:
+  - title: "MacTutor — George Gabriel Stokes"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Stokes/"
+  - title: "Encyclopaedia Britannica — George Gabriel Stokes"
+    url: "https://www.britannica.com/biography/Sir-George-Gabriel-Stokes-1st-Baronet"
