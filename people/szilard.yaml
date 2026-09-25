@@ -1,0 +1,55 @@
+id: szilard
+name: "Leo Szilard"
+display_name: "Leó Szilárd"
+born:
+  date: "1898-02-11"
+  year: 1898
+  precision: day
+died:
+  date: "1964-05-30"
+  year: 1964
+  precision: day
+place_association: "Budapeszt; Berlin; Londyn; Nowy Jork; Chicago; La Jolla"
+fields: [physics, nuclear_physics, thermodynamics, information_theory, biology, public_intellectual]
+image: null
+summary: "Węgiersko-amerykański fizyk i wynalazca. W 1933 r. sformułował ideę neutronowej reakcji łańcuchowej, współtworzył koncepcję reaktora jądrowego, pracował przy Projekcie Manhattan, a później zaangażował się w kontrolę zbrojeń i biologię molekularną."
+summary_original: "Hungarian-American physicist and inventor. In 1933 he conceived the neutron chain reaction, helped develop the nuclear reactor concept, worked on the Manhattan Project, and later became active in arms control and molecular biology."
+works:
+  - title: "O zmniejszaniu entropii w układzie termodynamicznym przez interwencję istot inteligentnych"
+    original_title: "Über die Entropieverminderung in einem thermodynamischen System bei Eingriffen intelligenter Wesen"
+    year: 1929
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Neutronowa reakcja łańcuchowa"
+    original_name: "Nuclear chain reaction"
+    wikipedia: "https://en.wikipedia.org/wiki/Nuclear_chain_reaction"
+    summary: "Szilárd zauważył, że reakcja jądrowa emitująca więcej niż jeden neutron może podtrzymywać lawinowy proces."
+    summary_original: "Szilard realized that a nuclear reaction releasing more than one neutron could sustain a multiplying process."
+  - name: "Silnik Szilárda"
+    original_name: "Szilard engine"
+    wikipedia: "https://en.wikipedia.org/wiki/Szilard_engine"
+    summary: "Eksperyment myślowy łączy informację, pomiar i termodynamikę, antycypując fizykę informacji."
+    summary_original: "The thought experiment links information, measurement and thermodynamics, anticipating the physics of information."
+  - name: "Koncepcja reaktora jądrowego"
+    original_name: "Nuclear reactor concept"
+    summary: "Szilárd wraz z Fermim rozwijał układ umożliwiający kontrolowaną reakcję łańcuchową."
+    summary_original: "Szilard and Fermi developed arrangements enabling a controlled chain reaction."
+events:
+  - year: 1933
+    precision: year
+    title: "Idea reakcji łańcuchowej"
+    original_title: "Chain-reaction idea"
+    summary: "Szilárd w Londynie sformułował podstawową koncepcję samopodtrzymującej się reakcji neutronowej."
+    summary_original: "In London Szilard conceived the basic idea of a self-sustaining neutron chain reaction."
+  - year: 1942
+    precision: year
+    title: "Chicago Pile-1"
+    original_title: "Chicago Pile-1"
+    summary: "Szilárd uczestniczył w zespole, który uruchomił pierwszy kontrolowany reaktor jądrowy."
+    summary_original: "Szilard participated in the team that operated the first controlled nuclear reactor."
+sources:
+  - title: "Atomic Heritage Foundation — Leo Szilard"
+    url: "https://ahf.nuclearmuseum.org/ahf/profile/leo-szilard/"
+  - title: "Encyclopaedia Britannica — Leo Szilard"
+    url: "https://www.britannica.com/biography/Leo-Szilard"
