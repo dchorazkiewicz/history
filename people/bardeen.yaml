@@ -1,0 +1,58 @@
+id: bardeen
+name: "John Bardeen"
+display_name: "John Bardeen"
+born:
+  date: "1908-05-23"
+  year: 1908
+  precision: day
+died:
+  date: "1991-01-30"
+  year: 1991
+  precision: day
+place_association: "Madison; Bell Labs; Urbana"
+fields: [physics, condensed_matter_physics, semiconductor_physics, superconductivity, electronics]
+image: null
+summary: "Amerykański fizyk, jedyna osoba nagrodzona dwukrotnie Noblem w dziedzinie fizyki. Współwynalazł tranzystor i współtworzył mikroskopową teorię BCS nadprzewodnictwa."
+summary_original: "American physicist, the only person to receive two Nobel Prizes in Physics. He co-invented the transistor and co-created the microscopic BCS theory of superconductivity."
+works:
+  - title: "Teoria nadprzewodnictwa"
+    original_title: "Theory of Superconductivity"
+    year: 1957
+    precision: year
+    type: scientific_treatise
+    publication_note: "Praca z Leonem Cooperem i Johnem Schriefferem."
+    publication_note_original: "Written with Leon Cooper and John Schrieffer."
+ideas:
+  - name: "Tranzystor punktowy"
+    original_name: "Point-contact transistor"
+    summary: "Bardeen i Walter Brattain zbudowali pierwszy działający tranzystor półprzewodnikowy."
+    summary_original: "Bardeen and Walter Brattain built the first working semiconductor transistor."
+  - name: "Teoria BCS"
+    original_name: "BCS theory"
+    wikipedia: "https://en.wikipedia.org/wiki/BCS_theory"
+    summary: "Nadprzewodnictwo wynika z tworzenia się par Coopera i ich kolektywnego stanu kwantowego."
+    summary_original: "Superconductivity arises from Cooper pairing and a collective quantum state."
+events:
+  - year: 1947
+    precision: year
+    title: "Pierwszy działający tranzystor"
+    original_title: "First working transistor"
+    summary: "Bardeen, Brattain i Shockley stworzyli przełomowe urządzenie półprzewodnikowe."
+    summary_original: "Bardeen, Brattain and Shockley created the breakthrough semiconductor device."
+  - year: 1956
+    precision: year
+    title: "Pierwsza Nagroda Nobla"
+    original_title: "First Nobel Prize"
+    summary: "Nagrodzono badania półprzewodników i odkrycie efektu tranzystorowego."
+    summary_original: "The prize recognized semiconductor research and discovery of the transistor effect."
+  - year: 1972
+    precision: year
+    title: "Druga Nagroda Nobla"
+    original_title: "Second Nobel Prize"
+    summary: "Bardeen, Cooper i Schrieffer zostali nagrodzeni za teorię BCS."
+    summary_original: "Bardeen, Cooper and Schrieffer were honored for BCS theory."
+sources:
+  - title: "Nobel Prize — John Bardeen"
+    url: "https://www.nobelprize.org/prizes/physics/1972/bardeen/facts/"
+  - title: "Encyclopaedia Britannica — John Bardeen"
+    url: "https://www.britannica.com/biography/John-Bardeen"
