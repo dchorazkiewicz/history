@@ -1,0 +1,48 @@
+id: wigner
+name: "Eugene Paul Wigner"
+display_name: "Eugene Wigner"
+born:
+  date: "1902-11-17"
+  year: 1902
+  precision: day
+died:
+  date: "1995-01-01"
+  year: 1995
+  precision: day
+place_association: "Budapeszt; Berlin; Princeton"
+fields: [physics, mathematics, quantum_mechanics, nuclear_physics, group_theory, representation_theory, mathematical_physics]
+image: null
+summary: "Węgiersko-amerykański fizyk matematyczny, który wprowadził teorię grup do centrum mechaniki kwantowej i fizyki jądrowej. Jego twierdzenia o symetriach i reprezentacjach stały się podstawowym językiem fizyki cząstek."
+summary_original: "Hungarian-American mathematical physicist who brought group theory to the center of quantum mechanics and nuclear physics. His results on symmetries and representations became basic language in particle physics."
+works:
+  - title: "Teoria grup i jej zastosowanie do mechaniki kwantowej widm atomowych"
+    original_title: "Gruppentheorie und ihre Anwendung auf die Quantenmechanik der Atomspektren"
+    year: 1931
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Twierdzenie Wignera"
+    original_name: "Wigner's theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Wigner%27s_theorem"
+    summary: "Symetrie zachowujące prawdopodobieństwa przejść kwantowych są reprezentowane przez operatory unitarne lub antyunitarne."
+    summary_original: "Symmetries preserving quantum transition probabilities are represented by unitary or antiunitary operators."
+  - name: "Klasyfikacja cząstek przez symetrie"
+    original_name: "Symmetry classification of particles"
+    summary: "Wigner pokazał, jak reprezentacje grup symetrii organizują stany kwantowe i własności cząstek."
+    summary_original: "Wigner showed how representations of symmetry groups organize quantum states and particle properties."
+  - name: "Macierz Wignera"
+    original_name: "Wigner distribution"
+    summary: "Funkcja quasi-prawdopodobieństwa pozwala przedstawiać stan kwantowy w przestrzeni fazowej."
+    summary_original: "A quasiprobability distribution represents quantum states in phase space."
+events:
+  - year: 1963
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Wigner został nagrodzony za wkład do teorii jądra i cząstek elementarnych, szczególnie przez odkrycie i zastosowanie zasad symetrii."
+    summary_original: "Wigner was honored for contributions to nuclear and particle theory, especially discovery and application of symmetry principles."
+sources:
+  - title: "Nobel Prize — Eugene Wigner"
+    url: "https://www.nobelprize.org/prizes/physics/1963/wigner/facts/"
+  - title: "MacTutor — Eugene Wigner"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Wigner/"
