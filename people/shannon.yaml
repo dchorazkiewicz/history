@@ -1,0 +1,65 @@
+id: shannon
+name: "Claude Elwood Shannon"
+display_name: "Claude Shannon"
+born:
+  date: "1916-04-30"
+  year: 1916
+  precision: day
+died:
+  date: "2001-02-24"
+  year: 2001
+  precision: day
+place_association: "Petoskey; Ann Arbor; Cambridge, Massachusetts; Bell Labs"
+fields: [mathematics, information_theory, probability, electrical_engineering, computer_science, cryptography, communication_theory]
+image: null
+summary: "Amerykański matematyk i inżynier, twórca teorii informacji. W młodości pokazał, że algebra Boole’a może opisywać obwody przełączające, a w 1948 r. zdefiniował matematyczną miarę informacji i granice niezawodnej komunikacji."
+summary_original: "American mathematician and engineer, creator of information theory. As a young researcher he showed that Boolean algebra could describe switching circuits, and in 1948 he defined a mathematical measure of information and limits of reliable communication."
+works:
+  - title: "Symboliczna analiza obwodów przekaźnikowych i przełączających"
+    original_title: "A Symbolic Analysis of Relay and Switching Circuits"
+    year: 1937
+    precision: year
+    type: mathematical_treatise
+  - title: "Matematyczna teoria komunikacji"
+    original_title: "A Mathematical Theory of Communication"
+    wikipedia: "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication"
+    year: 1948
+    precision: year
+    type: scientific_treatise
+  - title: "Teoria komunikacji systemów tajnych"
+    original_title: "Communication Theory of Secrecy Systems"
+    year: 1949
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Entropia Shannona"
+    original_name: "Shannon entropy"
+    wikipedia: "https://en.wikipedia.org/wiki/Entropy_(information_theory)"
+    summary: "Shannon zdefiniował ilość informacji przez funkcję mierzącą niepewność rozkładu prawdopodobieństwa."
+    summary_original: "Shannon defined information quantity through a function measuring uncertainty in a probability distribution."
+  - name: "Pojemność kanału"
+    original_name: "Channel capacity"
+    summary: "Udowodnił, że dla kanału komunikacyjnego istnieje graniczna szybkość transmisji, poniżej której można dowolnie zmniejszać prawdopodobieństwo błędu."
+    summary_original: "He proved that a communication channel has a limiting transmission rate below which error probability can be made arbitrarily small."
+  - name: "Algebra Boole’a w obwodach cyfrowych"
+    original_name: "Boolean algebra in digital circuits"
+    summary: "Praca magisterska Shannona połączyła logikę Boole’a z projektowaniem sieci przekaźnikowych i stała się fundamentem układów cyfrowych."
+    summary_original: "Shannon's master's thesis connected Boolean logic with relay-network design and became foundational to digital circuits."
+events:
+  - year: 1937
+    precision: year
+    title: "Praca magisterska o logice obwodów"
+    original_title: "Master's thesis on switching logic"
+    summary: "Shannon pokazał praktyczne znaczenie algebry Boole’a dla konstrukcji układów elektrycznych."
+    summary_original: "Shannon demonstrated the practical significance of Boolean algebra for electrical circuit design."
+  - year: 1948
+    precision: year
+    title: "Narodziny teorii informacji"
+    original_title: "Birth of information theory"
+    summary: "Publikacja A Mathematical Theory of Communication stworzyła wspólny język dla telekomunikacji, kodowania i przetwarzania informacji."
+    summary_original: "Publication of A Mathematical Theory of Communication created a common language for telecommunications, coding and information processing."
+sources:
+  - title: "MacTutor — Claude Shannon"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Shannon/"
+  - title: "Bell Labs — Claude Shannon"
+    url: "https://www.nokia.com/bell-labs/about/dennis-m-ritchie/claude-shannon/"
