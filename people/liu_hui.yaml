@@ -1,0 +1,68 @@
+id: liu_hui
+name: "Liu Hui"
+display_name: "Liu Hui"
+born:
+  year: 220
+  precision: approximate
+  note: "O życiu Liu Hui wiadomo bardzo niewiele; daty są przybliżone."
+  note_original: "Very little is known about Liu Hui's life; the dates are approximate."
+died:
+  year: 280
+  precision: approximate
+  note: "Data przybliżona."
+  note_original: "Approximate date."
+place_association: "Państwo Wei, Chiny"
+fields: [mathematics, geometry, surveying]
+image: null
+summary: "Chiński matematyk, którego komentarz do Dziewięciu rozdziałów sztuki matematycznej z 263 r. jest jednym z najważniejszych tekstów w historii matematyki chińskiej. Rozwijał argumentację geometryczną, metody obliczania pól i objętości oraz bardzo dokładne przybliżenie liczby π."
+summary_original: "Chinese mathematician whose 263 CE commentary on The Nine Chapters on the Mathematical Art is one of the most important texts in the history of Chinese mathematics. He developed geometric reasoning, methods for areas and volumes, and a highly accurate approximation of pi."
+works:
+  - title: "Komentarz do Dziewięciu rozdziałów sztuki matematycznej"
+    original_title: "Commentary on the Nine Chapters on the Mathematical Art"
+    wikipedia: "https://en.wikipedia.org/wiki/The_Nine_Chapters_on_the_Mathematical_Art"
+    year: 263
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Komentarz objaśniał procedury zawarte w starszym klasyku i często dodawał uzasadnienia ich poprawności."
+    publication_note_original: "The commentary explained procedures in the older classic and often added arguments for why they were correct."
+  - title: "Podręcznik matematyczny Wyspy Morskiej"
+    original_title: "Haidao Suanjing / Sea Island Mathematical Manual"
+    year: 263
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Tekst powstał jako część tradycji komentarza Liu Hui i dotyczył pomiarów odległości i wysokości za pomocą podobieństwa figur."
+    publication_note_original: "The text arose within Liu Hui's commentary tradition and dealt with measuring distances and heights using geometric similarity."
+ideas:
+  - name: "Przybliżanie liczby π wielokątami"
+    original_name: "Polygon approximation of pi"
+    wikipedia: "https://en.wikipedia.org/wiki/Liu_Hui%27s_%CF%80_algorithm"
+    summary: "Liu Hui zwiększał liczbę boków wielokątów wpisanych w okrąg, uzyskując około 263 r. wartość π poprawną do pięciu miejsc po przecinku."
+    summary_original: "Liu Hui increased the number of sides of polygons inscribed in a circle, obtaining around 263 a value of pi correct to five decimal places."
+  - name: "Uzasadnianie procedur matematycznych"
+    original_name: "Justification of mathematical procedures"
+    summary: "Jego komentarze nie były wyłącznie instrukcjami rachunkowymi: często zawierały argumenty geometryczne pokazujące, dlaczego dana procedura działa."
+    summary_original: "His commentaries were not merely computational instructions; they often included geometric arguments explaining why a procedure worked."
+  - name: "Pomiar pośredni i geometria praktyczna"
+    original_name: "Indirect measurement and practical geometry"
+    summary: "W Podręczniku Wyspy Morskiej rozwijał metody wyznaczania odległości i wysokości obiektów niedostępnych bezpośredniemu pomiarowi."
+    summary_original: "In the Sea Island Mathematical Manual he developed methods for finding distances and heights of objects that could not be measured directly."
+events:
+  - year: 263
+    precision: year
+    title: "Komentarz do Dziewięciu rozdziałów"
+    original_title: "Commentary on the Nine Chapters"
+    summary: "W 263 r. Liu Hui ukończył komentarz do jednego z fundamentalnych chińskich tekstów matematycznych."
+    summary_original: "In 263 Liu Hui completed his commentary on one of the foundational Chinese mathematical texts."
+  - year: 263
+    precision: year
+    title: "Obliczenie π do pięciu miejsc po przecinku"
+    original_title: "Calculation of pi to five decimal places"
+    summary: "Za pomocą wielokąta o 192 bokach uzyskał wartość 3,14159."
+    summary_original: "Using a 192-sided polygon he obtained the value 3.14159."
+sources:
+  - title: "MacTutor — Liu Hui"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Liu_Hui/"
+  - title: "MacTutor — Nine Chapters"
+    url: "https://mathshistory.st-andrews.ac.uk/HistTopics/Nine_chapters/"
+  - title: "Wikipedia — Liu Hui"
+    url: "https://en.wikipedia.org/wiki/Liu_Hui"
