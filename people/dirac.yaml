@@ -1,0 +1,60 @@
+id: dirac
+name: "Paul Adrien Maurice Dirac"
+display_name: "Paul Dirac"
+born:
+  date: "1902-08-08"
+  year: 1902
+  precision: day
+died:
+  date: "1984-10-20"
+  year: 1984
+  precision: day
+place_association: "Bristol; Cambridge; Tallahassee"
+fields: [physics, mathematics, quantum_mechanics, quantum_field_theory, particle_physics, relativity]
+image: null
+summary: "Brytyjski fizyk teoretyczny, jeden z twórców mechaniki kwantowej i kwantowej teorii pola. Jego relatywistyczne równanie elektronu przewidziało antymaterię, a jego formalizm operatorowy ukształtował język nowoczesnej fizyki kwantowej."
+summary_original: "British theoretical physicist, a founder of quantum mechanics and quantum field theory. His relativistic electron equation predicted antimatter, while his operator formalism shaped the language of modern quantum physics."
+works:
+  - title: "Zasady mechaniki kwantowej"
+    original_title: "The Principles of Quantum Mechanics"
+    year: 1930
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Równanie Diraca"
+    original_name: "Dirac equation"
+    wikipedia: "https://en.wikipedia.org/wiki/Dirac_equation"
+    summary: "Relatywistyczne równanie dla fermionu spinowego 1/2 łączy mechanikę kwantową ze szczególną teorią względności."
+    summary_original: "A relativistic equation for spin-one-half fermions unifies quantum mechanics with special relativity."
+  - name: "Antymateria"
+    original_name: "Antimatter"
+    wikipedia: "https://en.wikipedia.org/wiki/Antimatter"
+    summary: "Struktura równania Diraca prowadziła do stanów interpretowanych jako cząstki o przeciwnym ładunku, co przewidziało pozyton."
+    summary_original: "The structure of the Dirac equation led to states interpreted as oppositely charged particles, predicting the positron."
+  - name: "Notacja bra-ket"
+    original_name: "Bra-ket notation"
+    wikipedia: "https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation"
+    summary: "Dirac stworzył zwięzły zapis wektorów i funkcjonałów w przestrzeni Hilberta."
+    summary_original: "Dirac created a concise notation for vectors and functionals in Hilbert space."
+  - name: "Delta Diraca"
+    original_name: "Dirac delta"
+    summary: "Formalny obiekt reprezentujący idealnie skupione źródło lub impuls stał się powszechnym narzędziem fizyki i analizy."
+    summary_original: "A formal object representing an ideally localized source or impulse became ubiquitous in physics and analysis."
+events:
+  - year: 1928
+    precision: year
+    title: "Równanie relatywistycznego elektronu"
+    original_title: "Relativistic electron equation"
+    summary: "Dirac stworzył teorię, która naturalnie zawierała spin i prowadziła do przewidywania antymaterii."
+    summary_original: "Dirac created a theory naturally incorporating spin and leading to the prediction of antimatter."
+  - year: 1933
+    precision: year
+    title: "Nagroda Nobla z Erwinem Schrödingerem"
+    original_title: "Nobel Prize with Erwin Schrödinger"
+    summary: "Nagrodzono ich za odkrycie nowych postaci teorii atomowej."
+    summary_original: "They were honored for discovering new forms of atomic theory."
+sources:
+  - title: "Nobel Prize — Paul Dirac"
+    url: "https://www.nobelprize.org/prizes/physics/1933/dirac/facts/"
+  - title: "Encyclopaedia Britannica — P. A. M. Dirac"
+    url: "https://www.britannica.com/biography/P-A-M-Dirac"
