@@ -1,0 +1,53 @@
+id: borel
+name: "Émile Borel"
+display_name: "Émile Borel"
+born:
+  date: "1871-01-07"
+  year: 1871
+  precision: day
+died:
+  date: "1956-02-03"
+  year: 1956
+  precision: day
+place_association: "Saint-Affrique; Paryż"
+fields: [mathematics, measure_theory, probability, set_theory, analysis, education, public_intellectual]
+image: null
+summary: "Francuski matematyk, ważny twórca teorii miary i nowoczesnego rachunku prawdopodobieństwa. Jego prace nad zbiorami mierzalnymi, zbieżnością i probabilistycznym opisem zjawisk stały się fundamentem późniejszej analizy."
+summary_original: "French mathematician and a major creator of measure theory and modern probability. His work on measurable sets, convergence and probabilistic descriptions became foundational to later analysis."
+works:
+  - title: "Wykłady z teorii funkcji"
+    original_title: "Leçons sur la théorie des fonctions"
+    year: 1898
+    precision: year
+    type: mathematical_treatise
+  - title: "Elementy teorii prawdopodobieństwa"
+    original_title: "Éléments de la théorie des probabilités"
+    year: 1909
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Zbiory borelowskie"
+    original_name: "Borel sets"
+    wikipedia: "https://en.wikipedia.org/wiki/Borel_set"
+    summary: "Borel badał klasy zbiorów generowane z otwartych przedziałów przez przeliczalne operacje mnogościowe."
+    summary_original: "Borel studied classes of sets generated from open intervals through countable set operations."
+  - name: "Miara Borela"
+    original_name: "Borel measure"
+    summary: "Jego prace nad mierzalnością przygotowały grunt dla ogólnej teorii miary Lebesgue’a."
+    summary_original: "His work on measurability prepared the ground for Lebesgue's general measure theory."
+  - name: "Prawdopodobieństwo jako język matematyki"
+    original_name: "Probability as a mathematical language"
+    summary: "Borel należał do uczonych, którzy przesuwali rachunek prawdopodobieństwa od zbioru sztuczek kombinatorycznych ku samodzielnej teorii analitycznej."
+    summary_original: "Borel helped move probability from a collection of combinatorial techniques toward an independent analytical theory."
+events:
+  - year: 1897
+    precision: year
+    title: "Profesor w École Normale Supérieure"
+    original_title: "Professor at the École Normale Supérieure"
+    summary: "Borel stał się centralną postacią francuskiej szkoły analizy."
+    summary_original: "Borel became a central figure in the French school of analysis."
+sources:
+  - title: "MacTutor — Émile Borel"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Borel/"
+  - title: "Wikipedia — Émile Borel"
+    url: "https://en.wikipedia.org/wiki/%C3%89mile_Borel"
