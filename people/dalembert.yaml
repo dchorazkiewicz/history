@@ -1,0 +1,76 @@
+id: dalembert
+name: "Jean le Rond d'Alembert"
+display_name: "Jean le Rond d’Alembert"
+born:
+  date: "1717-11-17"
+  year: 1717
+  precision: day
+died:
+  date: "1783-10-29"
+  year: 1783
+  precision: day
+place_association: "Paryż, Francja"
+fields: [mathematics, differential_equations, physics, mechanics, fluid_dynamics, astronomy, philosophy, encyclopedia, music_theory, literature]
+image: null
+summary: "Francuski matematyk, fizyk, filozof i współredaktor Encyklopedii. Rozwijał równania różniczkowe cząstkowe, teorię drgań, dynamikę i mechanikę płynów, a równocześnie należał do centralnych postaci francuskiego Oświecenia."
+summary_original: "French mathematician, physicist, philosopher and co-editor of the Encyclopédie. He advanced partial differential equations, vibration theory, dynamics and fluid mechanics, while also becoming a central figure of the French Enlightenment."
+works:
+  - title: "Traktat o dynamice"
+    original_title: "Traité de dynamique"
+    year: 1743
+    precision: year
+    type: scientific_treatise
+  - title: "Traktat o równowadze i ruchu cieczy"
+    original_title: "Traité de l'équilibre et du mouvement des fluides"
+    year: 1744
+    precision: year
+    type: scientific_treatise
+  - title: "Badania nad krzywą tworzoną przez drgającą strunę"
+    original_title: "Recherches sur la courbe que forme une corde tendue mise en vibration"
+    year: 1747
+    precision: year
+    type: mathematical_essay
+  - title: "Rozprawa wstępna do Encyklopedii"
+    original_title: "Discours préliminaire de l'Encyclopédie"
+    wikipedia: "https://en.wikipedia.org/wiki/Encyclop%C3%A9die"
+    year: 1751
+    precision: year
+    type: philosophy
+ideas:
+  - name: "Zasada d’Alemberta"
+    original_name: "D'Alembert's principle"
+    wikipedia: "https://en.wikipedia.org/wiki/D%27Alembert%27s_principle"
+    summary: "D’Alembert przekształcił problem ruchu w formalnie równoważny problem równowagi przez uwzględnienie sił bezwładności."
+    summary_original: "D'Alembert reformulated a problem of motion as an equivalent problem of equilibrium by introducing inertial forces."
+  - name: "Równanie falowe"
+    original_name: "Wave equation"
+    wikipedia: "https://en.wikipedia.org/wiki/Wave_equation"
+    summary: "W badaniu drgającej struny sformułował jedno z pierwszych równań różniczkowych cząstkowych opisujących propagację fal."
+    summary_original: "In studying the vibrating string he formulated one of the first partial differential equations describing wave propagation."
+  - name: "Paradoks d’Alemberta"
+    original_name: "D'Alembert's paradox"
+    wikipedia: "https://en.wikipedia.org/wiki/D%27Alembert%27s_paradox"
+    summary: "W idealizowanym przepływie płynu bez lepkości otrzymywał zerowy opór ciała, wynik sprzeczny z codziennym doświadczeniem i ważny dla rozwoju mechaniki płynów."
+    summary_original: "In ideal inviscid flow he obtained zero drag on a body, a result contrary to everyday experience and important in the development of fluid mechanics."
+  - name: "Projekt Encyklopedii"
+    original_name: "The Encyclopédie project"
+    summary: "Wraz z Diderotem redagował Encyklopedię i próbował uporządkować mapę ludzkiej wiedzy zgodnie z ideałami Oświecenia."
+    summary_original: "With Diderot he edited the Encyclopédie and sought to organize the map of human knowledge according to Enlightenment ideals."
+events:
+  - year: 1741
+    precision: year
+    title: "Wybór do Académie des Sciences"
+    original_title: "Election to the Académie des Sciences"
+    summary: "D’Alembert wszedł do czołowego francuskiego środowiska naukowego."
+    summary_original: "D'Alembert entered France's leading scientific institution."
+  - year: 1751
+    precision: year
+    title: "Pierwszy tom Encyklopedii"
+    original_title: "First volume of the Encyclopédie"
+    summary: "Ukazał się pierwszy tom wielkiego przedsięwzięcia redagowanego przez Diderota i d’Alemberta."
+    summary_original: "The first volume of the great project edited by Diderot and d'Alembert appeared."
+sources:
+  - title: "MacTutor — Jean le Rond d’Alembert"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/DAlembert/"
+  - title: "Wikipedia — Jean le Rond d'Alembert"
+    url: "https://en.wikipedia.org/wiki/Jean_le_Rond_d%27Alembert"
