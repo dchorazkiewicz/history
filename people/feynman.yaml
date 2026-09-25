@@ -1,0 +1,67 @@
+id: feynman
+name: "Richard Phillips Feynman"
+display_name: "Richard Feynman"
+born:
+  date: "1918-05-11"
+  year: 1918
+  precision: day
+died:
+  date: "1988-02-15"
+  year: 1988
+  precision: day
+place_association: "Nowy Jork; Los Alamos; Ithaca; Pasadena"
+fields: [physics, quantum_electrodynamics, quantum_mechanics, particle_physics, statistical_mechanics, quantum_computing, education, popularization]
+image: null
+summary: "Amerykański fizyk teoretyczny, jeden z głównych twórców nowoczesnej elektrodynamiki kwantowej. Wprowadził całki po trajektoriach i diagramy Feynmana, pracował nad nadciekłością, oddziaływaniami słabymi, partonami i wczesnymi ideami obliczeń kwantowych."
+summary_original: "American theoretical physicist and a principal creator of modern quantum electrodynamics. He introduced path integrals and Feynman diagrams and worked on superfluidity, weak interactions, partons and early quantum-computation ideas."
+works:
+  - title: "Przestrzenno-czasowe podejście do nierelatywistycznej mechaniki kwantowej"
+    original_title: "Space-Time Approach to Non-Relativistic Quantum Mechanics"
+    year: 1948
+    precision: year
+    type: scientific_treatise
+  - title: "Teoria pozytonów"
+    original_title: "The Theory of Positrons"
+    year: 1949
+    precision: year
+    type: scientific_treatise
+  - title: "Wykłady Feynmana z fizyki"
+    original_title: "The Feynman Lectures on Physics"
+    year: 1964
+    precision: year
+    type: book
+    publication_note: "Trzytomowy cykl opublikowany w latach 1964–1965."
+    publication_note_original: "A three-volume series published in 1964–1965."
+ideas:
+  - name: "Całka po trajektoriach"
+    original_name: "Path integral formulation"
+    wikipedia: "https://en.wikipedia.org/wiki/Path_integral_formulation"
+    summary: "Amplituda kwantowa jest sumą wkładów po wszystkich możliwych historiach układu, ważonych fazą związaną z działaniem."
+    summary_original: "A quantum amplitude is obtained by summing contributions over all possible histories, weighted by a phase related to the action."
+  - name: "Diagramy Feynmana"
+    original_name: "Feynman diagrams"
+    wikipedia: "https://en.wikipedia.org/wiki/Feynman_diagram"
+    summary: "Graficzny język organizuje rachunek perturbacyjny kwantowej teorii pola."
+    summary_original: "A graphical language organizes perturbative calculations in quantum field theory."
+  - name: "Partony"
+    original_name: "Parton model"
+    summary: "Feynman opisywał wysokoenergetyczne zderzenia hadronów, traktując je jako złożone z punktowych składników."
+    summary_original: "Feynman described high-energy hadron collisions in terms of point-like constituents."
+events:
+  - year: 1943
+    precision: year
+    title: "Praca w Los Alamos"
+    original_title: "Work at Los Alamos"
+    summary: "Feynman uczestniczył w Projekcie Manhattan, zajmując się m.in. obliczeniami i organizacją pracy zespołów rachunkowych."
+    summary_original: "Feynman participated in the Manhattan Project, working on calculations and organization of computing teams."
+  - year: 1965
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Feynman, Schwinger i Tomonaga zostali nagrodzeni za fundamentalną przebudowę elektrodynamiki kwantowej."
+    summary_original: "Feynman, Schwinger and Tomonaga were honored for fundamental work in quantum electrodynamics."
+sources:
+  - title: "Nobel Prize — Richard P. Feynman"
+    url: "https://www.nobelprize.org/prizes/physics/1965/feynman/facts/"
+  - title: "Caltech — Richard Feynman"
+    url: "https://www.caltech.edu/about/news/richard-feynman"
