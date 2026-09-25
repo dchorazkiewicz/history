@@ -1,0 +1,65 @@
+id: klein
+name: "Felix Klein"
+display_name: "Felix Klein"
+born:
+  date: "1849-04-25"
+  year: 1849
+  precision: day
+died:
+  date: "1925-06-22"
+  year: 1925
+  precision: day
+place_association: "Düsseldorf; Erlangen; Monachium; Lipsk; Getynga"
+fields: [mathematics, geometry, group_theory, topology, complex_analysis, mathematical_physics, education, university_reform]
+image: null
+summary: "Niemiecki matematyk i reformator nauczania. Program erlangeński uporządkował geometrie według grup przekształceń, łącząc geometrię z teorią grup, a jego działalność w Getyndze pomogła stworzyć jeden z najważniejszych ośrodków matematyki i fizyki przełomu XIX i XX wieku."
+summary_original: "German mathematician and educational reformer. The Erlangen Program organized geometries by transformation groups, linking geometry with group theory, while his work at Göttingen helped build one of the world's leading centers of mathematics and physics around 1900."
+works:
+  - title: "Program erlangeński"
+    original_title: "Vergleichende Betrachtungen über neuere geometrische Forschungen"
+    wikipedia: "https://en.wikipedia.org/wiki/Erlangen_program"
+    year: 1872
+    precision: year
+    type: mathematical_treatise
+  - title: "Wykłady o dwudziestościanie"
+    original_title: "Vorlesungen über das Ikosaeder"
+    year: 1884
+    precision: year
+    type: mathematical_treatise
+  - title: "Matematyka elementarna z wyższego punktu widzenia"
+    original_title: "Elementarmathematik vom höheren Standpunkte aus"
+    year: 1908
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Program erlangeński"
+    original_name: "Erlangen Program"
+    summary: "Geometrię można klasyfikować według grupy przekształceń, względem których jej własności pozostają niezmienne."
+    summary_original: "A geometry can be classified by the group of transformations under which its properties remain invariant."
+  - name: "Butelka Kleina"
+    original_name: "Klein bottle"
+    wikipedia: "https://en.wikipedia.org/wiki/Klein_bottle"
+    summary: "Nieorientowalna powierzchnia zamknięta stała się jednym z najbardziej rozpoznawalnych obiektów topologii."
+    summary_original: "A closed nonorientable surface became one of topology's most recognizable objects."
+  - name: "Integracja matematyki i fizyki w Getyndze"
+    original_name: "Integration of mathematics and physics at Göttingen"
+    summary: "Klein aktywnie rozwijał współpracę między matematyką, mechaniką, fizyką i inżynierią oraz modernizował kształcenie matematyczne."
+    summary_original: "Klein actively fostered collaboration among mathematics, mechanics, physics and engineering while modernizing mathematical education."
+events:
+  - year: 1872
+    precision: year
+    title: "Profesor w Erlangen i ogłoszenie programu erlangeńskiego"
+    original_title: "Professorship at Erlangen and announcement of the Erlangen Program"
+    summary: "W wieku 23 lat objął katedrę i przedstawił program jednoczący różne geometrie przez grupy przekształceń."
+    summary_original: "At age 23 he took a chair and presented a program unifying geometries through transformation groups."
+  - year: 1886
+    precision: year
+    title: "Przeniesienie do Getyngi"
+    original_title: "Move to Göttingen"
+    summary: "Klein rozpoczął długą przebudowę Getyngi w międzynarodowe centrum matematyki."
+    summary_original: "Klein began the long transformation of Göttingen into an international center of mathematics."
+sources:
+  - title: "MacTutor — Felix Klein"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Klein/"
+  - title: "Wikipedia — Felix Klein"
+    url: "https://en.wikipedia.org/wiki/Felix_Klein"
