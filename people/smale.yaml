@@ -1,0 +1,57 @@
+id: smale
+name: "Stephen Smale"
+display_name: "Stephen Smale"
+born:
+  date: "1930-07-15"
+  year: 1930
+  precision: day
+died: null
+place_association: "Flint; Berkeley; Hongkong"
+fields: [mathematics, topology, differential_topology, dynamical_systems, numerical_analysis, economics]
+image: null
+summary: "Amerykański matematyk, jeden z głównych twórców topologii różniczkowej i nowoczesnej teorii układów dynamicznych. Udowodnił hipotezę Poincarégo w wymiarach co najmniej pięciu i wprowadził słynny podkowiasty model chaosu."
+summary_original: "American mathematician, a major creator of differential topology and modern dynamical systems. He proved the Poincaré conjecture in dimensions at least five and introduced the famous horseshoe model of chaos."
+works:
+  - title: "O strukturze rozmaitości"
+    original_title: "On the Structure of Manifolds"
+    year: 1962
+    precision: year
+    type: mathematical_essay
+  - title: "Różniczkowalne układy dynamiczne"
+    original_title: "Differentiable Dynamical Systems"
+    year: 1967
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "H-kobordyzm"
+    original_name: "h-cobordism theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/H-cobordism"
+    summary: "Twierdzenie Smale’a umożliwiło klasyfikację szerokiej klasy wielowymiarowych rozmaitości i było kluczowe w jego dowodzie wysokowymiarowej hipotezy Poincarégo."
+    summary_original: "Smale's theorem enabled classification of broad classes of high-dimensional manifolds and was key to his proof of the high-dimensional Poincaré conjecture."
+  - name: "Podkowa Smale’a"
+    original_name: "Smale horseshoe"
+    wikipedia: "https://en.wikipedia.org/wiki/Horseshoe_map"
+    summary: "Prosty model dynamiczny pokazuje, jak deterministyczny układ może generować chaotyczne zachowanie."
+    summary_original: "A simple dynamical model shows how a deterministic system can generate chaotic behavior."
+  - name: "Problemy Smale’a"
+    original_name: "Smale's problems"
+    summary: "Pod koniec XX wieku Smale sformułował listę problemów mających wskazywać ważne kierunki matematyki XXI wieku."
+    summary_original: "Near the end of the twentieth century Smale formulated a problem list intended to highlight major directions for twenty-first-century mathematics."
+events:
+  - year: 1961
+    precision: year
+    title: "Dowód wysokowymiarowej hipotezy Poincarégo"
+    original_title: "Proof of the high-dimensional Poincaré conjecture"
+    summary: "Smale rozwiązał problem dla rozmaitości o wymiarze co najmniej pięciu."
+    summary_original: "Smale solved the problem for manifolds of dimension at least five."
+  - year: 1966
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Został nagrodzony za prace w topologii różniczkowej."
+    summary_original: "He was awarded the Fields Medal for work in differential topology."
+sources:
+  - title: "MacTutor — Stephen Smale"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Smale/"
+  - title: "Wikipedia — Stephen Smale"
+    url: "https://en.wikipedia.org/wiki/Stephen_Smale"
