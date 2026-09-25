@@ -1,0 +1,50 @@
+id: goeppert_mayer
+name: "Maria Goeppert Mayer"
+display_name: "Maria Goeppert-Mayer"
+born:
+  date: "1906-06-28"
+  year: 1906
+  precision: day
+died:
+  date: "1972-02-20"
+  year: 1972
+  precision: day
+place_association: "Katowice; Getynga; Baltimore; Chicago; San Diego"
+fields: [physics, nuclear_physics, quantum_mechanics, atomic_physics, theoretical_physics]
+image: null
+summary: "Niemiecko-amerykańska fizyczka teoretyczna, współtwórczyni modelu powłokowego jądra atomowego. Wyjaśniła szczególną stabilność jąder o tzw. liczbach magicznych i została drugą kobietą w historii nagrodzoną Noblem z fizyki."
+summary_original: "German-American theoretical physicist and co-creator of the nuclear shell model. She explained the special stability of nuclei with so-called magic numbers and became the second woman to receive the Nobel Prize in Physics."
+works:
+  - title: "O zamkniętych powłokach w jądrach"
+    original_title: "On Closed Shells in Nuclei"
+    year: 1948
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Model powłokowy jądra"
+    original_name: "Nuclear shell model"
+    wikipedia: "https://en.wikipedia.org/wiki/Nuclear_shell_model"
+    summary: "Nukleony zajmują kwantowane poziomy podobnie do elektronów w atomie, a silne sprzężenie spin-orbita wyjaśnia liczby magiczne."
+    summary_original: "Nucleons occupy quantized levels analogous to atomic electrons, with strong spin-orbit coupling explaining magic numbers."
+  - name: "Liczby magiczne"
+    original_name: "Magic numbers"
+    summary: "Jądra zawierające określone liczby protonów lub neutronów są szczególnie stabilne dzięki zamknięciu powłok."
+    summary_original: "Nuclei with certain numbers of protons or neutrons are especially stable because shells are closed."
+events:
+  - year: 1949
+    precision: year
+    title: "Sformułowanie modelu powłokowego"
+    original_title: "Formulation of the nuclear shell model"
+    summary: "Goeppert-Mayer niezależnie od Hansa Jensena rozwinęła model wyjaśniający liczby magiczne."
+    summary_original: "Goeppert-Mayer independently of Hans Jensen developed the model explaining magic numbers."
+  - year: 1963
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Goeppert-Mayer i Jensen podzielili połowę nagrody za odkrycia dotyczące powłokowej struktury jądra."
+    summary_original: "Goeppert-Mayer and Jensen shared half the prize for discoveries concerning nuclear shell structure."
+sources:
+  - title: "Nobel Prize — Maria Goeppert Mayer"
+    url: "https://www.nobelprize.org/prizes/physics/1963/mayer/facts/"
+  - title: "Encyclopaedia Britannica — Maria Goeppert Mayer"
+    url: "https://www.britannica.com/biography/Maria-Goeppert-Mayer"
