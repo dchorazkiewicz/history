@@ -1,0 +1,74 @@
+id: al_kashi
+name: "Jamshid al-Kashi"
+display_name: "Jamshid al-Kashi"
+born:
+  year: 1380
+  precision: approximate
+  note: "MacTutor podaje narodziny około 1380 r.; w starszej literaturze spotyka się także datę około 1390 r."
+  note_original: "MacTutor places his birth around 1380; older literature also gives dates around 1390."
+died:
+  date: "1429-06-22"
+  year: 1429
+  precision: day
+place_association: "Kaszan; Samarkanda"
+fields: [mathematics, arithmetic, algebra, geometry, trigonometry, astronomy, education]
+image: null
+summary: "Perski matematyk i astronom związany z obserwatorium Uług Bega w Samarkandzie. Rozwinął rachunek na ułamkach dziesiętnych, obliczył π z niezwykłą dokładnością, udoskonalał metody numeryczne i stworzył jeden z najważniejszych średniowiecznych podręczników rachunku."
+summary_original: "Persian mathematician and astronomer associated with Ulugh Beg's observatory at Samarkand. He advanced decimal-fraction arithmetic, computed pi to exceptional accuracy, improved numerical methods and wrote one of the medieval period's most important computational textbooks."
+works:
+  - title: "Tablice chakańskie"
+    original_title: "Khaqani Zij"
+    year: 1413
+    precision: approximate
+    type: astronomical_treatise
+    publication_note: "Tablice astronomiczne przygotowane przed przeniesieniem się do Samarkandy."
+    publication_note_original: "Astronomical tables prepared before his move to Samarkand."
+  - title: "Traktat o obwodzie"
+    original_title: "Risala al-Muhitiyya / Treatise on the Circumference"
+    year: 1424
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Dzieło zawierało obliczenie liczby π do niezwykłej jak na epokę dokładności."
+    publication_note_original: "The work contained a computation of pi to extraordinary accuracy for its time."
+  - title: "Klucz do arytmetyki"
+    original_title: "Miftah al-Hisab"
+    year: 1427
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Obszerne kompendium arytmetyki, algebry, geometrii i metod obliczeniowych przeznaczone m.in. dla uczonych i urzędników."
+    publication_note_original: "A broad compendium of arithmetic, algebra, geometry and computational methods intended in part for scholars and officials."
+ideas:
+  - name: "Ułamki dziesiętne jako narzędzie rachunku"
+    original_name: "Decimal fractions as a computational tool"
+    summary: "Al-Kashi stosował i systematyzował ułamki dziesiętne w obliczeniach na długo przed ich szerokim rozpowszechnieniem w nowożytnej Europie."
+    summary_original: "Al-Kashi used and systematized decimal fractions in computation long before their broad adoption in early modern Europe."
+  - name: "Obliczenie π do około 16 cyfr dziesiętnych"
+    original_name: "Calculation of pi to about 16 decimal digits"
+    summary: "W Traktacie o obwodzie obliczył π z dokładnością przewyższającą wcześniejsze znane wyniki i utrzymującą rekord przez długi czas."
+    summary_original: "In the Treatise on the Circumference he computed pi to an accuracy surpassing previous known results and holding a record for a long period."
+  - name: "Metody numeryczne dla pierwiastków"
+    original_name: "Numerical methods for roots"
+    summary: "Rozwijał algorytmy obliczania pierwiastków n-tego stopnia i współczynników dwumianowych, kontynuując wcześniejszą tradycję matematyki islamu."
+    summary_original: "He developed algorithms for extracting nth roots and computing binomial coefficients, continuing earlier Islamic mathematical traditions."
+  - name: "Tablice trygonometryczne wysokiej precyzji"
+    original_name: "High-precision trigonometric tables"
+    summary: "Jego prace astronomiczne wymagały bardzo dokładnych wartości funkcji trygonometrycznych, które obliczał metodami iteracyjnymi i numerycznymi."
+    summary_original: "His astronomical work required highly accurate trigonometric values, which he computed using iterative and numerical methods."
+events:
+  - year: 1420
+    precision: approximate
+    title: "Przybycie do Samarkandy"
+    original_title: "Arrival in Samarkand"
+    summary: "Al-Kashi został zaproszony do kręgu uczonych Uług Bega i brał udział w tworzeniu obserwatorium oraz programu obserwacyjnego."
+    summary_original: "Al-Kashi was invited into Ulugh Beg's scholarly circle and participated in building the observatory and its observational program."
+  - year: 1427
+    precision: year
+    title: "Ukończenie Klucza do arytmetyki"
+    original_title: "Completion of the Key to Arithmetic"
+    summary: "Powstało jedno z najważniejszych kompendiów metod rachunkowych późnośredniowiecznego świata islamu."
+    summary_original: "One of the most important compendia of computational methods in the late medieval Islamic world was completed."
+sources:
+  - title: "MacTutor — al-Kashi"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Kashi/"
+  - title: "Wikipedia — Jamshid al-Kashi"
+    url: "https://en.wikipedia.org/wiki/Jamsh%C4%ABd_al-K%C4%81sh%C4%AB"
