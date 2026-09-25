@@ -613,78 +613,93 @@ people:
 
   - id: ramanujan
     name: "Srinivasa Ramanujan"
-    status: pending
+    status: described
+    data_file: "people/ramanujan.yaml"
     focus: [mathematics]
 
   - id: hardy
     name: "G. H. Hardy"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/hardy.yaml"
+    focus: [mathematics, philosophy]
 
   - id: banach
     name: "Stefan Banach"
-    status: pending
+    status: described
+    data_file: "people/banach.yaml"
     focus: [mathematics]
 
   - id: sierpinski
     name: "Wacław Sierpiński"
-    status: pending
+    status: described
+    data_file: "people/sierpinski.yaml"
     focus: [mathematics]
 
   - id: kuratowski
     name: "Kazimierz Kuratowski"
-    status: pending
+    status: described
+    data_file: "people/kuratowski.yaml"
     focus: [mathematics]
 
   - id: steinhaus
     name: "Hugo Steinhaus"
-    status: pending
+    status: described
+    data_file: "people/steinhaus.yaml"
     focus: [mathematics]
 
   - id: tarski
     name: "Alfred Tarski"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/tarski.yaml"
+    focus: [mathematics, philosophy]
 
   - id: godel
     name: "Kurt Gödel"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/godel.yaml"
+    focus: [mathematics, philosophy, physics]
 
   - id: kolmogorov
     name: "Andriej Kołmogorow"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/kolmogorov.yaml"
+    focus: [mathematics, physics]
 
   - id: von_neumann
     name: "John von Neumann"
-    status: pending
-    focus: [mathematics, physics]
+    status: described
+    data_file: "people/von_neumann.yaml"
+    focus: [mathematics, physics, economics]
 
   - id: church
     name: "Alonzo Church"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/church.yaml"
+    focus: [mathematics, philosophy]
 
   - id: turing
     name: "Alan Turing"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/turing.yaml"
+    focus: [mathematics, computer_science, biology]
 
   - id: wiener
     name: "Norbert Wiener"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/wiener.yaml"
+    focus: [mathematics, philosophy]
 
   - id: shannon
     name: "Claude Shannon"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/shannon.yaml"
+    focus: [mathematics, computer_science, engineering]
 
   - id: ulam
     name: "Stanisław Ulam"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/ulam.yaml"
+    focus: [mathematics, physics, computer_science]
 
   - id: andre_weil
     name: "André Weil"
