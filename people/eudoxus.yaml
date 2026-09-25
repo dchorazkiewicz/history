@@ -1,0 +1,68 @@
+id: eudoxus
+name: "Eudoxus of Cnidus"
+display_name: "Eudoksos z Knidos"
+born:
+  year: -408
+  precision: approximate
+  note: "Data przybliżona; chronologia Eudoksosa jest rekonstruowana z późniejszych przekazów."
+  note_original: "Approximate date; Eudoxus's chronology is reconstructed from later reports."
+died:
+  year: -355
+  precision: approximate
+  note: "Data przybliżona; spotyka się także inne rekonstrukcje roku śmierci."
+  note_original: "Approximate date; other reconstructions of the year of death also occur."
+place_association: "Knidos; Ateny; Kyzikos; Egipt"
+fields: [mathematics, astronomy, philosophy]
+image: null
+summary: "Grecki matematyk i astronom, którego teoria proporcji oraz rygorystyczna postać metody wyczerpywania stały się fundamentami późniejszej geometrii greckiej. Jego wyniki zostały włączone m.in. do Elementów Euklidesa, a jego własne dzieła zachowały się jedynie pośrednio."
+summary_original: "Greek mathematician and astronomer whose theory of proportion and rigorous form of the method of exhaustion became foundations of later Greek geometry. His results were incorporated into works such as Euclid's Elements, while his own works survive only indirectly."
+works:
+  - title: "Zjawiska"
+    original_title: "Phaenomena"
+    year: -370
+    precision: approximate
+    type: astronomical_treatise
+    publication_note: "Dzieło zaginione; jego treść jest częściowo znana dzięki Aratosowi i komentarzowi Hipparcha."
+    publication_note_original: "Lost work; its contents are partly known through Aratus and Hipparchus's commentary."
+  - title: "Zwierciadło"
+    original_title: "Enoptron"
+    year: -370
+    precision: approximate
+    type: astronomical_treatise
+    publication_note: "Zaginione dzieło astronomiczne, rozwijające opis sfery niebieskiej."
+    publication_note_original: "Lost astronomical work developing a description of the celestial sphere."
+  - title: "O prędkościach"
+    original_title: "On Speeds"
+    year: -360
+    precision: approximate
+    type: astronomical_treatise
+    publication_note: "Dzieło zaginione; wiązane z matematycznym modelem ruchów planet."
+    publication_note_original: "Lost work associated with his mathematical model of planetary motions."
+ideas:
+  - name: "Metoda wyczerpywania"
+    original_name: "Method of exhaustion"
+    wikipedia: "https://en.wikipedia.org/wiki/Method_of_exhaustion"
+    summary: "Eudoksos nadał rygorystyczną postać metodzie przybliżania pól i objętości przez ciągi coraz dokładniejszych figur. Był to jeden z najważniejszych antycznych prekursorów metod całkowych."
+    summary_original: "Eudoxus gave a rigorous form to approximating areas and volumes by increasingly accurate figures, one of antiquity's major precursors of integral methods."
+  - name: "Teoria proporcji"
+    original_name: "Theory of proportion"
+    summary: "Teoria pozwalała porównywać wielkości także wtedy, gdy ich stosunku nie dało się wyrazić liczbami wymiernymi. Jej rozwinięcie jest zwykle łączone z księgą V Elementów Euklidesa."
+    summary_original: "The theory allowed magnitudes to be compared even when their ratio could not be expressed by rational numbers; its development is usually associated with Book V of Euclid's Elements."
+  - name: "Model sfer homocentrycznych"
+    original_name: "Homocentric spheres"
+    summary: "Eudoksos próbował opisać ruchy Słońca, Księżyca i planet za pomocą złożenia ruchów współśrodkowych sfer."
+    summary_original: "Eudoxus attempted to model the motions of the Sun, Moon and planets through combinations of concentric spheres."
+events:
+  - year: -380
+    precision: approximate
+    title: "Studia i obserwacje w Egipcie"
+    original_title: "Study and observation in Egypt"
+    summary: "Według tradycji Eudoksos spędził około szesnastu miesięcy w Egipcie, gdzie prowadził obserwacje astronomiczne i kontaktował się z kapłanami w Heliopolis."
+    summary_original: "According to tradition, Eudoxus spent about sixteen months in Egypt, making astronomical observations and interacting with priests at Heliopolis."
+sources:
+  - title: "MacTutor — Eudoxus of Cnidus"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Eudoxus/"
+  - title: "Encyclopaedia Britannica 1911 — Eudoxus of Cnidus"
+    url: "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Eudoxus_of_Cnidus"
+  - title: "Wikisource — Eudoxus of Cnidus"
+    url: "https://en.wikisource.org/wiki/Author:Eudoxus"
