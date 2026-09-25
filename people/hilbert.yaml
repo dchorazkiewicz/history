@@ -1,0 +1,60 @@
+id: hilbert
+name: "David Hilbert"
+display_name: "David Hilbert"
+born:
+  date: "1862-01-23"
+  year: 1862
+  precision: day
+died:
+  date: "1943-02-14"
+  year: 1943
+  precision: day
+place_association: "Królewiec; Getynga"
+fields: [mathematics, algebra, geometry, number_theory, functional_analysis, foundations_of_mathematics, logic, mathematical_physics, education]
+image: null
+summary: "Niemiecki matematyk, jedna z najważniejszych postaci przełomu XIX i XX wieku. Przekształcił teorię niezmienników, geometrię aksjomatyczną, teorię liczb i analizę funkcjonalną, a jego lista 23 problemów wyznaczyła znaczną część programu matematyki XX wieku."
+summary_original: "German mathematician and one of the central figures around 1900. He transformed invariant theory, axiomatic geometry, number theory and functional analysis, while his list of 23 problems shaped much of twentieth-century mathematics."
+works:
+  - title: "Podstawy geometrii"
+    original_title: "Grundlagen der Geometrie"
+    wikipedia: "https://en.wikipedia.org/wiki/Foundations_of_Geometry"
+    year: 1899
+    precision: year
+    type: mathematical_treatise
+  - title: "Problemy matematyczne"
+    original_title: "Mathematische Probleme"
+    wikipedia: "https://en.wikipedia.org/wiki/Hilbert%27s_problems"
+    year: 1900
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Aksjomatyzacja geometrii"
+    original_name: "Axiomatization of geometry"
+    summary: "Hilbert oddzielił strukturę aksjomatów od intuicyjnego znaczenia punktów, prostych i płaszczyzn, wzmacniając formalne podejście do matematyki."
+    summary_original: "Hilbert separated the structure of axioms from intuitive meanings of points, lines and planes, strengthening the formal approach to mathematics."
+  - name: "23 problemy Hilberta"
+    original_name: "Hilbert's 23 problems"
+    summary: "Lista problemów ogłoszona w Paryżu w 1900 r. stała się programem badawczym dla wielu działów matematyki XX wieku."
+    summary_original: "The list announced in Paris in 1900 became a research program for many areas of twentieth-century mathematics."
+  - name: "Program Hilberta"
+    original_name: "Hilbert's program"
+    summary: "Hilbert dążył do sformalizowania matematyki i wykazania niesprzeczności jej teorii metodami finitystycznymi."
+    summary_original: "Hilbert sought to formalize mathematics and prove consistency of its theories by finitistic methods."
+events:
+  - year: 1895
+    precision: year
+    title: "Przeniesienie do Getyngi"
+    original_title: "Move to Göttingen"
+    summary: "Hilbert dołączył do uczelni, która pod jego i Kleina wpływem stała się światowym centrum matematyki."
+    summary_original: "Hilbert joined the university that under his and Klein's influence became a world center of mathematics."
+  - year: 1900
+    precision: year
+    title: "Wykład o problemach matematycznych w Paryżu"
+    original_title: "Paris lecture on mathematical problems"
+    summary: "Na Międzynarodowym Kongresie Matematyków ogłosił najsłynniejszy program problemów w historii dyscypliny."
+    summary_original: "At the International Congress of Mathematicians he announced the most famous problem list in the history of the discipline."
+sources:
+  - title: "MacTutor — David Hilbert"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/"
+  - title: "Wikipedia — David Hilbert"
+    url: "https://en.wikipedia.org/wiki/David_Hilbert"
