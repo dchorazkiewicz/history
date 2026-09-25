@@ -1,0 +1,93 @@
+id: cardano
+name: "Girolamo Cardano"
+display_name: "Girolamo Cardano"
+born:
+  date: "1501-09-24"
+  year: 1501
+  precision: day
+died:
+  date: "1576-09-21"
+  year: 1576
+  precision: day
+place_association: "Pawia; Mediolan; Bolonia; Rzym"
+fields: [mathematics, algebra, probability, medicine, mechanics, hydrodynamics, philosophy, natural_philosophy, astrology, geology, cryptology]
+image: null
+summary: "Włoski lekarz, matematyk, filozof przyrody i niezwykle płodny autor. W Ars Magna opublikował metody rozwiązywania równań sześciennych i czwartych stopni, zetknął się z liczbami zespolonymi, a w traktacie o grach losowych stworzył jeden z najwcześniejszych systematycznych tekstów teorii prawdopodobieństwa."
+summary_original: "Italian physician, mathematician, natural philosopher and extraordinarily prolific author. In Ars Magna he published methods for solving cubic and quartic equations, encountered complex quantities, and in his work on games of chance produced one of the earliest systematic texts on probability."
+works:
+  - title: "Praktyka arytmetyki i prostego miernictwa"
+    original_title: "Practica arithmetice et mensurandi singularis"
+    year: 1539
+    precision: year
+    type: mathematical_treatise
+  - title: "Wielka sztuka"
+    original_title: "Ars Magna"
+    wikipedia: "https://en.wikipedia.org/wiki/Ars_Magna_(Cardano_book)"
+    year: 1545
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Pierwszy łaciński traktat poświęcony wyłącznie algebrze; zawierał rozwiązania równań sześciennych i czwartych stopni."
+    publication_note_original: "The first Latin treatise devoted solely to algebra; it contained solutions of cubic and quartic equations."
+  - title: "O subtelności"
+    original_title: "De subtilitate rerum"
+    year: 1550
+    precision: year
+    type: book
+    publication_note: "Encyklopedyczne dzieło z filozofii przyrody obejmujące m.in. mechanikę, kosmologię, technikę i zagadnienia przyrodnicze."
+    publication_note_original: "An encyclopedic work of natural philosophy covering mechanics, cosmology, technology and natural phenomena."
+  - title: "O grach losowych"
+    original_title: "Liber de ludo aleae"
+    year: 1563
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Napisane prawdopodobnie około 1563 r.; opublikowane pośmiertnie w 1663 r."
+    publication_note_original: "Probably completed around 1563; published posthumously in 1663."
+  - title: "O własnym życiu"
+    original_title: "De vita propria"
+    year: 1575
+    precision: approximate
+    type: autobiography
+    posthumous: true
+    publication_note: "Autobiografia napisana pod koniec życia; po raz pierwszy wydana w 1643 r."
+    publication_note_original: "Autobiography written late in life; first published in 1643."
+ideas:
+  - name: "Rozwiązania równań sześciennych i czwartych stopni"
+    original_name: "Solutions of cubic and quartic equations"
+    summary: "Ars Magna zebrała i opublikowała metody związane z del Ferrem, Tartaglią i Ferrarim, nadając im trwałe miejsce w europejskiej algebrze."
+    summary_original: "Ars Magna collected and published methods associated with del Ferro, Tartaglia and Ferrari, securing their place in European algebra."
+  - name: "Pierwsze rachunki z pierwiastkami liczb ujemnych"
+    original_name: "Early calculations with square roots of negative numbers"
+    summary: "Przy analizie równań sześciennych Cardano zetknął się z wyrażeniami zawierającymi pierwiastki z liczb ujemnych, choć uznawał je jeszcze za problematyczne i mało użyteczne."
+    summary_original: "While analyzing cubics Cardano encountered expressions involving square roots of negative numbers, though he still regarded them as problematic and of little use."
+  - name: "Matematyka hazardu i prawdopodobieństwa"
+    original_name: "Mathematics of gambling and probability"
+    summary: "W Liber de ludo aleae analizował uczciwe gry, liczby możliwych wyników i szanse zdarzeń, tworząc jeden z najwcześniejszych tekstów teorii prawdopodobieństwa."
+    summary_original: "In Liber de ludo aleae he analyzed fair games, numbers of possible outcomes and event chances, producing one of the earliest probability texts."
+  - name: "Mechanika i przegub Cardana"
+    original_name: "Mechanics and the Cardan joint"
+    summary: "Cardano zajmował się mechaniką i urządzeniami; z jego nazwiskiem wiąże się typ przegubu uniwersalnego pozwalającego przenosić obrót między niewspółosiowymi wałami."
+    summary_original: "Cardano worked on mechanics and devices; his name is associated with a universal joint transmitting rotation between misaligned shafts."
+events:
+  - year: 1525
+    precision: year
+    title: "Doktorat z medycyny"
+    original_title: "Doctorate in medicine"
+    summary: "Cardano ukończył studia medyczne w Padwie, rozpoczynając karierę, która miała uczynić go jednym z najbardziej znanych lekarzy epoki."
+    summary_original: "Cardano completed his medical doctorate at Padua, beginning a career that made him one of the era's most famous physicians."
+  - year: 1539
+    precision: year
+    title: "Poznanie metody Tartaglii"
+    original_title: "Learning Tartaglia's cubic method"
+    summary: "Tartaglia przekazał Cardanowi swoją metodę rozwiązania równań sześciennych pod przysięgą zachowania tajemnicy."
+    summary_original: "Tartaglia disclosed his cubic-solution method to Cardano under a pledge of secrecy."
+  - year: 1545
+    precision: year
+    title: "Publikacja Ars Magna"
+    original_title: "Publication of Ars Magna"
+    summary: "Publikacja stała się punktem zwrotnym w historii europejskiej algebry."
+    summary_original: "The publication became a turning point in the history of European algebra."
+sources:
+  - title: "MacTutor — Girolamo Cardano"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Cardan/"
+  - title: "Wikipedia — Girolamo Cardano"
+    url: "https://en.wikipedia.org/wiki/Gerolamo_Cardano"
