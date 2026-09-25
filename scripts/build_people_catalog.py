@@ -21,7 +21,7 @@ def main() -> None:
         if not isinstance(person, dict):
             raise ValueError(f"{path}: YAML must contain an object")
 
-        for required in ("id", "display_name", "born", "died"):
+        for required in ("id", "display_name", "born"):
             if required not in person:
                 raise ValueError(f"{path}: missing required field {required!r}")
 
