@@ -1,0 +1,76 @@
+id: poincare
+name: "Henri Poincare"
+display_name: "Henri Poincaré"
+born:
+  date: "1854-04-29"
+  year: 1854
+  precision: day
+died:
+  date: "1912-07-17"
+  year: 1912
+  precision: day
+place_association: "Nancy; Paryż, Francja"
+fields: [mathematics, topology, dynamical_systems, differential_equations, celestial_mechanics, physics, relativity, electromagnetism, philosophy_of_science]
+image: null
+summary: "Francuski matematyk, fizyk matematyczny i filozof nauki. Stworzył podstawy topologii algebraicznej i jakościowej teorii układów dynamicznych, badał problem trzech ciał, chaos deterministyczny, elektromagnetyzm i strukturę transformacji związanych z teorią względności."
+summary_original: "French mathematician, mathematical physicist and philosopher of science. He laid foundations of algebraic topology and qualitative dynamical systems, studied the three-body problem and deterministic chaos, and worked on electromagnetism and transformation structures connected with relativity."
+works:
+  - title: "Nowe metody mechaniki nieba"
+    original_title: "Les méthodes nouvelles de la mécanique céleste"
+    year: 1892
+    precision: year
+    type: scientific_treatise
+    publication_note: "Trzytomowe dzieło publikowane w latach 1892–1899."
+    publication_note_original: "A three-volume work published from 1892 to 1899."
+  - title: "Analysis Situs"
+    original_title: "Analysis Situs"
+    wikipedia: "https://en.wikipedia.org/wiki/Analysis_Situs"
+    year: 1895
+    precision: year
+    type: mathematical_treatise
+  - title: "Nauka i hipoteza"
+    original_title: "La Science et l'Hypothèse"
+    wikipedia: "https://en.wikipedia.org/wiki/Science_and_Hypothesis"
+    year: 1902
+    precision: year
+    type: philosophy
+  - title: "O dynamice elektronu"
+    original_title: "Sur la dynamique de l'électron"
+    year: 1905
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Topologia algebraiczna"
+    original_name: "Algebraic topology"
+    summary: "Poincaré wprowadził systematyczne użycie niezmienników algebraicznych do klasyfikowania przestrzeni topologicznych."
+    summary_original: "Poincaré introduced systematic use of algebraic invariants to classify topological spaces."
+  - name: "Jakościowa teoria układów dynamicznych"
+    original_name: "Qualitative theory of dynamical systems"
+    summary: "Zamiast szukać wyłącznie dokładnych wzorów rozwiązań badał globalne zachowanie trajektorii, stabilność, punkty okresowe i rozmaitości niezmiennicze."
+    summary_original: "Instead of seeking only exact formulas, he studied global trajectory behavior, stability, periodic points and invariant manifolds."
+  - name: "Wrażliwość w problemie trzech ciał"
+    original_name: "Sensitivity in the three-body problem"
+    summary: "Analiza przecięć rozmaitości stabilnych i niestabilnych ujawniła niezwykle złożone zachowania, dziś uznawane za prekursorskie wobec teorii chaosu."
+    summary_original: "Analysis of intersections of stable and unstable manifolds revealed highly complex behavior now regarded as a precursor of chaos theory."
+  - name: "Wkład poprzedzający szczególną teorię względności"
+    original_name: "Pre-relativity contributions"
+    summary: "Poincaré analizował zasadę względności, synchronizację zegarów i transformacje Lorentza. Jego prace były ważnym elementem kontekstu, w którym powstała szczególna teoria względności, choć nie należy utożsamiać ich z pełnym sformułowaniem Einsteina."
+    summary_original: "Poincaré analyzed the relativity principle, clock synchronization and Lorentz transformations. His work formed an important part of the context in which special relativity emerged, though it should not be equated with Einstein's full formulation."
+events:
+  - year: 1887
+    precision: year
+    title: "Konkurs króla Oskara II o problemie trzech ciał"
+    original_title: "King Oscar II competition on the three-body problem"
+    summary: "Poincaré zdobył nagrodę za pracę o stabilności Układu Słonecznego, która doprowadziła do odkrycia złożonych zachowań dynamicznych."
+    summary_original: "Poincaré won the prize for work on Solar System stability that led to discoveries of complex dynamical behavior."
+  - year: 1895
+    precision: year
+    title: "Publikacja Analysis Situs"
+    original_title: "Publication of Analysis Situs"
+    summary: "Praca zapoczątkowała systematyczną topologię algebraiczną."
+    summary_original: "The work launched systematic algebraic topology."
+sources:
+  - title: "MacTutor — Henri Poincaré"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/"
+  - title: "Stanford Encyclopedia of Philosophy — Poincaré"
+    url: "https://plato.stanford.edu/entries/poincare/"
