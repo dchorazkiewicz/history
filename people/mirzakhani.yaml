@@ -1,0 +1,52 @@
+id: mirzakhani
+name: "Maryam Mirzakhani"
+display_name: "Maryam Mirzakhani"
+born:
+  date: "1977-05-12"
+  year: 1977
+  precision: day
+died:
+  date: "2017-07-14"
+  year: 2017
+  precision: day
+place_association: "Teheran; Harvard; Princeton; Stanford"
+fields: [mathematics, hyperbolic_geometry, dynamics, moduli_spaces, teichmuller_theory, symplectic_geometry]
+image: null
+summary: "Irańska matematyczka działająca w Stanach Zjednoczonych, pierwsza kobieta nagrodzona Medalem Fieldsa. Jej prace połączyły geometrię hiperboliczną, dynamikę, topologię i teorię przestrzeni moduli powierzchni Riemanna."
+summary_original: "Iranian mathematician working in the United States and the first woman to receive a Fields Medal. Her work connected hyperbolic geometry, dynamics, topology and the theory of moduli spaces of Riemann surfaces."
+works:
+  - title: "Proste geodezyjne i objętości Weil-Peterssona przestrzeni moduli"
+    original_title: "Simple geodesics and Weil-Petersson volumes of moduli spaces of bordered Riemann surfaces"
+    year: 2007
+    precision: year
+    type: mathematical_essay
+  - title: "Wzrost liczby prostych zamkniętych geodezyjnych na powierzchniach hiperbolicznych"
+    original_title: "Growth of the number of simple closed geodesics on hyperbolic surfaces"
+    year: 2008
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Objętości Weil-Peterssona"
+    original_name: "Weil-Petersson volumes"
+    summary: "Mirzakhani znalazła rekurencyjne wzory na objętości przestrzeni moduli, łącząc geometrię hiperboliczną z teorią przecięć."
+    summary_original: "Mirzakhani found recursive formulas for moduli-space volumes, linking hyperbolic geometry with intersection theory."
+  - name: "Liczenie prostych geodezyjnych"
+    original_name: "Counting simple geodesics"
+    summary: "Uzyskała asymptotyczne prawa opisujące liczbę prostych zamkniętych geodezyjnych o ograniczonej długości."
+    summary_original: "She obtained asymptotic laws for the number of simple closed geodesics of bounded length."
+  - name: "Dynamika przestrzeni moduli"
+    original_name: "Dynamics on moduli spaces"
+    summary: "Wspólnie z Alexem Eskinem badała orbitowe domknięcia i miary niezmiennicze dla działania na przestrzeniach moduli."
+    summary_original: "With Alex Eskin she studied orbit closures and invariant measures for dynamics on moduli spaces."
+events:
+  - year: 2014
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Mirzakhani została pierwszą kobietą w historii wyróżnioną Medalem Fieldsa."
+    summary_original: "Mirzakhani became the first woman in history to receive a Fields Medal."
+sources:
+  - title: "MacTutor — Maryam Mirzakhani"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Mirzakhani/"
+  - title: "International Mathematical Union — Fields Medal 2014"
+    url: "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2014"
