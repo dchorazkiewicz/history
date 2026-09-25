@@ -317,7 +317,7 @@ people:
   - id: dalembert
     name: "Jean le Rond d’Alembert"
     status: pending
-    focus: [mathematics]
+    focus: [mathematics, physics]
 
   - id: lagrange
     name: "Joseph-Louis Lagrange"
@@ -327,7 +327,7 @@ people:
   - id: laplace
     name: "Pierre-Simon Laplace"
     status: pending
-    focus: [mathematics]
+    focus: [mathematics, physics]
 
   - id: monge
     name: "Gaspard Monge"
@@ -347,7 +347,7 @@ people:
   - id: fourier
     name: "Joseph Fourier"
     status: pending
-    focus: [mathematics]
+    focus: [mathematics, physics]
 
   - id: cauchy
     name: "Augustin-Louis Cauchy"
@@ -442,7 +442,7 @@ people:
   - id: minkowski
     name: "Hermann Minkowski"
     status: pending
-    focus: [mathematics]
+    focus: [mathematics, physics]
 
   - id: kovalevskaya
     name: "Sofia Kowalewska"
@@ -1302,58 +1302,3 @@ people:
     name: "Juan Maldacena"
     status: pending
     focus: [physics]
-
-  - id: omar_khayyam
-    name: "Omar Chajjam"
-    status: pending
-    focus: [mathematics]
-
-  - id: fermat
-    name: "Pierre de Fermat"
-    status: pending
-    focus: [mathematics]
-
-  - id: cavalieri
-    name: "Bonaventura Cavalieri"
-    status: pending
-    focus: [mathematics]
-
-  - id: jacob_bernoulli
-    name: "Jacob Bernoulli"
-    status: pending
-    focus: [mathematics]
-
-  - id: dalembert
-    name: "Jean le Rond d’Alembert"
-    status: pending
-    focus: [mathematics, physics]
-
-  - id: laplace
-    name: "Pierre-Simon Laplace"
-    status: pending
-    focus: [mathematics, physics]
-
-  - id: fourier
-    name: "Joseph Fourier"
-    status: pending
-    focus: [mathematics, physics]
-
-  - id: minkowski
-    name: "Hermann Minkowski"
-    status: pending
-    focus: [mathematics, physics]
-
-  - id: noether
-    name: "Emmy Noether"
-    status: pending
-    focus: [mathematics, physics]
-
-  - id: ramanujan
-    name: "Srinivasa Ramanujan"
-    status: pending
-    focus: [mathematics]
-
-  - id: church
-    name: "Alonzo Church"
-    status: pending
-    focus: [mathematics]
