@@ -1,0 +1,56 @@
+id: atiyah
+name: "Michael Atiyah"
+display_name: "Michael Atiyah"
+born:
+  date: "1929-04-22"
+  year: 1929
+  precision: day
+died:
+  date: "2019-01-11"
+  year: 2019
+  precision: day
+place_association: "Londyn; Cambridge; Oksford; Princeton; Edynburg"
+fields: [mathematics, topology, geometry, k_theory, differential_geometry, mathematical_physics, gauge_theory, education, scientific_organization]
+image: null
+summary: "Brytyjski matematyk o ogromnym wpływie na topologię, geometrię i fizykę matematyczną. Wspólnie z Isadorem Singerem sformułował twierdzenie indeksowe, a z Hirzebruchem rozwijał K-teorię topologiczną."
+summary_original: "British mathematician of enormous influence on topology, geometry and mathematical physics. With Isadore Singer he formulated the index theorem, while with Hirzebruch he developed topological K-theory."
+works:
+  - title: "K-teoria"
+    original_title: "K-Theory"
+    year: 1967
+    precision: year
+    type: mathematical_treatise
+  - title: "Geometria pól Yang-Millsa"
+    original_title: "The Geometry of Yang-Mills Fields"
+    year: 1979
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Twierdzenie indeksowe Atiyaha-Singera"
+    original_name: "Atiyah–Singer index theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Atiyah%E2%80%93Singer_index_theorem"
+    summary: "Twierdzenie łączy analityczny indeks operatora różniczkowego z topologicznymi niezmiennikami rozmaitości."
+    summary_original: "The theorem connects the analytic index of a differential operator with topological invariants of a manifold."
+  - name: "K-teoria topologiczna"
+    original_name: "Topological K-theory"
+    wikipedia: "https://en.wikipedia.org/wiki/Topological_K-theory"
+    summary: "K-teoria klasyfikuje wiązki wektorowe i tworzy potężny pomost między topologią, algebrą i geometrią."
+    summary_original: "K-theory classifies vector bundles and creates a powerful bridge between topology, algebra and geometry."
+events:
+  - year: 1966
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Atiyah otrzymał Medal Fieldsa za wkład do topologii i K-teorii."
+    summary_original: "Atiyah received the Fields Medal for contributions to topology and K-theory."
+  - year: 2004
+    precision: year
+    title: "Nagroda Abela"
+    original_title: "Abel Prize"
+    summary: "Wspólnie z Isadorem Singerem otrzymał Nagrodę Abela za twierdzenie indeksowe i jego zastosowania."
+    summary_original: "With Isadore Singer he received the Abel Prize for the index theorem and its applications."
+sources:
+  - title: "MacTutor — Michael Atiyah"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Atiyah/"
+  - title: "Abel Prize — Atiyah and Singer"
+    url: "https://abelprize.no/abel-prize-laureates/2004"
