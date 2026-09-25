@@ -139,22 +139,26 @@ people:
 
   - id: diophantus
     name: "Diofantos"
-    status: pending
+    status: described
+    data_file: "people/diophantus.yaml"
     focus: [mathematics]
 
   - id: pappus
     name: "Pappus z Aleksandrii"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/pappus.yaml"
+    focus: [mathematics, astronomy]
 
   - id: hypatia
     name: "Hypatia"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/hypatia.yaml"
+    focus: [mathematics, astronomy, philosophy]
 
   - id: liu_hui
     name: "Liu Hui"
-    status: pending
+    status: described
+    data_file: "people/liu_hui.yaml"
     focus: [mathematics]
 
   - id: zu_chongzhi
@@ -164,23 +168,27 @@ people:
 
   - id: aryabhata
     name: "Aryabhata"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/aryabhata.yaml"
+    focus: [mathematics, astronomy]
 
   - id: brahmagupta
     name: "Brahmagupta"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/brahmagupta.yaml"
+    focus: [mathematics, astronomy]
 
   - id: bhaskara_i
     name: "Bhaskara I"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/bhaskara_i.yaml"
+    focus: [mathematics, astronomy]
 
   - id: al_khwarizmi
     name: "Al-Chwarizmi"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/al_khwarizmi.yaml"
+    focus: [mathematics, astronomy, geography]
 
   - id: thabit_ibn_qurra
     name: "Thabit ibn Qurra"
