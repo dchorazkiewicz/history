@@ -1,0 +1,57 @@
+id: ibn_al_haytham
+name: "Ibn al-Haytham"
+display_name: "Ibn al-Hajsam (Alhazen)"
+born:
+  year: 965
+  precision: approximate
+  note: "Rok urodzenia jest przybliżony."
+  note_original: "The birth year is approximate."
+died:
+  year: 1040
+  precision: approximate
+  note: "Rok śmierci jest przybliżony."
+  note_original: "The death year is approximate."
+place_association: "Basra; Kair"
+fields: [physics, optics, mathematics, astronomy, geometry, natural_philosophy]
+image: null
+summary: "Arabski uczony, jeden z najważniejszych badaczy optyki średniowiecznej. W Księdze optyki połączył geometrię, obserwację i eksperyment, odrzucił emisyjną teorię widzenia i wyjaśniał widzenie jako rezultat światła docierającego do oka od przedmiotów."
+summary_original: "Arab scholar and one of the most important medieval investigators of optics. In the Book of Optics he combined geometry, observation and experiment, rejected emission theories of vision, and explained sight as light entering the eye from objects."
+works:
+  - title: "Księga optyki"
+    original_title: "Kitab al-Manazir / Book of Optics"
+    wikipedia: "https://en.wikipedia.org/wiki/Book_of_Optics"
+    year: 1021
+    precision: approximate
+    type: scientific_treatise
+    publication_note: "Siedmioksiąg napisany w pierwszej połowie XI wieku; data jest orientacyjna."
+    publication_note_original: "A seven-book work written in the first half of the eleventh century; the date is approximate."
+  - title: "Wątpliwości wobec Ptolemeusza"
+    original_title: "Al-Shukuk ala Batlamyus / Doubts Concerning Ptolemy"
+    year: 1025
+    precision: approximate
+    type: astronomical_treatise
+ideas:
+  - name: "Intromisyjna teoria widzenia"
+    original_name: "Intromission theory of vision"
+    summary: "Ibn al-Hajsam argumentował, że widzimy dlatego, iż światło odbite lub emitowane przez przedmioty dociera do oka, a nie dlatego, że oko wysyła promienie."
+    summary_original: "Ibn al-Haytham argued that vision occurs because light from objects enters the eye, not because the eye emits rays."
+  - name: "Eksperymentalna geometria optyczna"
+    original_name: "Experimental geometrical optics"
+    summary: "Łączył geometryczne modele promieni z kontrolowanymi doświadczeniami nad odbiciem, załamaniem, cieniem i camera obscura."
+    summary_original: "He combined geometric ray models with controlled observations of reflection, refraction, shadows and the camera obscura."
+  - name: "Krytyka modeli astronomicznych Ptolemeusza"
+    original_name: "Critique of Ptolemaic astronomy"
+    summary: "Wskazywał napięcia między matematycznymi konstrukcjami Ptolemeusza a wymaganiem fizycznie spójnego obrazu nieba."
+    summary_original: "He highlighted tensions between Ptolemy's mathematical constructions and the demand for a physically coherent picture of the heavens."
+events:
+  - year: 1010
+    precision: approximate
+    title: "Przeniesienie do Egiptu"
+    original_title: "Move to Egypt"
+    summary: "Ibn al-Hajsam znalazł się w Egipcie, gdzie później powstała znaczna część jego prac optycznych i matematycznych."
+    summary_original: "Ibn al-Haytham moved to Egypt, where much of his later optical and mathematical work was produced."
+sources:
+  - title: "MacTutor — Al-Haytham"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Haytham/"
+  - title: "Encyclopaedia Britannica — Ibn al-Haytham"
+    url: "https://www.britannica.com/biography/Ibn-al-Haytham"
