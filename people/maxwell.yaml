@@ -1,0 +1,77 @@
+id: maxwell
+name: "James Clerk Maxwell"
+display_name: "James Clerk Maxwell"
+born:
+  date: "1831-06-13"
+  year: 1831
+  precision: day
+died:
+  date: "1879-11-05"
+  year: 1879
+  precision: day
+place_association: "Edynburg; Aberdeen; Londyn; Cambridge"
+fields: [physics, mathematics, electromagnetism, optics, thermodynamics, kinetic_theory, statistical_mechanics, color_science]
+image: null
+summary: "Szkocki fizyk i matematyk, twórca klasycznej teorii elektromagnetyzmu. Zunifikował elektryczność, magnetyzm i światło w jednym układzie równań, rozwijał kinetyczną teorię gazów i statystykę cząsteczek oraz prowadził pionierskie badania nad widzeniem barw."
+summary_original: "Scottish physicist and mathematician, creator of classical electromagnetic theory. He unified electricity, magnetism and light in a single system of equations, advanced kinetic gas theory and molecular statistics, and conducted pioneering studies of color vision."
+works:
+  - title: "O liniach sił Faradaya"
+    original_title: "On Faraday's Lines of Force"
+    year: 1856
+    precision: year
+    type: scientific_treatise
+  - title: "O fizycznych liniach sił"
+    original_title: "On Physical Lines of Force"
+    year: 1861
+    precision: year
+    type: scientific_treatise
+    publication_note: "Seria artykułów publikowana w latach 1861–1862."
+    publication_note_original: "A series of papers published in 1861–1862."
+  - title: "Dynamiczna teoria pola elektromagnetycznego"
+    original_title: "A Dynamical Theory of the Electromagnetic Field"
+    wikipedia: "https://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field"
+    year: 1865
+    precision: year
+    type: scientific_treatise
+  - title: "Traktat o elektryczności i magnetyzmie"
+    original_title: "A Treatise on Electricity and Magnetism"
+    year: 1873
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Równania Maxwella"
+    original_name: "Maxwell's equations"
+    wikipedia: "https://en.wikipedia.org/wiki/Maxwell%27s_equations"
+    summary: "Układ równań opisuje pola elektryczne i magnetyczne, ich źródła oraz wzajemne sprzężenie w czasie."
+    summary_original: "The equations describe electric and magnetic fields, their sources and their time-dependent coupling."
+  - name: "Światło jako fala elektromagnetyczna"
+    original_name: "Light as an electromagnetic wave"
+    summary: "Maxwell zauważył, że prędkość fal wynikających z teorii elektromagnetyzmu jest zgodna z prędkością światła, co doprowadziło do identyfikacji światła jako fali elektromagnetycznej."
+    summary_original: "Maxwell noticed that the speed of waves predicted by electromagnetic theory matched the speed of light, leading to the identification of light as an electromagnetic wave."
+  - name: "Rozkład Maxwella prędkości cząsteczek"
+    original_name: "Maxwell distribution"
+    wikipedia: "https://en.wikipedia.org/wiki/Maxwell%E2%80%93Boltzmann_distribution"
+    summary: "Maxwell wprowadził statystyczny opis rozkładu prędkości cząsteczek gazu."
+    summary_original: "Maxwell introduced a statistical description of the distribution of molecular speeds in a gas."
+  - name: "Pierwsza trwała fotografia barwna"
+    original_name: "Early color photography"
+    summary: "W 1861 r. zademonstrował metodę addytywnego składania trzech barw, ilustrując trójchromatyczną teorię widzenia."
+    summary_original: "In 1861 he demonstrated additive color combination from three primaries, illustrating trichromatic color theory."
+events:
+  - year: 1861
+    precision: year
+    title: "Demonstracja fotografii barwnej"
+    original_title: "Color photography demonstration"
+    summary: "Maxwell zaprezentował obraz uzyskany przez projekcję trzech składowych barwnych."
+    summary_original: "Maxwell demonstrated an image formed by projecting three color components."
+  - year: 1871
+    precision: year
+    title: "Pierwszy profesor fizyki eksperymentalnej w Cambridge"
+    original_title: "First Cavendish Professor of Experimental Physics"
+    summary: "Maxwell objął nową katedrę i nadzorował powstanie Cavendish Laboratory."
+    summary_original: "Maxwell took the new chair and supervised the creation of the Cavendish Laboratory."
+sources:
+  - title: "MacTutor — James Clerk Maxwell"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Maxwell/"
+  - title: "Encyclopaedia Britannica — James Clerk Maxwell"
+    url: "https://www.britannica.com/biography/James-Clerk-Maxwell"
