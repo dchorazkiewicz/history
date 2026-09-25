@@ -1,0 +1,74 @@
+id: hypatia
+name: "Hypatia of Alexandria"
+display_name: "Hypatia z Aleksandrii"
+born:
+  year: 355
+  precision: approximate
+  note: "Rok urodzenia nie jest znany. Współczesne opracowania podają zwykle około 355–370 r."
+  note_original: "Her year of birth is unknown. Modern scholarship commonly places it around 355–370."
+died:
+  year: 415
+  precision: year
+  note: "Zginęła w Aleksandrii w marcu 415 r."
+  note_original: "She was killed in Alexandria in March 415."
+place_association: "Aleksandria, Egipt"
+fields: [mathematics, astronomy, philosophy, education]
+image: null
+summary: "Aleksandryjska matematyczka, astronomka, nauczycielka i filozofka neoplatońska. Kierowała ważnym kręgiem intelektualnym w Aleksandrii, komentowała wcześniejsze dzieła matematyczne i astronomiczne oraz odegrała znaczącą rolę w przekazywaniu późnoantycznej tradycji naukowej."
+summary_original: "Alexandrian mathematician, astronomer, teacher and Neoplatonist philosopher. She led an important intellectual circle in Alexandria, commented on earlier mathematical and astronomical works, and played a significant role in transmitting late antique scientific traditions."
+works:
+  - title: "Komentarz do Arytmetyki Diofantosa"
+    original_title: "Commentary on Diophantus's Arithmetica"
+    year: 400
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Dzieło zaginione. Jego istnienie poświadcza Suda; część badaczy wiąże z komentarzem również los zachowanego tekstu Arytmetyki."
+    publication_note_original: "Lost work. Its existence is attested by the Suda; some scholars also connect the commentary with the transmission of the surviving Arithmetica."
+  - title: "Komentarz do Stożkowych Apoloniusza"
+    original_title: "Commentary on Apollonius's Conics"
+    year: 400
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Dzieło zaginione, znane z późniejszych świadectw."
+    publication_note_original: "Lost work known from later testimony."
+  - title: "Redakcja / komentarz astronomiczny związany z Almagestem"
+    original_title: "Revision or astronomical commentary associated with the Almagest"
+    year: 400
+    precision: approximate
+    type: astronomical_treatise
+    publication_note: "Zachowane świadectwa wskazują na współpracę z ojcem, Teonem, przy części jego komentarza do Almagestu; zakres wkładu Hypatii jest dyskutowany."
+    publication_note_original: "Surviving evidence points to collaboration with her father Theon on part of his commentary on the Almagest; the extent of Hypatia's contribution is debated."
+ideas:
+  - name: "Komentarz i redakcja jako forma pracy matematycznej"
+    original_name: "Commentary and editing as mathematical practice"
+    summary: "Hypatia nie jest znana z jednej nowej teorii nazwanej jej imieniem. Jej znaczenie polegało m.in. na wyjaśnianiu, redagowaniu i przekazywaniu trudnych tekstów matematycznych i astronomicznych."
+    summary_original: "Hypatia is not known for a single new theory bearing her name. Her significance lay in explaining, editing and transmitting difficult mathematical and astronomical texts."
+  - name: "Neoplatonizm"
+    original_name: "Neoplatonism"
+    wikipedia: "https://en.wikipedia.org/wiki/Neoplatonism"
+    summary: "Hypatia była publiczną nauczycielką filozofii neoplatońskiej. Jej krąg uczniów łączył studia filozoficzne z matematyką i astronomią."
+    summary_original: "Hypatia was a public teacher of Neoplatonist philosophy. Her circle combined philosophical study with mathematics and astronomy."
+  - name: "Instrumenty astronomiczne i pomiarowe"
+    original_name: "Astronomical and measuring instruments"
+    summary: "Listy Synesiosa z Cyreny pokazują, że zwracał się do Hypatii po radę w sprawach astrolabium i hydroskopu, co wskazuje na jej praktyczną wiedzę matematyczno-techniczną."
+    summary_original: "Letters from Synesius of Cyrene show him seeking Hypatia's advice on an astrolabe and a hydroscope, indicating practical mathematical and technical expertise."
+events:
+  - year: 400
+    precision: approximate
+    title: "Kierowanie szkołą filozoficzną w Aleksandrii"
+    original_title: "Leadership of a philosophical school in Alexandria"
+    summary: "Na początku V wieku Hypatia należała do najbardziej znanych nauczycieli filozofii, matematyki i astronomii w Aleksandrii."
+    summary_original: "By the early fifth century Hypatia was among Alexandria's best-known teachers of philosophy, mathematics and astronomy."
+  - year: 415
+    precision: year
+    title: "Śmierć Hypatii"
+    original_title: "Death of Hypatia"
+    summary: "W marcu 415 r. Hypatia została zabita przez chrześcijański tłum w Aleksandrii podczas ostrego konfliktu politycznego i religijnego w mieście."
+    summary_original: "In March 415 Hypatia was killed by a Christian mob in Alexandria amid intense political and religious conflict in the city."
+sources:
+  - title: "MacTutor — Hypatia"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Hypatia/"
+  - title: "Stanford Encyclopedia of Philosophy — contextual reference to Hypatia"
+    url: "https://plato.stanford.edu/entries/syrianus/"
+  - title: "Wikipedia — Hypatia"
+    url: "https://en.wikipedia.org/wiki/Hypatia"
