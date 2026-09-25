@@ -1,0 +1,60 @@
+id: church
+name: "Alonzo Church"
+display_name: "Alonzo Church"
+born:
+  date: "1903-06-14"
+  year: 1903
+  precision: day
+died:
+  date: "1995-08-11"
+  year: 1995
+  precision: day
+place_association: "Waszyngton; Princeton; Los Angeles"
+fields: [mathematics, logic, foundations_of_mathematics, lambda_calculus, theoretical_computer_science, philosophy_of_logic, education]
+image: null
+summary: "Amerykański matematyk i logik, twórca rachunku lambda i jeden z ojców teorii obliczalności. Niezależnie od Turinga wykazał nierozstrzygalność ogólnego problemu decyzyjnego i współtworzył pojęcie funkcji efektywnie obliczalnej."
+summary_original: "American mathematician and logician, creator of lambda calculus and one of the fathers of computability theory. Independently of Turing he established the undecidability of the general decision problem and helped shape the concept of effective computability."
+works:
+  - title: "Nierozwiązywalny problem elementarnej teorii liczb"
+    original_title: "An Unsolvable Problem of Elementary Number Theory"
+    year: 1936
+    precision: year
+    type: mathematical_essay
+  - title: "Rachunki konwersji lambda"
+    original_title: "The Calculi of Lambda-Conversion"
+    year: 1941
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Rachunek lambda"
+    original_name: "Lambda calculus"
+    wikipedia: "https://en.wikipedia.org/wiki/Lambda_calculus"
+    summary: "Formalizm opisujący funkcje, podstawianie i obliczenia stał się jednym z głównych modeli obliczalności i podstawą języków funkcyjnych."
+    summary_original: "A formalism for functions, substitution and computation became a major model of computability and a foundation of functional programming."
+  - name: "Twierdzenie Churcha"
+    original_name: "Church's theorem"
+    summary: "Church wykazał, że ogólny Entscheidungsproblem logiki pierwszego rzędu jest nierozstrzygalny."
+    summary_original: "Church proved that the general Entscheidungsproblem for first-order logic is undecidable."
+  - name: "Teza Churcha-Turinga"
+    original_name: "Church–Turing thesis"
+    wikipedia: "https://en.wikipedia.org/wiki/Church%E2%80%93Turing_thesis"
+    summary: "Różne formalizmy obliczalności Churcha i Turinga okazały się równoważne i doprowadziły do tezy, że opisują intuicyjne pojęcie efektywnego algorytmu."
+    summary_original: "Church's and Turing's different formalisms proved equivalent, leading to the thesis that they capture the intuitive notion of effective algorithm."
+events:
+  - year: 1936
+    precision: year
+    title: "Publikacja wyników o nierozstrzygalności"
+    original_title: "Publication of undecidability results"
+    summary: "Church opublikował własne rozwiązanie Entscheidungsproblemu w tym samym okresie, w którym Turing rozwijał model maszyny Turinga."
+    summary_original: "Church published his solution to the Entscheidungsproblem in the same period that Turing developed the Turing-machine model."
+  - year: 1936
+    precision: approximate
+    title: "Alan Turing rozpoczyna doktorat pod kierunkiem Churcha"
+    original_title: "Alan Turing begins doctoral work under Church"
+    summary: "Turing studiował w Princeton i w 1938 r. uzyskał doktorat pod kierunkiem Churcha."
+    summary_original: "Turing studied at Princeton and earned his doctorate under Church in 1938."
+sources:
+  - title: "MacTutor — Alonzo Church"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Church/"
+  - title: "Stanford Encyclopedia of Philosophy — Church's Type Theory"
+    url: "https://plato.stanford.edu/entries/type-theory-church/"
