@@ -703,78 +703,93 @@ people:
 
   - id: andre_weil
     name: "André Weil"
-    status: pending
+    status: described
+    data_file: "people/andre_weil.yaml"
     focus: [mathematics]
 
   - id: laurent_schwartz
     name: "Laurent Schwartz"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/laurent_schwartz.yaml"
+    focus: [mathematics, physics]
 
   - id: erdos
     name: "Paul Erdős"
-    status: pending
+    status: described
+    data_file: "people/erdos.yaml"
     focus: [mathematics]
 
   - id: gelfand
     name: "Israel Gelfand"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/gelfand.yaml"
+    focus: [mathematics, physics, biology]
 
   - id: pontryagin
     name: "Lew Pontriagin"
-    status: pending
+    status: described
+    data_file: "people/pontryagin.yaml"
     focus: [mathematics]
 
   - id: chern
     name: "Shiing-Shen Chern"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/chern.yaml"
+    focus: [mathematics, physics]
 
   - id: nash
     name: "John Nash"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/nash.yaml"
+    focus: [mathematics, economics]
 
   - id: serre
     name: "Jean-Pierre Serre"
-    status: pending
+    status: described
+    data_file: "people/serre.yaml"
     focus: [mathematics]
 
   - id: grothendieck
     name: "Alexander Grothendieck"
-    status: pending
+    status: described
+    data_file: "people/grothendieck.yaml"
     focus: [mathematics]
 
   - id: smale
     name: "Stephen Smale"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/smale.yaml"
+    focus: [mathematics, economics]
 
   - id: atiyah
     name: "Michael Atiyah"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/atiyah.yaml"
+    focus: [mathematics, physics]
 
   - id: milnor
     name: "John Milnor"
-    status: pending
+    status: described
+    data_file: "people/milnor.yaml"
     focus: [mathematics]
 
   - id: bott
     name: "Raoul Bott"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/bott.yaml"
+    focus: [mathematics, physics]
 
   - id: hirzebruch
     name: "Friedrich Hirzebruch"
-    status: pending
+    status: described
+    data_file: "people/hirzebruch.yaml"
     focus: [mathematics]
 
   - id: arnold
     name: "Władimir Arnold"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/arnold.yaml"
+    focus: [mathematics, physics]
 
   - id: paul_cohen
     name: "Paul Cohen"
