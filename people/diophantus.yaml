@@ -1,0 +1,68 @@
+id: diophantus
+name: "Diophantus of Alexandria"
+display_name: "Diofantos"
+born:
+  year: 200
+  precision: approximate
+  note: "Datowanie bardzo niepewne. Współczesne rekonstrukcje często umieszczają Diofantosa około III wieku n.e., ale możliwe są także wcześniejsze daty."
+  note_original: "Dating is highly uncertain. Modern reconstructions often place Diophantus around the third century CE, but earlier dates remain possible."
+died:
+  year: 284
+  precision: approximate
+  note: "Data orientacyjna wynikająca z tradycyjnej rekonstrukcji jego życia; nie mamy wiarygodnej biografii."
+  note_original: "Approximate date based on a traditional reconstruction of his life; no reliable biography survives."
+place_association: "Aleksandria, Egipt"
+fields: [mathematics, algebra, number_theory]
+image: null
+summary: "Grecki matematyk działający w Aleksandrii, autor Arytmetyki. Jego problemy dotyczące równań i racjonalnych rozwiązań wywarły ogromny wpływ na późniejszą algebrę i teorię liczb, zwłaszcza po ponownym odkryciu dzieła w Europie nowożytnej."
+summary_original: "Greek mathematician active in Alexandria and author of the Arithmetica. His problems on equations and rational solutions had a major influence on later algebra and number theory, especially after the work was rediscovered in early modern Europe."
+works:
+  - title: "Arytmetyka"
+    original_title: "Arithmetica"
+    wikipedia: "https://en.wikipedia.org/wiki/Arithmetica"
+    year: 250
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Zbiór około 130 problemów dotyczących równań i teorii liczb. Oryginał miał prawdopodobnie 13 ksiąg; część zachowała się po grecku, a część w tradycji arabskiej."
+    publication_note_original: "A collection of about 130 problems on equations and number theory. The original probably had 13 books; part survives in Greek and part through the Arabic tradition."
+  - title: "O liczbach wielokątnych"
+    original_title: "On Polygonal Numbers"
+    year: 250
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Zachowane są tylko fragmenty."
+    publication_note_original: "Only fragments survive."
+ideas:
+  - name: "Analiza diofantyczna"
+    original_name: "Diophantine analysis"
+    wikipedia: "https://en.wikipedia.org/wiki/Diophantine_equation"
+    summary: "Diofantos systematycznie rozwiązywał problemy, które dziś zapisujemy jako równania z całkowitymi lub wymiernymi współczynnikami i poszukujemy dla nich rozwiązań liczbowych."
+    summary_original: "Diophantus systematically solved problems now expressed as equations with integer or rational coefficients, seeking numerical solutions."
+  - name: "Algebra skrótowa"
+    original_name: "Syncopated algebra"
+    summary: "W Arytmetyce stosował skróty i symbole dla niewiadomej oraz jej potęg. Nie była to jeszcze algebra symboliczna w nowoczesnym sensie, ale był to ważny etap między algebrą retoryczną a symboliczną."
+    summary_original: "In the Arithmetica he used abbreviations and symbols for the unknown and its powers. This was not modern symbolic algebra, but it was an important stage between rhetorical and symbolic algebra."
+  - name: "Racjonalne rozwiązania problemów liczbowych"
+    original_name: "Rational solutions to numerical problems"
+    summary: "W wielu problemach Diofantos dopuszczał dodatnie rozwiązania wymierne, co odróżnia jego podejście od części wcześniejszej tradycji arytmetycznej."
+    summary_original: "In many problems Diophantus admitted positive rational solutions, distinguishing his approach from parts of earlier arithmetic traditions."
+events:
+  - year: 250
+    precision: approximate
+    title: "Powstanie Arytmetyki"
+    original_title: "Composition of the Arithmetica"
+    summary: "Około III wieku n.e. powstało dzieło, które wiele stuleci później stało się jednym ze źródeł nowożytnej teorii liczb."
+    summary_original: "Around the third century CE the work was composed that many centuries later became a major source for early modern number theory."
+  - year: 1621
+    precision: year
+    title: "Łacińskie wydanie Bacheta"
+    original_title: "Bachet's Latin edition"
+    summary: "Wydanie Claude’a-Gasparda Bacheta z łacińskim przekładem Arytmetyki trafiło m.in. do Pierre’a de Fermata i odegrało ważną rolę w rozwoju nowożytnej teorii liczb."
+    summary_original: "Claude-Gaspard Bachet's Latin edition of the Arithmetica reached, among others, Pierre de Fermat and played an important role in the development of early modern number theory."
+sources:
+  - title: "MacTutor — Diophantus"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Diophantus/"
+  - title: "MacTutor — history of Diophantus and Fermat"
+    url: "https://mathshistory.st-andrews.ac.uk/Extras/Weil_history/"
+  - title: "Wikipedia — Diophantus"
+    url: "https://en.wikipedia.org/wiki/Diophantus"
