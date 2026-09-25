@@ -51,7 +51,11 @@
     return Math.round(y) + ' n.e.';
   };
 
-  const fmtLife = p => `${fmtYear(p.born.year)} – ${fmtYear(p.died.year)}`;
+  const currentYear = new Date().getFullYear();
+  const lifeEndYear = p => Number(p?.died?.year ?? currentYear);
+  const fmtLife = p => p.died?.year
+    ? `${fmtYear(p.born.year)} – ${fmtYear(p.died.year)}`
+    : `${fmtYear(p.born.year)} – żyje`;
 
   const fieldLabels = {
     philosophy: 'filozofia',
@@ -261,14 +265,14 @@
     ]);
     people = loadedPeople;
     periods = loadedPeriods;
-    people = people.filter(p => p && p.id && p.born && p.died);
+    people = people.filter(p => p && p.id && p.born);
     people.sort((a,b) => a.born.year - b.born.year);
     els.peopleCount.textContent = `${people.length} osób`;
     const periodStarts = periods.map(p => Number(p.start_year)).filter(Number.isFinite);
     const periodEnds = periods.map(p => Number(p.end_year)).filter(Number.isFinite);
     baseDomain = [
       Math.min(...people.map(p => p.born.year), ...periodStarts) - 40,
-      Math.max(...people.map(p => p.died.year), ...periodEnds) + 20
+      Math.max(...people.map(lifeEndYear), ...periodEnds, currentYear) + 20
     ];
     currentDomain = [...baseDomain];
 
@@ -314,7 +318,7 @@
     selected.add(id);
     renderPeopleSelector();
 
-    if (person.born.year < currentDomain[0] || person.died.year > currentDomain[1]) {
+    if (person.born.year < currentDomain[0] || lifeEndYear(person) > currentDomain[1]) {
       expandDomainToInclude(person, true);
     } else {
       render();
@@ -446,7 +450,7 @@
 
   function expandDomainToInclude(person, animate = true) {
     const min = Math.min(currentDomain[0], person.born.year);
-    const max = Math.max(currentDomain[1], person.died.year);
+    const max = Math.max(currentDomain[1], lifeEndYear(person));
     const span = Math.max(30, max-min);
     const pad = Math.max(10, span*.055);
     setDomain([min-pad, max+pad], animate, 620);
@@ -459,7 +463,7 @@
       target = [...baseDomain];
     } else {
       const min = Math.min(...chosen.map(p => p.born.year));
-      const max = Math.max(...chosen.map(p => p.died.year));
+      const max = Math.max(...chosen.map(lifeEndYear));
       const span = Math.max(30, max - min);
       const pad = Math.max(12, span * .08);
       target = [min - pad, max + pad];
@@ -822,14 +826,17 @@
     merged.select('.life-bar')
       .attr('x', d => x(d.born.year))
       .attr('y', 8)
-      .attr('width', d => Math.max(3, x(d.died.year)-x(d.born.year)))
+      .attr('width', d => Math.max(3, x(lifeEndYear(d))-x(d.born.year)))
       .attr('height', 34)
       .on('mousemove', (e,d) => showTooltip(e, d.display_name, `${fmtLife(d)}<br>${d.summary || ''}`))
       .on('mouseleave', hideTooltip)
       .on('click', (e,d) => openPerson(d));
 
     merged.select('.start').attr('cx',d => x(d.born.year)).attr('cy',25);
-    merged.select('.end').attr('cx',d => x(d.died.year)).attr('cy',25);
+    merged.select('.end')
+      .attr('cx',d => x(lifeEndYear(d)))
+      .attr('cy',25)
+      .classed('living', d => !d.died?.year);
 
     merged.each(function(p) {
       const items = [
