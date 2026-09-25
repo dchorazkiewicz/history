@@ -1,0 +1,43 @@
+id: venkatesh
+name: "Akshay Venkatesh"
+display_name: "Akshay Venkatesh"
+born:
+  year: 1981
+  precision: year
+died: null
+place_association: "Delhi; Perth; Stanford; Princeton"
+fields: [mathematics, number_theory, automorphic_forms, representation_theory, homogeneous_dynamics, topology, arithmetic_geometry]
+image: null
+summary: "Indyjsko-australijski matematyk, którego prace łączą analityczną teorię liczb, dynamikę jednorodną, topologię, teorię reprezentacji i formy automorficzne. Znany jest z syntezy metod z odległych dziedzin przy rozwiązywaniu problemów arytmetycznych."
+summary_original: "Indian-Australian mathematician whose work connects analytic number theory, homogeneous dynamics, topology, representation theory and automorphic forms. He is known for synthesizing methods from distant areas to solve arithmetic problems."
+works:
+  - title: "Rzadkie problemy ekwipartycji, oszacowania okresów i subwypukłość"
+    original_title: "Sparse equidistribution problems, period bounds and subconvexity"
+    year: 2010
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Ekwipartycja obiektów arytmetycznych"
+    original_name: "Equidistribution of arithmetic objects"
+    summary: "Venkatesh wykorzystuje dynamikę na przestrzeniach jednorodnych do badania rozkładu obiektów liczbowych i automorficznych."
+    summary_original: "Venkatesh uses dynamics on homogeneous spaces to study the distribution of arithmetic and automorphic objects."
+  - name: "Subwypukłość L-funkcji"
+    original_name: "Subconvexity for L-functions"
+    summary: "Rozwija metody uzyskiwania silnych oszacowań L-funkcji, wiążące analizę harmoniczną z teorią liczb."
+    summary_original: "He develops strong bounds for L-functions linking harmonic analysis with number theory."
+  - name: "Połączenie topologii i arytmetyki"
+    original_name: "Topology and arithmetic"
+    summary: "W późniejszych pracach bada głębokie związki między kohomologią grup arytmetycznych, operatorami Hecke i teorią reprezentacji."
+    summary_original: "In later work he studies deep links among cohomology of arithmetic groups, Hecke operators and representation theory."
+events:
+  - year: 2018
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Venkatesh otrzymał Medal Fieldsa za syntezę analitycznej teorii liczb, dynamiki jednorodnej, topologii i teorii reprezentacji."
+    summary_original: "Venkatesh received the Fields Medal for synthesizing analytic number theory, homogeneous dynamics, topology and representation theory."
+sources:
+  - title: "International Mathematical Union — Fields Medal 2018"
+    url: "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2018"
+  - title: "Wikipedia — Akshay Venkatesh"
+    url: "https://en.wikipedia.org/wiki/Akshay_Venkatesh"
