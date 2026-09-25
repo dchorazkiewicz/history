@@ -1,0 +1,65 @@
+id: landau
+name: "Lev Davidovich Landau"
+display_name: "Lew Landau"
+born:
+  date: "1908-01-22"
+  year: 1908
+  precision: day
+died:
+  date: "1968-04-01"
+  year: 1968
+  precision: day
+place_association: "Baku; Charków; Moskwa"
+fields: [physics, theoretical_physics, condensed_matter_physics, superfluidity, quantum_mechanics, plasma_physics, statistical_mechanics, particle_physics]
+image: null
+summary: "Radziecki fizyk teoretyczny o niezwykle szerokim dorobku. Stworzył teorię nadciekłości helu II, rozwijał teorię przejść fazowych, diamagnetyzm kwantowy, fizykę plazmy i teorię cieczy Fermiego."
+summary_original: "Soviet theoretical physicist of exceptionally broad scope. He created the theory of helium-II superfluidity and advanced phase transitions, quantum diamagnetism, plasma physics and Fermi-liquid theory."
+works:
+  - title: "Teoria nadciekłości helu II"
+    original_title: "The Theory of Superfluidity of Helium II"
+    year: 1941
+    precision: year
+    type: scientific_treatise
+  - title: "Kurs fizyki teoretycznej"
+    original_title: "Course of Theoretical Physics"
+    year: 1940
+    precision: approximate
+    type: scientific_treatise
+    publication_note: "Wielotomowy cykl tworzony wspólnie z Jewgienijem Lifszycem przez wiele dekad."
+    publication_note_original: "A multi-volume series developed with Evgeny Lifshitz over many decades."
+ideas:
+  - name: "Teoria nadciekłości Landaua"
+    original_name: "Landau theory of superfluidity"
+    summary: "Landau opisał nadciekły hel przez widmo kolektywnych wzbudzeń, w tym fononów i rotonów."
+    summary_original: "Landau described superfluid helium through a spectrum of collective excitations including phonons and rotons."
+  - name: "Poziomy Landaua"
+    original_name: "Landau levels"
+    wikipedia: "https://en.wikipedia.org/wiki/Landau_quantization"
+    summary: "Ruch naładowanej cząstki w polu magnetycznym prowadzi do dyskretnych poziomów energii."
+    summary_original: "Motion of a charged particle in a magnetic field leads to discrete energy levels."
+  - name: "Teoria przejść fazowych"
+    original_name: "Landau theory of phase transitions"
+    summary: "Landau opisywał przejścia fazowe przez parametr porządku i rozwinięcie energii swobodnej zgodne z symetrią."
+    summary_original: "Landau described phase transitions using an order parameter and symmetry-based expansion of free energy."
+  - name: "Ciecz Fermiego"
+    original_name: "Fermi liquid theory"
+    summary: "Teoria opisuje oddziałujące fermiony przez długowieczne kwazicząstki o zmodyfikowanych własnościach."
+    summary_original: "The theory describes interacting fermions through long-lived quasiparticles with modified properties."
+events:
+  - year: 1937
+    precision: year
+    title: "Przeniesienie do Instytutu Kapicy w Moskwie"
+    original_title: "Move to Kapitza's institute in Moscow"
+    summary: "Landau rozpoczął okres badań, który doprowadził do teorii nadciekłości."
+    summary_original: "Landau began the research period that led to his theory of superfluidity."
+  - year: 1962
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Nagrodzono go za pionierskie teorie materii skondensowanej, szczególnie ciekłego helu."
+    summary_original: "He was honored for pioneering theories of condensed matter, especially liquid helium."
+sources:
+  - title: "Nobel Prize — Lev Landau"
+    url: "https://www.nobelprize.org/prizes/physics/1962/landau/facts/"
+  - title: "Encyclopaedia Britannica — Lev Landau"
+    url: "https://www.britannica.com/biography/Lev-Davidovich-Landau"
