@@ -2,8 +2,9 @@ schema_version: 1
 category: mathematics
 label: "Matematycy — kanon historyczny"
 selection_policy: "Selektywny kanon osób istotnych dla historii matematyki; XX i XXI wiek filtrowane szczególnie mocno."
-count: 141
+count: 142
 members:
+  - galileo
   - archimedes
   - ptolemy
   - copernicus
