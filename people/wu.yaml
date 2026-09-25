@@ -1,0 +1,44 @@
+id: wu
+name: "Chien-Shiung Wu"
+display_name: "Chien-Shiung Wu"
+born:
+  date: "1912-05-31"
+  year: 1912
+  precision: day
+died:
+  date: "1997-02-16"
+  year: 1997
+  precision: day
+place_association: "Liuhe; Berkeley; Columbia University"
+fields: [physics, nuclear_physics, particle_physics, experimental_science, beta_decay]
+image: null
+summary: "Chińsko-amerykańska fizyczka eksperymentalna, której doświadczenie z kobaltem-60 wykazało łamanie parzystości w oddziaływaniach słabych. Była jedną z najwybitniejszych eksperymentatorek fizyki jądrowej XX wieku."
+summary_original: "Chinese-American experimental physicist whose cobalt-60 experiment demonstrated parity violation in weak interactions. She was one of the twentieth century's leading nuclear experimentalists."
+works:
+  - title: "Eksperymentalny test zachowania parzystości w rozpadzie beta"
+    original_title: "Experimental Test of Parity Conservation in Beta Decay"
+    year: 1957
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Eksperyment Wu"
+    original_name: "Wu experiment"
+    wikipedia: "https://en.wikipedia.org/wiki/Wu_experiment"
+    summary: "Spolaryzowane jądra kobaltu-60 emitowały elektrony asymetrycznie względem kierunku spinu, pokazując naruszenie symetrii lustrzanej."
+    summary_original: "Polarized cobalt-60 nuclei emitted electrons asymmetrically relative to spin direction, demonstrating mirror-symmetry violation."
+  - name: "Precyzyjna fizyka rozpadu beta"
+    original_name: "Precision beta-decay physics"
+    summary: "Wu rozwijała eksperymentalne testy struktury słabych oddziaływań i zachowania praw zachowania."
+    summary_original: "Wu developed precision experimental tests of weak-interaction structure and conservation laws."
+events:
+  - year: 1957
+    precision: year
+    title: "Eksperymentalne potwierdzenie łamania parzystości"
+    original_title: "Experimental confirmation of parity violation"
+    summary: "Wynik potwierdził przewidywanie Yanga i Lee."
+    summary_original: "The result confirmed Yang and Lee's prediction."
+sources:
+  - title: "Columbia University — Chien-Shiung Wu"
+    url: "https://www.columbia.edu/cu/physics/about/main/one/wu.html"
+  - title: "Encyclopaedia Britannica — Chien-Shiung Wu"
+    url: "https://www.britannica.com/biography/Chien-Shiung-Wu"
