@@ -1,0 +1,64 @@
+id: grothendieck
+name: "Alexander Grothendieck"
+display_name: "Alexander Grothendieck"
+born:
+  date: "1928-03-28"
+  year: 1928
+  precision: day
+died:
+  date: "2014-11-13"
+  year: 2014
+  precision: day
+place_association: "Berlin; Montpellier; Nancy; Paryż; Bures-sur-Yvette"
+fields: [mathematics, algebraic_geometry, category_theory, sheaf_theory, homological_algebra, functional_analysis, foundations_of_mathematics]
+image: null
+summary: "Francuski matematyk pochodzenia niemieckiego, który radykalnie przebudował geometrię algebraiczną. Wprowadził język schematów, rozwijał teorię kategorii, toposów i kohomologii, a jego program ukształtował ogromną część matematyki drugiej połowy XX wieku."
+summary_original: "French mathematician of German origin who radically rebuilt algebraic geometry. He introduced the language of schemes, developed categories, topoi and cohomology, and his program shaped a vast part of second-half twentieth-century mathematics."
+works:
+  - title: "O niektórych punktach algebry homologicznej"
+    original_title: "Sur quelques points d'algèbre homologique"
+    year: 1957
+    precision: year
+    type: mathematical_essay
+    publication_note: "Słynny artykuł znany jako Tôhoku paper."
+    publication_note_original: "The famous paper known as the Tôhoku paper."
+  - title: "Elementy geometrii algebraicznej"
+    original_title: "Éléments de géométrie algébrique"
+    year: 1960
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Monumentalna seria pisana z Jeanem Dieudonném i publikowana w latach 1960–1967."
+    publication_note_original: "A monumental series written with Jean Dieudonné and published from 1960 to 1967."
+ideas:
+  - name: "Schematy"
+    original_name: "Schemes"
+    wikipedia: "https://en.wikipedia.org/wiki/Scheme_(mathematics)"
+    summary: "Grothendieck uogólnił pojęcie rozmaitości algebraicznej tak, aby geometria mogła działać nad bardzo ogólnymi pierścieniami."
+    summary_original: "Grothendieck generalized algebraic varieties so geometry could be developed over very general rings."
+  - name: "Toposy"
+    original_name: "Topos theory"
+    wikipedia: "https://en.wikipedia.org/wiki/Topos"
+    summary: "Topos miał uogólniać pojęcie przestrzeni i jednocześnie stanowić środowisko dla logiki oraz teorii snopów."
+    summary_original: "A topos generalized the notion of space while also serving as a setting for logic and sheaf theory."
+  - name: "Motywy"
+    original_name: "Motives"
+    summary: "Grothendieck zaproponował ideę wspólnego, głębszego obiektu stojącego za różnymi teoriami kohomologii geometrii algebraicznej."
+    summary_original: "Grothendieck proposed a common deeper object underlying different cohomology theories in algebraic geometry."
+events:
+  - year: 1958
+    precision: year
+    title: "Rozpoczęcie pracy w IHÉS"
+    original_title: "Beginning work at IHÉS"
+    summary: "W IHÉS powstała większość jego najważniejszych prac i seminariów geometrii algebraicznej."
+    summary_original: "Most of his major work and seminars in algebraic geometry were produced at IHÉS."
+  - year: 1966
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Otrzymał Medal Fieldsa za fundamentalny wkład do geometrii algebraicznej."
+    summary_original: "He received the Fields Medal for fundamental contributions to algebraic geometry."
+sources:
+  - title: "MacTutor — Alexander Grothendieck"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Grothendieck/"
+  - title: "Wikipedia — Alexander Grothendieck"
+    url: "https://en.wikipedia.org/wiki/Alexander_Grothendieck"
