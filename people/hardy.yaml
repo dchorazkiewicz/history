@@ -1,0 +1,68 @@
+id: hardy
+name: "Godfrey Harold Hardy"
+display_name: "G. H. Hardy"
+born:
+  date: "1877-02-07"
+  year: 1877
+  precision: day
+died:
+  date: "1947-12-01"
+  year: 1947
+  precision: day
+place_association: "Cranleigh; Cambridge; Oksford"
+fields: [mathematics, number_theory, analysis, education, philosophy_of_mathematics]
+image: null
+summary: "Brytyjski matematyk, jeden z głównych twórców nowoczesnej analitycznej teorii liczb. Wspólnie z Littlewoodem rozwinął metodę kołową i teorię aproksymacji diofantycznych, a jego współpraca z Ramanujanem należy do najsłynniejszych partnerstw w historii matematyki."
+summary_original: "British mathematician and a major creator of modern analytic number theory. With Littlewood he developed the circle method and Diophantine approximation, while his collaboration with Ramanujan became one of the most famous partnerships in mathematical history."
+works:
+  - title: "Kurs czystej matematyki"
+    original_title: "A Course of Pure Mathematics"
+    year: 1908
+    precision: year
+    type: mathematical_treatise
+  - title: "Wprowadzenie do teorii liczb"
+    original_title: "An Introduction to the Theory of Numbers"
+    year: 1938
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Napisane wspólnie z E. M. Wrightem."
+    publication_note_original: "Written with E. M. Wright."
+  - title: "Apologia matematyka"
+    original_title: "A Mathematician's Apology"
+    wikipedia: "https://en.wikipedia.org/wiki/A_Mathematician%27s_Apology"
+    year: 1940
+    precision: year
+    type: philosophy
+ideas:
+  - name: "Metoda Hardy’ego-Littlewooda"
+    original_name: "Hardy–Littlewood circle method"
+    wikipedia: "https://en.wikipedia.org/wiki/Hardy%E2%80%93Littlewood_circle_method"
+    summary: "Metoda używa analizy zespolonej i szeregów wykładniczych do badania problemów addytywnej teorii liczb."
+    summary_original: "The method uses complex analysis and exponential sums to study additive number-theory problems."
+  - name: "Prawo Hardy’ego-Weinberga"
+    original_name: "Hardy–Weinberg principle"
+    wikipedia: "https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle"
+    summary: "Hardy niezależnie podał prosty model stabilności częstości alleli w idealizowanej populacji, pokazując zastosowanie rachunku algebraicznego w genetyce populacyjnej."
+    summary_original: "Hardy independently gave a simple model for stable allele frequencies in an idealized population, showing an application of algebraic reasoning to population genetics."
+  - name: "Czysta matematyka jako wartość intelektualna"
+    original_name: "Pure mathematics as intellectual value"
+    summary: "W Apologii matematyka bronił matematyki czystej jako działalności twórczej i estetycznej, pozostawiając jeden z najbardziej wpływowych tekstów o kulturze matematycznej."
+    summary_original: "In A Mathematician's Apology he defended pure mathematics as a creative and aesthetic activity, leaving one of the most influential texts on mathematical culture."
+events:
+  - year: 1913
+    precision: year
+    title: "List od Ramanujana"
+    original_title: "Letter from Ramanujan"
+    summary: "Hardy otrzymał niezwykły list z Indii zawierający wyniki Ramanujana i szybko rozpoznał jego wyjątkowy talent."
+    summary_original: "Hardy received an extraordinary letter from India containing Ramanujan's results and quickly recognized his exceptional talent."
+  - year: 1919
+    precision: year
+    title: "Savilian Professor of Geometry w Oksfordzie"
+    original_title: "Savilian Professor of Geometry at Oxford"
+    summary: "Hardy przeniósł się z Cambridge do Oksfordu, wracając do Cambridge w 1931 r."
+    summary_original: "Hardy moved from Cambridge to Oxford and returned to Cambridge in 1931."
+sources:
+  - title: "MacTutor — G. H. Hardy"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Hardy/"
+  - title: "Wikipedia — G. H. Hardy"
+    url: "https://en.wikipedia.org/wiki/G._H._Hardy"
