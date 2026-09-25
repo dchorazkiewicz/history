@@ -1,0 +1,50 @@
+id: yukawa
+name: "Hideki Yukawa"
+display_name: "Hideki Yukawa"
+born:
+  date: "1907-01-23"
+  year: 1907
+  precision: day
+died:
+  date: "1981-09-08"
+  year: 1981
+  precision: day
+place_association: "Tokio; Kioto"
+fields: [physics, particle_physics, nuclear_physics, quantum_field_theory, theoretical_physics]
+image: null
+summary: "Japoński fizyk teoretyczny, który zaproponował istnienie mezonu jako nośnika krótkiego zasięgu siły jądrowej. Jego teoria była jednym z pierwszych wielkich sukcesów kwantowej teorii pola w fizyce jądrowej."
+summary_original: "Japanese theoretical physicist who proposed a meson as the carrier of the short-range nuclear force. His theory was among the first major successes of quantum field theory in nuclear physics."
+works:
+  - title: "O oddziaływaniu cząstek elementarnych I"
+    original_title: "On the Interaction of Elementary Particles I"
+    year: 1935
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Potencjał Yukawy"
+    original_name: "Yukawa potential"
+    wikipedia: "https://en.wikipedia.org/wiki/Yukawa_potential"
+    summary: "Krótkozasięgowe oddziaływanie jądrowe opisane jest potencjałem malejącym wykładniczo z odległością."
+    summary_original: "A short-range nuclear interaction is described by a potential falling exponentially with distance."
+  - name: "Mezon jako nośnik siły jądrowej"
+    original_name: "Meson as nuclear-force carrier"
+    summary: "Yukawa przewidział cząstkę pośrednią o masie między elektronem a protonem odpowiedzialną za wiązanie nukleonów."
+    summary_original: "Yukawa predicted an intermediate-mass particle responsible for binding nucleons."
+events:
+  - year: 1935
+    precision: year
+    title: "Hipoteza mezonu"
+    original_title: "Meson hypothesis"
+    summary: "Yukawa opublikował teorię krótkiego zasięgu oddziaływań jądrowych."
+    summary_original: "Yukawa published a theory of short-range nuclear interactions."
+  - year: 1949
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Został pierwszym japońskim laureatem Nagrody Nobla."
+    summary_original: "He became the first Japanese Nobel laureate."
+sources:
+  - title: "Nobel Prize — Hideki Yukawa"
+    url: "https://www.nobelprize.org/prizes/physics/1949/yukawa/facts/"
+  - title: "Encyclopaedia Britannica — Hideki Yukawa"
+    url: "https://www.britannica.com/biography/Yukawa-Hideki"
