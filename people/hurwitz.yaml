@@ -1,0 +1,43 @@
+id: hurwitz
+name: "Adolf Hurwitz"
+display_name: "Adolf Hurwitz"
+born:
+  date: "1859-03-26"
+  year: 1859
+  precision: day
+died:
+  date: "1919-11-18"
+  year: 1919
+  precision: day
+place_association: "Hildesheim; Królewiec; Zurych"
+fields: [mathematics, complex_analysis, algebra, number_theory, algebraic_geometry, topology, education]
+image: null
+summary: "Niemiecki matematyk pracujący nad analizą zespoloną, teorią liczb, geometrią algebraiczną i topologią. Jego nazwisko noszą ważne twierdzenia o funkcjach holomorficznych, powierzchniach Riemanna i algebrach."
+summary_original: "German mathematician who worked in complex analysis, number theory, algebraic geometry and topology. His name is attached to important theorems on holomorphic functions, Riemann surfaces and algebras."
+works:
+  - title: "O algebraicznych tworach z jednoznacznymi przekształceniami w siebie"
+    original_title: "Über algebraische Gebilde mit eindeutigen Transformationen in sich"
+    year: 1893
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Twierdzenie Hurwitza o automorfizmach powierzchni Riemanna"
+    original_name: "Hurwitz automorphism theorem"
+    summary: "Dla zwartej powierzchni Riemanna rodzaju większego niż jeden liczba automorfizmów jest ograniczona przez 84(g−1)."
+    summary_original: "For a compact Riemann surface of genus greater than one, the number of automorphisms is bounded by 84(g−1)."
+  - name: "Twierdzenie Hurwitza w analizie zespolonej"
+    original_name: "Hurwitz theorem in complex analysis"
+    summary: "Granica odpowiednio zbieżnego ciągu funkcji holomorficznych dziedziczy silne własności dotyczące zer."
+    summary_original: "The limit of a suitably convergent sequence of holomorphic functions inherits strong properties concerning zeros."
+events:
+  - year: 1892
+    precision: year
+    title: "Profesor w ETH Zürich"
+    original_title: "Professor at ETH Zurich"
+    summary: "Hurwitz objął katedrę w Zurychu i pozostał tam do końca życia."
+    summary_original: "Hurwitz took a chair in Zurich and remained there for the rest of his life."
+sources:
+  - title: "MacTutor — Adolf Hurwitz"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Hurwitz/"
+  - title: "Wikipedia — Adolf Hurwitz"
+    url: "https://en.wikipedia.org/wiki/Adolf_Hurwitz"
