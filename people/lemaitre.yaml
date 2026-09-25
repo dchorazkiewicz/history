@@ -1,0 +1,54 @@
+id: lemaitre
+name: "Georges Lemaitre"
+display_name: "Georges Lemaître"
+born:
+  date: "1894-07-17"
+  year: 1894
+  precision: day
+died:
+  date: "1966-06-20"
+  year: 1966
+  precision: day
+place_association: "Charleroi; Leuven"
+fields: [physics, mathematics, cosmology, relativity, astronomy, theology]
+image: null
+summary: "Belgijski fizyk, matematyk i katolicki ksiądz, pionier kosmologii relatywistycznej. Niezależnie wyprowadził ekspansję Wszechświata z równań Einsteina i zaproponował ideę pierwotnego atomu jako wczesną wersję teorii Wielkiego Wybuchu."
+summary_original: "Belgian physicist, mathematician and Catholic priest, a pioneer of relativistic cosmology. He independently derived cosmic expansion from Einstein's equations and proposed the primeval atom, an early form of the Big Bang theory."
+works:
+  - title: "Jednorodny Wszechświat o stałej masie i rosnącym promieniu"
+    original_title: "Un univers homogène de masse constante et de rayon croissant"
+    year: 1927
+    precision: year
+    type: scientific_treatise
+  - title: "Początek świata z punktu widzenia teorii kwantów"
+    original_title: "The Beginning of the World from the Point of View of Quantum Theory"
+    year: 1931
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Ekspansja Wszechświata"
+    original_name: "Expanding universe"
+    summary: "Lemaître wyprowadził z ogólnej teorii względności związek między odległością galaktyk a ich prędkością oddalania."
+    summary_original: "Lemaître derived from general relativity a relation between galaxy distance and recession speed."
+  - name: "Pierwotny atom"
+    original_name: "Primeval atom"
+    summary: "Proponował, że Wszechświat rozpoczął się w niezwykle gęstym stanie, z którego rozwinęła się obserwowana kosmiczna struktura."
+    summary_original: "He proposed that the universe began in an extremely dense state from which observed cosmic structure developed."
+events:
+  - year: 1927
+    precision: year
+    title: "Teoretyczne wyprowadzenie ekspansji Wszechświata"
+    original_title: "Theoretical derivation of cosmic expansion"
+    summary: "Lemaître połączył rozwiązania relatywistyczne z dostępnymi danymi o prędkościach galaktyk."
+    summary_original: "Lemaître connected relativistic solutions with available galaxy velocity data."
+  - year: 1931
+    precision: year
+    title: "Hipoteza pierwotnego atomu"
+    original_title: "Primeval atom hypothesis"
+    summary: "Przedstawił wczesną koncepcję gorącego, gęstego początku Wszechświata."
+    summary_original: "He presented an early concept of a hot dense beginning of the universe."
+sources:
+  - title: "Encyclopaedia Britannica — Georges Lemaître"
+    url: "https://www.britannica.com/biography/Georges-Lemaitre"
+  - title: "Wikipedia — Georges Lemaître"
+    url: "https://en.wikipedia.org/wiki/Georges_Lema%C3%AEtre"
