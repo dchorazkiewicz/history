@@ -1,0 +1,54 @@
+id: kirchhoff
+name: "Gustav Robert Kirchhoff"
+display_name: "Gustav Kirchhoff"
+born:
+  date: "1824-03-12"
+  year: 1824
+  precision: day
+died:
+  date: "1887-10-17"
+  year: 1887
+  precision: day
+place_association: "Królewiec; Wrocław; Heidelberg; Berlin"
+fields: [physics, electricity, electromagnetism, spectroscopy, optics, thermodynamics, mathematical_physics]
+image: null
+summary: "Niemiecki fizyk znany z praw obwodów elektrycznych i podstaw spektroskopii. Wspólnie z Robertem Bunsenem pokazał, że widma emisyjne i absorpcyjne mogą identyfikować pierwiastki, otwierając drogę do analizy chemicznej gwiazd."
+summary_original: "German physicist known for circuit laws and foundations of spectroscopy. With Robert Bunsen he showed that emission and absorption spectra can identify elements, opening the way to chemical analysis of stars."
+works:
+  - title: "O przechodzeniu prądu elektrycznego przez płaszczyznę"
+    original_title: "Über den Durchgang eines elektrischen Stromes durch eine Ebene"
+    year: 1845
+    precision: year
+    type: scientific_treatise
+  - title: "Badania nad widmem słonecznym i widmami pierwiastków chemicznych"
+    original_title: "Untersuchungen über das Sonnenspectrum und die Spectren der chemischen Elemente"
+    year: 1861
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Prawa Kirchhoffa dla obwodów"
+    original_name: "Kirchhoff's circuit laws"
+    wikipedia: "https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws"
+    summary: "Prawo węzłowe wyraża zachowanie ładunku, a prawo oczkowe zachowanie energii w obwodach elektrycznych."
+    summary_original: "The junction rule expresses charge conservation, while the loop rule expresses energy conservation in electrical circuits."
+  - name: "Prawa spektroskopii Kirchhoffa"
+    original_name: "Kirchhoff's laws of spectroscopy"
+    summary: "Rodzaj widma zależy od stanu materii i warunków emisji lub absorpcji, a linie widmowe stanowią charakterystyczny podpis pierwiastka."
+    summary_original: "The type of spectrum depends on the state of matter and emission or absorption conditions, while spectral lines provide characteristic elemental signatures."
+  - name: "Prawo promieniowania cieplnego Kirchhoffa"
+    original_name: "Kirchhoff's law of thermal radiation"
+    wikipedia: "https://en.wikipedia.org/wiki/Kirchhoff%27s_law_of_thermal_radiation"
+    summary: "W równowadze cieplnej zdolność emisyjna i absorpcyjna ciała są ze sobą ściśle związane."
+    summary_original: "At thermal equilibrium a body's emissive and absorptive powers are tightly related."
+events:
+  - year: 1859
+    precision: year
+    title: "Narodziny analizy spektroskopowej z Bunsenem"
+    original_title: "Development of spectral analysis with Bunsen"
+    summary: "Kirchhoff i Bunsen pokazali, że linie widmowe pozwalają identyfikować pierwiastki na odległość."
+    summary_original: "Kirchhoff and Bunsen showed that spectral lines allow elements to be identified remotely."
+sources:
+  - title: "Encyclopaedia Britannica — Gustav Kirchhoff"
+    url: "https://www.britannica.com/biography/Gustav-Robert-Kirchhoff"
+  - title: "Wikipedia — Gustav Kirchhoff"
+    url: "https://en.wikipedia.org/wiki/Gustav_Kirchhoff"
