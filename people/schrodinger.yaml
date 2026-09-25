@@ -1,0 +1,63 @@
+id: schrodinger
+name: "Erwin Rudolf Josef Alexander Schrodinger"
+display_name: "Erwin Schrödinger"
+born:
+  date: "1887-08-12"
+  year: 1887
+  precision: day
+died:
+  date: "1961-01-04"
+  year: 1961
+  precision: day
+place_association: "Wiedeń; Zurych; Berlin; Dublin"
+fields: [physics, quantum_mechanics, wave_mechanics, statistical_mechanics, philosophy_of_science, biology]
+image: null
+summary: "Austriacki fizyk teoretyczny, twórca mechaniki falowej i równania Schrödingera. Pracował również nad statystyką, podstawami mechaniki kwantowej i filozofią nauki; jego książka What Is Life? wpłynęła na część twórców biologii molekularnej."
+summary_original: "Austrian theoretical physicist, creator of wave mechanics and the Schrödinger equation. He also worked on statistics, quantum foundations and philosophy of science; his book What Is Life? influenced some founders of molecular biology."
+works:
+  - title: "Kwantowanie jako problem wartości własnych"
+    original_title: "Quantisierung als Eigenwertproblem"
+    year: 1926
+    precision: year
+    type: scientific_treatise
+    publication_note: "Seria czterech prac publikowanych w 1926 r."
+    publication_note_original: "A series of four papers published in 1926."
+  - title: "Czym jest życie?"
+    original_title: "What Is Life?"
+    wikipedia: "https://en.wikipedia.org/wiki/What_Is_Life%3F"
+    year: 1944
+    precision: year
+    type: book
+ideas:
+  - name: "Równanie Schrödingera"
+    original_name: "Schrodinger equation"
+    wikipedia: "https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation"
+    summary: "Równanie opisuje ewolucję funkcji falowej układu kwantowego i jest jednym z podstawowych równań mechaniki kwantowej."
+    summary_original: "The equation describes the evolution of a quantum system's wavefunction and is one of quantum mechanics' fundamental equations."
+  - name: "Mechanika falowa"
+    original_name: "Wave mechanics"
+    summary: "Schrödinger sformułował mechanikę kwantową jako teorię falową i wykazał jej równoważność z mechaniką macierzową."
+    summary_original: "Schrödinger formulated quantum mechanics as a wave theory and demonstrated its equivalence to matrix mechanics."
+  - name: "Kot Schrödingera"
+    original_name: "Schrodinger's cat"
+    wikipedia: "https://en.wikipedia.org/wiki/Schr%C3%B6dinger%27s_cat"
+    summary: "Eksperyment myślowy ilustruje problem stosowania superpozycji kwantowej do obiektów makroskopowych."
+    summary_original: "The thought experiment illustrates the difficulty of applying quantum superposition to macroscopic objects."
+events:
+  - year: 1926
+    precision: year
+    title: "Mechanika falowa"
+    original_title: "Wave mechanics"
+    summary: "Seria prac Schrödingera dała nową postać matematyczną mechanice kwantowej."
+    summary_original: "Schrödinger's papers gave quantum mechanics a new mathematical formulation."
+  - year: 1933
+    precision: year
+    title: "Nagroda Nobla z Paulem Dirakiem"
+    original_title: "Nobel Prize with Paul Dirac"
+    summary: "Nagrodzono ich za odkrycie nowych, owocnych postaci teorii atomowej."
+    summary_original: "They were honored for the discovery of new productive forms of atomic theory."
+sources:
+  - title: "Nobel Prize — Erwin Schrödinger"
+    url: "https://www.nobelprize.org/prizes/physics/1933/schrodinger/facts/"
+  - title: "Encyclopaedia Britannica — Erwin Schrödinger"
+    url: "https://www.britannica.com/biography/Erwin-Schrodinger"
