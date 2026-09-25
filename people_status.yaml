@@ -29,26 +29,31 @@ people:
   - id: aristotle
     name: "Arystoteles"
     status: described
+    focus: [physics]
     data_file: "people/aristotle.yaml"
 
   - id: archimedes
     name: "Archimedes"
     status: described
+    focus: [physics]
     data_file: "people/archimedes.yaml"
 
   - id: ptolemy
     name: "Klaudiusz Ptolemeusz"
     status: described
+    focus: [physics]
     data_file: "people/ptolemy.yaml"
 
   - id: copernicus
     name: "Mikołaj Kopernik"
     status: described
+    focus: [physics]
     data_file: "people/copernicus.yaml"
 
   - id: descartes
     name: "René Descartes (Kartezjusz)"
     status: described
+    focus: [physics]
     data_file: "people/descartes.yaml"
 
   - id: hobbes
@@ -64,11 +69,13 @@ people:
   - id: newton
     name: "Isaac Newton"
     status: described
+    focus: [physics]
     data_file: "people/newton.yaml"
 
   - id: leibniz
     name: "Gottfried Wilhelm Leibniz"
     status: described
+    focus: [physics]
     data_file: "people/leibniz.yaml"
 
   - id: voltaire
@@ -180,9 +187,7 @@ people:
   - id: al_biruni
     name: "Al-Biruni"
     status: pending
-    focus: [mathematics]
-
-  - id: omar_khayyam
+    focus: [mathematics, physics]  - id: omar_khayyam
     name: "Omar Chajjam"
     status: pending
     focus: [mathematics]
@@ -250,9 +255,7 @@ people:
   - id: kepler
     name: "Johannes Kepler"
     status: pending
-    focus: [mathematics]
-
-  - id: fermat
+    focus: [mathematics, physics]  - id: fermat
     name: "Pierre de Fermat"
     status: pending
     focus: [mathematics]
@@ -260,9 +263,7 @@ people:
   - id: pascal
     name: "Blaise Pascal"
     status: pending
-    focus: [mathematics]
-
-  - id: cavalieri
+    focus: [mathematics, physics]  - id: cavalieri
     name: "Bonaventura Cavalieri"
     status: pending
     focus: [mathematics]
@@ -275,9 +276,7 @@ people:
   - id: huygens
     name: "Christiaan Huygens"
     status: pending
-    focus: [mathematics]
-
-  - id: jacob_bernoulli
+    focus: [mathematics, physics]  - id: jacob_bernoulli
     name: "Jacob Bernoulli"
     status: pending
     focus: [mathematics]
@@ -305,9 +304,7 @@ people:
   - id: euler
     name: "Leonhard Euler"
     status: pending
-    focus: [mathematics]
-
-  - id: dalembert
+    focus: [mathematics, physics]  - id: dalembert
     name: "Jean le Rond d’Alembert"
     status: pending
     focus: [mathematics]
@@ -315,9 +312,7 @@ people:
   - id: lagrange
     name: "Joseph-Louis Lagrange"
     status: pending
-    focus: [mathematics]
-
-  - id: laplace
+    focus: [mathematics, physics]  - id: laplace
     name: "Pierre-Simon Laplace"
     status: pending
     focus: [mathematics]
@@ -335,9 +330,7 @@ people:
   - id: gauss
     name: "Carl Friedrich Gauss"
     status: pending
-    focus: [mathematics]
-
-  - id: fourier
+    focus: [mathematics, physics]  - id: fourier
     name: "Joseph Fourier"
     status: pending
     focus: [mathematics]
@@ -430,9 +423,7 @@ people:
   - id: poincare
     name: "Henri Poincaré"
     status: pending
-    focus: [mathematics]
-
-  - id: minkowski
+    focus: [mathematics, physics]  - id: minkowski
     name: "Hermann Minkowski"
     status: pending
     focus: [mathematics]
@@ -515,14 +506,10 @@ people:
   - id: weyl
     name: "Hermann Weyl"
     status: pending
-    focus: [mathematics]
-
-  - id: noether
+    focus: [mathematics, physics]  - id: noether
     name: "Emmy Noether"
     status: pending
-    focus: [mathematics]
-
-  - id: ramanujan
+    focus: [mathematics, physics]  - id: ramanujan
     name: "Srinivasa Ramanujan"
     status: pending
     focus: [mathematics]
@@ -570,9 +557,7 @@ people:
   - id: von_neumann
     name: "John von Neumann"
     status: pending
-    focus: [mathematics]
-
-  - id: church
+    focus: [mathematics, physics]  - id: church
     name: "Alonzo Church"
     status: pending
     focus: [mathematics]
@@ -756,3 +741,542 @@ people:
     name: "June Huh"
     status: pending
     focus: [mathematics]
+
+
+# Fizycy — kanon historyczny do opracowania.
+# Osoby obecne już w rejestrze nie są duplikowane; otrzymują jedynie dodatkowy focus.
+
+  - id: ibn_al_haytham
+    name: "Ibn al-Hajsam (Alhazen)"
+    status: pending
+    focus: [physics]
+
+  - id: galileo
+    name: "Galileusz"
+    status: pending
+    focus: [physics]
+
+  - id: torricelli
+    name: "Evangelista Torricelli"
+    status: pending
+    focus: [physics]
+
+  - id: boyle
+    name: "Robert Boyle"
+    status: pending
+    focus: [physics]
+
+  - id: hooke
+    name: "Robert Hooke"
+    status: pending
+    focus: [physics]
+
+  - id: daniel_bernoulli
+    name: "Daniel Bernoulli"
+    status: pending
+    focus: [physics]
+
+  - id: cavendish
+    name: "Henry Cavendish"
+    status: pending
+    focus: [physics]
+
+  - id: coulomb
+    name: "Charles-Augustin de Coulomb"
+    status: pending
+    focus: [physics]
+
+  - id: benjamin_franklin
+    name: "Benjamin Franklin"
+    status: pending
+    focus: [physics]
+
+  - id: galvani
+    name: "Luigi Galvani"
+    status: pending
+    focus: [physics]
+
+  - id: volta
+    name: "Alessandro Volta"
+    status: pending
+    focus: [physics]
+
+  - id: thomas_young
+    name: "Thomas Young"
+    status: pending
+    focus: [physics]
+
+  - id: fresnel
+    name: "Augustin-Jean Fresnel"
+    status: pending
+    focus: [physics]
+
+  - id: oersted
+    name: "Hans Christian Ørsted"
+    status: pending
+    focus: [physics]
+
+  - id: ampere
+    name: "André-Marie Ampère"
+    status: pending
+    focus: [physics]
+
+  - id: ohm
+    name: "Georg Ohm"
+    status: pending
+    focus: [physics]
+
+  - id: faraday
+    name: "Michael Faraday"
+    status: pending
+    focus: [physics]
+
+  - id: carnot
+    name: "Sadi Carnot"
+    status: pending
+    focus: [physics]
+
+  - id: joule
+    name: "James Prescott Joule"
+    status: pending
+    focus: [physics]
+
+  - id: kelvin
+    name: "William Thomson (Lord Kelvin)"
+    status: pending
+    focus: [physics]
+
+  - id: clausius
+    name: "Rudolf Clausius"
+    status: pending
+    focus: [physics]
+
+  - id: helmholtz
+    name: "Hermann von Helmholtz"
+    status: pending
+    focus: [physics]
+
+  - id: kirchhoff
+    name: "Gustav Kirchhoff"
+    status: pending
+    focus: [physics]
+
+  - id: maxwell
+    name: "James Clerk Maxwell"
+    status: pending
+    focus: [physics]
+
+  - id: stokes
+    name: "George Gabriel Stokes"
+    status: pending
+    focus: [physics]
+
+  - id: boltzmann
+    name: "Ludwig Boltzmann"
+    status: pending
+    focus: [physics]
+
+  - id: gibbs
+    name: "Josiah Willard Gibbs"
+    status: pending
+    focus: [physics]
+
+  - id: hertz
+    name: "Heinrich Hertz"
+    status: pending
+    focus: [physics]
+
+  - id: mach
+    name: "Ernst Mach"
+    status: pending
+    focus: [physics]
+
+  - id: michelson
+    name: "Albert A. Michelson"
+    status: pending
+    focus: [physics]
+
+  - id: lorentz
+    name: "Hendrik Lorentz"
+    status: pending
+    focus: [physics]
+
+  - id: rayleigh
+    name: "Lord Rayleigh"
+    status: pending
+    focus: [physics]
+
+  - id: rontgen
+    name: "Wilhelm Röntgen"
+    status: pending
+    focus: [physics]
+
+  - id: becquerel
+    name: "Henri Becquerel"
+    status: pending
+    focus: [physics]
+
+  - id: marie_curie
+    name: "Maria Skłodowska-Curie"
+    status: pending
+    focus: [physics]
+
+  - id: pierre_curie
+    name: "Pierre Curie"
+    status: pending
+    focus: [physics]
+
+  - id: jj_thomson
+    name: "J. J. Thomson"
+    status: pending
+    focus: [physics]
+
+  - id: rutherford
+    name: "Ernest Rutherford"
+    status: pending
+    focus: [physics]
+
+  - id: planck
+    name: "Max Planck"
+    status: pending
+    focus: [physics]
+
+  - id: einstein
+    name: "Albert Einstein"
+    status: pending
+    focus: [physics]
+
+  - id: millikan
+    name: "Robert Millikan"
+    status: pending
+    focus: [physics]
+
+  - id: kamerlingh_onnes
+    name: "Heike Kamerlingh Onnes"
+    status: pending
+    focus: [physics]
+
+  - id: bohr
+    name: "Niels Bohr"
+    status: pending
+    focus: [physics]
+
+  - id: sommerfeld
+    name: "Arnold Sommerfeld"
+    status: pending
+    focus: [physics]
+
+  - id: bose
+    name: "Satyendra Nath Bose"
+    status: pending
+    focus: [physics]
+
+  - id: de_broglie
+    name: "Louis de Broglie"
+    status: pending
+    focus: [physics]
+
+  - id: born
+    name: "Max Born"
+    status: pending
+    focus: [physics]
+
+  - id: heisenberg
+    name: "Werner Heisenberg"
+    status: pending
+    focus: [physics]
+
+  - id: schrodinger
+    name: "Erwin Schrödinger"
+    status: pending
+    focus: [physics]
+
+  - id: pauli
+    name: "Wolfgang Pauli"
+    status: pending
+    focus: [physics]
+
+  - id: dirac
+    name: "Paul Dirac"
+    status: pending
+    focus: [physics]
+
+  - id: fermi
+    name: "Enrico Fermi"
+    status: pending
+    focus: [physics]
+
+  - id: raman
+    name: "C. V. Raman"
+    status: pending
+    focus: [physics]
+
+  - id: compton
+    name: "Arthur Compton"
+    status: pending
+    focus: [physics]
+
+  - id: stern
+    name: "Otto Stern"
+    status: pending
+    focus: [physics]
+
+  - id: meitner
+    name: "Lise Meitner"
+    status: pending
+    focus: [physics]
+
+  - id: chadwick
+    name: "James Chadwick"
+    status: pending
+    focus: [physics]
+
+  - id: szilard
+    name: "Leó Szilárd"
+    status: pending
+    focus: [physics]
+
+  - id: wigner
+    name: "Eugene Wigner"
+    status: pending
+    focus: [physics]
+
+  - id: bethe
+    name: "Hans Bethe"
+    status: pending
+    focus: [physics]
+
+  - id: oppenheimer
+    name: "J. Robert Oppenheimer"
+    status: pending
+    focus: [physics]
+
+  - id: goeppert_mayer
+    name: "Maria Goeppert-Mayer"
+    status: pending
+    focus: [physics]
+
+  - id: landau
+    name: "Lew Landau"
+    status: pending
+    focus: [physics]
+
+  - id: kapitza
+    name: "Piotr Kapica"
+    status: pending
+    focus: [physics]
+
+  - id: ginzburg
+    name: "Witalij Ginzburg"
+    status: pending
+    focus: [physics]
+
+  - id: abrikosov
+    name: "Aleksiej Abrikosow"
+    status: pending
+    focus: [physics]
+
+  - id: yukawa
+    name: "Hideki Yukawa"
+    status: pending
+    focus: [physics]
+
+  - id: gamow
+    name: "George Gamow"
+    status: pending
+    focus: [physics]
+
+  - id: friedmann
+    name: "Aleksandr Friedmann"
+    status: pending
+    focus: [physics]
+
+  - id: lemaitre
+    name: "Georges Lemaître"
+    status: pending
+    focus: [physics]
+
+  - id: eddington
+    name: "Arthur Eddington"
+    status: pending
+    focus: [physics]
+
+  - id: chandrasekhar
+    name: "Subrahmanyan Chandrasekhar"
+    status: pending
+    focus: [physics]
+
+  - id: feynman
+    name: "Richard Feynman"
+    status: pending
+    focus: [physics]
+
+  - id: schwinger
+    name: "Julian Schwinger"
+    status: pending
+    focus: [physics]
+
+  - id: tomonaga
+    name: "Shin’ichirō Tomonaga"
+    status: pending
+    focus: [physics]
+
+  - id: dyson
+    name: "Freeman Dyson"
+    status: pending
+    focus: [physics]
+
+  - id: nambu
+    name: "Yoichiro Nambu"
+    status: pending
+    focus: [physics]
+
+  - id: yang
+    name: "Chen-Ning Yang"
+    status: pending
+    focus: [physics]
+
+  - id: mills
+    name: "Robert Mills"
+    status: pending
+    focus: [physics]
+
+  - id: lee
+    name: "Tsung-Dao Lee"
+    status: pending
+    focus: [physics]
+
+  - id: wu
+    name: "Chien-Shiung Wu"
+    status: pending
+    focus: [physics]
+
+  - id: gell_mann
+    name: "Murray Gell-Mann"
+    status: pending
+    focus: [physics]
+
+  - id: bardeen
+    name: "John Bardeen"
+    status: pending
+    focus: [physics]
+
+  - id: cooper
+    name: "Leon Cooper"
+    status: pending
+    focus: [physics]
+
+  - id: schrieffer
+    name: "John Robert Schrieffer"
+    status: pending
+    focus: [physics]
+
+  - id: philip_anderson
+    name: "Philip W. Anderson"
+    status: pending
+    focus: [physics]
+
+  - id: bell
+    name: "John Stewart Bell"
+    status: pending
+    focus: [physics]
+
+  - id: glashow
+    name: "Sheldon Glashow"
+    status: pending
+    focus: [physics]
+
+  - id: salam
+    name: "Abdus Salam"
+    status: pending
+    focus: [physics]
+
+  - id: weinberg
+    name: "Steven Weinberg"
+    status: pending
+    focus: [physics]
+
+  - id: higgs
+    name: "Peter Higgs"
+    status: pending
+    focus: [physics]
+
+  - id: englert
+    name: "François Englert"
+    status: pending
+    focus: [physics]
+
+  - id: thooft
+    name: "Gerard ’t Hooft"
+    status: pending
+    focus: [physics]
+
+  - id: kenneth_wilson
+    name: "Kenneth G. Wilson"
+    status: pending
+    focus: [physics]
+
+  - id: sakharov
+    name: "Andriej Sacharow"
+    status: pending
+    focus: [physics]
+
+  - id: penrose
+    name: "Roger Penrose"
+    status: pending
+    focus: [physics]
+
+  - id: hawking
+    name: "Stephen Hawking"
+    status: pending
+    focus: [physics]
+
+  - id: vera_rubin
+    name: "Vera Rubin"
+    status: pending
+    focus: [physics]
+
+  - id: jocelyn_bell_burnell
+    name: "Jocelyn Bell Burnell"
+    status: pending
+    focus: [physics]
+
+  - id: weiss
+    name: "Rainer Weiss"
+    status: pending
+    focus: [physics]
+
+  - id: kip_thorne
+    name: "Kip Thorne"
+    status: pending
+    focus: [physics]
+
+  - id: barish
+    name: "Barry Barish"
+    status: pending
+    focus: [physics]
+
+  - id: clauser
+    name: "John Clauser"
+    status: pending
+    focus: [physics]
+
+  - id: aspect
+    name: "Alain Aspect"
+    status: pending
+    focus: [physics]
+
+  - id: zeilinger
+    name: "Anton Zeilinger"
+    status: pending
+    focus: [physics]
+
+  - id: witten
+    name: "Edward Witten"
+    status: pending
+    focus: [physics]
+
+  - id: maldacena
+    name: "Juan Maldacena"
+    status: pending
+    focus: [physics]
