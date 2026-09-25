@@ -92,6 +92,23 @@
     logarithms: 'logarytmy',
     computational_tools: 'narzędzia obliczeniowe',
     hydrostatics: 'hydrostatyka',
+    infinitesimal_calculus: 'rachunek nieskończenie małych',
+    cryptography: 'kryptografia',
+    horology: 'zegarmistrzostwo',
+    differential_equations: 'równania różniczkowe',
+    statistics: 'statystyka',
+    actuarial_science: 'matematyka ubezpieczeniowa',
+    finite_differences: 'różnice skończone',
+    music: 'muzyka',
+    graph_theory: 'teoria grafów',
+    fluid_dynamics: 'mechanika płynów',
+    music_theory: 'teoria muzyki',
+    encyclopedia: 'encyklopedia',
+    calculus_of_variations: 'rachunek wariacyjny',
+    celestial_mechanics: 'mechanika nieba',
+    metric_system: 'system metryczny',
+    thermodynamics: 'termodynamika',
+    political_administration: 'administracja państwowa',
     geography: 'geografia',
     optics: 'optyka',
     astrology: 'astrologia',
@@ -128,7 +145,8 @@
     literature: 'literatura',
     philosophy: 'filozofia',
     theology: 'teologia',
-    autobiography: 'autobiografia'
+    autobiography: 'autobiografia',
+    collected_works: 'dzieła zebrane'
   };
 
   const fieldLabel = x => fieldLabels[x] || String(x).replaceAll('_',' ');
