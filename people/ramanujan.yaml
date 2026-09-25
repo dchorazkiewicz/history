@@ -1,0 +1,76 @@
+id: ramanujan
+name: "Srinivasa Ramanujan"
+display_name: "Srinivasa Ramanujan"
+born:
+  date: "1887-12-22"
+  year: 1887
+  precision: day
+died:
+  date: "1920-04-26"
+  year: 1920
+  precision: day
+place_association: "Erode; Kumbakonam; Madras; Cambridge"
+fields: [mathematics, number_theory, analysis, q_series, modular_forms, continued_fractions]
+image: null
+summary: "Indyjski matematyk samouk o niezwykłej intuicji, którego prace dotyczyły teorii liczb, szeregów, ułamków łańcuchowych, funkcji modularnych i partycji. Współpraca z Hardym w Cambridge przyniosła wyniki, które nadal inspirują współczesną matematykę."
+summary_original: "Indian largely self-taught mathematician of extraordinary intuition whose work ranged across number theory, series, continued fractions, modular functions and partitions. His collaboration with Hardy at Cambridge produced results that continue to inspire modern mathematics."
+works:
+  - title: "Niektóre własności liczb Bernoulliego"
+    original_title: "Some Properties of Bernoulli's Numbers"
+    year: 1911
+    precision: year
+    type: mathematical_essay
+  - title: "Liczby wysoce złożone"
+    original_title: "Highly Composite Numbers"
+    year: 1915
+    precision: year
+    type: mathematical_essay
+  - title: "Pierwszy zeszyt Ramanujana"
+    original_title: "Ramanujan's notebooks"
+    year: 1910
+    precision: approximate
+    type: manuscript
+    publication_note: "Zeszyty zawierały tysiące wyników, często bez dowodów."
+    publication_note_original: "The notebooks contained thousands of results, often without proofs."
+ideas:
+  - name: "Asymptotyka liczby partycji"
+    original_name: "Partition asymptotics"
+    summary: "Hardy i Ramanujan wyprowadzili asymptotyczny wzór opisujący tempo wzrostu liczby partycji liczby całkowitej."
+    summary_original: "Hardy and Ramanujan derived an asymptotic formula describing the growth of the integer partition function."
+  - name: "Szeregi dla 1/π"
+    original_name: "Series for 1/pi"
+    summary: "Ramanujan odkrył niezwykle szybko zbieżne szeregi związane z liczbą π, później ważne również w rekordowych obliczeniach numerycznych."
+    summary_original: "Ramanujan discovered extraordinarily rapidly convergent series related to pi, later important in high-precision numerical computation."
+  - name: "Mock theta functions"
+    original_name: "Mock theta functions"
+    wikipedia: "https://en.wikipedia.org/wiki/Mock_modular_form"
+    summary: "W ostatnim liście do Hardy’ego opisał nowe funkcje q-szeregowe, których pełne znaczenie matematyczne wyjaśniono dopiero wiele dekad później."
+    summary_original: "In his final letter to Hardy he described new q-series functions whose full mathematical significance was clarified only many decades later."
+  - name: "Ułamki łańcuchowe Ramanujana"
+    original_name: "Ramanujan continued fractions"
+    summary: "Rozwijał głębokie tożsamości między ułamkami łańcuchowymi, q-szeregami i funkcjami modularnymi."
+    summary_original: "He developed deep identities connecting continued fractions, q-series and modular functions."
+events:
+  - year: 1913
+    precision: year
+    title: "List do G. H. Hardy’ego"
+    original_title: "Letter to G. H. Hardy"
+    summary: "Ramanujan wysłał do Cambridge zestaw niezwykłych twierdzeń, rozpoczynając współpracę z Hardym."
+    summary_original: "Ramanujan sent a collection of remarkable theorems to Cambridge, beginning his collaboration with Hardy."
+  - year: 1914
+    precision: year
+    title: "Przyjazd do Cambridge"
+    original_title: "Arrival in Cambridge"
+    summary: "Ramanujan rozpoczął kilkuletni okres intensywnej pracy z Hardym i Littlewoodem."
+    summary_original: "Ramanujan began several years of intensive work with Hardy and Littlewood."
+  - year: 1918
+    precision: year
+    title: "Członek Royal Society"
+    original_title: "Fellow of the Royal Society"
+    summary: "Został jednym z najmłodszych członków Royal Society i pierwszych Hindusów wyróżnionych w ten sposób."
+    summary_original: "He became one of the youngest Fellows of the Royal Society and among the first Indians so elected."
+sources:
+  - title: "MacTutor — Srinivasa Ramanujan"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Ramanujan/"
+  - title: "Wikipedia — Srinivasa Ramanujan"
+    url: "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan"
