@@ -1,0 +1,63 @@
+id: zu_chongzhi
+name: "Zu Chongzhi"
+display_name: "Zu Chongzhi"
+born:
+  year: 429
+  precision: year
+died:
+  year: 501
+  precision: year
+place_association: "Jiankang (dzisiejszy Nankin), Chiny"
+fields: [mathematics, astronomy, geometry, calendar_science]
+image: null
+summary: "Chiński matematyk i astronom z okresu dynastii Liu Song i Południowej Qi. Osiągnął wyjątkowo dokładne przybliżenie liczby π, pracował nad geometrią przestrzenną i opracował bardzo dokładny kalendarz astronomiczny."
+summary_original: "Chinese mathematician and astronom of the Liu Song and Southern Qi periods. He obtained an exceptionally accurate approximation of pi, worked on solid geometry and developed a highly accurate astronomical calendar."
+works:
+  - title: "Metoda interpolacji"
+    original_title: "Zhui Shu"
+    year: 480
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Dzieło zaginione. Było uznawane za trudne i ostatecznie wypadło z programu nauczania Akademii Cesarskiej."
+    publication_note_original: "Lost work. It was considered difficult and was eventually removed from the Imperial Academy curriculum."
+  - title: "Kalendarz Wielkiej Jasności"
+    original_title: "Daming Calendar"
+    year: 462
+    precision: year
+    type: scientific_treatise
+    publication_note: "Nowy kalendarz zaproponowany cesarzowi, oparty na dokładniejszych wartościach roku zwrotnikowego i miesiąca węzłowego."
+    publication_note_original: "A new calendar proposed to the emperor, based on more accurate values for the tropical year and nodal month."
+ideas:
+  - name: "Przybliżenie π = 355/113"
+    original_name: "Approximation pi = 355/113"
+    wikipedia: "https://en.wikipedia.org/wiki/Mil%C3%BC"
+    summary: "Zu Chongzhi podał ułamek 355/113, poprawny do sześciu miejsc po przecinku. Tak dobra aproksymacja nie została w Europie poprawiona przez wiele stuleci."
+    summary_original: "Zu Chongzhi gave the fraction 355/113, correct to six decimal places. An approximation this accurate was not surpassed in Europe for many centuries."
+  - name: "Dokładna astronomia kalendarzowa"
+    original_name: "Accurate calendrical astronomy"
+    summary: "Wyznaczył długość roku zwrotnikowego i miesiąca węzłowego z bardzo małym błędem jak na dostępne w V wieku obserwacje."
+    summary_original: "He determined the length of the tropical year and nodal month with very small errors for fifth-century observational astronomy."
+  - name: "Objętość kuli"
+    original_name: "Volume of a sphere"
+    summary: "Tradycja łączy Zu Chongzhi i jego syna Zu Gengzhi z poprawnym obliczeniem objętości kuli metodami granicznymi; oryginalne dzieło nie zachowało się."
+    summary_original: "Tradition associates Zu Chongzhi and his son Zu Gengzhi with a correct derivation of the volume of a sphere using limiting methods; the original work is lost."
+events:
+  - year: 462
+    precision: year
+    title: "Przedstawienie Kalendarza Wielkiej Jasności"
+    original_title: "Proposal of the Daming Calendar"
+    summary: "Zu Chongzhi przedstawił cesarzowi nowy system kalendarzowy oparty na cyklu 391 lat."
+    summary_original: "Zu Chongzhi presented the emperor with a new calendrical system based on a 391-year cycle."
+  - year: 480
+    precision: approximate
+    title: "Obliczenie bardzo dokładnego przybliżenia π"
+    original_title: "Highly accurate calculation of pi"
+    summary: "Około końca V wieku jego prace zawierały wartość 355/113, jedną z najlepszych aproksymacji liczby π w historii matematyki przed epoką nowożytną."
+    summary_original: "By the late fifth century his work contained the value 355/113, one of the best approximations to pi before the early modern era."
+sources:
+  - title: "MacTutor — Zu Chongzhi"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Zu_Chongzhi/"
+  - title: "MacTutor — chronology of pi"
+    url: "https://mathshistory.st-andrews.ac.uk/HistTopics/Pi_chronology/"
+  - title: "MacTutor — Ten Mathematical Classics"
+    url: "https://mathshistory.st-andrews.ac.uk/HistTopics/Ten_classics/"
