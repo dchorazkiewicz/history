@@ -1,0 +1,53 @@
+id: cavendish
+name: "Henry Cavendish"
+display_name: "Henry Cavendish"
+born:
+  date: "1731-10-10"
+  year: 1731
+  precision: day
+died:
+  date: "1810-02-24"
+  year: 1810
+  precision: day
+place_association: "Nice; Londyn"
+fields: [physics, chemistry, electricity, gravitation, experimental_science]
+image: null
+summary: "Brytyjski fizyk i chemik znany z niezwykle precyzyjnych eksperymentów. Zidentyfikował wodór jako odrębny gaz, badał skład atmosfery i elektryczność oraz w eksperymencie skrętnym wyznaczył średnią gęstość Ziemi, co później umożliwiło obliczenie stałej grawitacji."
+summary_original: "British physicist and chemist known for exceptionally precise experiments. He identified hydrogen as a distinct gas, studied atmospheric composition and electricity, and used a torsion experiment to determine Earth's mean density, later enabling calculation of the gravitational constant."
+works:
+  - title: "O sztucznych powietrzach"
+    original_title: "Three Papers, Containing Experiments on Factitious Air"
+    year: 1766
+    precision: year
+    type: scientific_treatise
+  - title: "Doświadczenia mające wyznaczyć gęstość Ziemi"
+    original_title: "Experiments to Determine the Density of the Earth"
+    wikipedia: "https://en.wikipedia.org/wiki/Cavendish_experiment"
+    year: 1798
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Wodór jako odrębny gaz"
+    original_name: "Hydrogen as a distinct gas"
+    summary: "Cavendish badał „palne powietrze”, określił jego własności i wykazał, że podczas spalania z tlenem powstaje woda."
+    summary_original: "Cavendish investigated 'inflammable air,' determined its properties and showed that burning it with oxygen produces water."
+  - name: "Eksperyment Cavendisha"
+    original_name: "Cavendish experiment"
+    summary: "Za pomocą wagi skręceń zmierzył bardzo słabe przyciąganie między masami laboratoryjnymi i wyznaczył średnią gęstość Ziemi."
+    summary_original: "Using a torsion balance he measured the tiny attraction between laboratory masses and determined Earth's mean density."
+  - name: "Wczesna ilościowa elektrostatyka"
+    original_name: "Early quantitative electrostatics"
+    summary: "Cavendish prowadził bardzo dokładne badania pojemności i zależności siły elektrycznej od odległości, choć wiele wyników opublikowano dopiero pośmiertnie."
+    summary_original: "Cavendish made precise studies of capacitance and the distance dependence of electric force, though much was published only posthumously."
+events:
+  - year: 1798
+    precision: year
+    title: "Pomiar gęstości Ziemi"
+    original_title: "Measurement of Earth's density"
+    summary: "Eksperyment skrętny stał się jednym z najbardziej znanych doświadczeń ilościowych XVIII wieku."
+    summary_original: "The torsion-balance experiment became one of the eighteenth century's most famous quantitative experiments."
+sources:
+  - title: "Encyclopaedia Britannica — Henry Cavendish"
+    url: "https://www.britannica.com/biography/Henry-Cavendish"
+  - title: "Wikipedia — Henry Cavendish"
+    url: "https://en.wikipedia.org/wiki/Henry_Cavendish"
