@@ -12,3 +12,10 @@ Ten katalog służy do audytu list osób wybieranych do projektu.
 - Audyt uruchamia się automatycznie podczas deployu.
 
 Kolejne listy, np. filozofowie, pisarze, biologowie, odkrywcy czy władcy, dostają osobny plik w tym katalogu. Epoki nie są osobami i powinny mieć osobny rejestr danych.
+
+
+## Kanon a dossier
+
+Kanon jest tylko punktem wejścia do osoby. Nie definiuje jej zawodu ani nie ogranicza opisywanego dorobku.
+
+Przykład: osoba może mieć w centralnym rejestrze `focus: [mathematics, physics, philosophy]`, ale nadal istnieje tylko jeden rekord `people/<id>.yaml`. W tym rekordzie pole `fields` powinno obejmować wszystkie historycznie istotne obszary jej działalności, a dzieła i idee ze wszystkich tych obszarów trafiają do jednego pełnego dossier.
