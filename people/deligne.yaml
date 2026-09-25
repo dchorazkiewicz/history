@@ -1,0 +1,61 @@
+id: deligne
+name: "Pierre Deligne"
+display_name: "Pierre Deligne"
+born:
+  date: "1944-10-03"
+  year: 1944
+  precision: day
+died: null
+place_association: "Bruksela; Paryż; Princeton"
+fields: [mathematics, algebraic_geometry, number_theory, representation_theory, hodge_theory, etale_cohomology]
+image: null
+summary: "Belgijski matematyk, jedna z najważniejszych postaci geometrii algebraicznej drugiej połowy XX wieku. Udowodnił hipotezy Weila, rozwinął teorię Hodge’a, kohomologię étale i narzędzia łączące geometrię algebraiczną z teorią liczb i reprezentacji."
+summary_original: "Belgian mathematician and one of the central figures of algebraic geometry in the second half of the twentieth century. He proved the Weil conjectures and advanced Hodge theory, étale cohomology and tools connecting algebraic geometry with number theory and representation theory."
+works:
+  - title: "Teoria Hodge’a II"
+    original_title: "Théorie de Hodge II"
+    year: 1971
+    precision: year
+    type: mathematical_essay
+  - title: "Hipoteza Weila I"
+    original_title: "La conjecture de Weil I"
+    year: 1974
+    precision: year
+    type: mathematical_essay
+  - title: "Hipoteza Weila II"
+    original_title: "La conjecture de Weil II"
+    year: 1980
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Dowód hipotez Weila"
+    original_name: "Proof of the Weil conjectures"
+    wikipedia: "https://en.wikipedia.org/wiki/Weil_conjectures"
+    summary: "Deligne udowodnił najtrudniejszą część programu Weila dotyczącą wartości własnych Frobeniusa i analogii z hipotezą Riemanna nad ciałami skończonymi."
+    summary_original: "Deligne proved the deepest part of Weil's program concerning Frobenius eigenvalues and the analogue of the Riemann hypothesis over finite fields."
+  - name: "Mieszane struktury Hodge’a"
+    original_name: "Mixed Hodge structures"
+    summary: "Rozszerzył teorię Hodge’a z gładkich rozmaitości projektowych na znacznie ogólniejsze obiekty algebraiczne."
+    summary_original: "He extended Hodge theory from smooth projective varieties to far more general algebraic objects."
+  - name: "Wpływ geometrii algebraicznej na teorię liczb"
+    original_name: "Algebraic geometry in number theory"
+    summary: "Jego metody pokazały, że pytania arytmetyczne można rozwiązywać przez bardzo głębokie struktury geometryczne i kohomologiczne."
+    summary_original: "His methods showed that arithmetic questions can be attacked through deep geometric and cohomological structures."
+events:
+  - year: 1978
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Deligne otrzymał Medal Fieldsa za przełomowe prace w geometrii algebraicznej i teorii liczb."
+    summary_original: "Deligne received the Fields Medal for breakthrough work in algebraic geometry and number theory."
+  - year: 2013
+    precision: year
+    title: "Nagroda Abela"
+    original_title: "Abel Prize"
+    summary: "Nagrodzono jego fundamentalny wkład do geometrii algebraicznej i jego transformacyjny wpływ na teorię liczb i reprezentacji."
+    summary_original: "He was honored for seminal contributions to algebraic geometry and their transformative impact on number theory and representation theory."
+sources:
+  - title: "MacTutor — Pierre Deligne"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Deligne/"
+  - title: "Abel Prize — Pierre Deligne"
+    url: "https://abelprize.no/abel-prize-laureates/2013"
