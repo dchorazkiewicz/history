@@ -446,57 +446,68 @@ people:
 
   - id: boole
     name: "George Boole"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/boole.yaml"
+    focus: [mathematics, philosophy]
 
   - id: cayley
     name: "Arthur Cayley"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/cayley.yaml"
+    focus: [mathematics, law]
 
   - id: sylvester
     name: "James Joseph Sylvester"
-    status: pending
+    status: described
+    data_file: "people/sylvester.yaml"
     focus: [mathematics]
 
   - id: riemann
     name: "Bernhard Riemann"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/riemann.yaml"
+    focus: [mathematics, physics]
 
   - id: weierstrass
     name: "Karl Weierstrass"
-    status: pending
+    status: described
+    data_file: "people/weierstrass.yaml"
     focus: [mathematics]
 
   - id: dedekind
     name: "Richard Dedekind"
-    status: pending
+    status: described
+    data_file: "people/dedekind.yaml"
     focus: [mathematics]
 
   - id: cantor
     name: "Georg Cantor"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/cantor.yaml"
+    focus: [mathematics, philosophy]
 
   - id: klein
     name: "Felix Klein"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/klein.yaml"
+    focus: [mathematics, physics]
 
   - id: sophus_lie
     name: "Sophus Lie"
-    status: pending
+    status: described
+    data_file: "people/sophus_lie.yaml"
     focus: [mathematics]
 
   - id: poincare
     name: "Henri Poincaré"
-    status: pending
-    focus: [mathematics, physics]
+    status: described
+    data_file: "people/poincare.yaml"
+    focus: [mathematics, physics, philosophy]
 
   - id: minkowski
     name: "Hermann Minkowski"
-    status: pending
+    status: described
+    data_file: "people/minkowski.yaml"
     focus: [mathematics, physics]
 
   - id: kovalevskaya
