@@ -1,0 +1,49 @@
+id: brouwer
+name: "Luitzen Egbertus Jan Brouwer"
+display_name: "L. E. J. Brouwer"
+born:
+  date: "1881-02-27"
+  year: 1881
+  precision: day
+died:
+  date: "1966-12-02"
+  year: 1966
+  precision: day
+place_association: "Rotterdam; Amsterdam, Holandia"
+fields: [mathematics, topology, foundations_of_mathematics, logic, philosophy_of_mathematics]
+image: null
+summary: "Holenderski matematyk i filozof matematyki. Był jednym z twórców nowoczesnej topologii oraz założycielem intuicjonizmu, nurtu kwestionującego część klasycznej logiki w odniesieniu do nieskończonych obiektów matematycznych."
+summary_original: "Dutch mathematician and philosopher of mathematics. He was a founder of modern topology and of intuitionism, a foundational program questioning parts of classical logic when applied to infinite mathematical objects."
+works:
+  - title: "O podstawach matematyki"
+    original_title: "Over de Grondslagen der Wiskunde"
+    year: 1907
+    precision: year
+    type: philosophy
+ideas:
+  - name: "Twierdzenie Brouwera o punkcie stałym"
+    original_name: "Brouwer fixed-point theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem"
+    summary: "Każde ciągłe przekształcenie pełnej kuli w nią samą ma punkt stały."
+    summary_original: "Every continuous map from a closed ball to itself has a fixed point."
+  - name: "Niezmienniczość dziedziny"
+    original_name: "Invariance of domain"
+    summary: "Ciągłe i różnowartościowe odwzorowanie otwartego obszaru przestrzeni euklidesowej zachowuje lokalny wymiar i otwartość obrazu."
+    summary_original: "A continuous injective map of an open Euclidean region preserves local dimension and has open image."
+  - name: "Intuicjonizm"
+    original_name: "Intuitionism"
+    wikipedia: "https://en.wikipedia.org/wiki/Intuitionism"
+    summary: "Brouwer uważał matematykę za działalność konstrukcyjną umysłu i odrzucał bezwarunkowe używanie prawa wyłączonego środka w nieskończonych kontekstach."
+    summary_original: "Brouwer viewed mathematics as a constructive mental activity and rejected unrestricted use of excluded middle in infinite contexts."
+events:
+  - year: 1911
+    precision: year
+    title: "Twierdzenie o niezmienniczości dziedziny"
+    original_title: "Invariance of domain"
+    summary: "Wynik stał się jednym z fundamentów topologii wymiaru."
+    summary_original: "The result became a foundation of dimension theory in topology."
+sources:
+  - title: "Stanford Encyclopedia of Philosophy — Intuitionism"
+    url: "https://plato.stanford.edu/entries/intuitionism/"
+  - title: "MacTutor — L. E. J. Brouwer"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Brouwer/"
