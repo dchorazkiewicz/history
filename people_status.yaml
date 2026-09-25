@@ -163,7 +163,8 @@ people:
 
   - id: zu_chongzhi
     name: "Zu Chongzhi"
-    status: pending
+    status: described
+    data_file: "people/zu_chongzhi.yaml"
     focus: [mathematics]
 
   - id: aryabhata
@@ -560,7 +561,8 @@ people:
 
   - id: zermelo
     name: "Ernst Zermelo"
-    status: pending
+    status: described
+    data_file: "people/zermelo.yaml"
     focus: [mathematics]
 
   - id: hurwitz
@@ -887,7 +889,8 @@ people:
 
   - id: galileo
     name: "Galileusz"
-    status: pending
+    status: described
+    data_file: "people/galileo.yaml"
     focus: [physics]
 
   - id: torricelli
