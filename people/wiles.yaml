@@ -1,0 +1,60 @@
+id: wiles
+name: "Andrew John Wiles"
+display_name: "Andrew Wiles"
+born:
+  date: "1953-04-11"
+  year: 1953
+  precision: day
+died: null
+place_association: "Cambridge; Princeton; Oksford"
+fields: [mathematics, number_theory, elliptic_curves, modular_forms, galois_representations, iwasawa_theory]
+image: null
+summary: "Brytyjski matematyk, który udowodnił wielkie twierdzenie Fermata przez wykazanie kluczowego przypadku hipotezy modularności dla półstabilnych krzywych eliptycznych. Jego praca połączyła teorię liczb, formy modularne i reprezentacje Galois."
+summary_original: "British mathematician who proved Fermat's Last Theorem by establishing a key case of the modularity conjecture for semistable elliptic curves. His work connected number theory, modular forms and Galois representations."
+works:
+  - title: "Modularne krzywe eliptyczne i wielkie twierdzenie Fermata"
+    original_title: "Modular Elliptic Curves and Fermat's Last Theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Wiles%27s_proof_of_Fermat%27s_Last_Theorem"
+    year: 1995
+    precision: year
+    type: mathematical_essay
+  - title: "Własności pierścieni pewnych algebr Hecke"
+    original_title: "Ring-theoretic properties of certain Hecke algebras"
+    year: 1995
+    precision: year
+    type: mathematical_essay
+    publication_note: "Napisane wspólnie z Richardem Taylorem; praca naprawiła lukę w pierwotnym dowodzie."
+    publication_note_original: "Written with Richard Taylor; the paper repaired the gap in the original proof."
+ideas:
+  - name: "Dowód wielkiego twierdzenia Fermata"
+    original_name: "Proof of Fermat's Last Theorem"
+    summary: "Wiles wykazał, że odpowiednia klasa krzywych eliptycznych jest modularna, co poprzez wcześniejsze wyniki Ribeta prowadzi do wielkiego twierdzenia Fermata."
+    summary_original: "Wiles proved modularity for the relevant class of elliptic curves, which through Ribet's earlier work implies Fermat's Last Theorem."
+  - name: "Modularność półstabilnych krzywych eliptycznych"
+    original_name: "Modularity of semistable elliptic curves"
+    summary: "Przełom polegał na powiązaniu reprezentacji Galois z formami modularnymi przez techniki deformacji i algebr Hecke."
+    summary_original: "The breakthrough linked Galois representations with modular forms through deformation theory and Hecke algebras."
+events:
+  - year: 1993
+    precision: year
+    title: "Ogłoszenie dowodu w Cambridge"
+    original_title: "Announcement of the proof in Cambridge"
+    summary: "Wiles podczas serii wykładów ogłosił dowód problemu Fermata, który pozostawał otwarty od ponad 350 lat."
+    summary_original: "During a lecture series Wiles announced a proof of Fermat's problem, open for more than 350 years."
+  - year: 1994
+    precision: year
+    title: "Naprawienie luki w dowodzie"
+    original_title: "Repair of the proof gap"
+    summary: "Wspólnie z Richardem Taylorem Wiles znalazł nową drogę przez problematyczny fragment argumentu."
+    summary_original: "With Richard Taylor, Wiles found a new route around the problematic part of the argument."
+  - year: 2016
+    precision: year
+    title: "Nagroda Abela"
+    original_title: "Abel Prize"
+    summary: "Wiles otrzymał Nagrodę Abela za dowód wielkiego twierdzenia Fermata przez modularność półstabilnych krzywych eliptycznych."
+    summary_original: "Wiles received the Abel Prize for proving Fermat's Last Theorem via modularity of semistable elliptic curves."
+sources:
+  - title: "MacTutor — Andrew Wiles"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Wiles/"
+  - title: "Abel Prize — Andrew Wiles"
+    url: "https://abelprize.no/abel-prize-laureates/2016"
