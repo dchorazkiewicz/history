@@ -1,0 +1,72 @@
+id: de_moivre
+name: "Abraham de Moivre"
+display_name: "Abraham de Moivre"
+born:
+  date: "1667-05-26"
+  year: 1667
+  precision: day
+died:
+  date: "1754-11-27"
+  year: 1754
+  precision: day
+place_association: "Vitry-le-François; Londyn"
+fields: [mathematics, probability, statistics, actuarial_science, analysis, complex_numbers]
+image: null
+summary: "Francusko-angielski matematyk, hugenocki uchodźca mieszkający w Londynie. Był jednym z głównych twórców XVIII-wiecznej teorii prawdopodobieństwa, badał liczby zespolone, rozkład normalny, tablice śmiertelności i matematykę rent życiowych."
+summary_original: "French-born English mathematician and Huguenot refugee living in London. He was a major developer of eighteenth-century probability, and worked on complex numbers, the normal distribution, mortality tables and the mathematics of life annuities."
+works:
+  - title: "Doktryna szans"
+    original_title: "The Doctrine of Chances"
+    wikipedia: "https://en.wikipedia.org/wiki/The_Doctrine_of_Chances"
+    year: 1718
+    precision: year
+    type: mathematical_treatise
+  - title: "Renty na życie"
+    original_title: "Annuities upon Lives"
+    year: 1725
+    precision: approximate
+    type: mathematical_treatise
+    dating_note: "Pierwsze wydanie ukazało się w połowie lat 1720.; w źródłach spotyka się daty 1724 i 1725."
+    dating_note_original: "The first edition appeared in the mid-1720s; sources give 1724 or 1725."
+  - title: "Miscellanea Analytica"
+    original_title: "Miscellanea Analytica"
+    year: 1730
+    precision: year
+    type: mathematical_treatise
+  - title: "Przybliżenie dwumianu rozkładem normalnym"
+    original_title: "Approximatio ad Summam Terminorum Binomii"
+    year: 1733
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Wzór de Moivre’a"
+    original_name: "De Moivre's formula"
+    wikipedia: "https://en.wikipedia.org/wiki/De_Moivre%27s_formula"
+    summary: "Wzór łączy potęgi liczb zespolonych z funkcjami trygonometrycznymi i stał się podstawowym narzędziem analizy zespolonej."
+    summary_original: "The formula connects powers of complex numbers with trigonometric functions and became a basic tool of complex analysis."
+  - name: "Rozkład normalny jako przybliżenie dwumianowego"
+    original_name: "Normal approximation to the binomial distribution"
+    summary: "W 1733 r. de Moivre podał pierwszą postać normalnego przybliżenia rozkładu dwumianowego, poprzedzając późniejszą teorię Gaussa i Laplace’a."
+    summary_original: "In 1733 de Moivre gave the first form of the normal approximation to the binomial distribution, preceding later work by Gauss and Laplace."
+  - name: "Matematyka rent i śmiertelności"
+    original_name: "Mathematics of annuities and mortality"
+    summary: "Łączył tablice długości życia z rachunkiem procentowym, tworząc ważne podstawy matematyki ubezpieczeniowej."
+    summary_original: "He combined mortality tables with interest calculations, contributing important foundations to actuarial mathematics."
+events:
+  - year: 1685
+    precision: approximate
+    title: "Ucieczka z Francji po odwołaniu edyktu nantejskiego"
+    original_title: "Flight from France after the revocation of the Edict of Nantes"
+    summary: "Jako protestant de Moivre wyemigrował do Anglii i pozostał w Londynie do końca życia."
+    summary_original: "As a Protestant, de Moivre emigrated to England and remained in London for the rest of his life."
+  - year: 1697
+    precision: year
+    title: "Wybór do Royal Society"
+    original_title: "Election to the Royal Society"
+    summary: "Zyskał uznanie angielskiego środowiska naukowego, choć nigdy nie otrzymał stałej katedry uniwersyteckiej."
+    summary_original: "He gained recognition in English scientific circles, although he never obtained a permanent university chair."
+sources:
+  - title: "MacTutor — Abraham de Moivre"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/"
+  - title: "Wikipedia — Abraham de Moivre"
+    url: "https://en.wikipedia.org/wiki/Abraham_de_Moivre"
