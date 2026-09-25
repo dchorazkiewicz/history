@@ -1,0 +1,61 @@
+id: wiener
+name: "Norbert Wiener"
+display_name: "Norbert Wiener"
+born:
+  date: "1894-11-26"
+  year: 1894
+  precision: day
+died:
+  date: "1964-03-18"
+  year: 1964
+  precision: day
+place_association: "Columbia, Missouri; Cambridge, Massachusetts"
+fields: [mathematics, probability, stochastic_processes, harmonic_analysis, cybernetics, control_theory, communication_theory, philosophy_of_technology]
+image: null
+summary: "Amerykański matematyk, twórca cybernetyki. Łączył teorię prawdopodobieństwa, procesy losowe, analizę harmoniczną, sterowanie i komunikację, a jego idee o sprzężeniu zwrotnym stały się jednym z podstawowych języków współczesnej automatyki i teorii systemów."
+summary_original: "American mathematician and founder of cybernetics. He connected probability, stochastic processes, harmonic analysis, control and communication, and his ideas on feedback became a basic language of modern automation and systems theory."
+works:
+  - title: "Cybernetyka"
+    original_title: "Cybernetics: Or Control and Communication in the Animal and the Machine"
+    wikipedia: "https://en.wikipedia.org/wiki/Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine"
+    year: 1948
+    precision: year
+    type: book
+  - title: "Ludzkie zastosowanie istot ludzkich"
+    original_title: "The Human Use of Human Beings"
+    year: 1950
+    precision: year
+    type: philosophy
+ideas:
+  - name: "Proces Wienera"
+    original_name: "Wiener process"
+    wikipedia: "https://en.wikipedia.org/wiki/Wiener_process"
+    summary: "Matematyczny model ruchu Browna stał się fundamentalnym procesem stochastycznym w probabilistyce i finansach matematycznych."
+    summary_original: "The mathematical model of Brownian motion became a fundamental stochastic process in probability and mathematical finance."
+  - name: "Cybernetyka"
+    original_name: "Cybernetics"
+    wikipedia: "https://en.wikipedia.org/wiki/Cybernetics"
+    summary: "Wiener badał wspólne zasady sterowania, komunikacji i sprzężenia zwrotnego w organizmach, maszynach i systemach społecznych."
+    summary_original: "Wiener studied common principles of control, communication and feedback in organisms, machines and social systems."
+  - name: "Filtr Wienera"
+    original_name: "Wiener filter"
+    summary: "Rozwinął optymalną metodę odzyskiwania sygnału z szumu przy znanych własnościach statystycznych."
+    summary_original: "He developed an optimal method for recovering signals from noise when statistical properties are known."
+events:
+  - year: 1919
+    precision: year
+    title: "Rozpoczęcie pracy w MIT"
+    original_title: "Beginning work at MIT"
+    summary: "Wiener związał niemal całą późniejszą karierę z Massachusetts Institute of Technology."
+    summary_original: "Wiener spent almost his entire later career at the Massachusetts Institute of Technology."
+  - year: 1948
+    precision: year
+    title: "Publikacja Cybernetyki"
+    original_title: "Publication of Cybernetics"
+    summary: "Książka spopularyzowała interdyscyplinarne pojęcia sprzężenia zwrotnego, sterowania i informacji."
+    summary_original: "The book popularized interdisciplinary concepts of feedback, control and information."
+sources:
+  - title: "MacTutor — Norbert Wiener"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Wiener_Norbert/"
+  - title: "Wikipedia — Norbert Wiener"
+    url: "https://en.wikipedia.org/wiki/Norbert_Wiener"
