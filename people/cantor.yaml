@@ -1,0 +1,74 @@
+id: cantor
+name: "Georg Cantor"
+display_name: "Georg Cantor"
+born:
+  date: "1845-03-03"
+  year: 1845
+  precision: day
+died:
+  date: "1918-01-06"
+  year: 1918
+  precision: day
+place_association: "Petersburg; Halle, Imperium Rosyjskie i Niemcy"
+fields: [mathematics, set_theory, foundations_of_mathematics, analysis, philosophy_of_mathematics]
+image: null
+summary: "Niemiecki matematyk, twórca teorii mnogości i matematycznej teorii nieskończoności. Wprowadził pojęcia mocy zbioru i liczb pozaskończonych, udowodnił istnienie różnych rozmiarów nieskończoności i sformułował hipotezę continuum."
+summary_original: "German mathematician, founder of set theory and the mathematical theory of infinity. He introduced cardinality and transfinite numbers, proved the existence of different sizes of infinity and formulated the continuum hypothesis."
+works:
+  - title: "O własności zbioru wszystkich rzeczywistych liczb algebraicznych"
+    original_title: "Über eine Eigenschaft des Inbegriffes aller reellen algebraischen Zahlen"
+    year: 1874
+    precision: year
+    type: mathematical_essay
+  - title: "O nieskończonych liniowych zbiorach punktów"
+    original_title: "Über unendliche, lineare Punktmannigfaltigkeiten"
+    year: 1879
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Seria prac publikowana w latach 1879–1884."
+    publication_note_original: "A series of papers published from 1879 to 1884."
+  - title: "Przyczynki do uzasadnienia teorii zbiorów pozaskończonych"
+    original_title: "Beiträge zur Begründung der transfiniten Mengenlehre"
+    year: 1895
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Dwie części ukazały się w 1895 i 1897 r."
+    publication_note_original: "Two parts appeared in 1895 and 1897."
+ideas:
+  - name: "Teoria mnogości"
+    original_name: "Set theory"
+    wikipedia: "https://en.wikipedia.org/wiki/Set_theory"
+    summary: "Cantor uczynił z badania zbiorów i odwzorowań samodzielną dziedzinę matematyki."
+    summary_original: "Cantor made the study of sets and mappings into an independent mathematical discipline."
+  - name: "Różne moce nieskończoności"
+    original_name: "Different cardinalities of infinity"
+    summary: "Pokazał, że liczby naturalne i rzeczywiste nie mają tej samej mocy, więc istnieją różne rozmiary zbiorów nieskończonych."
+    summary_original: "He showed that the natural and real numbers do not have the same cardinality, so infinities can have different sizes."
+  - name: "Argument przekątniowy Cantora"
+    original_name: "Cantor's diagonal argument"
+    wikipedia: "https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument"
+    summary: "W 1891 r. podał prosty dowód, że zbioru liczb rzeczywistych nie da się ponumerować liczbami naturalnymi."
+    summary_original: "In 1891 he gave a simple proof that the real numbers cannot be enumerated by the natural numbers."
+  - name: "Hipoteza continuum"
+    original_name: "Continuum hypothesis"
+    wikipedia: "https://en.wikipedia.org/wiki/Continuum_hypothesis"
+    summary: "Cantor pytał, czy istnieje moc pośrednia między liczbami naturalnymi a rzeczywistymi."
+    summary_original: "Cantor asked whether any cardinality lies strictly between the natural and real numbers."
+events:
+  - year: 1874
+    precision: year
+    title: "Dowód nieprzeliczalności liczb rzeczywistych"
+    original_title: "Proof of the uncountability of the reals"
+    summary: "Pierwszy dowód Cantora nie używał jeszcze późniejszego argumentu przekątniowego."
+    summary_original: "Cantor's first proof did not yet use the later diagonal argument."
+  - year: 1891
+    precision: year
+    title: "Publikacja argumentu przekątniowego"
+    original_title: "Publication of the diagonal argument"
+    summary: "Krótka metoda stała się jednym z najbardziej wpływowych dowodów w podstawach matematyki."
+    summary_original: "The short method became one of the most influential proofs in mathematical foundations."
+sources:
+  - title: "MacTutor — Georg Cantor"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Cantor/"
+  - title: "Stanford Encyclopedia of Philosophy — Set Theory"
+    url: "https://plato.stanford.edu/entries/set-theory/"
