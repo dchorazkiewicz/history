@@ -1,0 +1,51 @@
+id: bolyai
+name: "Janos Bolyai"
+display_name: "János Bolyai"
+born:
+  date: "1802-12-15"
+  year: 1802
+  precision: day
+died:
+  date: "1860-01-27"
+  year: 1860
+  precision: day
+place_association: "Kolozsvár; Temesvár; Marosvásárhely, Królestwo Węgier"
+fields: [mathematics, geometry, military_engineering, music]
+image: null
+summary: "Węgierski matematyk i oficer, niezależny współtwórca geometrii nieeuklidesowej. W słynnym Appendixie z 1832 r. skonstruował geometrię absolutną i hiperboliczną niezależnie od Łobaczewskiego."
+summary_original: "Hungarian mathematician and military officer, an independent co-creator of non-Euclidean geometry. In his famous 1832 Appendix he developed absolute and hyperbolic geometry independently of Lobachevsky."
+works:
+  - title: "Dodatek wyjaśniający absolutnie prawdziwą naukę przestrzeni"
+    original_title: "Appendix scientiam spatii absolute veram exhibens"
+    year: 1832
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Appendix ukazał się jako dodatek do dzieła Tentamen jego ojca, Farkasa Bolyaia."
+    publication_note_original: "The Appendix appeared as a supplement to the Tentamen of his father, Farkas Bolyai."
+ideas:
+  - name: "Geometria absolutna"
+    original_name: "Absolute geometry"
+    summary: "Bolyai badał twierdzenia niezależne od postulatu równoległych, oddzielając wspólny rdzeń geometrii euklidesowej i hiperbolicznej."
+    summary_original: "Bolyai studied theorems independent of the parallel postulate, separating the common core of Euclidean and hyperbolic geometry."
+  - name: "Geometria hiperboliczna"
+    original_name: "Hyperbolic geometry"
+    summary: "Niezależnie od Łobaczewskiego rozwinął konsekwentną teorię przestrzeni, w której przez punkt poza prostą istnieje wiele prostych nieprzecinających tej prostej."
+    summary_original: "Independently of Lobachevsky he developed a consistent theory of space with multiple non-intersecting lines through a point outside a given line."
+events:
+  - year: 1823
+    precision: year
+    title: "List o stworzeniu nowego świata z niczego"
+    original_title: "Letter about creating a new world from nothing"
+    summary: "Bolyai napisał ojcu słynne zdanie, że z problemu równoległych stworzył „nowy, inny świat z niczego”."
+    summary_original: "Bolyai wrote to his father that from the parallel problem he had created 'a new, different world out of nothing.'"
+  - year: 1832
+    precision: year
+    title: "Publikacja Appendixu"
+    original_title: "Publication of the Appendix"
+    summary: "Jego system geometrii nieeuklidesowej został opublikowany jako dodatek do książki ojca."
+    summary_original: "His system of non-Euclidean geometry was published as an appendix to his father's book."
+sources:
+  - title: "MacTutor — János Bolyai"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Bolyai/"
+  - title: "Wikipedia — János Bolyai"
+    url: "https://en.wikipedia.org/wiki/J%C3%A1nos_Bolyai"
