@@ -1,0 +1,50 @@
+id: kamerlingh_onnes
+name: "Heike Kamerlingh Onnes"
+display_name: "Heike Kamerlingh Onnes"
+born:
+  date: "1853-09-21"
+  year: 1853
+  precision: day
+died:
+  date: "1926-02-21"
+  year: 1926
+  precision: day
+place_association: "Groningen; Lejda"
+fields: [physics, low_temperature_physics, thermodynamics, superconductivity, experimental_science]
+image: null
+summary: "Holenderski fizyk, pionier fizyki niskich temperatur. Jako pierwszy skroplił hel i w 1911 r. odkrył nadprzewodnictwo rtęci."
+summary_original: "Dutch physicist and pioneer of low-temperature physics. He first liquefied helium and discovered superconductivity in mercury in 1911."
+works:
+  - title: "Dalsze eksperymenty z ciekłym helem"
+    original_title: "Further Experiments with Liquid Helium"
+    year: 1911
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Skroplenie helu"
+    original_name: "Liquefaction of helium"
+    summary: "W 1908 r. Kamerlingh Onnes osiągnął temperaturę około 4 K i jako pierwszy otrzymał ciekły hel."
+    summary_original: "In 1908 Kamerlingh Onnes reached about 4 K and became the first to liquefy helium."
+  - name: "Nadprzewodnictwo"
+    original_name: "Superconductivity"
+    wikipedia: "https://en.wikipedia.org/wiki/Superconductivity"
+    summary: "Zaobserwował gwałtowny zanik oporu elektrycznego rtęci w bardzo niskiej temperaturze."
+    summary_original: "He observed the abrupt disappearance of electrical resistance in mercury at very low temperature."
+events:
+  - year: 1908
+    precision: year
+    title: "Skroplenie helu"
+    original_title: "Liquefaction of helium"
+    summary: "Laboratorium w Lejdzie osiągnęło najniższe wówczas temperatury dostępne eksperymentalnie."
+    summary_original: "The Leiden laboratory achieved the lowest experimentally accessible temperatures of the time."
+  - year: 1911
+    precision: year
+    title: "Odkrycie nadprzewodnictwa"
+    original_title: "Discovery of superconductivity"
+    summary: "Opór elektryczny rtęci spadł praktycznie do zera poniżej temperatury krytycznej."
+    summary_original: "Mercury's electrical resistance dropped effectively to zero below a critical temperature."
+sources:
+  - title: "Nobel Prize — Heike Kamerlingh Onnes"
+    url: "https://www.nobelprize.org/prizes/physics/1913/onnes/facts/"
+  - title: "Encyclopaedia Britannica — Heike Kamerlingh Onnes"
+    url: "https://www.britannica.com/biography/Heike-Kamerlingh-Onnes"
