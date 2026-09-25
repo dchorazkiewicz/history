@@ -1,0 +1,54 @@
+id: bethe
+name: "Hans Albrecht Bethe"
+display_name: "Hans Bethe"
+born:
+  date: "1906-07-02"
+  year: 1906
+  precision: day
+died:
+  date: "2005-03-06"
+  year: 2005
+  precision: day
+place_association: "Strasburg; Monachium; Ithaca; Los Alamos"
+fields: [physics, nuclear_physics, astrophysics, quantum_electrodynamics, particle_physics, theoretical_physics]
+image: null
+summary: "Niemiecko-amerykański fizyk teoretyczny o niezwykle szerokim dorobku. Wyjaśnił główne cykle reakcji jądrowych zasilających gwiazdy, pracował nad fizyką jądrową i elektrodynamiką kwantową oraz kierował działem teoretycznym Los Alamos podczas Projektu Manhattan."
+summary_original: "German-American theoretical physicist of exceptionally broad scope. He explained the principal nuclear reaction cycles powering stars, worked on nuclear physics and quantum electrodynamics, and led the theoretical division at Los Alamos during the Manhattan Project."
+works:
+  - title: "Produkcja energii w gwiazdach"
+    original_title: "Energy Production in Stars"
+    year: 1939
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Cykl CNO"
+    original_name: "CNO cycle"
+    wikipedia: "https://en.wikipedia.org/wiki/CNO_cycle"
+    summary: "Bethe wyjaśnił katalityczny cykl reakcji termojądrowych, który dominuje w produkcji energii w masywniejszych gwiazdach."
+    summary_original: "Bethe explained the catalytic fusion cycle that dominates energy production in more massive stars."
+  - name: "Łańcuch proton-proton"
+    original_name: "Proton–proton chain"
+    summary: "Jego prace pomogły ustalić mechanizm syntezy helu z wodoru zasilający gwiazdy podobne do Słońca."
+    summary_original: "His work helped establish the hydrogen-to-helium fusion mechanism powering stars like the Sun."
+  - name: "Przesunięcie Lamba i renormalizacja"
+    original_name: "Lamb shift and renormalization"
+    summary: "Bethe podał pierwsze skuteczne obliczenie przesunięcia Lamba, pomagając zapoczątkować nowoczesną renormalizowaną elektrodynamikę kwantową."
+    summary_original: "Bethe gave the first successful calculation of the Lamb shift, helping launch modern renormalized quantum electrodynamics."
+events:
+  - year: 1943
+    precision: year
+    title: "Kierownik działu teoretycznego w Los Alamos"
+    original_title: "Head of the theoretical division at Los Alamos"
+    summary: "Bethe koordynował kluczowe obliczenia fizyczne Projektu Manhattan."
+    summary_original: "Bethe coordinated key theoretical calculations for the Manhattan Project."
+  - year: 1967
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Nagrodzono go za teorię reakcji jądrowych i odkrycia dotyczące produkcji energii w gwiazdach."
+    summary_original: "He was honored for nuclear-reaction theory and discoveries concerning energy production in stars."
+sources:
+  - title: "Nobel Prize — Hans Bethe"
+    url: "https://www.nobelprize.org/prizes/physics/1967/bethe/facts/"
+  - title: "Encyclopaedia Britannica — Hans Bethe"
+    url: "https://www.britannica.com/biography/Hans-Bethe"
