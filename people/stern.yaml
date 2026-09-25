@@ -1,0 +1,52 @@
+id: stern
+name: "Otto Stern"
+display_name: "Otto Stern"
+born:
+  date: "1888-02-17"
+  year: 1888
+  precision: day
+died:
+  date: "1969-08-17"
+  year: 1969
+  precision: day
+place_association: "Żory; Frankfurt; Hamburg; Pittsburgh"
+fields: [physics, quantum_mechanics, molecular_beams, atomic_physics, experimental_science]
+image: null
+summary: "Niemiecko-amerykański fizyk eksperymentalny, pionier metod wiązek molekularnych. Eksperyment Sterna-Gerlacha ujawnił kwantowanie orientacji momentu magnetycznego i stał się jednym z klasycznych doświadczeń mechaniki kwantowej."
+summary_original: "German-American experimental physicist and pioneer of molecular-beam methods. The Stern–Gerlach experiment revealed space quantization of magnetic moments and became a classic experiment of quantum mechanics."
+works:
+  - title: "Eksperymentalny dowód kwantowania kierunkowego w polu magnetycznym"
+    original_title: "Der experimentelle Nachweis der Richtungsquantelung im Magnetfeld"
+    year: 1922
+    precision: year
+    type: scientific_treatise
+    publication_note: "Praca z Waltherem Gerlachem."
+    publication_note_original: "Work with Walther Gerlach."
+ideas:
+  - name: "Eksperyment Sterna-Gerlacha"
+    original_name: "Stern–Gerlach experiment"
+    wikipedia: "https://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment"
+    summary: "Wiązka atomów w niejednorodnym polu magnetycznym rozdziela się na dyskretne składowe zamiast tworzyć ciągłe rozmycie."
+    summary_original: "An atomic beam in an inhomogeneous magnetic field splits into discrete components rather than a continuous spread."
+  - name: "Metoda wiązek molekularnych"
+    original_name: "Molecular beam method"
+    summary: "Stern rozwinął bardzo precyzyjne techniki badania własności atomów i cząsteczek w wiązkach w próżni."
+    summary_original: "Stern developed highly precise methods for studying atoms and molecules in beams in vacuum."
+events:
+  - year: 1922
+    precision: year
+    title: "Eksperyment Sterna-Gerlacha"
+    original_title: "Stern–Gerlach experiment"
+    summary: "Doświadczenie dostarczyło spektakularnego dowodu dyskretności kwantowej momentu magnetycznego."
+    summary_original: "The experiment provided striking evidence of quantum discreteness in magnetic moment."
+  - year: 1943
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Stern został nagrodzony za wkład w rozwój metody wiązek molekularnych i odkrycie momentu magnetycznego protonu."
+    summary_original: "Stern was honored for development of the molecular-beam method and discovery of the proton's magnetic moment."
+sources:
+  - title: "Nobel Prize — Otto Stern"
+    url: "https://www.nobelprize.org/prizes/physics/1943/stern/facts/"
+  - title: "Encyclopaedia Britannica — Otto Stern"
+    url: "https://www.britannica.com/biography/Otto-Stern"
