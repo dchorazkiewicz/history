@@ -1,0 +1,80 @@
+id: fibonacci
+name: "Leonardo of Pisa (Fibonacci)"
+display_name: "Fibonacci"
+born:
+  year: 1170
+  precision: approximate
+  note: "Data urodzenia jest przybliżona."
+  note_original: "The birth date is approximate."
+died:
+  year: 1250
+  precision: approximate
+  note: "Data śmierci jest przybliżona."
+  note_original: "The death date is approximate."
+place_association: "Piza; Bugia (Béjaïa); basen Morza Śródziemnego"
+fields: [mathematics, arithmetic, algebra, number_theory, geometry, commercial_mathematics]
+image: null
+summary: "Włoski matematyk znany jako Leonardo z Pizy. Dzięki kontaktom handlowym i nauce w Afryce Północnej poznał matematykę świata islamu, a w Liber Abaci przedstawił łacińskiej Europie praktyczne zalety systemu indoarabskiego i rozwiniętych metod algebraicznych."
+summary_original: "Italian mathematician known as Leonardo of Pisa. Through commercial contacts and study in North Africa he encountered mathematics of the Islamic world, and in the Liber Abaci presented Latin Europe with the practical advantages of Hindu-Arabic numerals and advanced algebraic methods."
+works:
+  - title: "Księga rachunku"
+    original_title: "Liber Abaci"
+    wikipedia: "https://en.wikipedia.org/wiki/Liber_Abaci"
+    year: 1202
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Pierwsza wersja powstała w 1202 r.; Fibonacci przygotował gruntownie zrewidowane wydanie w 1228 r."
+    publication_note_original: "The first version was written in 1202; Fibonacci produced a substantially revised edition in 1228."
+  - title: "Praktyka geometrii"
+    original_title: "Practica Geometriae"
+    year: 1220
+    precision: year
+    type: mathematical_treatise
+  - title: "Flos"
+    original_title: "Flos"
+    year: 1225
+    precision: year
+    type: mathematical_treatise
+  - title: "Księga kwadratów"
+    original_title: "Liber Quadratorum"
+    year: 1225
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Upowszechnianie cyfr indoarabskich w Europie"
+    original_name: "Spread of Hindu-Arabic numerals in Europe"
+    summary: "Liber Abaci pokazywał zalety systemu pozycyjnego w handlu, przeliczaniu walut, miarach, procentach i rachunku codziennym."
+    summary_original: "The Liber Abaci demonstrated the advantages of positional notation in commerce, currency conversion, measures, interest and everyday computation."
+  - name: "Ciąg Fibonacciego"
+    original_name: "Fibonacci sequence"
+    wikipedia: "https://en.wikipedia.org/wiki/Fibonacci_sequence"
+    summary: "Słynny ciąg pojawia się w Liber Abaci w modelowym problemie o rozmnażaniu królików. Sam ciąg był znany wcześniej w matematyce indyjskiej, ale dzieło Fibonacciego rozsławiło go w Europie."
+    summary_original: "The famous sequence appears in the Liber Abaci in a model problem about rabbit reproduction. The sequence was known earlier in Indian mathematics, but Fibonacci's work made it famous in Europe."
+  - name: "Transfer matematyki między światem islamu a łacińską Europą"
+    original_name: "Transmission of mathematics from the Islamic world to Latin Europe"
+    summary: "Fibonacci czerpał z tradycji arabskiej, w tym z algebry Abu Kamila, i przetwarzał ją na potrzeby europejskich odbiorców."
+    summary_original: "Fibonacci drew on Arabic mathematical traditions, including Abu Kamil's algebra, and adapted them for European readers."
+events:
+  - year: 1190
+    precision: approximate
+    title: "Nauka matematyki w Bugii"
+    original_title: "Study of mathematics in Bugia"
+    summary: "Jako syn urzędnika kupieckiego Fibonacci przebywał w Bugii w Afryce Północnej, gdzie poznał indoarabski system liczbowy i metody rachunkowe."
+    summary_original: "As the son of a commercial official, Fibonacci lived in Bugia in North Africa, where he learned Hindu-Arabic numerals and computational methods."
+  - year: 1202
+    precision: year
+    title: "Pierwsze wydanie Liber Abaci"
+    original_title: "First version of Liber Abaci"
+    summary: "Dzieło stało się jednym z najważniejszych kanałów przekazu nowej arytmetyki i algebry do łacińskiej Europy."
+    summary_original: "The work became one of the most important channels for transmitting new arithmetic and algebra into Latin Europe."
+  - year: 1225
+    precision: year
+    title: "Turniej problemów matematycznych na dworze Fryderyka II"
+    original_title: "Mathematical challenge at the court of Frederick II"
+    summary: "Problemy zadane przez Jana z Palermo stały się impulsem do powstania dzieł Flos i Liber Quadratorum."
+    summary_original: "Problems posed by John of Palermo helped inspire the Flos and Liber Quadratorum."
+sources:
+  - title: "MacTutor — Fibonacci"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/"
+  - title: "MacTutor — Fibonacci sequence"
+    url: "https://mathshistory.st-andrews.ac.uk/Extras/FibonacciSequence/"
