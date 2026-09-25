@@ -82,6 +82,16 @@
     poetry: 'poezja',
     commercial_mathematics: 'matematyka handlowa',
     analysis: 'analiza matematyczna',
+    accounting: 'rachunkowość',
+    art: 'sztuka',
+    perspective: 'perspektywa',
+    probability: 'rachunek prawdopodobieństwa',
+    cryptanalysis: 'kryptoanaliza',
+    complex_numbers: 'liczby zespolone',
+    hydraulics: 'hydraulika',
+    logarithms: 'logarytmy',
+    computational_tools: 'narzędzia obliczeniowe',
+    hydrostatics: 'hydrostatyka',
     geography: 'geografia',
     optics: 'optyka',
     astrology: 'astrologia',
@@ -113,7 +123,12 @@
     mathematical_essay: 'esej matematyczny',
     essay: 'esej',
     philosophical_tale: 'powiastka filozoficzna',
-    reference_work: 'dzieło encyklopedyczne'
+    reference_work: 'dzieło encyklopedyczne',
+    poetry: 'poezja',
+    literature: 'literatura',
+    philosophy: 'filozofia',
+    theology: 'teologia',
+    autobiography: 'autobiografia'
   };
 
   const fieldLabel = x => fieldLabels[x] || String(x).replaceAll('_',' ');
