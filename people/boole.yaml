@@ -1,0 +1,60 @@
+id: boole
+name: "George Boole"
+display_name: "George Boole"
+born:
+  date: "1815-11-02"
+  year: 1815
+  precision: day
+died:
+  date: "1864-12-08"
+  year: 1864
+  precision: day
+place_association: "Lincoln; Cork, Wielka Brytania i Irlandia"
+fields: [mathematics, algebra, logic, probability, philosophy_of_logic, education]
+image: null
+summary: "Angielski matematyk i logik, twórca algebry logiki. Pokazał, że zdania i relacje logiczne można traktować rachunkowo, co położyło fundamenty pod nowoczesną logikę symboliczną, teorię układów cyfrowych i informatykę."
+summary_original: "English mathematician and logician, creator of the algebra of logic. He showed that propositions and logical relations could be treated algebraically, laying foundations for modern symbolic logic, digital circuit theory and computer science."
+works:
+  - title: "Matematyczna analiza logiki"
+    original_title: "The Mathematical Analysis of Logic"
+    year: 1847
+    precision: year
+    type: mathematical_treatise
+  - title: "Badanie praw myślenia"
+    original_title: "An Investigation of the Laws of Thought"
+    wikipedia: "https://en.wikipedia.org/wiki/The_Laws_of_Thought"
+    year: 1854
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Algebra Boole’a"
+    original_name: "Boolean algebra"
+    wikipedia: "https://en.wikipedia.org/wiki/Boolean_algebra"
+    summary: "Boole zapisał relacje logiczne za pomocą działań algebraicznych na wartościach prawdy, tworząc formalizm niezależny od zwykłej arytmetyki liczb."
+    summary_original: "Boole represented logical relations by algebraic operations on truth values, creating a formalism distinct from ordinary numerical arithmetic."
+  - name: "Logika jako rachunek symboliczny"
+    original_name: "Logic as symbolic calculus"
+    summary: "Jego prace były przełomem w traktowaniu rozumowania jako systemu formalnych operacji, co silnie wpłynęło na późniejszą logikę matematyczną."
+    summary_original: "His work was a breakthrough in treating reasoning as a system of formal operations, strongly influencing later mathematical logic."
+  - name: "Związek algebry logicznej z automatyką cyfrową"
+    original_name: "Boolean algebra and digital switching"
+    summary: "Choć Boole nie znał elektroniki, jego algebra została w XX wieku użyta do opisu obwodów przełączających i stała się podstawą logiki cyfrowej."
+    summary_original: "Although Boole knew nothing of electronics, his algebra was applied in the twentieth century to switching circuits and became foundational to digital logic."
+events:
+  - year: 1849
+    precision: year
+    title: "Profesor matematyki w Queen’s College w Cork"
+    original_title: "Professor of mathematics at Queen's College Cork"
+    summary: "Boole objął pierwszą katedrę matematyki nowej uczelni i pozostał z nią związany do końca życia."
+    summary_original: "Boole took the first mathematics chair at the new college and remained there for the rest of his life."
+  - year: 1854
+    precision: year
+    title: "Publikacja Praw myślenia"
+    original_title: "Publication of The Laws of Thought"
+    summary: "Dzieło rozwinęło jego program algebraizacji logiki i probabilistyki."
+    summary_original: "The work expanded his program of algebraizing logic and probability."
+sources:
+  - title: "MacTutor — George Boole"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Boole/"
+  - title: "Wikipedia — George Boole"
+    url: "https://en.wikipedia.org/wiki/George_Boole"
