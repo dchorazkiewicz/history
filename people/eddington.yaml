@@ -1,0 +1,44 @@
+id: eddington
+name: "Arthur Stanley Eddington"
+display_name: "Arthur Eddington"
+born:
+  date: "1882-12-28"
+  year: 1882
+  precision: day
+died:
+  date: "1944-11-22"
+  year: 1944
+  precision: day
+place_association: "Kendal; Cambridge"
+fields: [physics, astronomy, astrophysics, relativity, stellar_structure, philosophy_of_science]
+image: null
+summary: "Brytyjski astrofizyk i astronom, pionier teorii struktury gwiazd i jeden z najważniejszych popularyzatorów ogólnej teorii względności w świecie anglojęzycznym. Kierował obserwacjami zaćmienia Słońca w 1919 r."
+summary_original: "British astrophysicist and astronomer, a pioneer of stellar structure theory and one of the most important advocates of general relativity in the English-speaking world. He led eclipse observations in 1919."
+works:
+  - title: "Wewnętrzna budowa gwiazd"
+    original_title: "The Internal Constitution of the Stars"
+    year: 1926
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Model struktury gwiazd"
+    original_name: "Stellar structure"
+    summary: "Eddington łączył równowagę hydrostatyczną, ciśnienie promieniowania i transport energii, tworząc nowoczesny obraz wnętrza gwiazdy."
+    summary_original: "Eddington combined hydrostatic equilibrium, radiation pressure and energy transport into a modern model of stellar interiors."
+  - name: "Granica Eddingtona"
+    original_name: "Eddington luminosity"
+    wikipedia: "https://en.wikipedia.org/wiki/Eddington_luminosity"
+    summary: "Istnieje charakterystyczna jasność, przy której ciśnienie promieniowania równoważy grawitację działającą na materię."
+    summary_original: "There is a characteristic luminosity at which radiation pressure balances gravity on matter."
+events:
+  - year: 1919
+    precision: year
+    title: "Ekspedycja zaćmieniowa"
+    original_title: "Eclipse expedition"
+    summary: "Eddington kierował jedną z ekspedycji mierzących ugięcie światła gwiazd w pobliżu Słońca."
+    summary_original: "Eddington led one of the expeditions measuring starlight deflection near the Sun."
+sources:
+  - title: "Encyclopaedia Britannica — Arthur Eddington"
+    url: "https://www.britannica.com/biography/Arthur-Eddington"
+  - title: "Wikipedia — Arthur Eddington"
+    url: "https://en.wikipedia.org/wiki/Arthur_Eddington"
