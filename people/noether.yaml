@@ -1,0 +1,60 @@
+id: noether
+name: "Emmy Noether"
+display_name: "Emmy Noether"
+born:
+  date: "1882-03-23"
+  year: 1882
+  precision: day
+died:
+  date: "1935-04-14"
+  year: 1935
+  precision: day
+place_association: "Erlangen; Getynga; Bryn Mawr"
+fields: [mathematics, abstract_algebra, ring_theory, invariant_theory, theoretical_physics, relativity, education]
+image: null
+summary: "Niemiecka matematyczka, jedna z najważniejszych twórczyń abstrakcyjnej algebry i matematycznej fizyki XX wieku. Jej twierdzenia połączyły symetrie z prawami zachowania, a jej prace nad pierścieniami, ideałami i modułami przekształciły język algebry."
+summary_original: "German mathematician, one of the most important creators of abstract algebra and mathematical physics in the twentieth century. Her theorems connected symmetries with conservation laws, while her work on rings, ideals and modules transformed algebraic language."
+works:
+  - title: "Niezmiennicze problemy wariacyjne"
+    original_title: "Invariante Variationsprobleme"
+    wikipedia: "https://en.wikipedia.org/wiki/Noether%27s_theorem"
+    year: 1918
+    precision: year
+    type: mathematical_essay
+  - title: "Teoria ideałów w pierścieniach"
+    original_title: "Idealtheorie in Ringbereichen"
+    year: 1921
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Twierdzenie Noether"
+    original_name: "Noether's theorem"
+    summary: "Każdej ciągłej symetrii działania fizycznego odpowiada prawo zachowania, np. symetrii względem przesunięcia w czasie odpowiada zachowanie energii."
+    summary_original: "Every continuous symmetry of a physical action corresponds to a conservation law; for example, time-translation symmetry corresponds to conservation of energy."
+  - name: "Pierścienie noetherowskie"
+    original_name: "Noetherian rings"
+    wikipedia: "https://en.wikipedia.org/wiki/Noetherian_ring"
+    summary: "Noether wyodrębniła warunek skończonego generowania ideałów, który stał się podstawowym pojęciem współczesnej algebry."
+    summary_original: "Noether isolated a finite-generation condition on ideals that became a basic concept of modern algebra."
+  - name: "Strukturalne podejście do algebry"
+    original_name: "Structural approach to algebra"
+    summary: "Zamiast skupiać się na konkretnych wzorach badała ogólne własności pierścieni, ideałów, modułów i homomorfizmów."
+    summary_original: "Rather than focusing on specific formulas she studied general properties of rings, ideals, modules and homomorphisms."
+events:
+  - year: 1915
+    precision: year
+    title: "Przyjazd do Getyngi"
+    original_title: "Arrival in Göttingen"
+    summary: "Hilbert i Klein zaprosili Noether do pracy nad problemami związanymi z ogólną teorią względności i teorią niezmienników."
+    summary_original: "Hilbert and Klein invited Noether to work on problems connected with general relativity and invariant theory."
+  - year: 1933
+    precision: year
+    title: "Usunięcie z uczelni i emigracja do USA"
+    original_title: "Dismissal and emigration to the United States"
+    summary: "Po wprowadzeniu nazistowskich przepisów antyżydowskich Noether straciła prawo nauczania i wyjechała do Bryn Mawr College."
+    summary_original: "After Nazi anti-Jewish laws were introduced, Noether lost her teaching position and moved to Bryn Mawr College."
+sources:
+  - title: "MacTutor — Emmy Noether"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/"
+  - title: "Wikipedia — Emmy Noether"
+    url: "https://en.wikipedia.org/wiki/Emmy_Noether"
