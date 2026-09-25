@@ -63,6 +63,11 @@ def main() -> None:
             data_file = person.get("data_file")
             if data_file and not (ROOT / data_file).exists():
                 fail(f"{person_id}: data_file does not exist: {data_file}")
+        elif person_id in yaml_people:
+            fail(
+                f"{person_id}: {yaml_people[person_id].relative_to(ROOT)} exists "
+                f"but registry status is {person.get('status')!r}; expected described/reviewed"
+            )
 
     canon_count = 0
     membership_count = 0
