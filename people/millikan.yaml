@@ -1,0 +1,50 @@
+id: millikan
+name: "Robert Andrews Millikan"
+display_name: "Robert Millikan"
+born:
+  date: "1868-03-22"
+  year: 1868
+  precision: day
+died:
+  date: "1953-12-19"
+  year: 1953
+  precision: day
+place_association: "Morrison; Chicago; Pasadena"
+fields: [physics, electricity, atomic_physics, photoelectric_effect, experimental_science, education]
+image: null
+summary: "Amerykański fizyk eksperymentalny, znany z pomiaru elementarnego ładunku elektrycznego oraz precyzyjnych badań efektu fotoelektrycznego. Odegrał też kluczową rolę w rozwoju Caltech jako ośrodka fizyki."
+summary_original: "American experimental physicist known for measuring the elementary electric charge and for precise studies of the photoelectric effect. He also played a key role in building Caltech into a major physics center."
+works:
+  - title: "O elementarnym ładunku elektrycznym i stałej Avogadra"
+    original_title: "On the Elementary Electrical Charge and the Avogadro Constant"
+    year: 1913
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Eksperyment kropli oleju"
+    original_name: "Oil-drop experiment"
+    wikipedia: "https://en.wikipedia.org/wiki/Oil_drop_experiment"
+    summary: "Millikan mierzył ruch naładowanych kropelek oleju w polu elektrycznym i wykazał kwantowanie ładunku elektrycznego."
+    summary_original: "Millikan measured charged oil droplets in an electric field and demonstrated quantization of electric charge."
+  - name: "Precyzyjne badania efektu fotoelektrycznego"
+    original_name: "Precision photoelectric measurements"
+    summary: "Jego pomiary potwierdziły liniową zależność przewidywaną przez równanie Einsteina dla efektu fotoelektrycznego."
+    summary_original: "His measurements confirmed the linear relation predicted by Einstein's photoelectric equation."
+events:
+  - year: 1910
+    precision: approximate
+    title: "Eksperymenty kropli oleju"
+    original_title: "Oil-drop experiments"
+    summary: "Seria pomiarów ustaliła wartość elementarnego ładunku elektrycznego z wysoką dokładnością."
+    summary_original: "A series of measurements established the elementary electric charge with high precision."
+  - year: 1923
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Millikan został nagrodzony za badania ładunku elementarnego i efektu fotoelektrycznego."
+    summary_original: "Millikan was honored for work on the elementary charge and the photoelectric effect."
+sources:
+  - title: "Nobel Prize — Robert A. Millikan"
+    url: "https://www.nobelprize.org/prizes/physics/1923/millikan/facts/"
+  - title: "Encyclopaedia Britannica — Robert Millikan"
+    url: "https://www.britannica.com/biography/Robert-Andrews-Millikan"
