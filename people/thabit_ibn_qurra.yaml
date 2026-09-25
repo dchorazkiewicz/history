@@ -1,0 +1,75 @@
+id: thabit_ibn_qurra
+name: "Thabit ibn Qurra"
+display_name: "Thabit ibn Qurra"
+born:
+  year: 836
+  precision: year
+died:
+  date: "0901-02-18"
+  year: 901
+  precision: day
+place_association: "Harran; Bagdad, Kalifat Abbasydów"
+fields: [mathematics, number_theory, geometry, astronomy, mechanics, statics, medicine, translation, philosophy]
+image: null
+summary: "Uczony sabiijski działający w Bagdadzie, matematyk, astronom, lekarz i tłumacz. Rozwijał teorię liczb, geometrię, statykę i astronomię, a dzięki znajomości greki, syriackiego i arabskiego odegrał kluczową rolę w przekazie i rewizji greckich dzieł matematycznych."
+summary_original: "Sabian scholar active in Baghdad, mathematician, astronomer, physician and translator. He developed number theory, geometry, statics and astronomy, and through his command of Greek, Syriac and Arabic played a major role in transmitting and revising Greek mathematical works."
+works:
+  - title: "Księga o liczbach zaprzyjaźnionych"
+    original_title: "Treatise on amicable numbers"
+    year: 870
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Thabit podał regułę generującą pewne pary liczb zaprzyjaźnionych, dziś nazywaną twierdzeniem Thabita ibn Qurry."
+    publication_note_original: "Thabit gave a rule generating certain pairs of amicable numbers, now known as Thabit ibn Qurra's theorem."
+  - title: "Księga o wadze"
+    original_title: "Kitab al-Qarastun"
+    year: 880
+    precision: approximate
+    type: scientific_treatise
+    publication_note: "Traktat o równowadze i mechanice, później silnie oddziałujący również na łacińską tradycję średniowieczną."
+    publication_note_original: "A treatise on the balance and mechanics that later strongly influenced the Latin medieval tradition."
+  - title: "Rewizja arabskiego przekładu Elementów Euklidesa"
+    original_title: "Revision of the Arabic translation of Euclid's Elements"
+    year: 880
+    precision: approximate
+    type: mathematical_treatise
+    publication_note: "Thabit zrewidował przekład Hunajna ibn Ishaka; późniejsze arabskie wersje Elementów w dużej mierze wywodzą się z tej redakcji."
+    publication_note_original: "Thabit revised Hunayn ibn Ishaq's translation; later Arabic versions of the Elements largely descend from this recension."
+ideas:
+  - name: "Twierdzenie o liczbach zaprzyjaźnionych"
+    original_name: "Thabit ibn Qurra's theorem on amicable numbers"
+    wikipedia: "https://en.wikipedia.org/wiki/Thabit_ibn_Qurra%27s_theorem"
+    summary: "Podał konstrukcję pozwalającą otrzymywać niektóre pary liczb zaprzyjaźnionych, rozwijając antyczną teorię liczb w nowym kierunku."
+    summary_original: "He gave a construction producing certain pairs of amicable numbers, extending ancient number theory in a new direction."
+  - name: "Uogólnienia twierdzenia Pitagorasa"
+    original_name: "Generalizations of the Pythagorean theorem"
+    summary: "Badał geometryczne uogólnienia relacji pitagorejskiej i problemy podobieństwa figur."
+    summary_original: "He studied geometric generalizations of the Pythagorean relation and problems involving similarity."
+  - name: "Matematyczna statyka"
+    original_name: "Mathematical statics"
+    summary: "W pracach o wadze łączył rozumowanie geometryczne z analizą równowagi i dźwigni, tworząc ważne ogniwo między mechaniką grecką a późniejszą nauką średniowieczną."
+    summary_original: "In works on the balance he combined geometric reasoning with analysis of equilibrium and levers, forming an important link between Greek mechanics and later medieval science."
+  - name: "Przekład i krytyczna redakcja tekstów greckich"
+    original_name: "Translation and critical revision of Greek texts"
+    summary: "Nie był jedynie tłumaczem: poprawiał i komentował teksty Euklidesa, Archimedesa, Apoloniusza i Ptolemeusza, wpływając na ich późniejszą recepcję."
+    summary_original: "He was not merely a translator: he corrected and commented on works of Euclid, Archimedes, Apollonius and Ptolemy, shaping their later reception."
+events:
+  - year: 850
+    precision: approximate
+    title: "Przeniesienie do Bagdadu"
+    original_title: "Move to Baghdad"
+    summary: "Muhammad ibn Musa z rodu Banu Musa dostrzegł jego talent i sprowadził go do Bagdadu, gdzie Thabit wszedł w środowisko tłumaczy i uczonych."
+    summary_original: "Muhammad ibn Musa of the Banu Musa recognized his talent and brought him to Baghdad, where Thabit joined the scholarly translation milieu."
+  - year: 880
+    precision: approximate
+    title: "Działalność jako astronom dworski"
+    original_title: "Service as court astronomer"
+    summary: "Thabit został astronomem na dworze kalifa al-Mu'tadida i należał do najbardziej cenionych uczonych Bagdadu."
+    summary_original: "Thabit became a court astronomer under Caliph al-Mu'tadid and was among Baghdad's most highly regarded scholars."
+sources:
+  - title: "MacTutor — Thabit ibn Qurra"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Thabit/"
+  - title: "MacTutor — Greek sources and Arabic transmission"
+    url: "https://mathshistory.st-andrews.ac.uk/HistTopics/Greek_sources_1/"
+  - title: "MacTutor — mechanics tradition"
+    url: "https://mathshistory.st-andrews.ac.uk/Extras/Knorr_books/"
