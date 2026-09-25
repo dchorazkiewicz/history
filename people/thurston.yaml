@@ -1,0 +1,56 @@
+id: thurston
+name: "William Paul Thurston"
+display_name: "William Thurston"
+born:
+  date: "1946-10-30"
+  year: 1946
+  precision: day
+died:
+  date: "2012-08-21"
+  year: 2012
+  precision: day
+place_association: "Waszyngton; Berkeley; Princeton; Cornell"
+fields: [mathematics, topology, geometry, hyperbolic_geometry, three_manifolds, dynamical_systems, education]
+image: null
+summary: "Amerykański matematyk, który zmienił badania trójwymiarowych rozmaitości przez wprowadzenie geometrycznego sposobu patrzenia na topologię. Jego program geometrizacji połączył topologię, geometrię hiperboliczną i dynamikę i doprowadził później do rozwiązania hipotezy Poincarégo przez Perelmana."
+summary_original: "American mathematician who transformed the study of three-dimensional manifolds by introducing a geometric viewpoint into topology. His geometrization program connected topology, hyperbolic geometry and dynamics and later led to Perelman's proof of the Poincaré conjecture."
+works:
+  - title: "Geometria i topologia trójwymiarowych rozmaitości"
+    original_title: "The Geometry and Topology of Three-Manifolds"
+    year: 1979
+    precision: approximate
+    type: manuscript
+    publication_note: "Wpływowe notatki wykładowe z Princeton, krążące przez lata jako nieformalny podstawowy tekst dziedziny."
+    publication_note_original: "Influential Princeton lecture notes that circulated for years as an informal foundational text of the field."
+ideas:
+  - name: "Hipoteza geometrizacji Thurstona"
+    original_name: "Thurston geometrization conjecture"
+    wikipedia: "https://en.wikipedia.org/wiki/Geometrization_conjecture"
+    summary: "Każda zwarta trójrozmaitość może zostać rozłożona na części niosące jedną z ośmiu standardowych geometrii."
+    summary_original: "Every compact 3-manifold can be decomposed into pieces carrying one of eight standard geometries."
+  - name: "Geometria hiperboliczna trójrozmaitości"
+    original_name: "Hyperbolic 3-manifolds"
+    summary: "Thurston pokazał, że ogromna część topologii trójwymiarowej jest naturalnie opisywana geometrią hiperboliczną."
+    summary_original: "Thurston showed that a vast part of three-dimensional topology is naturally described by hyperbolic geometry."
+  - name: "Norma Thurstona"
+    original_name: "Thurston norm"
+    summary: "Niezmiennik mierzy złożoność powierzchni reprezentujących klasy homologii w trójrozmaitości."
+    summary_original: "The invariant measures the complexity of surfaces representing homology classes in a 3-manifold."
+events:
+  - year: 1974
+    precision: year
+    title: "Profesor w Princeton"
+    original_title: "Professor at Princeton"
+    summary: "Thurston stworzył wokół siebie dynamiczne środowisko badawcze topologii trójwymiarowej."
+    summary_original: "Thurston built a dynamic research environment around three-dimensional topology."
+  - year: 1982
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Otrzymał Medal Fieldsa za głębokie i oryginalne prace w topologii dwu- i trójwymiarowej."
+    summary_original: "He received the Fields Medal for deep and original work on two- and three-dimensional manifolds."
+sources:
+  - title: "MacTutor — William Thurston"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Thurston/"
+  - title: "Wikipedia — William Thurston"
+    url: "https://en.wikipedia.org/wiki/William_Thurston"
