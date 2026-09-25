@@ -1,0 +1,49 @@
+id: friedmann
+name: "Alexander Alexandrovich Friedmann"
+display_name: "Aleksandr Friedmann"
+born:
+  date: "1888-06-16"
+  year: 1888
+  precision: day
+died:
+  date: "1925-09-16"
+  year: 1925
+  precision: day
+place_association: "Petersburg; Perm"
+fields: [physics, mathematics, cosmology, relativity, meteorology, fluid_dynamics]
+image: null
+summary: "Rosyjski matematyk i fizyk, który jako pierwszy znalazł ważną klasę dynamicznych rozwiązań równań Einsteina opisujących rozszerzający się lub kurczący Wszechświat. Jego prace stały się fundamentem nowoczesnej kosmologii."
+summary_original: "Russian mathematician and physicist who first found an important class of dynamic solutions to Einstein's equations describing expanding or contracting universes. His work became foundational to modern cosmology."
+works:
+  - title: "O krzywiźnie przestrzeni"
+    original_title: "Über die Krümmung des Raumes"
+    year: 1922
+    precision: year
+    type: scientific_treatise
+  - title: "O możliwości świata o stałej ujemnej krzywiźnie"
+    original_title: "Über die Möglichkeit einer Welt mit konstanter negativer Krümmung des Raumes"
+    year: 1924
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Równania Friedmanna"
+    original_name: "Friedmann equations"
+    wikipedia: "https://en.wikipedia.org/wiki/Friedmann_equations"
+    summary: "Równania opisują ewolucję skali jednorodnego i izotropowego Wszechświata w ogólnej teorii względności."
+    summary_original: "The equations describe the evolution of the scale factor of a homogeneous and isotropic universe in general relativity."
+  - name: "Dynamiczny Wszechświat"
+    original_name: "Dynamic universe"
+    summary: "Friedmann pokazał, że równania Einsteina dopuszczają kosmos zmieniający rozmiar w czasie, a nie tylko model statyczny."
+    summary_original: "Friedmann showed that Einstein's equations admit universes whose size changes in time rather than only static models."
+events:
+  - year: 1922
+    precision: year
+    title: "Publikacja dynamicznego modelu kosmologicznego"
+    original_title: "Publication of dynamic cosmological model"
+    summary: "Praca poprzedziła obserwacyjne odkrycie ekspansji Wszechświata."
+    summary_original: "The work preceded observational discovery of cosmic expansion."
+sources:
+  - title: "MacTutor — Alexander Friedmann"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Friedmann/"
+  - title: "Wikipedia — Alexander Friedmann"
+    url: "https://en.wikipedia.org/wiki/Alexander_Friedmann"
