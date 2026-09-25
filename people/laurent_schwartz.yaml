@@ -1,0 +1,46 @@
+id: laurent_schwartz
+name: "Laurent Schwartz"
+display_name: "Laurent Schwartz"
+born:
+  date: "1915-03-05"
+  year: 1915
+  precision: day
+died:
+  date: "2002-07-04"
+  year: 2002
+  precision: day
+place_association: "Paryż; Nancy; Grenoble"
+fields: [mathematics, analysis, distributions, partial_differential_equations, functional_analysis, education, public_intellectual]
+image: null
+summary: "Francuski matematyk, twórca teorii dystrybucji, która nadała rygor pojęciom takim jak delta Diraca i umożliwiła jednolity język dla równań różniczkowych cząstkowych oraz fizyki matematycznej."
+summary_original: "French mathematician and creator of distribution theory, which gave rigor to objects such as the Dirac delta and provided a unified language for partial differential equations and mathematical physics."
+works:
+  - title: "Teoria dystrybucji"
+    original_title: "Théorie des distributions"
+    year: 1950
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Dwa tomy ukazały się w latach 1950–1951."
+    publication_note_original: "Two volumes appeared in 1950–1951."
+ideas:
+  - name: "Dystrybucje"
+    original_name: "Distributions"
+    wikipedia: "https://en.wikipedia.org/wiki/Distribution_(mathematics)"
+    summary: "Schwartz zdefiniował uogólnione funkcje jako funkcjonały działające na funkcjach testowych, co pozwoliło różniczkować obiekty niebędące zwykłymi funkcjami."
+    summary_original: "Schwartz defined generalized functions as functionals on test functions, allowing differentiation of objects that are not ordinary functions."
+  - name: "Delta Diraca jako obiekt matematyczny"
+    original_name: "Dirac delta as a mathematical object"
+    summary: "Teoria dystrybucji nadała ścisły sens formalnym konstrukcjom od dawna używanym przez fizyków."
+    summary_original: "Distribution theory gave rigorous meaning to formal constructions long used by physicists."
+events:
+  - year: 1950
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Schwartz otrzymał Medal Fieldsa za stworzenie teorii dystrybucji."
+    summary_original: "Schwartz received the Fields Medal for creating distribution theory."
+sources:
+  - title: "MacTutor — Laurent Schwartz"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Schwartz/"
+  - title: "Wikipedia — Laurent Schwartz"
+    url: "https://en.wikipedia.org/wiki/Laurent_Schwartz"
