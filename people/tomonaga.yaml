@@ -1,0 +1,50 @@
+id: tomonaga
+name: "Shinichiro Tomonaga"
+display_name: "Shin’ichirō Tomonaga"
+born:
+  date: "1906-03-31"
+  year: 1906
+  precision: day
+died:
+  date: "1979-07-08"
+  year: 1979
+  precision: day
+place_association: "Tokio; Kioto"
+fields: [physics, quantum_electrodynamics, quantum_field_theory, particle_physics, theoretical_physics]
+image: null
+summary: "Japoński fizyk teoretyczny, który niezależnie rozwinął relatywistyczną, renormalizowaną elektrodynamikę kwantową. Jego formalizm był równoważny podejściom Schwingera i Feynmana."
+summary_original: "Japanese theoretical physicist who independently developed a relativistic renormalized quantum electrodynamics. His formalism was equivalent to the approaches of Schwinger and Feynman."
+works:
+  - title: "O relatywistycznie niezmiennym sformułowaniu kwantowej teorii pola"
+    original_title: "On a Relativistically Invariant Formulation of the Quantum Theory of Wave Fields"
+    year: 1946
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Równanie Tomonagi-Schwingera"
+    original_name: "Tomonaga–Schwinger equation"
+    wikipedia: "https://en.wikipedia.org/wiki/Tomonaga%E2%80%93Schwinger_equation"
+    summary: "Uogólnia równanie Schrödingera na relatywistyczną teorię pola, opisując ewolucję stanu między dowolnymi powierzchniami czasopodobnymi."
+    summary_original: "It generalizes the Schrödinger equation to relativistic field theory by describing evolution between arbitrary spacelike hypersurfaces."
+  - name: "Renormalizacja w QED"
+    original_name: "Renormalization in QED"
+    summary: "Tomonaga i jego szkoła opracowali metody usuwania nieskończoności z obliczeń elektrodynamiki kwantowej."
+    summary_original: "Tomonaga and his school developed methods to remove infinities from quantum-electrodynamic calculations."
+events:
+  - year: 1946
+    precision: year
+    title: "Relatywistyczna teoria pola Tomonagi"
+    original_title: "Tomonaga's relativistic field theory"
+    summary: "Prace powojenne doprowadziły do kompletnego sformułowania nowoczesnej QED."
+    summary_original: "Postwar work led to a complete formulation of modern QED."
+  - year: 1965
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Tomonaga podzielił nagrodę z Schwingerem i Feynmanem."
+    summary_original: "Tomonaga shared the prize with Schwinger and Feynman."
+sources:
+  - title: "Nobel Prize — Shin’ichirō Tomonaga"
+    url: "https://www.nobelprize.org/prizes/physics/1965/tomonaga/facts/"
+  - title: "Encyclopaedia Britannica — Tomonaga Shin'ichirō"
+    url: "https://www.britannica.com/biography/Tomonaga-Shinichiro"
