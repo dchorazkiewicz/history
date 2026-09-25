@@ -1,0 +1,59 @@
+id: bombelli
+name: "Rafael Bombelli"
+display_name: "Rafael Bombelli"
+born:
+  year: 1526
+  precision: year
+died:
+  year: 1572
+  precision: year
+place_association: "Bolonia; Rzym, Państwo Kościelne"
+fields: [mathematics, algebra, complex_numbers, engineering, hydraulics, translation]
+image: null
+summary: "Włoski matematyk i inżynier, autor wpływowej Algebry. Jako pierwszy przedstawił spójne reguły rachunku na liczbach, które dziś nazywamy zespolonymi, i pokazał, że pierwiastki z liczb ujemnych mogą być użyteczne przy uzyskiwaniu rzeczywistych rozwiązań równań sześciennych."
+summary_original: "Italian mathematician and engineer, author of the influential Algebra. He was the first to present coherent rules for calculations with what are now called complex numbers and showed that square roots of negative numbers can be useful in obtaining real solutions of cubic equations."
+works:
+  - title: "Algebra"
+    original_title: "L'Algebra"
+    wikipedia: "https://en.wikipedia.org/wiki/Rafael_Bombelli#Algebra"
+    year: 1572
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Pierwsze trzy księgi ukazały się w 1572 r.; planowane księgi geometryczne IV–V pozostały niedokończone i zostały odnalezione w rękopisie dopiero w XX wieku."
+    publication_note_original: "The first three books appeared in 1572; planned geometric Books IV–V remained unfinished and were rediscovered in manuscript only in the twentieth century."
+ideas:
+  - name: "Reguły rachunku na liczbach zespolonych"
+    original_name: "Rules for complex-number arithmetic"
+    wikipedia: "https://en.wikipedia.org/wiki/Complex_number"
+    summary: "Bombelli podał reguły dodawania, odejmowania i mnożenia wyrażeń zawierających pierwiastki z liczb ujemnych, traktując je jako konsekwentne obiekty rachunku."
+    summary_original: "Bombelli gave rules for adding, subtracting and multiplying expressions involving square roots of negative numbers, treating them as consistent computational objects."
+  - name: "Casus irreducibilis równania sześciennego"
+    original_name: "Casus irreducibilis of the cubic"
+    summary: "Pokazał, jak przejść przez liczby zespolone w formule Cardana i otrzymać poprawne rzeczywiste rozwiązania równania sześciennego."
+    summary_original: "He showed how to pass through complex quantities in Cardano's formula and recover correct real solutions of a cubic."
+  - name: "Nowocześniejsza notacja algebraiczna"
+    original_name: "More advanced algebraic notation"
+    summary: "Stosował bardziej rozwiniętą notację niż wielu poprzedników, wspierając przejście od algebry retorycznej do symbolicznej."
+    summary_original: "He used more developed notation than many predecessors, helping the transition from rhetorical to symbolic algebra."
+  - name: "Recepcja Diofantosa"
+    original_name: "Reception of Diophantus"
+    summary: "Wspólnie z Antonio Marią Pazzim tłumaczył Arytmetykę Diofantosa, a wiele problemów z Diofantosa włączył do własnej Algebry."
+    summary_original: "Together with Antonio Maria Pazzi he translated Diophantus's Arithmetica, and many Diophantine problems entered his own Algebra."
+events:
+  - year: 1548
+    precision: approximate
+    title: "Praca przy projektach melioracyjnych"
+    original_title: "Work on reclamation engineering"
+    summary: "Bombelli działał jako inżynier i konsultant przy projektach osuszania terenów Państwa Kościelnego."
+    summary_original: "Bombelli worked as an engineer and consultant on land-reclamation projects in the Papal States."
+  - year: 1572
+    precision: year
+    title: "Publikacja Algebry"
+    original_title: "Publication of Algebra"
+    summary: "Ukazały się trzy pierwsze księgi dzieła, które nadały liczbom zespolonym trwałe miejsce w praktyce algebraicznej."
+    summary_original: "The first three books appeared, giving complex quantities a durable place in algebraic practice."
+sources:
+  - title: "MacTutor — Rafael Bombelli"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Bombelli/"
+  - title: "Wikipedia — Rafael Bombelli"
+    url: "https://en.wikipedia.org/wiki/Rafael_Bombelli"
