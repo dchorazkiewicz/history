@@ -295,8 +295,9 @@ people:
 
   - id: fermat
     name: "Pierre de Fermat"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/fermat.yaml"
+    focus: [mathematics, physics, law]
 
   - id: pascal
     name: "Blaise Pascal"
@@ -306,8 +307,9 @@ people:
 
   - id: cavalieri
     name: "Bonaventura Cavalieri"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/cavalieri.yaml"
+    focus: [mathematics, astronomy, theology]
 
   - id: wallis
     name: "John Wallis"
@@ -377,13 +379,15 @@ people:
 
   - id: monge
     name: "Gaspard Monge"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/monge.yaml"
+    focus: [mathematics, engineering, politics]
 
   - id: legendre
     name: "Adrien-Marie Legendre"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/legendre.yaml"
+    focus: [mathematics, astronomy]
 
   - id: gauss
     name: "Carl Friedrich Gauss"
@@ -795,87 +799,104 @@ people:
 
   - id: paul_cohen
     name: "Paul Cohen"
-    status: pending
+    status: described
+    data_file: "people/paul_cohen.yaml"
     focus: [mathematics]
 
   - id: conway
     name: "John Horton Conway"
-    status: pending
+    status: described
+    data_file: "people/conway.yaml"
     focus: [mathematics]
 
   - id: thurston
     name: "William Thurston"
-    status: pending
+    status: described
+    data_file: "people/thurston.yaml"
     focus: [mathematics]
 
   - id: langlands
     name: "Robert Langlands"
-    status: pending
+    status: described
+    data_file: "people/langlands.yaml"
     focus: [mathematics]
 
   - id: deligne
     name: "Pierre Deligne"
-    status: pending
+    status: described
+    data_file: "people/deligne.yaml"
     focus: [mathematics]
 
   - id: wiles
     name: "Andrew Wiles"
-    status: pending
+    status: described
+    data_file: "people/wiles.yaml"
     focus: [mathematics]
 
   - id: perelman
     name: "Grigori Perelman"
-    status: pending
+    status: described
+    data_file: "people/perelman.yaml"
     focus: [mathematics]
 
   - id: kontsevich
     name: "Maxim Kontsevich"
-    status: pending
-    focus: [mathematics]
+    status: described
+    data_file: "people/kontsevich.yaml"
+    focus: [mathematics, physics]
 
   - id: mirzakhani
     name: "Maryam Mirzakhani"
-    status: pending
+    status: described
+    data_file: "people/mirzakhani.yaml"
     focus: [mathematics]
 
   - id: tao
     name: "Terence Tao"
-    status: pending
+    status: described
+    data_file: "people/tao.yaml"
     focus: [mathematics]
 
   - id: scholze
     name: "Peter Scholze"
-    status: pending
+    status: described
+    data_file: "people/scholze.yaml"
     focus: [mathematics]
 
   - id: voevodsky
     name: "Vladimir Voevodsky"
-    status: pending
+    status: described
+    data_file: "people/voevodsky.yaml"
     focus: [mathematics]
 
   - id: gowers
     name: "Timothy Gowers"
-    status: pending
+    status: described
+    data_file: "people/gowers.yaml"
     focus: [mathematics]
 
   - id: ngo_bao_chau
     name: "Ngô Bảo Châu"
-    status: pending
+    status: described
+    data_file: "people/ngo_bao_chau.yaml"
     focus: [mathematics]
 
   - id: bhargava
     name: "Manjul Bhargava"
-    status: pending
+    status: described
+    data_file: "people/bhargava.yaml"
     focus: [mathematics]
 
   - id: venkatesh
     name: "Akshay Venkatesh"
-    status: pending
+    status: described
+    data_file: "people/venkatesh.yaml"
     focus: [mathematics]
 
   - id: june_huh
     name: "June Huh"
-    status: pending
+    status: described
+    data_file: "people/june_huh.yaml"
     focus: [mathematics]
 
 
