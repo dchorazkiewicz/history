@@ -1145,62 +1145,74 @@ people:
 
   - id: millikan
     name: "Robert Millikan"
-    status: pending
+    status: described
+    data_file: "people/millikan.yaml"
     focus: [physics]
 
   - id: kamerlingh_onnes
     name: "Heike Kamerlingh Onnes"
-    status: pending
+    status: described
+    data_file: "people/kamerlingh_onnes.yaml"
     focus: [physics]
 
   - id: bohr
     name: "Niels Bohr"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/bohr.yaml"
+    focus: [physics, philosophy]
 
   - id: sommerfeld
     name: "Arnold Sommerfeld"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/sommerfeld.yaml"
+    focus: [physics, mathematics]
 
   - id: bose
     name: "Satyendra Nath Bose"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/bose.yaml"
+    focus: [physics, mathematics]
 
   - id: de_broglie
     name: "Louis de Broglie"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/de_broglie.yaml"
+    focus: [physics, philosophy]
 
   - id: born
     name: "Max Born"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/born.yaml"
+    focus: [physics, mathematics, philosophy]
 
   - id: heisenberg
     name: "Werner Heisenberg"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/heisenberg.yaml"
+    focus: [physics, philosophy]
 
   - id: schrodinger
     name: "Erwin Schrödinger"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/schrodinger.yaml"
+    focus: [physics, philosophy, biology]
 
   - id: pauli
     name: "Wolfgang Pauli"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/pauli.yaml"
+    focus: [physics, philosophy]
 
   - id: dirac
     name: "Paul Dirac"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/dirac.yaml"
+    focus: [physics, mathematics]
 
   - id: fermi
     name: "Enrico Fermi"
-    status: pending
+    status: described
+    data_file: "people/fermi.yaml"
     focus: [physics]
 
   - id: raman
