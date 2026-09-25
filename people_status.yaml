@@ -1043,88 +1043,105 @@ people:
 
   - id: maxwell
     name: "James Clerk Maxwell"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/maxwell.yaml"
+    focus: [physics, mathematics]
 
   - id: stokes
     name: "George Gabriel Stokes"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/stokes.yaml"
+    focus: [physics, mathematics]
 
   - id: boltzmann
     name: "Ludwig Boltzmann"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/boltzmann.yaml"
+    focus: [physics, mathematics, philosophy]
 
   - id: gibbs
     name: "Josiah Willard Gibbs"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/gibbs.yaml"
+    focus: [physics, mathematics]
 
   - id: hertz
     name: "Heinrich Hertz"
-    status: pending
+    status: described
+    data_file: "people/hertz.yaml"
     focus: [physics]
 
   - id: mach
     name: "Ernst Mach"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/mach.yaml"
+    focus: [physics, philosophy]
 
   - id: michelson
     name: "Albert A. Michelson"
-    status: pending
+    status: described
+    data_file: "people/michelson.yaml"
     focus: [physics]
 
   - id: lorentz
     name: "Hendrik Lorentz"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/lorentz.yaml"
+    focus: [physics, mathematics]
 
   - id: rayleigh
     name: "Lord Rayleigh"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/rayleigh.yaml"
+    focus: [physics, mathematics]
 
   - id: rontgen
     name: "Wilhelm Röntgen"
-    status: pending
+    status: described
+    data_file: "people/rontgen.yaml"
     focus: [physics]
 
   - id: becquerel
     name: "Henri Becquerel"
-    status: pending
+    status: described
+    data_file: "people/becquerel.yaml"
     focus: [physics]
 
   - id: marie_curie
     name: "Maria Skłodowska-Curie"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/marie_curie.yaml"
+    focus: [physics, chemistry, medicine]
 
   - id: pierre_curie
     name: "Pierre Curie"
-    status: pending
+    status: described
+    data_file: "people/pierre_curie.yaml"
     focus: [physics]
 
   - id: jj_thomson
     name: "J. J. Thomson"
-    status: pending
+    status: described
+    data_file: "people/jj_thomson.yaml"
     focus: [physics]
 
   - id: rutherford
     name: "Ernest Rutherford"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/rutherford.yaml"
+    focus: [physics, chemistry]
 
   - id: planck
     name: "Max Planck"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/planck.yaml"
+    focus: [physics, philosophy]
 
   - id: einstein
     name: "Albert Einstein"
-    status: pending
-    focus: [physics]
+    status: described
+    data_file: "people/einstein.yaml"
+    focus: [physics, philosophy]
 
   - id: millikan
     name: "Robert Millikan"
