@@ -1,0 +1,87 @@
+id: laplace
+name: "Pierre-Simon Laplace"
+display_name: "Pierre-Simon Laplace"
+born:
+  date: "1749-03-23"
+  year: 1749
+  precision: day
+died:
+  date: "1827-03-05"
+  year: 1827
+  precision: day
+place_association: "Beaumont-en-Auge; Paryż, Francja"
+fields: [mathematics, analysis, probability, statistics, celestial_mechanics, astronomy, physics, thermodynamics, political_administration]
+image: null
+summary: "Francuski matematyk, astronom i fizyk, jedna z głównych postaci matematycznej nauki przełomu XVIII i XIX wieku. Zbudował monumentalną teorię mechaniki nieba, uporządkował teorię prawdopodobieństwa, rozwijał teorię potencjału i stosował matematykę do astronomii, fizyki, geodezji i statystyki."
+summary_original: "French mathematician, astronomer and physicist, one of the central figures of mathematical science around 1800. He built a monumental theory of celestial mechanics, systematized probability theory, advanced potential theory and applied mathematics to astronomy, physics, geodesy and statistics."
+works:
+  - title: "Przedstawienie systemu świata"
+    original_title: "Exposition du système du monde"
+    year: 1796
+    precision: year
+    type: astronomical_treatise
+  - title: "Mechanika nieba"
+    original_title: "Mécanique céleste"
+    wikipedia: "https://en.wikipedia.org/wiki/M%C3%A9canique_c%C3%A9leste"
+    year: 1799
+    precision: year
+    type: scientific_treatise
+    publication_note: "Pierwszy tom ukazał się w 1799 r.; pięciotomowe dzieło było publikowane do 1825 r."
+    publication_note_original: "The first volume appeared in 1799; the five-volume work continued through 1825."
+  - title: "Analityczna teoria prawdopodobieństwa"
+    original_title: "Théorie analytique des probabilités"
+    year: 1812
+    precision: year
+    type: mathematical_treatise
+  - title: "Filozoficzny esej o prawdopodobieństwie"
+    original_title: "Essai philosophique sur les probabilités"
+    year: 1814
+    precision: year
+    type: philosophy
+ideas:
+  - name: "Mechanika nieba"
+    original_name: "Celestial mechanics"
+    summary: "Laplace ujął problemy ruchu planet, Księżyca i komet w wielki system analizy matematycznej oparty na mechanice Newtona."
+    summary_original: "Laplace organized planetary, lunar and cometary motion into a vast mathematical system based on Newtonian mechanics."
+  - name: "Równanie Laplace’a i teoria potencjału"
+    original_name: "Laplace equation and potential theory"
+    wikipedia: "https://en.wikipedia.org/wiki/Laplace%27s_equation"
+    summary: "Równanie ∇²φ = 0 stało się fundamentalnym równaniem teorii potencjału, elektromagnetyzmu, przepływu ciepła i wielu późniejszych działów fizyki matematycznej."
+    summary_original: "The equation ∇²φ = 0 became fundamental in potential theory, electromagnetism, heat flow and many later areas of mathematical physics."
+  - name: "Prawdopodobieństwo odwrotne i wnioskowanie"
+    original_name: "Inverse probability and inference"
+    summary: "Laplace rozwijał metody wyznaczania prawdopodobieństwa przyczyn na podstawie obserwowanych skutków, stanowiące ważny historyczny etap rozwoju statystyki bayesowskiej."
+    summary_original: "Laplace developed methods for inferring probabilities of causes from observed effects, an important historical stage in Bayesian statistics."
+  - name: "Hipoteza mgławicowa"
+    original_name: "Nebular hypothesis"
+    wikipedia: "https://en.wikipedia.org/wiki/Nebular_hypothesis"
+    summary: "W Exposition du système du monde zaproponował naturalistyczny scenariusz powstania Układu Słonecznego z obracającej się materii gazowej."
+    summary_original: "In the Exposition du système du monde he proposed a naturalistic scenario for the formation of the Solar System from rotating gaseous matter."
+  - name: "Stabilność Układu Słonecznego"
+    original_name: "Stability of the Solar System"
+    summary: "Laplace wykazał, że część obserwowanych nierówności ruchu planet ma charakter okresowy, wzmacniając newtonowski obraz długookresowej stabilności układu."
+    summary_original: "Laplace showed that several observed planetary inequalities are periodic, strengthening the Newtonian picture of long-term system stability."
+events:
+  - year: 1773
+    precision: year
+    title: "Wybór do Académie des Sciences"
+    original_title: "Election to the Académie des Sciences"
+    summary: "Laplace wszedł do najważniejszej francuskiej instytucji naukowej."
+    summary_original: "Laplace entered France's leading scientific institution."
+  - year: 1799
+    precision: year
+    title: "Krótki okres jako minister spraw wewnętrznych"
+    original_title: "Brief term as Minister of the Interior"
+    summary: "Po zamachu 18 brumaire’a Napoleon mianował Laplace’a ministrem spraw wewnętrznych, lecz odwołał go po kilku tygodniach."
+    summary_original: "After the coup of 18 Brumaire Napoleon appointed Laplace Minister of the Interior, but removed him after only a few weeks."
+  - year: 1805
+    precision: approximate
+    title: "Powstanie Société d’Arcueil"
+    original_title: "Formation of the Société d'Arcueil"
+    summary: "Wraz z Bertholletem stworzył wpływowy krąg uczonych promujący matematyczne podejście do fizyki."
+    summary_original: "With Berthollet he created an influential scientific circle promoting a mathematical approach to physics."
+sources:
+  - title: "MacTutor — Pierre-Simon Laplace"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Laplace/"
+  - title: "Wikipedia — Pierre-Simon Laplace"
+    url: "https://en.wikipedia.org/wiki/Pierre-Simon_Laplace"
