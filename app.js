@@ -39,7 +39,7 @@
   let initialized = false;
   let domainAnimationFrame = null;
 
-  const margin = { top: 54, right: 28, bottom: 110, left: 138 };
+  const margin = { top: 54, right: 28, bottom: 135, left: 138 };
   const rowHeight = 86;
 
   const tooltip = document.createElement('div');
@@ -147,14 +147,16 @@
     people = people.filter(p => p && p.id && p.born && p.died);
     people.sort((a,b) => a.born.year - b.born.year);
     els.peopleCount.textContent = `${people.length} osób`;
+    const periodStarts = periods.map(p => Number(p.start_year)).filter(Number.isFinite);
+    const periodEnds = periods.map(p => Number(p.end_year)).filter(Number.isFinite);
     baseDomain = [
-      Math.min(...people.map(p => p.born.year)) - 70,
-      Math.max(...people.map(p => p.died.year)) + 70
+      Math.min(...people.map(p => p.born.year), ...periodStarts) - 40,
+      Math.max(...people.map(p => p.died.year), ...periodEnds) + 20
     ];
     currentDomain = [...baseDomain];
 
-    // A useful first view: Newton, Leibniz, Locke, Voltaire.
-    ['newton','leibniz','locke','voltaire'].forEach(id => {
+    // Start with a compact cross-section of the Scientific Revolution and Enlightenment.
+    ['copernicus','galileo','descartes','newton','leibniz','voltaire'].forEach(id => {
       if (people.some(p => p.id === id)) selected.add(id);
     });
 
@@ -540,7 +542,14 @@
 
   function renderPeriods(root, x, height) {
     const bandTop = height - margin.bottom + 14;
-    const laneY = lane => bandTop + 18 + (Number(lane || 0) * 21);
+    const laneY = lane => bandTop + 24 + (Number(lane || 0) * 23);
+    const trackLabels = [
+      { lane:0, label:'RAMY HISTORYCZNE' },
+      { lane:1, label:'KULTURA / LITERATURA' },
+      { lane:2, label:'IDEE / FILOZOFIA' },
+      { lane:3, label:'NAUKA' }
+    ];
+
     const visible = periods.filter(period => {
       const start = Number(period.start_year);
       const end = Number(period.end_year);
@@ -559,8 +568,16 @@
       .join('text')
       .attr('class','period-band-title')
       .attr('x',16)
-      .attr('y',bandTop + 8)
-      .text('EPOKI · GRANICE UMOWNE');
+      .attr('y',bandTop + 7)
+      .text('EPOKI I NURTY · GRANICE UMOWNE');
+
+    band.selectAll('text.period-track-label')
+      .data(trackLabels, d => d.lane)
+      .join('text')
+      .attr('class','period-track-label')
+      .attr('x',16)
+      .attr('y',d => laneY(d.lane) + 11)
+      .text(d => d.label);
 
     const entries = band.selectAll('g.period-entry')
       .data(visible, d => d.id);
@@ -569,7 +586,7 @@
 
     const enter = entries.enter()
       .append('g')
-      .attr('class', d => `period-entry period-${d.kind || 'movement'}`)
+      .attr('class', d => `period-entry period-${d.kind || 'movement'} track-${d.track || 'other'}`)
       .style('cursor','pointer');
 
     enter.append('rect')
@@ -581,7 +598,7 @@
       .attr('class','period-label');
 
     const merged = enter.merge(entries)
-      .attr('class', d => `period-entry period-${d.kind || 'movement'}`);
+      .attr('class', d => `period-entry period-${d.kind || 'movement'} track-${d.track || 'other'}`);
 
     merged.each(function(d) {
       const start = Math.max(Number(d.start_year), currentDomain[0]);
@@ -596,11 +613,11 @@
         .attr('x',left)
         .attr('y',y)
         .attr('width',width)
-        .attr('height',16);
+        .attr('height',17);
 
       g.select('.period-label')
         .attr('x',left + width/2)
-        .attr('y',y + 11.5)
+        .attr('y',y + 12)
         .attr('text-anchor','middle')
         .text(width >= 58 ? (d.short_label || d.label) : '');
     });
