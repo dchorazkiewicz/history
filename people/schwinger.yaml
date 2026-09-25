@@ -1,0 +1,47 @@
+id: schwinger
+name: "Julian Seymour Schwinger"
+display_name: "Julian Schwinger"
+born:
+  date: "1918-02-12"
+  year: 1918
+  precision: day
+died:
+  date: "1994-07-16"
+  year: 1994
+  precision: day
+place_association: "Nowy Jork; Harvard; Los Angeles"
+fields: [physics, quantum_electrodynamics, quantum_field_theory, particle_physics, mathematical_physics]
+image: null
+summary: "Amerykański fizyk teoretyczny, jeden z głównych twórców renormalizowanej elektrodynamiki kwantowej. Rozwinął niezwykle precyzyjny formalizm operatorowy i obliczył poprawkę do momentu magnetycznego elektronu."
+summary_original: "American theoretical physicist and a principal creator of renormalized quantum electrodynamics. He developed a highly precise operator formalism and calculated the correction to the electron magnetic moment."
+works:
+  - title: "Elektrodynamika kwantowa I"
+    original_title: "Quantum Electrodynamics. I. A Covariant Formulation"
+    year: 1948
+    precision: year
+    type: scientific_treatise
+ideas:
+  - name: "Renormalizowana QED"
+    original_name: "Renormalized quantum electrodynamics"
+    summary: "Schwinger stworzył kowariantny formalizm pozwalający uzyskiwać skończone i zgodne z eksperymentem wyniki."
+    summary_original: "Schwinger created a covariant formalism yielding finite predictions in agreement with experiment."
+  - name: "Anomalny moment magnetyczny elektronu"
+    original_name: "Electron anomalous magnetic moment"
+    summary: "Obliczył pierwszą poprawkę kwantową do współczynnika g elektronu, jeden z pierwszych spektakularnych sukcesów QED."
+    summary_original: "He calculated the first quantum correction to the electron g-factor, an early spectacular success of QED."
+  - name: "Formalizm źródeł"
+    original_name: "Source theory"
+    summary: "W późniejszym okresie Schwinger rozwijał alternatywny formalizm kwantowej teorii pola oparty na źródłach fizycznych."
+    summary_original: "Later Schwinger developed an alternative quantum-field framework based on physical sources."
+events:
+  - year: 1965
+    precision: year
+    title: "Nagroda Nobla w dziedzinie fizyki"
+    original_title: "Nobel Prize in Physics"
+    summary: "Schwinger podzielił nagrodę z Feynmanem i Tomonagą za fundamentalne prace w elektrodynamice kwantowej."
+    summary_original: "Schwinger shared the prize with Feynman and Tomonaga for fundamental work in quantum electrodynamics."
+sources:
+  - title: "Nobel Prize — Julian Schwinger"
+    url: "https://www.nobelprize.org/prizes/physics/1965/schwinger/facts/"
+  - title: "Encyclopaedia Britannica — Julian Schwinger"
+    url: "https://www.britannica.com/biography/Julian-Schwinger"
