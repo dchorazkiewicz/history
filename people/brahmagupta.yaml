@@ -1,0 +1,81 @@
+id: brahmagupta
+name: "Brahmagupta"
+display_name: "Brahmagupta"
+born:
+  year: 598
+  precision: year
+died:
+  year: 670
+  precision: approximate
+  note: "Rok śmierci jest przybliżony."
+  note_original: "The year of death is approximate."
+place_association: "Bhinmal i Ujjain, Indie"
+fields: [mathematics, algebra, number_theory, geometry, astronomy]
+image: null
+summary: "Indyjski matematyk i astronom, jeden z najważniejszych uczonych VII wieku. Rozwinął reguły rachunku z zerem i liczbami ujemnymi, metody rozwiązywania równań kwadratowych i nieoznaczonych, geometrię czworokątów oraz astronomię obliczeniową."
+summary_original: "Indian mathematician and astronom, one of the most important scholars of the seventh century. He developed rules for arithmetic with zero and negative numbers, methods for quadratic and indeterminate equations, geometry of quadrilaterals and computational astronomy."
+works:
+  - title: "Poprawnie ustanowiona doktryna Brahmy"
+    original_title: "Brāhmasphuṭasiddhānta"
+    wikipedia: "https://en.wikipedia.org/wiki/Br%C4%81hmasphu%E1%B9%ADasiddh%C4%81nta"
+    year: 628
+    precision: year
+    type: astronomical_treatise
+    publication_note: "Dwudziestopięcioczęściowy traktat obejmujący astronomię, arytmetykę, algebrę i geometrię."
+    publication_note_original: "A twenty-five chapter treatise covering astronomy, arithmetic, algebra and geometry."
+  - title: "Khandakhadyaka"
+    original_title: "Khaṇḍakhādyaka"
+    year: 665
+    precision: year
+    type: astronomical_treatise
+    publication_note: "Późniejszy traktat astronomiczny z tablicami i metodami obliczeniowymi."
+    publication_note_original: "A later astronomical treatise containing tables and computational methods."
+ideas:
+  - name: "Reguły rachunku z zerem"
+    original_name: "Arithmetic rules for zero"
+    wikipedia: "https://en.wikipedia.org/wiki/Zero"
+    summary: "Brahmagupta podał systematyczne reguły dodawania, odejmowania i mnożenia z zerem. Jego próby opisania dzielenia przez zero nie były poprawne, ale stanowiły ważny etap konceptualizacji zera jako liczby."
+    summary_original: "Brahmagupta gave systematic rules for addition, subtraction and multiplication involving zero. His treatment of division by zero was incorrect, but it was an important stage in conceptualizing zero as a number."
+  - name: "Liczby dodatnie i ujemne jako fortuny i długi"
+    original_name: "Positive and negative numbers as fortunes and debts"
+    summary: "Zapisał jasne reguły działań na liczbach dodatnich i ujemnych, posługując się metaforą fortun i długów."
+    summary_original: "He stated clear rules for operations with positive and negative numbers, using the metaphor of fortunes and debts."
+  - name: "Wzór Brahmagupty"
+    original_name: "Brahmagupta's formula"
+    wikipedia: "https://en.wikipedia.org/wiki/Brahmagupta%27s_formula"
+    summary: "Podał wzór na pole czworokąta wpisanego w okrąg w zależności od długości jego boków."
+    summary_original: "He gave a formula for the area of a cyclic quadrilateral in terms of its side lengths."
+  - name: "Równania kwadratowe i nieoznaczone"
+    original_name: "Quadratic and indeterminate equations"
+    summary: "Rozwijał metody algebraiczne dopuszczające liczby ujemne oraz metody znajdowania całkowitych rozwiązań pewnych równań nieoznaczonych."
+    summary_original: "He developed algebraic methods admitting negative quantities and methods for finding integer solutions to certain indeterminate equations."
+  - name: "Interpolacja w obliczeniach astronomicznych"
+    original_name: "Interpolation in astronomical computation"
+    summary: "W Khandakhadyace stosował formuły interpolacyjne do wyznaczania wartości funkcji trygonometrycznych potrzebnych w astronomii."
+    summary_original: "In the Khandakhadyaka he used interpolation formulas to compute trigonometric values needed in astronomy."
+events:
+  - year: 628
+    precision: year
+    title: "Ukończenie Brahmasphutasiddhanty"
+    original_title: "Completion of the Brahmasphutasiddhanta"
+    summary: "W wieku około 30 lat Brahmagupta ukończył swoje główne dzieło matematyczno-astronomiczne."
+    summary_original: "At about age 30 Brahmagupta completed his principal mathematical-astronomical work."
+  - year: 650
+    precision: approximate
+    title: "Kierowanie obserwatorium w Ujjain"
+    original_title: "Leadership at the Ujjain observatory"
+    summary: "Brahmagupta został związany z Ujjain, jednym z najważniejszych ośrodków matematyki i astronomii w Indiach."
+    summary_original: "Brahmagupta became associated with Ujjain, one of India's leading centers of mathematics and astronomy."
+  - year: 665
+    precision: year
+    title: "Ukończenie Khandakhadyaki"
+    original_title: "Completion of the Khandakhadyaka"
+    summary: "W późnym okresie życia opracował drugi ważny traktat astronomiczno-obliczeniowy."
+    summary_original: "Late in life he completed a second major astronomical and computational treatise."
+sources:
+  - title: "MacTutor — Brahmagupta"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/"
+  - title: "MacTutor — Brahmagupta and influence on Arabia"
+    url: "https://mathshistory.st-andrews.ac.uk/Projects/Pearce/chapter-11/"
+  - title: "MacTutor — history of zero"
+    url: "https://mathshistory.st-andrews.ac.uk/HistTopics/Zero/"
