@@ -1,0 +1,67 @@
+id: viete
+name: "Francois Viete"
+display_name: "François Viète"
+born:
+  year: 1540
+  precision: year
+died:
+  date: "1603-12-13"
+  year: 1603
+  precision: day
+place_association: "Fontenay-le-Comte; Tours; Paryż, Francja"
+fields: [mathematics, algebra, trigonometry, astronomy, law, cryptanalysis]
+image: null
+summary: "Francuski prawnik, urzędnik królewski i matematyk. Wprowadził systematyczną algebrę literową rozróżniającą wielkości znane i niewiadome, tworząc ważny etap przejścia do nowoczesnej symboliki algebraicznej. Zajmował się także trygonometrią, astronomią i łamaniem szyfrów."
+summary_original: "French lawyer, royal official and mathematician. He introduced a systematic literal algebra distinguishing known from unknown quantities, forming an important step toward modern algebraic symbolism. He also worked on trigonometry, astronomy and cryptanalysis."
+works:
+  - title: "Kanon matematyczny"
+    original_title: "Canon mathematicus"
+    year: 1579
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Dzieło trygonometryczne zawierające tablice i metody obliczeniowe."
+    publication_note_original: "A trigonometric work containing tables and computational methods."
+  - title: "Wprowadzenie do sztuki analitycznej"
+    original_title: "In artem analyticam isagoge"
+    year: 1591
+    precision: year
+    type: mathematical_treatise
+    publication_note: "Programowy tekst nowej algebry literowej, którą Viète nazywał logistyką speciosa."
+    publication_note_original: "A programmatic text for a new literal algebra that Viète called logistic speciosa."
+ideas:
+  - name: "Systematyczna algebra literowa"
+    original_name: "Systematic literal algebra"
+    summary: "Viète konsekwentnie używał liter do oznaczania zarówno wielkości znanych, jak i niewiadomych, co pozwalało formułować ogólne relacje algebraiczne."
+    summary_original: "Viète systematically used letters for both known and unknown quantities, allowing general algebraic relations to be formulated."
+  - name: "Analityczna metoda rozwiązywania problemów"
+    original_name: "Analytic method of problem solving"
+    summary: "Rozwijał ideę przechodzenia od problemu geometrycznego lub liczbowego do równania ogólnego, jego przekształcenia, a następnie interpretacji rozwiązania."
+    summary_original: "He developed the idea of translating a geometric or numerical problem into a general equation, transforming it, and then interpreting the solution."
+  - name: "Kryptanaliza państwowa"
+    original_name: "State cryptanalysis"
+    summary: "W służbie Henryka IV łamał skomplikowane szyfry dyplomatyczne Hiszpanii, co miało realne znaczenie polityczne i wojskowe."
+    summary_original: "In Henry IV's service he broke complex Spanish diplomatic ciphers, with real political and military consequences."
+events:
+  - year: 1560
+    precision: year
+    title: "Uzyskanie wykształcenia prawniczego"
+    original_title: "Completion of legal studies"
+    summary: "Viète ukończył prawo w Poitiers i rozpoczął karierę urzędniczą, równolegle rozwijając matematykę."
+    summary_original: "Viète completed legal studies at Poitiers and began a public career while developing mathematics in parallel."
+  - year: 1590
+    precision: approximate
+    title: "Łamanie szyfrów hiszpańskich"
+    original_title: "Breaking Spanish ciphers"
+    summary: "Jako doradca Henryka IV Viète odszyfrowywał przechwycone depesze Hiszpanii podczas wojen religijnych."
+    summary_original: "As an adviser to Henry IV, Viète deciphered intercepted Spanish dispatches during the Wars of Religion."
+  - year: 1591
+    precision: year
+    title: "Publikacja Isagoge"
+    original_title: "Publication of the Isagoge"
+    summary: "Ukazał się tekst, który stał się jednym z kamieni milowych rozwoju symbolicznej algebry."
+    summary_original: "The text appeared that became one of the milestones in the development of symbolic algebra."
+sources:
+  - title: "MacTutor — François Viète"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Viete/"
+  - title: "Wikipedia — François Viète"
+    url: "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Vi%C3%A8te"
