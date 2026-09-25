@@ -1,0 +1,55 @@
+id: kovalevskaya
+name: "Sofia Kovalevskaya"
+display_name: "Sofia Kowalewska"
+born:
+  date: "1850-01-15"
+  year: 1850
+  precision: day
+died:
+  date: "1891-02-10"
+  year: 1891
+  precision: day
+place_association: "Moskwa; Heidelberg; Berlin; Sztokholm"
+fields: [mathematics, differential_equations, analysis, mechanics, education, literature]
+image: null
+summary: "Rosyjska matematyczka, jedna z pierwszych kobiet w Europie, które uzyskały doktorat z matematyki i profesurę uniwersytecką. Wniosła ważny wkład do równań różniczkowych i mechaniki bryły sztywnej, a równolegle pisała prozę i wspomnienia."
+summary_original: "Russian mathematician, one of the first women in Europe to earn a doctorate in mathematics and hold a university professorship. She made major contributions to differential equations and rigid-body mechanics while also writing fiction and memoir."
+works:
+  - title: "O teorii równań różniczkowych cząstkowych"
+    original_title: "Zur Theorie der partiellen Differentialgleichungen"
+    year: 1874
+    precision: year
+    type: mathematical_treatise
+  - title: "O obrocie ciała stałego wokół nieruchomego punktu"
+    original_title: "Sur le problème de la rotation d'un corps solide autour d'un point fixe"
+    year: 1889
+    precision: year
+    type: mathematical_treatise
+ideas:
+  - name: "Twierdzenie Cauchy’ego-Kowalewskiej"
+    original_name: "Cauchy–Kovalevskaya theorem"
+    wikipedia: "https://en.wikipedia.org/wiki/Cauchy%E2%80%93Kovalevskaya_theorem"
+    summary: "Twierdzenie podaje warunki lokalnego istnienia i jednoznaczności analitycznych rozwiązań ważnej klasy równań różniczkowych cząstkowych."
+    summary_original: "The theorem gives local existence and uniqueness conditions for analytic solutions of an important class of partial differential equations."
+  - name: "Przypadek Kowalewskiej w ruchu bryły sztywnej"
+    original_name: "Kovalevskaya top"
+    summary: "Odkryła nowy całkowalny przypadek ruchu ciężkiej bryły sztywnej wokół stałego punktu."
+    summary_original: "She discovered a new integrable case of the motion of a heavy rigid body around a fixed point."
+events:
+  - year: 1874
+    precision: year
+    title: "Doktorat w Getyndze"
+    original_title: "Doctorate at Göttingen"
+    summary: "Uzyskała doktorat na podstawie prac ocenionych przez Weierstrassa."
+    summary_original: "She received a doctorate based on work evaluated by Weierstrass."
+  - year: 1884
+    precision: year
+    title: "Docentura na Uniwersytecie Sztokholmskim"
+    original_title: "Appointment at Stockholm University College"
+    summary: "Rozpoczęła karierę akademicką w Sztokholmie, a później została profesorem."
+    summary_original: "She began an academic career in Stockholm and later became professor."
+sources:
+  - title: "MacTutor — Sofia Kovalevskaya"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Kovalevskaya/"
+  - title: "Wikipedia — Sofia Kovalevskaya"
+    url: "https://en.wikipedia.org/wiki/Sofya_Kovalevskaya"
