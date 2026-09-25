@@ -1,0 +1,59 @@
+id: gowers
+name: "William Timothy Gowers"
+display_name: "Timothy Gowers"
+born:
+  date: "1963-11-20"
+  year: 1963
+  precision: day
+died: null
+place_association: "Marlborough; Cambridge; Londyn"
+fields: [mathematics, functional_analysis, combinatorics, additive_combinatorics, ramsey_theory, education, scientific_collaboration]
+image: null
+summary: "Brytyjski matematyk, który połączył analizę funkcjonalną z kombinatoryką i rozwiązał szereg długo otwartych problemów o przestrzeniach Banacha. Później wniósł ważny wkład do kombinatoryki addytywnej i zainicjował projekty Polymath — otwartą współpracę matematyczną online."
+summary_original: "British mathematician who combined functional analysis with combinatorics and solved several long-standing problems on Banach spaces. He later made major contributions to additive combinatorics and initiated the Polymath projects for open online mathematical collaboration."
+works:
+  - title: "Nowy dowód twierdzenia Szemerédiego"
+    original_title: "A new proof of Szemerédi's theorem"
+    year: 2001
+    precision: year
+    type: mathematical_essay
+  - title: "Princeton Companion to Mathematics"
+    original_title: "The Princeton Companion to Mathematics"
+    year: 2008
+    precision: year
+    type: reference_work
+    publication_note: "Gowers był redaktorem głównym wielkiego kompendium współczesnej matematyki."
+    publication_note_original: "Gowers served as editor of the major compendium of modern mathematics."
+ideas:
+  - name: "Dychotomia Gowersa"
+    original_name: "Gowers dichotomy"
+    summary: "Gowers odkrył głęboką alternatywę strukturalną dla nieskończeniewymiarowych przestrzeni Banacha, wykorzystując idee teorii Ramseya."
+    summary_original: "Gowers discovered a deep structural dichotomy for infinite-dimensional Banach spaces using Ramsey-theoretic ideas."
+  - name: "Normy Gowersa"
+    original_name: "Gowers uniformity norms"
+    wikipedia: "https://en.wikipedia.org/wiki/Gowers_norm"
+    summary: "Normy mierzą wyższy stopień pseudolosowości funkcji i stały się podstawowym narzędziem kombinatoryki addytywnej."
+    summary_original: "The norms measure higher-order pseudorandomness and became basic tools in additive combinatorics."
+  - name: "Polymath"
+    original_name: "Polymath Project"
+    wikipedia: "https://en.wikipedia.org/wiki/Polymath_Project"
+    summary: "Gowers zaproponował prowadzenie otwartej współpracy matematycznej na blogach i wiki, co doprowadziło do rzeczywistych wspólnych dowodów."
+    summary_original: "Gowers proposed open mathematical collaboration through blogs and wikis, leading to genuine collective proofs."
+events:
+  - year: 1998
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Otrzymał Medal Fieldsa za przełomowe prace w analizie funkcjonalnej i kombinatoryce."
+    summary_original: "He received the Fields Medal for breakthrough work in functional analysis and combinatorics."
+  - year: 2009
+    precision: year
+    title: "Pierwszy projekt Polymath"
+    original_title: "First Polymath project"
+    summary: "Publiczna współpraca online nad twierdzeniem density Hales-Jewett stała się eksperymentem w nowym modelu tworzenia matematyki."
+    summary_original: "Open online collaboration on the density Hales-Jewett theorem became an experiment in a new model of doing mathematics."
+sources:
+  - title: "MacTutor — Timothy Gowers"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Gowers/"
+  - title: "Wikipedia — Timothy Gowers"
+    url: "https://en.wikipedia.org/wiki/Timothy_Gowers"
