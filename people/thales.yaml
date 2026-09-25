@@ -1,0 +1,41 @@
+id: thales
+name: "Thales of Miletus"
+display_name: "Tales z Miletu"
+born:
+  year: -624
+  precision: approximate
+  note: "Data przybliżona; chronologia życia Talesa jest rekonstruowana z późniejszych źródeł."
+  note_original: "Approximate date; Thales's chronology is reconstructed from later sources."
+died:
+  year: -546
+  precision: approximate
+  note: "Data przybliżona; w źródłach spotyka się nieco różne datowania."
+  note_original: "Approximate date; sources give somewhat different chronologies."
+place_association: "Milet, Jonia, Azja Mniejsza"
+fields: [mathematics, philosophy, astronomy]
+image: null
+summary: "Jeden z najwcześniejszych znanych greckich matematyków i filozofów przyrody. Późniejsza tradycja przypisywała mu kilka podstawowych twierdzeń geometrycznych oraz wprowadzenie do Grecji bardziej systematycznego sposobu rozumowania geometrycznego, ale żadne jego własne pismo się nie zachowało."
+summary_original: "One of the earliest known Greek mathematicians and natural philosophers. Later tradition credited him with several elementary geometric theorems and with introducing more systematic geometric reasoning to Greece, but no writing of his survives."
+works: []
+ideas:
+  - name: "Wczesna geometria dedukcyjna"
+    original_name: "Early deductive geometry"
+    summary: "Tradycja starożytna wiąże Talesa z przejściem od praktycznych reguł pomiarowych do formułowania ogólnych twierdzeń geometrycznych. Dokładny zakres jego własnych osiągnięć pozostaje niepewny."
+    summary_original: "Ancient tradition associates Thales with a move from practical rules of measurement toward general geometric propositions; the exact extent of his own work remains uncertain."
+  - name: "Twierdzenia przypisywane Talesowi"
+    original_name: "Geometric theorems attributed to Thales"
+    wikipedia: "https://en.wikipedia.org/wiki/Thales%27s_theorem"
+    summary: "Późniejsze źródła przypisują mu kilka twierdzeń o okręgach, kątach i podobieństwie figur. Atrybucje te są ważne historycznie, ale nie zawsze można je pewnie oddzielić od późniejszej tradycji."
+    summary_original: "Later sources attribute to him several theorems about circles, angles and similarity; these attributions are historically important but not always secure."
+events:
+  - year: -585
+    precision: approximate
+    title: "Zaćmienie kojarzone z Talesem"
+    original_title: "Eclipse associated with Thales"
+    summary: "Herodot przypisywał Talesowi przewidzenie zaćmienia Słońca związanego z bitwą nad rzeką Halys. To, jak i czy mógł je przewidzieć, pozostaje przedmiotem dyskusji historyków nauki."
+    summary_original: "Herodotus credited Thales with predicting the solar eclipse associated with the Battle of the Halys; how, or whether, he could have predicted it remains debated."
+sources:
+  - title: "MacTutor — Thales of Miletus"
+    url: "https://mathshistory.st-andrews.ac.uk/Biographies/Thales/"
+  - title: "Wikipedia — Thales of Miletus"
+    url: "https://en.wikipedia.org/wiki/Thales_of_Miletus"
