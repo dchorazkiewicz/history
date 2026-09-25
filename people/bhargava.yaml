@@ -1,0 +1,48 @@
+id: bhargava
+name: "Manjul Bhargava"
+display_name: "Manjul Bhargava"
+born:
+  year: 1974
+  precision: year
+died: null
+place_association: "Hamilton, Ontario; Princeton"
+fields: [mathematics, number_theory, arithmetic_statistics, geometry_of_numbers, elliptic_curves]
+image: null
+summary: "Kanadyjsko-amerykański matematyk znany z nowych praw kompozycji inspirowanych Gaussem oraz z zastosowań geometrii liczb do liczenia struktur algebraicznych i badania statystyki krzywych eliptycznych."
+summary_original: "Canadian-American mathematician known for new composition laws inspired by Gauss and for applications of the geometry of numbers to counting algebraic structures and studying the statistics of elliptic curves."
+works:
+  - title: "Wyższe prawa kompozycji I"
+    original_title: "Higher Composition Laws I"
+    year: 2004
+    precision: year
+    type: mathematical_essay
+  - title: "Formy binarne czwartego stopnia i średnia ranga krzywych eliptycznych"
+    original_title: "Binary quartic forms having bounded invariants, and the boundedness of the average rank of elliptic curves"
+    year: 2015
+    precision: year
+    type: mathematical_essay
+ideas:
+  - name: "Wyższe prawa kompozycji"
+    original_name: "Higher composition laws"
+    summary: "Bhargava odkrył nowe struktury kompozycji uogólniające klasyczne prawo kompozycji form kwadratowych Gaussa."
+    summary_original: "Bhargava discovered new composition structures generalizing Gauss's classical composition of binary quadratic forms."
+  - name: "Geometria liczb w arytmetyce"
+    original_name: "Geometry of numbers in arithmetic statistics"
+    summary: "Rozwinął metody liczenia pierścieni, ciał i orbit algebraicznych za pomocą obszarów fundamentalnych i geometrii krat."
+    summary_original: "He developed methods for counting rings, fields and algebraic orbits using fundamental domains and lattice geometry."
+  - name: "Statystyka rang krzywych eliptycznych"
+    original_name: "Statistics of elliptic-curve ranks"
+    summary: "Wspólnie z Arulem Shankarem uzyskał przełomowe ograniczenia średnich rang rodzin krzywych eliptycznych."
+    summary_original: "With Arul Shankar he obtained breakthrough bounds on average ranks in families of elliptic curves."
+events:
+  - year: 2014
+    precision: year
+    title: "Medal Fieldsa"
+    original_title: "Fields Medal"
+    summary: "Bhargava został wyróżniony za nowe metody geometrii liczb i ich zastosowania do pierścieni oraz krzywych eliptycznych."
+    summary_original: "Bhargava received the Fields Medal for new methods in geometry of numbers and applications to rings and elliptic curves."
+sources:
+  - title: "International Mathematical Union — Fields Medal 2014"
+    url: "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2014"
+  - title: "Wikipedia — Manjul Bhargava"
+    url: "https://en.wikipedia.org/wiki/Manjul_Bhargava"
