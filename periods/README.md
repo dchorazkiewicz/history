@@ -13,3 +13,10 @@ Dane w tym katalogu są niezależne od osób.
 - `kind: macro` oznacza szeroką ramę chronologiczną.
 - `kind: movement` oznacza ruch kulturowy, naukowy lub intelektualny.
 - W przyszłości można dodać okresy regionalne, np. polski romantyzm, polski pozytywizm czy Młodą Polskę.
+
+
+## Gęstość osi
+
+Puste miejsce na torze nie oznacza, że „nic wtedy nie istniało”. Tory przedstawiają wybrane, nazwane nurty o znaczeniu historycznym, a nie jedną ciągłą i wyczerpującą periodyzację.
+
+Dla kultury, sztuki i literatury stosujemy kilka równoległych rzędów, ponieważ nurty takie jak barok, rokoko, neoklasycyzm, romantyzm, realizm, naturalizm i modernizm częściowo się nakładają. To nakładanie jest cechą modelu, a nie błędem.
